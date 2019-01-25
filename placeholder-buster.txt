@@ -1,0 +1,289 @@
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# Title: Nano Contrib Filter - Placeholder Buster
+# Expires: 5 days
+# Homepage: https://github.com/NanoAdblockerLab/NanoContrib
+# Description: Removes empty ads placeholders
+
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# Multilingual
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592268
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/9#issuecomment-455806136
+pixiv.net##._2vNejsc
+pixiv.net##.ads-top-info
+pixiv.net##.sc-gMcBNU
+pixiv.net##div:nth-of-type(2) > ._3jgsYyw
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/3#issuecomment-450736303
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149638
+reddit.com##div.fePAzF:has(div[id^="sidebar-"])
+reddit.com###overlay-comment-atf
+
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# Dhivehi
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608678
+avas.mv###app > .bg-white
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608682
+sun.mv##.component-sponsor:has(div > :not([src*="hotline.png"]))
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608692
+dhuvas.mv##.vc_column-inner:has(img[alt="lifeside"])
+dhuvas.mv##.vc_column-inner:has(img[alt="muniad"])
+dhuvas.mv##.vc_column-inner:has(img[alt="sportsad"])
+
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# English
+
+# https://github.com/jspenguin2017/uBlockProtector/issues/835
+link.tl##.jetborsa-banner
+link.tl##.mobsplOverlay
+link.tl##.mobsplBox
+
+# https://github.com/NanoMeow/QuickReports/issues/18
+games2jolly.com###leaderboard_area
+games2jolly.com###leaderboard_area_home
+games2jolly.com##.ads_310_610_sidebar_new
+games2jolly.com##.game_play > div:nth-of-type(1)
+
+# https://github.com/NanoMeow/QuickReports/issues/58
+streamhentaimovies.com##.popmake-overlay
+
+# https://github.com/NanoMeow/QuickReports/issues/156
+cryptomininggame.com###sticky_bot_right
+cryptomininggame.com##a[href^="https://coinad.com/?a=Buy"]
+cryptomininggame.com##.row:has(:scope > .col-md-4 > .text-center > ins[class^="bmadblock-"])
+cryptomininggame.com##.panel-success:has(:scope > header > h2:has-text(Advertisements))
+cryptomininggame.com##.panel-warning:has(:scope > header > h2:has-text(Advertisements))
+
+# https://github.com/NanoMeow/QuickReports/issues/189
+foodnetwork.com##body:style(margin-top: 0px !important;)
+
+# https://github.com/NanoMeow/QuickReports/issues/216
+rockpapershotgun.com##.leaderboards
+rockpapershotgun.com##.mpu.collapsible:has(:scope > p:has-text(Advertisement))
+
+# https://github.com/NanoMeow/QuickReports/issues/218
+cloudncode.blog##.wpcnt
+
+# https://github.com/NanoMeow/QuickReports/issues/434
+linux.org##.sectionMain.funbox:has(ins.adsbygoogle)
+linux.org##div:has(:scope > ins.adsbygoogle)
+
+# https://github.com/NanoMeow/QuickReports/issues/447
+whoiscute.com##.tl-states-root
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592241
+avsforum.com##.large-4.medium-6.small-12:has([class=ad-wrapper])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592242
+gadgethacks.com##.whtaph-floatbox
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592252
+tomshardware.*##.p-u-md-1-3.p-u-1:has(div[class*="block-ads"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592293
+issuu.com##div[class*="adPlacementContainer"]
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592296
+fileinfo.com##.linkAds
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592297
+investopedia.com###partnerlinks_1-0
+investopedia.com##.right-rail--ad-container
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592305
+lame.buanzo.org###ads
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592315
+tvtropes.org##.sb-ad-unit
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592323
+picktorrent.com##.aBut > .no2ref
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/1#issuecomment-450592327
+yeggi.com##.adbttm_right_300
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608673
+thehungersite.greatergood.com##.ctg-ad
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608696
+knowyourmeme.com##.combo-right
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608704
+fourfourtwo.com###leaderboard
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608707
+filehorse.com##.dx-sb-1
+filehorse.com##.dx-pr-1
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608728
+color-hex.com###addivider
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608733
+healthline.com##aside:has(div[data-ad="true"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608748
+gamespot.com##div[x-enc="id class"]:has(div > div[data-ad-type])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608757
+avclub.com,gizmodo.com,deadspin.com,jalopnik.com,kotaku.com,lifehacker.com##.contained-ad-container
+splinternews.com,thetakeout.com,theroot.com,theonion.com,theinventory.com##.contained-ad-container
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608760
+thedroidguy.com###secondary
+thedroidguy.com##.g1-collection-item:has(div[class^="g1-advertisement"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608764
+writerscafe.org###header_pay
+writerscafe.org##div.box:has(div[class*="pay-provider-google"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/2#issuecomment-450608769
+mashable.com###pathing-banner
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/3#issuecomment-450736294
+supercheats.com##div[id^="bottom_ad_"]
+supercheats.com##.cboth_sm
+supercheats.com##.page_right > div.cboth:nth-of-type(3)
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/3#issuecomment-450736305
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/9#issuecomment-455806100
+sourceforge.net##.l-gutter
+sourceforge.net##.main-content > section.sterling
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/3#issuecomment-450736308
+smallbusiness.chron.com##.leaderboard
+smallbusiness.chron.com###top-300
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/4#issuecomment-451672325
+knowyourmeme.com##.content-unit-refresh-wrapper
+knowyourmeme.com##.complex-ad-wrapper
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/4#issuecomment-451672357
+time.com##.rundown-sidebar
+time.com##.padded-mobile.bottom-recirc
+||time.com/kismet/spacer.png$image
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149121
+mywindowshub.com##.td-pb-span12.tdc-column.vc_column_container:has(ins[class="adsbygoogle"])
+mywindowshub.com##.textwidget:has(script[src*="adsbygoogle.js"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149338
+download3k.com##p:has(script[src*="adsbygoogle.js"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149362
+pureinfotech.com##.code-block:has(script[src*="adsbygoogle.js"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149383
+windows101tricks.com##.single-post-content.clearfix.entry-content > div:has(script[src*="adsbygoogle.js"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149418
+itpro.co.uk##.block-dfp
+itpro.co.uk###dfp-ad-lead_gen_native_slot
+itpro.co.uk##.lazyadslot
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149686
+thedrum.com##.nocontent.footer__more
+thedrum.com##.outbrain
+thedrum.com##.advert--wallpaper
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149710
+experts-exchange.com##.adBanner-comment
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149725
+online-convert.com##.flex_banner_bottom
+online-convert.com##div[class^="banner_"]:has(ins[class="adsbygoogle"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149735
+mariowiki.com,ssbwiki.com###mw-content-text > table > tbody > tr > td:has-text(Ads keep):has-text(independent and free :)
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/6#issuecomment-452931469
+onmsft.com##.text-center.article-img
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/6#issuecomment-452931482
+mcpmag.com##.xContent
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/6#issuecomment-452931513
+tekrevue.com##.widget_text.widget
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/6#issuecomment-452931615
+techcrunch.com##.sidebar--main
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/6#issuecomment-452931644
+imore.com##div.sidebar__section
+imore.com##.sidebar
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/7#issuecomment-453868145
+runt-of-the-web.com##.leaderboard
+runt-of-the-web.com##.pbh_inline
+runt-of-the-web.com##.mrec
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/7#issuecomment-453868153
+accountkiller.com##.section_box[style="background-color: rgb(102, 181, 255);"]
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454619974
+forums.whirlpool.net.au##div.reply-archived.reply:has(ins[class="adsbygoogle"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454619995
+kb6nu.com##.textwidget:has(div[id^="div-gpt-ad-"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454620015
+berkshireeagle.com##.pk-landing-default > div.container > .noear.default.pk-layer:has(.margins > .row > .pk-section.section-6col > .section-margins > .box > .text-center)
+berkshireeagle.com##div.text-center.credits.col-md-3.hidden-xs
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454620032
+technorms.com##.td-header-header
+technorms.com##.td-container > div.td-pb-row > .td-pb-span12
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454619895
+gadgethacks.com##.whtaph
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454619946
+wonderhowto.com##.whtaph-floatbox
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454619924
+reality.news##.whtaph
+reality.news##.whtaph-floatbox
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454620247
+alcpu.com###topbarad
+alcpu.com###navlinkad
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/9#issuecomment-455806107
+borncity.com##.code-block
+
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# English NSFW
+
+# https://github.com/NanoMeow/QuickReports/issues/489
+yespornplease.com##.well:has(:scope > center > iframe[src^="https://a.adtng.com/get/"])
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/8#issuecomment-454620635
+motherless.com###main > .text-center:has(div[id^="ad-footer-"])
+motherless.com##.text-right.col-lg-4.col-xs-12.col-sm-12.view-right > div:nth-of-type(1)
+
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# Italian
+
+# https://github.com/NanoAdblockerLab/NanoContrib/pull/5#issuecomment-452149803
+excite.it##.cLeft.alpha.g_3
+
+# -------------------------------------------------------------------------------------------------------------------- #
+
+# Portuguese
+
+# https://github.com/jspenguin2017/uBlockProtector/issues/843
+# https://github.com/jspenguin2017/uBlockProtector/issues/869
+jn.pt,tsf.pt##.t-pubbox-inner
+
+# https://github.com/jspenguin2017/uBlockProtector/issues/848
+dn.pt##.t-pub-inner
+
+# -------------------------------------------------------------------------------------------------------------------- #

@@ -1,0 +1,48 @@
+[Adblock Plus 2.0]
+! Title: Acceptable Ads
+! Expires: 7 days
+! Version: 1.0.0
+
+@@||carbonads.com
+@@||carbonads.net
+@@||buysellads.com
+@@||servedby-buysellads.com
+@@||beaconads.com
+#@#a[href^="//srv.buysellads.com/"]
+@@||doubleclick.net/ddm$popup
+@@||doubleclick.net/ddm
+@@||shareasale.com
+@@||adzerk.net
+@@||zkcdn.net
+
+@@||crbsrv.jsfiddle.net/ads/
+ecosia.org#@#.results-ads
+ecosia.org#@#.card-ad
+ecosia.org#@#.js-ad
+ecosia.org##.js-funnel-whitelistbox
+duckduckgo.com#@##ads
+duckduckgo.com#@#.has-ad
+duckduckgo.com#@#.result--ad > .result__body
+@@||readthedocs.org*/sustainability
+readthedocs.io#@#.ethical-rtd
+reddit.com#@#.promotedlink
+reddit.com#@##siteTable_organic
+reddit.com#@#.promoted
+quora.com#@#.content_box:if(a:has-text(ad))
+quora.com#@#.content_box:if(a:has-text(promoted))
+quora.com#@#.content_box:if(div[class*="advertiser"])
+quora.com#@#a[href^="https://ad.doubleclick.net/"]
+quora.com#@#.text-ad
+quora.com#@#.text-ad-links
+quora.com#@#.text-ads
+quora.com#@#.textAd
+quora.com#@#.text_ad
+quora.com#@#.text_ads
+@@^utm_source=quora^$popup,domain=quora.com
+@@||quora.com/_/$popup,domain=quora.com
+quora.com#@#.question_page_content:if(div:has-text(ad))
+quora.com#@#.question_page_content:if(div:has-text(promoted)) 
+dribbble.com#@#.ad
+mail.google.com#@#.aeF > .nH > .nH[role="main"] > .aKB
+mail.google.com#@#a[href^="https://www.googleadservices.com/pagead/aclk?"]
+@@||googleadservices.com/pagead/aclk

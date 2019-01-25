@@ -1,0 +1,74 @@
+[Adblock Plus 2.0]
+! Title: 🧹 Even cleaner news sites
+! Expires: 12 hours
+! Homepage: https://crapblock.theel0ja.info/
+!
+! Removes "Related", "Read next" etc. bloat from news sites
+
+! mtvuutiset.fi
+www.mtvuutiset.fi##.read-more-link-on-desktop.read-more-desktop.leiki-news-feed.component.news-feed
+www.mtvuutiset.fi##.stickyWrapper
+www.mtvuutiset.fi###fullWidthBottom
+www.mtvuutiset.fi##.latest-listing-time-first
+www.mtvuutiset.fi##.pollo-logo
+www.mtvuutiset.fi##.show-forward-arrow.topics-menu-taglist-container
+www.mtvuutiset.fi##.component-leiki.component
+www.mtvuutiset.fi##.article-tags
+www.mtvuutiset.fi##.navigation-toggles
+www.mtvuutiset.fi##.site-footer-mtvuutiset.site-footer.component
+
+! www.ibtimes.co.uk
+! Sidebar with videos, "Read next" etc. useless crap
+www.ibtimes.co.uk##.hidden-print.side-contents.card
+
+! is.fi
+is.fi/rest/pe/alsoreadthese/
+www.is.fi##.header-aside-bar
+www.is.fi##.main-footer
+
+! metro.co.uk
+metro.co.uk##.widget.just-in-container.trending-sidebar
+metro.co.uk##.widget.trending-main
+metro.co.uk###widget-area-article-below-bottom-share
+metro.co.uk##.widget.trending-main
+metro.co.uk##.widget.metro-breaker
+metro.co.uk##.widget-area.more-content
+metro.co.uk##.feed.metro-spinner
+metro.co.uk###page-bottom
+metro.co.uk##.metro-sassy-poll
+metro.co.uk##.mobile-nav-trending
+metro.co.uk###comment-show
+metro.co.uk###fb-comments-area
+metro.co.uk##.met-breadcrumb
+
+! wisegeek.com
+www.wisegeek.com##.slideshowsBlock.standartBlock
+www.wisegeek.com###quizgeek-game
+
+! nypost.com
+nypost.com##.read-next-wrapper
+nypost.com##.widget-more-stories
+nypost.com##.right-column.sidebar
+nypost.com###page-footer
+nypost.com###newscorp-footer
+
+! verkkouutiset.fi
+www.verkkouutiset.fi##article.exclusive.featured-post:has-text(Tule töihin Verkkouutisiin!)
+
+! yle.fi
+yle.fi###yle-comments-plugin
+
+! thesun.co.uk
+www.thesun.co.uk###sidebar
+www.thesun.co.uk##.rail--trending
+www.thesun.co.uk##footer
+
+! mashable.com
+mashable.com##.bonus-video-card
+mashable.com###site-footer
+
+! buzzfeednews.com
+www.buzzfeednews.com##.newsblock-support-cta--bottom.newsblock-support-cta
+www.buzzfeednews.com##.comments-facebook
+www.buzzfeednews.com##.bottom-recirc-lists
+www.buzzfeednews.com###mod-feedgrid-1

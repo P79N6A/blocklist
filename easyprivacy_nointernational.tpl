@@ -1,0 +1,13320 @@
+msFilterList
+# Title: EasyPrivacy without international filters
+# Last modified: 25 Jan 2019 08:22 UTC
+: Expires=4
+# Homepage: https://easylist.to/
+# Licence: https://easylist.to/pages/licence.html
+#
+# Please report any unblocked tracking or problems
+# in the forums (https://forums.lanik.us/)
+# or via e-mail (easylist.subscription@gmail.com).
+#
+#-----------------General tracking systems-----------------#
+# *** easylist:easyprivacy/easyprivacy_general.txt ***
+- &action=js_stats&
+- &callback=hitStats_
+- &ctxId=*&pubId=*&clientDT=
+- &ctxId=*&pubId=*&objId=
+- &event=view&
+- &funnel_state=
+- &http_referer=*.js
+- &pageReferrer=
+- &ref=*&tag=
+- &refer=http*.js
+- &refererPageDetail=
+- &trackingserver=
+- -action/fingerprint?
+- -action/ping?
+- -ads-tracking-
+- -AdTracking.
+- -analitycs//fab.
+- -analitycs//ga.
+- -analitycs//metrica.
+- -analitycs/fab.
+- -analitycs/ga.
+- -analitycs/metrica.
+- -analytics-tagserver-
+- -analytics-wi.
+- -analytics/analytics.
+- -analytics/insight.
+- -appanalytics-
+- -asset-tag.
+- -audience-science-pixel/
+- -baynote.
+- -bluekai.
+- -boomerang_
+- -ClickTale.
+- -comscore.
+- -conversion-tracking-
+- -criteo.
+- -datacollection.
+- -dspcookiematching.
+- -dtaectolog-
+- -event-tracking.
+- -ga-track.
+- -gatracker.
+- -geoIP.js
+- -google-analytics-
+- -google-analytics.
+- -google-analytics/
+- -google-tag-manager/*.js
+- -imppix/
+- -javascript_xiti_
+- -log?referUrl=
+- -logging/log?
+- -mastertag.
+- -mediaplex_
+- -optimost-
+- -page-analytics.
+- -pixelfront-analytics.
+- -rttracking.
+- -sa-tracker-
+- -sc-analytics.
+- -scroll-tracker.js
+- -seo-tracker.
+- -social-tracking.
+- -stat/collect/
+- -stat?callback=
+- -stats/fab.
+- -stats/ga.
+- -stats/imr.
+- -stats/metrica.
+- -track-ati.
+- -tracker-geoip.
+- -tracking-pixel.
+- -tracking.gtm.
+- -tracking.js?
+- -tracking/ga-
+- -tracking?referrer=
+- -trackingScript.
+- -xtcore.js
+- .AdmPixelsCacheController?
+- .analysis.pv.
+- .analytics.min.
+- .asis?Log=
+# .asp?t=*&c=$image
+- .aspx?trackid=
+- .au/c.gif?
+- .au/t.ashx?
+- .be/uts/
+- .beacon.min.js
+- .bmp?*&referrer=
+- .cc/s.gif?
+- .click/track?
+- .cn/0.gif?
+- .cn/1.gif?
+- .cn/2.gif?
+- .cn/a.gif?
+- .cn/b.gif?
+- .cn/jc.gif?
+- .cn/pv.gif?
+- .cn/r.gif?
+- .cn/s.gif?
+- .cn/sl.gif?
+- .cn/z.gif?
+- .co/e.gif?
+- .com.au/HG?hc=
+- .com.com/redir?timestamp
+- .com/0.gif?
+- .com/1.gif?
+- .com/2.gif?
+- .com/3.gif?
+# .com/?epl=$image,script
+- .com/?livehit
+- .com/_.gif?
+- .com/__kl.gif?
+- .com/a.gif?
+- .com/analytics.js?_t=*.js
+- .com/analytics?
+- .com/b.gif?
+- .com/blank.aspx?
+- .com/c.gif?
+- .com/clk?
+- .com/cm?ci=
+- .com/cm?tid
+- .com/counter?
+- .com/dc.gif?
+- .com/e.gif?
+- .com/f.gif?
+- .com/g.gif?
+- .com/ga-*.js
+- .com/ga.js;
+- .com/ga.js?
+- .com/geo_ip
+- .com/HG?
+- .com/hitlog?
+- .com/i.gif?
+- .com/js/ga-*.js
+- .com/js/ga.js
+- .com/log/?
+- .com/log?event
+- .com/log?srvc
+- .com/log?type
+- .com/mm.gif?
+- .com/o.gif?
+- .com/p.gif?
+- .com/pagelogger/
+- .com/pv.gif?
+- .com/pvlog?
+- .com/px.js?
+- .com/r.gif?
+- .com/s.gif?
+- .com/s/at?site
+- .com/ss/*sessionId=
+- .com/stats.ashx?
+- .com/stats.aspx?
+- .com/tp.php?
+# .com/track?$~object
+- .com/tracker.jsp
+- .com/tracking?
+- .com/traffic/?t=*&cb=
+- .com/u.gif?
+- .com/v.gif?
+- .com/vanity/?
+- .com/vtrack
+- .com/w.gif?
+- .com/www.gif?
+- .com/x.gif?
+- .com/x0.gif?
+- .com/z.gif?
+- .composeTrack.htm
+- .core.tracking-min-
+- .de/e.gif?
+- .de/h.gif?
+- .de/l.gif?
+- .de/o.gif?
+- .do_tracking&
+- .drive-analytics.
+- .eloqua.js
+- .emsecure.min.js
+- .EventTracking.
+- .EventTrackingPlugins.
+- .fr/z.gif?
+- .gatracker.
+- .gatracking.js
+- .gif?*&url=*&banners=
+- .gif?ad=
+- .gif?event=
+- .gif?hit_
+# .gif?Log=$~xmlhttprequest
+- .gif?page_refer_
+- .gif?pixels=
+- .gif?pixelToken=
+- .gif?ref=*&ev=
+- .gif?track_
+- .gif?uri=
+- .Google.Tracker.js
+- .googleanalytics.js
+- .GoogleAnalytics/
+- .gov/stat?
+- .htm?imprId=
+- .html?wpl=
+- .idge/js/analytics/
+- .iframetracker/
+- .in/c.gif?
+- .io/0.gif?
+- .io/track?
+- .io/w.gif?
+- .it/s.gif?
+- .jp/pv?
+- .js?referer=
+- .jsp/?Log=
+- .lms-analytics/
+- .me/geoip/
+- .me/l.gif?
+- .net/0.gif?
+- .net/c.gif?
+- .net/e.gif?
+- .net/HG?hc=&hb=
+- .net/i.gif?
+- .net/l.gif?
+- .net/p.gif?
+- .net/ping.php?
+- .net/px.js?
+- .net/s.gif?
+- .net/tp.gif?
+- .net/trck/
+- .net/vtrack
+- .net/z.gif?
+- .ntpagetag.
+- .org/?js
+- .org/js/ga-
+- .ovh/presbyters.js
+- .PageHitServlet?
+- .pageVisitCounter_
+- .php?action=browse&
+- .php?action_name=
+- .php?logRefer=
+- .php?logType=
+- .php?p=stats&
+- .php?ping=
+- .php?refcode=
+- .php?self=
+- .php?tracking=
+- .pixel?*&event_
+- .pixel?record_
+- .PixelNedstatStatistic/
+- .pl?trans.gif&ref=
+- .png?cpn=
+- .pt/n.gif?
+- .ro/c.gif?
+- .ru/0.gif?
+- .sharecounter.
+- .sitecatalyst.js
+- .siteclarity.
+- .sitetracking.
+- .skimlinks.js
+# .snowplowanalytics.$domain=~snowplowanalytics.com
+- .social_tracking.
+- .statData-eup.
+- .stats?action=
+- .to/vtrack
+- .track.actions.get?
+- .track_Visit?
+- .trackArticleAction&
+- .tracking.js?dpv=
+- .trackUserAction&
+- .trafficTracking.
+- .tstracker.
+- .tv/log?event
+- .tv/t.png?
+- .uk/o.gif?
+- .uk/pv?
+- .uk/track?
+- .uk/traffic/?
+- .usertracking_script.js
+- .vn/0.gif?
+- .vsTracking.
+- .webmetrics.js
+- .webstats.
+- /!crd_prm!.
+# //feedproxy.*/~r/*$image
+- /0.png?ver=
+- /0pixel.php?
+- /1.gif?n=
+- /1px.gif?
+- /1px.php?
+- /1x1.a?
+- /1x1.dyn?
+- /1x1.gif?
+- /1x1.png?
+- /1x1_akamai.gif
+- /1x1_imp.gif?
+- /1x1p.gif?
+- /1x1tracker.
+- /247px.js
+# /2x2.gif?$image
+- /3rd-party-stats/
+- /4399stat.js
+- /?&cs=*&pid=*&tid=
+# /?&pid=*&subid=$image
+# /?&subid=*&pid=$image
+- /?com=visit*=record&
+# /?dm=*&blogid=$script,domain=~wordpress.org
+- /?essb_counter_
+- /?livehit=
+- /?mob.ct=
+- /?record&key=
+- /__analytics/
+- /__dam.gif?
+- /__ssobj/core.js
+# /__ssobj/sync?$image
+- /__sttm.gif?
+- /__tm3k.gif?
+- /__ub.gif?
+- /__utm.gif
+- /__utm.js
+- /__varnish_geoip
+- /__wsm.gif
+- /_bm/abd-
+- /_bm/bd-
+- /_dts.gif?
+- /_lib/ga.js
+- /_owa.gif?
+- /_t.gif?url=
+- /_topic_stats?
+- /_tracking/
+- /A-LogAnalyzer/
+- /a-stat.
+- /a.gif?uuid
+- /a.logrequest.yolx?
+- /a.php?ref=
+- /a/analytics/
+- /aa.php?anuid=
+- /ablank.gif?
+- /abp-analytics.
+- /abppx-*.gif?
+- /aby.gif?
+- /ac.fcgi?
+- /acbeacon2.
+- /accAnal.js
+- /AccessCounter/
+- /accesslog?
+- /accesstracking/
+- /AccessTrackingLogServlet?
+- /accip_script.js
+- /acclog.cgi?
+- /account-stats/
+- /ace.*/?cookie
+- /acecounter/
+- /acecounter_
+- /acfp.js
+- /acounter.php?
+- /act_pagetrack.
+- /activetrackphp.php?
+- /activities/logger/
+- /activity-track/?
+- /activity.gif?
+- /activity_log.
+- /activityloggingapi/
+- /acv?camp=
+- /acv?extcmp=
+- /acv?utm_
+- /ad-blocker-stats.
+- /ad-iptracer.
+- /ad/no_cookie?
+- /AD/PageHits.
+- /ad_1_trans.
+- /ad_imp.
+- /adam.js
+- /AdAppSettings/
+- /adb/track.php?
+- /adb1.gif?
+- /adb_iub.js
+- /AdBlockDetection/scriptForGA.
+- /AdCookies.js
+- /AdCount/
+- /add_page_view?
+- /add_stats
+- /additional.php?res_width=*.js
+- /addLinker.js
+- /addLinkerEvents-ga.
+- /addLinkerEvents-std.
+- /addLinkerEvents.js
+- /addlog/?
+- /addlogdetails.
+- /addon/analytics/
+- /addpageview/
+- /addrtlog/
+- /adds/counter.js
+- /addstats?callback=
+- /addTrackingScripts.
+- /adform-tracking.
+- /adframestats
+- /adimp?
+- /adimppixel/
+- /adinfo?
+- /adinteraction/
+- /adlog.
+- /adlogger.
+- /adlogger_
+- /adloggertracker.
+- /adm_tracking.js
+- /admantx-
+- /admantx.
+- /admantx/
+- /admonitoring.
+- /admp-
+- /adobe-analytics.
+- /adobe-analytics/
+- /adobe/AppMeasurement-
+- /adobe/VideoHeartbeat-
+- /AdobeAnalyticsSDK.
+- /AdobeCustomVideoMeasurement.swf
+- /adonis_event/
+- /adpixel.
+- /adplogger/
+- /adrum-
+- /adrum.
+- /adrum_
+- /ads/counter.
+- /ads/track.
+- /ads/track/
+- /ads?cookie_
+- /ads_tracker.
+- /ads_tracking.
+- /adsct?
+- /adstat.
+- /adstats.
+- /adstrack.
+- /adtctr.
+- /adtrk/
+- /adv/tracking.
+- /adviewtrack.
+- /advstats/
+- /adwords-conversion-tracking.
+- /adwords-tracker.
+- /adx/*.gifx?
+- /adx_remote.
+- /aegis_tracking.
+- /aff_i?offer_id=
+- /aff_land?referrer
+- /affil/tracker/
+- /affiliate-track.
+- /affiliate-tracker.
+- /affiliate.1800flowers.
+- /affiliate.track?
+- /affiliate/track?
+- /AffiliateClick.
+- /affiliateTracking.
+- /affiliatetracking/
+- /affilinetRetargeting.
+- /AffinoAudit/
+- /affl.cgi?
+- /affs?affid=*.js
+- /afftrack.
+- /afftracking.
+- /aflog.gif?
+- /afrpt.gif?
+- /aftrack.
+- /aftrackingplugin.swf
+- /aggbug.aspx?
+- /agof/iam-
+- /agwebtracking_
+- /aicon_track.
+- /aimp.php?
+- /ajax-hits-counter/
+- /ajax/analytics/
+- /ajax/heatmap-
+- /ajax/log?
+- /ajax/optimizely-
+- /ajax/stat/
+- /ajax/track.php?
+- /ajax_store_analytics?
+- /ajax_video_counter.php?
+- /ajaxClicktrack.
+- /ajaxInit.gif?
+- /ajaxlog.txt?
+- /ajaxlog?
+- /ajaxservice.svc/registersession?session_id=
+- /ajaxstat/
+- /ajaxtracker.
+- /ajx/ptrack/
+- /akam/*/pixel_
+- /akam/10/
+- /akamai/pixy.gif
+- /akamai_analytics_
+- /AkamaiAnalytics.
+- /AkamaiMediaAnalytics.
+- /AkamaiTrackingPixel.
+- /alexa.aspx?site=
+- /alllinksclicktracker.js
+- /alog.min.js
+- /alog/dp.
+- /altpracenje.js
+- /altpwk.js
+- /alvenda_remarketing_
+- /amazon-affiliate-
+# /amdhfp/a.do?param$image
+# /amdhfp/t.do?id$image
+- /amp-analytics-
+- /amp-geo-
+- /amp-omniture-iframe?
+- /amp.gif?
+- /amp_ping/
+- /amplitude-*.js*.js
+- /ampmetrics.
+- /amptrack.
+- /amunglite.
+- /analiz.php3?
+- /AnalTrack.js
+- /analys/dep/
+- /analyse.js
+- /analysis-logger/
+- /analysis/ga_
+- /analysis/gtm_
+- /analytic/count.
+- /analytic?publisher
+- /analytic_data_
+- /analyticReporting.
+# /analyticReportingAS3.$domain=~miniclip.com
+- /analytics-assets/
+- /analytics-beacon-
+- /analytics-cdn.
+- /analytics-dotcom/
+- /analytics-event-
+- /analytics-event.
+- /analytics-ingress-
+- /analytics-js.
+- /analytics-js/
+- /analytics-ping.
+- /analytics-plugin/
+- /analytics-post-
+- /analytics-savebt?
+- /analytics-social.
+- /analytics-tag.
+- /analytics-v1.
+- /analytics.*/i?stm=
+- /analytics.ad.
+- /analytics.ashx
+- /analytics.asmx
+- /Analytics.aspx?
+- /analytics.bundled.js
+- /analytics.compressed.js
+- /analytics.config.js
+- /analytics.do
+- /analytics.gif?
+- /analytics.google.js
+- /analytics.html?
+- /analytics.init.js
+- /analytics.js/v1/
+- /analytics.json?
+- /analytics.min.
+- /analytics.php.
+- /analytics.php?
+- /analytics.swf?
+- /analytics.v1.js
+- /analytics/*satellitelib.js
+- /analytics/?event
+- /analytics/activity.
+# /analytics/analytics.$~xmlhttprequest
+- /analytics/call-
+- /analytics/cms/
+- /analytics/collect_
+- /analytics/collector.
+- /analytics/collector/
+- /analytics/content?
+- /analytics/core.
+- /analytics/dealerfire/
+- /analytics/dfa.
+- /analytics/dist/
+- /analytics/eloqua/
+- /analytics/engine/
+- /analytics/events
+- /analytics/eventTrack
+- /analytics/ga.
+- /analytics/ga/
+- /analytics/ga?
+- /Analytics/Google.
+- /analytics/google/
+- /analytics/gw.
+- /analytics/hit
+- /analytics/hmac-
+- /analytics/idg_
+- /analytics/js/
+- /analytics/liferay-
+- /analytics/mbox.js
+- /analytics/mouse_
+- /analytics/newrelic_
+- /analytics/p.gif?
+- /analytics/page/
+- /analytics/pageview.
+- /Analytics/Pdp/
+- /analytics/ping/
+- /analytics/pv.gif?
+- /analytics/report/
+- /analytics/smarttag-
+- /analytics/socialTracking.js
+- /analytics/sockjs.
+- /analytics/tagx-
+- /analytics/tealium-
+- /analytics/tms_
+- /analytics/tools_
+- /analytics/track-
+- /analytics/track.
+- /analytics/track/
+- /analytics/track?
+- /analytics/tracker.
+- /analytics/trackers?
+- /Analytics/Tracking.
+- /analytics/tracking/
+- /analytics/track
+- /analytics/urlTracker.
+# /analytics/v1/*$domain=~my.leadpages.net
+# /analytics/video_$domain=~twitch.tv
+- /analytics/visit/
+- /Analytics/Visitor.
+- /analytics/web/
+- /analytics/yell-
+- /analytics3.
+- /analytics?body=
+- /analytics?http_referer
+- /analytics?token=
+- /analytics?url=
+- /analytics_embed.
+- /analytics_frame.
+- /analytics_functions.
+- /analytics_id.
+- /analytics_js/
+- /analytics_ping.
+- /analytics_prod.
+- /analytics_tag.
+- /analytics_tracker
+- /analytics_v2.js
+- /AnalyticsEvent.
+- /analyticsfeed.ashx?
+- /analyticsid.
+- /analyticsjs.
+- /analyticsjs/
+- /analyticsmediator.
+- /AnalyticsOnDemand/
+- /analyticsscript_
+- /analyticstick.
+- /analyticstrack.
+- /analyticstracking.
+- /analyticstracking_
+- /analyticstrain-
+- /analyticsUnitaire?
+- /analyticsUrlToDataMappings.
+- /analyze.js/
+- /analyzer.gif?
+- /analyzer2.
+- /anametrix.js
+- /anametrix/
+- /anametrix_tag.js
+- /anapixel.
+- /ancAdTrack.js
+- /angular-tag.
+- /angular-tag_
+- /angularlytics.
+- /angularytics.
+- /angularytics/
+- /any/*.gif?
+- /anycent_tracker_
+- /api-analytics.
+- /api/0/stats
+- /api/analytics/
+- /api/log?
+- /api/lt/ref?
+- /api/pageview?
+- /api/ping/
+- /api/pixel?
+- /api/stat?
+- /api/tracking/
+- /api/v1/stat?
+- /api/x.gif?
+- /apilog?
+- /apis/cpt.php?
+- /apitracking.
+- /apixel?
+- /app-measurement?
+- /app/tracking/
+- /app/tracking_
+- /appendOmnitureTracking.
+- /appier-track-
+- /AppMeasurement.js
+- /AppMeasurement2.js
+- /apTracker.
+- /apw.js
+- /aqtag.
+- /ard.png?
+- /argtk.min.
+- /aria-web-telemetry-
+- /arstat?
+- /art/stats/
+- /article-analytics.
+- /article-tracking.js
+- /Article/ViewCount/
+- /article_counter.php?
+- /article_hit.php?
+- /ArticleCounterLogger.
+- /ArticleLog.aspx?
+- /ArticleViewTracking/
+- /asdf/tracking-
+- /asknet_tracking.
+- /aslog.php?
+- /aspenanalytics.
+- /aspstats/index.asp?
+- /assets/analytics:
+- /assets/tracking-
+- /assets/uts/
+- /assign.gif?
+- /AssyncCSStats.aspx
+- /astrack.js
+- /astracker.
+- /astracker/
+- /asyncggtracking.
+- /at.gif?
+- /atapixel.js
+- /atatus.js
+- /athena.gif?
+- /athenastgbeacon.
+- /atlas_track.
+- /atrk.gif?
+- /atrk.js
+- /audience-extraction.js
+- /audience-meter.
+- /audience-science.
+- /audience.gif?
+- /audience.min.js
+- /audience_science-
+- /audience_science.
+- /audience_science_
+- /audienceScience.
+- /audiweb.js
+- /audsci.js
+- /autotag.
+- /autotrack.js
+- /AutoTracker.js
+- /aux/collect?
+- /avant_sfpc_
+- /avantlink/
+- /avmws_*.js
+- /avtstats.
+- /aw-tracker.
+- /awAnalytics.
+- /awe/ccs.
+- /awesc.php?
+- /aws-analytics.js
+- /awstats.js
+- /awstats_misc_tracker
+- /aztrack.
+- /aztracker.
+- /b/ss/*&aqe=
+- /b/ss/*&ce=iso-8859-1&
+- /b/ss/*&ce=utf-8&
+- /b/ss/*&events=
+- /b/ss/*&ndh=
+- /b/ss/*&pagename=
+- /b/ss/*/h.17--wap?c20=
+- /b/ss/*/JS-
+- /b/ss/*=event36&
+- /b/ss/*=referrers&
+- /b/ss/*?aqb=1&pccr=
+- /b/ss/*?gn=mobile:
+- /b/ss/*?pagename=
+- /b/ss/ueglobaldev/
+- /b/ss/wdgdolad,
+- /b/stats?
+- /b2bsdc.js
+- /b_track_2.
+- /backlink.php?
+- /backlink2.
+- /baiduStatistics.js
+- /banner-tracker.
+- /banner.stats?
+- /banners-stat.
+- /basesdc.js
+- /basilic.php
+- /batch.gif?
+- /baynote-*.js
+- /baynote.
+- /baynote/
+- /baynote3.
+- /baynote80.
+- /baynote_
+- /baynoteobserver/
+- /bc-track.
+- /bc/clk?
+- /bcbot-nomin.js
+- /bcn.gif?
+- /bcn?
+- /bcsensor.js
+- /bctrackers/
+- /bdanalytics.
+- /bdash_log.
+- /bdg-analytics.
+- /bdg.gif?
+- /beacon-cookie.
+- /beacon.cgi?
+- /beacon.gif?
+- /beacon.html?
+- /beacon.js
+- /beacon/b.ashx?
+- /beacon/event?
+- /beacon/metrics
+- /beacon/performance?
+- /beacon/portal-lite?
+- /beacon/timing?
+- /beacon/track/
+- /beacon/vtn_loader.gif?
+- /beacon?
+- /beacon_async.
+- /beacon_img?
+- /beaconconfigs/
+- /beaconimg.php?
+- /beacons?data=
+- /behavior/web/pv?
+- /BehaviourCaptureHandler.
+- /benchmarketingsmarttag/
+- /betamax_tracker.gif?
+- /betamax_tracker.js
+- /better-analytics/
+- /bf.gif?ac=
+- /bfs-track.
+- /bg_j.gif?
+- /bglog.gif?
+- /bh_counter.js
+- /bi.tracking/
+- /bicomscore.
+- /bicomscore_
+- /biddr-analytics.
+- /bidiq.
+- /bin/reff.php
+- /bin/stats?
+- /bipixel/
+- /bitrix/spread.php?
+- /biyfn/notify.
+- /bizo.js
+- /bk-coretag.js
+- /bkclick?
+- /BKVTrack.js
+- /blank.gif?*%
+- /blank.gif?*&
+- /block/pixel?
+- /blockstat?
+- /blog/traffic/?
+- /blogcu-analytics.js
+- /blogsectiontracking.
+- /blogtotal_stats_
+- /bluekai.
+- /bluekai/
+- /blueKaiAnalytics.
+- /bluekaicookieinfo.
+- /BlueKaiPixel/
+- /bluetracker/
+- /bm-analytics-trk.js
+- /bm-analytics/
+- /bm-bam-trk.
+- /bms-analytics.
+- /bn/tracker/
+- /boomerang-minified-
+- /boomerang.js
+- /boomLogger.
+- /boomr.js
+- /boost_stats.
+- /botd.gif?
+- /bounce_user_tracking-
+- /bower_components/fp/fp.js
+- /bps_sv.gif?
+- /br-trk-
+- /br-trk.
+- /br_imps/add_item?
+- /brandAnalytics.js
+- /brightcove/tracking/
+- /brightcoveGoogleAnalytics.
+- /brightedge.js
+- /brightTag-min.js
+- /britetrack/
+- /bs.measure.
+- /bsc_trak.
+- /bstat.js
+# /bstats.$domain=~bstats.org
+- /bsuite/worker.php?
+- /bt.gif?
+- /btn_tracking_pixel.
+- /buffer.pgif?r=
+- /buffermetrics/
+- /bug/pic.gif?
+- /bugcounter.php?
+- /build/tracker.js
+- /BuiltRegister.aspx?upt=
+- /bundle.tracking.
+- /bundle/analytics.
+- /bundles/cm.js
+- /bundles/metrics.
+- /bundles/tracciamento?
+- /buzz_stats.
+- /bypasspiphp?
+- /byside_webcare.
+- /c.gif?daid
+- /c.gif?id=
+- /c.php?r=
+- /c.wrating.com/
+- /c2_count.js
+- /C4ATracker.
+# /c?siteID=$image,script
+- /c_track.php?
+- /cablog?
+- /caixinlog.js
+- /calameo-beacon.
+- /call-tracking.js
+- /callbacks/stats?
+- /campaign_tracker.
+- /campaign_trax.
+- /caos-analytics/
+- /capture_client.js
+- /CaptureStat.
+- /cbanalytics.
+- /CBM.Tracking.js?
+- /cbs1x1.gif?
+- /cbstats/
+- /cc?a=
+- /cclickTracking.
+- /ccm_sj?
+- /cct?
+# /cdn-cgi/ping?$image
+- /cdn-monitoring-pixel.
+- /cdn.stats2?
+- /cdn5.js?
+- /cds-webanalytics.
+- /cdx-radar/
+- /cdx.gif?
+- /cedexis.js
+- /cedexis/
+- /cedexisus.
+- /certifica-js14.js
+- /certifica.js
+- /certifica_2010.js
+- /certona.
+- /Certona/
+- /certona_*.js
+- /cfformprotect/
+- /cfm-realtime-marketing/
+- /cgi-bin/cnt/
+- /cgi-bin/count.cgi?
+- /cgi-bin/count.pl?
+- /cgi-bin/count/
+- /cgi-bin/count1.cgi?
+- /cgi-bin/CP/
+- /cgi-bin/ctasp-server.cgi?
+- /cgi-bin/hits/
+- /cgi-bin/ivw-ssl/
+- /cgi-bin/ivw/
+- /cgi-bin/lcpnp/
+- /cgi-bin/online/uos.cgi?
+- /cgi-bin/refsd?
+- /cgi-bin/te/in.cgi?
+- /cgi-bin/user_online/uos.cgi?
+- /cgi-bin/useronline/
+- /cgi-bin/vdz/
+- /cgi-sys/count.cgi?df=
+- /cgi/bin/trk.js
+- /cgi/count?
+- /cgi/stats.pl?
+- /cgi/trk.js
+- /chan_slidesurvey.js
+- /chanalytics.
+- /channelintelligence/
+- /ChannelTracking.
+- /ChannelTrackingConverter.
+- /chartbeat-
+- /chartbeat.jhtml
+- /chartbeat.js
+- /chartbeat.min.js
+- /chartbeat/
+- /chartbeat_
+- /Chartbeatanalytics.
+- /chartbeatanalytics/
+- /chartbeatCode.
+- /chartbeatftr.
+- /chcounter/
+- /check.php?referrer=
+- /checkForAdvertorials.
+- /checkstat.asp
+- /chicken.gif?*=
+- /ci-capture.
+- /cim_tns/spring.js
+- /citycounter.
+- /cjtracker2.
+- /ckimg_1x1.gif?
+- /cklink.gif?
+- /cklog.js
+- /cl.gif?pvID=
+- /clacking.js
+- /clarity-*.js
+- /class.tracking.js
+- /clear.gif?
+- /Clear.HTML?ctx=
+- /Clear.PNG?ctx=
+- /clear/c.gif?
+- /clicevent.php?
+- /click-count.
+- /click-logger.
+- /click-stat.js
+- /click-tracker
+- /click.cgi?callback=
+- /click.php?c=
+- /Click?MQUrl=
+- /click_metrics-jquery.js
+- /click_stat/
+- /click_statistics/
+- /click_stats.
+- /click_track.js
+- /click_tracking
+- /clickability-
+# /clickability.$domain=~clickability.com.au
+- /clickability/
+- /clickability2/
+- /clickability?
+- /clickAnalyse.
+- /clickcount.
+- /clickcount/
+- /clickcount_
+- /clickctrl.js
+- /clickdimensions-
+- /clickheat.js
+- /clickheat/
+- /clicklog.
+- /clicklog4pc.
+- /clicklog_
+- /clickLogger?
+- /clicklognew.
+- /clickm.js
+- /clickmap.js
+- /clickpathmedia.
+- /clickpathmedia_
+- /clickrecord.php?
+- /clicks/servlet/
+- /clickscript.
+- /clickstats.
+- /clickstream.aspx?
+- /clickstream.js
+- /ClickTail.
+- /clicktale-
+- /clicktale.
+- /clicktale/
+- /clicktale_
+- /ClickTaleFilter.
+- /clicktrack-*.gif?
+- /ClickTrack.
+- /clicktrack?
+- /clicktracker.
+- /clicktracking-global.
+- /clicktracking.
+- /clicktracking/
+- /ClickTracks_
+- /ClickTracksCookies.
+- /clicktrends/
+- /clicky.js
+- /client-event-logger.
+- /client-event.axd?
+- /client_pathlog.asp?
+- /clientdatacollector/
+- /clientlibs/analytics.
+- /clientlibs/ga.js
+- /clientstat?
+- /clip-started.gif?
+- /clk?utmwv=
+- /cls_report?
+- /cls_rpt.gif?
+- /cm-xtgreat?
+- /cm.gif?
+- /cm?ci=*&tid=
+- /cm?tid=
+- /cmarketing.countus.js
+- /cmd_track?
+- /cms.gif?
+- /cms/stats/
+- /cmslog.dll?
+- /cn-fe-stats/
+- /cnstats.
+- /cnstats/
+- /cnt-combined.php?
+- /cnt.aspx?
+- /cnt.cgi?
+- /cnt.js
+- /cnt.php?rf=
+- /cnt/cnt.php?
+- /cnt/start.php?
+- /cntlog/
+- /cntpixel.
+- /CntRpt.aspx?
+- /cnvtr.js
+- /cnwk.1d/*/apex.js
+- /coAnalytics.
+- /CofinaHits.
+- /cognitive_match/
+- /col1/*?ss=
+- /collect-*/jsEvent.js
+- /collect.php?data=
+- /collect/kf?
+- /collect/pageview?
+- /collect/sdk?
+- /collect/tracking.
+- /collect?callback=
+- /collect_data.php?
+- /collect_stat.
+- /collection.php?data=
+- /collector.php?
+- /collector/*/*?*&euidl=*&url=
+- /collector/beacon/
+- /collector/hit?
+- /collector?report=
+- /collectStats;
+- /com_joomla-visites/
+- /com_joomlawatch/
+- /common/tracker.js
+- /competeTracking_test.html?
+- /comscore.
+- /comscore/pageview_
+- /comscore/streamsense.
+- /comscore?
+- /comscore_beacon.
+- /comscore_engine.
+- /comscore_stats.
+- /comscorebeacon.
+- /ComScorePlugin.
+- /ComScoreSWF.
+- /condenet-metric.
+- /configuration-stat.js
+- /connect_counter.js
+- /contador.gif?
+- /containerTag.js
+- /containertag?
+- /content-targeting-staging.js
+- /contentanalytics/
+- /contentiq.js
+- /ContentTrackingCall.
+- /control/tracking.php?
+- /conversion_async.
+- /convertro.js
+- /cookie.crumb
+- /cookie.gif?
+- /cookie/visitor/
+- /cookie?affiliate
+- /Cookie?merchant=
+- /cookie_ga.
+- /cookieAnalytics.
+- /cookiebean?
+- /cookieId.htm
+- /CookieLawStats/
+- /CookieManager-bdl?
+- /CookieMapping?
+- /CookiePingback?
+- /CookieSetterAS3.
+- /cookietag?
+- /coradiant.js
+- /core-tracking.js
+- /coretracking.php?
+- /coreWatchingEvents.
+- /CorporatePageTracking.
+- /count.cfm?
+- /count.exe?
+- /count.fcg?
+- /count.fcgi?
+- /count.fgi?
+- /count.gif?
+- /count.php?
+- /count.png?
+- /count/?ad=
+- /count/count.cgi?
+- /count?*&url=
+- /count?pid=
+- /count?type=
+- /count_DB/
+- /count_js.
+- /count_stats/
+- /countbk.
+- /CountContent?
+- /Counter.ashx?
+- /counter.asp?
+- /counter.aspx?
+- /counter.cgi/
+- /counter.cgi?
+- /counter.do?
+- /counter.lt?
+- /counter.php?chcounter_mode=
+- /counter.pl?
+- /counter.visit?
+- /Counter.woa/
+- /counter/action_
+- /counter/article?
+- /counter/ashow/
+- /counter/collect?
+- /counter/ct.php?
+- /counter/process.asp?
+- /counter/r.pl
+- /counter/stat.
+- /counter/views/
+- /counter1.gif?
+- /counter?id=
+- /counter_1.php
+- /counter_2.php?
+- /counter_3.php
+- /counter_image.gif?
+- /counter_liveinternet.
+- /countercgi.
+- /countercollector/
+- /counterFooterFlash.
+- /counters/pages?
+- /countertab.js?
+- /countHits.
+- /countinj.cgi?
+- /countpixel.
+- /countstat.php?
+- /countubn.
+- /countus.php
+- /cqcounter.
+- /crai_tracker.
+- /create-lead.js
+- /CreateCookieSSO_
+- /CreateVIDCookie.aspx?
+- /creative.png?slotId=
+- /criteo.
+- /Criteo/
+- /criteo_
+- /criteoRTA.
+- /crmTracking.
+- /cross-domain-cookie?
+- /cross_pixels.
+- /crtracker.
+- /cs_api/log
+- /CSAdobeTracking.
+- /csc-event?
+- /csct.js
+- /csi?v=*&action=
+- /csi?v=2&s=
+- /csi?v=3&s=
+- /csm/analytics;
+- /ctr_tracking.
+- /ctrack?
+- /ctrl.gif?ref=
+- /custom-tracking.
+- /CustomTrackingScript.
+- /cv/conversion.js
+- /cv_pixel.
+- /cwTRACK.js
+- /cwtracking-
+- /cx-video-analytics.js
+- /cx_tracking.js
+- /cXense-Analytics-
+- /cxense-candy.js
+- /cxense-video/
+- /cxense/cx.js
+- /cyberestat/
+- /d.gif?id=
+- /dart_wrapper.html?
+- /data.do?session_
+# /data/collect/*$xmlhttprequest
+- /data_collect.js
+- /datacapture/track
+- /datacollectcode?
+- /dc-storm-track.
+- /dc-storm.js
+- /dc-storm/aff.
+- /dc-storm/track.
+- /dc_performance.js
+- /dcs.gif?
+- /dcs/track.
+- /dcs_tag.
+- /dcstorm-track.
+- /dcstorm.js
+- /dcstorm/track.
+- /dctk.js
+- /DecideDNATrackingCode-
+- /delivery/lg.
+- /delstats/
+- /demandbase.
+- /demandbase_
+- /demdex.js
+- /demdex/
+- /DemdexBehavioralTracking.
+- /deskanalytics.js
+- /detective.gif?
+- /detm-container-
+- /detm_adobe.
+- /dfp-gpt.
+- /di-tealium.
+- /Diagnostics?hit=
+- /didna-pixel-
+- /digitalice_tag.js
+- /disp_cnt.
+- /dispatch.fcgi?
+- /diva-analytics.js
+- /divolte.js
+- /dl_counter.
+- /dla_tracker.
+- /dltrack.
+- /dltrack/
+- /dm.gif?
+- /dmde/track/
+- /dmp-tracking-
+- /dmpcollector.js
+- /dmtk.*_tag=
+- /dmtracking2.
+- /DNATracking.
+- /dni_reporting.js
+- /doctracking.
+- /doIperceptionsRegulator.
+- /dolWebAnalytics.
+- /domanalytics.
+- /domcount.
+- /domcount_
+- /dot.asp?
+- /dot.gif?
+- /dotn?*&pg=http
+- /Dotomi.
+- /dotomi_abandon.
+- /dotomi_tracking/
+- /doubleclick_head_tag_
+- /doubleclickCheck/
+- /dow_analytics.
+- /downloadAndOutboundLinksTracking.
+- /DownloadTracker.
+- /drads?referrer=
+- /drive-analytics/
+- /dspixel.js
+- /dst.gif?
+- /dstctsevent.js
+- /dstracking.
+- /dtagent630_
+- /dtagent_
+- /dtm-ddo-utilities.js
+- /dtm/*/satelliteLib-
+- /dtm_cm.js
+- /dtmtag.js
+- /dtrack.js
+- /dw/hit?
+- /dwanalytics-
+- /dwanalytics.
+- /dynamic_ytrack_
+- /DynamicAnalytics.
+- /dynamictag.
+- /dynaTraceMonitor/
+- /e.gif?data=
+- /e086ec.aspx?q=l3mkwgak
+- /ea-analytics/
+- /ea_ctrl?
+- /eae-logger/
+- /eatms.js
+- /ebonetag.js
+- /ecanalytics.js
+- /ecap.min.js
+- /ecblank.gif?
+- /ecom/status.jsp?
+- /econa-site-search-ajax-log-referrer.php
+- /econa-site-search/log.php?
+- /Econda2.
+- /ecos-surveycode.
+- /ecos.js
+- /ecos_survey.
+- /ecos_surveycode_
+- /ecossurvey.
+- /eCustomerSurvey.
+- /edAnalyticsWrapper.
+- /edata.js
+- /edateAdTrack?
+- /edgemesh.track.
+- /EDigitalSurvey_
+- /ee-tagging.
+- /effectivemeasure.
+# /EfficientFrontier.$domain=~efficientfrontier.com
+- /eftracking.
+- /ehcorp.tracking.
+- /eheat.js
+- /elex.track.
+- /eloqua_
+- /elqcfg-*.js
+- /elqcfg.js
+- /elqcfg.min.js
+- /elqfcs.js
+- /elqidg.js
+- /elqimg.js
+- /elqnow/
+- /elqscr.js
+- /elqtracking.
+- /elt.gif?
+- /eluminate?
+- /email/tracking?
+# /EmailOpenTrackLog.aspx?$image
+- /embed-log.js
+- /EMERPEventCollector.
+- /emos2-*.js
+# /emos2.js$~xmlhttprequest
+- /empty-1px-gif;
+- /empty.js.gif?
+- /emstrack.
+- /emtj_tracker.
+- /end.gif?
+- /endpoint/stats.
+- /engine/ping?
+- /ent_counter?
+- /entry.count.image?
+- /entry.count?
+- /entry_stats?
+- /envoy.sb?sbaid
+- /epf_v1_95.js
+- /error/js/log?
+- /est.pl?
+# /estat.$domain=~estat.stat.ee
+- /estatistica.js
+- /estatnativeflashtag.swf
+- /etag?
+- /etarget/
+- /etracker.
+- /etracker/
+- /etrackercode.
+- /eu-survey.js
+- /ev/co/*?eventid=
+- /event-log/
+- /event-report?*&uid=
+- /event-tracking.js
+- /event.cgi?
+- /event.gif?
+- /event.php?campaign=
+- /event/*/*?*&euidl=*&url=
+- /event/?ra=
+- /event/pageview/
+- /event/pageview?
+- /event/pageviewgeodevice/
+- /event/rumdata?
+- /event/track?
+- /event/v3?
+- /event?&event=
+- /event?auditLinkReceived=
+- /event?eventType=
+- /event?pmo=
+- /event?stat_
+- /event?t=*&__seed=
+- /event?t=view&
+- /event?token=
+- /EventLog.axd?
+- /eventlog.js
+- /eventLogServlet?
+- /events-collector.
+- /events/*?event=
+- /events/capture?
+- /events?data=
+- /events?rpId=
+- /eventtracker.js
+- /eventtracking-
+- /eventtracking.
+- /evercookie.
+- /evercookie/
+- /evercookie_
+- /evtrack-
+- /ewtrack.
+- /EWTRACK_
+- /exaonclick.js
+- /exelate.htm?
+- /exelate.html?
+- /exelator.
+- /exittracker.
+- /exittraffic.
+- /expcount/
+- /expose.gif?
+- /extBnr.gif?
+- /extendedAnalytics.
+- /external-promo-metrics.
+- /external-tracking.
+- /external/nielsen_
+- /external=retargeting/
+- /external_teaser_impression?
+- /ezakus.js
+- /ezoic/*.gif?
+- /ezytrack.
+- /facebookpixel.
+- /facebookpixel/
+- /FacebookTracking.
+- /faciliti-tag.
+- /fairfax_tracking.js
+- /fastcounter.
+- /favcyanalytics?
+- /fb-app-tracker.
+- /fb-ga-track-
+- /fb-pixel-
+- /fb-tracking.js
+- /fbanalytics/
+- /fbcounter/
+- /fbevents-amd.js
+- /fbpixel.
+- /fbpixel/
+- /fcp.gif?
+- /fe/track/
+- /federated-analytics.
+- /figanalytics.
+- /figanalytics/
+- /files/ga.js
+- /finalizestats.
+- /fingerprint-video.min.js
+- /fingerprint.js
+- /fingerprint.min.js
+- /fingerprint2.js
+- /fingerprint2.min.js
+- /fingerprint3.js
+- /fingerprint3.min.js
+- /fingerprintjs2.
+- /firestats/
+- /firm_tracking.js
+- /fkounter/
+- /fkounter5/
+- /flash-cookies/
+- /flash-stats.php?
+- /flashtag.txt?Log=
+- /flcounter/*.js
+- /flextag/
+- /flip-stats-queue?
+- /flowplayer.ganalytics.
+- /flv_tracking.
+- /footer-tracking.js
+- /footer_tag_iframe.
+- /footerpixel.gif?
+- /fora_player_tracking.
+- /foresee/
+- /fortvision-fb-web.
+- /forumPixLog.
+- /FoxAnalyticsExtension.
+- /FoxBlueKaiPlugIn.
+- /FoxComScore.
+- /fp/clear.png?
+- /fp/tags.js?
+- /fpc.pl?a=
+- /fpcount.exe
+- /fps/check.
+- /freecgi/count.cgi?
+- /friendbuy.min.js
+- /frosmo.easy.js
+- /frtrack.
+- /fsrscripts/
+- /ft/hit/
+- /FTTrack2.js
+- /g-track/
+- /g=analytics&
+- /g_track.php?
+- /ga*.js?PID=
+- /ga-affiliates.
+- /ga-async-
+- /ga-beacon.*/UA-
+- /ga-custom-tracking.
+- /ga-custom-vars.
+- /ga-explorations.
+- /ga-integration-*.js
+- /ga-links.js
+- /ga-lite.
+- /ga-local.js
+- /ga-multidomain.
+- /ga-script.
+- /ga-scroll-events.
+- /ga-se-async.js
+- /ga-socialtracker.
+- /ga-targets.js
+- /ga-track.
+- /ga-tracker.
+- /ga-tracking-
+- /ga-tracking/
+- /ga.aspx?
+- /ga.gif?
+# /ga.jsp?$image
+- /ga.min.js
+# /ga.php?$image
+- /GA.swf?gaId=
+- /ga.swf?gid=
+- /ga/*.gif?
+- /ga/trackevent.
+- /ga1.js
+# /ga2.aspx?utmac=$image
+- /ga2.js
+- /ga?type=
+# /ga?utmac=$image
+- /ga_anonym.js
+- /ga_dpc_youtube.
+- /ga_dualcode_tracking.
+- /ga_event_frame?
+- /ga_events.js
+- /ga_external.
+- /ga_footer.
+- /ga_gwo.
+- /ga_header.
+- /ga_keyword2.
+- /ga_link_tracker_
+- /ga_loader.
+- /ga_measure.
+- /ga_no_cookie.
+- /ga_no_cookie_
+- /ga_outgoinglinks.
+- /ga_setup.js
+- /ga_sip.js
+- /ga_social.
+- /ga_social_tracking_
+- /ga_trace.
+- /ga_track.php?adurl=
+- /ga_tracker.
+- /ga_tracking-
+- /ga_tracking.
+- /ga_tracklinks.
+- /ga_wrapper.
+- /gaaddons-
+- /gaaddons.js
+- /gaAnalytics.
+- /gaclicktracking.
+- /gaCustom.
+- /gadsfuncs.
+- /gaEvents.js
+- /gaEventTracking.
+- /GAFOAWrapper.swf?
+- /gaFunction?
+- /GAInit.js
+- /gainjectmin.
+- /gajs/analytics.js
+- /galinks-
+- /gallerystats.
+- /galtracklib.
+- /ganalytics.
+- /ganalytics/
+- /gapagetracker.
+- /gapro-1.swf
+- /gapro-1h.swf
+- /gapro.swf
+- /GARecord/
+- /gascript.
+- /gasocialtracking.
+- /gaStatistics.js
+- /gatag.js
+- /gatc.js
+- /gatrack.
+- /gatracking.
+- /gatrackingcampaigns/
+- /gatrackthis.
+- /gatrackwww.
+- /gClickTracking.
+- /gcount.pl?
+- /gcui_vidtracker/
+- /gd-stat.
+- /gd.stat?
+- /gemius.js
+- /gemius/
+- /gemius1.js
+- /gemius_
+- /gemiusAudience.
+# /gen_204?$image,script
+# /generate_204$image
+- /generictracking.
+- /geo.php?
+- /geoAnalysis.js
+- /geocc.
+- /geocoding.ash
+- /geocompteur.
+- /geocounter.
+- /geoip.html
+- /geoip?
+- /geoip_cc
+- /geoip_script?
+- /geoipAPI.js?
+- /geomap.js?
+- /geov2.js
+- /get-tracking-data
+- /get?affid=*.js
+- /get_browser_info.
+# /get_cdns?$third-party,xmlhttprequest
+- /get_geoip?
+- /get_site_data?*&cookie=
+- /get_site_data?*&href=
+- /get_statistics.php?screen_width=
+- /get_tracking_id?
+- /get_tracking_url.
+- /getbglog.js
+- /getclicky.
+- /getclicky_
+- /getcookie.php?
+- /getcount?ids=
+- /getPixels?*&referer=
+- /getPixelSso
+- /getRemoteDomainCookies?
+- /getsidpixeltag?sid=
+- /getThirdPartyTracking?
+- /getTotalHits.
+- /getViewBeans.action?
+- /gifbanner?
+- /gifstats.
+- /gigyaGAIntegration.
+- /gingeranalytics.
+- /glb-pv-min.js
+- /glbltrackjs.
+- /global-analytics.js
+- /global/ga.js?
+- /global/tracker.
+- /globalpagetracking.js
+- /gmasst.gif?guid=
+- /gn_analytics.
+- /gn_tracking.
+- /goAnalytics.
+- /gomez.js
+- /gomez/*.js
+- /GomezTracking.
+- /google-analyticator/
+- /google-analytics-
+- /google-analytics.
+- /google-analytics/
+- /google-nielsen-analytics.
+- /google-tracking/
+- /google.analytics.
+- /google/analytics.js
+- /google/analytics_
+- /google/autotrack.
+- /Google/ga.js
+- /google_analitycs.
+- /google_analytics-bc.swf
+- /google_analytics.
+- /google_analytics/
+- /google_analytics3_
+- /google_analytics_
+- /google_page_track
+- /google_tag.
+- /google_tag/
+- /google_tracker.
+- /googleana.
+- /googleAnal.js
+- /GoogleAnalystics.
+- /GoogleAnalyticActionLib.
+- /googleanalytics-
+- /googleanalytics.js
+- /GoogleAnalytics.swf
+- /googleanalytics/
+- /googleAnalytics1.
+- /googleAnalytics2.
+- /GoogleAnalytics2
+- /GoogleAnalytics?utmac=
+- /googleAnalytics_
+- /googleAnalyticsBase_
+- /GoogleAnalyticsBC3.
+- /googleAnalyticsBottom.
+- /googleanalyticsevents?
+- /googleanalyticsmanagement.swf
+- /GoogleAnalyticsModule.
+- /googleAnalyticsOutgoingLinks.
+- /GoogleAnalyticsPlugIn.
+- /GoogleAnalyticsPlus/
+- /googleAnalyticsTracking.
+- /GoogleAnalyticsTrackingProvider.js
+- /GoogleAnalytics
+- /googleanalyze1.
+- /googleanalyze2.
+- /googletagmanager_backend.js
+- /googleTagManagerTrackEvent.
+- /googletrack.js
+- /googleTracker.
+- /googletracker/
+- /googleTracking.js
+- /googlytics-
+- /gosquared-livestats/
+- /gPageTracking.
+- /grappler/log/
+- /gravity-beacon-
+- /gravity-beacon.js
+- /greenoaks.gif?
+- /grumi-ip.js
+- /gs-analytics-
+- /gs.gif?
+- /gscounters.
+- /gtm-tracking-events.
+- /gtm/gtm-
+- /gtmTracking.
+- /gtrack.
+- /gweb/analytics/
+- /hash_stat_bulk/
+- /hc/tracking/
+- /hc_pixel.gif?
+- /headerpixel.gif?
+- /headupstats.gif?
+- /heatmap.*?
+- /heatmap.js
+- /heatmap_log.js
+- /hg?hc=&hb=*&vjs=
+- /hgct?hc=&hb=*&vjs=
+- /hints.netflame.cc/
+- /HiroBeacon?
+- /histats/
+- /hit-counter.
+- /hit-counter/
+- /Hit.ashx?
+- /hit.asp?
+- /Hit.aspx?
+- /hit.c?
+- /hit.gif?hash=
+- /hit.php?
+- /hit.png?
+- /hit.t?
+- /hit.xiti?
+- /hit/?r=
+- /hit/tracker
+- /hit2.php
+- /hit?artefactId=
+- /hit?t=*&__seed=
+- /hit_count?
+- /hit_counter
+- /hit_img.cfm?
+- /hitbox.js
+- /hitCount.
+- /hitcount/
+- /hitcount?
+- /hitcount_
+- /HitCounter.
+- /HitCounter/
+- /hitlog.mpl?
+- /hitlog.php?
+- /hits.count?
+- /hits/logger?
+- /hitslink.
+- /hittrack.cgi?
+- /HitTracker/
+- /HitTracking.
+- /hkStatCms/ViewCount?
+- /hlog.asp
+- /hm.pl?p=
+- /hmapxy.js
+- /homeCounter.
+- /homepage/analytics.
+- /homepage_pixels.
+- /homePixelTracking.
+- /horizon-pageview?
+- /horizon-track.
+- /horizon.*/track?
+- /horizon.*/watch?
+- /horizon/track?
+- /host-analyticsjs-local/
+- /hotmobtag_
+- /hpanalytics_
+- /hpmetrics.
+- /hrtrackjs.gif?
+- /hs_track.
+- /hsc/trk/
+- /hstrck-detect.
+- /HuShenGangTong.js
+- /i.php?i=
+- /i.png?id=
+- /i/b.gif?
+- /i/i.gif?
+- /i2a.js
+- /i2yesCounter.js
+- /i?e=*&page=*&cookie=
+- /i?redir=*&page=*&cookie=
+- /i?siteid=
+- /i?stm=
+- /icf-analytics.js
+- /icon.gif?type=
+- /ics/2/pview.gif?
+# /id?d_visid_ver=$~xmlhttprequest
+- /ident/hit.js
+- /identify?fp=
+- /iframe-tracker.js
+- /iframe.tracker.js
+- /iframe_googleAnalytics
+- /iframetracker.
+- /ig-analytics_
+- /IGA.linktagger.
+- /ignition-one.js
+- /image.articleview?
+- /image.ng/
+- /images/a.gif?*=
+- /images/mxl.gif?
+- /images/uc.GIF?
+- /imageTracking.
+- /iMAWebCookie.
+- /img.aspx?q=l3mkwgak
+- /img.gif?
+- /img.mqcdn.com/a/a
+- /img/gnt.gif?
+- /img/gut.gif?
+# /img/tracking-$image
+- /img?eid=
+- /imgcount.cgi?
+- /imgcount.php?
+- /imgtracker.
+- /imp.aspx?
+- /imp.gif?
+- /imp.php?
+- /imp/a.gif?
+- /imp/ad_
+- /imp/rtm?
+- /imp/www.
+- /imp2.js?
+- /imp?imgid=
+- /imp?sid=
+- /imp_cnt.gif?
+- /imp_img.php?
+- /imppix/
+- /impr.xlg?
+- /impress.php?
+- /impression.ashx
+- /impression.gif?
+- /impression.js?
+- /impression.php?
+- /impression.pl?
+- /impression.track?
+- /impression/widget?
+- /impression?*.loadAds&
+- /impression?bid
+- /impression_tracker.
+- /impression_tracking.
+- /impressioncount.
+- /impressions/*/creative.png?
+- /Impressions/aolukdp.imp?
+- /impressions/log?
+- /impressions/servlet/
+- /impressions3.asp?
+- /impressions?
+- /ImpressionsEvent.js
+- /impressionTrackerV2.
+- /in.cgi?*http
+- /in.getclicky.com/
+- /in.gif?url=
+- /in.php?p=
+- /in.php?referer=
+- /include/js/ga-
+- /includes/analytics.
+- /includes/fbevents.js
+- /includes/tracker/
+- /includes/tracking_
+- /increment_page_counter.
+- /incrementVisits_get?
+- /index.php?_m=livesupport*&referrer=
+- /index.track?
+- /indextools.js
+- /indraeventsapi.
+- /inetlog.ru/
+- /info/picksel/
+- /informb_stat.
+- /informerStat?
+- /init_cookie.php?
+- /inpl.measure.
+- /insales_counter.
+- /insert_impressions.
+- /InsightTrk/
+- /insightXe.js
+- /insitemetrics/
+- /InstantTracking.
+- /integration?pixel=
+- /intellitracker.js
+- /intercept.js
+- /intervigil.
+- /intstatcheck.
+- /IPbeacon.
+- /iperceptions.
+- /iperceptions/
+- /iperceptions_
+- /IperceptionsSurvey.
+- /ipfx?eid=
+- /ipixel?spacedesc
+- /iplookup.php
+- /iporganictrack.
+- /ips-invite.iperceptions.com/
+- /iptracer.
+- /iqtm.js
+- /isi-tracking.
+- /istat.aspx?
+- /ists.tag?
+- /item/tracking/
+- /ItemStats.ajax?
+- /itrack.php?
+- /iva_analytics.
+- /iva_thefilterjwanalytics.
+- /ivw.html
+- /ivw.js
+- /ivw.php
+# /ivw/SP/*$image,script
+- /ivw2.cgi?
+- /ivw2.js
+- /ivw_analytics_
+- /IVWAnalytics.
+- /ivwbox/
+- /IVWTracker.swf
+- /iwa.js
+- /iwstat.js
+- /j.gif?act=
+- /javascript/analytics/
+- /javascript/ci/*landing.js*.js
+- /Javascript/ga.js
+- /javascripts/ga.js
+- /javascripts/tracking_
+- /jc.gif?1=
+- /jcaffiliatesystem/
+- /jgs_portal_log_bildschirm.php?
+- /jkidd_cookies?
+- /join/tracking/
+- /jp-coremetrics-
+- /jquery.analytics.js
+- /jquery.google-analytics.
+- /jquery.trackstar.
+- /jquery.unica.
+- /JqueryEtracker.
+- /js-tag-manager/
+- /js/_analytics/
+- /js/analitics.
+- /js/analitycs_
+- /js/analytics.
+- /js/count.js.
+- /js/counter.js?
+- /js/dart.js
+- /js/dcstorm/
+- /js/ddx/
+- /js/google_stats.
+- /js/hbx.js
+- /js/indextools/
+- /js/livestats_
+- /js/logger?
+- /js/quantcast-
+- /js/sophus/
+- /js/tagging/tagtrack.js
+- /js/targeting.js
+- /js/tophits_
+- /js/tracker.js
+- /js/tracking.js
+- /js/tracking.min.js?
+- /js/tracking/
+- /js/tracking_
+- /js/trk_
+- /js_hotlink.php?
+- /js_log_error.
+- /js_logger.
+- /js_tracker.
+- /js_tracking?
+- /jscounter.
+- /jserrLog?
+- /jslogger.php?ref=
+- /json/stats?
+- /json/tracking/
+- /json?referer=
+- /jsonp_geoip?
+- /jsstat.
+- /jstatphp.
+- /jstats.php
+- /jstats/js/
+- /jtracking/
+- /jump/?jl=
+- /jump/clk1.
+- /kaiseki/script.php
+- /kaiseki/track.php?
+- /kaizentrack/
+- /kalturaevent?
+- /KAStatsWriter/
+- /keen-tracker.
+- /keen-tracking-
+- /keen.min.js
+- /keenio.min.js
+- /kejobscounter.
+- /Kelkooid?
+- /kelkooSponsoredLinks.
+- /keypress.js*.js
+- /keywee.js
+- /keywordlogger.
+- /kGoogleAnalytics.js
+- /khan_analystics.js
+- /kissmetrics.
+- /kissmetrics/
+- /KISSmetricsTrackCode.
+- /kiwip.js
+- /kontera.js
+- /konterayahoooo.
+- /kooomo.tracker.
+- /krux.js
+- /ktrace/ktrace*.js
+- /l1v.ly/
+- /landings-pixel?
+- /LastClick/js?
+- /layer_log.php?p=
+- /lbi_ga.
+- /ldsimp_wf?
+- /lead-tracking.
+- /lead-tracking/
+- /leadgen/ga.js
+- /leadgen_track
+- /lftracker.
+- /lftracker_
+- /lib.tailtarget/
+- /lib/analytics.
+- /lib/tracking/
+- /library/svy/*/broker.js
+- /library/svy/broker.js
+- /library_analytics.
+- /librato-collector.
+- /libs/tracker.js
+- /liferay-analytics-
+- /lingabot.
+- /link-tracker-
+- /link_track.
+- /link_tracking/
+- /linkcountdata/
+- /linkinformer.js
+- /linktrack.js
+- /linktracker.js
+- /linktracker/
+- /linktracking.
+- /listener.php?userRef=
+- /livestats.js
+- /livestats.php?
+- /livestats_
+- /livezilla/server.php?request=track&
+- /load.gif?
+- /load.js.gz?
+- /LoadAudienceSegs-
+- /loadcounter.
+- /loader-counter.
+- /loadJsFingerprint.js
+- /localga.js
+- /locotrack.js
+- /log-ads.
+- /log-nt/
+- /log-reporter.
+- /log-view.
+- /Log.ashx?
+- /log.aspx?
+- /log.bi?
+- /log.cfm?
+- /log.collect.
+- /log.gif?
+- /log.htm?
+- /log.jphp?
+- /log.jsp?
+- /log.php?*http
+- /log.php?id
+- /log.php?owa_timestamp=
+- /log/1.gif?
+- /log/ad-
+- /log/analytics
+- /log/browser/event
+- /log/collect/
+- /log/error?
+- /log/event?
+- /log/impression/
+- /log/init?
+- /log/jserr.php
+- /log/log.php?
+- /log/p.gif?
+- /log/pageview
+- /log/report/
+- /log/sentry/
+- /log/web?
+- /log2.php?
+- /Log?*&adID=
+# /Log?act=$image
+- /log?action=
+- /log?data=
+- /log?documentUrl=
+- /Log?entry=
+- /log?event=
+- /log?id=
+- /log?kc=
+- /log?sLog=
+- /log?tag=
+- /log?type=
+- /log_agent.
+- /log_e.php?id=
+- /log_event?
+- /log_hit.
+- /log_impression/
+- /log_interaction?
+- /log_presence/
+- /log_stats.php?
+- /log_syndication.
+- /log_tracker.
+- /log_view.
+- /log_zon_img.
+- /LogAction?
+- /logactions.gif?
+- /logadhit.
+- /logAdv.
+- /logaholictracker.
+- /LogAnalysisTracker/
+- /logAutoMicroConversion?
+- /logclick.
+- /logcollect.
+- /logcollect_
+- /logcollectscript_
+# /LogCompany.aspx?$image
+- /logcount.php?
+- /logcounter.
+- /logduration/
+- /logevent.action?
+- /logEvent?
+- /logExecutionStats?
+- /logextrastats.
+- /logger.ashx?
+- /logger.dll/
+- /logger.pageperf?
+- /logger/*&referer=
+- /logger/?et=
+- /logger/?referer=
+- /logger/p.gif?
+- /logger?d=
+- /logger?description=
+- /logging-code.
+- /logging/log-
+- /logging/pixel?
+- /Logging?dv=
+- /logging_requests.
+- /logging_save.
+- /LoggingAgent?
+- /loggingService.js
+- /loggly.tracker.js
+- /logHandler.
+- /LogImpression.
+- /LogImpression?
+- /logLoad/?
+- /LogMediaClick?
+- /logo.gif?a=
+- /LogPage.aspx?
+- /logprogress.
+- /logpstatus.
+- /logpv.aspx?
+- /LogRecorder.
+- /logreferrer.php?*&referrer=
+- /Logs/ad?
+- /Logs/discovery?
+- /Logs/other?data=
+- /logserver-
+- /logstat.
+- /logstat?
+- /logStatistic?
+- /logStatistics?
+- /logview.js
+- /logview?referrer=
+- /logview_new.js
+- /logviewedpage?
+- /logViewImpression/
+- /logvisit?visitedurl=
+- /logwebhit.
+- /logwriter.php
+- /lotame_audiences.
+- /loyalty-tracking-
+- /lunametrics-
+- /lycostrack.js
+- /lytics/
+- /lzdtracker.
+- /m.gif?
+- /m1x1.jpg
+- /m360lib.js
+- /ma.gif?cc=
+- /magiq-
+- /mail_tracking-cg.php
+- /mail_tracking.php
+- /mailstatstrk/
+- /makecrmpcookie.
+- /mapstats.
+- /marketing-analytics.js
+- /marketing/js/analytics/
+- /martypixel?
+- /maxymiser.
+- /Maxymiser/
+- /mbcom.tracking.
+- /mbox/at/
+- /mcookie.aspx
+- /MCookieCheck.aspx
+- /MCookieReturn.aspx
+- /mcount.cgi?
+- /md.js?country=
+- /mdwtc/click_thru/
+- /measure/spring.
+- /measure/visit/
+- /measurement/access/contents?
+- /measurementBeacon.
+- /media_viewed_tracking.
+- /medialaanUniversalTracker.
+- /mediametrie.js
+- /mediateGA.js
+- /megacounter/
+- /mendelstats.
+- /meta-analytics/
+- /meta-tracker/
+- /metatraffic/track.asp?
+- /metrics-ga.
+- /metrics.xml
+- /metrics/ga.html?
+- /metrics/image.gif?
+# /metrics/metrics$domain=~spatineo.com
+- /metrics/onload
+- /metrics/stat.
+- /metrics/survey/
+- /metrics/track/
+- /metrics/vanity/?
+- /metricsISCS.
+- /metrika/*?ident=
+- /metrika/watch_
+- /metrimatics/
+- /metriweb.js
+- /metriweb/spring.js
+- /metrixEvents.js
+- /metsol-
+- /mh_metric.
+- /mi/insite/
+- /mianalytics.
+- /micro.php?action=view&
+- /microreporting.
+- /middle?call=http
+- /minder-tracker.
+- /mindshare-tracking.
+- /mint/?js
+- /mint/?record
+- /mint8/?
+- /mintstats/?js
+- /mistats/
+- /mixpanel-*.js
+- /mixpanel-measurement.
+# /mixpanel.$domain=~mixpanel.com
+- /mixpanel_beacon.
+- /mixpanel_tracker.
+- /mkt-tags/
+- /mktg_metrics/
+- /ml.track.me?
+- /mlopen_track.
+- /mm-metrics.
+- /mm_track/
+- /mma/?t=
+- /mmclient.js
+- /mmcore.js
+- /mmetrix.mobi/
+- /mms.*/pv?
+- /mms/get_loaders?
+- /mngi/tracking/
+- /mnt/imp?
+- /mobify_ga.gif
+- /mobileanalytics.
+- /modoweb-tracking/
+- /module/analytics/
+- /moduleTracker.
+- /momentum-tracking/
+- /monetization/pixel-
+- /mongoose.fp.js
+- /monitor/log/
+- /monitor?rtype=
+- /monitus.js
+- /moose-track.
+- /morega.js
+- /mormont.js
+- /mouseover-tracker.
+- /mousetrap/mp-embed.
+- /mpel/mpel.js
+- /mpf-mediator.
+- /mpl/mpulse.
+- /mpulse.js
+- /mpulse.min.js
+- /msftaudience.
+- /mstartracking/
+- /mstat/
+- /mstats.
+- /mstr?phpsessid=
+- /mstrack/
+- /mtiFontTrackingCode.
+- /mtrack.nl/js/
+- /mtracking.
+- /mtvi_reporting.js
+- /mvTracker.
+- /mwTag.js
+- /mwtag_flash.js
+- /myasg/stats_js.asp
+- /mycounter/counter_in.php?
+- /myImage.track?
+- /myopslogger.
+- /mystats.asp?
+- /mystats/track.js
+- /mystats2.px?
+- /myTracking.js
+- /natero_analytics.
+- /native-tag.
+- /navbar-analytics.js
+- /naveggQry-
+- /NavMultiTracking.
+- /naytev.min.js
+- /nbc-stats/
+- /ncj-pixel.js
+- /ncp/checkBrowser?
+- /nct.php?nid=
+- /nedstat.
+- /neilson.js
+- /neocounter.
+- /neocounter/
+- /netconversions.
+- /netcounter?
+- /netgraviton.net/
+- /netizen_track.
+- /netmind-*.js
+- /netmining.js
+- /netratings.js
+- /netresults.js
+- /netrum.
+- /netstat.
+- /nettracker.js
+- /nettracker/
+- /netupdate/live.php?
+- /NetworkTracking.
+- /neustar.beacon.
+- /new.cnt.aspx?
+- /newlog.php?
+- /newrelic.js
+- /newrelicKpis-
+- /newrelicKpisFooter-
+- /newscount/
+- /newSophus/
+- /newsstat/
+- /newstat/
+- /newstatsinc.
+- /nextPerformanceRetargeting.
+- /nielsen.htm
+- /nielsen.js
+- /nielsen.min.
+- /nielsen.track
+- /Nielsen.v53.
+- /Nielsen53.
+- /nielsen_geotarget/
+- /nielsen_v53.
+- /NielsenAnalytics.
+- /NielsenData/
+- /nielsenscv53.*.js
+- /NielsenTracking.
+- /nielson/track
+- /nielson_stats.
+- /nikioWSJCallback.
+- /ninemsn.tracking.
+- /ninja-panamera.js
+- /NitroCookies.js
+- /njs.gif?
+- /nLoggerJB_
+- /nm_ga_bottom.
+- /nm_ga_top_
+- /nm_tr_combined-min.js
+- /nm_tr_combined.js
+- /nm_track.js
+- /nm_trck.gif?
+- /NNAnalytics.
+- /NNAnalytics/
+- /no-impression.gif?
+- /np?log=
+- /npssurvey.
+- /nsimpression/
+- /nStat/
+- /ntpagetag-
+- /ntpagetag.
+- /ntpagetag_
+- /ntpagetaghttps.
+- /ntrack.asp?
+- /null.gif?
+- /numericAnalyticsFramework.
+- /nx_stat.
+- /o.jpg?*&ref=
+- /o.svg?
+- /o_code.js
+- /o_tealium.
+- /oas_analytics.
+- /object_stats.
+- /observations/capture?
+- /ocount.php
+- /ocounter.
+- /odoscope.js
+- /oewa_pixel_
+- /olx/tracker.
+- /om.gif?
+- /om_ctrack.
+- /om_tracking_
+- /omega?ad_
+- /omega?tceRow_
+- /omgpixel.
+- /omni-tracking.
+- /omnidiggthis
+- /omnipagetrack.
+# /omniture.do;$image
+- /omniture/sphere
+- /omniture/tracking.
+- /omniture/visitorapi.
+- /omnitureAMP.
+- /OmnitureAnalytics.
+# /OmnitureTracking_$object-subrequest
+- /omniunih.js
+- /oms_analytics_
+- /onedot.php?
+- /onestat.js
+- /onetag/
+- /onfocus-tag.
+- /onlinecount.php
+- /onsitegeo.
+- /opdc.gif?
+- /opdc.js
+- /open.aspx?
+- /open/log/
+- /opentag-
+- /opentag/
+- /openxblank.gif?
+- /openxtargeting.js
+- /opinionlab.js
+# /optimizely.$domain=~optimizely.com
+- /optimizely/*.js
+- /optimost-
+- /optimost.
+- /Optimost/
+- /optimost_
+- /optimostBody1.
+- /optimostBody2.
+- /optimostfoot.
+- /OptimostFooter.
+- /optimosthead.
+- /optimosthead/
+- /optimostHeader.
+- /optimostHeader1.
+- /optimostHeader2.
+- /OptimostPageCode.
+- /ordertrack/
+- /osGoogleAnalytics.
+- /ositTracker.
+- /ot_e404.gif?
+- /other-analitycs/
+- /ouibounce.min.js
+- /ovstats.
+- /ow_analytics.
+- /owa.Analytics.
+- /owa.tracker-combined-min.js
+- /ox_stats.
+- /oxtracker.
+- /packed.analytics.
+- /page-analytics.
+- /page-track.
+- /page-view.gif?
+- /page.gif?p=
+- /page?referUrl=
+- /page_analytics.
+- /page_counter.
+- /page_imp;
+- /pagead/conversion_
+- /PageCount.php?
+- /pageCounter.adp?
+- /pagedot.gif?
+- /pageeventcounter;
+- /PageHit.ashx
+- /PageHitPixel.
+- /pagehits/
+- /pagelogger/connector.php?
+- /pageloggerobyx.
+- /pages/analytics-*.js
+- /pagestat/
+- /pagestat?
+- /PageStatistics/
+- /PageStats.
+- /pagestats/
+- /pagetag.gif?
+- /pageTag?
+- /PageTrack.js
+- /pagetrack.php?
+- /PageTracker.
+- /pageTracker/?
+- /PageTracker?
+- /pageTracker_
+- /pageTrackerEvent.
+- /pageTracking.js
+- /pageView.act/
+- /pageview.ashx
+- /pageview.js
+- /pageview;
+- /pageview?*&referrer=
+- /pageview?pageId=
+- /pageview?pageviewId
+- /pageview?user_guid=
+- /pageviews-counter-
+- /pageviews.gif?
+# /pageviews/*$domain=~stats.wikimedia.org|~tools.wmflabs.org
+- /pageviews?token=
+- /pageviews_counter.
+- /PageviewsTracker.
+- /pap.swf?
+- /particles/analytics.
+# /partner/transparent_pixel-$image
+- /pbasitetracker.
+- /PBSTrackingPlugIn.
+- /pc-log?
+- /pcookie_get_key
+- /pcount.asp
+- /Peermap/Log/
+- /performance.fcgi?
+- /performance_timing/log?
+- /performance_tracker-
+- /performancetimer.js
+- /permalink-tracker.html?
+- /pf?pid=
+- /pg_pixel?
+- /pgtracking.
+- /pgtrackingV3.
+- /php-stats.js
+- /php-stats.php?
+- /php-stats.phpjs.php?
+- /php-stats.recjs.php?
+- /php/stats.php?
+- /php/stats/
+- /phpmyvisites.js
+- /pic.gif?m=
+- /pic.gif?url=
+- /ping.*&referrer=
+- /ping.*/ping.js
+- /ping.gif?
+- /ping.php?sid=
+- /ping.png?session=
+- /ping/?p=
+- /ping/?url=
+- /ping/pageload?
+- /ping/show?
+- /ping?h=
+- /ping?spacedesc
+- /ping?token=
+- /ping_g.jsp?
+- /ping_hotclick.js
+- /pingAlt.php?*&referrer=
+- /pingd?
+- /pinger.cgi?
+- /PingPixel.
+- /pingServerAction?
+- /pippio.
+- /pistats/cgi-bin/
+# /piwik-$domain=~github.com|~matomo.org|~piwik.org
+# /piwik.$image,script,domain=~matomo.org|~piwik.org
+- /piwik.*/ping?
+- /piwik.php
+# /piwik/*$domain=~github.com|~matomo.org|~piwik.org
+- /piwik1.
+- /piwik2.js
+- /piwik_
+- /piwikapi.js
+- /piwikC_
+- /piwikTracker.
+- /pix.fcg?
+- /pix.fly/
+- /pix.gif?
+- /pix/*&tracker=
+- /pixall.min.js
+- /pixel-events.
+- /pixel-manager.js?
+- /pixel-page.html
+- /pixel-render/
+- /pixel-track.
+- /pixel.*/track/
+- /pixel.aspx?
+- /pixel.cgi?
+- /pixel.fingerprint.
+- /pixel.gif/sensor?
+- /pixel.gif?
+- /pixel.json?
+- /pixel.jsp?
+- /pixel.php?
+- /Pixel.pl?
+- /pixel.png?
+- /pixel.swf?
+- /pixel.track2?
+- /pixel.track?
+- /pixel/*?url=
+- /pixel/?__tracker
+- /pixel/conv/
+- /pixel/cv?
+- /pixel/cv_
+- /pixel/ga-
+- /pixel/gtm-
+- /pixel/img/
+- /pixel/impression/
+- /pixel/js/
+- /pixel/stream/
+- /pixel/visit?
+- /pixel1/impression.
+- /pixel?google_
+- /pixel?id=
+- /pixel?m=
+- /pixel?sm_
+- /pixel?tag=
+- /pixel?type=
+- /pixel_iframe.
+- /pixel_track.
+- /pixel_tracking.
+- /pixel_V2.
+- /pixelappcollector.
+- /pixelcounter.
+- /pixelframe/
+- /PixelImg.asp
+- /pixeljs/
+- /pixellog.
+- /PixelNedstat.
+- /pixelNew.js
+- /pixels.jsp?
+- /pixelstats/
+- /pixeltag.
+- /pixelTargetingCacheBuster.
+- /pixeltrack.php?
+- /pixeltracker.
+- /PixelTracking.
+- /pixeltracking/
+- /pixiedust-build.js
+- /pixLogVisit.
+- /pixMark.png?
+- /pixy.gif?
+- /PKAnalytics.
+- /pladtrack.
+- /planetstat.
+- /player_counter.ashx?
+- /PlayerDashboardLoggingService.svc/json/StartSession?
+- /playerlogger.
+- /playerstats.gif?
+- /playertracking/
+- /plgtrafic.
+- /plingatracker.
+- /plog?id
+- /pluck-tracking.
+- /plugins/catman/
+- /plugins/stat-dfp/
+- /plugins/status.gif?
+- /plugins/userinfo.gif?
+- /plugins/visitors-traffic-
+- /plugins/wordfence/visitor.php?
+- /plzcrawlme.js
+- /pm/pixel.
+- /PmsPixel?
+- /pmspxl.
+- /point_roll.
+- /pointeur.gif?
+- /PointRoll.
+- /PointRollAnonymous.
+- /pomegranate.js
+- /popanalytics.
+- /popupCookieWriter.
+- /popuplog/
+- /post-tracking/
+- /postlog?
+- /postview.gif?
+- /powercount.
+- /powr-counter.
+- /pphlogger.
+- /pr.php?
+- /presslabs.js*.js
+# /prime-email-metrics/*$image
+- /printtracker.js
+- /prn.google.analytics.
+- /prnx_track.
+- /pro-ping.php?
+- /probance_tracker.
+- /process.php?ut=*&rf=
+- /prod-analytics.
+- /prodtracker?
+- /profile_tracker.
+- /promo_tracking/
+- /promos/pixels?
+- /propagate_cookie.
+- /prum.
+- /pstats.
+- /pt.gif?type=
+- /ptmd?t=
+- /ptrack.
+# /pub/as?_ri_=$image
+- /pub/imp?
+- /pubfooter/js/tracking-
+- /pubimppixel/
+- /public/analytics.js
+- /public/visitor.json?
+- /public/visitor/create?
+- /publishertag.js
+- /pubstats.
+- /pubtag.js?
+- /pushlog.
+- /pv.gif?1=
+- /pv.gif?url
+- /pv.txt?
+- /pv/?aid=
+- /pv/code.asp?
+- /pv/new?
+- /pv?fe=*&elg=
+- /pv?place=
+- /pv?token=
+- /pv_count.
+- /pvcount.
+- /pvcounter.
+- /pvcounter/
+- /pvcounter?
+- /pvevent_
+- /pview?event
+- /pvmax.js
+- /pvnoju.js
+- /pvserver/pv.js
+- /PvServlet?
+- /pw.js?deskurl=
+- /px.gif?
+- /px.js?ch=*.js
+- /px/*/blank.gif?
+- /px?t=
+- /px_trans.gif
+- /pxa.min.js
+- /pxgif/
+- /pxl.cgi?
+- /pxl.gif?
+- /pxlctl.
+- /pxls/
+- /pxlspamanalyst-
+- /pxtrk.gif
+- /pzn/proxysignature
+- /qa-tracker.
+- /qlitics.js
+- /qtracker-
+- /QualtricsSurvey.
+- /quant.js
+- /quant.swf?
+- /quantcast.js
+- /quantcast.xml
+- /quantcast/
+- /quantcast_
+- /QuantcastAnalyticsModule.
+- /quantcastjs/
+- /quantserve.com/
+- /quantv2.swf?
+- /qubit-integration1.
+- /qubit-integration2.
+- /qubittracker/
+- /questus/
+- /quidsi.ga.js?
+- /r/collect?
+- /ra_track.
+- /radar/trace?
+- /radio-analytics.htm
+- /RadioAnalytics.js
+- /RadioAnalyticsIframe.js
+- /radium-one.js
+- /rbi_us.js
+- /rbipt.gif?
+- /rbipt.js
+- /rcAnalyticsLib.
+- /rcdntpagetag.js
+- /rcmd_track.
+- /rcpganalytics-
+- /rcpganalytics/
+- /readcounter.aspx?
+- /readomniturecookie.
+# /readReceipt/notify/?img=$image
+- /readtracker-
+- /realytics-
+- /recommendtrack?
+- /record-impressions.
+- /record-stats?
+- /record.do?
+- /record_clicks.
+- /record_visitor.
+- /RecordClick.
+- /RecordClickv2.
+- /RecordHit?
+- /recstatsv2.
+- /redirectexittrack.php?
+- /redx/c.gif?
+- /ref_analytics.
+- /refer-tracking.
+- /referadd?
+- /referer.gif?
+- /referer_frame.
+- /refererRecord.
+- /referral_tracker.
+- /referral_tracking.
+- /referrer.js
+- /referrer.php?*http
+- /referrer_invisible.js?
+- /referrer_tracking.
+- /RefinedAdsTracker.swf
+- /refresh_uid?*.js
+- /refstats.asp?
+- /reg_stat.php?
+- /register_pageview?
+- /register_stats.php?
+- /register_video_*&server=
+- /registeradevent?
+- /RegisterWebPageVisit.
+- /RemoteTargetingService.
+- /remoteTrackingManager.cfc?*trackPage&
+- /render?trackingId=
+- /repdata.*/b/ss/
+- /report-re.
+- /report/click?
+- /report/impression?
+- /report?event_
+- /report_visit.
+- /reporting/analytics.js
+- /request_tracker+
+- /RequestTrackerServlet?
+- /RequestVideoTag.
+- /res/x.gif?
+- /resmeter.js
+- /resourcestat.
+- /rest/analytics/
+- /restats_
+- /resxclsa.
+- /resxclsa_
+- /ret_pixels/
+- /retargetingScript/
+- /revenue-science.
+- /revenuescience.
+- /revenuescience_
+- /RevenueScienceAPI.
+- /revinit.js
+- /revsci.
+- /revtracking/
+- /RioTracking2.
+- /risk_fp_log?
+- /riveted.min.js
+- /rkrt_tracker-
+- /rm.gif?
+- /RMAnalytics.
+- /roi_tracker.
+- /roiengine.
+- /roitrack.
+- /roitracker.
+- /roitracker2.
+- /roiTrax.
+- /rolluptracker_
+- /rot_in.php
+- /rpc.gif?ac=
+- /rpc/log?
+- /rpc/preccount?
+- /rpFingerprint?
+- /rr/t?step=
+- /rsya-tag-users/
+- /rt_tag.
+- /rt_track.
+- /rt_track_
+- /rtac/gif?
+- /rtd.js
+- /rtkbeacon.gif?
+- /rtm-tracking.
+- /rtoaster.js
+- /rtracker.
+- /rtt-log-data?
+- /rtu-monitoring.
+- /rubics_trk
+- /rubicsimp/c.gif?
+- /rum-dytrc.
+- /rum-track?
+- /rum.gif?
+- /rum.min.
+- /rum/id?
+- /rumstat.
+- /rumtag.
+- /runtimejs/intercept/
+- /ruxitagentjs_
+- /rwtag.gif?
+- /rwtag.js
+- /rwtaghome.js
+- /s-pcjs.php
+- /s.ashx?u=
+- /s.aspx?r=
+- /s.gif?a=
+- /s.gif?l=
+- /s.gif?log=
+- /s.gif?t=
+- /s1.php?type=
+- /s_trans.gif?
+- /s_trans_nc.
+- /sa.gif?
+- /sage_tracker.
+- /salog.js
+- /SAPOWebAnalytics/
+- /save_stats.php?
+- /saveStats.php?
+- /savetracking?
+- /sb.logger.js
+- /sb.trackers.js
+- /sbtracking/pageview2?
+- /sc_trackingid.
+- /sclanalyticstag.
+- /scmetrics.*/b/ss/
+- /script/analytics.
+- /script/analytics/
+- /script/logger.
+- /script/pixel.js
+- /script/track?url=
+- /script_log.
+- /scriptAnalytics.
+- /scripts.kissmetrics.com/
+- /scripts/analytics.
+- /scripts/analytics_
+- /scripts/clickjs.php
+- /scripts/contador.
+- /scripts/ga.js
+- /scripts/hbx.js
+- /scripts/log.
+- /scripts/statistics/
+- /scripts/stats/
+- /scripts/tracking.js
+- /scripts/xiti/
+- /sctracker.
+- /sdc1.js
+- /sdc2.js
+- /sdc3.js
+- /sdc_reporting_
+- /sdc_tag.
+- /sdctag.
+- /sdctag1.js
+- /sdctag2.js
+- /sdxp1/dru4/meta?_hc=
+- /searchIgnite.
+- /searchMetric.
+- /secure-stats.
+- /securetracker.
+- /seed.gif?
+- /segmentio.js
+- /segmentIoTrackingProvider.js
+- /SellathonCounterService.
+- /semanticTagService.js
+- /semsocial/*/analytics.js
+- /SEMTracking.
+- /send-impressions.html
+- /sensor/statistic?
+- /sensorsdata-
+# /sensorsdata.$domain=~sensorsdata.cn
+- /seo.googleAnalytics-
+- /seo.googleAnalytics.
+- /seo.tagCommander-
+- /seo.tagCommander.
+- /seo/tr_aff_
+- /seomonitor/
+- /seosite-tracker/
+- /seostats/
+- /seoTracker.
+- /seotracker/
+- /SEOTracking.
+- /serve/mtrcs_
+- /server.php?request=track&output=
+- /server/detect.php?
+- /service/track?
+- /services/analytics/
+- /services/counter/
+- /services/counters/
+- /services/pixel.html?
+- /servlet/Cookie?
+- /session-hit.
+- /session-tracker/tracking-
+- /sessioncam.min.*.js
+- /sessioncam.recorder.js
+- /sessioncam/
+- /set-cookie.gif?
+- /set_cookie.php?
+- /set_tracking.js
+- /SETCOOKAFF.
+- /setcooki.
+- /setcookie.php?
+- /setcookie?
+- /setcookieADV.js
+- /SetSabreAnalyticsCookie.
+- /setTDUID.do?
+- /shareCounts.
+- /shareTrackClient.
+- /sherlock.gif?
+- /shinystat.
+- /shinystat_
+- /shopify_stats.js
+- /showcounter.
+- /showhits.php?
+- /si-tracking.
+- /sidebarAnalytic?
+- /sidtracker.
+- /sikcomscore_
+- /sikquantcast_
+- /SilverPop.
+- /silverpop/
+- /simple-tracking?
+- /simple_reach.js
+- /simplereach_counts/
+- /simtracker.min.js
+- /siq-analytics.
+- /site-tracker-
+- /site-tracker.
+- /site-tracker_
+- /site_counter.
+- /site_counter?
+- /site_statistics.
+- /site_stats.
+- /site_stats/
+- /site_tracking.
+- /siteAnalytics-
+- /siteAnalytics.
+- /siteanalytics_
+- /sitecatalist.js
+- /sitecatalyst/tracking.
+- /sitecounter/counter.
+- /sitecrm.js
+- /sitecrm2.js
+- /siteskan.com/
+- /sitestat.
+- /sitestat_
+- /sitestatforms.
+- /sitestats.gif?
+- /SiteTracker.
+- /sitetracker21.
+- /SiteTrackingGA.
+- /sitetrek.js
+- /sizes.gif?*=
+- /sk1n-async.
+- /skstats-
+- /skstats_
+- /skype-analytics.
+- /sl.gif?1=
+- /slimstat/
+- /small.gif?type
+- /smartpixel-1.js
+# /smartpixel.$domain=~smartpixel.tv
+- /smartrack/
+- /smarttag-prod.
+- /smarttag.js
+- /smarttag/smarttag-
+- /smetrics.*/b/ss/
+- /smetrics.*/id?
+- /smg_tracking/
+- /snowman.gif?p=
+- /snowplow.js*.js
+- /snowplow/*.js
+- /social_tracking.
+- /socialButtonTracker.
+- /SocialSharingTracking.
+- /SocialTrack_
+- /socialtracking.min.js
+- /softclick.js
+- /softpage/stats_registerhit.asp?
+- /solarcode.js
+- /sometrics/
+- /sophus.js
+- /sophus/logging.js
+- /sophus3/
+- /sophus3_logging.js
+- /sophusThree-
+- /sovrn_beacon_
+- /sp-2.0.0.min.js
+- /sp-analytics-
+- /sp_logging.
+- /sp_tracker.
+- /space.gif?host=
+- /spacer.gif?
+- /spannerworks-tracking-
+- /speedlog?ts=
+- /SpeedTrapInsert.
+- /spi.gif?aid=
+- /spip.php?page=stats.js
+- /spixel.
+- /sponsorship_stats/
+- /spot.aspx?Log=
+- /springmetrics.
+- /sptlog.
+- /spylog_
+- /sr.gif?
+- /sra_analytics.
+- /sranalytics.
+- /src/tracking_
+- /srp.gif?
+- /ssl-intgr-net/
+- /SSOCore/update?
+- /sst8.js
+- /sst8.sst?
+- /sstat_plugin.js
+- /sstlm8.sst?
+- /st.aspx?
+- /stat-analytics/
+- /stat.asmx
+- /stat.aspx?
+- /stat.gif?
+- /stat.htm?
+- /stat.js?
+- /stat.php?
+- /stat.png?
+- /stat.tiff?
+- /stat/ad?
+- /stat/count
+- /stat/event?
+- /stat/fe?
+- /stat/inserthit.
+- /stat/track.php?mode=js
+- /stat/track_
+- /stat/tracker.
+- /stat/uvstat?
+- /stat2.aspx?
+- /stat2.js
+- /stat36/stat/track.php
+- /stat?event=
+- /stat?sid=
+- /stat?SiteID=
+- /stat?track=
+- /stat_callback.
+- /stat_click.
+- /stat_js.asp?
+- /stat_origin.gif?
+- /stat_page.
+- /stat_page2.
+- /stat_search.
+- /stat_visits.
+- /stat_vue.php?
+- /stataffs/track.php?
+- /statcapture.
+- /StatCms/ViewCount?
+- /statcollector.
+- /statcount.
+- /statcounter.asp
+- /statcounter.js
+- /statcountex/count.asp?
+- /stateye/
+- /static-tracking/*.js
+- /static/tracking/
+- /statics/analytics.js?
+- /statistic/*&data=
+- /statistics-desktop.js
+- /statistics-page-view/
+- /statistics.asp?
+- /statistics.aspx?profile
+- /statistics.html?action=
+- /statistics.js?
+- /statistics.php?data=
+- /statistics/fab.
+- /statistics/ga.
+- /statistics/get?
+- /statistics/getcook.php?
+- /statistics/imr.
+- /statistics/logging/
+- /statistics/metrica.
+- /statistics/pageStat/
+- /statistics/ping.
+- /statistics/set?
+- /statistics?counter=
+- /statistics?eventType=
+- /StatisticService.m?
+- /statlogger.
+- /stats-amp.
+- /stats-dc1.
+- /stats-js.cgi?
+- /stats-tracking.js
+- /stats.*/hits/
+- /stats.asp?id
+# /stats.cgi$image
+- /stats.gif?
+- /stats.hitbox.com/
+- /stats.php?*http
+- /stats.php?type=
+- /stats.php?uri=
+# /stats/*?category=$image
+- /stats/?js
+- /stats/?ref=
+- /stats/?rt=
+- /stats/add/
+- /stats/adonis_
+- /stats/collector.js
+- /stats/common/
+- /stats/count.
+- /stats/counter.
+- /stats/CounterPage.
+- /stats/dlcount_
+- /stats/et_track.asp?
+- /stats/event.js?
+- /stats/ga.
+- /stats/impression
+- /stats/imr.
+- /stats/init.
+- /stats/log.
+- /stats/Logger?
+- /stats/lookup?
+- /stats/lp.min.
+- /stats/mark?
+- /stats/metrica.
+- /stats/metrics/
+- /stats/mixpanel-
+- /stats/page_view_
+- /stats/pgview.
+- /stats/ping?
+- /stats/pv.
+- /stats/record.php?
+- /stats/services/
+- /stats/track.asp?
+- /stats/tracker.js
+- /stats/tracking.
+- /stats/welcome.php?
+- /stats/xmsg_
+- /stats/xtcore.
+- /stats?aid=
+- /stats?blog_
+- /stats?callback=
+- /stats?ev=
+- /stats?object
+- /stats?sid=
+# /stats?style$~xmlhttprequest
+- /stats_adcalls/
+- /stats_blog.js?
+- /stats_brand.js
+- /stats_clicks.
+- /stats_js.asp?
+- /stats_tracker.
+- /stats_video_
+- /statsadvance.js
+- /StatsCollector/
+- /statscounter/
+- /statscript.js
+- /statsd_proxy
+- /StatsHelper.gif?
+- /StatsMngrWebInterface.
+- /statspider?
+- /statspixel.
+- /StatsRadioAnalyticsHub.htm
+- /statstracker/
+- /statstracker?
+- /statsupdater.
+- /stattracker-
+- /status-beacon/
+- /status.gif?*=
+- /StatV1?
+- /stcollection.
+- /store-uniq-client-id?bomuuid=
+- /storeAdvImpression.
+- /stracking.js
+- /sTrackStats.
+- /stream/log.html?
+- /stt/track.
+- /stt/track/
+- /stwc-counter/
+- /stwc/code.js
+- /supercookie.
+- /superstats.
+- /supertracking.
+- /surphace_track.
+- /survey_invite_
+- /surveyoverlay/
+- /swa_t.gif?
+- /swatag.js
+- /swfaddress.js?tracker=
+- /swptrk.
+- /syn/mail_s.php?
+- /sync.gif?partner_
+- /synd.aspx
+- /syndication/metrics/
+- /syndstats.
+- /szm_mclient.js
+- /t-richrelevance-
+# /t.*?ref=$~xmlhttprequest
+- /t.gif?
+- /t/event.js?
+- /t/event?
+- /t?referer=
+- /tablytics.
+- /tacoda.
+- /tacoda_
+- /TacodaFTT.
+- /taevents-
+- /tag/tag.jsp?
+- /tagAnalyticsCNIL.
+- /tagCNIL.js
+- /TagCommander.cfc?
+- /tagcommander.js
+- /tagcommander_
+- /tagmanager/pptm.
+- /tagmgmt/bootstrap.
+- /tagomnitureengine.js
+- /tags/angular-
+- /tags?org_id=
+- /tags?session_id=
+- /TagSvc/
+- /tagx.js
+- /tailtarget.js
+- /targetemsecure.
+- /targeting/render.
+- /taxtag.js
+- /tblz_sailthru/
+- /tbuy/tracker/
+- /tc_logging.js
+- /tc_targeting.
+- /tc_throttle.js
+- /TCMAnalytics_
+- /tda.*/in.gif
+- /tealeaf.cgi
+- /TeaLeaf.js
+- /TeaLeafCfg.js
+- /TealeafSDK.js
+- /TealeafSDKConfig.js
+- /tealium-analytics.
+- /tealium-api/
+- /tealium-udo.
+- /tealium-web/
+- /tealium.js
+- /tealiumpixel.
+- /tenping.cpa.
+- /textlink.php?text
+- /thbeacon/
+- /thetracker.js
+- /third-party-analitycs/
+- /third-party-stats/
+- /third-party/tracking.
+- /thirdpartyCookie.
+- /thirdPartyPixel.
+- /thirdPartyTags.js
+- /thirdPartyTagscachebuster.js
+- /ThirdPartyTracking.
+- /thuzianayltics.
+- /ti.gif?slotid=
+- /tiara/tracker/
+- /tide_stat.js
+- /timeslog.
+- /timestrend_
+- /tiwik.
+- /tjp_beacon.
+- /tmpstats.gif?
+- /tmv11.
+- /tnc.js?h=
+- /tnc?_t=
+- /tncms/tracking.js
+- /tns_gallup/
+- /tnsCounter.
+- /tnsmetrix/
+- /token?referer=
+- /tongji.js
+- /tools/analytics/
+- /top_tagcommander+
+- /topic_beat_log?
+- /topic_page_timer?
+- /toplytics.js
+- /tops-counter?
+- /touchclarity/
+- /tp.gif?
+- /tpix.gif?
+- /tPx.gif?
+- /tr.gif?
+- /tr/p.gif?
+- /tracciamento.php?
+- /trace-Update.php?
+- /trace?sessionid=
+- /traces.php?
+- /tracing?aspect=
+- /track-action/
+- /track-compiled.js
+- /track-cookies.
+- /track-event.
+- /track-internal-links.
+- /track-opening/
+- /track-referrals.js
+- /track.ads/
+- /track.ashx?*=http
+- /Track.aspx/
+- /track.aspx?
+- /track.cgi?
+- /track.gif/
+- /track.js?referrer
+- /track.js?screen=
+- /track.p?
+- /track.php?*&uid=
+- /track.php?referrer=
+- /track.png?
+- /track.srv.
+- /track/*&CheckCookieId=
+- /track/*&event=
+- /track/*&siteurl=
+# /track/*?rnd=0.$image
+- /track/?site
+- /track/a.gif?
+- /track/aggregate?
+- /Track/Capture.aspx?
+- /track/component/
+- /track/count*js
+- /track/event/
+- /track/imp?
+- /track/impression/
+- /track/impression?
+- /track/jsinfo
+- /track/mygreendot/
+- /track/pix.asp?
+- /track/pix2.asp?
+- /track/pixel.
+- /track/pixel/
+- /track/read/
+- /track/site/
+- /track/track-
+- /track/track.php?
+- /track/usage.
+- /track/view/
+- /track/visitors/?
+- /track/visits/?
+- /track2.php
+- /track;adv
+- /track?*&event=
+- /track?*&ref=
+- /track?browserId
+- /track?cb=
+- /track?event=
+- /track?name=
+- /track?referer=
+- /track?ts=*&domain=
+- /track?wm_
+- /track_click?
+- /track_clicks_
+- /track_event.
+- /track_in_overwatch.gif?
+- /track_js/?
+- /track_metric/
+- /track_pageview?
+- /track_proxy?
+- /track_social.
+- /track_stat?
+- /track_video.php?id=
+- /track_views.
+- /track_visit.
+- /track_visit?
+- /track_yt_vids.
+- /trackad.
+- /trackAdHit.
+- /trackalyze/*.js
+- /TrackClick.
+- /trackClickAsync.
+- /trackClickEvent.js
+- /trackContentViews.
+- /trackconversion?
+- /tracker-config.js
+- /tracker-ev-sdk.js
+- /tracker-pb-min-rem.js
+- /tracker-r1.js
+- /tracker-setting.js
+- /tracker.*/visit?
+- /tracker.do?
+- /tracker.gif?
+- /tracker.js.php?
+- /tracker.json.php?
+- /tracker.log?
+- /tracker.min.js
+- /tracker.pack.
+- /tracker.php?
+- /tracker.pl?
+- /tracker.tsp?
+- /tracker/aptimized-
+- /tracker/canvas.ashx
+- /tracker/emos2_
+- /tracker/event?
+- /tracker/eventBatch/
+- /tracker/imp?
+- /tracker/index.jsp?
+- /tracker/log?
+- /tracker/logs.php
+- /tracker/p.gif?
+- /tracker/ping/
+- /tracker/receiver/
+- /tracker/referrer/
+- /tracker/story.jpg?
+- /tracker/t.php?
+- /tracker/track.php?
+- /tracker/track?
+# /tracker/tracker-$domain=~bugs.chromium.org
+- /tracker/tracker.js
+- /tracker2.js
+- /tracker?*=
+- /tracker_activityStream.
+- /tracker_article
+- /tracker_async.
+- /tracker_czn.tsp?
+- /tracker_gif.
+- /tracker_pageview.
+- /tracker_pixel.
+- /TrackerAS3.
+- /trackerGif?
+- /TrackerHandler.
+- /trackerLog.php?
+- /trackerpixel.js
+- /trackers/hp_conversion-
+- /trackerstatistik.
+- /trackEvent.js?
+- /trackEvent.min.js?
+- /trackga.
+- /trackGAEvents.
+- /trackhandler.ashx?
+- /trackimage/
+- /trackImpression/
+- /trackimps?
+- /tracking-active/
+- /tracking-ad/
+- /tracking-aws.
+- /tracking-cookie.
+- /tracking-hits.
+- /tracking-info.gif?
+- /tracking-init.
+- /tracking-jquery-shim.
+- /tracking-links.js
+- /tracking-pixel.
+- /tracking-pixel/
+- /tracking-portlet/
+- /tracking-script/
+- /tracking-v3.
+- /tracking-widget.
+- /tracking.*/impression?
+- /tracking.*/view?
+- /tracking.*/viewRes?
+- /tracking.ashx?
+- /tracking.cgi?
+- /tracking.fcgi?
+- /tracking.gif?
+- /tracking.js?async=
+- /tracking.jsp
+- /tracking.php?id
+- /tracking.php?q=
+- /tracking.phtml?
+- /tracking.png?
+- /tracking.relead.
+- /tracking.vidt
+- /tracking/*/agof-
+- /tracking/?c_
+- /tracking/addview/
+- /tracking/adobe.js
+- /tracking/adobe/
+- /tracking/ads.
+- /tracking/analytics/
+- /tracking/article.
+- /tracking/article/
+- /tracking/at.js
+- /tracking/beacon/?
+- /tracking/click?
+- /tracking/clicks
+- /tracking/comscore/
+- /tracking/count
+- /tracking/create?
+- /tracking/csp?
+- /tracking/digitalData.
+- /tracking/epixels.
+- /tracking/events?
+- /tracking/fingerprint/
+- /tracking/impression/
+- /tracking/index.
+- /tracking/json2.
+- /tracking/log.php?
+- /tracking/open?
+- /tracking/pageview.
+- /tracking/pixel.
+- /tracking/pixel/
+- /tracking/pixel_
+- /tracking/pixels.
+- /tracking/referrer?
+- /tracking/ret.
+- /tracking/setTracker/
+- /tracking/simplified_
+- /tracking/srv.
+- /tracking/t.srv?
+- /tracking/tag_commander.php?
+- /tracking/track.jsp?
+- /tracking/track.php?
+- /tracking/track_
+- /tracking/tracker.
+- /tracking/tracking.
+- /tracking/tracking_
+- /tracking/trk-
+- /tracking/ts?
+- /tracking/tynt_
+- /tracking/user_sync_widget?
+- /tracking/views/
+- /tracking/widget/
+- /tracking/xhl?
+- /tracking/xtcore.
+- /tracking202/
+- /Tracking?id=
+- /Tracking?t=
+- /tracking_add_ons.
+- /tracking_ajax.
+- /tracking_clic.
+- /tracking_clickevents.
+- /tracking_cookie_baker.
+- /tracking_eh.
+- /tracking_frame_
+- /tracking_headerJS_
+- /tracking_id_
+- /tracking_iframe.
+- /tracking_info.gif?
+- /tracking_link_cookie.
+- /tracking_NodeheaderJS.
+- /tracking_partenaire.
+- /tracking_pix.
+- /tracking_pixel
+- /tracking_super_hot.js
+- /trackingab?
+- /trackingapi.
+- /TrackingCentral.js
+- /trackingCode-
+- /trackingCode.js
+- /TrackingCookieCheck.
+- /trackingcookies.
+- /TrackingData.
+- /trackingDTM.js
+- /trackingfilter.json?
+- /trackingFooter.
+- /TrackingHandler.
+- /trackingheader.
+- /trackingImpression/
+- /trackingp.gif
+- /trackingPixel.
+- /TrackingPixel/
+- /trackingPixelForIframe.
+- /trackingpixels/get?referrer=
+- /trackings/addview/
+- /trackingScript1.
+- /trackingScript2.
+- /TrackingService.js
+- /trackingService.min.js
+- /trackingService/
+- /trackingVtm.
+- /trackinpage.js
+- /trackIt.js
+- /trackit.php?
+- /trackit.pl?
+- /trackjs.
+- /trackjs1.
+- /trackjs6.
+- /trackjs_
+- /tracklog.
+- /trackmerchant.js
+- /tracknat.
+- /trackopen.cgi?
+- /trackpagecover?
+- /trackpageview.
+- /trackPageView/
+- /trackpidv3.
+- /trackpix.
+- /trackpixel.
+- /trackpxl?
+- /trackr.swf
+- /TrackShopAnalytics.
+- /tracksrk.
+- /trackstats?
+- /tracksubprop.
+- /trackTimings.gif?
+- /trackuity.
+- /TrackUser?callback=
+- /trackv&tmp=
+# /TrackView/*$xmlhttprequest
+- /TrackView/?track
+- /TrackViews/
+- /trackVisit/
+- /trackvisit?
+- /TrackVisitors/
+- /tradelab.js
+- /traffic-source-cookie.
+- /traffic-source-cookie/
+- /traffic.asmx/
+- /traffic/status.gif?
+- /traffic/track/
+- /traffic4u.
+- /traffic_link_client.php?
+- /traffic_record.php?
+- /traffic_tracker.
+- /TrafficCookie.
+- /traffictracker.
+- /traffictrade/
+- /traffix-track.
+- /trafic.js
+- /trakksocial.js
+- /trans/logger.js
+- /trans_pixel.asp
+- /transparent1x1.
+- /trax.gif?
+- /traxis-logger.
+- /trbo.js
+- /trck/eclick/
+- /trck/etms/
+- /trckUtil.
+- /trclnk.js
+- /triggertag.js
+- /triggit-analytics.
+- /trk-fr.
+- /trk-off.
+- /trk.gif?
+- /trk.php?
+- /trk/p.gif?
+- /trk_zbo.
+- /trkpixel.gif
+- /trkr.js
+- /trkr/php?
+- /trovit-analytics.js
+- /truehits.php?
+- /trx?id=
+- /tse/tracking.
+- /tsrHitCounter.
+- /ttt.gif?
+- /tunestats.
+- /turn-proxy.html?
+- /tw-track.js
+- /TwitterTracking.
+- /tynt.js
+- /tzr.fcgi?
+- /uchkr.swf
+- /ucount.php?
+- /udctrack.
+- /uds/stats?
+- /uedata?
+- /uf-stat?
+- /ui/analytics/
+- /uim.html/
+- /ulpixel.
+- /ultra_track/
+- /umg-analytics/
+- /umt.gif?
+- /unica.gif?
+- /unica.js
+- /unica_
+- /UnicaTag.
+- /UniqueUserVisit?
+- /Universal-Federated-Analytics.
+- /universal-trackers/
+- /universal-tracking-
+- /universalPixelStatic.
+- /uo-stat?
+- /updateBotStatus.do?
+- /updateStats.
+- /urchin.gif?
+- /urchin.html?
+- /urchin.js
+- /urchinstats.
+- /URLSplitTrack?
+- /us.gif?
+- /userfly.js
+- /users/track?
+- /UserTraceCookie?
+- /usertrack.aspx?
+- /usertrack/sa.
+- /usertracking.js
+- /usertrackingajax.php?
+- /usr.gif?openratetracking=
+- /usrtrck-
+- /usrtrck_
+- /utag-dit.js
+- /utag.ga.
+- /utag.handler.js
+- /utag.loader-
+- /utag.loader.
+- /util/trk2.php?
+- /util/trk3.php?
+- /utm.gif?
+- /utm_cookie.
+- /utrack.js?
+- /utrack?
+- /utracker.js
+- /uts-no-vea.js
+- /uts-vec.
+- /uts/log?
+- /uts/t/
+- /uutils.fcg?
+- /uvstat.js
+- /uxm_tracking.
+- /v.gif?t=
+- /v1/pixel?
+- /v1/r.gif?
+- /v4/analytics.
+# /v4/analytics/*$~xmlhttprequest
+- /v5.3nse.
+- /v52.js
+- /v53.js
+- /v53nse.js
+- /v60.js
+- /valor_analytics.
+- /valor_analytics/
+- /valueclickbrands/
+- /vanillaanalytics/
+- /vanillastats/
+- /vanillastatsapp/
+- /vastlog.txt?
+- /vblank.gif?
+- /vblntpagetag.
+- /vecapture.js
+- /vendemologserver-
+- /vertical-stats.
+- /vglnk.js
+- /vgwort/
+- /video-ga.js
+- /video_count.php?
+- /videoanalytic/
+- /videoAnalytics.
+- /videojs.ga.
+- /videolog?vid=
+- /videotrack.js
+- /VideoTracking.
+- /videotracking/
+- /vidtrack.
+- /view-log?
+# /view-tracking/*$image
+- /view.gif?
+- /view_stats.js.php
+- /viewcount-service.
+- /viewcount.ashx?*&referrer=
+- /ViewCounter/
+- /viewcounterjqueryproxy.
+- /viewcounterproxy.
+- /views/s.gif?
+- /views/vw.js
+- /viewstats.aspx?
+- /viewtracking.aspx?
+- /viewTracking.min.js
+- /viglink_
+- /vip-analytics.
+- /viperbar/stats.php?
+- /visci-interface.
+- /visistat.js
+- /visit-tracker.js
+- /visit.gif?
+- /visit/log.js?
+- /visit/record.gif?
+- /visit/record?
+- /visit?id=
+- /visit_pixel?
+- /visit_tracking.
+- /VisitCounter.
+- /visitor-event?
+- /Visitor.aspx?
+- /visitor.cgi?aff
+- /visitor.gif?ts=
+- /visitor.js?key=
+- /visitor.min.js
+- /visitor/identity?
+# /visitor/index.php?*referrer$image
+- /visitor/segment?*=
+- /VisitorAPI.js
+- /visitorCookie.
+- /VisitorIdentification.js
+- /visitortrack?
+- /visitortracker.pl?
+- /visits/pixel?
+- /visits_contor.
+- /VisitSite.js
+- /VisitTracking?
+- /visitWebPage?_
+- /visual_revenue.
+- /visualdna-
+- /visualdna.
+- /visualrevenue.js
+- /visualsciences.
+- /visualsciences_
+- /visualstat/stat.php
+- /vjslog?
+- /vmtracking.
+- /vpstats.
+- /vptrack_
+- /vs-track.js
+- /vs.gif?
+- /vs/track.
+- /vs_track.
+- /vstat.php
+- /vstats/counter.php
+- /vstrack.
+- /vtrack.aspx
+- /vtrack.php?
+- /vtracker.
+- /vTracker_
+- /vuukle-analytics.
+- /vwFiles/analytics/
+- /vztrack.gif?
+- /vzTracker/
+- /wa01.gif?log=
+- /wa_tracker.
+- /wa_tracker_
+- /wadsAdsLoaded/
+- /wanalytics/
+- /watchonline_cookies.
+- /wcount.php?
+- /wdg/tracking-
+- /wdg_tracking-
+- /web-analytics.
+- /web/analytics.*.js
+- /web_analytics/
+- /web_answertip.
+- /web_cm_event?
+- /Web_JS.gif?
+- /web_page_view?
+- /web_traffic_capture.js
+- /webabacus-*.js
+- /WebAnalytics.
+- /webAnalytics/
+- /webanalytics3.
+- /WebAnalyticsInclude.
+- /webbug.png?
+- /webbug/
+- /webbug_c.gif?
+- /webcounter/
+- /webdig.js?z=
+- /webdig_test.js
+- /webforensics/
+- /webiq.
+- /webiq/
+- /webiq_
+- /weblog.*?cookie
+- /weblog.js?
+- /weblog.php?
+- /weblog/*&refer=
+- /weblog_*&wlog_
+- /WebLogScript.
+- /WebLogWriter.
+- /webmetricstracking.
+- /webmonitor/collect/
+- /WebPageEventLogger.
+- /webrec/wr.do?
+- /WebStat.asmx
+- /webstat.js
+- /webstat/cei_count.asp?
+- /WebStat2.
+- /webstat_
+- /webstatistics.php?
+- /WebStatistik/*.pl?
+- /webstatistik/track.asp
+- /webstats.js
+- /webstats.php
+- /webstats/index?
+- /webstats/stat
+- /webstats/track.php?
+- /webstats_counter/
+- /webtag.js
+- /webtrack.
+- /webtracker.
+# /webTracking.$domain=~webtracking.girard-agediss.com
+# /webtracking/*$~subdocument
+- /WebTrackingHandler.
+- /WebTrackingService.
+- /webtraffic.js
+- /webtraxs.
+- /WebTrendsAnalytics/
+- /wego.farmer.
+- /weizenbock/dist/
+# /wf/open?upn=$image
+- /wget?*&referer=
+- /wh_tracking.
+- /where-go-add.js
+- /who/?js
+- /wholinked.com/track
+- /whos.amung.us.classic.
+- /whoson_*_trackingonly.js
+- /wi?spot=
+- /widget/s.gif?
+- /wijitTrack.gif?
+- /WikiaStats/
+- /wildfire/i/CIMP.gif?
+- /wisdom_tracking.
+- /wiseRtSvcVisit.
+- /wjcounter-
+- /wjcounter.
+- /wjcountercore.
+- /wlexpert_tracker.
+- /wlexpert_tracker/
+- /wlog.php?
+- /wmxtracker.js
+- /woopra.js
+- /worldwide_analytics/
+- /wp-click-track/
+- /wp-clickmap/
+- /wp-content/tracker.
+- /wp-counter.php
+- /wp-js/analytics.
+- /wp-powerstat/
+- /wp-rum/
+- /wp-slimstat/
+- /wp-useronline/useronline.
+- /wp.gif?wpi
+- /wp_stat.php?
+- /wpblog.gif?
+- /wprum.
+- /wrapper/quantcast.swf
+- /Wrappers?cmd=
+- /WRb.js
+- /writeKAStats/
+# /writelog.$domain=~writelog.com
+- /WritePartnerCookie?
+- /writrak.
+- /written-analytics.
+- /wstat.pl
+- /wstats.php?
+- /wt.js?http
+- /wt.pl?p=
+- /wt?p=
+- /wt_capi.js
+- /wtbase.js
+- /wtcore.js
+- /wtd.gif?
+- /wtid.js
+- /wtinit.js
+- /wtstats/
+- /wusage_screen_properties.gif?
+- /wv326redirect_
+- /WWTracking_
+- /wysistat.js
+- /wz_logging.
+- /x/x.gif?
+# /xboxcom_pv?c=$image
+- /xgemius.
+- /xgemius_lv.
+- /xgemius_v2.
+- /xgenius.
+- /xitcore-min.js
+- /xiti.js
+- /xitistatus.js
+- /xmint/?js
+- /xn_track.
+- /xstat.aspx?
+- /xtanalyzer_roi.
+- /xtclick.
+- /xtclicks-*.js
+- /xtclicks.
+- /xtclicks_
+- /xtcore_
+- /xtcoreSimpleTag.
+- /xtplug.
+- /xtplugar.
+- /xtrack.*/?id=
+- /xtrack.php?
+- /xtrack.png?
+- /xtroi.js
+- /xy.gif?
+- /yad_sortab_cetlog.js
+- /yahoo-beacon.js
+- /yahoo_marketing.js
+- /yahooBeacon.
+- /yahooTracker/
+- /yalst/pixel*.php?
+- /yandex-metrica-watch/
+- /yandex-metrika.js
+- /yastat.js
+- /ybn_pixel/
+- /yell-analytics-
+- /yell-analytics.
+- /yna_stat.
+- /youtube-track-event_
+- /ystat.do
+- /ystat.js
+- /YuduStatistics/
+- /z.inc.php?
+- /zag.gif?
+- /zagcookie.
+- /zaguk.gif?
+- /ZagUser.js
+- /zaius-min.js
+- /zaius.gif?
+- /zanox.js
+- /zdgurgler.min.js
+- /zemtracker.
+- /zero.gif?*&uid=
+- /zig.js
+- /zig_c.min.js
+- /zonapixel.
+- /zone-log.
+- /ztagtrackedevent/
+- /zxc.gif?
+- /~r/Slashdot/slashdot/
+- /~utm_gif?
+- ://adclear.*/acc?
+- ://adclear.*/acv?
+- ://anx.*/anx.gif?
+- ://apex.*/apexTarget?
+- ://b.*/click?
+- ://b.*/ping?
+- ://b.*/vanity/?
+- ://c.*/c.gif?
+- ://c1.*/c.gif?
+- ://email.*/blankpixel.gif
+- ://eulerian.*/ea.js
+- ://gdyn.*/1.gif?
+- ://ivwextern.
+- ://mint.*/?js
+- ://piwik.
+- ://sett.*/log.js
+# ://sp.*/xyz?$image
+- ://tracking.*/beacon/
+- ;1x1inv=
+- ;manifest-analytics.js
+- ;sz=1x1;ord=
+- =&cs_Referer=
+- =ATAtracker&
+- =get_preroll_cookie&
+- =getSideStats&
+- =googleanalytics_
+- =metrics_profile&
+- =stats&action=
+- =stats&apiVersion=
+- =track_view&
+- =widgetimpression&
+- =xtcore.
+- ?&anticache=*filename.gif
+- ?[AQB]&ndh=1&t=
+- ?_cid=*&sxiti=
+- ?_siteid=
+- ?act=counter&
+- ?action=event&
+- ?action=track_visitor&
+- ?action=tracking_script
+- ?ad_played=
+- ?affiliate=
+- ?args=*&t=
+- ?begin_session=*&metrics=
+- ?bstat=
+- ?criteoTrack=
+- ?event=*&siteid=
+- ?event=*&ts=
+- ?event=advert_
+- ?event=General.track
+- ?event=log&
+- ?event=performancelogger:
+- ?event=pixel.
+- ?eventtype=impression&pid=
+- ?eventtype=request&pid=
+- ?googleTrack=
+- ?hmtrackerjs=
+- ?Id=*&cookies=*&Referer_
+- ?log=stats&
+- ?log=stats-
+- ?log_visibility=
+- ?pvid=*&pn=
+- ?rand=*&blk=
+- ?rand=*&ref_
+- ?record&*&serve_js
+- ?ref=*&itemcnt=
+- ?service=settrace&
+- ?src=*_trk=
+- ?statify_referrer=
+- ?stwc_cz=
+- ?target-ref=
+- ?token=*&sessionid=*&visitorid=
+- ?trackGroup=*&referrer=
+- ?trackingCategory=
+- ?triggertags=
+- ?url=*&id=*&res=*&ref=
+- ?utmad=*&utmac=
+- ?viewsToCount=
+- ?wpgb_public_action=*&referrer=
+- /name=atatracker/
+- _.gif?ref=
+- _.gif?t=
+- _247seotracking.
+- _act/tracking.
+- _adcenterconversion.
+- _ajax/btrack.php?
+- _analytics-tracking?
+- _Analytics.js?
+- _analytics.php?
+- _artcl_log/
+- _assets/metrics-
+- _astatspro/
+- _audience_pixel.
+- _baynote.
+- _beacon?
+- _browsermetrix.
+- _cedexis.
+- _chartbeat.js
+- _check.php?referer
+- _clickability/
+- _Clicktale.
+- _clicktrack.asp?
+- _clickTracking.
+- _ComScore.
+- _contar_imp.php?
+- _directtrack.js
+- _effectivemeasure_tag.js
+- _effectLog-
+- _empty.ad?
+- _event_stats.
+- _event_tracking-
+- _event_tracking.
+- _files/analytics.
+- _fpn.gif?
+- _ga_code.
+- _ga_tag.
+- _ga_tracker.
+- _gaTrack.js
+- _GCM.min.js
+- _global_analytics_
+- _google_analytics.
+- _googleAnalytics.
+- _googleAnalytics_
+- _hits_stat.
+- _hptag.asis?
+- _i2a.js
+- _imp?Log=
+- _imp_logging?
+- _impressions.gif?
+- _landingLog/
+- _logHuman=
+- _logimpressions.
+- _loginlog.php?
+- _m10banners/tracking.php?
+- _masterTagCallback&
+- _metricsTagging.
+- _minder_tracking/
+- _modal?referer=
+- _mzblank.gif?
+- _nedstat.js
+- _nielsen.js
+- _NielsenNetRatings.
+- _ntpagetag.
+- _OpinionLab/*.js
+- _pages_tracker.
+- _performance_tracker-
+- _ping/amp-
+- _pix.gif?
+- _pixel_db?
+- _pixel_test/?
+- _pixelmap.js
+- _promo_id=
+- _pv_init?
+- _pv_log?
+- _quantcast.swf
+- _quantcast_tag.
+- _resource/analytics.js
+- _sdctag1_
+- _sdctag2.
+- _semanticTag/
+- _setAnalyticsFields&
+- _social_tracking.
+- _stat.php?referer=
+- _stat/addEvent/
+- _stat_counter.php?
+- _stats.js?
+- _stats/Logger?
+- _stats_log.
+- _Tacoda_
+- _tag.ofs.
+- _tag_mobylog.
+- _track/ad/
+- _tracker-active/
+- _tracker.js.
+- _tracker.js?
+- _tracker.php?*http
+- _tracker_min.
+- _tracking1.gif?
+- _traf.ips?
+- _trafficTracking.
+- _trans_1px.
+- _url_tracking.
+- _web_stat.js
+- _webanalytics.
+- _webiq.
+- _wiselog_
+- _wreport.fcgi?
+- _xiti_js-
+- _zag_cookie.
+- cgi-bin/counter
+# http://utm.$domain=~utm.edu|~utm.md|~utoronto.ca
+- http://meetrics.netbb-
+# Mining
+- -coin-hive.js
+- -coin-hive/*.js
+- -crypto-miner/
+- -monero-miner-
+# -monero-miner.$domain=~wp-monero-miner.com
+- -monero-miner/
+- .aspx?poolid=
+- .cfm?poolid=
+- .ga/*.wasm
+- .spacepools.*:
+- /aj-crypto-miner/
+- /ajcm-inject.
+- /ajcryptominer/
+# /authedmine.$script,domain=~authedmine.com
+- /authedminer.js
+- /bitcoin-plus-miner/
+- /bitcoincore/?ref=
+- /bootstrap.wasm
+# /bootstrap.wasm$xmlhttprequest
+- /browsermine.js
+- /c-hive.js
+- /c.wasm
+- /cloudcoins.js
+- /cloudcoins.min.js
+- /cn.wasm
+- /coin-hive-proxy-
+- /coinblind.js
+- /coinblind_beta.
+- /coinGofile.
+- /coinhive-proxy-
+- /coinhive.min.js
+- /coinlab.js
+- /compact_miner?
+- /connectics.js
+- /crn.wasm
+- /crypta.js
+- /Crypto-Loot/*.js
+# /crypto-webminer.$domain=~crypto-webminer.com
+- /cryptocpu.js
+- /cryptoloot/*.js
+- /cryptonight-worker.
+- /cryptonight.wasm
+- /cryptonoter.
+- /deepMiner.js
+- /deepMiner.min.js
+- /dprocessor.js
+- /facash.
+- /hash.wasm
+- /helper.wasm
+- /impression_analytics/
+- /inject.js?key=*.js
+- /jsecoin.*/?
+- /lhnhelpouttab-current.min.js
+- /lib/crlt.js*.js
+- /maxcdn.wasm
+- /media/miner.
+- /mine/bitcoincore/
+- /miner-ui.js
+- /miner.*/crypto-
+- /miner.*/loader.
+- /miner.full.js
+- /miner.js
+- /miner.min.js
+- /miner?key=
+- /miner_proxy
+- /minera.js
+- /minero-proxy-
+- /minescripts.js
+- /nano.wasm
+- /noblock.js
+- /obfus.min.js
+- /processor.js
+- /projectpoi.min.js
+- /rum_analytics/
+- /safelinkconverter.js
+- /simple-miner-tweaks/
+- /simple-monero-*.js
+- /sparechange.js
+- /streambeam-jw.js
+- /streambeam-video.js
+- /web_miner/
+- /webcoin.js
+- /webcoin.min.js
+- /webmr.js
+- /webxmr.js
+# /wproxy$~third-party,websocket
+- /xminer.js
+- /xminer.min.js
+- /xmr-monero.js
+- /xmr.js
+- /xmr.min.js
+- =ws://*?pool=
+- =ws://*?pools=
+- =wss://*?pool=
+- =wss://*?pools=
+- ?*.spacepools.
+- ?proxy=*?pool=
+- ?proxy=*?pools=
+# ?proxy=ws://$script,websocket
+# ?proxy=wss://$script,websocket
+# Adblock tracking
+- -logabpstatus.
+- /adb.policy.js
+- /adblock?action=
+- /wp-admin/admin-ajax.php?action=adblockvisitor
+# /ws_client?zone=gen$websocket
+- _adblock_stat.
+- _mongo_stats/
+# CDN-based filters
+- /cdn-cgi/pe/bag2?*.google-analytics.com
+- /cdn-cgi/pe/bag2?*bluekai.com
+- /cdn-cgi/pe/bag2?*bounceexchange.com
+- /cdn-cgi/pe/bag2?*cdn.onthe.io%2Fio.js
+- /cdn-cgi/pe/bag2?*chartbeat.js
+- /cdn-cgi/pe/bag2?*dnn506yrbagrg.cloudfront.net
+- /cdn-cgi/pe/bag2?*geoiplookup
+- /cdn-cgi/pe/bag2?*getblueshift.com
+- /cdn-cgi/pe/bag2?*google-analytics.com%2Fanalytics.js
+- /cdn-cgi/pe/bag2?*histats.com
+- /cdn-cgi/pe/bag2?*hs-analytics.net
+- /cdn-cgi/pe/bag2?*log.outbrain.com
+- /cdn-cgi/pe/bag2?*mc.yandex.ru
+- /cdn-cgi/pe/bag2?*newrelic.com
+- /cdn-cgi/pe/bag2?*nr-data.net
+- /cdn-cgi/pe/bag2?*optimizely.com
+- /cdn-cgi/pe/bag2?*piwik.js
+- /cdn-cgi/pe/bag2?*quantserve.com
+- /cdn-cgi/pe/bag2?*radarurl.com
+- /cdn-cgi/pe/bag2?*scorecardresearch.com
+- /cdn-cgi/pe/bag2?*static.getclicky.com%2Fjs
+- /cdn-cgi/pe/bag2?*viglink.com
+- /cdn-cgi/pe/bag2?*yieldbot.intent.js
+# Russian rating sites
+- /img.php?id=*&page=
+- ://ivw.*/get?referrer=
+- ://top.*/count/cnt.php?
+- ://top.*/hit/
+#-----------------Third-party tracking domains-----------------#
+# *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
+-d 0emm.com
+-d 0tracker.com
+-d 1-cl0ud.com
+-d 100im.info
+-d 103bees.com
+-d 105app.com
+-d 11nux.com
+-d 123count.com
+-d 149.13.65.144
+-d 168logger.com
+-d 195.10.245.55
+-d 1freecounter.com
+-d 1pel.com
+-d 200summit.com
+-d 204st.us
+-d 206solutions.com
+# ||208.88.226.75^$third-party,domain=~informer.com.ip
+-d 212.227.100.108
+# ||216.18.184.18^$third-party,domain=~etahub.com.ip
+-d 247-inc.com
+-d 247-inc.net
+-d 247ilabs.com
+-d 24businessnews.com
+-d 24counter.com
+-d 24log.com
+-d 2cnt.net
+-d 2o7.net
+-d 33across.com
+-d 360i.com
+-d 360tag.com
+-d 360tag.net
+-d 3dlivestats.com
+-d 3dstats.com
+-d 3enm.com
+-d 3gl.net
+-d 40nuggets.com
+-d 44-trk-srv.com
+-d 4oney.com
+-d 4spoonyexperiment.com
+-d 50greyofsha.de
+-d 55labs.com
+-d 62.160.52.73
+-d 66.228.52.30
+-d 67.228.151.70
+-d 6sc.co
+-d 72.172.88.25
+-d 720-trail.co.uk
+-d 74.55.82.102
+-d 77tracking.com
+# ||79.125.117.123^$third-party,domain=~amazon.cdn.ip.seen.on.cheapflight
+-d 7bpeople.com
+-d 7eer.net
+-d 8020solutions.net
+-d 88infra-strat.com
+-d 99counters.com
+-d 99stats.com
+-d 9juj88.com
+-d 9nl.eu
+-d a-cast.jp
+-d a-counters.com
+-d a-pagerank.net
+-d a013.com
+-d a8.net
+-d a8ww.net
+-d aaddzz.com
+-d aamsitecertifier.com
+-d aaxdetect.com
+-d abcstats.com
+-d ablsrv.com
+-d abmr.net
+-d absolstats.co.za
+-d abtrcking.com
+-d acc-hd.de
+-d acceptableserver.com
+-d access-analyze.org
+-d access-traffic.com
+-d accessintel.com
+-d accumulatorg.com
+-d acecounter.com
+-d acestats.net
+-d acetrk.com
+-d acexedge.com
+-d acint.net
+-d acq.io
+-d active-trk7.com
+-d activeconversion.com
+-d activemeter.com
+-d activeprospects.com
+-d actnx.com
+-d acuityplatform.com
+-d acxiom-online.com
+-d acxiomapac.com
+-d ad-score.com
+-d ad.gt
+-d adabra.com
+-d adalyser.com
+-d adblade.com
+-d adblockrelief.com
+-d adchemix.com
+-d adchemy-content.com
+-d adchemy.com
+-d adclickstats.net
+-d addfreestats.com
+-d addlvr.com
+-d adelixir.com
+-d adform.net
+-d adfox.ru
+-d adgjl13.com
+-d adgreed.com
+-d adheart.de
+-d adhslx.com
+-d adinsight.co.kr
+-d adinsight.com
+-d adinsight.eu
+-d adinte.jp
+-d adku.co
+-d adku.com
+-d admantx.com
+-d admaster.com.cn
+-d admitad.com
+-d admother.com
+-d adobedtm.com
+-d adobetag.com
+-d adoftheyear.com
+-d adoric-om.com
+-d adpaths.com
+-d adpies.com
+-d adprotraffic.com
+-d adrizer.com
+-d adrta.com
+-d adsensedetective.com
+-d adservicemedia.dk
+-d adspsp.com
+-d adsrvx.com
+-d adswizz.com
+-d adsymptotic.com
+-d adtarget.me
+-d adtelligence.de
+-d adultblogtoplist.com
+-d adunity.com
+-d advanced-web-analytics.com
+-d advconversion.com
+-d advertising.com
+-d adwstats.com
+-d adyapper.com
+-d afairweb.com
+-d affilae.com
+-d affiliateedge.eu
+-d affiliates-pro.com
+-d affiliatetrackingsetup.com
+-d affiliatly.com
+-d affinesystems.com
+-d affinitymatrix.com
+-d affistats.com
+-d africal.info
+-d afsanalytics.com
+-d agencytradingdesk.net
+-d agentinteractive.com
+-d agilecrm.com
+-d agilone.com
+-d agkn.com
+-d aidata.io
+-d aimediagroup.com
+-d air2s.com
+-d airpr.com
+-d airserve.net
+-d akanoo.com
+-d akstat.com
+-d akstat.io
+-d albacross.com
+-d alcmpn.com
+-d alcvid.com
+-d alenty.com
+-d alexacdn.com
+-d alexametrics.com
+-d alltagcloud.info
+-d alltracked.com
+-d alnera.eu
+-d alocdn.com
+-d altabold1.com
+-d altastat.com
+-d alvenda.com
+-d alzexa.com
+-d amadesa.com
+-d amavalet.com
+-d amazingcounters.com
+-d ambercrow.com
+-d amctp.net
+-d amikay.com
+-d amilliamilli.com
+-d amnet.tw
+-d amplitude.com
+-d ampush.io
+-d amung.us
+-d amxdt.com
+-d analitits.com
+-d analoganalytics.com
+-d analysistools.net
+-d analytics-egain.com
+-d analytics-engine.net
+-d analyticschecker.com
+-d analyticswizard.com
+-d analytk.com
+-d anametrix.com
+-d anametrix.net
+-d anatid3.com
+-d andagainanotherthing.com
+-d andyetanotherthing.com
+-d anexia-it.com
+-d angelfishstats.com
+-d angorch-cdr7.com
+-d angsrvr.com
+-d anonymousdmp.com
+-d anrdoezrs.net
+-d answerscloud.com
+-d anti-cheat.info
+-d ape78cn2.com
+-d apexstats.com
+-d apextwo.com
+-d apicit.net
+-d apollofind.com
+-d app.link
+-d appared.online
+-d appboycdn.com
+-d appn.center
+-d aprtn.com
+-d aprtx.com
+-d aqtracker.com
+-d arcadeweb.com
+-d arch-nicto.com
+-d arena-quantum.co.uk
+-d arianelab.com
+-d arkayne.com
+-d arlime.com
+-d arpuonline.com
+-d arpxs.com
+-d arrowpushengine.com
+-d arsdev.net
+-d artefact.is
+-d arturtrack.com
+-d ascend.ai
+-d assoctrac.com
+-d astro-way.com
+-d atatus.com
+-d athenainstitute.biz
+-d atoshonetwork.com
+-d atticwicket.com
+-d attracta.com
+-d attributionapp.com
+# ||audience.visiblemeasures.com^$object-subrequest,third-party
+-d audienceamplify.com
+-d audienceiq.com
+-d audiencerate.com
+-d audiens.com
+-d audrte.com
+-d authorinsights.com
+-d auto-ping.com
+-d autoaffiliatenetwork.com
+-d autoaudience.com
+-d autoid.com
+-d autoline-top.com
+-d avantlink.com
+-d avastats.com
+-d avazudsp.net
+-d avenseo.com
+-d avmws.com
+-d awasete.com
+-d awesomelytics.com
+-d awin1.com
+-d awmcounter.de
+-d axf8.net
+-d azalead.com
+-d azera-s014.com
+-d azointel.com
+-d b1img.com
+-d b1js.com
+-d b2c.com
+-d babator.com
+-d bam-x.com
+-d baptisttop1000.com
+-d barilliance.net
+-d basicstat.com
+-d basilic.io
+-d baynote.net
+-d bdash-cloud.com
+-d beacon.kmi-us.com
+-d beampulse.com
+-d beanstalkdata.com
+-d beanstock.com
+-d bebj.com
+-d beeftransmission.com
+-d beemray.com
+-d beemrdwn.com
+-d beencounter.com
+-d behavioralengine.com
+-d belstat.at
+-d belstat.be
+-d belstat.ch
+-d belstat.com
+-d belstat.de
+-d belstat.fr
+-d belstat.nl
+-d benchit.com
+-d benchtag2.co
+-d berg-6-82.com
+-d best-top.de
+# ||bestcontactform.com^$~image,third-party
+-d bestweb2013stat.lk
+-d betarget.com
+-d betarget.net
+-d bettermetrics.co
+-d bfmio.com
+-d bfoleyinteractive.com
+-d bidr.io
+-d bidswitch.net
+-d bigcattracks.com
+-d bigmir.net
+-d bigstats.net
+-d bigtracker.com
+-d bikepasture.com
+-d bionicclick.com
+-d bizible.com
+-d bizo.com
+-d bizspring.net
+-d bjcathay.com
+-d bkrtx.com
+-d bkvtrack.com
+-d blizzardcheck.com
+-d blockbreaker.io
+-d blockmetrics.com
+-d blog-stat.com
+-d blogmeetsbrand.com
+-d blogpatrol.com
+-d blogrankers.com
+-d blogreaderproject.com
+-d blogscounter.com
+-d blogsontop.com
+-d blogtoplist.com
+-d bloomjoy.com
+-d bluecava.com
+-d blueconic.net
+-d bluekai.com
+-d blvdstatus.com
+-d bm23.com
+-d bm324.com
+-d bmlmedia.com
+-d bmmetrix.com
+-d bnc.lt
+-d bookforest.biz
+-d boomerang.com.au
+-d boomtrain.com
+-d botman.ninja
+-d botsvisit.com
+-d bouncepilot.com
+-d bouncex.com
+-d bpmonline.com
+-d branch.io
+-d brat-online.ro
+-d brcdn.com
+-d bridgevine.com
+-d brightedge.com
+-d brilig.com
+-d browser-statistik.de
+-d brsrvr.com
+-d bstk.co
+-d bstn-14-ma.com
+-d btbuckets.com
+-d btserve.com
+-d btstatic.com
+-d btttag.com
+-d bubblestat.com
+-d bugherd.com
+-d bunchbox.co
+-d burstbeacon.com
+-d burt.io
+-d bux1le001.com
+-d buzzdeck.com
+-d bytemgdd.com
+-d c-o-u-n-t.com
+-d c-rings.net
+-d c-webstats.de
+-d c.adroll.com
+-d c.hit.ua
+-d c1exchange.com
+-d c212.net
+-d c3metrics.com
+-d c3tag.com
+-d c4tracking01.com
+-d cache.am
+-d cache.fm
+-d cadreon.com
+-d call-tracking.co.uk
+-d callingjustified.com
+-d callisto.fm
+-d callmeasurement.com
+-d callrail.com
+-d callreports.com
+-d calltrackingmetrics.com
+-d calltracks.com
+-d calltrk.com
+-d campaigncog.com
+-d canddi.com
+-d canopylabs.com
+-d caphyon-analytics.com
+-d captify.co.uk
+-d captivate.ai
+-d captora.com
+-d capturemedia.network
+-d capturly.com
+-d carrotquest.io
+-d cashburners.com
+-d cashcount.com
+-d castelein.nu
+-d cbtrk.net
+-d cccpmo.com
+-d ccgateway.net
+-d cdn-analytics.pl
+-d cdn-net.com
+-d cdnanalytics.xyz
+-d cdnmaster.com
+-d cdntrf.com
+-d cedexis.com
+-d cedexis.net
+-d celebros-analytics.com
+-d celebrus.com
+-d center.io
+-d centraltag.com
+-d cetrk.com
+-d cformanalytics.com
+-d cftrack.com
+-d cguru.ga
+-d chardneave.info
+-d chartaca.com
+-d chartbeat.com
+-d chartbeat.net
+-d checkmypr.net
+-d checkstat.nl
+-d cheezburger-analytics.com
+-d chickensaladandads.com
+-d christiantop1000.com
+-d christmalicious.com
+-d chrumedia.com
+-d cint.com
+-d circular-counters.com
+-d clarifyingquack.com
+-d claritytag.com
+-d cleananalytics.com
+-d clearviewstats.com
+-d cleveritics.com
+-d clevi.com
+-d click-linking.com
+-d click-url.com
+-d click2meter.com
+-d click4assistance.co.uk
+-d clickable.net
+-d clickaider.com
+-d clickalyzer.com
+-d clickbrainiacs.com
+-d clickcease.com
+-d clickclick.net
+-d clickcloud.info
+-d clickconversion.net
+-d clickdensity.com
+-d clickdimensions.com
+-d clickening.com
+-d clickforensics.com
+-d clickguardian.co.uk
+-d clickigniter.io
+-d clickinc.com
+-d clickmanage.com
+-d clickmeter.com
+-d clickonometrics.pl
+-d clickpathmedia.com
+-d clickprotector.com
+-d clickreport.com
+-d clicksagent.com
+-d clicksen.se
+-d clickshift.com
+-d clickstream.co.za
+-d clicktale.net
+-d clicktrack1.com
+-d clicktracks.com
+-d clicktrkservices.com
+-d clickzs.com
+-d clickzzs.nl
+-d clixcount.com
+-d clixpy.com
+-d cloud-exploration.com
+-d cloud-iq.com
+-d cloudtracer101.com
+-d clustrmaps.com
+-d cmcintra.net
+-d cmcore.com
+-d cmmeglobal.com
+-d cmptch.com
+-d cnt1.net
+-d cnxweb.com
+-d cnzz.com
+-d codata.ru
+-d cogmatch.net
+-d cognitivematch.com
+-d collarity.com
+-d collserve.com
+-d commander1.com
+-d company-target.com
+-d compteur.cc
+-d comradepony.com
+-d conductrics.com
+-d confirmational.com
+-d confirmit.com
+-d contactmonkey.com
+-d contemporaryceremonies.ca
+-d content-square.net
+-d content.ad
+-d contentinsights.com
+-d contentspread.net
+-d contentsquare.net
+-d continue.com
+-d convergetrack.com
+-d conversionfly.com
+-d conversionlogic.net
+-d conversionly.com
+-d conversionruler.com
+-d convertexperiments.com
+-d convertglobal.com
+-d convertmarketing.net
+-d convertro.com
+-d cooladata.com
+-d copacast.net
+-d copperegg.com
+-d coralogix.com
+-d core-cen-54.com
+-d coremetrics.com
+-d coremotives.com
+-d cormce.com
+-d cost1action.com
+-d countby.com
+-d counter.gd
+-d counter.top.kg
+-d counter160.com
+-d counterbot.com
+-d countercentral.com
+-d countergeo.com
+-d counterland.com
+-d counters4u.com
+-d counterservis.com
+-d countersforlife.com
+-d countertracker.com
+-d counterviews.net
+-d counting4free.com
+-d countingbiz.info
+-d countomat.com
+-d countz.com
+-d cpcmanager.com
+-d cpmstar.com
+-d cpx.to
+-d cqcounter.com
+-d cquotient.com
+-d craftkeys.com
+-d craktraffic.com
+-d crashfootwork.com
+-d crazyegg.com
+-d criteo.com
+-d criteo.net
+-d crmmetrix.fr
+-d crmmetrixwris.com
+-d crosspixel.net
+-d crosswalkmail.com
+-d crowdscience.com
+-d crowdtwist.com
+-d crsspxl.com
+-d crwdcntrl.net
+-d csdata1.com
+-d csi-tracking.com
+-d ctnsnet.com
+-d cttracking02.com
+-d customer.io
+-d customerconversio.com
+-d customerdiscoverytrack.com
+-d customerlabs.co
+-d cux.io
+-d cvtr.io
+-d cxense.com
+-d cxt.ms
+-d cya2.net
+-d cybermonitor.com
+-d cytoclause.com
+-d d-1.co
+-d d41.co
+-d dable.io
+-d dacounter.com
+-d dailycaller-alerts.com
+-d dapxl.com
+-d dashboard.io
+-d data-analytics.jp
+-d databrain.com
+-d datacaciques.com
+-d datacoral.com
+-d datacoral.io
+-d datafeedfile.com
+-d datam.com
+-d datamind.ru
+-d dataperforma.com
+-d dataxpand.com
+-d datvantage.com
+-d daylife-analytics.com
+-d daylogs.com
+-d dc-storm.com
+-d dc.tremormedia.com
+-d dcmn.com
+-d ddm.io
+-d decdna.net
+-d decibelinsight.net
+-d decideinteractive.com
+-d declaredthoughtfulness.co
+-d deepattention.com
+-d dejavu.mlapps.com
+-d demandbase.com
+-d demdex.net
+-d deqwas.net
+-d devatics.com
+-d device9.com
+-d dgmsearchlab.com
+-d dhmtracking.co.za
+-d dialogtech.com
+-d did-it.com
+-d didit.com
+-d diffusion-tracker.com
+-d digdeepdigital.com.au
+-d digitaloptout.com
+-d digitaltarget.ru
+-d digitru.st
+-d dignow.org
+-d dimestore.com
+-d dimml.io
+-d dinkstat.com
+-d directrdr.com
+-d discover-path.com
+-d discovertrail.net
+-d displaymarketplace.com
+-d distiltag.com
+-d distralytics.com
+-d districtm.io
+-d djers.com
+-d dlrowehtfodne.com
+-d dm-event.net
+-d dmanalytics1.com
+-d dmclick.cn
+-d dmd53.com
+-d dmpcounter.com
+-d dmpxs.com
+-d dmtracker.com
+-d dmtry.com
+-d dmxleo.com
+-d doclix.com
+-d dominocounter.net
+-d domodomain.com
+-d dotomi.com
+-d doubleclick.net /activity
+-d doubleclick.net /imp%
+-d doubleclick.net /imp;
+-d doubleclick.net /json?
+-d doubleclick.net /pixel?
+# ||doubleclick.net^$image,third-party
+-d doubleclick.net /trackimp/
+-d downture.in
+-d dpbolvw.net
+-d dps-reach.com
+-d dsmmadvantage.com
+-d dsparking.com
+-d dsply.com
+-d dstrack2.info
+-d dtc-v6t.com
+-d dti-ranker.com
+-d dtscout.com
+-d dtxngr.com
+-d dummy-domain-do-not-change.com
+-d dv0.info
+-d dwin1.com
+-d dwin2.com
+-d dynatrace.com
+-d dynatracesaas.com
+-d dyntrk.com
+# ||e-goi.com^$third-party,domain=~e-goi.com.br|~e-goi.pt
+-d e-pagerank.net
+-d e-referrer.com
+-d e-webtrack.net
+-d e-zeeinternet.com
+-d earnitup.com
+-d easy-hit-counters.com
+-d easycounter.com
+-d easyhitcounters.com
+-d easyresearch.se
+-d ebtrk1.com
+-d ec-track.com
+-d eclampsialemontree.net
+-d ecn5.com
+-d ecommstats.com
+-d ecsanalytics.com
+-d ecustomeropinions.com
+-d edgeadx.net
+-d edigitalsurvey.com
+-d ekmpinpoint.co.uk
+-d ekmpinpoint.com
+-d ela-3-tnk.com
+-d elastx.net
+-d electusdigital.com
+-d elite-s001.com
+-d elitics.com
+# ||eloqua.com^$~stylesheet,third-party
+-d eluxer.net
+-d email-match.com
+-d embeddedanalytics.com
+-d emediatrack.com
+-d emjcd.com
+-d emltrk.com
+-d enecto.com
+-d enectoanalytics.com
+-d engageclick.com
+-d engagemaster.com
+-d engagio.com
+-d engine212.com
+-d engine64.com
+-d enhance.com
+-d enquisite.com
+-d ensighten.com
+-d enticelabs.com
+-d ep4p.com
+-d eperfectdata.com
+-d epilot.com
+-d epiodata.com
+-d episerver.net
+-d epitrack.com
+-d eproof.com
+-d eps-analyzer.de
+-d ereportz.com
+-d esearchvision.com
+-d esm1.net
+-d esomniture.com
+-d estara.com
+-d estat.com
+-d estrack.net
+-d etahub.com
+-d etherealhakai.com
+-d ethn.io
+-d ethnio.com
+-d etracker.com
+-d etrafficcounter.com
+-d etrafficstats.com
+-d etrigue.com
+-d etyper.com
+-d eu-survey.com
+-d eulerian.net
+-d euleriancdn.net
+-d eum-appdynamics.com
+-d europagerank.com
+-d europuls.eu
+-d europuls.net
+-d evanetpro.com
+-d eventbeacon.ca
+-d eventcapture03.com
+-d eventoptimize.com
+-d everestjs.net
+-d everesttech.net
+-d evergage.com
+-d evisitanalyst.com
+-d evisitcs.com
+-d evisitcs2.com
+-d evolvemediametrics.com
+-d evyy.net
+-d ewebanalytics.com
+-d ewebcounter.com
+-d exactag.com
+-d exclusiveclicks.com
+-d exelator.com
+-d exitbee.com
+-d exitmonitor.com
+-d exovueplatform.com
+-d explore-123.com
+-d exposebox.com
+-d extole.com
+-d extole.io
+-d extreme-dm.com
+-d eyein.com
+-d ezec.co.uk
+-d ezytrack.com
+-d f92j5.com
+-d fabricww.com
+-d factortg.com
+-d fallingfalcon.com
+-d fandommetrics.com
+-d fanplayr.com
+-d farmer.wego.com
+-d fast-thinking.co.uk
+-d fastanalytic.com
+-d fastly-analytics.com
+-d fastly-insights.com
+-d fastonlineusers.com
+-d fastwebcounter.com
+-d fathomseo.com
+-d fcs.ovh
+-d fdxstats.xyz
+-d feathr.co
+-d feedcat.net
+-d feedjit.com
+-d feedperfect.com
+-d fetchback.com
+-d fiksu.com
+-d filitrac.com
+-d finalid.com
+-d find-ip-address.org
+-d finderlocator.com
+-d fishhoo.com
+-d fitanalytics.com
+-d flagcounter.com
+-d flash-counter.com
+-d flash-stat.com
+-d flashadengine.com
+-d flashgamestats.com
+-d flcounter.com
+-d flix360.com
+-d flixfacts.co.uk
+-d flixsyndication.net
+-d flowstats.net
+-d fluctuo.com
+-d fluencymedia.com
+-d fluidsurveys.com
+-d flurry.com
+-d flx1.com
+-d flxpxl.com
+-d flyingpt.com
+-d followercounter.com
+-d fonderredd.info
+-d footprintdns.com
+-d footprintlive.com
+-d force24.co.uk
+-d forensics1000.com
+-d foreseeresults.com
+-d forkcdn.com
+-d formalyzer.com
+-d formisimo.com
+-d forter.com
+-d foundry42.com
+-d fout.jp
+-d fpctraffic2.com
+-d fprnt.com
+-d fqsecure.com
+-d fqtag.com
+-d free-counter.co.uk
+-d free-counter.com
+-d free-counters.co.uk
+-d free-website-hit-counters.com
+-d free-website-statistics.com
+-d freebloghitcounter.com
+-d freecountercode.com
+-d freecounterstat.com
+-d freegeoip.net
+-d freehitscounter.org
+-d freelogs.com
+-d freeonlineusers.com
+-d freesitemapgenerator.com
+-d freestats.com
+-d freetrafficsystem.com
+-d freeusersonline.com
+-d freeweblogger.com
+-d frescoerspica.com
+-d freshcounter.com
+-d freshmarketer.com
+-d freshplum.com
+-d friendbuy.com
+-d fruitflan.com
+-d fshka.com
+-d ftbpro.com
+-d fueldeck.com
+-d fugetech.com
+-d funneld.com
+-d funstage.com
+-d fuse-data.com
+-d fusestats.com
+-d fuziontech.net
+-d fyreball.com
+-d gameanalytics.com
+-d gammachug.com
+-d gaug.es
+-d gbotvisit.com
+-d gear5.me
+-d geistm.com
+-d gemius.pl
+-d gemtrackers.com
+-d geni.us
+-d genieesspv.jp
+-d geobytes.com
+-d geoplugin.net
+-d georiot.com
+-d getbackstory.com
+-d getblueshift.com
+-d getclicky.com
+-d getconversion.net
+-d getdrip.com
+-d getetafun.info
+-d getfreebl.com
+-d getrockerbox.com
+-d getsmartcontent.com
+-d getsmartlook.com
+-d getstatistics.se
+-d gez.io
+-d gigcount.com
+-d gim.co.il
+-d glanceguide.com
+-d glbtracker.com
+-d globalviptraffic.com
+-d globalwebindex.net
+-d globase.com
+-d globel.co.uk
+-d globetrackr.com
+-d gnpge.com
+-d go-mpulse.net
+-d goaltraffic.com
+-d godhat.com
+-d goingup.com
+-d goldstats.com
+-d goneviral.com
+-d goodcounter.org
+-d google-analytics.com /analytics.js
+-d google-analytics.com /batch/
+-d google-analytics.com /collect
+-d google-analytics.com /cx/api.js
+-d google-analytics.com /ga_exp.js
+-d google-analytics.com /gtm/js?
+-d google-analytics.com /internal/analytics.js
+-d google-analytics.com /internal/collect/
+-d google-analytics.com /plugins/
+-d google-analytics.com /r/collect/
+-d google-analytics.com /siteopt.js?
+-d googleadservices.com
+-d googlerank.info
+-d googletagmanager.com /gtag/
+-d googletagmanager.com /gtm.js?
+-d gooo.al
+-d gopjn.com
+-d gostats.com
+-d gostats.org
+-d gostats.ro
+-d govmetric.com
+-d grapheffect.com
+-d gravity4.com
+-d grepdata.com
+-d grmtech.net
+-d group-ib.ru
+-d grumrt.com
+-d gsecondscreen.com
+-d gsimedia.net
+-d gsspat.jp
+-d gssprt.jp
+-d gstats.cn
+-d gtcslt-di2.com
+-d gtopstats.com
+-d guanoo.net
+-d guardwork.info
+-d guruquicks.net
+-d gvisit.com
+-d gweini.com
+-d h4k5.com
+-d halldata.com
+-d halo77.com
+-d halstats.com
+-d haraju.co
+-d haveamint.com
+-d haymarket.com
+-d hdmtools.com
+-d heapanalytics.com
+-d heatmap.it
+-d heatmap.services
+-d hellosherpa.com
+-d hentaicounter.com
+-d hexagon-analytics.com
+-d heystaks.com
+-d hiconversion.com
+-d higherengine.com
+-d highmetrics.com
+-d hira-meki.jp
+-d histats.com
+-d hit-counter-download.com
+-d hit-counter.info
+-d hit-counters.net
+-d hit-counts.com
+-d hit-parade.com
+-d hit2map.com
+-d hitbox.com
+-d hitcounterstats.com
+-d hitfarm.com
+-d hitmatic.com
+-d hitmaze-counters.net
+-d hits.io
+-d hits2u.com
+-d hitslink.com
+-d hitslog.com
+-d hitsniffer.com
+-d hitsprocessor.com
+-d hittail.com
+-d hittracker.com
+-d hitwake.com
+-d hitwebcounter.com
+-d hivps.xyz
+-d hlserve.com
+-d homechader.com
+-d hopurl.org
+-d hospitality-optimizer.com
+-d host-tracker.com
+-d hostip.info
+-d hoststats.info
+-d hotdogsandads.com
+-d hotjar.com
+-d hotlog.ru
+-d hqhrt.com
+-d hs-analytics.net
+-d hsadspixel.net
+-d hubvisor.io
+-d hudb.pl
+-d humanclick.com
+-d hunt-leads.com
+-d hurra.com
+-d hurterkranach.net
+-d hwpub.com
+-d hxtrack.com
+-d hyfntrak.com
+-d hyperactivate.com
+-d hypestat.com
+-d i-stats.com
+-d i401xox.com
+-d iadvize.com
+-d iaudienc.com
+-d ib-ibi.com
+-d ibpxl.com
+-d ibpxl.net
+-d ic-live.com
+-d iclive.com
+-d ics0.com
+-d icstats.nl
+-d id-visitors.com
+-d ideoclick.com
+-d idio.co
+-d idtargeting.com
+-d iesnare.com
+-d ifactz.com
+-d igaming.biz
+-d ijncw.tv
+-d iljmp.com
+-d illumenix.com
+-d ilogbox.com
+-d imanginatium.com
+-d immanalytics.com
+-d impactradius-event.com
+-d impcounter.com
+-d imrtrack.com
+-d imrworldwide.com
+-d inboxtag.com
+-d incentivesnetwork.net
+-d index.ru
+-d indexstats.com
+-d indextools.com
+-d indicia.com
+-d individuad.net
+-d ineedhits.com
+-d inferclick.com
+-d infinigraph.com
+-d infinity-tracking.net
+-d inflectionpointmedia.com
+-d influid.co
+-d infopro-insight.com
+-d informz.net
+-d inimbus.com.au
+-d innomdc.com
+-d innovateads.com
+-d inphonic.com
+-d inpwrd.com
+-d inside-graph.com
+-d insightera.com
+-d insightgrit.com
+-d insigit.com
+-d insitemetrics.com
+-d inspectlet.com
+-d instadia.net
+-d instana.io
+# ||instapage.com^$third-party,domain=~pagedemo.co
+-d instore.biz
+-d integritystat.com
+-d intelevance.com
+-d intelimet.com
+-d intelli-direct.com
+-d intelli-tracker.com
+-d intelligencefocus.com
+-d intellimize.co
+-d interceptum.com
+-d intergient.com
+-d intermundomedia.com
+-d interstateanalytics.com
+-d intervigil.com
+-d invisioncloudstats.com
+-d invitemedia.com
+-d invoc.us
+-d invoca.net
+-d invoca.solutions
+-d iocnt.net
+-d ionmvdpifz.com
+-d ip-api.com
+-d ip-label.net
+-d ip2location.com
+-d ip2map.com
+-d ip2phrase.com
+-d ipaddresslabs.com
+-d ipapi.co
+-d ipcatch.com
+-d ipcounter.de
+-d iperceptions.com
+-d ipfingerprint.com
+-d ipify.org
+-d ipinfo.info
+-d ipinfodb.com
+-d ipinyou.com.cn
+-d iplocationtools.com
+-d ipro.com
+-d iproanalytics.com
+-d iprotrk.com
+-d ipstat.com
+-d ipv6monitoring.eu
+-d iqfp1.com
+-d irelandmetrix.ie
+-d ironbeast.io
+-d ist-track.com
+-d istrack.com
+-d itrac.it
+-d itracker360.com
+-d itrackerpro.com
+-d itracmediav4.com
+-d ivcbrasil.org.br
+-d ivwbox.de
+-d iwebtrack.com
+-d iwstats.com
+-d ixiaa.com
+-d izea.com
+-d izearanks.com
+-d janrain.xyz
+-d jdoqocy.com
+-d jimdo-stats.com
+-d jirafe.com
+-d jscounter.com
+-d jsid.info
+-d jsonip.com
+-d jstracker.com
+-d jump-time.net
+-d jumplead.com
+-d jumplead.io
+-d jumptime.com
+-d junta.net
+-d justuno.com
+-d jwmstats.com
+-d k-analytix.com
+-d kameleoon.com
+-d kameleoon.eu
+-d kampyle.com
+-d kantartns.lt
+-d kaxsdc.com
+# ||keen.io^$third-party,domain=~keen.github.io|~keen.io
+-d keyade.com
+-d keymetric.net
+-d keytiles.com
+-d keywee.co
+-d keywordmax.com
+-d keywordstrategy.org
+-d kieden.com
+-d killerwebstats.com
+-d kissmetrics.com
+-d kisstesting.com
+-d kitbit.net
+-d kitcode.net
+-d klert.com
+-d klldabck.com
+-d km-sea.net
+-d knowlead.io
+-d knowledgevine.net
+-d komtrack.com
+-d kontagent.net
+-d kopsil.com
+-d kqzyfj.com
+-d krxd.net
+-d ksyrium0014.com
+-d ktxtr.com
+-d l2.io
+# ||l2.visiblemeasures.com^$object-subrequest,third-party
+-d ladsp.com
+-d lanchaeanly.pro
+-d landingpg.com
+-d lansrv030.com
+-d lasagneandands.com
+-d lead-123.com
+-d lead-converter.com
+-d lead-tracking.biz
+-d leadboxer.com
+-d leadchampion.com
+-d leadfeeder.com
+-d leadforce1.com
+-d leadforensics.com
+-d leadformix.com
+-d leadid.com
+-d leadin.com
+-d leadintel.io
+-d leadintelligence.co.uk
+-d leadlab.click
+-d leadlife.com
+-d leadmanagerfx.com
+-d leadsius.com
+-d leadsmonitor.io
+-d leadsrx.com
+-d leanplum.com
+-d legolas-media.com
+-d les-experts.com
+-d letterboxtrail.com
+-d levexis.com
+-d lexity.com
+-d lfov.net
+-d liadm.com
+-d lijit.com
+-d limbik.io
+-d linezing.com
+-d link-smart.com
+-d linkconnector.com
+-d linkpulse.com
+-d linksynergy.com
+-d linkxchanger.com
+-d listrakbi.com
+-d litix.io
+-d livecount.fr
+-d livehit.net
+-d livesegmentservice.com
+-d livesession.io
+-d livestat.com
+-d livetrafficfeed.com
+-d lloogg.com
+-d localytics.com
+-d lockview.cn
+-d locotrack.net
+-d logaholic.com
+-d logcounter.com
+-d logdy.com
+-d logentries.com
+-d loggly.com
+-d logmatic.io
+-d lognormal.net
+-d logrocket.com
+-d logsss.com
+-d lookery.com
+-d loopfuse.net
+-d lopley.com
+-d losstrack.com
+-d lp4.io
+-d lpbeta.com
+-d lporirxe.com
+-d lsfinteractive.com
+-d lucidel.com
+-d luckyorange.com
+-d luckyorange.net
+-d lumatag.co.uk
+-d luminate.com
+-d lxtrack.com
+-d lymantriacypresdoctrine.biz
+-d lyngro.com
+-d lypn.com
+-d lypn.net
+-d lytics.io
+-d lytiks.com
+-d m-pathy.com
+-d m1ll1c4n0.com
+-d m6r.eu
+-d mabipa.com
+-d macandcheeseandads.com
+-d magiq.com
+-d magnetmail1.net
+-d magnify360.com
+-d mailstat.us
+-d maploco.com
+-d mapmyuser.com
+-d marinsm.com
+-d market015.com
+-d market2lead.com
+-d marketizator.com
+-d marketo.com
+-d marketo.net
+-d marketshot.com
+-d marketshot.fr
+-d markitondemand.com
+-d maropost.com
+-d martianstats.com
+-d maryneallynndyl.com
+-d masterstats.com
+-d matheranalytics.com
+-d mathtag.com
+-d maxtracker.net
+-d maxymiser.com
+-d maxymiser.net
+-d mb4a.com
+-d mbid.io
+-d mbotvisit.com
+-d mbsy.co
+-d mbww.com
+-d md-ia.info
+-d mdotlabs.com
+-d mdxapi.io
+-d measure.ly
+-d measuremap.com
+-d measurementapi.com
+-d meatballsandads.com
+-d media01.eu
+-d mediaarmor.com
+-d mediaforgews.com
+-d mediagauge.com
+-d mediametrics.ru
+-d mediaplex.com
+-d mediarithmics.com
+-d mediaseeding.com
+-d mediaweaver.jp
+-d mediego.com
+-d mega-stats.com
+-d memecounter.com
+-d mercadoclics.com
+-d mercent.com
+-d metakeyproducer.com
+-d meteorsolutions.com
+-d metricsdirect.com
+-d meyersdalebixby.com
+-d mezzobit.com
+-d mialbj6.com
+-d micpn.com
+-d midas-i.com
+-d midkotatraffic.net
+-d millioncounter.com
+-d minewhat.com
+-d mixpanel.com
+-d mkt3261.com
+-d mkt51.net
+-d mkt941.com
+-d mktoresp.com
+-d ml314.com
+-d mlclick.com
+-d mletracker.com
+-d mlno6.com
+-d mlstat.com
+-d mm7.net
+-d mmccint.com
+-d mmetrix.mobi
+-d mmi-agency.com
+-d mno.link
+-d mobalyzer.net
+-d mochibot.com
+-d momently.com
+-d monetate.net
+-d mongoosemetrics.com
+-d monitis.com
+-d monitus.net
+-d mooseway.com
+-d motrixi.com
+-d mouse3k.com
+-d mouseflow.com
+-d mousestats.com
+-d mousetrace.com
+-d movable-ink-6710.com
+-d mparticle.com
+-d mplxtms.com
+-d mppapi.io
+-d mpstat.us
+-d msecure108.com
+-d msgapp.com
+-d msgtag.com
+-d msparktrk.com
+-d mstracker.net
+-d mstrlytcs.com
+-d mtracking.com
+-d mtrics.cdc.gov
+-d mucocutaneousmyrmecophaga.com
+-d murdoog.com
+-d musthird.com
+-d mvilivestats.com
+-d mvtracker.com
+-d mxcdn.net
+-d mxpnl.com
+-d mxptint.net
+-d myaffiliateprogram.com
+-d myaudience.de
+-d mybloglog.com
+-d myfastcounter.com
+-d mynewcounter.com
+-d mynsystems.com
+-d myntelligence.com
+-d myomnistar.com
+-d mypagerank.net
+-d myreferer.com
+-d myroitracking.com
+-d myseostats.com
+-d mysitetraffic.net
+-d mysocialpixel.com
+-d mytictac.com
+-d myusersonline.com
+-d myvisualiq.net
+-d mywebstats.com.au
+-d mywebstats.org
+-d n74s9.com
+-d naayna.com
+-d naj.sk
+-d nakanohito.jp
+-d nalook.com
+-d nanovisor.io
+-d natero.com
+-d native.ai
+-d natpal.com
+-d naturaltracking.com
+-d navdmp.com
+-d navigator.io
+-d navilytics.com
+-d naytev.com
+-d ndf81.com
+-d ndg.io
+-d neads.delivery
+-d neatstats.com
+-d nedstat.com
+-d nedstat.net
+-d nedstatbasic.net
+-d nedstatpro.net
+-d neki.org
+-d nerfherdersolo.com
+-d nero.live
+-d nestedmedia.com
+-d net-filter.com
+-d netaffiliation.com .js
+-d netapplications.com
+-d netbiscuits.net
+-d netclickstats.com
+-d netcore.co.in
+-d netcoresmartech.com
+-d netflame.cc
+-d netgraviton.net
+-d netinsight.co.kr
+-d netmining.com
+-d netmng.com
+-d netratings.com
+-d newpoints.info
+-d newscurve.com
+-d newstatscounter.info
+-d nexeps.com
+-d nextstat.com
+-d ngmco.net
+-d nicequest.com
+-d nicewii.com
+-d niftymaps.com
+-d nik.io
+-d nile.works
+-d noowho.com
+-d nordicresearch.com
+-d notifyvisitors.com
+-d novately.com
+-d nowinteract.com
+-d npario-inc.net
+-d nprove.com
+-d nr-data.net
+-d nr7.us
+-d nrich.ai
+-d ns1p.net
+-d nstracking.com
+-d nuconomy.com
+-d nuggad.net
+-d nuloox.com
+-d numerino.cz
+-d nyctrl32.com
+-d nytlog.com
+-d o-s.io
+-d observerapp.com
+-d octavius.rocks
+-d octomarket.com
+# ||od.visiblemeasures.com^$object-subrequest,third-party
+-d odesaconflate.com
+-d odoscope.com
+-d offermatica.com
+-d offerpoint.net
+-d offerstrategy.com
+-d ogt.jp
+-d ogxatekkyzr.com
+-d ohmystats.com
+-d oidah.com
+-d ojrq.net
+-d okt.to
+-d oktopost.com
+-d omarsys.com
+-d omeda.com
+-d ometria.com
+-d omguk.com
+-d omkt.co
+-d omniconvert.com
+-d omtrdc.net
+-d onaudience.com
+-d ondu.ru
+-d onecount.net
+-d onefeed.co.uk
+-d onelink-translations.com
+-d onestat.com
+-d onetag-sys.com
+-d ongsono.com
+-d online-media-stats.com
+-d online-metrix.net
+-d online-right-now.net
+-d onlinepbx.ru
+-d onlysix.co.uk
+-d onthe.io .js
+-d opbandit.com
+-d openclick.com
+-d openhit.com
+-d openstat.net
+-d opentracker.net
+-d openvenue.com
+-d openxtracker.com
+-d oproi.com
+-d optify.net
+-d optimahub.com
+-d optimix.asia
+-d optimizely.com
+-d optimost.com
+-d optin-machine.com
+-d optorb.com
+-d optreadetrus.info
+-d oranges88.com
+-d orcapia.com
+-d os-data.com
+-d ositracker.com
+-d ospserver.net
+-d otoshiana.com
+-d otracking.com
+-d ournet-analytics.com
+-d outbid.io
+-d outboundlink.me
+-d overstat.com
+-d owlanalytics.io
+-d ownpage.fr
+-d oxidy.com
+-d p-td.com
+-d p.l1v.ly
+-d p.raasnet.com
+-d p0.raasnet.com
+-d pa-oa.com
+-d pagefair.com
+-d pages05.net
+-d paidstats.com
+-d parklogic.com
+-d parrable.com
+-d pass-1234.com
+-d pathful.com
+-d pc1.io
+-d pclicks.com
+-d pcspeedup.com
+-d pdbu.net
+-d peerius.com
+-d pega.com
+-d percentmobile.com
+-d perfdrive.com
+-d perfectaudience.com
+-d perfiliate.com
+-d performanceanalyser.net
+-d performancerevenues.com
+-d performtracking.com
+-d perimeterx.net
+-d perion.com
+-d permutive.com
+-d personalicanvas.com
+-d personyze.com
+-d petametrics.com
+-d phonalytics.com
+-d phone-analytics.com
+-d photorank.me
+-d pi-stats.com
+-d pickzor.com
+-d pikzor.com
+-d ping-fast.com
+-d pingagenow.com
+-d pingdom.net
+-d pingil.com
+-d pingomatic.com
+-d pipfire.com
+-d pippio.com
+-d piwik.pro
+-d pixel.ad
+-d pixel.parsely.com
+-d pixel.watch
+-d pixeleze.com
+-d pixelinteractivemedia.com
+-d pixelrevenue.com
+-d pixelsnippet.com
+-d pizzaandads.com
+-d pjatr.com
+-d pjtra.com
+-d placemypixel.com
+-d platformpanda.com
+-d plecki.com
+-d pleisty.com
+-d plexop.com
+-d plugin.ws
+-d plwosvr.net
+-d pm0.net
+-d pm14.com
+-d pnstat.com
+-d pntra.com
+-d pntrac.com
+-d pntrs.com
+-d pointomatic.com
+-d polarcdn-pentos.com
+-d popsample.com
+-d popt.in
+-d populr.me
+-d porngraph.com
+-d portfold.com
+-d posst.co
+-d postaffiliatepro.com
+-d postclickmarketing.com
+-d ppclocation.biz
+-d ppctracking.net
+-d prchecker.info
+-d precisioncounter.com
+-d predicta.net
+-d predictivedna.com
+-d predictiveresponse.net
+-d prfct.co
+-d prnx.net
+-d pro6e.com
+-d proclivitysystems.com
+-d profilertracking3.com
+-d profilesnitch.com
+-d projecthaile.com
+-d projectsunblock.com
+-d promotionengine.com
+-d proofpoint.com
+-d proofpositivemedia.com
+-d provenpixel.com
+-d prtracker.com
+-d pstats.com
+-d psyma-statistics.com
+-d pt-trx.com
+-d ptengine.cn
+-d ptengine.com
+-d ptengine.jp
+-d ptmind.com
+-d pto-slb-09.com
+-d ptp123.com
+-d ptrk-wn.com
+-d publicidees.com
+-d publishflow.com
+-d pulleymarketing.com
+-d pulselog.com
+-d pulsemaps.com
+-d pureairhits.com
+-d purevideo.com
+-d putags.com
+-d pxf.io
+-d pxi.pub
+-d pymx5.com
+-d pzkysq.pink
+-d q-counter.com
+-d q-stats.nl
+-d qbaka.net
+-d qbop.com
+-d qdtracking.com
+-d qlfsat.co.uk
+-d qlitics.com
+-d qlzn6i1l.com
+-d qoijertneio.com
+-d qsstats.com
+-d quadran.eu
+-d quantcount.com
+-d quantserve.com /api/
+# ||quantserve.com/pixel/$object-subrequest,third-party
+# ||quantserve.com^$~object-subrequest,third-party
+# ||quantserve.com^*.swf?$object-subrequest,third-party
+# ||quantserve.com^*^a=$object-subrequest,third-party
+-d quantummetric.com
+-d qubitproducts.com
+-d questionpro.com
+-d questradeaffiliates.com
+-d quillion.com
+-d quintelligence.com
+-d qzlog.com
+-d r7ls.net
+-d radarstats.com
+-d radarurl.com
+-d radiomanlibya.com
+-d rampanel.com
+-d rampmetrics.com
+-d rank-hits.com
+-d rankingpartner.com
+-d rankinteractive.com
+-d rapidcounter.com
+-d rapidstats.net
+-d rapidtrk.net
+-d rating.in
+-d reachforce.com
+-d reachsocket.com
+-d reactful.com
+-d reactrmod.com
+-d readertracking.com
+-d readnotify.com
+-d real5traf.ru
+-d realcounter.eu
+-d realcounters.com
+-d realtimeplease.com
+-d realtimewebstats.net
+-d realtracker.com
+-d realtracking.ninja
+-d realytics.io
+-d realzeit.io
+-d recoset.com
+-d recruitics.com
+-d redcounter.net
+-d redistats.com
+-d redstatcounter.com
+-d reedbusiness.net
+-d reedge.com
+-d referer.org
+-d referforex.com
+-d referlytics.com
+-d referrer.org
+-d refersion.com
+-d reinvigorate.net
+-d relead.com
+-d reliablecounter.com
+-d relmaxtop.com
+-d remarketingpixel.com
+-d remarketstats.com
+-d rep0pkgr.com
+-d report-uri.io
+-d res-x.com
+-d research-tool.com
+-d researchnow.co.uk
+-d reson8.com
+-d responsetap.com
+-d resulticks.com
+-d retags.us
+-d retargetly.com
+-d retargettracker.com
+-d retentionscience.com
+-d reussissonsensemble.fr
+-d revdn.net
+-d revenuepilot.com
+-d revenuescience.com
+-d revenuewire.net
+-d revolvermaps.com
+-d revsw.net
+-d rewardtv.com
+-d reztrack.com
+-d rezync.com
+-d rfihub.com
+-d rfksrv.com
+-d rfr-69.com
+-d rhinoseo.com
+-d riastats.com
+-d richard-group.com
+-d richmetrics.com
+-d ritecounter.com
+-d rkdms.com
+-d rktu.com
+-d rlcdn.com
+-d rmtag.com
+-d rnengage.com
+-d rng-snp-003.com
+-d rnlabs.com
+-d rockincontent.net
+-d roi-pro.com
+-d roi-rocket.net
+-d roia.biz
+-d roiservice.com
+-d roispy.com
+-d roitesting.com
+-d roivista.com
+-d rollingcounters.com
+-d roosterfirework.com
+-d rpdtrk.com
+-d rqtrk.eu
+-d rrimpl.com
+-d rs0.co.uk
+-d rs6.net
+-d rstg.io
+-d rsvpgenius.com
+-d rtb123.com
+-d rtbauction.com
+-d rtfn.net
+-d rtmark.net
+-d rtrk.co.nz
+-d rtrk.com
+-d ru4.com
+-d rumanalytics.com
+-d rumpelstiltskinhead.com
+-d runtnc.net
+-d rztrkr.com
+-d s-onetag.com
+-d s3s-main.net
+-d sageanalyst.net
+-d sajari.com
+-d salecycle.com
+-d salemove.com
+-d salesgenius.com
+-d salesmanago.pl
+-d salesviewer.com
+-d salesviewer.org
+-d saletrack.co.uk
+-d sapha.com
+-d sarevtop.com
+-d sas15k01.com
+-d sayutracking.co.uk
+-d sbdtds.com
+-d sc-static.net
+-d scaledb.com
+-d scarabresearch.com
+-d scastnet.com
+-d schoolyeargo.com
+-d sciencerevenue.com
+-d scorecardresearch.com
+-d scoutanalytics.net
+-d scrippscontroller.com
+-d script.ag
+-d scripts21.com
+-d scriptshead.com
+-d scroll.com
+-d sddan.com
+-d sea-nov-1.com
+-d searchfeed.com
+-d searchignite.com
+-d searchplow.com
+-d secure-pixel.com
+-d securepaths.com
+-d sedotracker.com
+-d seehits.com
+-d seewhy.com
+-d segment-analytics.com
+-d segment.com
+-d segment.io
+-d segmentify.com
+-d selaris.com
+-d selipuquoe.com
+-d sellebrity.com
+-d sellpoints.com
+# ||sellsy.com^$third-party,domain=~sellsy.fr
+-d semantic-finder.com
+-d semanticverses.com
+-d semasio.net
+-d sematext.com
+-d sendtraffic.com
+-d seomonitor.ro
+-d seomoz.org
+-d seoparts.net
+-d seoradar.ro
+-d serious-partners.com
+-d serv-ac.com
+-d servebom.com
+-d servestats.com
+-d servinator.pw
+-d serving-sys.com
+-d servingpps.com
+-d servingtrkid.com
+-d servustats.com
+-d sessioncam.com
+-d sessions.exchange
+-d sessionstack.com
+-d sexcounter.com
+-d sexystat.com
+-d sf14g.com
+-d shareasale.com
+-d sharpspring.com
+-d shinystat.com
+-d shippinginsights.com
+-d shoelace.com
+-d shoptimally.com
+-d showheroes.com
+-d showroomlogic.com
+-d siftscience.com
+-d signup-way.com
+-d silvergamed.com
+-d silverpop.com
+-d silverpush.co
+-d simility.com
+-d simpleanalytics.io
+-d simpleheatmaps.com
+-d simplehitcounter.com
+-d simplereach.com
+-d simpli.fi
+-d simplycast.us
+-d simplymeasured.com
+-d singlefeed.com
+-d site24x7rum.com
+-d siteapps.com
+-d sitebro.com
+-d sitebro.net
+-d sitebro.tw
+-d sitecompass.com
+-d siteimprove.com
+-d siteimproveanalytics.com
+-d sitelabweb.com
+-d sitelinktrack.com
+-d sitemeter.com
+-d sitereport.org
+-d sitestat.com
+-d sitetag.us
+-d sitetagger.co.uk
+-d sitetracker.com
+-d sitetraq.nl
+-d skimresources.com
+-d skyglue.com
+-d sl-ct5.com
+-d slingpic.com
+-d smadex.com
+-d smallseotools.com
+-d smart-digital-solutions.com
+-d smart-dmp.com
+-d smart-ip.net
+-d smartctr.com
+-d smarterhq.io
+-d smarterremarketer.net
+-d smartlook.com
+-d smartology.co
+-d smartracker.net
+-d smartsuppchat.com
+-d smartzonessva.com
+-d smct.co
+-d smfsvc.com
+-d smileyhost.net
+-d smrk.io
+-d smrtlnks.com
+-d snapdeal.biz
+-d sniperlog.ru
+-d sniphub.com
+-d snoobi.com
+-d snowsignal.com
+-d social-sb.com
+-d socialhoney.co
+-d socialprofitmachine.com
+-d socialtrack.co
+-d socialtrack.net
+-d sociaplus.com
+-d socketanalytics.com
+-d sodoit.com
+-d soflopxl.com
+-d softonic-analytics.net
+-d sojern.com
+-d soko.ai
+-d sokrati.com
+-d sometrics.com
+-d sophus3.com
+-d soska.us
+-d spamanalyst.com
+-d spectate.com
+-d speed-trap.com
+-d speedcurve.com
+-d spklw.com
+-d splittag.com
+-d splurgi.com
+-d splyt.com
+-d spn-twr-14.com
+-d spn.ee
+-d sponsored.com
+-d spotmx.com
+-d spring.de
+-d springmetrics.com
+-d sptag.com
+-d sptag1.com
+-d sptag2.com
+-d sptag3.com
+-d spycounter.net
+-d spylog.com
+-d spylog.ru
+-d spywords.com
+-d sqate.io
+-d squidanalytics.com
+-d srpx.net
+-d srv1010elan.com
+-d stack-sonar.com
+-d stadsvc.com
+-d star-cntr-5.com
+-d startstat.ru
+-d stat.social
+-d stat08.com
+-d stat24.com
+-d statcount.com
+-d statcounter.com
+-d statcounterfree.com
+-d statcounters.info
+-d stathat.com
+-d stathound.com
+-d statisfy.net
+-d statistiche-web.com
+-d statistx.com
+-d statowl.com
+-d statpipe.ru
+-d stats-analytics.info
+-d stats.cz
+-d stats2.com
+-d stats21.com
+-d stats2513.com
+-d stats4all.com
+-d stats4u.net
+-d stats4you.com
+-d statsbox.nl
+-d statsevent.com
+-d statsimg.com
+-d statsinsight.com
+-d statsit.com
+-d statsmachine.com
+-d statsrely.com
+-d statssheet.com
+-d statsw.com
+-d statswave.com
+-d statswebtown.com
+-d statsy.net
+-d stattooz.com
+-d stattrax.com
+-d statun.com
+-d statuncore.com
+-d stcllctrs.com
+-d stcounter.com
+-d steelhousemedia.com
+-d stellaservice.com
+-d stippleit.com
+-d stormcontainertag.com
+-d stormiq.com
+-d storygize.net
+-d streamsend.com
+-d streem.com.au
+-d stripe.network
+-d stripedcollar.net
+-d stroeerdigitalmedia.de
+-d strossle.it
+-d strs.jp
+-d sub2tech.com
+-d submitnet.net
+-d subtraxion.com
+-d successfultogether.co.uk
+-d summerhamster.com
+-d summitemarketinganalytics.com
+# ||sumologic.com^$third-party,domain=~sumologic.net
+-d supercounters.com
+-d superstats.com
+-d supert.ag
+-d surefire.link
+-d surfcounters.com
+-d surfertracker.com
+-d surveyscout.com
+-d surveywriter.com
+-d survicate.com
+-d svr-prc-01.com
+-d swcs.jp
+-d swfstats.com
+-d swiss-counter.com
+-d swoopgrid.com
+-d sxtracking.com
+-d synergy-e.com
+-d synergy-sync.com
+-d synerise.com
+-d synthasite.net
+-d sysomos.com
+-d t-analytics.com
+-d tag4arm.com
+-d tagcommander.com
+-d tagifydiageo.com
+-d tagmngrs.com
+-d tagsrvcs.com
+-d tagtray.com /api/
+-d tamgrt.com
+-d tapfiliate.com
+-d taplytics.com
+-d taps.io
+-d tapstream.com
+-d targetfuel.com
+-d tcactivity.net
+-d tcimg.com
+-d tctm.co
+-d td573.com
+-d tdsrmbl.net
+-d tdstats.com
+-d tealiumiq.com
+-d tedioustooth.com
+-d telemetrytaxonomy.net
+-d telize.com
+-d teljari.is
+-d tellapart.com
+-d tellaparts.com
+-d temnos.com
+-d tendatta.com
+-d tentaculos.net
+-d terabytemedia.com
+-d tercept.com
+-d testin.cn
+-d testpixel.net
+-d tetoolbox.com
+-d tgdaudience.com
+-d theadex.com
+-d theagency.com
+-d thebestlinks.com
+-d thebrighttag.com
+-d thecounter.com
+-d thefreehitcounter.com
+-d thehairofcaptainpicard.com
+-d thermstats.com
+-d thesearchagency.net
+-d thespecialsearch.com
+-d thingswontend.com
+-d thisisacoolthing.com
+-d thisisanothercoolthing.com
+-d thrtle.com
+-d tighting.info
+-d tinb.net
+-d tinycounter.com
+-d tiser.com.au
+-d tkqlhce.com
+-d tl813.com
+-d tm1-001.com
+-d tmpjmp.com
+-d tmvtp.com
+-d tnctrx.com
+-d tns-counter.ru
+-d tns-cs.net
+-d top100bloggers.com
+-d top100webshops.com
+-d top10sportsites.com
+-d topblogarea.com
+-d topblogging.com
+-d topdepo.com
+-d toplist.cz
+-d toplist.eu
+-d topmalaysia.com
+-d topofblogs.com
+-d topstat.cn
+-d torbit.com
+-d toro-tags.com
+-d touchclarity.com
+-d tracc.it
+-d trace-2000.com
+-d trace.events
+-d traceless.me
+-d tracelytics.com
+-d tracemyip.org
+-d tracer.jp
+-d tracetracking.net
+-d traceworks.com
+-d track-server-100.com
+-d track-web.net
+-d track2.me
+-d trackalyzer.com
+-d trackbar.info
+-d trackcdn.com
+-d trackcmp.net
+-d trackconsole.com
+-d trackdiscovery.net
+-d trackeame.com
+-d trackedlink.net
+-d trackedweb.net
+-d tracking100.com
+-d tracking202.com
+-d trackinglabs.com
+-d trackkas.com
+-d trackmytarget.com
+-d trackmyusers.com
+-d trackmyweb.net
+-d trackset.com
+-d tracksy.com
+-d tracktrk.net
+-d trackvoluum.com
+-d trackword.biz
+-d trackyourstats.com
+-d tradedoubler.com
+-d tradelab.fr
+-d tradescape.biz
+-d trafex.net
+-d trafficby.net
+-d trafficengine.net
+-d trafficfacts.com
+-d trafficfuel.com
+-d trafficjoint.com
+-d trafficregenerator.com
+-d traffikcntr.com
+-d trafic.ro
+-d trafinfo.info
+-d trail-web.com
+-d trailheadapp.com
+-d trakken.de
+-d trakzor.com
+-d transactionale.com
+-d traversedlp.com
+-d trbas.com
+-d treasuredata.com
+-d treehousei.com
+-d trekmedia.net
+-d trendcounter.com
+-d trendemon.com
+-d trgtcdn.com
+-d triggeredmessaging.com
+-d triggertag.gorillanation.com
+-d triggit.com
+-d triptease.io
+-d triptease.net
+-d trkjmp.com
+-d trklvs.com
+-d trkn.us
+-d trksrv44.com
+-d trmnsite.com
+-d trovus.co.uk
+-d trs.cn
+-d trtl.ws
+-d tru.am
+-d truconversion.com
+-d truehits.in.th
+-d truehits1.gits.net.th
+-d truoptik.com
+-d tscapeplay.com
+-d tscounter.com
+-d tsk4.com
+-d tsk5.com
+-d tst14netreal.com
+-d tstlabs.co.uk
+-d tsw0.com
+-d tubetrafficcash.com
+-d tunnl.com
+-d tw.cx
+-d twcount.com
+-d twopointo.io
+-d txmoadserver.net
+-d tylere.net
+-d tynt.com
+-d tyxo.com
+-d tz284.com
+-d u5c93.com
+-d u5e.com
+-d uadx.com
+-d ubertags.com
+-d ubertracking.info
+-d uciservice.com
+-d ugdturner.com
+-d uhygtf1.com
+-d ukrre-tea.info
+-d ultratokensx.com
+-d umbel.com
+-d unicaondemand.com
+-d unknowntray.com
+-d upapi.net
+-d upstats.ru
+-d uptain.de
+-d uptimeviewer.com
+-d uptracs.com
+-d uptrendsdata.com
+-d uralweb.ru
+-d uriuridfg.com
+-d urlbrief.com
+-d urlself.com
+-d usabilitytools.com
+-d usabilla.com
+-d useitbetter.com
+-d user-api.com
+-d user-clicks.com
+-d user-red.com
+-d userchecker.info
+-d usercycle.com
+-d userdmp.com
+-d userlook.com
+-d userneeds.dk
+-d useronlinecounter.com
+-d userreplay.net
+-d userreport.com
+-d users-api.com
+-d usuarios-online.com
+-d v12group.com
+-d v3cdn.net
+-d valaffiliates.com
+-d valuedopinions.co.uk
+-d vantage-media.net
+-d vbanalytics.com
+-d vdna-assets.com
+-d veduy.com
+-d vee24.com
+-d veille-referencement.com
+-d veinteractive.com
+-d velaro.com
+-d vendri.io
+-d ventivmedia.com
+-d vepxl1.net
+-d vertical-leap.co.uk
+-d vertical-leap.net
+-d verticalscope.com
+-d verticalsearchworks.com
+-d vertster.com
+-d vi-serve.com
+-d video.oms.eu
+-d videos.oms.eu
+-d videostat.com
+-d vinlens.com
+-d vinub.com
+-d viralninjas.com
+-d virgul.com
+-d virool.com
+-d virtualnet.co.uk
+-d visibility-stats.com
+# ||visiblemeasures.com/log?$object-subrequest,third-party
+# ||visiblemeasures.com/swf/*/vmcdmplugin.swf?key*pixel$object-subrequest
+# ||visiblemeasures.com/swf/as3/as3sohandler.swf$object-subrequest,third-party
+-d visibli.com
+-d visioncriticalpanels.com
+-d visistat.com
+-d visitlog.net
+-d visitor-analytics.io
+-d visitor-analytics.net
+-d visitor-track.com
+-d visitorglobe.com
+-d visitorinspector.com
+-d visitorjs.com
+-d visitorpath.com
+-d visitorprofiler.com
+-d visitortracklog.com
+-d visitorville.com
+-d visitstreamer.com
+-d visto1.net
+-d visualdna-stats.com
+-d visualdna.com
+-d visualrevenue.com
+-d visualwebsiteoptimizer.com
+-d vivocha.com
+-d vizisense.net
+-d vizury.com
+-d vmm-satellite1.com
+-d vmm-satellite2.com
+-d vmmpxl.com
+-d vmtrk.com
+-d voicefive.com
+-d voodooalerts.com
+-d votistics.com
+-d vstats.co
+-d vtracker.net
+-d vunetotbe.com
+-d w3counter.com
+-d w55c.net
+-d waframedia9.com
+-d waplog.net
+-d waudit.cz
+-d waust.at
+-d wbtrk.net
+-d web-boosting.net
+-d web-counter.net
+-d web-stat.com
+-d web-stat.net
+-d webalytics.pw
+-d webclicktracker.com
+-d webcounter.co.za
+-d webcounter.ws
+-d webengage.com
+-d webflowmetrics.com
+-d webforensics.co.uk
+-d webgains.com
+-d webglstats.com
+-d webiqonline.com
+-d webleads-tracker.com
+-d weblytics.io
+-d webmasterplan.com
+-d webseoanalytics.co.za
+-d website-hit-counters.com
+-d websiteceo.com
+-d websiteonlinecounter.com
+-d websiteperform.com
+-d websitewelcome.com
+-d webspectator.com
+-d webstat.com
+-d webstat.net
+-d webstat.se
+-d webstats.com
+-d webstats4u.com
+-d webtraffic.se
+-d webtrafficagents.com
+-d webtraffiq.com
+-d webtraxs.com
+-d webtrekk-asia.net
+-d webtrends.com
+-d webtrendslive.com
+-d webtuna.com
+-d weesh.co.uk
+-d wemfbox.ch
+-d whackedmedia.com
+-d whatismyip.win
+-d whitepixel.com
+-d whizstats.com
+-d whoaremyfriends.com
+-d whoaremyfriends.net
+-d whoisonline.net
+-d whoisvisiting.com
+-d whosclickingwho.com
+-d widerplanet.com
+-d wikia-beacon.com
+-d wikiodeliv.com
+-d wildxtraffic.com
+-d wiredminds.de
+-d wisetrack.net
+-d wishloop.com
+-d woopra-ns.com
+-d woopra.com
+-d worldflagcounter.com
+-d worldlogger.com
+-d wowanalytics.co.uk
+-d wp-stats.com
+-d wpdstat.com
+-d wrating.com
+-d wredint.com
+-d wt-eu02.net
+-d wt-safetag.com
+-d wtp101.com
+-d wtstats.com
+-d wundercounter.com
+-d wunderloop.net
+-d www-path.com
+-d wwwstats.info
+-d wywy.com
+-d wywyuserservice.com
+-d wzrk.co
+-d wzrkt.com
+-d x-stat.de
+-d x.ligatus.com
+-d xclk-integracion.com
+-d xg4ken.com
+-d xiti.com
+-d xlisting.jp
+-d xref.io
+-d xtraffstat.com
+-d xtremline.com
+-d xxxcounter.com
+-d xyztraffic.com
+-d y-track.com
+-d yamanoha.com
+-d yandex-metrica.ru
+-d yaudience.com
+-d ybotvisit.com
+-d ycctrk.co.uk
+-d yellowbrix.com
+-d ygsm.com
+-d yieldbot.com
+-d yieldify.com
+-d yieldsoftware.com
+-d yjtag.jp
+-d yldr.io
+-d ymetrica1.com
+-d youbora.com
+-d youboranqs01.com
+-d youmetrix.co.uk
+-d your-counter.be
+-d youramigo.com
+-d yu987.com
+-d z444o.com
+-d zanox-affiliate.de
+-d zanox.com
+-d zarget.com
+-d zdbb.net
+-d zdtag.com
+-d zedwhyex.com
+-d zeerat.com
+-d zenlivestats.com
+-d zeotap.com
+-d zesep.com
+-d zoomanalytics.co
+-d zoomflow.com
+-d zoomino.com
+-d zoosnet.net
+-d zoossoft.net
+-d zowary.com
+-d zqtk.net
+-d zroitracker.com
+-d ztsrv.com
+# Mining
+- .1.1.1.l80.js/
+- .n.2.1.js/
+- .n.2.1.l50.js/
+- .n.2.1.l60.js/
+# /^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$image,script,subdocument,websocket,xmlhttprequest
+# /^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket,domain=~file.pizza|~instant.io|~kiedywakacje.pl|~myinterview.com|~webtorrent.io
+- /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
+-d 0x1f4b0.com
+-d 185.165.169.108
+-d 185.193.38.148
+-d 1beb2a44.space
+-d 1q2w3.fun
+-d 1q2w3.life
+-d 1q2w3.me
+-d 1q2w3.top
+-d 1q2w3.website
+-d 2giga.download
+-d 300ca0d0.space
+-d 310ca263.space
+-d 320ca3f6.space
+-d 330ca589.space
+-d 340ca71c.space
+-d 35.194.26.233
+-d 35.239.57.233
+-d 360caa42.space
+-d 370cabd5.space
+-d 3c0cb3b4.space
+-d 3d0cb547.space
+-d 45.32.105.134
+-d 77.162.125.199
+-d 8jd2lfsq.me
+-d aalbbh84.info
+-d abc.pema.cl
+-d acbp0020171456.page.tl
+-d ad-miner.com
+-d adless.io
+-d adminer.com
+-d adplusplus.fr
+-d adzjzewsma.cf
+-d aeros01.tk
+-d aeros02.tk
+-d aeros03.tk
+-d aeros04.tk
+-d aeros05.tk
+-d aeros06.tk
+-d aeros07.tk
+-d aeros08.tk
+-d aeros09.tk
+-d aeros10.tk
+-d aeros11.tk
+-d aeros12.tk
+-d afflow.18-plus.net
+-d afminer.com
+-d ajplugins.com
+-d aleinvest.xyz
+-d alemoney.xyz
+- http://alflying.bid
+- http://alflying.date
+- http://alflying.win
+-d altavista.ovh
+-d altpool.pro
+-d amhixwqagiz.ru
+-d analytics.blue
+-d andlache.com
+- http://anybest.host
+- http://anybest.pw
+- http://anybest.site
+- http://anybest.space
+-d api.inwemo.com
+-d appelamule.com
+-d appsha5.space
+-d aqqgli3vle.bid
+-d arizona-miner.tk
+-d aservices.party
+-d assetscdn.stream
+-d aster18cdn.nl
+-d aster18prx.nl
+-d authcaptcha.com
+# ||authedmine.com^$third-party,domain=~coinhive.com
+-d authedmine.eu
+# ||authedwebmine.cz^$third-party,domain=~webmine.cz
+-d autologica.ga
+-d avero.xyz
+-d averoconnector.com
+-d axoncoho.tk
+-d aymcsx.ru
+-d azvjudwr.info
+-d bablace.com
+-d baiduccdn1.com
+-d bauersagtnein.myeffect.net
+-d baywttgdhe.download
+-d becanium.com
+-d befirstcdn.com
+-d belicimo.pw
+-d berateveng.ru
+# ||berserkpl.net.pl^$websocket
+-d besstahete.info
+-d bestcoinsignals.com
+-d besti.ga
+-d bestsecurepractice.com
+-d bewaslac.com
+-d bewhoyouare.gq
+-d bhzejltg.info
+-d biberukalap.com
+-d bitclub.network
+-d bitclubnetwork.com
+-d bitcoin-pay.eu
+-d bjorksta.men
+- http://blockchained.party
+-d bmcm.ml
+-d bmcm.pw
+-d bmnr.pw
+-d bmst.pw
+-d bowithow.com
+-d brominer.com
+-d browsermine.com
+-d bsyauqwerd.party
+-d butcalve.com
+-d byebye.ml
+-d c0i8h8ac7e.bid
+-d candid.zone
+-d cashbeet.com
+-d cc.gofile.io
+-d ccvwtdtwyu.trade
+-d cdn-analytics.pl
+-d cdn-code.host
+-d cdn-jquery.host
+-d cdn.cloudcoins.co
+-d cdn.static-cnt.bid
+-d cdnfile.xyz
+-d cfcdist.gdn
+-d cfcdist.loan
+-d cfcnet.top
+-d chainblock.science
+-d chmproxy.bid
+-d clgserv.pro
+-d clickwith.bid
+-d clod.pw
+-d cloudcdn.gdn
+-d cloudcoins.co
+-d cloudflane.com
+-d cndhit.xyz
+-d cnhv.co
+-d coin-cube.com
+-d coin-have.com
+-d coin-hive.com
+-d coin-service.com
+-d coin-services.info
+-d coinblind.com
+-d coincheck.com
+-d coinerra.com
+-d coinhive-manager.com
+-d coinhive-proxy.party
+-d coinhive.com
+-d coinhiveproxy.com
+- http://coinimp.com
+- http://coinimp.net
+-d coinlab.biz
+-d coinminerz.com
+-d coinminingonline.com
+-d coinnebula.com
+-d coinpirate.cf
+-d coinpot.co
+-d coinrail.io
+-d coinwebmining.com
+-d coinwire.eu
+-d cookiescript.info
+-d cpu2cash.link
+-d cpufan.club
+-d cryptaloot.pro
+-d crypto-coins-now.com
+-d crypto-coins.club
+-d crypto-coins.com
+-d crypto-coins.info
+-d crypto-loot.com
+-d crypto-pool.fr
+-d crypto-webminer.com
+-d crypto.csgocpu.com
+-d cryptobara.com
+-d cryptoloot.pro
+-d cryptomine.pro
+-d cryptonoter.com
+-d csgocpu.com
+-d ctlrnwbv.ru
+-d d8acddffe978b5dfcae6.date
+-d darking05.tk
+-d darking07.tk
+-d datasecu.download
+-d dataservices.download
+-d de-mi-nis-ner.info
+-d de-mi-nis-ner2.info
+-d de-ner-mi-nis4.info
+-d de-nis-ner-mi-5.info
+-d deepc.cc
+-d depttake.ga
+-d devphp.org.ua
+-d dexim.space
+-d didnkinrab.com
+-d directprimal.com
+-d djfhwosjck.bid
+-d dle-news.pw
+-d dogrose18.com
+-d dovinate.top
+-d dronml.ml
+-d drozdovvalerij0.github.io
+-d drupalupdates.tk
+- http://dubester.pw
+- http://dubester.site
+- http://dubester.space
+# ||duckdns.org^$third-party,websocket
+-d dugroscaca.com
+-d dzizsih.ru
+-d easyhash.io
+-d encoding.ovh
+-d ermaseuc.ru
+-d etacontent.com
+-d eth-pocket.com
+-d eth-pocket.de
+-d eth-pocket.eu
+-d ethereum-pocket.de
+-d ethereum-pocket.eu
+-d ethtrader.de
+-d etnhashpool.tk
+-d etzbnfuigipwvs.ru
+-d eucsoft.com
+-d evengparme.com
+-d ewtuyytdf45.com
+-d exdynsrv.com
+-d f1tbit.com
+-d feesocrald.com
+-d ffinwwfpqi.gq
+-d fge9vbrzwt.bid
+-d filmoljupci.com
+-d flare-analytics.com
+- http://flightsy.bid
+- http://flightsy.date
+- http://flightsy.win
+- http://flighty.win
+- http://flightzy.bid
+- http://flightzy.date
+- http://flightzy.win
+-d flnqmin.org
+-d flophous.cf
+-d flowplayer.space
+-d formulawire.com
+- http://freecontent.bid
+- http://freecontent.date
+- http://freecontent.download
+- http://freecontent.faith
+- http://freecontent.loan
+- http://freecontent.party
+- http://freecontent.racing
+- http://freecontent.review
+- http://freecontent.science
+- http://freecontent.stream
+- http://freecontent.trade
+- http://freecontent.win
+-d freshrefresher.com
+-d fruitice.realnetwrk.com
+-d g-content.bid
+-d g1thub.com
+-d gasolina.ml
+-d gay-hotvideo.net
+- http://gettate.date
+- http://gettate.faith
+- http://gettate.racing
+-d giml.ml
+-d gitgrub.pro
+-d gnrdomimplementation.com
+-d go.bestmobiworld.com
+-d go.megabanners.cf
+# ||go.megabanners.cf^$websocket
+-d gobba.myeffect.net
+-d goldoffer.online
+-d googleanalytcs.com
+-d goredirect.party
+-d graftpool.ovh
+-d gramombird.com
+-d greengaming.de
+-d gridiogrid.com
+-d gus.host
+-d gustaver.ddns.net
+-d hallaert.online
+-d hashcoin.co
+-d hashforcash.us
+-d hashing.win
+-d hashnest.com
+-d hashvault.pro
+-d hashzone.io
+-d hatcalter.com
+-d hegrinhar.com
+-d hemnes.win
+-d herphemiste.com
+-d hhb123.tk
+-d hide.ovh
+-d hlpidkr.ru
+-d hodlers.party
+-d hodling.faith
+-d hodling.party
+-d hodling.science
+-d host.d-ns.ga
+-d hostingcloud.accountant
+- http://hostingcloud.bid
+- http://hostingcloud.date
+- http://hostingcloud.download
+- http://hostingcloud.faith
+- http://hostingcloud.loan
+- http://hostingcloud.party
+- http://hostingcloud.racing
+- http://hostingcloud.review
+- http://hostingcloud.science
+- http://hostingcloud.stream
+- http://hostingcloud.trade
+- http://hostingcloud.win
+-d hrfziiddxa.ru
+-d httpp.gdn
+-d hydesolo.tk
+-d iaheyftbsn.review
+-d igg.biz
+-d igrid.org
+-d ihdvilappuxpgiv.ru
+-d imhvlhaelvvbrq.ru
+-d ingorob.com
+-d ininmacerad.pro
+-d insdrbot.com
+-d intactoffers.club
+-d intellecthosting.net
+-d interestingz.pw
+-d investhash.com
+-d ipinfo.io
+-d istlandoll.com
+-d ivuovhsn.ru
+-d ixvenhgwukn.ru
+-d jqassets.download
+-d jqcdn.download
+-d jqr-cdn.download
+-d jqrcdn.download
+-d jquerrycdn.download
+-d jquery-cdn.download
+-d jquery-uim.download
+-d jqwww.download
+-d jqxrrygqnagn.ru
+-d jroqvbvw.info
+-d js.vidoza.net
+-d jsccnn.com
+-d jscdndel.com
+-d jsecoin.com
+- http://jshosting.bid
+- http://jshosting.date
+- http://jshosting.download
+- http://jshosting.faith
+- http://jshosting.loan
+- http://jshosting.party
+- http://jshosting.racing
+- http://jshosting.review
+- http://jshosting.science
+- http://jshosting.stream
+- http://jshosting.trade
+- http://jshosting.win
+-d junopink.ml
+-d jurty.ml
+-d jurtym.cf
+-d jwduahujge.ru
+-d jyhfuqoh.info
+-d kdmkauchahynhrs.ru
+-d kdmkauchahynhrs.ru
+-d kdowqlpt.info
+-d kedtise.com
+-d kinoprofi.org
+-d kippbeak.cf
+-d kireevairina959.github.io
+-d ksimdw.ru
+-d l33tsite.info
+-d laferia.cr
+-d laserveradedomaina.com
+-d ledhenone.com
+-d ledinund.com
+-d leon08.tk
+-d lightminer.co
+-d lindon-pool.win
+-d listat.biz
+-d livestatsnet.services
+-d lmodr.biz
+-d losital.ru
+-d m.anyfiles.ovh
+-d machieved.com
+-d malictuiar.com
+-d marcycoin.org
+-d mataharirama.xyz
+-d mebablo.com
+-d megabanners.cf
+-d mepirtedic.com
+-d mercy.ga
+-d mfio.cf
+-d mhiobjnirs.gq
+-d mi-de-ner-nis3.info
+- http://mighbest.host
+- http://mighbest.pw
+- http://mighbest.site
+-d mine.nahnoji.cz
+-d mine.torrent.pw
+-d minecrunch.co
+-d minemytraffic.com
+-d miner.pr0gramm.com
+# ||miner.pr0gramm.com^$websocket
+-d minerad.com
+-d mineralt.io
+-d minercry.pt
+- http://minero-proxy-*.sh/
+-d minero.cc
+-d minero.pw
+-d minescripts.info
+-d minexmr.com
+-d minexmr.stream
+-d mining.best
+-d mininghub.club
+-d minr.pw
+-d mm.zubovskaya-banya.ru
+-d mmc.center
+-d mmpool.org
+-d mollnia.com
+-d moneone.ga
+-d monerise.com
+-d monero-miner.com
+-d monerominer.rocks
+-d moneromining.online
+-d moneroocean.stream
+-d money-maker-default.info
+-d money-maker-default.info
+-d money-maker-script.info
+-d money-maker-script.info
+-d monkeyminer.net
+-d moonsade.com
+-d morningdigit.com
+-d mrycrypto.com
+-d munero.me
+-d mutuza.win
+-d mwor.gq
+-d mycrypto.company
+-d mycrypto.group
+-d mycrypto.ink
+-d mycrypto.ltd
+-d mycrypto.promo
+-d mycryrpto.com
+-d myerypto.com
+-d myrcrypto.com
+-d myregeneaf.com
+-d mysite.irkdsu.ru
+-d mytestminer.xyz
+-d nabaza.com
+-d nablabee.com
+-d nahnoji.cz
+-d najsiejfnc.win
+-d nametraff.com
+-d nathetsof.com
+-d nddmcconmqsy.ru
+-d nebabrop.com
+-d ner-de-mi-nis-6.info
+-d nerohut.com
+-d netflare.info
+-d never.ovh
+-d nexioniect.com
+-d nextbdom.ru
+-d nexttime.ovh
+-d nfwebminer.com
+-d niematego.tk
+-d nimiq.com
+-d nimiq.watch
+-d nimiqchain.info
+-d nimiqpool.com
+-d nimiqtest.net
+-d nimpool.io
+-d nnycrypto.com
+-d noblock.pro
+-d notmining.org
+-d oei1.gq
+-d offerreality.com
+-d ogondkskyahxa.ru
+-d ogrid.org
+-d okeyletsgo.ml
+-d olecintri.com
+-d omine.org
+-d onlinereserchstatistics.online
+-d onvid.club
+-d open-hive-server-1.pp.ua
+-d openguid.org
+-d oxwwoeukjispema.ru
+-d p2poolmining.com
+-d p2poolmining.net
+-d pampopholf.com
+-d panelsave.com
+-d papoto.com
+-d party-vqgdyvoycc.now.sh
+-d pasoherb.gq
+-d pdheuryopd.loan
+-d pdheuryopd.loan
+-d pearno.com
+-d pertholin.com
+-d philpool.com
+-d play.mix.kinostuff.com
+-d play.vidzi.tv
+-d playerassets.info
+-d plexcoin.info
+-d podrltid.info
+-d pon.ewtuyytdf45.com
+-d pool.etn.spacepools.org
+-d pool.hws.ru
+-d poolmining.eu
+-d poolmining.net
+-d porkypool.com
+-d ppoi.org
+-d pr0gram.org
+-d premiumstats.xyz
+-d presjots.ga
+-d proj2018.xyz
+-d projectpoi.com
+-d proofly.win
+-d pzoifaum.info
+-d rand.com.ru
+-d realnetwrk.com
+-d reasedoper.pw
+-d reauthenticator.com
+-d reauthenticator.com
+-d refunevent.com
+-d rencohep.com
+-d renhertfo.com
+-d reservedoffers.club
+-d retadint.com
+-d rineventrec.com
+-d rintindown.com
+-d rintinwa.com
+-d rocks.io
+-d rtb-seller.com
+-d rtb.connatix.com
+-d ruvuryua.ru
+-d s7ven.com
+-d salamaleyum.com
+-d sbhmn-miner.com
+-d scaleway.ovh
+-d secumine.net
+-d sentemanactri.com
+-d serie-vostfr.com
+-d serv1swork.com
+-d service4refresh.info
+-d silimbompom.com
+- http://site.flashx.
+-d siteverification.online
+-d siteverification.site
+-d skencituer.com
+-d smartoffer.site
+-d smectapop12.pl
+-d soodatmish.com
+-d sourcecode.pro
+-d spacepools.org
+-d sparechange.io
+-d sparnove.com
+-d srcip.com
+-d statdynamic.com
+-d static-cnt.bid
+-d static-sb.com
+-d staticsfs.host
+-d statistic.date
+-d stonecalcom.com
+-d str1kee.com
+-d streambeam.io
+-d streamplay.to
+-d subloader.cf
+-d sumokoin.com
+-d supportxmr.com
+-d sushipool.com
+-d svivqrhrh.ru
+-d swiftmining.win
+-d synconnector.com
+-d tainiesonline.pw
+-d terethat.ru
+-d thatresha.com
+-d thersprens.com
+-d thewhizmarketing.com
+-d thewhizproducts.com
+-d thewise.com
+-d thismetric.com
+-d tidafors.xyz
+-d tmmp.io
+-d toftofcal.com
+-d tokyodrift.ga
+-d traffic.tc-clicks.com
+-d traviilo.com
+-d trk.connatix.com
+-d truemine.org
+-d tulip18.com
+-d turnsocial.com
+-d ue696vbd9l.bid
+-d ugmfvqsu.ru
+-d ukp2pool.uk
+-d unrummaged.com
+-d uoldid.ru
+-d uoldid.ru
+-d usa.cc
+-d vcfs6ip5h6.bid
+-d veerebbs.ml
+-d verifier.live
+-d verifypow.com
+-d veritrol.com
+-d verresof.com
+-d videoplayer2.xyz
+-d vkcdnservice.com
+-d vpzccwpyilvoyg.ru
+-d vuryua.ru
+-d vzhjnorkudcxbiy.com
+-d vzzexalcirfgrf.ru
+- http://wasm.stream
+-d wasm24.ru
+-d wbmwss.beetv.net
+-d web.dle-news.pw
+-d webassembly.stream
+-d webmine.cz
+-d webmine.pro
+-d webminepool.com
+-d webminepool.tk
+-d webminerpool.com
+-d webmining.co
+-d webxmr.com
+-d whathyx.com
+-d whysoserius.club
+-d willacrit.com
+-d witthethim.com
+-d wmemsnhgldd.ru
+-d wmtech.website
+-d wmwmwwfmkvucbln.ru
+-d wordc.ga
+-d wp-monero-miner.de
+-d wrxgandsfcz.ru
+-d wsp.marketgid.com
+-d wtm.monitoringservice.co
+-d wty46.com
+-d xbasfbno.info
+-d xfast.host
+-d xmr.cool
+-d xmrpool.net
+-d xvideosharing.site
+-d xy.nullrefexcep.com
+-d yololike.space
+-d yqaywudifu.date
+-d yrdrtzmsmt.com
+-d yuebofa.cc
+-d ywtjdckysve.com
+-d zavzlen.ru
+-d ziykrgc.ru
+-d zlx.com.br
+-d zminer.zaloapp.com
+-d zndaowjdnf.stream
+- http://zymerget.bid
+- http://zymerget.date
+- http://zymerget.faith
+- http://zymerget.party
+- http://zymerget.stream
+- http://zymerget.win
+# Admiral
+-d 6ldu6qa.com
+-d aheadday.com
+-d anxiousapples.com
+-d awzbijw.com
+-d axiomaticalley.com
+-d balancebreath.com
+-d bh8yx.xyz
+-d broaddoor.com
+-d consciouscabbage.com
+-d consciouschairs.com
+-d copycarpenter.com
+-d delegatediscussion.com
+-d detectdiscovery.com
+-d ejyymghi.com
+-d familiarfloor.com
+-d fearfulflag.com
+-d flakyfeast.com
+-d frailoffer.com
+-d giddycoat.com
+-d gorgeousground.com
+-d greyinstrument.com
+-d hammerhearing.com
+-d hilariouszinc.com
+-d importedincrease.com
+-d jewelcheese.com
+-d lizardslaugh.com
+-d mowfruit.com
+-d petiteumbrella.com
+-d photographpan.com
+-d pietexture.com
+-d puffyloss.com
+-d quaintcan.com
+-d ritzykey.com
+-d scintillatingspace.com
+-d selectivesummer.com
+-d separatesilver.com
+-d shallowschool.com
+-d sharppatch.com
+-d shelterstraw.com
+-d shermore.info
+-d spiffymachine.com
+-d spottysense.com
+-d spurioussteam.com
+-d storesurprise.com
+-d strivesidewalk.com
+-d suddensidewalk.com
+-d sugarcurtain.com
+-d ticklesign.com
+-d truthfulturn.com
+#-----------------Third-party tracking services-----------------#
+# *** easylist:easyprivacy/easyprivacy_thirdparty.txt ***
+-d l2.io /ip.js
+# ||10.122.129.149^$third-party,domain=~search-news-cn.ip
+-d 101apps.com /tracker.ashx?
+-d 105app.com /report/?
+# ||107.20.91.54/partner.gif?$third-party,domain=~thedailybeast.com.ip
+# ||116.213.75.36/logstat/$domain=~caixin.com.ip
+# ||121.78.90.104:8383/pv?*&refer=$third-party,domain=~livere-kr.ip
+-d 123myp.co.uk /ip-address/
+-d 148.251.8.156 /track.js
+# ||174.129.112.186/small.gif?$third-party,domain=~skytide.ip
+# ||174.129.135.197/partner.gif?$third-party,domain=~skytide.ip
+# ||174.129.6.226/tracker/$third-party,domain=~skytide.ip
+# ||174.129.88.189/partner.gif?$third-party,domain=~skytide.ip
+# ||174.129.98.240/small.gif?$third-party,domain=~skytide.ip
+# ||174.37.54.170^$third-party,domain=~informer.com.ip
+# ||184.73.199.40/tracker/$third-party,domain=~skytide.ip
+# ||184.73.199.44/tracker/$third-party,domain=~skytide.ip
+-d 184.73.203.249 /i.gif?
+-d 188.225.25.145
+# ||188.40.142.44/track.js$third-party,domain=~dropped.pl.ip
+# ||195.177.242.237^$third-party,domain=~sat24.com.ip
+# ||195.182.58.105/statistics/$third-party,domain=~stream5.tv.ip
+-d 198.101.148.38 /update_counter.php
+# ||204.236.233.138/tracker/$third-party,domain=~skytide.ip
+# ||204.236.243.21/small.gif?$third-party,domain=~skytide.ip
+-d 208.91.157.30 /viewtrack/
+# ||209.15.236.80^$third-party,domain=~crosspixelmedia.ip
+# ||213.8.137.51/Erate/$third-party,domain=~ynet-il.ip
+-d 216.18.176.4 /logger/
+# ||219.232.238.60/count.$domain=~caixin.com.ip
+# ||23.20.0.197^$third-party,domain=~tritondigital.net.ip
+# ||23.23.22.172/ping/$third-party,domain=~newjerseynewsroom.com.ip
+# ||24option.com/?oftc=$image,third-party
+-d 3crowd.com /3c1px.gif
+-d 3qsdn.com /watchtime?
+-d 4theclueless.com /adlogger/
+# ||50.16.191.59^$third-party,domain=~tritondigital.net.ip
+-d 51network.com
+-d 5251.net /stat.jsp?
+# ||54.217.234.232^$third-party,domain=~moleskine-store.ip
+# ||54.246.124.188/analytics/$domain=~racinguk.ip
+# ||58.68.146.44:8000^$third-party,domain=~peoplesdaily.cn.ip
+-d 5min.com /flashcookie/StorageCookieSWF_
+# ||61.129.118.83^$third-party,domain=~shanghaidaily.cn.ip
+# ||62.219.24.238^$third-party,domain=~cast-tv.com.ip
+# ||6waves.com/edm.php?uid=$image
+# ||74.117.176.217/trf/track.php?$third-party,domain=~adult.sites.ip
+-d 88.150.172.219 ?r=
+-d 88.208.248.58 /tracking/
+# ||93.93.53.198^$third-party,domain=~awempire.ip
+# ||95.211.106.41^$third-party,domain=~leaseweb-nl.ip
+-d 99widgets.com /counters/
+-d 9fine.ru /js/counter.
+-d 9msn.com.au /tracking/
+-d a.mobify.com
+-d a.unanimis.co.uk
+-d a2a.lockerz.com
+-d aaa.aj5.info
+-d aan.amazon.com
+-d aao.org /aao/sdc/track.js
+-d abc.hearst.co.uk
+-d acces-charme.com /fakebar/track.php?
+-d acount.alley.ws
+-d acs86.com /t.js
+-d activecommerce.net /collector.gif
+-d activengage.com /overwatch/
+-d activetracker.activehotels.com
+-d activities.niagara.comedycentral.com
+- http://activity.*.miui.com/
+-d actonservice.com /tracker/
+-d ad.aloodo.com
+-d ad.atdmt.com /c/
+-d ad.atdmt.com /e/
+-d ad.atdmt.com /i/*=
+-d ad.atdmt.com /i/go;
+-d ad.atdmt.com /i/img/
+-d ad.atdmt.com /m/
+-d ad.atdmt.com /s/
+-d adchemy-content.com /tracking.js
+-d addnow.com /tracker/
+-d addthis.com /at/
+-d addthis.com /live/
+-d addthis.com /red/*.js
+-d addthis.com /red/p.png?
+-d addthis.com /p.json?*&ref=
+-d addthiscdn.com .gif?uid=
+-d addthiscdn.com /live/
+-d addthisedge.com /live/
+-d addtoany.com /menu/transparent.gif
+-d adf.ly /ad/conv?
+-d adfox.yandex.ru
+-d adg.bzgint.com
+-d adlog.com.com
+-d admission.net /displaytracker.js
+-d ads-trk.vidible.tv
+# ||ads.bridgetrack.com^$image
+-d adsv7.com /t/
+-d adtrack.calls.net
+-d adultmastercash.com /e1.php
+-d affiliate.iamplify.com
+-d affiliate.mediatemple.net
+-d affiliates.mgmmirage.com
+-d affiliates.minglematch.com
+-d affiliates.spark.net
+-d affiliates.swappernet.com
+-d affilired.com /analytic/
+-d affl.sucuri.net
+-d afrigator.com /track/
+-d agendize.com /counts.jsp?
+-d aiya.com.cn /stat.js
+-d akamai.com /crs/lgsitewise.js
+-d akamai.net .babylon.com/trans_box/
+-d akamai.net /chartbeat.
+-d akamai.net /a.visualrevenue.com/
+-d akamai.net /sitetracking/
+-d akamaihd.net .gif?e=
+-d akamaihd.net /bping.php?
+-d akamaihd.net /javascripts/browserfp.
+-d akamaihd.net /log?
+-d akamaihd.net /push.gif?
+-d akamaihd.net .gif?d=
+-d akamaized.net /?u=
+-d akanoo.com /tracker/
+-d akatracking.esearchvision.com
+-d aklamio.com /ovlbtntrk?
+-d aksb-a.akamaihd.net
+-d alenty.com /trk/
+-d alexa.com /minisiteinfo/
+-d alexa.com /traffic/
+-d alibaba.com /ts?
+-d alipay.com /service/clear.png?
+-d aliyun.com /actionlog/
+-d aliyuncs.com /r.png?
+-d allanalpass.com /track/
+-d alooma.com /track/
+-d alooma.io /track/?
+-d alphasitebuilder.co.za /tracker/
+-d amatomu.com /link/log/
+-d amatomu.com /log.php?
+-d amazon.com /gp/*&linkCode
+-d amazonaws.com /?wsid=
+-d amazonaws.com /accio-lib/accip_script.js
+-d amazonaws.com /amacrpr/crpr.js
+-d amazonaws.com /analytics.
+-d amazonaws.com /cdn.barilliance.com/
+# ||amazonaws.com/ds-dd/data/data.gif?$domain=slickdeals.net
+-d amazonaws.com /fstrk.net/
+-d amazonaws.com /g.aspx
+-d amazonaws.com /gaL.js
+-d amazonaws.com /initialize/
+-d amazonaws.com /js/reach.js
+-d amazonaws.com /ki.js/
+# ||amazonaws.com/logs$xmlhttprequest,domain=wat.tv
+-d amazonaws.com /new.cetrk.com/
+-d amazonaws.com /searchdiscovery-satellite-production/
+-d amazonaws.com /statics.reedge.com/
+-d amazonaws.com /wgntrk/
+-d amazonaws.com .kissinsights.com/
+-d amazonaws.com .kissmetrics.com/
+-d amazonaws.com /i?stm=
+-d amazonaws.com /pageviews
+-d amazonaws.com /Test_oPS_Script_Loads?
+# ||amazonaws.com^*/track.js$domain=hitfix.com
+-d amplify.outbrain.com
+-d amplifypixel.outbrain.com
+-d ams.addflow.ru
+-d an.yandex.ru
+-d analytic.pho.fm
+-d analytic.xingcloud.com
+-d analyticapi.pho.fm
+-d analyticcdn.globalmailer.com
+- http://analytics-beacon-*.amazonaws.com/
+-d analytics-rhwg.rhcloud.com
+-d analytics-static.ugc.bazaarvoice.com
+-d analytics-v2.anvato.com
+-d analytics.30m.com
+-d analytics.abacast.com
+-d analytics.adeevo.com
+-d analytics.amakings.com
+-d analytics.anvato.net
+-d analytics.apnewsregistry.com
+-d analytics.artirix.com
+-d analytics.atomiconline.com
+-d analytics.avanser.com.au
+-d analytics.aweber.com
+-d analytics.bigcommerce.com
+-d analytics.brandcrumb.com
+-d analytics.carambo.la
+-d analytics.cincopa.com
+-d analytics.clickpathmedia.com
+-d analytics.closealert.com
+-d analytics.cmg.net
+-d analytics.codigo.se
+-d analytics.conmio.com
+-d analytics.convertlanguage.com
+-d analytics.cynapse.com
+-d analytics.datahc.com
+-d analytics.dev.springboardvideo.com
+-d analytics.dvidshub.net
+-d analytics.edgekey.net
+-d analytics.edgesuite.net
+-d analytics.episodic.com
+-d analytics.fairfax.com.au
+-d analytics.favcy.com
+-d analytics.foresee.com
+-d analytics.groupe-seb.com
+-d analytics.gvim.mobi
+-d analytics.hosting24.com
+-d analytics.hpprintx.com
+-d analytics.kaltura.com
+-d analytics.kapost.com
+-d analytics.live.com
+-d analytics.livestream.com
+-d analytics.mailmunch.co
+-d analytics.matchbin.com
+-d analytics.mlstatic.com
+-d analytics.myfinance.com
+-d analytics.newscred.com
+-d analytics.onlyonlinemarketing.com
+-d analytics.ooyala.com
+-d analytics.optilead.co.uk
+-d analytics.orenshmu.com
+-d analytics.paddle.com
+-d analytics.performable.com
+-d analytics.photorank.me
+-d analytics.piksel.com
+-d analytics.prezly.com
+-d analytics.prod.aws.ecnext.net
+-d analytics.r17.com
+-d analytics.radiatemedia.com
+-d analytics.recruitics.com
+-d analytics.revee.com
+-d analytics.reyrey.net
+-d analytics.rogersmedia.com
+-d analytics.shareaholic.com
+-d analytics.sitewit.com
+-d analytics.snidigital.com
+-d analytics.sonymusic.com
+-d analytics.springboardvideo.com
+-d analytics.staticiv.com
+-d analytics.stg.springboardvideo.com
+-d analytics.strangeloopnetworks.com
+-d analytics.supplyframe.com
+-d analytics.themarketiq.com
+-d analytics.tout.com
+-d analytics.tribeca.vidavee.com
+-d analytics.truecarbon.org
+-d analytics.urx.io
+-d analytics.vanillaforums.com
+-d analytics.vendemore.com
+-d analytics.websolute.it
+-d analytics.wildtangent.com
+-d analytics.witglobal.net
+-d analytics.yola.net
+-d analytics.yolacdn.net
+-d analytics.ziftsolutions.com
+-d analyticsengine.s3.amazonaws.com
+-d analyze.full-marke.com
+-d analyzer.qmerce.com
+-d ancestrycdn.com /tao/at/
+-d anvato.com /anvatoloader.swf?analytics=
+-d aol.com /ping?
+-d aolanswers.com /wtrack/
+-d aolcdn.com /js/mg2.js
+-d aolcdn.com /omniunih_int.js
+-d aolcdn.com /beacon.min.js
+-d ape-tagit.timeinc.net
+-d apester.com /event/
+-d api.awe.sm /stats/
+-d api.bit.ly /clicks?
+-d api.choicestream.com /instr/ccm/
+-d api.collarity.com /cws/*http
+-d api.fyreball.com
+-d api.wipmania.com
+-d app.cdn-cs.com /__t.png?
+-d app.insightgrit.com
+-d app.pendo.io /data/ptm.gif
+-d app.yesware.com /t/
+-d appdynamics.com /geo/
+-d appinthestore.com /click/
+-d apple.www.letv.com
+-d appliedsemantics.com /images/x.gif
+-d appmifile.com /stat/
+-d appsolutions.com /hitme?
+-d appspot.com /analytics/
+-d appspot.com /api/track/
+-d appspot.com /collect
+-d appspot.com /stats?
+# ||apture.com/v3/?5=%7b%22stats%22$xmlhttprequest
+-d arclk.net /trax?
+-d areyouahuman.com /kitten?
+-d aserve.directorym.com
+-d ask.com /i.gif?
+# ||assoc-amazon.*^e/ir?t=$image
+-d asterpix.com /tagcloudview/
+-d atdmt.com /action/
+-d atdmt.com /iaction/
+-d atdmt.com /jaction/
+-d atdmt.com /mstag/
+-d atom-data.io /session/latest/track.html?
+-d attributiontrackingga.googlecode.com
+-d auctiva.com /Default.aspx?query
+-d audience.atex.com
+-d audience.newscgp.com
+-d audienceapi.newsdiscover.com.au
+-d audienceinsights.net
+-d audit.303br.net
+-d audit.median.hu
+-d autoline-top.com /counter.php?
+# ||automate-prod.s3.amazonaws.com^$~script
+-d awaps.yandex.net
+-d awe.sm /conversions/
+# ||aweber.com/form/displays.htm?$image
+-d awseukpi.whisbi.com
+-d axislogger.appspot.com
+-d azureedge.net /track
+-d azurewebsites.net /TrackView/
+-d azurewebsites.net /telemetry.js
+-d b-aws.aol.com
+-d b.bedop.com
+-d b5media.com /bbpixel.php
+-d b8cdn.com /analytics.js
+-d bab.frb.io
+-d backstage.funnelenvy.com
+-d baidu.com /pixel?
+-d bango.net /exid/*.gif?
+-d bango.net /id/*.gif?
+-d barium.cheezdev.com
+-d basilic.netdna-cdn.com
+-d bat.bing.com
+-d bazaarvoice.com /sid.gif
+-d bazaarvoice.com /magpie.js
+- http://bc.geocities.
+-d beacon.affil.walmart.com
+-d beacon.aimtell.com
+-d beacon.errorception.com
+-d beacon.gcion.com
+-d beacon.gu-web.net
+-d beacon.guim.co.uk
+-d beacon.heliumnetwork.com
+-d beacon.indieclick.com
+-d beacon.livefyre.com
+-d beacon.richrelevance.com
+-d beacon.riskified.com
+-d beacon.rum.dynapis.com
+-d beacon.securestudies.com
+-d beacon.sojern.com
+-d beacon.squixa.net
+-d beacon.statful.com
+-d beacon.thred.woven.com
+-d beacon.tingyun.com
+-d beacon.viewlift.com
+-d beacon2.indieclick.com
+-d beacon2.indieclicktv.com
+-d beacons.brandads.net
+-d beacons.mediamelon.com
+# ||bestofmedia.com^*/beacons/$~image
+-d bfnsoftware.com /environment.cgi?
+-d bhphotovideo.com /imp/
+-d bibzopl.com /in.php
+-d bid.g.doubleclick.net
+-d bidsystem.com /ppc/sendtracker.aspx?
+- http://bin.clearspring.*/b.swf
+-d bing.com /aclick/
+-d bing.com /action/
+-d bit.ly /stats?
+-d bitdash-reporting.appspot.com
+-d bitgravity.com /b.gif
+-d bitgravity.com /tracking/
+-d bitrix.info /ba.js
+-d bizrate-images.co.uk /tracker.js
+-d bizrate-images.com /tracker.js
+-d bizrate.co.uk /js/survey_
+-d bizrate.com /survey_
+-d bizsolutions.strands.com
+-d blamcity.com /log/
+-d blinkx.com /thirdparty/iab/
+-d blip.bizrate.com
+-d blogblog.com /tracker/
+-d bobparsons.com /image.aspx?
+-d bonsai.internetbrands.com
+-d bpath.com /count.dll?
+-d brain.foresee.com
+-d brandaffinity.net /icetrack/
+-d brandcdn.com /pixel/
+-d bravenet.com /counter/
+-d break.com /apextracker/
+-d break.com /break/js/brktrkr.js
+-d breakingburner.com /stats.html?
+-d breakmedia.com /track.jpg?
+-d bright.bncnt.com
+-d browserscope.org /user/beacon/
+-d bs.yandex.ru
+-d btn.clickability.com
+-d btrace.video.qq.com
+-d bufferapp.com /wf/open?upn=
+-d bumpin.com /analytics.html
+-d business.sharedcount.com
+-d buzzbox.buzzfeed.com
+-d bzgint.com /CUNCollector/
+-d bzpics.com /jslib/st.js?
+-d c.compete.com
+-d c.homestore.com
+-d c.imedia.cz
+-d c.live.com
+-d c.mgid.com
+-d c.wen.ru
+-d c.ypcdn.com &ptid
+-d c.ypcdn.com ?ptid
+-d c2s-openrtb.liverail.com
+-d c3metrics.medifast1.com
+-d cache2.delvenetworks.com
+-d cadreon.s3.amazonaws.com
+-d canada.com /js/analytics/
+-d canvas-ping.conduit-data.com
+-d canvas-usage-v2.conduit-data.com
+-d capture.bi.movideo.com /dc?
+-d capture.camify.com /dc?
+-d capture.condenastdigital.com
+-d carambo.la /analytics/
+-d carambo.la /logging/
+-d carl.pubsvs.com
+-d caspionlog.appspot.com
+-d cc.swiftype.com
+-d cdn.trafficexchangelist.com
+-d cdn3.net /pixe/
+-d cdnbigdata.azureedge.net
+-d cdnma.com /apps/capture.js
+-d cdnplanet.com /static/rum/rum.js
+-d ce.lijit.com
+-d centerix.ru /count.msl?
+-d cf.overblog.com
+-d cgicounter.oneandone.co.uk
+-d cgicounter.puretec.de
+-d chanalytics.merchantadvantage.com
+-d chartaca.com.s3.amazonaws.com
+-d checkout.com /logger/
+-d choicestream.com /pixel/
+-d chtah.com /a/*/spacer-0.gif
+-d chtah.com /1x1.gif
+-d chtah.net /a/*/spacer-0.gif
+-d circonus.com /hit?
+-d citygridmedia.com /tracker/
+-d citysearch.com /tracker/
+-d clarium.global.ssl.fastly.net
+-d clearspring.com /at/
+-d clearspring.com /t/
+-d click.appinthestore.com
+-d click.aristotle.net
+-d click.geopaysys.com
+-d click.rssfwd.com
+-d click1.email.nymagazine.com
+# ||click1.online.vulture.com^$image,third-party
+-d clickchatsold.com /d0/
+-d clicker.com pageurl
+-d clickfunnels.com /assets/pushcrew.js
+-d clickfunnels.com /cf.js
+-d clickfunnels.com /userevents/
+-d clickfunnels.com /track?
+-d clicks.dealer.com
+-d clickstream.loomia.com
+-d clicktale.pantherssl.com
+-d clicktalecdn.sslcs.cdngc.net
+-d clickthru.lefbc.com
+-d clicktracker.iscan.nl
+-d clicktracks.aristotle.net
+-d client.tahono.com
+-d clientstat.castup.net
+-d clipsyndicate.com /cs_api/cliplog?
+-d clk.onet.pl
+-d clnk.me /_t.gif?
+-d cloudapp.net /l/
+-d cloudfront-labs.amazonaws.com
+- http://cloudfront.net*/keywee.min.js
+- http://cloudfront.net*/sp.js
+- http://cloudfront.net*/tracker.js
+- http://cloudfront.net*/trk.js
+-d cloudfront.net /?a=
+-d cloudfront.net /abw.js
+-d cloudfront.net /analytics.js
+-d cloudfront.net /analytics_*.js
+-d cloudfront.net /analyticsengine/
+-d cloudfront.net /autotracker
+-d cloudfront.net /bti/
+-d cloudfront.net /code/keen-2.1.0-min.js
+-d cloudfront.net /dough/*/recipe.js
+-d cloudfront.net /esf.js
+-d cloudfront.net /i?stm=
+-d cloudfront.net /js/ca.js
+-d cloudfront.net /js/reach.js
+-d cloudfront.net /khp.js
+-d cloudfront.net /log.js?
+-d cloudfront.net /lp.js
+-d cloudfront.net /performable/
+-d cloudfront.net /powr.js
+-d cloudfront.net /pt1x1.gif
+-d cloudfront.net /rc.js?
+-d cloudfront.net /rum/bacon.min.js
+-d cloudfront.net /scripts/cookies.js
+-d cloudfront.net /sentinel.js
+-d cloudfront.net /sitegainer_
+-d cloudfront.net /smartserve-
+-d cloudfront.net /sso.js
+-d cloudfront.net /track.html
+-d cloudfront.net /track?
+-d cloudfront.net /trackb.html
+-d cloudfront.net /websites/sb.js
+-d cloudfront.net /zephyr.js
+-d cloudfunctions.net /ingest?
+-d cm.g.doubleclick.net
+-d cmmeglobal.com /evt?
+-d cmmeglobal.com /page-view?
+-d cms-pixel.crowdreport.com
+-d cnetcontent.com /jsc/h.js
+-d cnetcontent.com /log?
+-d cnevids.com /metrics/
+-d cnpapers.com /scripts/library/
+-d cnt.3dmy.net
+-d cnt.mastorage.net
+-d cnzz.com /stat.
+-d cod.bitrec.com
+-d coinbase.com /assets/application-*.js
+- http://collect.*.miui.com/
+-d collect.igodigital.com .js
+-d collect.rewardstyle.com
+-d collection.acromas.com
+# ||collector-*.elb.amazonaws.com^$image,third-party
+- http://collector-*.tvsquared.com/
+-d collector.air.tv
+-d collector.apester.com
+-d collector.automote.co.nz
+-d collector.contentexchange.me
+-d collector.leaddyno.com
+-d collector.nextguide.tv
+-d collector.roistat.com
+-d collector.snplow.net
+-d collector.sspinc.io
+-d comet.ibsrv.net
+-d comic-rocket.com /metrics.js
+-d communicatorcorp.com /conversiontracking.js
+-d compendiumblog.com /js/stats.js
+-d conde.io /beacon
+-d condenastdigital.com /content?
+-d connect.facebook.net /signals/
+-d connect.facebook.net /fbds.js
+-d connect.facebook.net /fbevents.js
+-d contactatonce.com /VisitorContext.aspx?
+-d content.cpcache.com /js/ga.js
+-d contentpass.net /stats?
+# ||control.adap.tv^$object-subrequest
+-d control.cityofcairns.com
+-d cookies.livepartners.com
+-d cookietracker.cloudapp.net
+-d cookiex.ngd.yahoo.com
+-d count.asnetworks.de
+-d count.carrierzone.com
+-d count.channeladvisor.com
+-d count.me.uk
+-d count.paycounter.com
+-d counter.bloke.com
+-d counter.cam-content.com
+-d counter.htmlvalidator.com
+-d counter.hyipexplorer.com
+-d counter.maases.com
+-d counter.mgaserv.com
+-d counter.packa2.cz
+-d counter.pagesview.com
+-d counter.pax.com
+-d counter.powweb.com
+-d counter.rambler.ru
+-d counter.scribblelive.com
+-d counter.scribblelive.net
+-d counter.snackly.co
+-d counter.sparklit.com
+-d counter.tldw.me
+-d counter.top.ge
+-d counter.webcom.com
+-d counter.webmasters.bpath.com
+-d counter.yadro.ru
+-d counters.freewebs.com
+-d counters.gigya.com
+-d cr.loszona.com
+-d creativecdn.com /pix/?
+-d creativecdn.com /tags?
+-d crm-vwg.com /tracker/
+-d crowdfactory.com /tracker/
+-d crowdskout.com /analytics.js
+-d crowdskout.com /skout.js
+-d crowdskout.com /page-view
+-d csi.gstatic.com
+-d csp-collector.appspot.com
+-d csp.archant.co.uk
+-d csr.onet.pl
+-d ct.eid.co.nz
+-d ct.itbusinessedge.com
+-d ct.needlive.com
+-d ct.pinterest.com
+-d ct.thegear-box.com
+-d cts-log.channelintelligence.com
+-d cts-secure.channelintelligence.com
+-d cts.businesswire.com
+-d cts.channelintelligence.com
+-d cts.vresp.com
+-d cumulus-cloud.com /trackers/
+-d curalate.com /events.jsonp
+-d curate.nestedmedia.com
+-d custom.search.yahoo.co.jp /images/window/*.gif
+-d customerlobby.com /ctrack-
+-d cx.atdmt.com
+# ||d.rcmd.jp^$image
+-d d.shareaholic.com
+-d d10lpsik1i8c69.cloudfront.net
+-d d11a2fzhgzqe7i.cloudfront.net
+-d d169bbxks24g2u.cloudfront.net
+-d d16fk4ms6rqz1v.cloudfront.net
+-d d18p8z0ptb8qab.cloudfront.net
+-d d191y0yd6d0jy4.cloudfront.net
+-d d1cdnlzf6usiff.cloudfront.net
+-d d1cerpgff739r9.cloudfront.net
+-d d1clfvuu2240eh.cloudfront.net
+-d d1clufhfw8sswh.cloudfront.net
+-d d1cr9zxt7u0sgu.cloudfront.net
+-d d1f1eryiqyjs0r.cloudfront.net /track.
+-d d1gp8joe0evc8s.cloudfront.net
+-d d1ivexoxmp59q7.cloudfront.net /live.js
+-d d1ksyxj9xozc2j.cloudfront.net
+-d d1lm7kd3bd3yo9.cloudfront.net
+-d d1m6l9dfulcyw7.cloudfront.net
+-d d1nh2vjpqpfnin.cloudfront.net
+-d d1qpxk1wfeh8v1.cloudfront.net
+-d d1r27qvpjiaqj3.cloudfront.net
+-d d1r55yzuc1b1bw.cloudfront.net
+-d d1rgnfh960lz2b.cloudfront.net
+-d d1rnw04e6mc22h.cloudfront.net
+-d d1ros97qkrwjf5.cloudfront.net
+-d d1ssbq1bwjg5ux.cloudfront.net
+-d d1uanozc5el74n.cloudfront.net
+-d d1wscoizcbxzhp.cloudfront.net
+-d d1xfq2052q7thw.cloudfront.net
+-d d1yu5hbtu8mng9.cloudfront.net
+-d d1z2jf7jlzjs58.cloudfront.net
+-d d21o24qxwf7uku.cloudfront.net
+-d d22v2nmahyeg2a.cloudfront.net
+-d d23p9gffjvre9v.cloudfront.net
+-d d23pi6hvdpcc5i.cloudfront.net
+-d d24cze5sab2jwg.cloudfront.net
+-d d25ezbwokoefx6.cloudfront.net
+-d d27s92d8z1yatv.cloudfront.net /js/jquery.jw.analitycs.js
+-d d28g9g3vb08y70.cloudfront.net
+-d d2d5uvkqie1lr5.cloudfront.net /analytics-
+-d d2d5uvkqie1lr5.cloudfront.net /analytics.
+-d d2gfdmu30u15x7.cloudfront.net
+-d d2gfi8ctn6kki7.cloudfront.net
+-d d2kmrmwhq7wkvs.cloudfront.net
+-d d2kyy9hvbrzkgn.cloudfront.net
+-d d2nq0f8d9ofdwv.cloudfront.net /track.js
+-d d2nxi61n77zqpl.cloudfront.net
+-d d2o67tzzxkqap2.cloudfront.net
+-d d2oh4tlt9mrke9.cloudfront.net
+-d d2pxb4n3f9klsc.cloudfront.net
+-d d2ry9vue95px0b.cloudfront.net
+-d d2so4705rl485y.cloudfront.net
+-d d2tcg4i9q4js4a.cloudfront.net
+-d d2tgfbvjf3q6hn.cloudfront.net
+-d d2xgf76oeu9pbh.cloudfront.net
+-d d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
+-d d3135glefggiep.cloudfront.net
+-d d31bfnnwekbny6.cloudfront.net /customers/
+-d d33im0067v833a.cloudfront.net
+-d d34ko97cxuv4p7.cloudfront.net
+-d d36lvucg9kzous.cloudfront.net
+-d d36wtdrdo22bqa.cloudfront.net
+-d d396ihyrqc81w.cloudfront.net
+-d d3a2okcloueqyx.cloudfront.net
+-d d3alqb8vzo7fun.cloudfront.net
+-d d3cxv97fi8q177.cloudfront.net
+-d d3ezl4ajpp2zy8.cloudfront.net
+-d d3h1v5cflrhzi4.cloudfront.net
+-d d3hr5gm0wlxm5h.cloudfront.net
+-d d3iouejux1os58.cloudfront.net
+-d d3kyk5bao1crtw.cloudfront.net
+-d d3l3lkinz3f56t.cloudfront.net
+-d d3mskfhorhi2fb.cloudfront.net
+-d d3n6i6eorggdxk.cloudfront.net
+-d d3ojzyhbolvoi5.cloudfront.net
+-d d3qxef4rp70elm.cloudfront.net /m.js
+-d d3qxwzhswv93jk.cloudfront.net
+-d d3r7h55ola878c.cloudfront.net
+-d d3rmnwi2tssrfx.cloudfront.net
+-d d3s7ggfq1s6jlj.cloudfront.net
+-d d3tglifpd8whs6.cloudfront.net
+-d d4ax0r5detcsu.cloudfront.net
+-d d6jkenny8w8yo.cloudfront.net
+-d d81mfvml8p5ml.cloudfront.net
+-d d8rk54i4mohrb.cloudfront.net
+-d d9lq0o81skkdj.cloudfront.net
+-d daq0d0aotgq0f.cloudfront.net
+-d data.alexa.com
+-d data.beyond.com
+-d data.circulate.com
+-d data.fotorama.io /?
+-d data.gosquared.com
+-d data.imakenews.com
+-d data.marketgid.com
+-d data.minute.ly
+-d data.queryly.com
+-d data2.gosquared.com
+- http://datacollect*.abtasty.com/
+-d datam8.co.nz
+-d daumcdn.net /tiara/
+-d daylogs.com /counter/
+-d dc8na2hxrj29i.cloudfront.net
+-d dc8xl0ndzn2cb.cloudfront.net
+-d dd6zx4ibq538k.cloudfront.net
+-d dditscdn.com /?a=
+-d dealer.com /tracker/
+-d dealer.com /tracking/
+-d dealerfire.com /analytics/
+-d deb.gs /track/
+-d delivra.com /tracking/
+-d dell.com /TAG/tag.aspx?
+-d delvenetworks.com /player/plugins/analytics/
+-d demandmedia.com /wm.js
+-d demandmedia.s3.amazonaws.com
+-d desert.ru /tracking/
+-d desipearl.com /tracker/
+-d detect.ergebnis-dienst.de
+-d dfanalytics.dealerfire.com
+-d dfdbz2tdq3k01.cloudfront.net
+-d digimedia.com /pageviews.php?
+-d digitalgov.gov /Universal-Federated-Analytics-Min.js
+-d directnews.co.uk /feedtrack/
+-d dirt.dennis.co.uk
+-d disqus.com /api/ping?
+-d disqus.com /event.js?*.js
+-d disqus.com /stats.html
+-d distillery.wistia.com
+-d djibeacon.djns.com
+-d djtflbt20bdde.cloudfront.net
+-d dkj2m377b0yzw.cloudfront.net
+-d dl1d2m8ri9v3j.cloudfront.net
+-d dlvkf5067xruv.cloudfront.net
+-d dmcdn.net /behavior/
+-d dmdentertainment.com /video_debug.gif?
+-d dn-net.com /cc.js
+-d dn34cbtcv9mef.cloudfront.net
+-d dnn506yrbagrg.cloudfront.net
+-d domodomain.com /ddsense.aspx?
+-d doug1izaerwt3.cloudfront.net
+# ||dreamhost.com/*.cgi?$image,third-party
+-d drift.com /track
+-d ds-aksb-a.akamaihd.net
+-d dt.sellpoint.net
+-d dtym7iokkjlif.cloudfront.net /dough/
+-d du4rq1xqh3i1k.cloudfront.net
+-d du8783wkf05yr.cloudfront.net
+-d dufue2m4sondk.cloudfront.net
+-d duu8lzqdm8tsz.cloudfront.net
+-d dw.cbsi.com .js
+# ||dw.cbsi.com^*/e.gif$image
+-d dw.cbsimg.net .js
+-d dw.com.com .js
+-d dxwgpw0lkcum5.cloudfront.net
+-d dy2xcjk8s1dbz.cloudfront.net
+-d dymlo6ffhj97l.cloudfront.net
+-d dzmxze7hxwn6b.cloudfront.net
+-d dzxxxg6ij9u99.cloudfront.net
+-d e-activist.com /broadcast.record.message.open.do?
+-d e-merchant.com //*/edr.js
+-d e.ebidtech.com /cv/
+-d early-birds.fr /tracker/
+-d ebay.northernhost.com
+# ||ebayrtm.com/rtm?RtmCmd&a=img&$image
+-d ebaystatic.com /pulsar.js
+-d ebaystatic.com /rover_*.js
+-d ebaystatic.com /tracking_RaptorheaderJS.js
+-d ecommstats.s3.amazonaws.com
+-d ecustomeropinions.com /survey/nojs.php?
+-d ecustomeropinions.com /i.php?
+-d edge.bredg.com
+-d edge.sqweb.com
+-d edgesuite.net /googleanalyt
+-d edrta.mol.im
+-d edw.insideline.com
+# ||elb.amazonaws.com/?page=$image
+-d elb.amazonaws.com /g.aspx?surl=
+-d elb.amazonaws.com /partner.gif?
+-d elb.amazonaws.com /small.gif?
+-d els-cdn.com /analytics.js
+# ||email-edg.paypal.com/o/$image
+-d email.mediafire.com /wf/open?
+-d emarketeer.com /tracker/
+-d embed.docstoc.com /Flash.asmx/StoreReffer?
+-d embedly.com /widgets/xcomm.html
+-d emihosting.com /tracking/
+-d enews.pcmag.com /db/
+-d ensighten.com /error/e.php?
+-d entry-stats.huffpost.com
+-d epl.paypal-communication.com
+-d epromote.co.za /track/
+-d erne.co /tags?
+-d errors.snackly.co
+-d eservicesanalytics.com.au
+-d et.grabnetworks.com
+-d etahub.com /track?site_id
+# ||etc.grab.com^$image,third-party
+-d etoro.com /tradesmonitor/
+-d event-listener.air.tv
+-d event.api.drift.com
+-d event.loyalty.bigdoor.com
+-d event.previewnetworks.com
+-d event.trove.com
+# ||eventful.com/apps/generic/$image,third-party
+-d eventgateway.soundcloud.com
+-d eventlog.inspsearch.com
+-d eventlog.inspsearchapi.com
+-d events.air.tv
+-d events.antenna.is
+-d events.apester.com
+-d events.bounceexchange.com
+-d events.eyeviewdigital.com .gif?r=
+-d events.izooto.com
+-d events.jotform.com
+-d events.launchdarkly.com
+-d events.marquee-cdn.net
+-d events.medio.com
+-d events.ocdn.eu
+-d events.realgravity.com
+-d events.whisk.com
+-d events.yourcx.io
+-d eventtracker.videostrip.com
+-d eveonline.com /redir.asp
+-d evgnet.com /beacon/
+-d eviesays.com /js/analytics/
+-d evri.com /analytics/
+# ||evt.collarity.com^$image
+-d exitintel.com /log/
+-d experience.contextly.com
+- http://facebook.com*/impression.php
+-d facebook.com /plugins/send_to_messenger.php?app_id=
+-d facebook.com /ai.php?
+# ||facebook.com/audience_network/$image
+-d facebook.com /brandlift.php
+-d facebook.com /common/scribe_endpoint.php
+-d facebook.com /email_open_log_pic.php
+-d facebook.com /fr/u.php?
+-d facebook.com /js/conversions/tracking.js
+-d facebook.com /method/links.getStats?
+-d facebook.com /offsite_event.php
+-d facebook.com /rtb_impression/?
+-d facebook.com /rtb_video/?
+-d facebook.com /tr
+-d facebook.com /placementbid.json
+-d facebook.com /tracking.js
+-d fairfax.com.au /js/track/
+-d fastcounter.bcentral.com
+-d fastcounter.onlinehoster.net
+-d fastly.net /collect?
+-d fastly.net /i?
+-d fbpixel.network.exchange
+-d feed.informer.com /fdstats
+-d feedblitz.com /imp?
+-d feedblitz.com .gif?
+-d feedcat.net /button/
+-d filament-stats.herokuapp.com
+-d filesonic.com /referral/
+-d fitanalytics.com /metrics/
+-d flashi.tv /histats.php?
+-d flashstats.libsyn.com
+-d flex.msn.com /mstag/
+# ||fliqz.com/metrics/$~object-subrequest
+-d flix360.com /beat?
+-d flixster.com /analytics.
+-d flocktory.com /tracks/
+-d fluidsurveys-com.fs.cm
+-d flux.com /geo.html?
+-d followistic.com /widget/stat/
+-d footballmedia.com /tracking/
+-d forms.aweber.com /displays.htm?id=
+-d fourmtagservices.appspot.com
+-d foxcontent.com /tracking/
+-d freecurrencyrates.com /statgif.
+-d freedom.com /analytic/
+-d freedom.com /analytics/
+-d freehostedscripts.net .php?site=*&s=*&h=
+-d friends.totallynsfw.com
+-d ftimg.net /js/log.js?
+-d fullstory.com /s/fs.js
+-d future-fie-assets.co.uk
+-d fwix.com /ref.js
+-d fwix.com /trackclicks_
+-d fyre.co /tracking/
+-d g.delivery.net
+-d ga-beacon.appspot.com
+-d ga.kvideo.io
+-d ga.webdigi.co.uk
+-d gamegecko.com /gametrack?
+-d gatehousemedia.com /wickedlocal/ip.js
+-d gcion.com /gcion.ashx?
+-d geckofoot.com /gfcounterimg.aspx?
+-d geckofoot.com /gfvisitormap.aspx?
+-d geni.us /snippet.js
+-d geo.ertya.com
+-d geo.gexo.com /geo.js
+-d geo.gorillanation.com
+-d geo.kaloo.ga
+-d geo.kontagent.net
+-d geo.ltassrv.com
+-d geo.q5media.net
+# ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
+-d geobar.ziffdavisinternational.com
+-d geoip.nekudo.com
+-d geoip.taskforce.is
+-d geolocation.performgroup.com
+-d geoservice.curse.com
+-d getglue.com /count?
+# ||getkudos.me/a?$image
+-d getpos.de /ext/
+-d getrockerbox.com /pixel?
+-d gigya.com /cimp.gif?
+-d giosg.com /public/trace/
+-d github.com /notifications/beacon/
+-d glam.com /cece/agof/
+-d glam.com /ctagsimgcmd.act?
+-d glam.com /jsadimp.gif?
+-d glam.com /log.act?
+-d glbdns.microsoft.com
+-d gleam.io /seen?
+-d glogger.inspcloud.com
+-d go-stats.dlinkddns.com
+-d go.com /capmon/GetDE/?
+-d go.optifuze.com
+-d go.toutapp.com
+-d goadv.com /track.js
+-d goals.ar.gy /bug.gif?
+-d goaww.com /stats.php
+-d godaddy.com /js/gdwebbeacon.js
+-d google.com /analytics/
+-d google.com /insights/*.js
+-d googleapis.com /aam.js
+-d googleapis.com /ivc.js
+-d googleapis.com /gen_204?
+-d googlecode.com /tracker.js
+-d googletagmanager.com /ns.html?
+-d googletagservices.com /osd.js
+-d googletagservices.com /osd_listener.js
+-d googleusercontent.com /tracker/
+-d gotdns.com /track/blank.aspx?
+-d gotmojo.com /track/
+-d gowatchit.com /analytics.js
+-d gowatchit.com /tracking/
+-d grabnetworks.com /beacons/
+-d grabnetworks.com /ping?
+-d graph.facebook.com /?ids=*&callback=*.js
+-d gravity.com /beacons/
+-d green-griffin-860.appspot.com
+-d grymco.com /event?
+# ||gsn.chameleon.ad^$~script
+-d gsp1.baidu.com
+-d gstatic.com /gadf/ga_dyn.js
+-d gstatic.com /gen_204?
+-d gtrk.s3.amazonaws.com
+-d gu-pix.appspot.com
+-d gubagoo.com /modules/tracking/
+-d h2porn.com /new-hit/?
+-d harvester.ext.square-enix-europe.com
+-d hasbro.com /includes/js/metrics/
+-d hawkeye-data-production.sciencemag.org.s3-website-us-east-1.amazonaws.com
+-d haymarket.com /injector/deliver/
+-d heals.msgfocus.com
+-d hearstmags.com /hdm-lib_hearstuser_proxy.html
+-d heg-cp.com /upm/
+-d hello.staticstuff.net
+-d hellobar.com /ping?
+-d heraldandtimeslabs.com /sugar.js
+-d heroku.com /?callback=getip
+-d hgcdn.net /?
+-d hi.hellobar.com
+-d hit-pool.upscore.io
+- http://hits-*.iubenda.com/
+-d hits.dealer.com
+-d hits.informer.com
+-d hm.baidu.com
+-d hocalwire.com /tracking-
+-d homestore.com /srv/
+-d hop.clickbank.net
+-d hornymatches.com /visit.php?
+-d hostingtoolbox.com /bin/Count.cgi?
+-d hpr.outbrain.com
+-d hqq.tv /js/counters.js
+-d hubspot.com /analytics/
+-d hubspot.com /cs/loader-v2.js
+-d hubspot.com /tracking/
+-d hypercomments.com /widget/*/analytics.html
+-d i-stats.ieurop.net
+-d i.s-microsoft.com /wedcs/ms.js
+-d i.viafoura.co
+-d ib.adnxs.com
+-d ibmcloud.com /collector/
+-d icbdr.com /images/pixel.gif
+-d icu.getstorybox.com
+-d id.verticalhealth.net /script.js?partnerid=
+-d ihstats.cloudapp.net
+# ||imagedoll.com^$subdocument,third-party
+-d imagepix.okoshechka.net /?sid=
+-d images-amazon.com /images/*/ga.js
+-d images-amazon.com /images/*/third-party/tracker
+-d images-amazon.com /images/*/analytics/
+-d images-amazon.com /1x1_trans.gif
+-d images-amazon.com /Analytics-
+-d images-amazon.com /AnalyticsReporter-
+-d imageshack.us /thpix.gif
+# ||imgfarm.com/images/nocache/tr/*.gif?$image
+-d imgfarm.com /images/trk/myexcitetr.gif?
+-d imgfarm.com /mw.gif?
+-d imghostsrc.com /counter.php?
+-d imp.affiliator.com
+-d imp.clickability.com
+-d imp.constantcontact.com
+-d imp.pix.com
+-d impdesk.com /smartpix/
+-d impi.tv /trackvideo.aspx?
+-d impress.vcita.com
+# ||imprvdosrv.com^$image,third-party
+-d inboxtag.com /tag.swf
+-d ind.sh /view.php?
+-d infinityid.condenastdigital.com
+-d infogr.am /logger.php?
+-d informer.yandex.ru
+-d infosniper.net /locate-ip-on-map.php
+-d infusionsoft.com /getTrackingCode?
+-d inphonic.com /tracking/
+-d inq.com /tagserver/logging/
+-d inq.com /tagserver/tracking/
+-d inq.com /onEvent?_
+-d insight.mintel.com
+-d insights.gravity.com
+-d insitez.blob.core.windows.net
+-d insnw.net /assets/dsc/dsc.fingerprint-
+-d insnw.net /instart/js/instart.js
+-d instagram.com /logging_client_events
+-d installiq.com /Pixels/
+-d intelligence.dgmsearchlab.com
+-d intelligencefocus.com /sensor.js
+-d intelligencefocus.com /websensor.aspx?
+-d intensedebate.com /remotevisit.php?
+-d intensedebate.com /widgets/blogstats/
+# ||intercomcdn.com/intercom*.js$domain=unblocked.la
+-d interestsearch.net /videoTracker.js?
+-d internetfuel.com /tracking/
+-d intuitwebsites.com /tracking/
+-d io.narrative.io /?
+-d ioam.de /?
+-d ioam.de /aid.io?
+-d ioam.de /tx.io?
+-d irqs.ioam.de
+-d isacglobal.com /sa.js
+-d itracking.fccinteractive.com
+-d iyisayfa.net /inc.php?
+-d jailbaitchan.com /tp/
+-d jangomail.com ?UID
+-d javascriptcounter.appspot.com
+-d jobs.hrkspjbs.com
+-d jobvite.com /analytics.js
+-d join-safe.com /tracking/
+-d jotform.io /getReferrer/
+-d js-agent.newrelic.com
+-d jsrdn.com /i/1.gif?
+-d k.streamrail.com
+# ||k7-labelgroup.com/g.html?uid=$image
+-d kalstats.kaltura.com
+-d kaltura.com /statisticsPlugin.swf
+-d kbb.com /partner/
+-d kdpgroupe.com /ea.js
+-d key4web.com /set_cookie_by_referer/
+-d keywee.co /analytics.js?
+-d keyword.daumdn.com
+-d kiwari.com /impressions.asp?
+-d kmib.co.kr /ref/
+-d kununu.com /tracking/
+-d kxcdn.com /prj/
+-d kxcdn.com /track.js
+-d l-host.net /etn/omnilog?
+-d l.coincident.tv
+-d l.fairblocker.com
+-d l.ooyala.com
+-d l.player.ooyala.com
+-d l.sharethis.com
+-d laurel.macrovision.com
+-d laurel.rovicorp.com
+-d lct.salesforce.com
+-d leadpages.net /tracking.js
+-d leadtracking.plumvoice.com
+-d leadvision.dotmailer.co.uk
+-d lederer.nl /incl/stats.js.php?
+-d legacy.com /globalscripts/tracking/
+-d legacy.com /unicaclicktracking.js?
+-d lela.com /api/v2/tracking.js
+-d letv.com /cloud_pl/
+-d letv.com /env/
+-d licensing.bitmovin.com
+-d ligatus.com /push/url.gif?
+-d ligatus.com /rms/rend?
+-d ligatus.com /script/viewtracker-
+-d lightboxcdn.com /static/identity.html
+-d lijit.com /blog_wijits?*=trakr&
+-d lijit.com /ip.php?
+-d lijit.com /res/images/wijitTrack.gif
+-d lingows.appspot.com /page_data/?
+-d link.americastestkitchencorp.com
+-d link.huffingtonpost.com
+-d link.indiegogo.com /img/
+-d link.informer.com
+-d link.tym.cool
+-d linkbucks.com /visitScript/
+# ||linkedin.com/emimp/$image
+-d links.voyeurweb.com
+-d linkwithin.com /pixel.png
+-d list-manage.com /track/
+-d list.fightforthefuture.org /mpss/o/*/o.gif
+-d live-partner.com /tags?
+-d live2support.com /js_lstrk.
+-d livechatinc.com /control.cgi?
+-d livecounter.theyosh.nl
+-d livefyre.com /libs/tracker/
+-d livefyre.com /tracking/
+-d livefyre.com /tracker.js
+-d livefyre.com /tracking/
+# ||livehelpnow.net/lhn/handler/$image
+-d livehelpnow.net /lhn/jsutil/getinvitationmessage.aspx?
+-d liverail.com /?metric=
+-d liverail.com /track/?
+-d livestats.kaltura.com
+-d location3.com /analytics/
+- http://log-*.previewnetworks.com/
+# ||log.adap.tv^$object-subrequest
+-d log.aimtell.com
+-d log.artipbox.net
+-d log.ideamelt.com
+-d log.invodo.com
+-d log.kcisa.kr
+-d log.kibboko.com
+-d log.kukuplay.com
+-d log.liverail.com
+-d log.olark.com
+-d log.outbrain.com
+-d log.outbrainimg.com
+-d log.pinterest.com
+-d log.seekda.com
+-d log000.goo.ne.jp
+-d log1.survey.io
+-d logger.logidea.info
+-d logger.snackly.co
+-d logger.sociablelabs.com
+-d logging.carambo.la
+-d logging.prefixbox.com
+-d loggingapi.spingo.com
+-d logs.spilgames.com
+-d logs.thebloggernetwork.com
+-d logs.vmixcore.com
+-d logssl.enquisite.com
+-d longtailvideo.com /yourlytics-
+-d longurl.it /_t.gif?
+-d loomia.com /setcookie.html
+-d loxodo-analytics.ext.nile.works
+-d lp.vadio.com
+-d lsimg.net /vs.js
+-d lt.tritondigital.com
+-d ltassrv.com /track/
+-d luminate.com /track/
+-d lunametrics.wpengine.netdna-cdn.com
+-d lycos.com /hb.js
+-d m.addthisedge.com
+-d m.trb.com
+# ||m30w.net/engine/$image,third-party
+# ||madmimi.com/view?id=$image
+-d magnify.net /decor/track/
+-d magnify360-cdn.s3.amazonaws.com
+-d mail-app.com /pvtracker/
+-d mail.ebay.com /img/*.gif
+-d mail.ru /grstat?
+-d mail.ru /k?
+-d mailmax.co.nz /login/open.php
+-d makantime.tv /analytics.js
+-d mandrillapp.com /track/
+-d mangomolo.com /tracking/
+-d mansion.com /mts.tracker.js
+-d mantisadnetwork.com /sync?
+-d mapquestapi.com /logger/
+-d marketing.net.jumia.com.ng
+-d marketingautomation.services /koi
+-d marketingautomation.services /net?
+-d marketinghub.hp.com
+-d marketo.com /gw1/
+-d mas.nth.ch
+-d mashery.com /analytics/
+-d maxmind.com /app/
+-d maxmind.com /geoip/
+-d maxmind.com /js/country.js
+-d maxmind.com /js/device.js
+-d maxmind.com /geoip.js
+-d maxmind.com /geoip2.js
+-d mbsvr.net /js/tracker/
+-d mc.webvisor.com
+-d mc.webvisor.org
+-d mc.webvisor.ru
+-d mc.yandex.ru
+-d mcs.delvenetworks.com
+-d mcssl.com /track.ashx?
+-d mdctrail.com /b.ashx
+-d media-imdb.com /twilight/?
+-d mediabong.com /t/
+-d mediabong.net /t/
+-d mediaite.com /track/
+-d mediametrics.mpsa.com
+-d mediapartner.bigpoint.net
+-d mediaplex.com ?mpt=
+-d meebo.com /cim/sandbox.php?
+-d merchenta.com /track/
+-d metabroadcast.com /log?
+-d metaffiliation.com /mclic=
+-d metering.pagesuite.com
+-d metric.nwsource.com
+-d metrics-api.librato.com
+-d metrics.api.drift.com
+-d metrics.brightcove.com
+-d metrics.chmedia.com
+-d metrics.ctvdigital.net
+-d metrics.el-mundo.net
+-d metrics.feedroom.com
+-d metrics.loomia.com
+-d metrics.scribblelive.com
+-d metrics.seenon.com
+-d metrics.sonymusicd2c.com
+-d metrics.toptenreviews.com
+-d metrics.upcload.com
+-d metrics.wikinvest.com
+-d metrixlablw.customers.luna.net
+- http://metro-trending-*.amazonaws.com/
+-d mint.good.is
+-d mitel.marketbright.com
+-d mixpanel.com /track?
+-d mkcms.com /stats.js
+-d ml.com /enterprisetagging/
+-d mlweb.dmlab.hu
+-d mmi.bemobile.ua
+-d mmpstats.mirror-image.com
+-d mochiads.com /clk/
+-d modules.ooyala.com /analytics-
+-d mormont.gamer-network.net
+-d movementventures.com /_uid.gif
+-d mozilla.org /page/*/open.gif
+-d mp.pianomedia.eu
+-d mqs.ioam.de
+-d msecnd.net /jscripts/HA-*.js
+-d msecnd.net /scripts/a/ai.0.js
+-d msecnd.net /scripts/jsll-
+-d mtrcs.samba.tv
+-d mts.mansion.com
+-d mtvnservices.com /aria/uuid.html
+-d mtvnservices.com /metrics/
+# ||murdoog.com^*/Pixel/$image
+-d museter.com /track.php?
+-d musvc2.net /e/c?
+-d mutinyhq.com /impressions/
+-d mxmfb.com /rsps/img/
+-d myblueday.com /count.asp?
+-d myfreecams.com /mfc2/lib/o-mfccore.js
+-d mymarketing.co.il /Include/tracker.js
+-d myscoop-tracking.googlecode.com
+-d mysdcc.sdccd.edu /.log/
+-d mysociety.org /track/
+-d mzbcdn.net /mngr/mtm.js
+-d n.mailfire.io
+-d nastydollars.com /trk/
+-d nativly.com /track?
+-d naver.net /wcslog.js
+-d navlink.com /__utmala.js
+-d nbcudigitaladops.com /hosted/housepix.gif
+-d needle.com /pageload?
+-d neocounter.neoworx-blog-tools.net
+-d neon-lab.com /neonbctracker.js
+-d netalpaca.com /beacon
+-d netbiscuits.net /analytics/
+-d netdna-ssl.com /tracker/
+-d netne.net /stats/
+-d netscape.com /c.cgi?
+-d neulion.vo.llnwd.net /track.js
+-d newsanalytics.com.au
+# ||newsletters.infoworld.com/db/$image,third-party
+# ||newsletters.nationalgeographic.com^$image,third-party
+-d newton.pm /events/track_bulk
+-d nice264.com /data?
+-d ninja.onap.io
+-d nitropay.com /nads/
+-d nol.yahoo.com
+-d nonxt1.c.youtube.com
+-d nova.dice.net
+-d ns-cdn.com /ns_vmtag.js
+-d ns.rvmkitt.com
+-d nsdsvc.com /scripts/action-tracker.js
+-d nspmotion.com /tracking/
+-d nude.hu /html/track.js
+-d o.addthis.com
+-d o.aolcdn.com /js/mg1.js
+-d observer.ip-label.net
+-d ocp.cnettv.com /Request.jsp?
+-d octopart-analytics.com
+# ||oddcast.com/event.php?$object-subrequest
+-d odnaknopka.ru /stat.js
+-d offermatica.intuit.com
+-d offers.keynote.com
+-d ohnorobot.com /verify.pl?
+-d om.1and1.co.uk
+-d om.rogersmedia.com
+-d onescreen.net /os/static/pixels/
+-d onespot-tracking.herokuapp.com
+-d onet.pl /eclk/
+-d onet.pl /tags?
+-d onsugar.com /static/ck.php?
+-d ooyala.com /3rdparty/comscore_
+-d ooyala.com /authorized?analytics
+-d ooyala.com /sas/analytics?
+-d ooyala.com /verify?
+-d ooyala.com /report?log
+-d open.delivery.net
+-d optimera.elasticbeanstalk.com
+-d optimizely.appspot.com
+-d ora.tv /j/ora_evttracking.js
+-d orts.wixawin.com
+-d outbrain.com /widgetStatistics.js
+-d p.adbrn.com
+-d p.delivery.net
+-d p.dsero.net
+-d p.po.st /p?pub=
+-d p.po.st /p?t=view&
+-d p.po.st &pub=
+-d p.po.st &vguid=
+-d p.travelsmarter.net
+-d p.yotpo.com
+-d p0.com /1x1
+-d paddle.com /analytics.js
+-d pages-stats.rbl.ms
+-d pageturnpro.com /tracker.aspx?
+-d pageview.goroost.com
+-d pair.com /itero/tracker_ftc/
+-d partner.cynapse.com
+-d partners.etoro.com .js
+-d partners.thefilter.com
+-d partypoker.com /tracking-
+-d passport.pfn.bz
+-d paypal.com /pixel.gif
+-d paypalobjects.com /pixel.gif
+# ||pcmag.com/tview/$image
+-d pcrl.co /js/jstracker.min.js
+-d pebed.dm.gg
+-d peermapcontent.affino.com
+-d penton.com /analytics/
+-d performance.typekit.net
+-d perr.h-cdn.com
+-d petitionermaster.appspot.com
+-d pf.aclst.com
+-d pg.buzzfeed.com
+-d phantom.nudgespot.com
+-d phncdn.com /js/ssig_helper.js
+-d phoenix.untd.com
+-d phrasetech.com /api/collect
+-d piano-media.com /auth/index.php?
+-d piano-media.com /bucket/novosense.swf
+-d piano-media.com /ping
+-d piano-media.com /uid/
+-d piano.io /tracker/
+-d pianomedia.biz /uid/*.js
+-d ping-dot-acp-magento.appspot.com
+-d ping.aclst.com
+-d ping.dozuki.com
+-d ping.hellobar.com
+-d ping.rasset.ie
+-d ping.smyte.com
+-d pings.conviva.com
+-d pings.reembed.com
+-d pings.vidpulse.com
+-d pipe-collect.ebu.io
+-d pipedream.wistia.com
+-d pix.impdesk.com
+-d pix.speedbit.com
+-d pixel-a.basis.net
+-d pixel-xpanama.netdna-ssl.com
+-d pixel.colorupmedia.com
+-d pixel.condenastdigital.com
+-d pixel.fanbridge.com
+-d pixel.glimr.io
+-d pixel.indieclicktv.com /annonymous/
+-d pixel.newscred.com
+-d pixel.newsdata.com.au
+-d pixel.roymorgan.com
+-d pixel.s3xified.com
+-d pixel.solvemedia.com
+-d pixel.sprinklr.com
+-d pixel.tree.com
+-d pixel.usrsync.com
+-d pixel.vmm-satellite2.com
+-d pixel.wp.com
+-d pixel.xmladfeed.com
+-d pixel.yabidos.com
+-d pixel.yola.com
+-d pixels.youknowbest.com
+-d pixhosting.com /ct/jct.php?
+-d planet49.com /log/
+-d platform.communicatorcorp.com
+-d platform.twitter.com /impressions.js
+-d player.ooyala.com /errors/report?
+-d playtomic.com /Tracker/
+-d plista.com /activity
+-d plugins.longtailvideo.com /googlytics
+-d plugins.longtailvideo.com /yourlytics
+-d pmetrics.performancing.com
+-d pong.production.gannettdigital.com
+-d pornhost.com /count_hit_player.php
+-d postageapp.com /receipt/
+-d postpixel.vindicosuite.com
+-d postquare.com /event.json?
+-d poweredbyeden.com /widget/tracker/
+-d powersearch.us.com
+-d ppx.com /tracking/
+-d pr.blogflux.com
+-d pricespider.com /impression/
+-d primedia.co.za /analytics/
+-d print2webcorp.com /mkt3/_js/p2w_tracker.js
+-d privacytool.org /AnonymityChecker/js/fontdetect.js
+-d production-eqbc.lvp.llnw.net
+-d production-mcs.lvp.llnw.net
+-d production.mcs.delve.cust.lldns.net
+-d project-syndicate.org /fwat.js
+-d projecthaile.com /js/trb-1.js
+-d projop.dnsalias.com
+-d propelplus.com /track/
+-d providence.voxmedia.com
+-d proxify.com /xyz.php
+-d prstats.postrelease.com
+-d pswec.com /px/
+-d pt.crossmediaservices.com
+-d pt.ispot.tv
+-d ptracker.nurturehq.com
+-d ptsc.shoplocal.com
+-d pub.sheknows.com
+-d pubexchange.com /modules/partner/*.js
+-d publicbroadcasting.net /analytics/
+-d publish.pizzazzemail.com
+-d purevideo.com /pvshim.gif?
+-d pushly.com /pushly-event-tracker
+-d pussy.org .cgi?pid=
+-d pussy.org /track.php
+-d px.247inc.net
+-d px.dynamicyield.com
+-d px.excitedigitalmedia.com
+-d px.marchex.io
+-d px.owneriq.net
+-d px.reactrmod.com
+-d px.spiceworks.com
+-d px.topspin.net
+-d pxlgnpgecom-a.akamaihd.net
+-d qcloud.com /report.go?
+# ||qlog.adap.tv^$object-subrequest
+-d qos.video.yimg.com
+-d qq.com /code.cgi?
+-d qq.com /collect?
+-d qq.com /dataimport/
+-d qq.com /heatmap/
+-d qq.com /ping.js?
+-d qq.com /stats?
+-d qualtrics.com /WRSiteInterceptEngine/?Q_Impress=
+-d qualtrics.com /metrics
+-d qubitanalytics.appspot.com
+-d quisma.com /tracking/
+-d quora.com /_/ad/
+-d quora.com /qevents.js
+-d r.mail.ru
+-d r.msn.com
+# ||r.ypcdn.com^*/rtd?ptid$image
+-d ra.ripple6.com
+-d rackcdn.com /easie.js
+-d rackcdn.com /icon2.gif?
+-d rackcdn.com /knotice.api.js
+-d rackcdn.com /stf.js
+# ||rackcdn.com^$script,domain=barrons.com|buysubscriptions.com|cbsnews.com|cbssports.com|cnet.com|dailystar.co.uk|express.co.uk|gamerant.com|gamespot.com|giantbomb.com|inyt.com|metacritic.com|metrolyrics.com|page3.com|rotoworld.com|scout.com|sh.st|thesun.co.uk|thesun.ie|thesundaytimes.co.uk|thetimes.co.uk|tv.com|tvguide.com|zdnet.com
+-d rackcdn.com /analytics.js
+-d radiotime.com /Report.ashx?
+-d radiotime.com /reports/
+-d ramp.purch.com
+-d rbl.ms /res/users/tracking/
+-d readcube.com /tracking/
+-d realplayer.com /pixel?
+-d realtidbits.com /analytics.js
+-d recs.atgsvcs.com
+-d redir.widdit.com
+-d redplum.com &pixid=
+-d reevoo.com /assets/ga.*.js
+-d reevoo.com /track/
+-d reevoo.com /track_url/
+-d reevoo.com /track/
+-d referrer.disqus.com
+-d relap.io /head.js?
+-d relaymedia.com /ping?
+-d replyat.com /gadgetpagecounter*.asp?
+-d report.downloastar.com
+-d reporting.handll.net
+-d reporting.reactlite.com
+-d reporting.singlefeed.com
+-d reportinglogger.my.rightster.com
+-d reports.maxperview.com
+-d reports.pagesuite-professional.co.uk
+-d reports.tstlabs.co.uk
+-d res.rbl.ms
+-d researchintel.com
+-d response.pure360.com
+-d reverbnation.com /widgets/trk/
+-d rhapsody.com /pixel?
+-d ria.ru /js/counter.js
+-d rich-agent.s3.amazonaws.com
+-d richrelevance.com /rrserver/tracking?
+-d rlinks.one.in
+-d rndntpmgnj-a.akamaihd.net /NA2L50A6M.js
+-d rodale.com /ga/
+-d rodalenl.com /imp?
+-d roitrack.addlvr.com
+-d rokt.com /pixel/
+-d royalecms.com /statistics.php?
+-d rs.sinajs.cn
+-d rss.tmgrup.com.tr
+-d rtt.campanja.com
+-d ru4.com /click?
+-d rva.outbrain.com
+-d s-vop.sundaysky.com
+-d s.clickability.com
+-d s.sniphub.com
+-d s24cloud.net /log/
+-d s3-tracking.synthasite.net.s3.amazonaws.com
+# ||s5labs.io/common/i?impressionId$image
+-d saaspire.net /pxl/
+-d sadv.dadapro.com
+-d salesforce.com /sfga.js
+-d sana.newsinc.com
+-d sawpf.com /1.0.js
+-d saymedia.com /latest/tetrapak.js
+-d schibsted.com /autoTracker
+-d scout.haymarketmedia.com
+-d scribol.com /traffix/widget_tracker/
+-d scripts.psyma.com
+-d sdrive.skoda-auto.com
+-d search.mediatarget.net
+-d searchcompletion.com /BannerHandler.ashx
+-d searchmaestros.com /trackpoint/
+-d searchstats.usa.gov
+-d secure.ed4.net /GSI/
+-d secure.ifbyphone.com
+# ||secureprovide1.com/*=tracking$image
+-d seg.sharethis.com
+-d segments.adap.tv
+-d sendtonews.com /player/loggingajax.php?
+-d sendtonews.com /data_logging.php
+-d session.timecommerce.net
+-d sftrack.searchforce.net
+-d share-online.biz /affiliate/
+-d shareaholic.com /analytics_
+-d shareaholic.com /partners.js
+-d shared.65twenty.com
+-d shareholder.com /track/
+-d shareit.com /affiliate.html
+-d sharethis.com /increment_clicks?
+-d sharethis.com /pageviews?
+-d shopify.com /page?*&eventType=
+-d shoplocal.com /it.ashx?
+-d shoprunner.com /record?
+-d sig.atdmt.com
+-d sig.gamerdna.com
+-d sightmaxondemand.com /wreal/sightmaxagentinterface/monitor.smjs
+-d signup.advance.net affiliate
+-d sinajs.cn /open/analytics/
+-d sitebooster.com /sb/wix/p?
+-d sitereports.officelive.com
+-d skimresources.com /api/ref-banners.js
+-d skysa.com /tracker/
+-d sli-spark.com /b.png
+# ||slidedeck.com^$image,third-party
+-d smartertravel.com /ext/pixel/
+-d smrt.as
+-d snaps.vidiemi.com
+-d snazzyspace.com /generators/viewer-counter/counter.php
+-d soccer.ru /counter/
+# ||socialreader.com^*?event=email_open^$image
+-d sohu.com /stat/
+-d sohu.com /cookie?
+-d soundcloud.com /plays?referer=
+# ||sourceforge.net/tracker/$~xmlhttprequest
+-d southafricahome.com /statsmodulev2/
+-d spacedust.netmediaeurope.com
+-d spaceprogram.com /webstats/
+-d sparklit.com /counter/
+-d speedtestbeta.com .gif?cb
+-d speedtrap.shopdirect.com
+-d spoods.rce.veeseo.com
+-d spot.im /api/tracker/
+-d spot.im /pixel?
+-d spread.ly /statistics.php
+-d srvmath.com /analytics.js
+# ||ssl-images-amazon.com/images/*/common/1x1._*.gif$domain=~amazon.com
+-d st.cdnco.us
+-d stat.boredomtherapy.com
+-d stat.easydate.biz
+-d stat.ed.cupidplc.com
+-d stat.itp-nyc.com
+-d stat.mixi.media
+-d stat.php-d.com
+-d stat.pladform.ru
+-d stat.segitek.hu
+-d stat.to.cupidplc.com
+-d stat.web-regie.com
+-d statdb.pressflex.com
+-d static.parsely.com
+-d statistics.infowap.info
+-d statistics.m0lxcdn.kukuplay.com
+-d statistics.tattermedia.com
+-d statistics.wibiya.com
+-d statking.net /count.js
+-d statm.the-adult-company.com
+-d stats-messages.gifs.com
+-d stats-newyork1.bloxcms.com
+-d stats.big-boards.com
+-d stats.bitgravity.com
+-d stats.bluebillywig.com
+-d stats.cdn.pfn.bz
+-d stats.cdn.playfair.co.za
+-d stats.clickability.com
+-d stats.clipprtv.com
+-d stats.cloudwp.io
+-d stats.cmcigroup.com
+-d stats.cnevids.com
+-d stats.complex.com
+-d stats.datahjaelp.net
+-d stats.dice.com
+-d stats.directnic.com
+-d stats.edicy.com
+-d stats.free-rein.net
+-d stats.g.doubleclick.net
+-d stats.geegain.com
+-d stats.gifs.com
+-d stats.heyoya.com
+-d stats.highwire.com
+-d stats.indexstats.com
+-d stats.inergizedigitalmedia.com
+-d stats.itweb.co.za
+-d stats.kaltura.com
+-d stats.lightningcast.net
+-d stats.load.com
+-d stats.lotlinx.com
+-d stats.magnify.net
+-d stats.manticoretechnology.com
+-d stats.mituyu.com
+-d stats.nebula.fi
+-d stats.netbopdev.co.uk
+-d stats.olark.com
+-d stats.ombx.io
+-d stats.openload.co
+-d stats.ozwebsites.biz
+-d stats.polldaddy.com
+-d stats.qmerce.com
+-d stats.ref2000.com
+-d stats.sa-as.com
+-d stats.sawlive.tv
+# ||stats.screenresolution.org/get.php$image,third-party
+-d stats.shopify.com
+-d stats.smartclip.net
+-d stats.snacktools.net
+-d stats.snappytv.com
+-d stats.solidopinion.com
+-d stats.staging.suite101.com
+-d stats.surfaid.ihost.com
+-d stats.svpply.com
+-d stats.topofblogs.com
+-d stats.twistage.com
+-d stats.viddler.com
+-d stats.vodpod.com
+-d stats.webs.com
+-d stats.webstarts.com
+-d stats.whicdn.com
+-d stats.wp.com
+-d stats.yme.com
+-d stats.yourminis.com
+-d stats.zotabox.com
+-d stats1.tune.pk
+-d stats2.lightningcast.net
+-d stats2.tune.pk
+-d stats3.unrulymedia.com
+-d statsadv.dadapro.com
+-d statsapi.screen9.com
+-d statsdev.treesd.com
+-d statsrv.451.com
+-d statt-collect.herokuapp.com
+-d stg-data-collector.playbuzz.com
+-d stileproject.com /vhtk/
+-d streamads.com /view?
+-d stripe.com /?event=
+-d su.addthis.com
+-d su.pr /hosted_js
+-d sugarops.com /w?action=impression
+-d sulia.com /papi/sulia_partner.js/
+-d sumo.com /api/event/
+-d sumo.com /apps/heatmaps/
+-d sumome.com /api/event/?
+-d sumome.com /apps/heatmaps/
+-d sundaysky.com /sst.gif?
+-d sundaysky.com /vop/
+-d survey.interquest.com
+-d survey.io /log?
+-d surveywall-api.survata.com
+-d swiftypecdn.com /cc.js
+-d swiftypecdn.com /te.js
+-d synapsys.us .gif?
+-d synapsys.us /tracker.js
+-d sync.adap.tv
+-d synergizeonline.net /trackpoint/
+-d systemmonitoring.badgeville.com
+-d t-staging.powerreviews.com
+-d t.a3cloud.net
+-d t.beopinion.com
+-d t.bimvid.com
+-d t.brand-server.com
+-d t.c4tw.net
+-d t.cfjump.com
+-d t.devnet.com
+-d t.dgm-au.com
+-d t.flux.com
+-d t.mail.sony-europe.com /r/?
+-d t.menepe.com
+-d t.powerreviews.com
+-d t.pswec.com
+-d t.purch.com
+-d t.sgc.io
+-d t.sharethis.com
+-d t.smile.eu
+-d t.theoutplay.com
+-d t.ymlp275.net
+-d t2.t2b.click
+-d taboola.com /tb?
+-d taboola.com /log/
+-d taboola.com /notify-impression?
+-d taboolasyndication.com /log/
+-d taboolasyndication.com /log/
+-d tag-abe.cartrawler.com
+-d tag.aticdn.net
+-d tag.brandcdn.com
+-d tag.email-attitude.com
+-d tag.myplay.com
+-d tag.sonymusic.com
+-d tagcdn.com /pix/?
+-d tagger.opecloud.com
+-d tags.cdn.circlesix.co
+-d tags.master-perf-tools.com
+-d tags.newscgp.com
+-d target.fark.com
+-d target.mixi.media
+-d targeting.wpdigital.net
+-d tc.airfrance.com
+-d te.supportfreecontent.com
+-d technorati.com /technoratimedia-pixel.js
+-d techweb.com /beacon/
+-d telemetry.reembed.com
+-d telemetry.soundcloud.com
+-d the-group.net /aether/
+# ||thefilter.com^*?extanonid=$~script
+-d themesltd.com /hit-counter/
+-d themesltd.com /online-users-counter/
+-d theoplayer.com /t?
+-d thepornstarlist.com /lo/lo/track.php?
+-d thespringbox.com /analytics/
+-d thetradedesk-tags.s3.amazonaws.com
+-d thinairsoftware.net /OWYPTracker.aspx?
+-d thismoment.com /tracking/
+-d threadloom.com /ga/*.js
+-d thron.com /shared/plugins/tracking/
+-d thron.com /trackingLibrary.swf
+-d timeinc.net /peopleas2artracker_v1.swf
+-d tinypass.com /track?
+-d tinyurl.com /pixel.gif/
+-d tl.tradetracker.net
+-d tm-awx.com /felix.min.js
+-d tm.tradetracker.net
+-d top-fwz1.mail.ru
+-d topix.net /t6track/
+-d totallylayouts.com /hit-counter/
+-d totallylayouts.com /online-users-counter/
+-d totallylayouts.com /users-online-counter/online.js
+-d totallylayouts.com /visitor-counter/counter.js
+-d touchcommerce.com /tagserver/logging/
+-d tourradar.com /def/partner?
+-d tout.com /tracker.js
+-d tower.moviepilot.com
+-d tr-metrics.loomia.com
+-d tr.advance.net
+-d tr.cloud-media.fr
+-d tr.connatix.com
+-d tr.interlake.net
+-d tr.webantenna.info
+-d tr1.mailperformance.com
+-d trace.qq.com
+-d track.99acres.com
+-d track.addevent.com
+-d track.atgstores.com
+-d track.atom-data.io
+-d track.bannedcelebs.com
+-d track.cafemomstatic.com
+-d track.captivate.ai
+-d track.contently.com
+-d track.cordial.io
+-d track.did-it.com
+-d track.digitalriver.com
+-d track.dzloans.com
+-d track.g-bot.net
+-d track.gridlockparadise.com
+-d track.juno.com
+-d track.kandle.org
+-d track.leadin.com
+-d track.mailerlite.com
+-d track.mobicast.io
+-d track.mybloglog.com
+-d track.mycliplister.com
+-d track.omg2.com
+-d track.parse.ly
+-d track.prezna.com
+-d track.pricespider.com
+-d track.propelplus.com
+-d track.qcri.org
+-d track.qoof.com
+-d track.redirecting2.net
+-d track.ringcentral.com
+-d track.sauce.ly
+-d track.searchignite.com
+-d track.securedvisit.com
+-d track.shop2market.com
+-d track.sigfig.com
+-d track.sitetag.us
+-d track.social.com
+-d track.spots.im
+-d track.sprinklecontent.com
+-d track.strife.com
+-d track.tcppu.com
+-d track.td3x.com
+-d track.uc.cn
+-d track.untd.com
+-d track.vscash.com
+-d track.written.com
+-d track.yfret.com
+-d track.yieldsoftware.com
+-d tracker.affirm.com
+-d tracker.beezup.com
+-d tracker.downdetector.com
+-d tracker.everestnutrition.com
+-d tracker.financialcontent.com
+-d tracker.icerocket.com
+-d tracker.iqnomy.com
+-d tracker.issuu.com
+-d tracker.keywordintent.com
+-d tracker.marinsoftware.com
+-d tracker.mgnetwork.com
+-d tracker.mtrax.net
+-d tracker.myseofriend.net
+-d tracker.neon-images.com
+-d tracker.neon-lab.com
+-d tracker.roitesting.com
+-d tracker.seoboost.net
+-d tracker.streamroot.io
+-d tracker.timesgroup.com
+- http://tracker.twenga.
+-d tracker.u-link.me
+-d tracker.vreveal.com
+-d tracker2.apollo-mail.net
+-d trackerapi.truste.com
+-d trackicollect.ibase.fr
+- http://tracking.*.miui.com/
+-d tracking.adalyser.com
+-d tracking.allposters.com
+-d tracking.badgeville.com
+-d tracking.bidmizer.com
+-d tracking.brandmentions.com
+-d tracking.cmcigroup.com
+-d tracking.cmjump.com.au
+-d tracking.customerly.io
+-d tracking.dealerwebwatcher.com
+-d tracking.drsfostersmith.com
+-d tracking.dsmmadvantage.com
+-d tracking.edvisors.com
+-d tracking.ehavior.net
+-d tracking.fanbridge.com
+-d tracking.fccinteractive.com
+-d tracking.feedperfect.com
+-d tracking.fits.me
+-d tracking.g2crowd.com
+-d tracking.godatafeed.com
+-d tracking.i-click.com.hk
+-d tracking.interweave.com
+-d tracking.jotform.com
+-d tracking.keywee.co
+-d tracking.lengow.com
+-d tracking.listhub.net
+-d tracking.livingsocial.com
+-d tracking.maxcdn.com
+-d tracking.musixmatch.com
+-d tracking.pacharge.com
+-d tracking.performgroup.com
+-d tracking.plattformad.com
+-d tracking.plinga.de
+-d tracking.practicefusion.com
+-d tracking.quillion.com
+-d tracking.quisma.com
+-d tracking.rapidape.com
+-d tracking.searchmarketing.com
+-d tracking.sembox.it
+-d tracking.skyword.com
+-d tracking.sokrati.com
+-d tracking.sponsorpay.com
+-d tracking.synthasite.net
+-d tracking.target2sell.com
+-d tracking.theeword.co.uk
+-d tracking.thehut.net
+-d tracking.tradeking.com
+-d tracking.waterfrontmedia.com
+-d tracking.worldmedia.net
+-d tracking1.brandmentions.com
+-d tracking2.channeladvisor.com
+-d tracking2.interweave.com
+-d trackingapi.cloudapp.net
+-d trackingdev.nixxie.com
+-d trackjs.com /usage.gif?
+-d trackla.stackla.com
+-d tracksys.developlabs.net
+-d traffic.acwebconnecting.com
+-d traffic.belaydevelopment.com
+-d traffic.prod.cobaltgroup.com
+-d traffic.shareaholic.com
+-d trafficfuelpixel.s3-us-west-2.amazonaws.com
+-d trakksocial.googlecode.com
+-d traq.li /tracker/
+-d travpan.com /out/
+-d trax.dirxion.com
+-d trc.pushnami.com
+-d tredir.go.com /capmon/GetDE?
+-d tree-pixel-log.s3.amazonaws.com
+-d tremorhub.com
+-d trendmd.com /events
+-d trf.intuitwebsites.com
+-d triad.technorati.com
+-d triggers.wfxtriggers.com
+-d tritondigital.com /lt?sid*&hasads=
+-d tritondigital.com /ltflash.php?
+-d tritondigital.com /ltjs.php
+-d tritondigital.net /activity.php?
+-d tritondigital.net /see.js
+- http://trk*.vidible.tv/
+-d trk.bhs4.com
+-d trk.email.dynect.net
+-d trk.pswec.com
+-d trk.sele.co
+-d trk.vindicosuite.com
+# ||trove.com^*&uid=$image
+-d tru.webelapp.com
+-d trumba.com /et.aspx?
+-d trustpilot.com /stats/
+-d trustsquare.net /trafficmonitor/
+-d try.abtasty.com
+-d ts.tradetracker.net
+-d tsk5.com /17*?*=ex-
+-d tt.onthe.io
+-d ttdetect.staticimgfarm.com
+-d ttwbs.channelintelligence.com
+-d turner.com /1pixel.gif?
+-d turnto.com /webEvent/
+-d twimg.com /jot?
+-d twitter.com /i/jot
+-d twitter.com /jot.html
+-d twitter.com /oct.js
+-d twitter.com /scribe/
+-d twitvid.com /tracker.swf
+-d txn.grabnetworks.com
+-d typepad.com /stats?
+-d uc.cn /collect?
+-d ucounter.ucoz.net
+-d uhit.eu /id/
+-d uhytajrtpo-a.akamaihd.net /nrse.html
+-d ui-portal.com ;ns_referrer=
+-d uim.tifbs.net
+-d uknetguide.co.uk /user.js?
+-d ultimatebootcd.com /tracker/
+-d ultimedia.com /v/
+-d ultimedia.com /visibilityStat.js
+-d upcat.custvox.org /survey/*/countOpen.gif
+-d upt.graphiq.com
+-d urc.taboolasyndication.com
+-d userlog.synapseip.tv
+-d usersegment.wpdigital.net
+-d uservoice.com /track.js
+-d userzoom.com /uz.js
+-d v.giantrealm.com /players/stats.swf?
+-d va.tawk.to /log
+-d vanilladev.com /analytics.
+-d vapedia.com /largebanner.
+-d vast.com /vimpressions.js
+-d vds_dyn.rightster.com /v/*?rand=
+-d veeseo.com /tracking/
+-d ventunotech.com /beacon/
+-d vertical-stats.huffpost.com
+-d verticalacuity.com /varw/sendEvent?
+-d verticalacuity.com /vat/
+-d vidazoo.com /event/
+-d video-ad-stats.googlesyndication.com
+-d video-cdn.net /event?
+-d video.google.com /api/stats/
+-d video.msn.com /report.aspx?
+-d videoly.co /event/
+# ||videoplaza.com/proxy/distributor/$object-subrequest
+# ||videoplaza.tv/proxy/tracker^$object-subrequest
+-d videopress.com /plugins/stats/
+-d viglink.com /api/ping
+-d vimeocdn.com /add/player-stats?
+-d vindicosuite.com /track/
+-d vindicosuite.com /tracking/
+-d vindicosuite.com /xumo/swf/
+-d viralize.tv /track/
+-d virgingames.com /tracker/
+-d virginmedia.com /analytics/
+-d virtueworldwide.com /ga-test/
+-d visa.com /logging/logEvent
+-d visit.geocities.com
+-d visit.webhosting.yahoo.com
+-d visual.ly /track.php?
+-d visualstudio.com /_da.gif?
+-d visualstudio.com /v2/track
+-d vivociti.com /images/
+-d vizual.ai /click-stream-event?
+-d vizury.com /analyze/
+-d vk.com /rtrg?
+-d vk.com /videostats.php
+-d vmixcore.com /vmixcore/playlog?
+-d vmweb.net /identity.min.js
+-d vooxe.com /analytics.js
+-d voss.collegehumor.com
+-d voxmedia.com /beacon-min.js
+-d vpoweb.com /counter.php?
+-d vra.outbrain.com
+-d vrp.outbrain.com
+-d vrt.outbrain.com
+-d vs4.com /impr.php?
+- http://vtnlog-*.elb.amazonaws.com/
+-d vtracking.in.com
+-d vvhp.net /read/view.gif
+-d vwdealerdigital.com /cdn/sd.js
+-d w3track.com /newtrk/
+-d w88.m.espn.go.com
+# ||wac.edgecastcdn.net^$object-subrequest,domain=vzaar.com
+-d wantlive.com /pixel/
+-d watch.teroti.com
+-d weather.ca /counter.gif?
+-d web-soft.in /counters/
+-d web1.51.la
+-d webcare.byside.com
+-d webeffective.keynote.com
+-d weblog.livesport.eu
+-d weblogger-dynamic-lb.playdom.com
+-d webservices.websitepros.com
+-d webstats.motigo.com
+-d webstats.seoinc.com
+-d webstats.thaindian.com
+-d websuccess-data.com /tracker.js
+-d webterren.com /webdig.js?
+-d webtracker.apicasystem.com
+-d webtracker.educationconnection.com
+-d webvoo.com /wt/Track.aspx
+-d webvoo.com /logtodb.
+-d webworx24.co.uk /123trace.php
+-d webzel.com /counter/
+-d wetpaint.com /track?
+-d whoson.creativemark.co.uk
+-d whosread.com /counter/
+-d wibiya-actions.conduit-data.com
+-d wibiya-june-new-log.conduit-data.com
+-d widgeo.net /compteur.php?
+-d widgeo.net /geocompteur/
+-d widgeo.net /hitparade.php
+-d widgeo.net /tracking.php?
+-d widget.perfectmarket.com
+-d widget.quantcast.com
+-d widgetbox.com /syndication/track/
+-d widgethost.com /pax/counter.js?
+-d widgetserver.com /metrics/
+-d widgetserver.com /t/
+-d widgetserver.com /image.gif?
+-d widgetserver.com /quantcast.swf
+-d wikinvest.com /plugin/*=metricpv
+-d wikinvest.com /errorlogger.php?
+-d win.staticstuff.net
+-d wn.com /count.js
+-d wondershare.es /jslibs/track.js
+-d woolik.com /__el.gif?
+-d woolik.com /tracker/
+-d wordpress.com /geo/
+-d worldssl.net /reporting.js
+-d wp-stat.s3.amazonaws.com
+-d wpdigital.net /metrics/
+-d ws.amazon.com /widgets/*=gettrackingid
+-d wsb.aracert.com
+-d wsf.com /tracking/
+-d wsj.net /MW5/content/analytics/hooks.js
+-d wstat.wibiya.com
+-d wunderloop.aol.co.uk
+-d wvnetworkmedia.org /min/?
+-d x.weather.com
+-d yahoo.co.jp /js/s_retargeting.js
+- http://yandex.*/data?referrer=
+-d yandex.ru /cycounter?
+-d yapi.awe.sm
+-d yarpp.org /pixels/
+-d yellowbrix.com /images/content/cimage.gif?
+-d yellowpages.com .gif?tid
+-d yext.com /plpixel?
+-d yimg.com /wi/ytc.js
+# ||yimg.com^*/l?ig=$image
+-d ypcdn.com /webyp?
+-d ys.ddns.me
+-d ywxi.net /meter/
+-d zapcdn.space /zapret.js
+-d zdlogs.sphereup.com
+# ||zemanta.com/reblog_*.png$image,third-party
+-d zemanta.com /usersync/outbrain/?
+-d ziffprod.com /zdcse.min.js?referrer=
+-d zoomtv.me ?pixel=
+-d zoover.co.uk /tracking/
+-d zope.net /ghs_wa.js
+-d zvsuhljiha-a.akamaihd.net
+#-----------------Individual tracking systems-----------------#
+# *** easylist:easyprivacy/easyprivacy_specific.txt ***
+# /fam/view.php?$domain=cnet.com
+# /viewtrack/track?$domain=hulu.com
+# |blob:$domain=iamdisappoint.com|shitbrix.com|tattoofailure.com
+# |blob:$image,domain=jpost.com
+-d 123greetings.com /usr-bin/view_sent.pl?
+-d 123rf.com /j/ga.js
+-d 123rf.com /tk/
+-d 123rf.com /tr/
+-d 1337x.to /ip.php
+-d 192.com /log/
+# ||198.105.253.2/lvl3/$image,domain=searchguide.level3.com
+-d 1e400.net /tracking.js
+# ||213.8.193.45/themarker/$domain=haaretz.com
+-d 24caratleeds.co.uk /tr/laredoute/carat_laredoute_
+-d 24hourfitness.com /includes/script/siteTracking.js
+-d 37signals.com /ga.js
+-d 3dcartstores.com /3droi/monstertrack.asp
+-d 3dmark.com /ruxitbeacon
+-d 4hds.com /js/camstats.js
+-d 4info.com /alert/listeners/
+-d 4tube.com /assets/abExperiments-
+# ||5.153.4.92^$domain=spreaker.com
+-d 5min.com /PSRq?
+-d 5min.com /PSRs?
+# ||69.25.121.67/page_load?$domain=theverge.com
+-d 6waves.com /trker/
+-d 79.125.21.168 /i.gif?
+# ||86.63.194.248/js/measure.js$third-party,domain=feedcat.net
+-d 99bitcoins.com /_load/
+-d 9msn.com.au /share/com/js/fb_google_intercept.js
+-d 9msn.com.au .tracking.udc.
+-d a.huluad.com /beacons/
+-d a.jango.com
+-d a7.org /infol.php?
+-d aa.avvo.com
+-d aax-us-iad.amazon.com
+-d abc.net.au /counters/
+-d abc.net.au /stats/
+-d abeagle-public.buzzfeed.com
+-d abebooks.com /timer.gif?
+-d about.me /wf/open?
+-d abplive.in /analytics/
+-d academia.edu /record_hit
+-d accountnow.com /SyslogWriter.ashx
+-d accuradio.com /static/track/
+-d accuratefiles.com /stat
+-d accuterm.com /data/stat.js
+-d aclst.com /ping.php?
+-d aclu.org /aclu_statistics_image.php
+-d acookie.alibaba.com
+-d acronymfinder.com /~/st/af.js
+-d activity.frequency.com
+-d activity.homescape.com
+-d acura.ca /_Global/js/includes/tracker.js
+-d ad2links.com /lpajax.php?
+-d adapd.com /addon/upixel/
+-d adc.9news.com.au
+-d adc.api.nine.com.au
+-d adc.nine.com.au
+-d adf.ly /omni*.swf
+-d adguru.guruji.com
+-d adidas.com /analytics/
+-d adidas.com /analytics/
+-d adprimemedia.com /video_report/attemptAdReport.php?
+-d adprimemedia.com /video_report/videoReport.php?
+-d adroll.com /pixel/
+-d adv.drtuber.com
+-d advancedmp3players.co.uk /support/visitor/index.php?
+-d advancedtracker.appspot.com
+-d advfn.com /space.gif?
+-d adwiretracker.fwix.com
+# ||aexp-static.com/api/axpi/omniture/s_code_serve.js?$domain=serve.com
+-d affiliate.mercola.com
+-d affiliate.productreview.com.au
+-d affiliate.resellerclub.com
+-d affiliates.genealogybank.com
+-d affiliates.londonmarketing.com
+-d affiliates.mozy.com
+-d affiliates.myfax.com
+-d affiliates.treasureisland.com
+-d affiliates.vpn.ht
+-d afterdawn.com /views.cfm?
+-d agendize.com /analytics.js
+-d aggregator.inquisitr.com
+-d agoda.net /js/abtest/analytics.js
+-d ai.inmdata.io
+-d ai.iol.io
+- http://airbnb.*/tracking/
+-d airfrance.com /s/?tcs=
+-d airspacemag.com /g/g/button/
+# ||akamai.net^$script,domain=argos.co.uk|newscientist.com|upwork.com
+-d akamai.net /button.clickability.com/
+-d akamaihd.net /pixelkabam/
+-d alarabiya.net /track_content_
+-d alarabiya.net /googleid.js
+-d alb.reddit.com
+-d alibaba.com /js/beacon_
+-d alicdn.com /js/aplus_*.js
+-d aliexpress.com /js/beacon_
+-d alipay.com /web/bi.do?ref=
+-d allcarpictures.com /stat/
+-d allexperts.com /px/
+-d allmodern.com /sessioned_reqs.asp?
+-d allmovieportal.com /hostpagescript.js
+-d allvoices.com /track_page
+-d alot.com /tb/cookiewriter.php?
+- http://amazon.*/action-impressions/
+- http://amazon.*/ajax/counter?
+# ||amazon.*/batch/*uedata=$image
+- http://amazon.*/gp/r.html?
+- http://amazon.*/record-impressions?
+- http://amazon.*/uedata/
+-d amazon.com /clog/
+# ||amazon.com/empty.gif?$image
+-d amazon.com /gp/yourstore/recs/
+-d amazon.com /amazon-clicks/
+# ||amazon.com^*/events/$domain=~aws.amazon.com
+-d amazon.com /token/
+-d amazon.com /vap-metrics/
+-d amazonaws.com /beacon/vtpixpc.gif?
+-d amazonaws.com /pzyche.js
+-d amcnets.com /cgi-bin/true-ip.cgi
+-d amd.com /us/as/vwo/vwo_
+-d amp.virginmedia.com
+-d amy.gs /track/
+-d analysis.focalprice.com
+-d analytic.imlive.com
+-d analytics.247sports.com
+-d analytics.adfreetime.com
+-d analytics.archive.org
+-d analytics.bloomberg.com
+-d analytics.brave.com
+-d analytics.ecosia.org
+-d analytics.eip.telegraph.co.uk
+-d analytics.femalefirst.co.uk
+-d analytics.global.sky.com
+-d analytics.go.com
+-d analytics.gorillanation.com
+-d analytics.ifood.tv
+-d analytics.iraiser.eu
+-d analytics.islamicfinder.org
+-d analytics.jabong.com
+-d analytics.localytics.com
+-d analytics.mindjolt.com
+-d analytics.msnbc.msn.com
+-d analytics.newsinc.com
+-d analytics.omgpop.com /log
+-d analytics.plex.tv
+-d analytics.posttv.com
+-d analytics.schoolwires.com
+-d analytics.services.distractify.com
+-d analytics.shorte.st
+-d analytics.skyscanner.net
+-d analytics.slashdotmedia.com
+-d analytics.spankbang.com
+-d analytics.sportybet.com
+-d analytics.teespring.com
+-d analytics.thenest.com
+-d analytics.thenewslens.com
+-d analytics.thetab.com
+-d analytics.thevideo.me
+-d analytics.twitter.com
+-d analytics.upworthy.com
+-d analytics.us.archive.org
+-d analytics.volvocars.com
+-d analytics.wetpaint.me
+-d analytics.whatculture.com
+-d analytics.yahoo.com
+-d analyze.yahooapis.com
+-d analyzer52.fc2.com
+-d androidcommunity.com /ws/?js
+-d androidfilehost.com /libs/otf/stats.otf.php?
+-d androidtv.news /ezoic/
+-d angelfire.com /cgi-bin/count.cgi
+-d annoncesbateau.com /xtcore.js
+-d anntaylor.com /webassets/*/page_code.js
+-d anp.se /track?
+-d answers.com /resources/tac.html
+-d any.gs /track/
+-d aol.ca /track/
+-d aol.co.uk /track/
+-d aol.com /articles/traffic/
+-d aol.com /beacons/
+-d aol.com /master/?
+-d aol.com /metrics/
+-d aol.com /track/
+-d ap.org /webtrendsap_hosted.js
+-d apartments.com /al.gif?
+-d api.tinypic.com /api.php?action=track
+-d apkpure.com /analytics_
+-d apphit.com /js/count.js
+-d apple.com /spacer2.gif?
+-d applifier.com /users/tracking?
+-d appspot.com /tracking/
+-d archive.org /analytics.js
+-d arcpublishing.com /datapoint/save
+-d armystudyguide.com /hqxapi/it?
+# ||arstechnica.co.uk/services/incr.php?stats$xmlhttprequest
+# ||arstechnica.com/*.ars$object
+-d arstechnica.com /dragons/breath.gif
+# ||arstechnica.com/services/incr.php?stats$xmlhttprequest
+# ||arstechnica.com/|$object
+-d arstechnica.com .gif?id=
+# ||arstechnica.com^*/|$object
+-d art.co.uk /asp/robot/
+-d art.com /asp/robot/
+-d art.com /asp/UTERecording.asp
+-d asianblast.com /statx/
+-d ask.com /servlets/ulog?
+-d askmen.com /tracking/
+-d associatedcontent.com /action_cookie
+-d astrology.com /visits/
+-d atax.gamermetrics.com
+-d atax.gamespy.com
+-d atax.gamestats.com
+-d atax.ign.com
+-d atax.teamxbox.com
+-d athena.mysmartprice.info
+-d athenatmpbeacon.theglobeandmail.ca
+-d atlantafalcons.com /wp-content/*/metrics.js
+-d atlantis.com /_scripts/tsedge/pagemarker.gif?
+-d atlas.astrology.com
+-d atrack.allposters.com
+-d atrack.art.com
+-d atracktive.collegehumor.com
+-d att.com /csct.gif?
+- http://attachmate.com*/pv.aspx?
+-d audible.com /uedata/
+-d audit.macworld.co.uk
+-d audit.pcadvisor.co.uk
+-d audiusa.com /us/brand/en.usertracking_javascript.js
+-d auriq.com /asp/aq_tag.
+-d autoblog.com /traffic/
+-d autobytel.com /content/shared/markerfile.bin
+-d autopartswarehouse.com /thirdparty/tracker?
+-d autosite.com /scripts/markerfile.bin?
+-d autotrader.co.uk /page-tracking/
+-d autotrader.co.za /log/
+-d autozone.com /analytics.js
+-d avg.com /stats.js
+-d avira.com /site/datatracking?
+-d avitop.com /hitlist.asp
+-d aviva.co.uk /metrics/
+-d avstop.com /poll.gif?
+-d axa.com /elements/js/wreport.js
+-d azfamily.com /images/pixel.gif
+-d b-aws.techcrunch.com
+-d b.huffingtonpost.com
+-d b.imwx.com
+-d b.myspace.com
+# ||b.photobucket.com^$~object-subrequest
+-d baidu.com /ecom?
+-d baidu.com /js/log.js
+-d baidu.com /location/ip?
+-d bandstores.co.uk /tracking/scripts/
+-d banggood.com /?p=
+-d bangkokpost.com /spac/spac.js
+-d barcelo.com /Tracking.js
+-d barclaycard.co.uk /cs/static/js/esurveys/esurveys.js
+-d barnesandnoble.com /Analytics/
+-d barrons.com /blank.htm
+-d bat.adforum.com
+-d bats.video.yahoo.com
+-d baxter.com /includes/wtss.js
+-d bayer.com /sp.gif?
+-d bbc.co.uk /analytics?
+-d bbc.co.uk /tracker.js
+-d bbc.co.uk /vs.js
+-d bbci.co.uk /archive_stats/
+-d bbci.co.uk /analytics.js
+-d bc.yahoo.com
+-d bcm.itv.com
+-d beacon-1.newrelic.com
+-d beacon.ehow.com
+-d beacon.examiner.com
+-d beacon.indieclicktv.com
+-d beacon.lycos.com
+-d beacon.netflix.com
+-d beacon.nuskin.com
+-d beacon.search.yahoo.com
+-d beacon.shazam.com
+-d beacon.toyota.co.jp
+-d beacon.walmart.com
+-d beacon.wikia-services.com
+-d beacon.www.theguardian.com
+-d beacons.helium.com
+-d beacons.vessel-static.com /xff?
+-d beacons.vessel-static.com /pageView?
+-d beap-bc.yahoo.com
+-d beeg.com /logo.gif?
+-d bench.uc.cn
+-d bermudasun.bm /stats/
+-d bestofmedia.com /i/tomsguide/a.gif
+-d bestofmedia.com /sfp/js/boomerang/
+-d betfair.com /1x1.gif
+-d betway.com /snowflake/?
+-d beyond.com /common/track/trackgeneral.asp
+-d bhg.com /tracking-data?
+-d bi.medscape.com
+-d bidz.com /contentarea/BidzHomePixel
+-d binaries4all.nl /misc/misc.php?*&url=http
+# ||bing.com/fd/ls/$~ping
+-d bing.com /partner/primedns
+-d bing.com /widget/metrics.js
+-d bing.com /GLinkPing.aspx
+-d biosphoto.com /stats/
+-d birthvillage.com /watcher/
+-d bit.ehow.com
+-d bits.wikimedia.org /geoiplookup
+-d blackplanet.com /images/shim.gif
+-d blankfire.com _.gif
+-d blastingnews.com /?newsid=
+-d blastro.com /log_player_actions.php
+-d bleacherreport.com /api/hit.json?
+-d blekko.com /a/track?
+-d blick.ch /stats/
+-d blinkbox.com /tracking
+-d blinkist.com /t?
+-d blip.tv /engagement?
+-d blockchain.info /Resources/analytics.js
+-d bloomberg.com /apps/data?referrer
+-d bloxcms.com /tracker.js
+-d bluenile.ca /track/
+-d bluenile.co.uk /track/
+-d bluenile.com /track/
+-d bn.adultempire.com
+-d boards.ie /timing.php?
+-d boats.com /images/tracking/
+-d booking.com /logo?
+-d boston.com /upixel/
+-d box.com /gen204?
+-d brandrepublic.com /session-img/
+-d branica.com /counter.php?
+-d brazzerscontent.com /atlas/
+-d bridgetrack.com /site/
+-d bridgetrack.com /track/
+-d brightcove.com /1pix.gif?
+-d broadbandchoices.co.uk /track.js
+-d broadwayworld.com /regionalbug.cfm?
+-d brobible.com /?ACT
+-d bulb.76.my
+-d bulgari.com /bulgari/wireframe_script/BulgariGa.js
+-d business.com /images2/anal.gif?
+-d businessinsider.com /tracker.js
+-d businessinsider.com /track.js
+-d buto.tv /track/
+-d buzzamedia.com /js/track.js
+-d buzzfed.com /pixel?
+-d buzzfed.com /pound.js
+-d buzzfeed.com /small.gif?
+-d buzzfeed.com /tracker.js
+-d buzzurl.jp /api/counter/
+-d c.ipaddress.com
+-d c.microsoft.com
+-d c.newsinc.com
+-d c.paypal.com
+-d c.wort-suche.com
+-d c.x.oanda.com
+-d c.ypcdn.com /webyp?rid=
+-d caller.com /metrics/
+-d candy.com /3droi/
+-d canoe.ca /generix/ga.js
+-d canstockphoto.com /monitor/
+-d capitalone.com /tracker/
+-d cardomain.com /js/tibbylog.js?
+-d cardstore.com /affiliate.jsp?
+-d carmagazine.co.uk /tracking.js
+-d carmax.com /ping?
+-d cars.com /analytics.js
+-d cartier.co.uk /eyeblaster.
+-d cartoonnetwork.com /tools/js/clickmap/
+-d cartoonnetwork.com /brandcma.js
+-d cbc.ca /g/stats/
+-d cbox.ws /box/relay.swf?
+-d cbox.ws /relay.swf?host=
+-d cbs.com /assets/js/*AdvCookie.js
+-d cbs.wondershare.com
+-d cbsimg.net /js/cbsi/dw.js
+-d cbsnews.com /i/trk/
+-d cbssports.com /common/p?
+-d cclickvidservgs.com /mattel/cclick.js
+-d cctv.com /eg.js
+-d cctv.com /SnoopStat?
+-d cd.musicmass.com
+-d cdnstats.tube8.com
+-d cellstores.com /tracking/
+-d cem.hotelsapi.io
+-d cert.org /images/1pxinv.gif
+-d cfr.org /js/ga.*js
+-d cgi.nch.com.au &referrer
+-d chanel.com /js/flashtrack.js
+-d channel4.com /foresee_c4/
+-d charter.com /static/scripts/mock/tracking.js
+-d cheapflights.com /ic/*.gif?
+-d cheapsalesconsulting.com /adaptive.php?
+-d cheezburger.com /api/visitor
+-d chelseafc.com /tracking.js
+-d china.com /statistic.js
+-d china.com /endpage_footer.js
+-d chip.eu /pic.gif?
+-d chkpt.zdnet.com
+-d chron.com /javascript/cider/
+-d chud.com /community/p/
+-d chunk.bustle.com
+-d civicscience.com /jot?
+-d cjtube.com /tp/*.php
+-d cl.expedia.com
+-d cl.ly /metrics?
+- http://classic.comunio.*/external/ct/ct.js
+-d clc.stackoverflow.com
+-d clck.yandex.com
+# ||click.aliexpress.com^$image,script
+-d click.engage.xbox.com
+-d click.jasmin.com
+-d click.livejasmin.com
+-d click.mmosite.com
+-d click.udimg.com
+-d click2.cafepress.com
+-d clicks.hurriyet.com.tr
+-d clicks.traffictrader.net
+-d client-event-reporter.twitch.tv
+-d clientlog.portal.office.com
+- http://climatedesk.org*/pixel.gif
+-d clk.about.com
+-d clkstat.china.cn
+-d clog.go.com
+-d cloudfront.net /amznUrchin.js
+-d cloudfront.net /bbc-filter.js
+# ||cloudfront.net/dm.js$domain=dailymotion.com
+-d cloudfront.net /m/princess/ae.js
+-d cloudfront.net /m/princess/ae.live.js
+# ||cloudfront.net/pages/scripts/0011/0794.js$domain=sourceforge.net
+# ||cloudfront.net/photo/*_tp_*.jpg$domain=9gag.com
+-d cloudfront.net /vis_opt.js
+-d cloudfront.net /vis_opt_no_jquery.js
+-d cls.ichotelsgroup.com
+-d clvk.viki.io
+-d clyp.it /log/
+-d cmap.alibaba.com
+-d cmstrendslog.indiatimes.com
+-d cmstrendslog.timesnow.tv
+-d cnt.nicemix.com
+-d cnt.nuvid.com
+-d cnt.vivatube.com
+-d codecguide.com /stats.js
+-d codeweblog.com /js/count.js
+-d coherentpath.com /tracker/
+-d collarity.com /ucs/tracker.js
+-d collect.sas.com
+-d collect2.sas.com
+-d collection.theaa.com
+-d collector-cdn.github.com
+-d collector-medium.lightstep.com
+-d collector.githubapp.com
+-d collector.ksax.com
+-d collector.kstptv5.com
+-d collector.prod.expedia.com
+-d collector.shopstream.co
+-d collector.shorte.st
+-d collector.statowl.com
+-d collector.tescocompare.com
+-d collector.trendmd.com
+-d collector.xhamster.com
+-d collector1.xhamster.com
+-d collegehumor.com /track.php?
+-d commentarymagazine.com /track.asp?
+-d commercialappeal.com /metrics/
+-d comms-web-tracking.uswitchinternal.com
+-d computerarts.co.uk .php?cmd=site-stats
+-d computershopper.com /wsgac/
+-d computing.co.uk /webtrends.js
+-d confirm-referer.glrsales.com
+-d consumerreports.org /js/conversion.js
+-d contadores.bolsamania.com
+-d cookpad.com /init.js
+-d cooksunited.co.uk /counter*.php?
+-d cooksunited.co.uk /pixel/
+-d coolertracks.emailroi.com
+-d cooliris.com /shared/stats/
+-d cosmopolitan.co.za /rest/track/
+-d count.livetv.ru
+-d count.livetv.sx
+-d count.prx.org
+-d count.rin.ru
+-d counter.entertainmentwise.com
+-d counter.joins.com
+-d counter.promodeejay.net
+-d counter.sina.com.cn
+-d counter.theconversation.edu.au
+-d counter.zerohedge.com
+-d coupons.com /pmm.asp
+-d courierpress.com /metrics/
+-d coursera.org /wf/open?
+-d coveritlive.com /1/sts/view?
+-d cracked.com /tracking/
+-d crackle.com /tracking/
+-d creativecommons.org /elog/
+-d creativecommons.org /triples?
+- http://creativefactory.zalando.
+-d creditcards.com /actions/page_view.php?
+-d creditcards.com /sb.php?
+-d crowdignite.com /img/l.gif
+-d crunchsports.com /tracking_fetchinfo.aspx?
+-d crunchyroll.com /tracker
+-d crunchyroll.com /breadcrumb.js
+-d ct.buzzfeed.com
+-d ct.cnet.com /opens?
+-d ctscdn.com /content/tracking-
+-d current.com /tracking.htm?
+-d customerservicejobs.com /common/track/
+-d cyberlink.com /analytics/
+-d da.virginmedia.com
+-d dabs.com /AbacusTest/clientinfo_bk.gif
+-d dailymail.co.uk /rta2/
+-d dailymail.co.uk /tracking/
+-d dailymotion.com /logger/
+-d dailymotion.com /track-
+-d dailymotion.com /track/
+-d dailymotion.com /analytics.js
+-d dailymotion.com /tag.gif?
+-d dainikbhaskar.com /tracking/
+-d data.mic.com
+-d data.ninemsn.com.au GetAdCalls
+-d data.ryanair.com
+-d data.younow.com
+-d datacollector.coin.scribol.com
+-d datehookup.com /strk/dateadvertreg?
+-d daum.net /dwi.js
+-d db.com /stats.js?
+-d dcs.mattel.com
+-d dcs.maxthon.com
+-d deadspin.com /at.js.php
+-d deadspin.com /trackers.html
+-d dealnews.com /lw/ul.php?
+-d debtconsolidationcare.com /affiliate/tracker/
+-d debug-vp.webmd.com
+-d dell.com /images/global/js/s_metrics*.js
+-d dell.com /metrics/
+-d depositfiles.com /stats.php
+-d derkeiler.com /gam/tag.js
+-d desa.fkapi.net
+-d desb.fkapi.net
+-d designtaxi.com /tracker.php
+-d despegar.com /t?
+-d desr.fkapi.net
+-d destructoid.com /img2.phtml?
+-d diag.doba.com
+-d diamond.transfermarkt.de
+-d dictionary.com /track/
+-d diet.rodale.com
+-d digitalriver.com /globaltracking
+-d digitalspy.co.uk /gip1.php
+-d dilbert.com &tracker*.js
+-d dippic.com /cgi-bin/index_dl.cgi?
+-d discordapp.com /science
+-d discordapp.com /track
+-d displaymate.com /cgi-bin/stat/
+-d divxden.com /tracker.js
+-d djtunes.com &__utma=
+-d dl.meliacloud.com
+# ||dmcdn.net/pxl/$domain=dailymotion.com
+# ||dmcdn.net/track/$domain=dailymotion.com
+-d dmeserv.newsinc.com
+-d dmp.marketgid.com
+-d dmtracking2.alibaba.com
+-d dmtrk.com /o.gif
+# ||docs.google.com/stat|$xmlhttprequest
+-d docstoc.com /metrics/
+-d dogpile.com /__kl.gif
+-d domainit.com /scripts/track.js
+-d domaintools.com /buffer.pgif?
+-d domaintools.com /tracker.php
+-d dominos.co.uk /universal.html?
+-d dropbox.com /el/?b=open:
+-d dropbox.com /web_timing_log
+-d drpeterjones.com /stats/
+-d dsm.com /searchenginetracking.js
+-d duckduckgo.com /t/
+-d dump8.com /js/stat.php
+-d dvdempire.com /images/empty2.asp
+-d dvdempire.com /include/user/empty2.asp?
+-d dw.cnet.com
+-d dw.com /tracking/
+-d dw.de /run.dw?
+-d dx.com /?utm_rid=
+-d dyo.gs /track/
+- http://ea.laredoute.
+- http://ea.pixmania.
+-d eafyfsuh.net /track/
+-d easy2.com /logging/
+-d ebay-us.com /fp/
+-d ebay.com /op/t.do?event
+# ||ebayobjects.com/*;dc_pixel_url=$image
+-d ebaystatic.com /agof_survey_
+-d ebaystatic.com /iam_
+-d ec2-prod-tracker.babelgum.com
+-d economist.com /geoip.php
+-d ectnews.com /shared/missing.gif?
+# ||edgecastcdn.net^*/ehow_am.js$domain=ehow.com
+-d edgecastcdn.net /pixel_1.png?
+-d edmunds.com /api/logTime?
+-d edmunds.com /dart1x1.gif
+-d edmunds.com /edw1x1.gif
+-d ednetz.de /api/public/socialmediacounter.
+# ||edutrek.com/wgsltrk.php?$image
+-d edvantage.com.sg /site/servlet/tracker.jsp
+-d edw.edmunds.com
+-d edweek.org /js/sc.js
+-d efukt.com ?hub=
+-d egg.com /rum/data.gif?
+-d ehow.com /services/jslogging/log/?
+-d ekg.riotgames.com
+-d elance.com /emc.php?
+-d elsevier.com /pageReport?
+-d email-tickets.com /dt?e=PageView
+-d email.aol.com /cgi-bin*/flosensing?
+-d emarketing.rmauctions.com
+-d emv2.com /HO?
+-d emv2.com /P?
+# ||emv3.com/HO?$image
+- http://encrypted.google.*/imgevent?*.js
+# ||encrypted.google.*/imghover?$image
+# ||encrypted.google.*/url?$image
+-d engadget.com /click?
+-d engadget.com /traffic/?
+-d enlightenment.secureshoppingbasket.com
+-d entensity.net /pages/c.htm
+-d entry-stats.huffingtonpost.com
+-d epinions.com /js/stdLauncher.js
+-d epinions.com /js/triggerParams.js
+-d eporner.com /stats/
+-d es.puritan.com
+-d espncdn.com .tracking.js
+-d et.nytimes.com
+-d etonline.com /media/*/ctvconviva.swf
+-d etui.fs.ml.com
+-d eulerian.sarenza.com
+-d eulerian.splendia.com /ea.js
+-d euroleague.tv /tracking.js
+-d ev.kck.st
+-d event-reporting-dot-webylytics.appspot.com
+-d eventlog.jackpot.de
+-d eventlogger.soundcloud.com
+-d events.jora.com
+-d events.privy.com
+-d events.reddit.com
+-d events.redditmedia.com
+-d events.turbosquid.com
+-d eventtracker.elitedaily.com
+-d everythinggirl.com /assets/tracker/
+-d evisit.exeter.ac.uk
+-d eweek.com /hqxapi/
+-d ex.ua /counter/
+-d exalead.com /search/pixel-ref/
+-d examiner.com /sites/all/modules/custom/ex_stats/
+-d exchangeandmart.co.uk /js/ga.js
+-d excite.com /tr.js
+-d exelate.com /pixel?
+-d expatnetwork.com /mtc.js
+-d expbl2ro.xbox.com
+-d expdb2.msn.com
+-d experiandirect.com /javascripts/tracking.js
+-d experts-exchange.com /pageloaded.jsp?
+-d extremetech.com /sac/mostclicked/*.js
+-d extremetech.com /ga.js
+-d ez.no /statjs/
+-d ezinearticles.com /blank/
+-d f-secure.com /wtsdc.js
+-d f.staticlp.com
+-d facebook.com /ajax/*/log.php
+-d facebook.com /ajax/*logging.
+-d facebook.com /ct.php
+-d facebook.com /friends/requests/log_impressions
+-d facebook.com /search/web/instrumentation.php?
+-d facebook.com /xti.php?
+-d facebook.com /impression_logging/
+-d fanfiction.net /eye/
+-d fanhow.com /script/tracker.js
+-d fantasticfiction.co.uk /cgi-bin/checker.cgi
+-d fantom-xp.org /toprefs.php?
+-d farecompare.com /resources/ga/ga.js
+-d farecompare.com /trackstar/
+-d fark.com /cgi/ll.pl?
+-d fark.net /imagesnoc/
+-d farmville.com /trackaction.php?
+-d farsnews.com /stcs.js.aspx?
+-d fast.forbes.com
+-d fastexercise.com /logging.js
+# ||fastly.net^*/sp-analytics.min.$domain=spotify.com
+-d favicon.co.uk /stat/
+-d fc2.com /ana/
+-d fc2.com /ana2/
+-d fc2.com /counter.php?
+-d fc2.com /counter_img.php?
+-d fccbrea.org /javascript/stats.js
+-d feedburner.com /~r/
+-d feeds.feedblitz.com /~/i/
+-d feeds.timesonline.co.uk /mf.gif
+-d feedsportal.com /c/
+-d felitb.rightinthebox.com
+-d fightforthefuture.org /wf/open?
+-d filesmonster.com /tck/
+-d filmlinks4u.net /twatch/jslogger.php
+-d filterlists.com .php
+-d financeglobe.com /Visit/
+-d financialstandardnews.com /webstats/
+-d fishki.net /counter/
+-d fishki.net /informer1/
+-d flashget.org /cow_*.js
+-d flickr.com /beacon/
+-d flickr.com /beacon_
+-d fling.com /zeftour/t_i.php?
+-d flipboard.com /usage?
+-d flipkart.com /ajaxlog/visitIdlog?
+-d flipkart.com /bbeacon.php?
+-d flipkart.com /collector/
+-d flixist.com /img2.phtml
+-d flixster.com /pixels?
+- http://fls-*.amazon.*%
+- http://fls-*.amazon.*&
+-d flybmi.com /livetrack/
+-d flyjazz.ca /ow_ga.js
+-d fncstatic.com /static/all/js/geo.js
+-d foodcouture.net /public_html/ra/script.php*.js
+-d foodnavigator.com /tracker/
+-d fool.com /tracking/
+-d forbes.com /fps/cookie_backup.php?
+-d forbes.com /track.php?
+-d forbesimg.com /assets/js/forbes/fast_pixel.js
+-d ford.com /ngtemplates/ngassets/com/forddirect/ng/newMetrics.js
+-d ford.com /ngtemplates/ngassets/ford/general/scripts/js/galleryMetrics.js
+-d fotothing.com /space.gif?
+-d foursquare.com /logger?
+-d foursquare.com /wtrack?
+-d foxadd.com /addon/upixel/
+-d foxtel.com.au /cms/fragments/corp_analytics/
+-d freaksofcock.com /track/
+-d free-tv-video-online.me /resources/js/counter.js
+-d freean.us /track/
+-d freebase.com /log?
+-d freebiesms.com /tracker.aspx?
+-d freecause.com .png?
+-d freedownloadscenter.com /empty.gif?
+# ||freelotto.com/offer.asp?offer=$image
+-d freemeteo.com /log.asp?
+-d freemeteo.com /searchlog.asp?
+-d freeones.com /cd/?cookies=
+-d freeones.com /cd/?cookies=
+-d fresh.techdirt.com
+-d frog.wix.com
+-d frontdoor.com /_track?
+-d frstatic.net /tracking.js
+-d ft.com /conker/service/pageview?
+-d ft.com /ft-tracking.js
+-d fujifilm.com /js/shared/analyzer.js
+-d funbrain.com /a2.gif
+-d funn.graphiq.com
+-d furk.net /counter.yadro.ru/
+-d fwmrm.net /AnalyticsExtension.
+-d g.deathandtaxesmag.com
+-d g.msn.com
+-d g.techweekeurope.co.uk
+# ||g2a-com.newsletter.com.pl^$image,third-party
+-d ga.canoe.ca
+-d ga.nsimg.net
+-d gaiaonline.com /internal/mkt_t.php?
+-d galleries.bz /track/
+-d gallup.wn.com /1x1.gif
+-d gamefront.com /wp-content/plugins/tracker/
+-d gamerdeals.net /aggbug.aspx
+-d gamesgames.com /WebAnalysis/
+-d gamespot.com /cgi/chkpt.php?
+-d gamezone.com /?act=
+-d gardenweb.com /iv_footer.js
+-d gardenweb.com /iv_header.js
+- http://gateway.reddit.com
+-d gawker.com /?op=hyperion_useragent_data
+-d gawker.com /at.js.php
+-d gawker.com /trackers.html
+-d gcpdata.telegraph.co.uk
+-d geek.com /js/zdgurgle/
+-d geico.com /vs/track2.js?
+-d gekko.spiceworks.com
+-d general-files.com /stat
+-d general-search.com /stat
+-d geo.hltv.org
+-d geo.homepage-web.com
+-d geo.metronews.ca
+-d geo.mozilla.org
+-d geo.perezhilton.com
+-d geo.play.it
+-d geo.theawesomer.com
+-d geo.yahoo.com
+-d geoapi.indiatimes.com
+-d geobeacon.ign.com
+-d geoip-lookup.vice.com
+-d geoip.al.com
+-d geoip.boredpanda.com
+-d geoip.cleveland.com
+-d geoip.gulflive.com
+-d geoip.inquirer.net
+-d geoip.lehighvalleylive.com
+-d geoip.masslive.com
+-d geoip.mlive.com
+-d geoip.nj.com
+-d geoip.nola.com
+-d geoip.oregonlive.com
+-d geoip.pennlive.com
+-d geoip.silive.com
+-d geoip.syracuse.com
+-d geoip.viamichelin.com
+-d geoiplookup.wikimedia.org
+-d geovisites.com /geouser.js
+-d gfycat.com /GFAN.min.js
+-d giffgaff.com /r/?id=
+-d giganews.com /images/rpp.gif
+- http://gismeteo.*/stat.gif
+-d github.com /_private/browser/stats
+-d github.com /_stats
+-d github.com /hydro_browser_events
+-d gizmodo.com /at.js.php
+-d gizmodo.com /trackers.html
+-d glamourmagazine.co.uk /LogPageView
+-d glassmoni.researchgate.net
+-d glean.pop6.com
+-d global.canon /analytics.js
+-d globes.co.il /ga.asp
+-d globes.co.il /shared/s.ashx?
+-d globester.com /track.js
+-d gmonitor.aliimg.com
+-d gnar.grammarly.com
+-d gnavi.co.jp /analysis/
+-d go.com /disneyid/responder?
+-d go.com /globalelements/utils/tracking
+-d go.com /stat/
+-d go.com /analytics.js
+# ||go.theregister.com^$image
+-d godaddy.com /image.aspx?
+-d godaddy.com /pageevents.aspx
+-d golfsmith.com /ci/
+- http://google.*/api/sclk?
+- http://google.*/client_204?
+- http://google.*/gen204?
+# ||google.*/gen_204?$~xmlhttprequest
+- http://google.*/gwt/x/ts?
+- http://google.*/log204?
+- http://google.*/logxhraction?
+- http://google.*/stats?frame=
+-d google.com /appserve/mkt/img/*.gif
+-d google.com /log?
+-d google.com /reader/logging?
+-d google.com /stream_204?
+-d google.com /support/webmasters/api/metrics?*.js
+# ||google.com/uploadstats|$xmlhttprequest
+-d google.com /dlpageping?
+-d google.com /log?
+-d google.com /urchin_post.js
+-d google.com /viewerimpressions?
+-d googlelabs.com /log/
+-d gosanangelo.com /metrics/
+-d gov.in /js/ga.js
+-d gq-magazine.co.uk /LogPageView
+# ||groupon.*/tracky$xmlhttprequest
+-d groupon.com /analytic/
+-d groupon.com /tracking
+-d gumtree.com.au /?pc=
+-d h.cliphunter.com
+-d hanksgalleries.com /stxt/counter.php?
+-d harvester.eu.square-enix.com
+-d harvester.hbpl.co.uk
+-d haxx.ly /counter/
+-d hclips.com /js/0818.js
+-d hdzog.com /js/1308.js
+-d healthcarejobsite.com /Common/JavaScript/functions.tracking.js
+# ||heapanalytics.com/h?$image
+-d heartbeat.flickr.com
+-d helium.com /javascripts/helium-beacons.js
+-d heraldtimesonline.com /js/tk.js
+-d heroku.com /track.js
+-d herold.at /images/stathbd.gif?
+# ||hexus.net/trk/$image
+-d higheredjobs.com /ClickThru/
+-d hitcount.heraldm.com
+-d hitweb2.chosun.com
+-d hobsons.co.uk /WebBeacon.aspx?
+-d holiday-rentals.co.uk /thirdparty/tag
+-d holiday-rentals.co.uk /tracking-home.html
+-d homeaway.com /tracking-home.html
+-d homesalez.com /itop/hits.php
+-d honda.ca /_Global/js/includes/tracker.js
+-d hoseasons.co.uk /tracking/js.html?
+-d hostelbookers.com /track/request/
+-d hostels.com /includes/lb.php?
+-d hostels.com /includes/thing.php?
+-d hotelplanner.com /TT.cfm
+-d hothardware.com /stats/
+-d hotnews.ro /pageCount.htm?
+-d houzz.com /js/log?
+-d hoverstock.com /boomerang?
+-d howcast.com /images/h.gif
+-d howtogeek.com /public/stats.php
+-d hp.com /bootstrap/metrics.js
+-d hrblock.com /includes/pixel/
+-d hrum.hotelsapi.io
+-d hsn.com /code/pix.aspx
+-d hubpages.com /c/*.gif?
+- http://huffingtonpost.*/vanity/?
+-d huffingtonpost.com /click?
+-d huffingtonpost.com /geopromo/
+-d huffingtonpost.com /include/geopromo.php
+-d huffingtonpost.com /ping?
+-d huffingtonpost.com /traffic/
+-d huffpost.com /ping?
+-d hulkshare.com /ajax/tracker.php
+-d hulkshare.com /stats.php
+# ||hulu.com/*&beaconevent$image,object-subrequest,~third-party
+-d hulu.com /beacon/v3/error?
+-d hulu.com /beacon/v3/playback?
+-d hulu.com /beaconservice.swf
+-d hulu.com /google_conversion_video_view_tracking.html
+-d hulu.com /guid.swf
+-d hulu.com /watch/*track.url-1.com
+-d hulu.com /external_beacon.swf
+-d hulu.com /plustracking/
+-d hulu.com /potentialbugtracking/bigdropframes?
+-d hulu.com /potentialbugtracking/contentplaybackresume?
+-d hulu.com /potentialbugtracking/dropframes?
+-d hulu.com /recommendationTracking/tracking?
+-d hulu.com /sitetracking/
+# ||huluim.com/*&beaconevent$image,object-subrequest,~third-party
+-d huluim.com /sitetracking/
+-d humanclick.com /hc/*/?visitor=
+-d hwscdn.com /analytics.js
+-d hwscdn.com /brands_analytics.js
+-d i-am-bored.com /cad.asp
+-d i-am-bored.com /cah.asp
+-d i.walmartimages.com /i/icon/
+-d i365.com /pv.aspx?
+-d iafrica.com /php-bin/iac/readcnt.php?
+-d ibeat.indiatimes.com
+-d iberia.com /ga/ga.js
+-d ibm.com /common/stats/
+-d ibm.com /gateway/?
+-d ibs.indiatimes.com
+# ||ibtimes.com/player/stats.swf$object-subrequest
+-d icq.com /search/js/stats.js
+-d id.allegisgroup.com
+- http://id.google.*/verify/*.gif
+-d id.localsearch.ch
+-d iedc.fitbit.com
+-d ign.com /global/analytics/drones.js
+-d iheart.com /tracking/
+-d image.providesupport.com /cmd/
+-d imagefap.com /images/yes.gif?
+# ||images-amazon.com^*/beacon-$domain=imdb.com
+-d images-amazon.com /ClientSideMetricsAUIJavascript*.js
+-d images-amazon.com /clog/clog-platform*.js*.js
+-d images.military.com /pixel.gif
+-d imagetwist.com /?op=
+-d imdb.com /rd/?q
+-d imdb.com /tr/
+-d imdb.com /twilight/?
+-d imdb.com /video/*/metrics_
+-d imdb.com /video/*metrics?
+-d imgtrack.domainmarket.com
+-d imgur.com /albumview.gif?
+-d imgur.com /imageview.gif?
+-d imgur.com /lumbar.gif?
+-d immassets.s3.amazonaws.com
+-d imonitor.dhgate.com
+-d imp-media-lab.thenewslens.com
+-d imx.comedycentral.com
+-d indeed.com /rpc/preccount?
+-d independentmail.com /metrics/
+-d indiatimes.com /trackjs10.
+-d influxer.onion.com
+-d infogr.am /js/metrics.js
+-d infomine.com /imcounter.js
+-d infoq.com /scripts/tracker.js
+-d informer.com /statistic?
+-d infospace.com =pageview&
+-d infusionextreme.com /tracker/
+-d ingest.onion.com
+-d inmagine.com /j/ga.js
+-d ino.com /img/sites/mkt/click.gif
+-d inquiries.redhat.com
+-d insideline.com /dart1x1.gif
+-d insideline.com /edw1x1.gif
+-d insidesoci.al /track
+-d insire.com /imp?
+-d instructables.com /counter
+-d instyle.co.uk /tracking.js
+-d insynchq.com /wf/open?
+-d intelli.ageuk.org.uk
+-d intensedebate.com /empty.php
+-d intent.cbsi.com
+-d intercom.io /gtm_tracking/
+-d internetslang.com /jass/*.js
+-d investegate.co.uk /Weblogs/IGLog.aspx?
+-d io9.com /at.js.php
+-d io9.com /trackers.html
+-d ip-adress.com /gl?r=
+-d ip.breitbart.com
+-d ip.pichunter.com
+-d ipetitions.com /img.php?
+-d irs.gov /js/irs_reporting_cookie.js
+-d issn.org /isens_marker.php?
+-d istitutomarangoni.com /tracking/
+-d itp.net /ga.js
+-d itv.com /_app/cmn/js/bcm.js
+-d itweb.co.za /analytics/
+- http://ixquick.*/avtc?
+# ||ixquick.*/do/avt?$image
+- http://ixquick.*/elp?
+- http://ixquick.*/pelp?
+-d ixs1.net /s/
+-d jack.allday.com
+-d jakpost.net /jptracker/
+-d jal.co.jp /common_rn/js/rtam.js
+-d jalopnik.com /at.js.php
+-d jalopnik.com /trackers.html
+-d jaludo.com /pm.php?
+-d javhd.com /click/
+-d javher.com /analytics.js
+-d jessops.com /js/JessopsTracking.
+-d jetsetter.com /tracker.php
+-d jeuxjeux2.com /stats.php
+-d jezebel.com /at.js.php
+-d jezebel.com /trackers.html
+-d jobscentral.com.sg /cb_transfer.php
+-d jobthread.com /js/t.js
+-d jobthread.com /t/
+-d johansens.com /LogPageView
+-d joins.com /hc.aspx?
+-d joins.com /JTracker.js?
+-d jokeroo.com /i/.gif
+-d jpmorgan.co.uk /tagging/
+-d jtv.com /__analytics-tracking?
+# ||juno.com/start/javascript.do?message=$image
+-d justanswer.com /browsercheck/
+-d justanswer.com /ja_services/processes/log.asmx/
+- http://kayak.*/gtm/
+- http://kayak.*/px/
+-d kayak.com /k/redirect/tracking?
+-d kelkoo.co.uk /kk_track?
+-d kelkoo.co.uk /tracker/
+-d kelkoo.com /kk_track?
+-d kickass.cd /analytics.js
+- http://kiks.yandex.
+-d killerstartups.com /adsensev
+-d kinesisproxy.hearstlabs.com
+-d kitsapsun.com /metrics/
+-d kksou.com /record.php?
+-d klm.com /travel/generic/static/js/measure_async.js
+-d kloth.net /images/pixel.gif
+-d klout.com /ka.js
+-d knoxnews.com /metrics/
+-d kodakgallery.com /analytics_
+-d kosmix.com .txt?pvid=
+-d kotaku.com /at.js.php
+-d kotaku.com /trackers.html
+-d kyte.tv /flash/MarbachMetricsOmniture.swf
+-d kyte.tv /flash/MarbachMetricsProvider.swf
+-d l.5min.com
+-d lancasteronline.com /javascript/ga.php
+-d landrover.com /system/logging/
+-d lastpass.com /analytics2.php
+-d lastpass.com /analyticsjs
+-d lastpass.com /loadanalytics.js
+-d latimes.com /images/pixel.gif
+- http://lcs.naver.
+-d legalmatch.com /scripts/lmtracker.js
+-d lendingtree.com /forms/eventtracking?
+-d lendingtree.com /javascript/tracking.js
+-d letitbit.net /atercattus/letitbit/counter/?
+-d letitbit.net /counter/
+-d lexus.com /lexus-share/js/campaign_tracking.js
+-d lh.secure.yahoo.com
+-d life.com /sm-stat/
+-d lifehacker.com /at.js.php
+-d lifehacker.com /trackers.html
+-d likes.com /api/track_pv
+-d lilb2.shutterstock.com
+- http://linguee.com*/white_pixel.gif?
+-d link.codeyear.com /img/
+-d link.ex.fm /img/*.gif
+# ||linkbucks.com/clean.aspx?task=record$image
+-d linkbucks.com /track/
+-d linkedin.com /analytics/
+-d linkedin.com /platform-telemetry/
+-d linkedin.com /collect
+-d linkedin.com /track
+-d linkedin.com /tracking
+-d linkpuls.idg.no
+-d linuxtoday.com /hqxapi/
+-d lipsy.co.uk /_assets/images/skin/tracking/
+-d list.ru /counter?
+-d live-audience.dailymotion.com
+-d live.com /handlers/watson.mvc?
+-d live.philips.com
+-d livedoor.com /counter/
+-d livejournal.com /ljcounter/?
+-d liveperson.net /hc/*/?visitor=
+-d livestation.com /akamaimediaanalytics.swf
+-d livestation.com /statistics.swf
+-d livestream.com /analytics/
+-d livestrong.com /services/jslogging/
+-d livesupport.zol.co.zw /image_tracker.php?
+-d lm.pcworld.com /db/*/1.gif
+-d loc.gov /js/ga.js
+-d local.ch /track/
+-d localads-statistics.maps.me
+-d localmonero.co /static/ga.js
+-d log.china.cn
+-d log.data.disney.com
+-d log.deutschegrammophon.com
+-d log.go.com
+-d log.mappy.net
+-d log.newsvine.com
+-d log.optimizely.com
+-d log.player.cntv.cn /stat.html?
+-d log.prezi.com
+-d log.snapdeal.com
+-d log.thevideo.me
+-d log.vdn.apps.cntv.cn
+-d log.wat.tv
+-d log.webnovel.com
+-d log1.24liveplus.com
+-d logdev.openload.co
+- http://logger-*.dailymotion.com/
+-d logger.dailymotion.com
+-d logger.nerdwallet.com
+-d logger.viki.io
+-d logging.goodgamestudios.com
+-d loggingservices.tribune.com
+-d loggly.cheatsheet.com
+-d loglady.publicbroadcasting.net
+-d logmein.com /scripts/Tracking/
+-d logs.dashlane.com
+-d lolbin.net /stats.php
+-d lovefilm.com /api/ioko/log/
+-d lovefilm.com /lovefilm/images/dot.gif
+-d lovefilm.com /lf-perf-beacon.png
+-d lsam.research.microsoft.com
+-d lslmetrics.djlmgdigital.com
+-d lucidchart.com /analytics_
+-d luxurylink.com /t/hpr.php?
+-d ly.lygo.com /jquery.lycostrack.js
+-d madthumbs.com /tlog.php
+-d mail.com /monitor/count?
+-d mail.ru /counter?
+-d mail.yahoo.com /dc/rs?log=
+# ||mailings.gmx.net/action/view/$image
+-d malibubright.com /krtrk/
+-d mansion.com /collect.js?
+-d manta.com /sbb?
+-d maps.nokia.com /tracking.c.js
+-d marketgid.com /c?
+-d marketing.alibaba.com
+-d marketing.kalahari.net
+-d marketing.nodesource.com
+-d marriott.com /mi_customer_survey.js
+-d mashable.com /pv.xml
+-d mastercard.com /Analytics/
+-d matchesfashion.com /js/Track.js
+-d mate1.com /iframe/pixel/
+-d mate1.com /reg.logging.js
+-d mayoclinic.org /js/gconversion.js
+-d mdmpix.com /js/connector.php?
+-d mealime.com /assets/mealytics.js
+-d media-imdb.com /images/*/imdbads/js/beacon-*.js
+-d media-imdb.com /adblock.swf
+-d mediaplex.com /universal.html
+-d medscape.com /pi/1x1/pv/profreg-1x1.gif
+-d meduza.io /stat/
+-d merchantcircle.com /static/track.js
+-d merck.com /js/mercktracker.js
+-d merlin.abc.go.com
+-d met-art.com /visit.js
+-d metacafe.com /services/fplayer/report.php?
+-d metacafe.com /statsrecorder.php?
+-d metacrawler.com /__kl.gif
+-d meter-svc.nytimes.com
+- http://metric*.rediff.com/
+-d metric-agent.i10c.net
+-d metric.gstatic.com
+-d metric.inetcore.com
+-d metrics.apartments.com
+-d metrics.aws.sitepoint.com
+-d metrics.cbn.com
+-d metrics.cbslocal.com
+-d metrics.cnn.com
+-d metrics.dailymotion.com
+-d metrics.ee.co.uk
+-d metrics.extremetech.com
+-d metrics.tbliab.net
+-d metrics.ted.com
+-d metrics.washingtonpost.com
+-d metrigo.zalan.do
+-d metro.co.uk /js/ga-
+-d metro.us /api/trackPage/
+-d metroweekly.com /tools/blog_add_visitor/
+-d microsoft.com /_log?
+-d microsoft.com /blankpixel.gif
+-d microsoft.com /click/
+-d microsoft.com /collect/
+-d microsoft.com /Collector/
+-d microsoft.com /getsilverlight/scripts/silverlight/SilverlightAtlas-MSCOM-Tracking.js
+-d microsoft.com /getsilverlight/scripts/Tracker.js
+-d microsoft.com /library/svy/
+-d microsoft.com /LTS/default.aspx
+-d microsoft.com /bimapping.js
+-d microsoft.com /surveytrigger.js
+-d military.com /cgi-bin/redlog2.cgi?
+-d military.com /Scripts/mnfooter.js
+-d miniclip.com /swhsproxy.swf?
+-d miniurls.co /track/
+-d miniusa.com /trackDeeplink.gif?
+-d mint.boingboing.net
+-d mirror.co.uk /stats/
+-d mitpress.mit.edu /wusage_screen_properties.gif
+-d ml.com /js/ml_dcs_tag_
+-d mmm.theweek.co.uk
+-d mms.al.com
+-d mms.cbslocal.com
+-d mms.cleveland.com
+-d mms.cnn.com
+-d mms.deadspin.com
+-d mms.gizmodo.com
+-d mms.gulflive.com
+-d mms.jalopnik.com
+-d mms.jezebel.com
+-d mms.lehighvalleylive.com
+-d mms.lifehacker.com
+-d mms.masslive.com
+-d mms.mlive.com
+-d mms.newyorkupstate.com
+-d mms.nj.com
+-d mms.nola.com
+-d mms.oregonlive.com
+-d mms.pennlive.com
+-d mms.silive.com
+-d mms.splinternews.com
+-d mms.syracuse.com
+-d mms.theroot.com
+-d modernsalon.com /includes/sc_video_tracking.js
+-d momtastic.com /libraries/pebblebed/js/pb.track.js
+-d moneysupermarket.com /ProphetInsert.js
+-d monkeyquest.com /monkeyquest/static/js/ga.js
+-d monova.org /js/ga.js
+-d monstercrawler.com /__kl.gif
+-d mortgage101.com /tracking/
+-d mov-world.net /counter/
+-d movieclips.com /api/v1/player/test?
+-d mozilla.com /js/track.js
+-d mozilla.net /webtrends/
+-d mozilla.org /includes/min/*=js_stats
+-d mp.twitch.tv
+-d mp3lyrics.org /cnt.php?
+-d msecnd.net /wt.js?
+-d msn.com /ro.aspx?
+-d msn.com /script/tracking*.js
+-d msn.com /tracker/
+-d msn.com /report.js
+-d msn.com /track.js
+-d msnbc.msn.com /analytics.js
+-d msxml.excite.com .gif?
+-d mto.mediatakeout.com /viewer?
+-d mtoza.vzaar.com
+-d mts-ws.rueducommerce.fr
+-d multiply.com /common/dot_clear.gif
+# ||multiupload.com/extreme/?*&ref=$subdocument
+-d musicstack.com /livezilla/server.php?request=track
+-d my.com /v1/hit/
+-d myanimelist.net /static/logging.html
+-d myfitnesspal.com /assets/mfp_localytics.js
+-d mypaydayloan.com /setc.asp?
+-d mypoints.com /js/*ga.js?
+-d myspace.com /beacon/
+-d myspace.com /isf.gif?
+-d mytravel.co.uk /thomascooktrack.gif?
+-d mywebsearch.com /anx.gif?
+-d mywebsearch.com /mws_bw.gif?
+-d n26.com /n26_sp_
+-d nabble.com /static/analytics.js
+-d naplesnews.com /metrics/
+-d naptol.com /usr/local/csp/staticContent/js/ga.js
+-d nationalgeographic.com /stats/ax/
+-d nationalpayday.com /1pix.gif
+-d nationalpayday.com /MAPProc.aspx?
+-d nationmobi.com /analyse.php
+-d nature.com /marker-file.nocache?
+-d naughtydog.com /beacon/
+-d naukrigulf.com /logger/
+-d naukrigulf.com /bms_display.php
+-d navlog.channel4.com
+-d nb.myspace.com
+-d nbcnews.com /analytics.js
+-d nbcudigitaladops.com /hosted/js/*_com.js
+-d nbcudigitaladops.com /hosted/js/*_com_header.js
+-d ncsoft.com /tracker.js
+-d ndtv.com /Status24x7.lv?
+-d neatorama.com /story/view/*.gif?hash
+-d ned.itv.com
+-d net-a-porter.com /intl/trackpage.nap?
+-d net.haier.com
+-d netflix.com /beacons?*&ssizeCat=*&vsizeCat=
+-d netflix.com /EpicCounter?
+-d netflix.com /ichnaea/log
+-d netflix.com /LogCustomerEvent?
+-d netflix.com /RegisterActionImpression?
+-d netlog.com /track
+-d netmag.co.uk /matchbox/traffic/
+# ||netzero.net/account/event.do?$image
+# ||newegg.com/common/thirdparty/$subdocument
+-d newegg.com /tracking
+-d news-leader.com /analytics.js
+-d news.cn /webdig.js
+-d news.com.au /track/
+-d news.com.au /tracking/
+-d news9.com /beacon/
+-d newsarama.com /common/track.php
+-d newscom.com /js/v2/ga.js
+-d newser.com /utility.aspx?
+# ||newsinc.com/players/report.xml?$image
+-d newsletter.mybboard.net /open.php?
+-d newstatesman.com /js/NewStatesmanSDC.js
+-d newswire.ca /rt.gif?
+-d nexon.net /log/
+-d nexon.net /tagging/
+-d next.co.uk /log.php
+-d nfl.com /imp?
+-d nhk.jp /bc.gif?
+-d nih.gov /medlineplus/images/mplus_en_survey.js
+-d nih.gov /share/scripts/survey.js
+-d nike.com /cms/analytics-store-desktop.js
+-d ninemsn.com.au .tracking.udc.
+-d ning.com /ga/ga.js
+-d nj.com /cgi-bin/stats/
+-d nj.com /dhtml/stats/
+-d nm.newegg.com
+-d nmtracking.netflix.com
+# ||noip.com/images/em.php?$image
+-d nola.com /cgi-bin/stats/
+-d nola.com /content/*/tracklinks.js
+-d nola.com /dhtml/stats/
+-d nova.pub /track.php?
+-d novatech.co.uk /tracking?
+-d novell.com /metrics.js
+-d novinite.com /tz.php
+-d nst.com.my /statistic/
+-d nydailynews.com /tracker.js
+-d nydailynews.com /tracker.js
+-d nymag.com /js/2/metrony
+-d nymag.com /analytics.js
+-d nyse.com /stats/
+-d nysun.com /tracker.js
+-d nyt.com /js/mtr.js
+-d nytimes.com /?url*&referrer*.js
+-d nytimes.com /js/mtr.js
+-d nytimes.com /data-layer?
+-d nzbsrus.com /tracker/
+-d nzonscreen.com /track_video_item
+-d nzpages.co.nz /track.js
+-d nzs.com /sliscripts_
+-d oasisactive.com /pixels.cfm
+-d ocregister.com /za?
+-d offers.keynote.com /wt/
+-d officedepot.com /at/rules_*.js*.js
+-d officelivecontent.com /Survey/
+-d oimg.m.cnbc.com
+-d oimg.mobile.cnbc.com
+-d ok.co.uk /tracking/
+-d okcupid.com /poststat?
+-d olark.com /track/
+-d oload.tv /log
+-d om.cbsi.com
+-d omni.nine.com.au
+-d omniture.stuff.co.nz
+-d omniture.theglobeandmail.com
+-d onetravel.com /TrackOnetravelAds.js
+-d oodle.co.uk /event/track-first-view/
+-d oodle.com /js/suntracking.js
+-d open.mkt1397.com
+-d openload.co /log
+-d openuniversity.co.uk /marketing/
+-d opera.com /js/sfga.js
+-d ophan.guardian.co.uk
+-d optimize-stats.voxmedia.com
+-d optimizely.com /js/geo.js
+-d optimum.net =pageview&
+-d optionsxpress.com /tracking.js
+-d orain.org /w/index.php/Special:RecordImpression?
+-d origin-tracking.trulia.com
+-d origin.chron.com
+-d osalt.com /js/track.js
+-d oscars.org /scripts/wt_include1.js
+-d oscars.org /scripts/wt_include2.js
+-d ostkcdn.com /js/p13n.js
+# ||overclock.net/p/$image
+# ||overstock.com/dlp?cci=$image
+-d overstock.com /uniquecount
+-d ownerdriver.com.au /ga.
+-d p.ctpost.com /article?i=
+-d pageinfo.motorsport.com
+-d pages03.net /WTS/event.jpeg?
+-d pajamasmedia.com /stats/
+-d pandasecurity.com /js/ahref/ahref.js
+-d papajohns.com /index_files/activityi.html
+-d papajohns.com /index_files/activityi_data/ct-*.js
+-d paper.li /javascripts/analytics.js
+-d pardot.com /pd.js
+-d partner.worldoftanks.com
+-d partners.badongo.com
+-d partners.mysavings.com
+-d paypal.com /webapps/beaconweb/
+# ||paypalobjects.com/*/m/mid.swf$domain=paypal.com
+-d pbsrc.com /common/pixel.png
+-d pch.com /scripts/Analytics/
+-d pch.com /SpectrumAnalytics.js?
+-d pckeeper.com /pixels/
+-d pclick.europe.yahoo.com
+-d pclick.internal.yahoo.com
+-d pclick.yahoo.com
+-d pcmag.com /mst/
+-d pcmag.com /analytics.js
+-d pcp001.com /media/globalPixel.js
+-d peacocks.co.uk /analytics.js
+-d pearltrees.com /s/track?
+-d pepsi.com /js/pepsi_tracking.js
+-d perezhilton.com /gtjs.php
+-d perezhilton.com /services/geo/
+-d perezhilton.com /stat/
+-d perfectmarket.com /pm/track?
+-d performances.bestofmedia.com
+-d petersons.com /trackBeta.asp
+-d petersons.com /trackFunctionsBeta.asp
+-d petplanet.co.uk /js/ga.js
+-d petri.co.il /akit/?
+-d pf.newegg.com
+-d phar.gu-web.net
+-d philly.com /log.json?
+-d phonedog.com /geo.php
+-d photobucket.com /ss/open.php?
+-d photobucket.com /track/
+-d photobucket.com /api.php?*&method=track&
+-d photobucket.com /tracklite.php
+-d photographyblog.com /?ACT
+-d pi.feedsportal.com
+-d picapp.com /empty.gif?
+-d picbucks.com /track/
+-d pichunter.com /logs/
+-d pictopia.com /hb.gif?
+-d pictures.zooplus.com
+-d ping.buto.tv
+-d ping.hungama.com
+-d ping.tvmaze.com
+-d pings.blip.tv
+-d pinterest.com /_/_/report/
+-d pipeline.realtime.active.com
+-d pipl.com /rd/?
+-d pix.eads.com
+-d pix.gfycat.com
+-d pix.nbcuni.com
+-d pixazza.com /track/
+-d pixel.anyclip.com
+- http://pixel.archive.
+-d pixel.buzzfeed.com
+-d pixel.digitalspy.co.uk
+-d pixel.facebook.com
+-d pixel.honestjohn.co.uk
+-d pixel.klout.com
+-d pixel.naij.com
+-d pixel.newscgp.com
+-d pixel.newsdiscover.com.au
+-d pixel.pcworld.com
+-d pixel.propublica.org
+-d pixel.reddit.com
+-d pixel.redditmedia.com
+-d pixel.staging.tree.com
+-d pixel.tuko.co.ke
+-d pixels.livingsocial.com
+-d pixiedust.buzzfeed.com
+-d play.com /analytics/
+-d play.com /sitetrak/
+-d playboy.com /libs/analytics/
+-d playdom.com /affl/show_pixel?
+-d playlist.com /scripts/remote_logger.js
+-d playserver1.com /analytics/
+-d playstation.com /beacon/
+-d playstation.net /event/
+-d plentyoffish.com /tracking.js
+-d pluto.airbnb.com .php?uuid=
+-d pnet.co.za /js/ga.js
+-d pokernews.com /track-views.php?
+-d policeone.com /stat/
+-d pong.gannettdigital.com
+-d popcap.com /interstitial_zones.js
+-d porndoo.com /lib/ajax/track.php
+-d pornhd.com /api/user/tracking
+-d porntube.com /track
+-d potterybarn.com /pbimgs/*/external/thirdparty.js
+-d potterybarnkids.com /pkimgs/*/external/thirdparty.js
+-d pound.buzzfeed.com
+-d powerreviews.com /ph.gif?
+-d presentationtracking.netflix.com
+-d presstv.ir /stat/
+-d prezi.com /log/
+-d pricegrabber.com /analytics.php
+-d priceline.com /svcs/*.js
+-d priceline.com /beaconHandler?
+-d priceline.com /impression/
+-d primevideo.com /uedata/
+-d primevideo.com /ref=
+-d princetonreview.com /logging/
+-d prnewswire.com /rit.gif?
+-d prnewswire.com /rt.gif?
+-d proac.nationwide.com
+-d projop.dnsalias.com /intranet-crm-tracking/
+-d prontohome.com /permuto.do
+-d propertyfinder.ae /js/ga.js
+-d prospects.ac.uk /assets/js/prospectsWebTrends.js
+-d prosper.com /referrals/
+-d proxypage.msn.com
+-d prudential.com /metrics_1px.gif?
+-d ps-deals.com /aggbug.aspx
+-d ps.ecosia.org
+-d pubarticles.com /_hits.php?
+-d pubarticles.com /add_hits_by_user_click.php
+- http://pulsar.ebay.*.js
+-d pulse-analytics-beacon.reutersmedia.net
+-d puritan.com /images/pixels/
+-d pvstat.china.cn
+-d pw.org /sites/all/*/ga.js
+-d qbn.com /media/static/js/ga.js
+-d quantserve.com /pixel;
+-d questionmarket.com /adsc/
+-d questionmarket.com /static/
+-d quibids.com /pixels/
+-d quickmeme.com /tracker/
+-d quintcareers.4jobs.com /Common/JavaScript/functions.tracking.js
+-d quotesonic.com /vendor/pixel.cfm
+-d r.bbci.co.uk
+-d r.my.com
+-d racingbase.com /tracking_fetchinfo.aspx?
+-d racinguk.com /images/home_sponsors/
+-d radio-canada.ca /lib/TrueSight/markerFile.gif?
+-d rainbow-uk.mythings.com
+-d rakuten-static.com /com/rat/
+-d ralphlauren.com /icg.metrics.js
+-d rambler.ru /cnt/
+-d rangers.co.uk /tracking.js
+-d rarefilmfinder.com /cnt-gif1x1.php
+# ||rat.rakuten.co.jp^$~xmlhttprequest
+-d razor.tv /site/servlet/tracker.jsp
+-d rd.meebo.com
+-d reachlocal.com /js/tracklandingpage.js
+-d real.com /pixel?
+-d real.com /track.htm?
+-d realitytvworld.com /images/pixel.gif
+-d reco.hardsextube.com
+-d recomendedsite.com /addon/upixel/
+-d recommendation.24.com
+-d redding.com /metrics/
+-d reddit.com .gif?
+-d redditmedia.com /gtm/jail?
+-d redeye.williamhill.com
+-d rediff.com /?rkey=
+-d redtube.com /_status/pix.php
+-d redtube.com /_status/pixa.php
+-d redtube.com /blockcount
+-d redtube.com /js/track.js
+-d redtube.com /pix.php
+-d redtube.com /stats/
+-d redtube.com /trackimps
+-d redtube.com /trackplay?
+-d redtube.com /jscount.php
+-d refer.evine.com
+-d reference.com /track/
+-d refinery29.com /api/stats?
+-d register.it /scripts/track_
+-d rel.msn.com
+# ||relatable.inquisitr.com^$image
+-d rent.com /track/visit/
+-d report-zt.allmusic.com
+-d report.shell.com
+-d reporter-times.com /js/tk.js?
+-d reporternews.com /metrics/
+-d reporting.flymonarch.com
+-d reporting.onthebeach.co.uk
+-d reporting.theonion.com
+-d reporting.wilkinsonplus.com
+-d request.issuu.com
+# ||resellerclub.com/helpdesk/visitor/index.php?$image
+-d retargeting.vistaprint.com
+-d retrevo.com /m/vm/tracking/
+-d retrevo.com /search/v2/jsp/blank.jsp?
+-d reuters.com /pulse/*.js
+-d reuters.com /tracker/
+-d reuters.com /rcom-wt-mlt.js
+-d reuters.com /tracker_video.js
+-d reuters.com /widget-rta-poc.js
+-d reutersmedia.net /tracker-article*.js
+-d revsci.tvguide.com
+-d rgbstock.com /logsearch/
+-d rightmove.co.uk /ps/images/logging/timer.gif?
+-d rightstuf.com /phplive/ajax/footprints.php
+-d ringcentral.com /misc/se_track.asp
+-d rismedia.com /tracking.js
+-d ritzcarlton.com /ritz/crossDomainTracking.mi?
+-d riverisland.com /mindshare.min.js
+-d rkdms.com /order.gif?
+-d rkdms.com /sid.gif?
+-d ro89.com /hitme.php?
+-d roadandtrack.com /RTdartSite.js
+-d roblox.com /www/e.png?
+-d rok.com.com
+-d roll.bankofamerica.com
+-d rottentomatoes.com /tracking/
+# ||rover.ebay.$image,object,script
+-d rover.ebay.com.au &cguid=
+-d rs.mail.ru
+-d rsscache.com /Section/Stats/
+-d rsys2.net /pub/as?
+-d rt.prnewswire.com
+# ||rt.rakuten.co.jp^$~xmlhttprequest
+-d rta.dailymail.co.uk
+-d rta2.metro.co.uk
+-d rte.ie /player/playertracker.js
+-d rtn.thestar.com
+# ||rumble.com/l/$image
+-d runnersworld.com /universalpixel.html
+-d russellgrant.com /hostedsearch/panelcounter.aspx
+-d s-msn.com /br/gbl/js/2/report.js
+# ||s-msn.com/primedns.gif?$domain=msn.com
+-d s-msn.com /s/js/loader/activity/trackloader.min.js
+-d s.infogr.am
+-d s.infogram.com
+-d s.youtube.com
+-d s2.youtube.com
+# ||s3s-bofm.net/ouv2/*.gif$image,third-party
+-d sa.bbc.co.uk
+-d sa.bbc.com
+-d sa.squareup.com
+-d sa135.macworld.co.uk
+-d sabah.com.tr /Statistic/
+-d sabah.com.tr /StatisticImage/
+-d sabc.co.za /SABC/analytics/
+-d sagepub.com /login_hit_hidden.gif?
+-d samsung.com /scripts/tracking.js
+-d sana.newsinc.com.s3.amazonaws.com
+-d sap.com /global/ui/js/trackinghelper.js
+-d sasontnwc.net /track/
+-d satellite-tv-guides.com /stat/
+-d sayac.hurriyettv.com
+-d sb.vevo.com
+-d scdn.co /build/js/tracking-
+-d sciencedaily.com /blank.htm
+-d sciencedaily.com /cache.php?
+-d scluster3.cliphunter.com
+-d scoop.co.nz /images/pixel.gif
+-d scoot.co.uk /ajax/log_serps.php
+-d scotts.com /smg/js/omni/customTracking.js
+-d scout.lexisnexis.com
+-d scout.rollcall.com
+-d scribe.twitter.com
+-d scribol.com /traffix-tracker.gif
+-d scriptlance.com /cgi-bin/freelancers/ref_click.cgi?
+-d scripts.snowball.com /scripts/images/pixy.gif
+-d sdc.com /sdcdata.js
+-d search.ch /audit/
+-d search.firstplace.com pageview
+-d search.usa.gov /javascripts/stats.js
+-d search.yahoo.com /ra/click?
+-d searchenginewatch.com /utils/article_track/
+-d searchyc-naity.ru /analytics.js
+-d seatgeek.com /sixpack/participate?
+-d seatguru.com /analytics.js
+-d seatguru.com /DMPDesktopBehaviorTracker.js
+-d seatguru.com /sg-tracking.js
+-d seattletimes.com /clientip
+-d secondspace.com /blank.gif
+-d securepaynet.net /image.aspx?
+-d seeclickfix.com /text_widgets_analytics.html
+-d seedr.cc /tr.js
+-d selfip.org /counter/
+-d sella.co.nz /sella_stats_
+-d sense.dailymotion.com
+-d seoquake.com /seoadv/audience/3.gif
+-d servedby.o2.co.uk
+-d servedby.yell.com /t.js?cq
+-d servicetick.com
+-d session-tracker.badcreditloans.com
+-d sevenload.com /som_
+-d sex-flow.com /js/error.js
+-d sh.st /bundles/smeweb/img/tracking-
+-d shareaholic.com /bake.gif?
+-d sharecast.com /counter.php
+-d shoes.com /WebServices/ClientLogging.
+-d shopautoweek.com /js/modules/tracker.js
+-d shopify.com /track.js
+-d shoplocal.com /dot_clear.gif?
+-d shopping.com /pixel/
+-d shopsubmit.co.uk /visitor.ashx
+-d shoutcast.com /traffic/?
+-d showstreet.com /log/
+-d shutterfly.com /pageloadtime.gif?
+-d shutterstock.com /b.png?
+-d siberiantimes.com /counter/
+-d sidebar.issuu.com
+-d similarsites.com /sbbgate.aspx/
+-d simplyhired.com /hit?
+-d sinaimg.cn /unipro/pub/
+-d singer22-static.com /stat/
+-d sitelife.ehow.com
+-d sitemeter.com /meter.asp
+-d sixpack.udimg.com
+-d sky.com /hightrafficsurveycode.js
+-d sky.com /incomeGeneratingDevicesExpanding.js
+-d sky.com /metrics/
+-d skype.com /inclient/
+-d skype.com /track_channel.js
+-d skypeassets.com /i/js/jquery/tracking.js
+-d skypeassets.com /inclient/
+-d skypeassets.com /track_channel.js
+-d skyrock.net /img/pix.gif
+-d skyrock.net /js/stats_blog.js
+-d skyrock.net /stats/
+- http://skyscanner.*/slipstream/
+-d slack.com /beacon/
+-d slack.com /clog/track/
+# ||slacker.com/beacon/page/$image
+# ||slashdot.org/images/js.gif?$image
+-d slashdot.org /purple.gif
+-d slashgear.com /stats/
+-d slide.com /tracker/
+-d slipstream.skyscanner.net
+-d smallcapnetwork.com /viewtracker/
+-d smartname.com /scripts/cookies.js
+-d smassets.net /assets/anonweb/anonweb-click-*.js
+-d smetrics.att.com
+-d smetrics.delta.com
+-d snakesworld.com /cgi-bin/hitometer/
+-d snorgtees.com /js/digitalbasement/conversion.js
+-d snowplow-collector.sugarops.com
+-d socialcodedev.com /pixel/
+-d socialstreamingplayer.crystalmedianetworks.com /tracker/
+-d soe.com /js/web-platform/web-data-tracker.js
+-d sofascore.com /geoip.js
+-d somniture.theglobeandmail.com
+-d soonnight.com /stats.htm
+-d soundcloud.com /event?
+-d sourceforge.net /images/mlopen_post.html?
+-d sourceforge.net /log/
+-d sovereignbank.com /utils/track.asp
+-d sp.app.com
+-d sp.argusleader.com
+-d sp.azcentral.com
+-d sp.battlecreekenquirer.com
+-d sp.baxterbulletin.com
+-d sp.bucyrustelegraphforum.com
+-d sp.burlingtonfreepress.com
+-d sp.caller.com
+-d sp.centralfloridafuture.com
+-d sp.chillicothegazette.com
+-d sp.cincinnati.com
+-d sp.citizen-times.com
+-d sp.clarionledger.com
+-d sp.coloradoan.com
+-d sp.commercialappeal.com
+-d sp.coshoctontribune.com
+-d sp.courier-journal.com
+-d sp.courierpostonline.com
+-d sp.courierpress.com
+-d sp.dailyrecord.com
+-d sp.dailyworld.com
+-d sp.delawareonline.com
+-d sp.delmarvanow.com
+-d sp.democratandchronicle.com
+-d sp.desertsun.com
+-d sp.desmoinesregister.com
+-d sp.detroitnews.com
+-d sp.dnj.com
+-d sp.fdlreporter.com
+-d sp.floridatoday.com
+-d sp.freep.com
+-d sp.fsunews.com
+-d sp.gametimepa.com
+-d sp.gosanangelo.com
+-d sp.greatfallstribune.com
+-d sp.greenbaypressgazette.com
+-d sp.greenvilleonline.com
+-d sp.guampdn.com
+-d sp.hattiesburgamerican.com
+-d sp.htrnews.com
+-d sp.independentmail.com
+-d sp.indystar.com
+-d sp.inyork.com
+-d sp.ithacajournal.com
+-d sp.jacksonsun.com
+-d sp.jconline.com
+-d sp.jsonline.com
+-d sp.kitsapsun.com
+-d sp.knoxnews.com
+-d sp.lancastereaglegazette.com
+-d sp.lansingstatejournal.com
+-d sp.ldnews.com
+-d sp.lohud.com
+-d sp.mansfieldnewsjournal.com
+-d sp.marionstar.com
+-d sp.marshfieldnewsherald.com
+-d sp.montgomeryadvertiser.com
+-d sp.mycentraljersey.com
+-d sp.naplesnews.com
+-d sp.newarkadvocate.com
+-d sp.news-press.com
+-d sp.newsleader.com
+-d sp.northjersey.com
+-d sp.pal-item.com
+-d sp.pnj.com
+-d sp.portclintonnewsherald.com
+-d sp.postcrescent.com
+-d sp.poughkeepsiejournal.com
+-d sp.press-citizen.com
+-d sp.pressconnects.com
+-d sp.publicopiniononline.com
+-d sp.redding.com
+-d sp.reporternews.com
+-d sp.rgj.com
+-d sp.sctimes.com
+-d sp.sheboyganpress.com
+-d sp.shreveporttimes.com
+-d sp.stargazette.com
+-d sp.statesmanjournal.com
+-d sp.stevenspointjournal.com
+-d sp.tallahassee.com
+-d sp.tcpalm.com
+-d sp.tennessean.com
+-d sp.theadvertiser.com
+-d sp.thecalifornian.com
+-d sp.thedailyjournal.com
+-d sp.thegleaner.com
+-d sp.theleafchronicle.com
+-d sp.thenews-messenger.com
+-d sp.thenewsstar.com
+-d sp.thenorthwestern.com
+-d sp.thespectrum.com
+-d sp.thestarpress.com
+-d sp.thetimesherald.com
+-d sp.thetowntalk.com
+-d sp.timesrecordnews.com
+-d sp.udimg.com
+-d sp.usatoday.com
+-d sp.vcstar.com
+-d sp.visaliatimesdelta.com
+-d sp.wausaudailyherald.com
+-d sp.wisconsinrapidstribune.com
+-d sp.ydr.com
+-d sp.yorkdispatch.com
+-d sp.zanesvilletimesrecorder.com
+-d spanids.dictionary.com
+-d spanids.reference.com
+-d spanids.thesaurus.com
+-d speakertext.com /analytics/
+-d speed.wikia.net
+-d spinback.com /spinback/event/impression/
+-d spinmedia.com /clarity.min.js
+-d spinmediacdn.com /clarity.min.js
+# ||splurgy.com/bacon/*_ct.gif$image
+-d spoonful.com /tracking.js
+-d spoor-api.ft.com /px.gif
+-d sporcle.com /adn/yaktrack.php?
+-d sportingnews.com /px/
+-d sportsmole.co.uk /track*.gif?
+-d spotify.com /metric
+-d spotlight.accuweather.com
+-d spreaker.com /statistics/
+-d squidoo.com /track/
+-d srt.pch.com
+-d ssc.api.bbc.com
+-d ssl-stats.wordpress.com
+- http://startpage.*/avtc?
+# ||startpage.*/do/avt?$image
+- http://startpage.*/elp?
+- http://startpage.*/pelp?
+-d stat.alibaba.com
+-d stat.dealtime.com
+-d stat.kbs.co.kr
+-d stat.ruvr.ru
+-d stat.torrentbar.com
+-d stat.xhamsterpremium.com
+-d statesmanjournal.com /articlepageview.php?
+-d static.ow.ly /click.gz.js
+-d staticice.com.au /cgi-bin/stats.cgi?
+-d staticlp.com /analytics/
+-d staticwhich.co.uk /assets/*/track.js
+-d staticworld.net /pixel.gif
+-d statistics.crowdynews.com
+-d statravel.co.uk /static/uk_division_web_live/Javascript/wt_gets.js
+-d statravel.com /Javascript/wt_gets.js
+-d stats.aplus.com
+-d stats.articlesbase.com
+-d stats.avg.com
+-d stats.bbc.co.uk
+-d stats.behance.net
+-d stats.binki.es
+-d stats.blogg.se
+-d stats.break.com
+-d stats.cardschat.com
+-d stats.christianpost.com
+-d stats.clear-media.com
+-d stats.dnaindia.com
+-d stats.ebay.com
+-d stats.europe.newsweek.com
+-d stats.eyeviewdigital.com
+-d stats.farfetch.com
+-d stats.firedrive.com
+-d stats.harpercollins.com
+-d stats.ibtimes.co.in
+-d stats.ibtimes.co.uk
+-d stats.macmillanusa.com
+-d stats.mehrnews.com
+-d stats.nimiq-network.com
+-d stats.nymag.com
+-d stats.opoloo.de
+-d stats.pandora.com
+-d stats.paste2.org
+-d stats.paypal.com
+-d stats.piaggio.com
+-d stats.propublica.org
+-d stats.pusher.com
+-d stats.radiostreamlive.com
+-d stats.redditmedia.com
+-d stats.searchftps.net
+-d stats.searchftps.org
+-d stats.searchsight.com
+-d stats.sharenet.co.za
+-d stats.shoppydoo.com
+-d stats.slashgear.com
+-d stats.slideshare.net
+-d stats.someecards.com
+-d stats.storify.com
+-d stats.suite101.com
+-d stats.thevideo.me
+-d stats.townnews.com
+-d stats.tvmaze.com
+-d stats.uswitch.com
+-d stats.vc.gg
+-d stats.video.search.yahoo.com
+-d stats.videodelivery.net
+-d stats.visistat.com
+-d stats.vulture.com
+-d stats.wordpress.com
+-d stats.wwd.com
+-d stats.wwitv.com
+-d stats.ynet.co.il
+-d stats.zmags.com
+-d stats02.topix.com
+-d statscol.pond5.com
+-d statstracker.celebrity-gossip.net
+-d stattrack.0catch.com
+-d stbt.coupons.com
+-d stcollection.moneysupermarket.com
+-d stickpage.com /counter.php
+-d stocktwits.com /spaceape-web.gif?
+-d stomp.com.sg /site/servlet/tracker
+-d store.yahoo.net /ywa.js
+-d storenvy.com /tracking/
+-d storewidesearch.com /imn/mn.gif?
+-d streamango.com /log
+-d streamstats1.blinkx.com
+-d streetdirectory.com /tracking/
+-d streetfire.net /flash/trackingutility.swf
+-d streetfire.net /handlers/logstreamfileimpression.ashx?
+-d streetinsider.com .php?
+-d stribe.com /00/logs?
+-d studyisland.com /ga.js
+-d stuff.afterdawn.com /views.cfm
+-d stuff.co.nz /track/
+-d stuff.co.nz /track.min.js
+-d stylelist.com /ping?ts=
+-d sublimevideo.net /_.gif
+-d sugar.gameforge.com
+-d sugarvine.com /inc/tracking.asp
+-d suite101.com /tracking/
+-d sun.com /share/metrics/
+-d sundayskylb1.com /sst.gif?
+-d supermediastore.com /web/track?
+-d superpages.com /ct/clickThrough?
+-d surinenglish.com /acceso.php?
+-d surveys.cnet.com
+-d sysomos.com /track/
+-d t-ak.hulu.com
+-d t.9gag.com
+-d t.appsflyer.com
+-d t.blinkist.com
+-d t.cinemablend.com
+-d t.dailymail.co.uk
+- http://t.delfi.
+-d t.eharmony.com
+-d t.hulu.com /beacon/
+-d t.kck.st
+-d t.my.jobs
+-d t.paypal.com
+-d t.vimeo.com
+-d t.wayfair.com
+-d t2.hulu.com
+-d t2.huluim.com
+-d t3.com /js/trackers.js
+-d tab.co.nz /track?
+-d tag-stats.huffpost.com
+- http://tagcommander.laredoute.
+- http://tags.aljazeera.
+-d tags.msnbc.com
+-d tags.news.com.au .js
+-d tags.transportdirect.info
+-d tagx.nytimes.com
+-d takealot.com /rest//*/collect
+-d talktalk.co.uk /log.html
+-d talktalk.co.uk /tracking/
+-d target.com /ci/*.js
+-d targetspot.com /track/
+-d tarot.com /stats/
+-d tck.bangbros.com
+# ||tcog.news.com.au^$~xmlhttprequest
+-d tcpalm.com /metrics/
+-d tdwaterhouse.ca /includes/javascript/rtesurvey.js
+-d tdwaterhouse.co.uk /track.js
+-d ted.dailymail.co.uk
+-d ted.metro.co.uk
+-d ted1.metro.co.uk
+-d telegraph.co.uk /tmglmultitrackselector.js
+-d telemetry.tradingview.com
+-d tesco.com /cgi-bin3/buyrate?type=
+-d tfl.gov.uk /tfl-global/scripts/stats-config.js
+-d tfl.gov.uk /tfl-global/scripts/stats.js
+-d tgw.com /1/t.gif
+-d theage.com.au /behave.js
+-d theconversation.com /javascripts/lib/content_tracker_hook.js
+-d thecreatorsproject.com /tracker.html
+-d thedeal.com /oas_
+-d thefashionspot.com /pb.track.js
+-d thefilter.com /CaptureRest.ashx?cmd=
+-d thefind.com /page/sizelog?
+-d thefreedictionary.com /x/tp.ashx
+-d thefreedictionary.com /track.ashx?
+-d thefrisky.com /?act=
+-d thegameslist.com /wb/t.gif
+-d thegumtree.com /tracking.js
+-d theintercept.com /a?
+-d thejc.com /metatraffic2/
+-d thenewsroom.com //playerreporting/
+-d theolivepress.es /cdn-cgi/cl/
+-d thesaurus.com /track/
+-d theseforums.com /track/
+-d thesmokinggun.com /jsmd.js
+-d theweek.com /decor/track/
+-d thinkgeek.com /js/rts.js
+-d thrillist.com /track
+-d ti.com /assets/js/headerfooter/*.js
+-d tiaa-cref.org /js_tiaacref_analytics.
+-d tickco.com /track.js
+-d tidaltv.com /Ping.aspx
+-d timeslogtn.timesnow.tv
+-d timesrecordnews.com /metrics/
+-d timestrends.indiatimes.com
+-d timestrends.timesnow.tv
+# ||tinypic.com/api.php?*&action=track$object-subrequest
+-d tinypic.com /track.php?
+-d tinyupload.com /ct_adkontekst.js
+-d tivo.com /__ssobj/track?
+-d tk.kargo.com
+-d tkpi.delta.com
+-d tmagazine.com /js/track_
+-d tools.ranker.com
+-d top.wn.com
+-d topix.com /t6track/
+-d toros.co /collect.php
+-d torrentz.eu /ping?
+-d torrentz.in /ping?
+-d torrentz.li /ping?
+-d torrentz.me /ping?
+-d torrentz.ph /ping?
+-d tortoise.proboards.com /tortoise.pl?
+-d toshibadirect.com /remarketing_google.js
+-d total.shanghaidaily.com
+-d totalporn.com /videos/tracking/?url=
+-d tottenhamhotspur.com /media/javascript/google/
+-d toyota.com /analytics/
+-d toyota.jp /onetag/
+-d tp.ranker.com
+-d tqn.com /px/?
+-d tr.snapchat.com
+-d tracelog.www.alibaba.com
+-d tracer.perezhilton.com
+-d track.briskfile.com
+-d track.catalogs.com
+-d track.cbs.com
+-d track.codepen.io
+-d track.collegehumor.com
+-d track.dictionary.com
+-d track.engagesciences.com
+-d track.ft.com
+-d track.fxstreet.com
+-d track.gawker.com
+-d track.hubspot.com
+-d track.netzero.net
+-d track.ning.com
+-d track.promptfile.com
+-d track.pushbullet.com
+-d track.rediff.com
+-d track.slideshare.net
+-d track.thesaurus.com
+-d track.ugamezone.com
+-d track.ultimate-guitar.com
+-d track.webgains.com
+-d track.websiteceo.com
+-d track.wildblue.com
+-d track.workablemetro.com
+- http://track.zalando.
+-d track.zomato.com
+-d tracker-api.my.com
+-d tracker.anandtech.com
+-d tracker.calameo.com
+-d tracker.cpapath.com
+-d tracker.joost.com
+-d tracker.lolalytics.com
+-d tracker.mattel.com
+-d tracker.nbcuas.com
+-d tracker.pinnaclesports.com
+-d tracker.realclearpolitics.com
+-d tracker.redditmedia.com
+-d tracker.revip.info
+-d tracker.secretescapes.com
+-d tracker.shopclues.com
+-d tracker.uprinting.com
+-d tracker.washtimes.com
+-d tracker.wordstream.com
+-d tracking.ancestry.com
+-d tracking.batanga.com
+-d tracking.battleon.com
+-d tracking.carprices.com
+-d tracking.carsales.com.au
+-d tracking.chacha.com
+-d tracking.conduit.com
+-d tracking.epicgames.com
+-d tracking.eurosport.com
+-d tracking.gfycat.com /viewCount/
+-d tracking.goodgamestudios.com
+-d tracking.hsn.com
+-d tracking.koego.com
+-d tracking.military.com
+-d tracking.moneyam.com
+-d tracking.mycapture.com
+-d tracking.nextdoor.com
+-d tracking.olx-st.com
+- http://tracking.olx.
+-d tracking.porndoelabs.com
+-d tracking.pornhd.com
+-d tracking.realtor.com
+-d tracking.resumecompanion.com
+-d tracking.shoptogether.buy.com
+-d tracking.softwareprojects.com
+-d tracking.tidalhifi.com
+-d tracking.times247.com
+-d tracking.ukwm.co.uk
+-d tracking.unrealengine.com
+-d tracking.ustream.tv
+-d tracking.yourfilehost.com
+-d trackpm.shop2market.com
+-d trade-it.co.uk /counter/
+-d tradetrucks.com.au /ga.
+-d traffic.buyservices.com
+-d traffic.tuberip.com
+-d trainup.com /inc/TUPTracking.js
+-d traktr.news.com.au
+-d trax.tvguide.com
+-d trb.com /hive/swf/analytics.swf
+-d trck.sixt.com
+-d tre.emv3.com /P?
+-d treatme.co.nz /Census.js
+-d treato.com /api/analytics?
+-d triadretail.com /roverTrack.js
+-d trialpay.com /mi/
+-d triond.com /cntimp?
+- http://tripadvisor.*/PageMoniker?
+-d tripadvisor.com /uvpages/page_moniker.html
+-d trivago.com /check-session-state?
+-d trivago.com /tracking/
+-d trk.freepik.com
+-d trove.com /identity/public/visitor/
+-d trovus.co.uk /tracker/
+-d trowel.twitch.tv
+-d truecar.com /tct?
+-d trueffect.underarmour.com
+-d truste.com /common/js/ga.js
+-d truste.com /notice?*consent-track
+- http://ts.delfi.
+-d tscapeplay.com /msvp.php?
+-d tscapeplay.com /pvim?
+-d tsn.ua /svc/video/stat/
+-d ttxm.co.uk /log.js
+-d tubeplus.me /geoip.php?
+-d tubepornclassic.com /js/111.js
+-d tubidy.io /sc.js
+-d tubxporn.com /track.php
+-d tumblr.com /impixu?
+-d tunein.com /log/
+-d turn.com /js/module.tracking.js
+-d turnsocial.com /track/
+-d tv-links.eu /qtt_spacer.gif
+-d tvshark.com /stats.js
+-d tw.i.hulu.com
+-d tweako.com /imp.php
+# ||twimbow.com/serverreq/twbtracker.php$xmlhttprequest
+-d twitch.tv /track/
+-d twitter.com /abacus?
+-d twitter.com /i/csp_report?
+-d twitter.com /scribe?
+-d twitter.com /scribes/
+-d twitter.com /anonymize?data
+-d twitter.com /log.json?
+-d twitter.com /prompts/impress
+-d twitter.com /scribe/
+# ||twitvid.com/api/tracking.php$object-subrequest
+-d twitvid.com /mediaplayer/players/tracker.swf
+-d txmblr.com /pixel/
+-d txn.thenewsroom.com
+-d typepad.com /t/stats?
+-d u.bb /omni*.swf
+-d u.tv /utvplayer/everywhere/tracking.aspx?
+-d ucoz.com /stat/
+-d ucweb.com /collect/
+-d ui-portal.com /1and1/mailcom/s?
+-d ulogin.ru /stats.html
+-d ultimedia.com /deliver/statistiques/
+-d ultra-gamerz-zone.cz.cc /b/stats?
+-d unicornapp.com /Metrics/
+-d unid.go.com
+-d unionleader.com /js/ul/ga.js
+-d unisys.com /dcsMultiTrack.js
+-d unisys.com /dcsMultiTrackFastSearch.
+-d unisys.com /tracking.js
+-d united.com /hp_mediaplexunited.html
+-d unrealmarketing.com /js/unrealGTS.js
+-d unrulymedia.com /loader-analytics.html
+-d up.boston.com
+-d up.nytimes.com
+-d upi.com /stat/
+-d uploaded.net /io/pixel/
+-d uploadrocket.net /downloadfiles.php?*&ip
+-d upornia.com /js/0818.js
+-d upromise.com /js/csgather.js
+-d upsellit.com /visitor?
+-d uptpro.homestead.com
+-d urbanlist.com /event/track-first-view/
+-d urchin-tracker.bigpoint.net
+-d urlcheck.hulu.com
+-d usage.zattoo.com /?adblock=
+-d usell.com /bug.gif?
+-d userfly.com
+-d usmetric.rediff.com
+-d usps.com /survey/
+-d ut.ratepoint.com
+-d uts-rss.crystalmedianetworks.com /track.php?
+-d v.fwmrm.net /ad/*defaultImpression
+-d v.fwmrm.net /ad/*slotImpression
+-d validome.org /valilogger/track.js
+-d vator.tv /tracking/
+-d vbs.tv /tracker.html
+-d vcstar.com /metrics/
+-d vectorstock.com /tracking
+-d velaro.com /lf/monitor2.aspx?
+-d venere.com /common/js/track.js
+-d verizonwireless.com /mpel.js?
+-d vertical-stats.huffingtonpost.com
+-d vevo.com /audit.ashx?
+-d vg247.com /pv?
+-d viamichelin.co.uk /stats.js
+-d viamichelin.de /stats.js
+- http://vice.com*/mb_tracker.html
+- http://vice.com*/tracker.html
+-d victoriassecret.com /m/a.gif?
+-d vid.io /mejs-feature-analytics.js
+-d video-stats.video.google.com
+-d video.msn.com /frauddetect.aspx?
+-d video.nbc.com /metrics_viral.xml
+-d video.syfy.com /lg.php
+-d videoplaza.com /proxy/tracker?
+-d videopremium.tv /dev/tr.js
+-d videotracker.washingtonpost.com
+-d vidxden.com /tracker.js
+-d vietnamnet.vn /tracking.js
+-d villarenters.com /inttrack.aspx
+-d vimeo.com /log/
+# ||vimeo.com^*?type=$ping
+-d vimeocdn.com /js_opt/ablincoln_combined.min.js
+-d viralnova.com /track.php
+-d viralogy.com /javascript/viralogy_tracker.js
+-d virginholidays.co.uk /_assets/js/dc_storm/track.js
+-d virtualearth.net /mapcontrol/*/veapiAnalytics.js
+-d visit.dealspwn.com
+-d visit.mobot.net
+-d visit.theglobeandmail.com
+-d visitors.sourcingmap.com
+-d visualware.com /vvv?
+-d vitamine.networldmedia.net
+-d vixy.net /fb-traffic-pop.js
+-d vk.com /js/lib/px.js
+-d vmware.com /files/include/ga/
+-d vnunet.com /wunderloop/
+-d vodpod.com /stats/
+-d vogue.co.uk /_/logic/statistics.js
+-d votigo.com /contests/t/
+-d voyages-sncf.com /vsca.js
+-d voyeurhit.com /js/a2210.js
+-d vs.target.com
+-d vs4food.com /ERA/era_rl.aspx
+-d vstat.vidigy.com
+-d vstats.digitaltrends.com
+-d vzaar.com /libs/stats/
+-d w88.espn.com
+-d w88.go.com
+-d wa.metro.co.uk
+-d wa.ui-portal.de
+-d wachovia.com /stats.js
+-d wal.wolfram.com
+-d wallcannrewards.com /index.php?
+-d walletpop.com /track/
+-d wallpaperstock.net /partners.js
+-d walmart.com /tealeaf
+-d warp.prnewswire.co.uk
+-d washingtonpost.com /notification-sw.js
+-d washingtonpost.com /rw/sites/twpweb/js/init/init.track-header-1.0.0.js
+-d washingtonpost.com /wp-srv/javascript/placeSiteMetrix.
+-d washingtonpost.com /wp-stat/analytics/
+-d washingtonpost.com /one.gif?
+-d watch-series.to /analytics.html
+-d watchmouse.com /jsrum/
+-d watson.live.com
+-d wavescape.mobi /rest/track/
+-d wcnc.com /g/g/button/
+-d weather.com /pagelet/metrics/
+-d weather.com /makeRequest-
+-d web-18.com /common/w18a26062012143253_min.js
+-d web-t.9gag.com
+-d web.hbr.org /test/whoami.php
+-d webcamgalore.com /aslog.js
+-d webcollage.net /apps/el?
+-d webcrawler.com /__kl.gif
+# ||webengage.sky.com^$xmlhttprequest
+-d webjam.com /Actions/Hit.jam?
+-d weblog.strawberrynet.com
+-d weblogger01.data.disney.com
+-d webmd.com /dtmcms/live/webmd/PageBuilder_Assets/JS/oas35.js
+-d webmd.com /pixel/
+-d webmd.com /tools/dsppixels.js
+-d webmonkey.com /js/stats/
+-d webring.com /cgi-bin/logit?
+-d webstats.perfectworld.com
+-d webyclip.com /WebyClipAnalytics.html
+-d weeklyblitz.net /tracker.js
+-d wego.com /farmer/
+-d wellness.com /proxy.asp
+-d wellsphere.com /?hit=
+-d whatcar.com /Client/Stats/
+-d whoson.smcorp.com
+-d whstatic.com /ga.js?
+-d wikihow.com /visit_info
+-d wikihow.com /x/collect?
+-d wikimedia.org /wiki/Special:RecordImpression?
+-d wikinvest.com /plugin/api.php?*=metricld&
+-d wikio.com /shopping/tracking/hit.jsp?
+-d wikipedia.org /beacon/
+-d windowscentral.com /linkid.js
+-d windowsphone.com /scripts/siteTracking.js
+-d winter.metacafe.com
+-d wired.co.uk /Statistics/
+-d wired.com /ecom/
+-d wired.com /event?
+-d wired.com /js/stats/
+-d wired.com /tracker.js
+-d witn.com /g/g/button/
+-d wnd.com /s.js
+-d wolfram.com /common/javascript/wal/
+-d worksheetsengine.com /fd/ls/l?
+-d worldgolf.com /js/track.js
+# ||worldnow.com/ajax?callback=po_a&$xmlhttprequest
+-d worldnow.com /global/tools/video/Namespace_VideoReporting_DW.js
+-d worldreviewer.com /_search/tracker.png?
+-d worldvision.org /kana/wvcg_wvorg.asp?
+-d wovencube.com /track/
+-d wowwiki.com /__onedot?
+-d ws.elance.com &referrer=
+-d ws.md /c.png?
+-d ws.yellowpages.ca
+-d wstats.e-wok.tv
+-d wtk.db.com
+-d wunderground.com /tag.php
+-d wusstrack.wunderground.com
+-d wwe.com /sites/all/modules/wwe/wwe_analytics/
+- http://www.google.*/imgevent?*.js
+# ||www.google.*/imghover?$image
+- http://www.imdb.*/rd/?q=
+-d wzus.askkids.com
+-d wzus1.ask.com
+-d wzus1.reference.com
+-d wzus1.thesaurus.com
+-d xbox.com /tags?
+-d xbox.com /vortex_tracking.js
+-d xda-cdn.com /analytics.js
+-d xda-developers.com /ping.php
+-d xfinity.com /event/
+-d xhamster.com /ajax.php?act=track_event
+-d xhamster.com /embed.log/
+-d xhcdn.com /js/track.
+-d xing.com /collect/
+-d xing.com /logjam/
+-d xnxx.com /in.php?referer
+-d xozilla.com /js/analytics.js
+-d yahoo.com /__perf_log_
+-d yahoo.com /_td_api/beacon/
+-d yahoo.com /b?
+-d yahoo.com /beacon/
+-d yahoo.com /neo/stat
+-d yahoo.com /neo/ygbeacon/
+-d yahoo.com /neo/ymstat
+-d yahoo.com /p.gif;
+-d yahoo.com /perf.gif?
+-d yahoo.com /serv?s
+# ||yahoo.com/sig=$image
+-d yahoo.com /track/
+-d yahoo.com /yhs/b?
+-d yahoo.com /yi?bv=
+-d yahoo.com /pageview/
+-d yahoo.com /rt.gif?
+-d yahoo.com /ultLog?
+-d yahoo.net /hittail.js
+-d yahooapis.com /get/Valueclick/CapAnywhere.getAnnotationCallback?
+# ||yandex.*/clck/$~ping
+- http://yandex.*/count/
+# ||ybinst2.ec.yimg.com/ec/*&Type=Event.CPT&$domain=search.yahoo.com
+-d yellowpages.co.in /trac/
+-d yellowpages.com /images/li.gif?
+-d yellowpages.com /proxy/envoy/
+-d yellowpages.com /proxy/turn_tags/
+-d yelp.ca /spice?
+-d yelp.co.uk /spice?
+-d yelp.com.au /spice?
+-d yelp.com /spice?
+-d yelp.ie /spice?
+-d yimg.com /nq/ued/assets/flash/wsclient_
+# ||yimg.com^*/swfproxy-$object
+-d yimg.com /yabcs.js
+-d yimg.com /ywa.js
+-d yna.co.kr /eas.
+-d ynuf.alibaba.com
+-d yobt.tv /js/timerotation*.js
+-d yoox.com /yoox/ga.js
+-d yopmail.com /c.swf
+-d youandyourwedding.co.uk /EAS_tag.
+-d youandyourwedding.co.uk /socialtracking/
+-d younewstv.com /js/easyxdm.min.js
+-d youporn.com /tracker.js
+-d yourbittorrent.com /collect.php
+-d yourfilehost.com /counter.htm
+-d youronlinechoices.com /activity/
+-d yourtv.com.au /share/com/js/fb_google_intercept.js
+-d youtube-nocookie.com /device_204?
+-d youtube-nocookie.com /gen_204?
+-d youtube-nocookie.com /ptracking?
+-d youtube-nocookie.com /robots.txt?
+# ||youtube.com/*_204?$~xmlhttprequest
+-d youtube.com /api/stats/ads?
+-d youtube.com /api/stats/delayplay?
+-d youtube.com /api/stats/playback?
+-d youtube.com /api/stats/qoe?
+-d youtube.com /get_video?
+-d youtube.com /ptracking?
+-d youtube.com /s?
+-d youtube.com /set_awesome?
+-d ypcdn.com /webyp/javascripts/client_side_analytics_
+-d yuku.com /stats?
+-d yupptv.com /yupptvreports/stats.php/
+-d yyv.co /track/
+# ||zap.dw-world.de^$image
+-d zap2it.com /editorial-partner/
+-d zappos.com .cgi?
+-d zappos.com /karakoram/js/main.
+-d zappos.com /events?
+-d zawya.com /zscripts/ajaxztrack.cfm?
+-d zawya.com /logFile.cfm?
+-d zdnet.com /wi?
+-d zedo.com /img/bh.gif?
+-d zmags.com /CommunityAnalyticsTracking
+-d zoomin.tv /impressions/
+-d zoomin.tv /impressionsplayers/
+-d zulily.com /action/track?
+-d zvents.com /partner_json/
+-d zvents.com /za?
+-d zvents.com /zat?
+-d zwire.com /gen/qc/qualitycontrol.cfm
+-d zylom.com /pixel.jsp
+-d zylom.com /global_tracking.jsp?
+-d zylom.com /tracking_spotlight.js
+-d zytpirwai.net /track/
+# Mining
+# $subdocument,third-party,domain=estream.to
+# $websocket,domain=123moviesgo.nl|123movieshub.asia|123movieshub.cx|123telugu.com|1q2w3.website|2giga.link|300mbfilms.co|7tors.com|adfreetv.ch|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|bmoviego.me|bmovies123.me|btstors.com|bypassed.ws|byter.tv|catrumahminimalis.me|centrum-dramy.pl|cinemafacil.com|clipwatching.com|cloudtime.to|cmovieshd.nl|coinfaucet.eu|coinhub.win|coinminingonline.com|crictime.com|crictime.is|ddmix.net|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|dragonballzpolo.blogspot.com|drama-cool.me|estream.nu|estream.to|estream.xyz|extratorrent.cd|fbmovies.org|fileone.tv|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|fruitstreams.com|gofile.io|gomovie123.me|gomovies123.me|hdvid.life|hdvid.tv|hdvid.xyz|hdyayinmac1.com|hentai-online.pl|hq-porns.com|hqq.tv|hqq.watch|ianimes.co|idope.tv|ifrp.xyz|intactoffers.club|jkanime.net|kickass.cd|kinohabr.net|kinokongo.cc|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|leon08.tk|leon12.tk|leon16.tk|lewd.ninja|logovo.net|love-drama.pl|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mp3free.pw|myeffect.net|myfeed4u.net|netiap.com|nowvideo.sx|oload.info|oload.tv|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|openload.co|openloed.co|pebx.pl|potomy.ru|povw1deo.com|povwideo.net|powvideo.cc|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|reservedoffers.club|rus.ec|seventorrents.cc|severita-service.ru|sherlockonline.ru|shrink-service.it|skyback.ru|skytorrents.co|skytorrents.me|sleeptimer.org|sorteosrd.com|stream247.me|streamango.com|streambeam.io|streamcherry.com|streamplay.me|streamplay.to|streamplay.top|szukajka.tv|tainies.online|theappguruz.com|thepiratebay.cr|thepiratebay.org|thepiratebay.red|thepiratebay.rocks|thevideo.cc|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|thevideo.website|tokyodrift.ga|tomadivx.tv|tubetitties.com|tvad.me|unblockall.org|unblocked.gdn|vidfile.net|vidgg.to|vidoza.net|vidto.me|vidto.se|vidtod.me|vidtodo.com|vidtodo.me|vidtodo.pro|vidtudu.com|vidup.io|vidup.me|vidup.tv|vidzi.si|vidzi.tv|void.cat|wallpoper.com|watch-free.co|watchfreemovies.tv|wearesaudis.net|wholecloud.net|wwtors.com|xmovies8.nl|ya3ale.com|yazilir.com|zenexplayer.com|ziurim.eu|zona.plus
+# $xmlhttprequest,domain=adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|catrumahminimalis.me|ddmix.net|dekoder.ws|estream.to|flashx.cc|freecontent.stream|leon08.tk|leon12.tk|leon16.tk|myeffect.net|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|povwideo.net|powvideo.cc|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|streamplay.top|szukajka.tv|tainies.online|vidfile.net|vidgg.to|wholecloud.net
+# regex !
+# /([0-9]{1,3}\.){3}[0-9]{1,3}.*(\/proxy|\.wasm|\.wsm|\.wa)$/$third-party,websocket
+# /.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,domain=~aochagavia.github.io|~edwin0cheng.github.io|github.io|rawgit.com|reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to|tubetitties.com|vidfile.net
+#
+# /assets/application-$domain=iamdisappoint.com|shitbrix.com|tattoofailure.com
+-d 2giga.link /hive.js
+-d browsealoud.com /plus/scripts/*.js
+-d cdn1.pebx.pl
+-d cinemafacil.com /js.php
+-d de-mi-nis-ner2.info
+-d estream.nu /estream.js
+-d estream.to /bootstrap.min.js*.js
+-d estream.to /player.js
+- http://flashx.*/bootstrap.min.js
+-d gus.host /coins.js
+-d piti.bplaced.net
+-d play.estream.nu
+-d play.estream.to
+-d play.estream.xyz
+-d shrink-service.it /js/cM.js
+- http://site.flashx.
+-d stackpathdns.com /assets/javascript/cr.js
+# ||stream.vidzi.tv^$websocket,xmlhttprequest
+-d support.2giga.link
+-d video.videos.vidto.me
+-d vidoza.net bootstrap.
+-d vidoza.net /app.js
+-d vidto.me bootstrap.
+-d vidzi.tv bootstrap.
+-d wallpoper.com /c.js
+-d worker.salon.com
+# salon.com cpu mining
+# @@||content.jwplatform.com^$script,domain=salon.com
+# @@||platform.tout.com^$script,domain=salon.com
+# |http*://$script,third-party,domain=salon.com
+# CSP Mining
+# $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
+# $csp=child-src 'none'; frame-src *; worker-src 'none',domain=adfreetv.ch|ddmix.net|extratorrent.cd|gofile.io|hq-porns.com|intactoffers.club|kickass.cd|myfeed4u.net|reservedoffers.club|skyback.ru|szukajka.tv|thepiratebay.cr|thepiratebay.org|thepiratebay.red|thevideo.cc|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tvad.me|vidoza.net|vidup.me
+# $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|bigspeeds.com|biter.tv|byter.tv|centrum-dramy.pl|cinemafacil.com|coinhub.win|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|estream.nu|estream.to|estream.xyz|filmonet.com|filmstreamvk.site|flashx.cc|300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bypassed.ws|byter.tv|centrum-dramy.pl|cinemafacil.com|clipwatching.com|coinfaucet.eu|coinhub.win|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|estream.nu|estream.to|estream.xyz|filmonet.com|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|hdvid.life|hdvid.tv|hdvid.xyz|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|kinostuff.com|kinokongo.cc|lewd.ninja|love-drama.pl|movie4k.is|pebx.pl|potomy.ru|proxyportal.eu|povw1deo.com|povwideo.net|powvideo.cc|powvideo.net|reactor.cc|salon.com|severita-service.ru|sickrage.ca|sorteosrd.com|tokyodrift.ga|tomadivx.tv|unblockall.org|unblocked.gdn|vidfile.net|vidto.me|vidto.se|vidtod.me|vidtodo.com|vidtodo.me|vidtodo.pro|vidtudu.com|wallpoper.com|wearesaudis.net|ya3ale.com|yazilir.com|zenexplayer.com|ziurim.eu|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|hdvid.life|hdvid.tv|hdvid.xyz|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|kinokongo.cc|kinostuff.com|lewd.ninja|love-drama.pl|movie4k.is|potomy.ru|povw1deo.com|povwideo.net|powvideo.net|reactor.cc|salon.com|sickrage.ca|sorteosrd.com|tokyodrift.ga|tomadivx.tv|vidfile.net|vidto.me|vidto.se|vidtod.me|vidtodo.com|vidtodo.me|vidtodo.pro|vidtudu.com|wearesaudis.net|ya3ale.com|zenexplayer.com|ziurim.eu
+# Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
+# ||abc.com/service/gremlin/js/files/s_code.js?$domain=abc.go.com
+-d adobe.com /omniture_s_code.js
+-d aeroplan.com /static/js/omniture/s_code_prod.js
+# ||aexp-static.com/api/axpi/omniture/s_code_myca_context.js$domain=americanexpress.com
+-d aircanada.com /shared/common/sitecatalyst/s_code.js
+-d announcements.uk.com /s_code.js
+# ||atgstores.com/js/lowesca_s_code.js$domain=lowes.ca
+-d bitdefender.com /resources/scripts/omniture/*/code.js
+-d bleacherreport.net /pkg/javascripts/*_omniture.js
+# ||cdnds.net/js/s_code.js$domain=digitalspy.ca|digitalspy.co.nz|digitalspy.co.uk|digitalspy.com|digitalspy.com.au|digitalspy.ie
+-d chip.de /js/omniture_somtr_code_vH.25.js
+-d consumerreports.org /s_code.js
+-d csmonitor.com /extension/csm_base/design/csm_design/javascript/omniture/s_code.js
+-d csmonitor.com /extension/csm_base/design/standard/javascript/adobe/s_code.js
+# ||demandware.edgesuite.net^*/omniture.js$domain=otterbox.com
+-d disneylandparis.fr /s_code.js
+-d eltiempo.com /js/produccion/s_code_*.js
+-d expressen.se /static/scripts/s_code.js?
+-d ge.com /sites/all/themes/ge_2012/assets/js/bin/s_code.js
+-d hayneedle.com /js/s_code.min.*.js
+-d images-amazon.com /images/*/wcs-help-omniture/wcs-help-omniture-*.js
+# ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
+-d loc.gov /js/*/s_code.js
+-d mercedes-benz.ca /js/omniture.js
+-d mercola.com /Assets/js/omniture/sitecatalyst/mercola_s_code.js
+-d mercuryinsurance.com /static/js/s_code.js
+-d michaelkors.com /common/js/extern/omniture/s_code.js
+-d mnginteractive.com /live/js/omniture/SiteCatalystCode_H_22_1_NC.js
+# ||mnginteractive.com/live/omniture/custom_scripts/omnicore-blogs.js$domain=mercurynews.com
+# ||mnginteractive.com/live/omniture/sccore.js$domain=denverpost.com
+# ||mnginteractive.com/live/omniture/sccore_NEW.js$domain=pasadenastarnews.com|presstelegram.com
+-d mnginteractive.com /live/omniture/sccore_NEW_JRC.js
+-d navyfederal.org /js/s_code.js
+# ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
+-d nyteknik.se /ver02/javascript/2012_s_code_global.js
+-d paypal.com /acquisition-app/static/js/s_code.js
+-d philly.com /includes/s_code.js
+-d playstation.com /pscomauth/groups/public/documents/webasset/community_secured_s_code.js
+-d r7.com /scode/s_code_portal_*.js
+-d redbox.com /scripts/s_code.js
+-d riverisland.com /s_code.min.omniture_*.js
+-d sephora.com /javascripts/analytics/wa2.js
+# ||skypeassets.com/i/tracking/js/s_code_20121127.js$domain=skype.com
+# ||skypeassets.com/static/skype.skypeloginstatic/js/s_code.js$domain=skype.com
+-d sltrib.com /csp/mediapool/sites/Shared/assets/csp/includes/omniture/SiteCatalystCode_H_17.js
+-d ssl-images-amazon.com /wcs-help-omniture-*.js
+-d ticketmaster.eu /omniture_tracker.js
+# ||timeinc.net/tii/omniture/h/config/timesi.js$domain=si.com
+-d vitacost.com /Javascripts/s_code.js
+-d vmware.com /files/templates/inc/s_code_my.js
+# ||wp.com/wp-content/themes/vip/metrouk/js/site-catalyst.js$domain=metro.co.uk
+-d yell.com /js/omniture-H.25.js
+# Blocking filters due to High-CPU usage bug (https://adblockplus.org/forum/viewtopic.php?f=11&t=23368)
+-d radio-canada.ca /omniture/omni_stats_base.js?
+# Specific filters necessary for sites whitelisted with $genericblock filter option
+# /__utm.gif$domain=autobild.de|quoka.de|tellows.de|thewatchseries.to|transfermarkt.de
+# /analytics/track?$domain=widgets.azureedge.net
+# /csi?v=*&action=$domain=tellows.de
+# /nm_trck.gif?$domain=spiegel.de
+# /pic.gif?m=$domain=autobild.de
+# ||3gl.net^$domain=stern.de
+# ||a.watchseries.to^$domain=thewatchseries.to
+# ||addthis.com/live/$domain=thewatchseries.to
+# ||babator.com^$domain=focus.de
+# ||bluekai.com^$domain=disqus.com|widgets.outbrain.com
+# ||chartbeat.com^$domain=stern.de
+# ||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+# ||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+# ||cpx.to^$domain=quoka.de
+# ||crwdcntrl.net^$domain=disqus.com
+# ||cxense.com^$domain=focus.de
+# ||disqus.com/api/ping?$domain=autobild.de
+# ||dnn506yrbagrg.cloudfront.net^$domain=quoka.de
+# ||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+# ||emetriq.de^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de|stern.de|transfermarkt.de
+# ||exactag.com^$domain=quoka.de
+# ||exelator.com^$domain=disqus.com
+# ||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
+# ||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
+# ||facebook.com/tr/?$domain=metal-hammer.de|musikexpress.de|rollingstone.de
+# ||google-analytics.com/analytics.js$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de
+# ||google-analytics.com/collect$domain=stern.de
+# ||googleapis.com^*/gen_204?$domain=tellows.de
+# ||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
+# ||hotjar.com^$domain=quoka.de
+# ||hpr.outbrain.com^$domain=focus.de
+# ||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+# ||ioam.de/?$domain=autobild.de|focus.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
+# ||ioam.de/tx.io?$domain=autobild.de|focus.de|kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
+# ||irqs.ioam.de^$domain=metal-hammer.de|musikexpress.de|rollingstone.de
+# ||log.outbrain.com^$domain=autobild.de|focus.de|metal-hammer.de|musikexpress.de|rollingstone.de|widgets.outbrain.com
+# ||meetrics.net^$domain=spiegel.de|stern.de
+# ||metrics.brightcove.com^$domain=stern.de
+# ||mxcdn.net^$domain=spiegel.de|stern.de
+# ||nuggad.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de|transfermarkt.de
+# ||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+# ||pingdom.net^$domain=musikexpress.de
+# ||pippio.com^$domain=disqus.com
+# ||referrer.disqus.com^$domain=autobild.de
+# ||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
+# ||rqtrk.eu^$domain=stern.de
+# ||semasio.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+# ||static.parsely.com^$domain=spiegel.de
+# ||tealiumiq.com^$domain=autobild.de|metal-hammer.de|musikexpress.de|transfermarkt.de
+# ||theadex.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de
+# ||tisoomi-services.com^$domain=metal-hammer.de|musikexpress.de
+# ||tracking-rce.veeseo.com^$domain=stern.de
+# ||twitter.com/i/jot$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|rollingstone.de|sat1.de|sixx.de
+# ||visualrevenue.com^$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de
+-d watchseries.to /piwik.js
+# ||webtrekk.net^$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|ran.de|rollingstone.de|sat1.de|sixx.de
+# ||wt-eu02.net^$domain=stern.de
+# ||wt-safetag.com^$domain=stern.de
+# ||xplosion.de^$domain=spiegel.de|stern.de
+#-----------------------Whitelists to fix broken sites------------------------#
+# *** easylist:easyprivacy/easyprivacy_whitelist.txt ***
+# @@/cdn-cgi/pe/bag2?*geoiplookup$xmlhttprequest,domain=orain.org
+# @@/cdn-cgi/pe/bag2?*google-analytics.com%2Fanalytics.js$domain=amypink.de|biznews.com|cryptospot.me|dailycaller.com|droid-life.com|forwardprogressives.com|fpif.org|fullpotentialma.com|geekzone.co.nz|goldsday.com|hoyentec.com|imageupload.co.uk|is-arquitectura.es|lazygamer.net|lingholic.com|mmanews.com|nehandaradio.com|nmac.to|orain.org|tvunblock.com|unilad.co.uk|xrussianteens.com|youngcons.com
+# @@/cdn-cgi/pe/bag2?*googleadservices.com$domain=droid-life.com
+# @@/cdn-cgi/pe/bag2?*googlesyndication.com%2Fpagead%2Fosd.js$domain=forwardprogressives.com
+# @@/cdn-cgi/pe/bag2?*histats.com$domain=nmac.to|xrussianteens.com
+# @@/cdn-cgi/pe/bag2?*log.outbrain.com$domain=dailycaller.com
+# @@/cdn-cgi/pe/bag2?*newrelic.com$domain=clamav.net|dailycaller.com
+# @@/cdn-cgi/pe/bag2?*nr-data.net$domain=dailycaller.com|realhardwarereviews.com|thepoliticalinsider.com
+# @@/cdn-cgi/pe/bag2?*piwik.js$domain=orain.org
+# @@/cdn-cgi/pe/bag2?*quantserve.com$xmlhttprequest,domain=dailycaller.com
+# @@/cdn-cgi/pe/bag2?*scorecardresearch.com$xmlhttprequest,domain=amren.com|amypink.de|biznews.com|dailycaller.com|droid-life.com|mmanews.com|nehandaradio.com|unilad.co.uk
+# @@/cdn-cgi/pe/bag2?*skimlinks.js$domain=droid-life.com
+# @@/cdn-cgi/pe/bag2?*static.getclicky.com%2Fjs$domain=amazingpics.net
+# @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
+# @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
+# @@/wp-content/mu-plugins/google-analytics-for-wordpress/*$script,stylesheet,~third-party
+# @@/wp-content/mu-plugins/google-analytics-premium/*$script,stylesheet,~third-party
+# @@/wp-content/plugins/google-analytics-dashboard-for-wp/*$script,stylesheet,~third-party
+# @@/wp-content/plugins/google-analytics-for-wordpress/*$script,stylesheet,~third-party
+# @@/wp-content/plugins/google-analytics-premium/*$script,stylesheet,~third-party
+# @@||1dmp.io/pixel.gif$image,domain=overclockers.co.uk
++d 247sports.com /site/minify.js?*/scripts/stats/*.js
++d 4game.com /yandex-metrika.js
+# @@||a.visualrevenue.com/vrs.js$domain=ebaumsworld.com|nydailynews.com
++d abclocal.go.com /combiner/c?js=*/visitorAPI.js
++d about-australia.com /clickheat.js
++d accorhotels.com /xtanalyzer_roi.js
+# @@||ad.crwdcntrl.net^$object-subrequest,domain=ap.org|newsinc.com
+# @@||ad.crwdcntrl.net^$script,domain=cityam.com|investopedia.com
+# @@||ad.zanox.com/ppc/$subdocument,domain=wisedock.at|wisedock.co.uk|wisedock.com|wisedock.de|wisedock.eu
++d adblockanalytics.com /ads.js
++d addgene.org /headers/blat/js/analyze.js
++d adidas.com /adidasAnalytics.js?
+# @@||adobedtm.com^*/mbox-contents-$script,domain=lenovo.com|newyorker.com|oprah.com|pnc.com|vanityfair.com|wired.com
++d adobedtm.com /s-code-*.js
++d adobedtm.com /satellite-*.js
+# @@||adobedtm.com^*/satelliteLib-$script,domain=argos.co.uk|collegeboard.org|crackle.com|crimewatchdaily.com|directline.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|newyorker.com|oprah.com|pnc.com|realtor.com|redbull.tv|searspartsdirect.com|smooth.com.au|sonycrackle.com|stuff.co.nz|subaru.com|timewarnercable.com|trip-planner.australia.com|vanityfair.com|wired.com
+# @@||adobetag.com/d2/$script,domain=thestar.com
++d adobetag.com /amc.js*.js
+# @@||adobetag.com^*/sitecatalyst.js$domain=hbf.com.au|seattlepi.com|tv.com
+# @@||adobetag.com^*/sitecatalystnew.js$domain=playstation.com
+# @@||adobetag.com^*s_code.js$domain=fnac.com
++d adp.com /heatmap.js
+# @@||adprotv.com^*/comscore.streaming.$script,domain=mundodeportivo.com
++d aflac.com /js/wt_capi.js
+# @@||airfordable.com^*/angulartics-google-analytics.min.js$domain=airfordable.com
+# @@||akamai.net^*/omniture.jsp$script,domain=walmart.com
+# @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
++d alicdn.com /class.js*/base.js*/widget.js*.js
++d alicdn.com /click_stat/
++d aliexpress.com /home/recommendEntry.do?*.js
++d aliunicorn.com /click-stat.js
++d aliunicorn.com /click_stat/
++d aliyun.com /captcha/checkcode.jsonp
++d aliyun.com /nocaptcha/analyze.jsonp
+# @@||amazonaws.com/searchdiscovery-satellite-production/$domain=dice.com
+# @@||amazonaws.com/visitorsegment/shared/resources/$script,domain=washingtonpost.com
++d amctv.com /comscore.js
+# @@||amctv.com^*/google-analytics.js$domain=amctv.com
+# @@||ampush.io/js/tracker.js$domain=tunein.com
++d analytics.atomiconline.com /services/jquery.js
+# @@||analytics.edgekey.net/js/brightcove-csma.js$domain=news.com.au
+# @@||analytics.edgesuite.net/config/beacon-*.xml$domain=video.foxnews.com
+# @@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=resignationbrewery.com|threenow.co.nz|video.foxnews.com
+# @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
+# @@||analytics.ooyala.com/static/analytics.js$domain=mashable.com
+# @@||analytics.posttv.com/trending-videos-overall.json$domain=washingtonpost.com
+# @@||analytics.rogersmedia.com/js/rdm_dil_code.full.js$domain=rogersradio.ca
+# @@||analytics.rogersmedia.com/js/rdm_s_code.min.js$domain=rogersradio.ca
+# @@||analytics.twitter.com^$domain=analytics.twitter.com
++d anthem.com /includes/foresee/foresee-trigger.js
++d aol.com /mm_track/slideshow/
+# @@||aolcdn.com/js/mg2.js$domain=autoblog.com|autos.aol.com|dailyfinance.com|moviefone.com
+# @@||aolcdn.com/omniunih.js$domain=aim.com|autoblog.com|autos.aol.com|engadget.com|mapquest.com|video.aol.com|www.aol.com
+# @@||aolcdn.com/omniunih_int.js$domain=autoblog.com
+# @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
+# @@||api.academia.edu^*/stats?callback$script,~third-party
+# @@||api.branch.io^*/has-app/$xmlhttprequest,domain=npr.org
++d api.branch.io /open
+# @@||api.chartbeat.com^$script,domain=betabeat.com|couriermail.com.au|financialpost.com|wcpo.com
++d api.cxense.com /public/widget/data?*.js
+# @@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
+# @@||app.focalmark.com/bower_components/angulartics-google-analytics/$script,~third-party
++d app.instapage.com /ajax/
+# @@||app.link/_r?sdk=*&callback=$script,domain=npr.org
++d arcgis.com /heatmap.js
++d archive.softwareheritage.org /stat/counters/
++d arkadiumhosted.com /google-analytics-logger.swf
++d arstechnica.com /services/incr.php?*=interactions.adblock-annoy.click
++d atdmt.com /ds/yusptsprtspr/
+# @@||atdmt.com^*/direct*01$domain=sprint.com
++d atlanticbb.net /images/track/track.gif?
++d atpworldtour.com /assets/js/util/googleAnalytics.js
++d att.com /webtrends/scripts/dcs_tag.js
++d audi.co.uk /js/tracking/*.js
++d autoscout24.net /unifiedtracking/ivw.js
++d avpwidgets.qbrick.com /playplugins/*/ga/ga.min.js*.js
++d azure.com /api/*/analytics/
+# @@||azureedge.net/trackmeet-profilepicture/$image,domain=gotrackmeet.com
+# @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
++d b-europe.com /HttpHandlers/httpCombiner.ashx?*/xiti.js*.js
++d ba.com /cms/global/scripts/applications/tracking/visualsciences.js
+# @@||bam.nr-data.net^$script,domain=play.spotify.com
++d barclays.co.uk /touchclarity/mbox.js
+# @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
+# @@||bbc.co.uk/frameworks/nedstat/$script,~third-party
+# @@||bbc.co.uk/radio/player/*/logger.js$script,~third-party
+# @@||bbci.co.uk/bbcdotcom/*/script/av/emp/analytics.js$domain=bbc.co.uk
+# @@||bbci.co.uk^*/comscore.js$domain=bbc.co.uk
+# @@||bc.geocities.*/not_found/
++d beacon.guim.co.uk /accept-beacon?
++d beatthetraffic.com /traffic/?partner=
++d behanceserved.com /stats/stats.js?
++d benswann.com /decor/javascript/magnify_stats.js?
+# @@||beplb01.nexus.hewitt.com/analytics?$~third-party
+# @@||bestbuy.com^*/tracking/liveManager-min.js$~third-party
+# @@||bestofmedia.com/sfp/js/minified/testedJs/xtClick.min.js?$domain=tomshardware.com
++d bettycrocker.com /Shared/Javascript/ntpagetag.js
++d bettycrocker.com /Shared/Javascript/UnicaTag.js
++d bgp.he.net /images/flags/*.gif?
++d bhg.com /web/js-min/common/js/dwr/RemoteTargetingService.js
++d bitgo.com /vendor/googleanalytics/angular-ga.min.js
++d bjjhq.com /HttpCombiner.ashx?*.js
+# @@||blogsmithmedia.com^*/gravity-beacon.js$domain=engadget.com
++d bolha.com /clicktracker/
++d bonappetit.com /cn-fe-stats/*.js
++d bookmate.com /impressions?
++d bootcamp.mit.edu /js/angulartics-google-analytics.min.js
+# @@||borderfree.com/assets/utils/google-analytics.js$~third-party
++d bountysource.com /badge/tracker?
++d boxtops4education.com /ntpagetag.js
++d britishairways.com /cms/global/scripts/applications/tracking/visualsciences.js
+# @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
++d bt.com /touchclarity/homepage/omtr_tc.js
+# @@||btstatic.com/tag.js$domain=macys.com
++d buffalowildwings.com /google-analytics.js
+# @@||bunchball.net/scripts/cookies/current/NitroCookies.js$domain=mtvema.com
+# @@||by.optimost.com^$domain=ft.com
+# @@||c.microsoft.com/ms.js$domain=microsoft.com|store.office.live.com|xbox.com
+# @@||c.mmcdn.net^*/flash/config/metrics.xml$domain=moshimonsters.com
+# @@||c212.net^$image,domain=prnewswire.com
++d cache.nymag.com /clickability.js
++d canada.com /js/ooyala/comscore.js
++d canadiantire.ca /analytics.sitecatalyst.js
++d canoe.ca /generix/omniture/TagOmnitureEngine.js
++d capitalone360.com /urchin.js
++d care2.com /assets/scripts/cookies/care2/NitroCookies.js
++d cbc.ca /g/stats/videoheartbeat/*/cbc-videoheartbeat.js
++d cbc.ca /loggingservice.js?
+# @@||cbsimg.net/js/cbsi/dw.js$domain=cbssports.com|gamespot.com
++d cbsinteractive.com /lib/tracking/comscore/*.js
+# @@||cbsistatic.com^*/clicktale-$script,domain=cbsnews.com|cnet.com
+# @@||cbsistatic.com^*/google-analytics.js$domain=cnet.com
+# @@||cbsistatic.com^*/tealium.js$domain=cnet.com
+# @@||ccom-cdn.com/assets/img/clear.gif?ccom_md5=$domain=credit.com
+# @@||cdn-redfin.com^*/clicktracker.js$domain=redfin.com
+# @@||cdn-redfin.com^*/page_analytics.js$domain=redfin.com
++d cdn-redfin.com /page_analytics.xd.js
+# @@||cdn-redfin.com^*/PixelTracking.js$domain=redfin.com
+# @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|dramafever.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com
++d centurylink.net /images/track/track.gif?track=
++d chanel.com /js/chanel-tracking.js*.js
+# @@||chartbeat.com/*/chartbeat/$~third-party
+# @@||chartbeat.com/js/chartbeat.js$domain=indiatimes.com|m.tmz.com|salon.com|zap2it.com
++d chatzy.com /?jsonp:*.js
++d chobani.com /js/tracking.js
++d cincinnatibell.net /images/track/track.gif?
++d cio.com /js/demandbase.js?
++d cisco.com /web/fw/lib/ntpagetag.js
++d cisco.com /web/fw/m/ntpagetag.min.js
++d citi.com /cards/svc/js/tracking.js
++d citiretailservices.citibankonline.com /USCRSF/USCRSGBL/js/AppMeasurement.js
+# @@||clarity-green.hart.com^$script,~third-party
+# @@||cleananalytics.com/browser.js?$script,domain=cheapflights.com
+# @@||clicktale.net/wrb.js$domain=microsoft.com
+# @@||clicktale.net^$script,domain=cbc.ca
+# @@||clicsante.ca^*/angulartics-google-tag-manager.min.js$domain=clicsante.ca
++d cloud.talend.com /api/ipaas/services/analytics/
+# @@||cloudflare.com/analytics?$domain=cloudflare.com
+# @@||cloudflare.com^*/angulartics-google-analytics.min.js$domain=chromeexperiments.com
+# @@||cloudflare.com^*/fingerprint2.min.js$domain=saavn.com
+# @@||cloudfront.net/assets/js/comscore_beacon.js?$domain=zap2it.com
+# @@||cloudfront.net/atrk.js$domain=eatthis.com|karnaval.com|livestream.com|luxuryrealestate.com
+# @@||cloudfront.net/js/reach.js$domain=zap2it.com
+# @@||cloudfront.net/keen-tracking-*.min.js$domain=dataprivacycareers.com
+# @@||cloudfront.net/mngr/$script,domain=theladbible.com
+# @@||cloudfront.net/opentag-*.js$domain=mackweldon.com|telegraph.co.uk
+# @@||cloudfront.net/releases/current/tracker.js$domain=triage.superservice.com
+# @@||cloudfront.net^*/AppMeasurement.js$domain=financialpost.com
+# @@||cloudfront.net^*/comscore.$script,domain=my5.tv
+# @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
+# @@||cloudfront.net^*/keen.min.js$domain=foodnetwork.co.uk
+# @@||cloudfront.net^*/VisitorAPI.js$domain=financialpost.com
+# @@||collect.igodigital.com/collect.js$script,domain=cars.com
++d collector.shorte.st /interstitial-page-event
++d collegeboard.org /webanalytics/
++d computerworld.com /resources/scripts/lib/demandbase.js*.js
++d constantcontact.com /js/WebTracking/
++d contentdef.com /assets/common/js/google-analytics.js
+# @@||coremetrics.com*/eluminate.js
+# @@||count.ly^$~third-party
+# @@||coursehero.com/min/?f=*/tracker_pageview.js,$domain=coursehero.com
+# @@||cqcounter.com^$domain=cqcounter.com
++d craveonline.com /wp-content/plugins/bwp-minify/*.js
++d craveonline.com /google-analytics.min.js
++d create.kahoot.it /rest/analytics/track/
+# @@||criteo.investorroom.com^$domain=criteo.investorroom.com
+# @@||crowdscience.com/max-$script,domain=everydayhealth.com
+# @@||crowdscience.com/start-$script,domain=everydayhealth.com
++d cschat.ebay.com /scripts/log.js
+# @@||csdata1.com/data/js/$domain=acehardware.com
++d csid.com /wp-content/plugins/bwp-minify/min/?*/google-analyticator/*.js
++d csoonline.com /js/demandbase.js
++d ctv.ca /players/mediaplayer/*/comscorebeacon.js
+# @@||cxense.com/cx.js$domain=brandonsun.com|channelnewsasia.com|winnipegfreepress.com
++d d1l6p2sc9645hc.cloudfront.net /tracker.js
+# @@||d2dq2ahtl5zl1z.cloudfront.net/analytics.js/*/analytics.min.js$domain=architizer.com
+# @@||d2pe20ur0h0p8p.cloudfront.net/identity/*/wapo_identity_full.js$domain=washingtonpost.com
+# @@||d2pe20ur0h0p8p.cloudfront.net/identity/*/wapo_jskit_addon.js$domain=washingtonpost.com
+# @@||d396ihyrqc81w.cloudfront.net^$domain=currys.co.uk
+# @@||d3qxwzhswv93jk.cloudfront.net/esf.js$domain=wwe.com
+# @@||d3ujids68p6xmq.cloudfront.net^$script,domain=wwe.com
++d dailycaller.com _chartbeat.js
++d dailyfinance.com /traffic/?
++d dailymail.co.uk /brightcove/tracking/ted3.js
+# @@||darksky.net^*/analytics.js$script,~third-party
+# @@||ddmcdn.com^*/comscore.streaming.$script,domain=www.tlc.com
++d deals.nextag.com /ClickTracker.jsp
++d debenhams.com /foresee/foresee-trigger.js
+# @@||demandbase.com^*/ip.json?$xmlhttprequest,domain=vmware.com
++d demandware.edgesuite.net /js/tracking.js
+# @@||demdex.net/dest4.html?d_nsid=$subdocument,domain=multipack.com.mx
++d descopera.ro /js/addLinkerEvents-ga.js
++d diablo3.com /assets/js/jquery.google-analytics.js
+# @@||digitalgov.gov/Universal-Federated-Analytics-Min.js?$script,domain=travel.state.gov
+# @@||digits.com^*/sdk.js$domain=openhub.net
++d directline.com /touchclarity/*.js
++d directline.com /analytics.sitecatalyst.js
+# @@||dmeserv.newsinc.com/dpid/*/PPEmbed.js$domain=csmonitor.com
+# @@||dmeserv.newsinc.com^*/dynamicWidgets.js$domain=timesfreepress.com
+# @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
++d dopemagazine.com /wp-content/plugins/masterslider/public/assets/css/blank.gif?
+# @@||doubleclick.net/activityi;src=$object-subrequest,domain=cicispizza.com
++d dplay.com /comscore.streaming.min.js
++d dplay.com /google_analytics.js
+# @@||dpm.demdex.net/id?$script,domain=gamespot.com
+# @@||dpm.demdex.net/id?$xmlhttprequest,domain=foxnews.com
+# @@||dtdc.in/tracking/tracking_results_$subdocument,domain=dtdc.com
+# @@||dw.cbsi.com/anonc.js$domain=cnet.com|gamespot.com|giantbomb.com
+# @@||dw.cbsi.com/js/dw.js$domain=cnet.com
+# @@||dw.com.com/js/dw.js$domain=cbsnews.com|cnet.com|gamespot.com|tv.com
+# @@||e2e-comms.pearson.com/osbrowserchecker/prd/thirdPartyCookie.html?$subdocument,domain=pearsonmylabandmastering.com
+# @@||ec.atdmt.com/b/$domain=starwoodhotels.com
++d ecostream.tv /js/ecos.js
+# @@||edgedatg.com/aws/apps/datg/web-player-unity/*/AppMeasurement.js$domain=abc.go.com
+# @@||edgesuite.net/crossdomain.xml$object-subrequest,domain=sbs.com.au
++d egencia.com /pubspec/scripts/include/omnitureAnalytics.js
++d egencia.com /pubspec/scripts/include/siteanalytics_include.js
++d eircomphonebook.ie /js/wt_capi.js?
+# @@||eloqua.com/include/livevalidation_standalone.compressed.js$domain=pbs.org
+# @@||eloqua.com/visitor/v200/svrgp.aspx?$domain=itworld.com|juniper.net
+# @@||emjcd.com^$image,domain=catalogfavoritesvip.com|freeshipping.com|freeshippingbymastercard.com|freeshippingrewards.com|habandvipplus.com|inthecompanyofdogsvip.com|naturesjewelryvip.com|northstylevip.com|pyramidcollectionvip.com|serengeticatalogvip.com|travelplus.com
++d ensighten.com /crossdomain.xml
++d ensighten.com /libs/flowplayer/ensightenplugin.swf
+# @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|caranddriver.com|cart.autodesk.com|citizensbank.com|dell.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|zales.com
++d ensighten.com /code/*.js
+# @@||ensighten.com^*/scode/$script,domain=norton.com
++d ensighten.com /serverComponent.php?*.js
++d epixhd.com /styleassets/js/google-analytics.js
++d eplayerhtml5.performgroup.com /js/tsEplayerHtml5/js/Eplayer/js/quantcast/*.js
+# @@||espncdn.com/combiner/*/chartbeat/$script,domain=espn.go.com
+# @@||espncdn.com/combiner/*/foresee/$script,domain=espn.go.com
+# @@||estat.com/js/*.js?$domain=entertainmentwise.com
+# @@||everestjs.net/static/st.js$domain=ford.com
++d evernote.com /google-analytics-util.js
+# @@||evestment.com/api/analytics/$domain=evestment.com
++d expedia.com /minify/siteAnalytics-*.js
++d expedia.com /static/default/default/scripts/siteAnalytics.js
++d expedia.com /static/default/default/scripts/TealeafSDK.js
++d facebook.com /ajax/photos/logging/session_logging.php?
+# @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
++d faostat3.fao.org /google-analytics-manager.js
++d fastway.co.nz /Umbraco/Api/Tracking/
++d fccbrea.org /swfaddress.js
++d fifa.com /webanalytics.js?
++d firstdirect.com /logging-code.js
++d fitloop.co /packages/GAnalytics.js?
++d flagshipmerchantservices.com /clickpathmedia.js
++d flipps.com /page-tracking.js?
+# @@||fls-*.amazon.com^*/aiv-web-player/$xmlhttprequest
+# @@||flsenate.gov/Scripts/GoogleAnalytics.js$~third-party
+# @@||flurry.com/js/flurry.js$domain=pocketdice.io|slantnews.com
+# @@||fncstatic.com^*/visitorapi.js$script,domain=foxbusiness.com|foxnews.com
++d focus.ti.com /metrics-min.js
++d foodnetwork.com /analytics.sitecatalyst.js
+# @@||freefilefillableforms.com/js/lib/irs/fingerprint.js$~third-party
+# @@||freegeoip.net/json/$domain=userstyles.org
+# @@||freehostedscripts.net/online/$script,~third-party
++d ft.com /opentag/opentag-*.js
+# @@||gaanacdn.com/*_social_tracking.js$domain=gaana.com
++d gameplayer.io /EventTracker.js
++d games.pch.com /js/analytics.js
+# @@||gannettdigital.com^*/partner-comscore.html$xmlhttprequest,domain=usatoday.com
++d gardenista.com /media/js/libs/ga_social_tracking.js
+# @@||garmin.com/modern/main/js/properties/metrics/metrics$domain=garmin.com
++d gatheringmagic.com /wp-content/plugins/bwp-minify/min/*/google-analyticator/*.js
+# @@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
+# @@||geo.query.yahoo.com^$xmlhttprequest,domain=m.flickr.com
+# @@||geoplugin.net/javascript.gp$script,domain=christianhouseshare.com.au|gamemazing.com|soundsonline.com|support.netgear.com|support.netgear.de|support.netgear.es|support.netgear.fr|support.netgear.it|support.netgear.ru
+# @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
+# @@||georiot.com/snippet.js$domain=bound2hiphop.com|itproportal.com
++d getclicky.com /ajax/marketshare?*.js
+# @@||getclicky.com/js|$script,domain=rsaconference.com
+# @@||getsmartcontent.com/gateway/?callback$domain=visitpa.com
+# @@||getsmartcontent.com/gsc.js$domain=visitpa.com
++d ggwebcast.com /urchin.js*.js
+# @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
++d github.com /heatmap.js
++d glamour.com /aspen/components/cn-fe-stats/js/*.js
+# @@||go-mpulse.net/boomerang/$script,domain=cnet.com
++d go.com /combiner/*/comscore.*.js
++d go.com /disneyid/responder
++d go.com /stat/dolwebanalytics.js
++d go.com /stat/flash/analyticreportingas3.swf
++d go.com /analytics/tracker.otv.js
++d goldbet.com /Scripts/googleAnalytics.js
++d goldmansachs.com /a/pg/js/prod/gs-analytics-init.js
+# @@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|bebo.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
+# @@||google-analytics.com/collect$xmlhttprequest,domain=content.wargaming.net
+# @@||google-analytics.com/cx/api.js$domain=foxnews.com|redfin.com
+# @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=lovehoney.co.uk|maxiclimber.com|opendns.com|openshift.com|vimeo.com|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg
+# @@||google-analytics.com/plugins/ua/ec.js$domain=desigual.com|rebtel.com
+# @@||google-analytics.com/plugins/ua/linkid.js$domain=bebo.com|rebtel.com|stitcher.com|support.amd.com|vox.com
+# @@||google-analytics.com/urchin.js$domain=axure.com|chocomaru.com|denverbroncos.com|muselive.com|streetfire.net|wickedthemusical.com
+# @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
+# @@||google.com/js/gweb/analytics/$domain=google.com
+# @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com
+# @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
+# @@||googletagmanager.com/gtm.js?$domain=adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|computerworlduk.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|gamepix.com|git-tower.com|google.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsy.com|optus.com.au|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|sixflags.com|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|trademe.nz|usmagazine.com
++d googletagmanager.com /gtm.js?id=GTM-5D256R&l=aedataLayer/
+# @@||googletagservices.com/tag/js/gpt.js$domain=speedtest.net
+# @@||gorillanation.com/js/triggertag.js$domain=comingsoon.net|playstationlifestyle.net
+# @@||gov.au/Scripts/ga.js$script,~third-party
++d grapeshot.co.uk /image-resize/
++d grapeshot.co.uk /sare-api/
++d graphracer.com /js/libs/heatmap.js
+# @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
++d haaretz.com /logger/p.gif?
++d halowars.com /stats/images/Buttons/MapStats.jpg
++d harvard.edu /scripts/ga_social_tracking.js
++d haystax.com /components/leaflet/heatmap.js
+# @@||he.net/images/flags/us.gif?$domain=he.net
++d healthcare.gov /marketplace/*/clear.gif?
++d hhgregg.com /wcsstore/MadisonsStorefrontAssetStore/javascript/Analytics/AnalyticsTagDataObject.js
++d highcharts.com /heatmap.js
+# @@||hj.flxpxl.com^*.js?r=*&m=*&a=$domain=twitch.tv
+# @@||hlserve.com/beacon?$domain=walmart.com
++d homedepot.com /static/scripts/resxclsa.js
++d hostlogr.com /etc/geo.php?
++d hotmail.com /mail/*/i2a.js
+# @@||hotwirestatic.com^*/opinionLab.js$domain=hotwire.com
+# @@||i.s-microsoft.com/wedcs/ms.js$domain=skype.com
++d ibis.com /scripts-*/xtanalyzer_roi.js
++d ibispaint.com /js/googleAnalytics.js
+# @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
+# @@||images-iherb.com/js/ga-pro*.js$domain=iherb.com
+# @@||img.en25.com/eloquaimages/clients/PentonMediaInc/$image,domain=windowsitpro.com
+# @@||imrworldwide.com/crossdomain.xml$object-subrequest,domain=cc.com|sbs.com.au
+# @@||imrworldwide.com/novms/*/ggcm*.js$domain=9now.com.au|europafm.com
+# @@||imrworldwide.com/v60.js$domain=last.fm|musicfeeds.com.au|nzherald.co.nz|realestateview.com.au|sf.se|threenow.co.nz|weatherchannel.com.au
+# @@||imrworldwide.com^*-mediaplayer&$domain=au.launch.yahoo.com
++d imrworldwide.com /flashdetect.js
+# @@||imrworldwide.com^*/ggce354.swf$domain=espn.go.com|espndeportes.com|espnfc.co.uk|espnfc.com|espnfc.com.au|espnfc.us|espnfcasia.com
++d imrworldwide.com /swfobject.js
+# @@||imwx.com/jsRollup?$script,domain=weather.com
+# @@||inazuma.co/campaign/js/heatmap.js$domain=monopoly.mcdonalds.co.uk
+# @@||innovelsolutions.com^*/tracking/$~third-party
++d inpref.com /frosmo.xdm.html?
++d inpref.com /messageApi?
++d inpref.s3.amazonaws.com /frosmo.easy.js*.js
++d inpref.s3.amazonaws.com /sites/eventim_*.js
++d intel.com /angular-google-analytics.js
+# @@||iocdn.coremetrics.com^*.js?V=$domain=24ace.co.uk
+# @@||iocdn.coremetrics.com^*/io_config.js?ts=$domain=24ace.co.uk
++d itworld.com /elqnow/elq*.js
+# @@||jabra.com/api/Analytics/$xmlhttprequest,domain=jabra.com
++d jackjones.com /google-analytics-tagging.js
++d jeevansathi.com /minify.php?files=
++d jimmyjohns.com /Scripts/angularytics.*.js
+# @@||js.dmtry.com/channel.js$domain=zillow.com
++d js.vpro.nl /vpro/*/statcounter.js?
++d juxtacommons.org /heatmap.js
++d k2s.cc /ext/evercookie/*.js
++d kaltura.com /content/*/comscorePlugin.swf
++d keep2s.cc /ext/evercookie/*.js
++d kentucky.com /mistats/finalizestats.js
++d keremerkan.net /wp-content/plugins/wp-minify/min/*/google-analyticator/
++d koalabeast.com /stats?*.js
++d koldcast.tv /mint/*/tracker.php?
+# @@||krxd.net/controltag?$script,domain=eatthis.com
+# @@||krxd.net^$script,domain=nbcnews.com
++d l.yimg.com /g/combo/*/comscore.*.js
++d latimes.com /hive/javascripts/loggingService.js
+# @@||leeaws.com/api-cache/chartbeat/?host=$xmlhttprequest,domain=tucson.com
++d lenovo.com /GoogleAnalytics.js
++d leretourdelautruche.com /map/nuke/heatmap.js
++d lesacasino.com /EMERPEventCollector.
++d lexus.com /lexus-share/js/tracking_omn/
++d lg.com /foresee/foresee-trigger.js
++d lightningmaps.org /piwik.js
+# @@||lininteractive.com/chartbeat/$~third-party
++d lininteractive.com /chartbeat/mostPopular.php?host=
++d link.theplatform.com /tracker.log?
++d link.theplatform.com ?affiliate=
++d lipmonthly.com /js/angulartics-google-analytics/dist/angulartics-ga.min.js
++d live.indiatimes.com /trackjs.cms
++d lloydstsb.com /it/xslt/touchclarity/omtr_tc.js
+# @@||loadus.exelator.com/load/?p=$script,domain=rrstar.com
+# @@||localytics.com^*/localytics.min.js$domain=ciscospark.com|citymapper.com
+# @@||logentries.com^*/logs/$xmlhttprequest,domain=app.testobject.com
++d logging.apache.org
++d logmein.com /scripts/Tracking/Tracking.js
++d lordandtaylor.com /javascript/Analytics/CartEventDataInit.js
+# @@||lp.longtailvideo.com/5/yourlytics/yourlytics-1.js$domain=indiedb.com|indieroyale.com|moddb.com
++d lsi.com /google-analytics.js
++d lufthansa.com /mmcore.js
++d luminate.com /order/
++d lynda.com /px.gif?
++d magnify.net /magnify_stats.js
+# @@||mail-www.baynote.net^$domain=mail.com
+# @@||mail.biz.rr.com/images/portal/blank.gif$domain=mail.biz.rr.com
++d mail.yahoo.com /neo/ymstat
++d makerstudios.com /js/mixpanel.js?*.js
+# @@||maps.google.*/gen_204?$xmlhttprequest
++d maserati.com /transparent1x1.png
+# @@||maxmind.com/app/country.js$domain=lenovo.com|nationalgeographic.com|paypal.fr
+# @@||maxmind.com/geoip/$xmlhttprequest,domain=elgato.com
+# @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
+# @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|elgato.com|fallout4.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
++d mec.ca /media/javascript/resxclsx.js
++d media-imdb.com /clickstream.js
+# @@||media.ft.com/j/optimost-$domain=ft.com
+# @@||media.ticketmaster.*/click_track.js
+# @@||mediaite.com/decor/javascript/magnify_stats.js$domain=videos.mediaite.com
++d medicare.gov /SharedResources/widgets/foresee/foresee-trigger.js
++d mercedes-benz-mobile.com /js/tracking/tracker.min.js?
+# @@||messenger.com/common/referer_frame.php$subdocument,domain=messenger.com
+# @@||metric.gstatic.com/ip.js$domain=ipv6test.google.com
+# @@||metric.gstatic.com/ipv6test/$image,domain=ipv6test.google.com
+# @@||metrics-api.librato.com/v1/metrics$xmlhttprequest,domain=virginamerica.com
++d metrics.ctvdigital.net /global/CtvAd.js
++d metrics.howstuffworks.com /b/ss/*&ot=
+# @@||metrics.mozilla.com^$~third-party
++d metrics.nissanusa.com /b/ss/nissanusacom/
++d metrics.torproject.org
++d microsoft.com /click/services/RioTracking2.js
+# @@||mightyspring.com/static/js/beacon.js?$~third-party
++d milb.com /shared/scripts/bam.tracking.js
+# @@||mixpanel.com/site_media/js/api/mixpanel.js$domain=blog.cloudflare.com
+# @@||mixpanel.com/track/?data=$xmlhttprequest,domain=ads.twitter.com|change.org|greentoe.com|kickstarter.com|mint.com|nbc.com|thefrisky.com
++d mlb.com /b/ss/
++d mlb.com /scripts/stats/app/*.js
++d mlb.com /shared/scripts/bam.tracking.js
+# @@||mmi.bemobile.ua/lib/lib.js$domain=uatoday.tv
+# @@||monetate.net/img/$script,domain=newegg.com
+# @@||monetate.net/js/$domain=nike.com
+# @@||monetate.net/trk/$script,domain=newegg.com
+# @@||monetate.net^*/custom.js$domain=newegg.com
+# @@||monetate.net^*/entry.js$domain=newegg.com
+# @@||mongoosemetrics.com/jsfiles/js-correlation/mm-rules.min.js$domain=subaru.com
++d motorolasolutions.com /wrs/b2bsdc.js
++d moulinex.com /js/xtroi.js
+# @@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com
+# @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
+# @@||msecnd.net^*/site-tracker.js$domain=momondo.co.uk
+# @@||msn.com/br/chan/udc/$script,domain=my.msn.com
+# @@||msn.com/c.gif?rid=$image,domain=my.msn.com
++d munchkin.marketo.net /munchkin.js
++d musicvideogenome.com /javascripts/stats.js
+# @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com|greentoe.com|intuit.com|nbc.com|thefrisky.com
+# @@||mxpnl.com^$domain=mixpanel.com
++d mybuys.com /webrec/wr.do?
++d mycokerewards.com /webtrends/mcr3-webtrends_POST_*.js
+# @@||mycommunitynow.com/includes/JI_trafficTracking.js$domain=mycommunitynow.com
++d myqnapcloud.com .angular-google-analytics.js*.js
++d narf-archive.com /clickstream.js
++d nasa.gov /js/libraries/angulartics/angulartics-google-analytics.js
++d nationalcar.com /analytics.min.js
++d nationalgeographic.com /assets/scripts/utils/event-tracking.js
++d nationaljournal.com /js/bizo.js
++d nationalreview.com /chartbeat.js
++d nationwide.co.uk /_/js/webAnalytics.js
++d ncbi.nlm.nih.gov /stat?
++d necn.com /includes/AppMeasurement.js
++d nerdwallet.com /lib/dist/analytics.min.js
+# @@||netdna-ssl.com/lib/jquery-google-analytics/jquery.google-analytics.js$domain=homepath.com
++d netinsight.travelers.com /scripts/ntpagetaghttps.js
++d nettix.fi _analytics.js
++d networkworld.com /demandbase.js
+# @@||newrelic.com/nr-*.min.js$domain=play.spotify.com|surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
++d newrelic.com /public/charts/
+# @@||newsinc.com/getids?uid=$script,domain=ap.org
+# @@||newsinc.com^*/getPlacements.js?pid=$xmlhttprequest,domain=ap.org|csmonitor.com
++d newyorker.com /cn-fe-stats/*.js
++d next.co.uk /Scripts/GoogleAnalytics.js?
+# @@||nike.com/checkout/analytics/js/analyticFunctions.js$domain=nike.com
+# @@||nintendo.com/nclood/*/bundles/analytics.min.js$domain=nintendo.com
+# @@||nokia.com/b/ss/$image,domain=here.com
+# @@||nordstromimage.com^*/mmcore.js$domain=nordstrom.com
++d novell.com /common/util/demandbase_data.php
++d nudgespot.com /beacon.js?*.js
+# @@||nyandcompany.com^*/resxclsa.js$domain=nyandcompany.com
++d nymag.com /decor/javascript/magnify_stats.js
+# @@||nymag.com/vltr/scripts/analytics.js$domain=vulture.com
+# @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
+# @@||nytimes.com/bi/js/tagx/tagx.js$domain=myaccount.nytimes.com
++d nytimes.com /EventTracker.js
++d nytimes.com /wtbase.js
++d nytimes.com /wtinit.js
++d oakley.com /tealium.js
++d odcdn.com /cm.js
++d office365.com /owa.Analytics.js*.js
++d officeworks.com.au /site-tracker.js
++d oktacdn.com /assets/js/*/mixpanel-*.js
+# @@||omtrdc.net/cdn/target.js$script,domain=swisscom.ch
+# @@||omtrdc.net/crossdomain.xml$domain=crackle.com
+# @@||omtrdc.net/settings/$object-subrequest,domain=crackle.com
+# @@||omtrdc.net^*/mbox/ajax?$script,domain=swisscom.ch
+# @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=argos.co.uk|att.com|swisscom.ch|t-mobile.com
+# @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
+# @@||ooyala.com/3rdparty/comscore_$object-subrequest,domain=livetvcafe.net|player.complex.com
++d ooyala.com /crossdomain.xml
+# @@||optimize.webtrends.com^$domain=peterboroughtoday.co.uk
+# @@||optimizely.com/js/geo.js$domain=forbes.com
+# @@||optimizely.com/public/$script,domain=nytimes.com
+# @@||optimost.com/counter/*/event.js?$domain=bebo.com
+# @@||optimost.com^*/content.js?$domain=bebo.com
+# @@||optimost.com^*/FT_live.js$domain=ft.com
++d ourworld.com /ow/evercookie_
++d ourworld.com /ow/js/evercookie/*.js
++d palerra.net /apprity/api/analytics/
++d pastebin.com /etc/geo.php?
++d patrick-wied.at /static/heatmapjs/src/heatmap.js
+# @@||paypalobjects.com^*/opinionLab.js$domain=paypal.com
+# @@||paypalobjects.com^*/pixel.gif$domain=youngcons.com
++d pbskids.org /js/ga-current.js
+# @@||petametrics.com^*.js?$script,domain=nylon.com|space.com
++d pillsbury.com /Shared/StarterKit/Javascript/ntpagetag.js
++d pillsbury.com /Shared/StarterKit/Javascript/UnicaTag.js
++d ping.hellobar.com /?*&_e=click&
++d pipedriveassets.com /keen.min.js
++d pipedrivewebforms.com /keen.min.js
++d piwik.pro /images/
+# @@||pixel.condenastdigital.com/sparrow.min.js$domain=video.epicurious.com|video.gq.com|video.wired.com
++d pixel.facebook.com /ajax/gigaboxx/endpoint/UpdateLastSeenTime.php?
++d pixel.facebook.com /ajax/notifications/mark_read.php?*&alert_ids%
+# @@||pixel.fetchback.com^$subdocument,domain=sears.com
+# @@||pixel.quantserve.com/api/segments.json?$domain=ap.org|newsinc.com
+# @@||pixel.quantserve.com/api/segments.xml?a=$domain=associatedcontent.com|cbs.com|cbsatlanta.com|centurylink.net|comedy.com|eurweb.com|fox5vegas.com|foxcarolina.com|grabnetworks.com|kctv5.com|kpho.com|kptv.com|theimproper.com|thenewsroom.com|tv.com|tvguide.com|wfsb.com|wnem.com|wsmv.com
+# @@||pixel.quantserve.com/seg/$script,domain=photos.essence.com
+# @@||pixel.quantserve.com/seg/r;a=$object-subrequest,domain=breitbart.tv|cbs.com|filefront.com|imdb.com|laobserved.com|tv.com
+# @@||pixelpressmedia.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=pixelpressmedia.com
+# @@||play.google.com/log?format=json&authuser=$xmlhttprequest,domain=myaccount.google.com
+# @@||playcanvas.com.*/keen.min.js
+# @@||player.ooyala.com^*/analytics-plugin/$script,domain=nintendo.com
++d player.sundaysky.com
++d playtheend.com /api/v1/players/heatmap.json?
+# @@||pnas.org^*/fingerprint.js$script,~third-party
++d pokemonblackwhite.com /jquery.google-analytics.js
++d polycom.com /polycomservice/js/unica/ntpagetag.js
+# @@||popeater.com/traffic/?$script,domain=popeater.com
++d popmoney.com /jquery.analytics.js
+# @@||pp-serve.newsinc.com^*/unitsdata.js?$domain=timesfreepress.com
+# @@||primevideo.com/watchlist/ajax/addRemove.html/$xmlhttprequest,domain=primevideo.com
+# @@||productads.hlserve.com^$script,domain=argos.co.uk
++d propelmedia.com /resources/images/load.gif
++d ps.w.org /google-analytics-dashboard-for-wp/assets/
++d pshared.5min.com /Scripts/OnePlayer/Loggers/ComScore.StreamSense.js
++d pshared.5min.com /Scripts/OnePlayer/Loggers/ComScore.Viewability.js
++d push2check.com /stats.php
++d qbrick.com /framework/modules/analytics/analytics.min.js*.js
+# @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
+# @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
++d query.petametrics.com
++d qz.com /tracking/bizo.js
++d qz.com /tracking/chartbeat.js
++d qz.com /tracking/comscore.js
+# @@||radio.com/player/javascript/tracking.js$domain=player.radio.com
++d randomhouse.com /book/css/certona.css
++d rawgit.com /heatmap.js
++d rawstory.com /decor/javascript/magnify_stats.js
++d redditenhancementsuite.com /js/jquery.google-analytics.js
++d redfin.com /stingray/clicktracker.jsp?
++d reftagger.com /log?documentUrl=
+# @@||reinvigorate.net/re_.js$domain=thenounproject.com
++d remodelista.com /media/js/libs/ga_social_tracking.js
++d res-x.com /Resonance.aspx?
++d retailmenot.com /__wsm.gif
+# @@||reutersmedia.net^*/rcom-scroll-tracker.js$domain=reuters.com
+# @@||rfdcontent.com^*/utag.loader.js$domain=forums.redflagdeals.com
++d rockingsoccer.com /js/match_stats.js
+# @@||rs.mail.ru/crossdomain.xml$object-subrequest,domain=vk.com
+# @@||ru4.com/wsb/$script,domain=chase.com
++d runnr.in /assets/tracking-
+# @@||s.skimresources.com^$script,domain=slate.com
++d safelinkwireless.com /enrollment/*/GoogleAnalytics.js
++d sahibinden.com /assets/analytics*.js*.js
++d samepage.io /assets/lib/google-analytics/GoogleAnalytics.js?
+# @@||sbstatic.com.au/js/tealium.js$domain=sportsbet.com.au
+# @@||scorecardresearch.com/beacon.js$domain=agame.com|ahmedabadmirror.com|allmusic.com|amctv.com|apl.tv|babycenter.com|bonappetit.com|calgaryherald.com|canada.com|cbc.ca|dailymail.co.uk|deviantart.com|discovery.com|edmontonjournal.com|fastcompany.com|financialpost.com|firstwefeast.com|hitfix.com|huffingtonpost.com|indiatimes.com|investigationdiscovery.com|landandfarm.com|last.fm|leaderpost.com|m.tmz.com|montrealgazette.com|nationalpost.com|newsday.com|ottawacitizen.com|outsideonline.com|radaronline.com|salon.com|sci2.tv|syfy.com|theprovince.com|thestar.com|thestarphoenix.com|thinkatheist.com|tlc.com|tmz.com|v3.co.uk|vancouversun.com|windsorstar.com
++d scorecardresearch.com /c2/plugins/streamsense_plugin_html5.js
++d scorecardresearch.com /c2/plugins/streamsense_plugin_theplatform.js
+# @@||scorecardresearch.com/crossdomain.xml$domain=rte.ie
+# @@||scorecardresearch.com^*/cs.js$script,domain=thedailybeast.com
+# @@||scripts.demandmedia.com/wm.js$domain=ehow.com
++d sears.com /analytics.sitecatalyst.js
++d segment.com /analytics.js/*/analytics.min.js*.js
++d segment.io /analytics.js/*/analytics.min.js*.js
+# @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com|thescene.com
+# @@||sellpoint.net/smart_button/$script,domain=walmart.com
+# @@||sergent-major.com^*/js/tracking.js$domain=sergent-major.com
++d service.collarity.com /cust/nbcu/ucs.js
+# @@||services.fliqz.com/metrics/*/applications/$object-subrequest,domain=leftlanenews.com
+# @@||setelia.com*/page-tracking.js?$script,~third-party
+# @@||sfdict.com/app/*/click_tracking.js$domain=reference.com|thesaurus.com
++d sh.st /bundles/smeadvertisement/img/track.gif?
+# @@||shipwire.com/scripts/account_analytics.js$domain=shipwire.com
++d sijcc.org /page-tracking.js?
+# @@||siteanalytics.compete.com^$~third-party
+# @@||sitestat.com^*/s?*&ns_type=clickin&ns_action=view&ns__t=$image,domain=sueddeutsche.de
++d skypicker.com /places/BCN?
+# @@||slatic.net/js/tracking.js$domain=lazada.co.id
+# @@||smartycenter.com^*/comscore.streaming.$script,domain=mundodeportivo.com
+# @@||smetrics.blackberry.com/b/ss/*:jump-page:$image,domain=bbm.com
++d snapchat.com /static/js/google-analytics.js
++d songza.com /static/*/songza/systems/*.js
++d southwest.com /mbox.js
++d sportsgrid.com /decor/javascript/magnify_stats.js
+# @@||spot.im/api/tracker/spot/$xmlhttprequest,domain=rt.com
+# @@||springriverchronicle.com/shared-content/art/tncms/tracking.js$domain=springriverchronicle.com
++d star-telegram.com /mistats/sites/dfw/startelegram.js
++d startclass.com /ga.
++d statcounter.com /chart.php?*.js
++d statcounter.com /js/fusioncharts.js
++d statcounter.com /msline.swf
+# @@||statefillableforms.com/js/lib/irs/fingerprint.js$~third-party
+# @@||static.atgsvcs.com/js/atgsvcs.js$domain=officedepot.com|shop.lego.com
+# @@||static.btbuckets.com/bt.js$domain=readwriteweb.com
++d static.chartbeat.com /crossdomain.xml
+# @@||static.chartbeat.com/js/chartbeat_mab.js$domain=usatoday.com
+# @@||static.parsely.com^$script,domain=dailystar.co.uk|express.co.uk
+# @@||static.rpxnow.com/js/lib/rpx.js$domain=colbertnation.com|thedailyshow.com
+# @@||statics.cfmcdn.net/*/scripts/webtrends-$script,domain=cheapflights.com
+# @@||stats.g.doubleclick.net/dc.js$domain=doverdowns.com|lifehack.org|maxiclimber.com|merriam-webster.com|toto.co.jp|tripinsurance.ru|vimeo.com
++d stats.jtvnw.net /crossdomain.xml
+# @@||stippleit.com/stipple.js$domain=photos.toofab.com
+# @@||sundaysky.com/coastal/embedded/sundaysky.js$domain=clearlycontacts.ca
+# @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
+# @@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
++d support.thesslstore.com /visitor/index.php
+# @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
+# @@||t.st/video/js/kGoogleAnalytics.js?$domain=thestreet.com
++d tablespoon.com /library/js/TBSP_ntpagetag.js
+# @@||tag.perfectaudience.com/serve/*.js$domain=asana.com
++d tagcommander.com /tc_*.js
+# @@||tags.bkrtx.com/js/bk-coretag.js$domain=mlb.com
+# @@||tags.bluekai.com/site/*?ret=$subdocument,domain=mlb.com|zillow.com
+# @@||tags.crwdcntrl.net^$script,domain=indiatimes.com|weather.com
+# @@||tags.news.com.au/prod/metrics/metrics.js$script,~third-party
++d tags.w55c.net /rs?*&t=marketing
++d tc.bankofamerica.com /c?
++d ted.com /decor/javascript/magnify_stats.js
++d teenvogue.com /js/eventTracker.js
++d telegraph.co.uk /template/ver1-0/js/webtrends/live/wtid.js
+# @@||telize.com/geoip?$script,domain=dailymotion.com
++d texasroadhouse.com /common/javascript/google-analytics.js
+# @@||thebrighttag.com/tag?site=$script,domain=macys.com
++d thehotelwindsor.com.au /javascript.googleAnalytics.js
++d theplatform.com /comScore.swf
++d thestreet-static.com /video/js/kGoogleAnalytics.js?
+# @@||thetenthwatch.com/js/tracking.js$~third-party
++d ticketm.net /click_track.js
++d tools.usps.com /go/scripts/tracking.js
+# @@||toshiba.com/images/track/track.gif?track=load&$xmlhttprequest,domain=start.toshiba.com
+# @@||toyota.com/analytics/recall_af.js$domain=toyota.com
+# @@||track.adform.net/serving/scripts/trackpoint/$script,domain=strokekampanjen.se|tigerofsweden.com
+# @@||track.atom-data.io/report?$xmlhttprequest,domain=rt.com
+# @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
++d track2.royalmail.com
++d tracker.mattel.com /tracker.aspx?site=*.js
+# @@||tracker.mattel.com^$domain=barbie.com
++d tracking.unrealengine.com /tracking.js
+# @@||trackjs.com^$~third-party
++d travix.com /searchoptions?affiliate=
+# @@||trc.taboola.com/*/log/3/available|$subdocument,domain=globes.co.il
+# @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|breitbart.tv|nme.com|slatev.com
+# @@||trellocdn.com/dist/newrelic.$script,domain=trello.com
++d trustedreviews.com /google/analytics.js
++d trutv.com /ui/scripts/coffee/modules/analytics/click-tracker.js*.js
+# @@||turner.com/cnn/*/video/chartbeat.js$domain=cnn.com
+# @@||turner.com^*/aspenanalytics.xml$domain=cnn.com
+# @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
+# @@||twimg.com/googleanalytics/analytics.js$script,domain=twitter.com
++d uefa.com /inc/js/core/projects/statistics/statistics.js?*.js
++d uefa.com /chartbeat-trending-carousel.js
++d ultimedia.com /js/common/jquery.gatracker.js
++d unifi.me /mootools/classes/*-tracking
++d unisys.com /track.gif
++d unity3d.com /profiles/unity3d/themes/unity/images/services/analytics/
++d ups.com /WebTracking/track&dcs
++d ups.com /WebTracking/
++d urlcheck.hulu.com /crossdomain.xml
+# @@||userzoom.com/analytics/$domain=userzoom.com
+# @@||usps.com/m/js/tracking.js$domain=usps.com
+# @@||usps.com^*/metrics.js$domain=usps.com
++d utm.alibaba.com /eventdriver/recommendEntry.do?*.js
++d utm.arc.nasa.gov /common/css/
++d utm.arc.nasa.gov /common/js/common.js
++d utm.arc.nasa.gov /common/js/hideEmail.js
++d utm.arc.nasa.gov /common/js/nav.js
++d utm.arc.nasa.gov /common/js/swap.js
++d utm.arc.nasa.gov /images/
++d uverseonline.att.net /report/click_tracking_nes.json
++d v.me /personal/assets/ntpagetag-*.js
++d vaadin.com /heatmap.js
++d vacayvitamins.com /wp-content/plugins/wp-minify/min/?*/google-analyticator/*.js
+# @@||validate.onecount.net/js/all.min.js$script,domain=foreignpolicy.com
+# @@||validate.onecount.net/onecount/api/public/$script,domain=foreignpolicy.com
+# @@||vast.com/vimpressions.js$domain=everycarlisted.com
++d verizon.com /images/track/track.gif?track=load&
++d vice.com /vmp_analytics.js
+# @@||videos.nbcolympics.com/beacon?$object-subrequest,domain=nbcolympics.com
++d vidible.tv /ComScore.StreamSense.js
++d vidible.tv /ComScore.Viewability.js
+# @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
+# @@||view.atdmt.com^*/iview/$domain=starwoodhotels.com
+# @@||view.atdmt.com^*/view/$domain=starwoodhotels.com
++d virtualearth.net /webservices/v1/LoggingService/*.js
+# @@||virtualearth.net^*/LoggingService.svc/Log?$script,domain=bing.com|spatialbuzz.com
++d virusdesk.kaspersky.com /Resources/js/analytics.js*.js
++d visa.com /vendor/unica.js
+# @@||visiblemeasures.com/crossdomain.xml$object-subrequest,domain=espn.go.com|live.indiatimes.com
++d vizio.com /resources/js/vizio-module-tracking-google-analytics.js
++d vod.olympics2010.msn.com /beacon?
++d vodafone.com.au /analytics/js/*.js
++d volvocars.com /swfaddress.js?
++d vouchercodes.co.uk /__wsm.gif
+# @@||voya.ai^*/mixpanel-jslib-snippet.min.js$domain=voya.ai
++d vulture.com /decor/javascript/magnify_stats.js
+# @@||vupload-edge.facebook.com/ajax/video/upload/$xmlhttprequest,domain=facebook.com
++d w3spy.org /etc/geo.php?
+# @@||w88.go.com/crossdomain.xml$object-subrequest,domain=abcnews.go.com
+# @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
++d walmart.com /__ssobj/core.js
++d walmart.com /track?event=
+# @@||walmartimages.com/webanalytics/omniture/omniture.jsp$domain=walmart.com
+# @@||walmartimages.com/webanalytics/wmStat/wmStat.jsp$domain=walmart.com
++d washingtonexaminer.com /s3/wex15/js/analytics.js?*.js
++d washingtonpost.com /wp-stat/analytics/latest/main.js
+# @@||washingtonpost.com/wp-stat/analytics/main.js$domain=subscribe.washingtonpost.com
++d washingtonpost.com /spacer.gif?
++d wbshop.com /fcgi-bin/iipsrv.fcgi?
++d wcnc.com /content/libs/comscore/comscore.min.js
++d websimages.com /JS/Tracker.js
++d webtrack.dhlglobalmail.com
+# @@||webtrends.com^*/events.svc$subdocument,domain=mycokerewards.com
+# @@||webtrendslive.com^*/wtid.js?$domain=att.yahoo.com
++d westelm.com /bloomreach.js
++d westjet.com /js/webstats.js
++d whirlpool.com /foresee/foresee-trigger.js
+# @@||whoson.com/include.js?$script,domain=hotelchocolat.com
++d widgets.outbrain.com /comScore/comScore.htm
++d wikia.nocookie.net /AnalyticsEngine/js/analytics_prod.js
++d wikimedia.org /trackClick.js
++d wimbledon.com /AppMeasurement.js
++d windward.eu /angulartics-google-analytics.min.js
++d wired.com /wiredcms/chartbeat.json
++d wired.com /cn-fe-stats/
++d wordpress.org /extend/plugins/wp-slimstat/screenshot-
++d wordpress.org /wp-slimstat/assets/banner-
++d wp.com /_static/*/criteo.js
++d wp.com /_static/*/gaAddons.js
+# @@||wp.com/_static/*/vip-analytics.js?$domain=time.com
+# @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
+# @@||wp.com^*/time-tracking.js?$domain=time.com
++d wp.com /wp-content/plugins/wunderground/assets/img/icons/k/clear.gif?
+# @@||wrap.tradedoubler.com/wrap?$script,domain=desigual.com
++d wwe.com /sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
+# @@||www.google.*/maps/preview/log204?$xmlhttprequest
+# @@||x5.xclicks.net/js/x3165.js$domain=small-breasted-teens.com
++d xcweather.co.uk /geo.php?
++d xfinity.com /Comcast.SelfService.Sitecatalyst.js
+# @@||yandex.ru/metrika/watch.js$domain=engwords.net
+# @@||yimg.com/bm/lib/fi/common/*/yfi_comscore.js$domain=finance.yahoo.com
+# @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
++d ynet.co.il /Common/App/Video/Gemius/gstream.js
++d ynetnews.com /Common/App/Video/Gemius/gstream.js
++d youbora.com /js/adapters/jwplayer*.js
+# @@||youtube.com/api/analytics/$~third-party
++d youtube.com /api/stats/playback?
+# @@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
++d zappos.com /js/trackingPixel/mercentTracker.js
+# @@||zillowstatic.com/c/*/linktrack.js$domain=zillow.com
++d zylom.com /images/site/zylom/scripts/google-analytics.js
+# @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+# Mining-related whitelists
++d alltube.tv /jsverify.php
++d broadcastt.xyz /apps/
++d imaster.space
++d mycdn.me /chat
++d mycdn.me /publish
++d onlinevideoconverter.com /webservice
++d realtime.tracker.network
++d szukajka.tv /jsverify.php
++d szukajka.tv /szukaj
++d ws.webcaster.pro
+# Chrome bug (Endless loading causing site to crash https://forums.lanik.us/viewtopic.php?f=64&t=25152)
+# @@||aplus.com/p.gif?$~third-party
+# Preliminarily whitelisting Omniture s_code tracking pixels (script versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378) if blocking the script causes issues
+# @@||112.2o7.net/b/ss/$image,domain=espn.com.br|nissan-global.com
+# @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|citibank.co.in|goal.com|lippupalvelu.fi|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
++d amazoncustomerservice.d2.sc.omtrdc.net /b/ss/*/H.25.1/
++d castorama.fr /b/ss/
++d fandango.com /b/ss/
++d globalnews.ca /b/ss/
+# @@||info.seek.com/b/ss/$image,domain=seek.com.au
++d kaspersky.co.uk /b/ss/
++d kohls.com /b/ss/
++d metrics.ancestry.com /b/ss/
++d metrics.brooksbrothers.com /b/ss/
++d metrics.consumerreports.org /b/ss/
++d metrics.nationwide.co.uk /b/ss/
++d metrics.target.com /b/ss/
++d metrics.thetrainline.com /b/ss/
++d metrics.ticketmaster.com /b/ss/
+# @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
+# @@||omtrdc.net/b/ss/$image,domain=macworld.com|pcworld.com|techhive.com
+# @@||scorecardresearch.com/r2?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
+# @@||scorecardresearch.com/r?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|macworld.com|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
++d simyo.de /b/ss/
++d smetrics.target.com /b/ss/
++d smetrics.ticketmaster.com /b/ss/
++d smetrics.walmartmoneycard.com /b/ss/
++d stat.safeway.com /b/ss/
++d walmart.com /b/ss/
+# Whitelists to fix broken pages of tracking companies
+# Heatmap
+# @@||heatmap.it^$domain=heatmap.me
+# Google
+# @@||google.*/analytics/css/$~third-party
+# @@||google.*/analytics/js/$~third-party
+# @@||gstatic.com^*/analytics.js$domain=google.com

@@ -1,0 +1,2 @@
+webscr-auth.de.ki
+webupdate-us1.de.ki

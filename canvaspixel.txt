@@ -1,0 +1,26 @@
+! Title: CHEF-KOCH's Canvas Pixel Filter List
+! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.01
+! Last updated: 2018-12-02
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+||*.livestrongcdn.com/ui/images/modules/loading/pixel.gif$image
+||*/campusm/1px.gif
+||beacon01.alma.exlibrisgroup.com/boom$image
+||businessinsider.com/assets/images/transparent.gif$image
+||cdn.albumoftheyear.org/images/square.jpg$image
+||cdn.ustatik.com/*/1x1.gif$image
+||news.ycombinator.com/s.gif$image
+||pastebin.com/i/t.gif$image
+||pixel.buzzfeed.com$image
+||s.imgur.com/images/tipsy.gif$image
+||s0.wp.com/wp-content/themes/vip/techcrunch-2013/assets/images/1x1.png?resize=1%2C1$image
+||s1.huffpost.com/images/blank.gif$image
+||stcounter.com
+||visuals.guim.co.uk/thrashers/*/empty.gif$image

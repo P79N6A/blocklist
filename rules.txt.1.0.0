@@ -1,0 +1,91 @@
+[Adblock Plus 2.0]
+! Title: whtsky's rules
+! Homepage: https://github.com/whtsky/abp-rules
+! Expires: 1 days
+
+common/analytics.js$script
+
+! tsdm
+! medals
+||www.aqours.love/img01/medal/
+! groups
+||www.tsdmw.net/img01/grouplogo/
+tsdm.me##.tsdm_statbar.tsdm_pokemon
+tsdm.me##.tsdm_ship
+tsdm.me##.tsdm_ship_box
+tsdm.me###ts_weibo_wrapper
+tsdm.me###ts_sidebar_base
+||tsdm.me/weibo.html
+tsdm.me###ts_sidebar_base
+
+! pt
+###ad_belownav
+
+! 价值观
+||tracert.alipay.com
+
+||googletagmanager.com/gtag/js
+
+! baidu
+||hm.baidu.com
+||api.share.baidu.com/getnum
+||share.baidu.com/static/api/js/
+||zz.bdstatic.com/linksubmit/push.js
+||push.zhanzhang.baidu.com/push.js
+||exp.bdstatic.com/static/article/lib/share/logger
+||jingyan.baidu.com/asyncreq/log
+||fex.bdstatic.com/hunter/alog
+||bdimg.share.baidu.com/static/js/
+
+!g-cores
+||g-cores.com/originals/hit
+
+!360
+||js.passport.qihucdn.com
+||jspassport.ssl.qhimg.com
+
+!Tencent
+||pingtas.qq.com
+||pingfore.qq.com
+||tajs.qq.com
+||pingjs.qq.com
+||qq.com/cgi-bin/report
+||mta.qq.com/mta/resource/scripts/mta.tajs
+||pub.idqqimg.com/pc/misc/sentry/
+||prom.b.qq.com
+||report.b.qq.com
+
+!v2ex
+||v2ex.com/b/i/
+
+!wp-share-list
+###wp-share-list-container
+
+!pc6
+||pc6.com/statistics.php
+||pc6.com/static/api/js/share
+||pc6.com/static/api/js/view/share_view.js
+||pc6.com/static/api/js/trans/
+||pc6.com/static/api/js/component/partners.js
+||pc6.com/public/images/share.jpg
+||tongji.pc6.com
+||www.pc6.com###xyx
+
+!3dm
+||statistics.3dmgame.com
+
+!yahoo
+||full-ruler.secure.yahoo.com/js/pixie.js
+
+!闲鱼上让你下 App 的广告
+||2.taobao.com##.xy-guide
+
+!凤凰游戏
+||fhyx.com/api/shop_big.js
+
+!gamersky
+||ja1.gamersky.com
+||ja2.gamersky.com
+
+!duowan
+||duowan.com/s/statistics.js

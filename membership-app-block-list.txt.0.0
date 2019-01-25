@@ -1,0 +1,40 @@
+[Adblock Plus 2.0]
+! Title: Membership App List
+! Last modified: 09 Sep 2016 01:00 UTC
+! Homepage: https://github.com/jasonbarone/membership-app-block-list
+!
+! Please report any unblocked membership apps or problems as a Github
+! issues: (https://github.com/jasonbarone/membership-app-block-list/issues)
+! or via e-mail (jason@jasonbarone.com).
+!----!
+!----!
+!-----Membership app blocking filters--!
+!----!
+!----!
+!-----Tinypass app blocking filters--!
+cdn.tinypass.com*
+!----!
+!----!
+!-----SentryLogin app blocking filters--!
+sentrylogin.com/sentry/scripts/*
+##.Sentry_blanket
+###SentryOverlay
+!----!
+!----!
+!-----MyMemberspace app blocking filters--!
+mymemberspace.com/assets/api/*
+cdn.mymemberspace.com/*
+cdn.memberspace.com/*
+memberspace.com/member*
+###__memberspace_modal_protected_page
+###__memberspace_modal_container
+###__memberspace_modal_background
+###__memberspace_memberlogin_button
+###__memberspace_modal_iframe
+!----!
+!----!
+!-----MembershipWorks app blocking filter--!
+cdn.membershipworks.com*
+!----!
+!----!
+!

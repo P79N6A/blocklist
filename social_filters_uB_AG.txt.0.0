@@ -1,0 +1,118 @@
+! Checksum: 1PqQdQ+h/LbX1IdWKwtyLA
+! Title: Polskie Filtry Społecznościowe - Uzupełnienie do uBlocka Origin i AdGuarda
+! Polish Social Filters - Supplement for uBlock Origin & AdGuard
+! Codename: Social - Supplement
+! Collaborators: MajkiIT, blocker999, hawkeye116477, F4z, RikoDEV
+! Homepage: https://www.certyficate.it/
+! Version: 2019.1.20.1
+! Last modified: Sun, 20 Jan 2019, 22:25 UTC+01
+! Expires: 2 days
+! Support:
+!   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
+!   Discord => https://discord.me/polskiefiltry
+! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
+! Copyright © 2019 Certyficate IT & Polish Filters Team
+! Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
+! v.2019.1.20.1 aktualizacja: nie, 20 sty 2019, 22:25 UTC+01
+!
+!
+! Popupy
+apynews.pl###fb-modal, .modal-backdrop
+apynews.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.ArevicoModal, .ArevicoModal-bg
+cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.arvnoscroll:style(overflow: auto !important;)
+e-biznes.pl##.onp-sl-blur-area:style(filter: none !important;)
+e-biznes.pl##.onp-sl-outer-wrap
+mamalla.pl###myModal, .modal-backdrop
+mamalla.pl##.modal-open:style(overflow: auto !important;)
+masher.pl##html.pum-open:style(overflow: auto !important;)
+masher.pl##.popmake-overlay
+ratujemyzwierzaki.pl##.dimmer
+ratujemyzwierzaki.pl##body.dimmed:style(overflow: auto !important;)
+smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
+smaker.pl###overlay, #popup
+sprawnymarketing.pl###pop_facebook
+sprawnymarketing.pl##.blur:style(filter: none !important;)
+@@||facebook.com/*/plugins/page.php$domain=cieplikpodrozuje.pl|fashionvoyager.pl|makulscy.com,badfilter
+!
+!
+! Popupy - specjalne instrukcje
+!#if !cap_html_filtering
+alemeksyk.eu##.pwebbox-modal, .modal-backdrop
+alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
+lookcam.com###lookcam-fb-modal, .modal-backdrop
+lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+!#endif
+!#if cap_html_filtering
+alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
+lookcam.com##^#lookcam-fb-modal
+!#endif
+!#if !ext_ublock
+alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
+lookcam.com$$#lookcam-fb-modal
+!#endif
+!
+!
+! Widgety
+45minut.pl##+js(remove-attr.js, href, .carousel-inner a[href="https://www.facebook.com/45minutpl"])
+bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
+blog.wirtualnemedia.pl###social_ikons_header_fixed:style(visibility: hidden !important;)
+dobreprogramy.pl###phContent_SocialControlBottom_socialBox > .social__group_like.social__group:if-not(#phContent_SocialControlBottom_btnBookmark)
+freshfile.pl##.facebook, .google:style(visibility: hidden !important;)
+odkryjpomorze.pl##+js(nano-remove-elements-onready.js, div.span6 > map[name="Map"] > area:nth-of-type(1))
+plejada.pl##.detailContentWrapper .contentShareLeft .fb_share:style(background: transparent !important;)
+rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important;)
+waw4free.pl###spolecznosci:style(height: auto !important;)
+werandafamily.com##+js(remove-attr.js, href, .instagram-item > .link-block)
+wp.pl##.article > [class]:has(> [class] > .fb-like)
+!
+!
+! Widgety - specjalne instrukcje
+!#if !cap_user_stylesheet
+dobreprogramy.pl##.author-social-links, .content.float-right > .social, .rrssb-facebook, .rrssb-twitter, .social__group_share, .social__group_like > .social__item, #phContent_page_content .social__group_like:style(visibility: hidden !important;)
+dobreprogramy.pl##.social__group > .social__label
+f.kafeteria.pl###ipsLayout_mainArea > .ipsList_inline > li > .cShareLink
+gadzetomania.pl,fotoblogia.pl,komorkomania.pl,autokult.pl##a[href^="https://www.facebook.com/sharer.php"], [href^="http://twitter.com/intent/tweet"], [href^="http://pinterest.com/pin/create/link/"]:style(visibility: hidden !important;)
+gadzetomania.pl,fotoblogia.pl,komorkomania.pl,autokult.pl##.link-facebook, .link-youtube, .link-gplus, .link-instagram, .icon-mail:style(visibility: hidden !important;)
+purepc.pl##.article-options2
+wp.pl##.liketag, .wpsocials--buttons:style(visibility: hidden !important;)
+wp.pl,~www.wp.pl###app > div > table > tbody > tr:nth-child(1) > td > div > div > div > div > div > div > div > article > div > div > div > div[hidden]:style(position: absolute !important; left: -3000px !important;)
+!#endif
+!#if !cap_html_filtering
+azjatyckibazar.com##+js(remove-attr.js, href, .slides > li[data-duration] > a[href="http://facebook.com/azjatyckibazar"])
+homebeer.pl##+js(remove-attr.js, href|title, a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
+kamaciuch.pl##+js(remove-attr.js, href, .homeslider-container a[href="https://www.facebook.com/kamaciuch"])
+napiachu.pl##+js(remove-attr.js, href, .carousel-inner a[href="https://www.facebook.com/napiachu/"])
+!#endif
+!#if cap_html_filtering
+azjatyckibazar.com##^#heroSlider > .slides > li[data-duration]:has(a[href="http://facebook.com/azjatyckibazar"])
+homebeer.pl##^.slides > li[id]:has(a.slider-img[href="https://pl-pl.facebook.com/homebeerpl/"])
+kamaciuch.pl##^.homeslider-container:has(a[href="https://www.facebook.com/kamaciuch"])
+napiachu.pl##^.carousel-inner > .item:not(.active):has(a[href="https://www.facebook.com/napiachu/"])
+swietarodzina.pila.pl##^div.partial_staged_slideL.single_fading_slide:has-text(Skontaktuj się z nami korzystając z serwisów społecznościowych), div.slider_nav > a:nth-of-type(5)
+!#endif
+!
+!
+! Ulepszenia CSS
+autoumowa.pl##.copyright > p > a[rel="publisher"]:style(pointer-events: none !important; color: initial !important;)
+cashless.pl##.icon-list:style(margin-top: 25px !important;)
+cashless.pl##.rss-before:before:style(margin-right: 5px; display: inline-block !important; position: static !important;)
+fajnycraft.pl##.primary-menu > li:nth-of-type(n+3):style(visibility: hidden !important;)
+iab.org.pl###menu-social .menu-social:style(width: auto !important;)
+librus.pl##div.promo:style(width: 100%;)
+librus.pl###navBar:style(width: 100% !important;)
+librus.pl##.container-fluid:style(width: 100% !important;)
+ts-stars.pl##.card:style(margin-left: auto; margin-right: auto;)
+tutek.pl##.footer > .wrapper > div.row:first-of-type:style(padding: 75px 0 !important;)
+www.cba.pl##span[class="mailto-span"]:style(font-size: 25px !important;)
+www.cba.pl###footer > div > div:first-child:style(font-size: 0 !important;)
+www.purina.pl###page:style(overflow: hidden;)
+www.tvn.pl##.detail-share:style(padding-bottom: 0 !important;)
+zlotygron.pl##.site_social > span:style(display: inline-block !important; padding-top: 5px !important;)
+!
+!
+! Bugi AdGuarda
+!#if !ext_ublock
+focus.pl#?#.socializer-fb-share
+telepolis.pl##a.icon-facebook, a.icon-twitter
+!#endif

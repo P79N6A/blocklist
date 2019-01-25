@@ -1,0 +1,340 @@
+{
+  "name" : "Apps",
+  "description" : "",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "f.1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "a.1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.pwnedpasswords.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "app-updates.agilebits.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "b5n.1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "cache.agilebits.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "my.1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "op7.agilebits.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/MacOS\/1Password 7",
+      "protocol" : "tcp",
+      "remote-hosts" : "c.1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/XPCServices\/1Password Updater Service.xpc\/Contents\/Helpers\/1Password Updater.app\/Contents\/MacOS\/1Password Updater",
+      "protocol" : "tcp",
+      "remote-hosts" : "c.1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/1Password 7.app\/Contents\/XPCServices\/1Password Updater Service.xpc\/Contents\/Helpers\/1Password Updater.app\/Contents\/MacOS\/1Password Updater",
+      "protocol" : "tcp",
+      "remote-hosts" : "app-updates.agilebits.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/MacOS\/Arq",
+      "protocol" : "tcp",
+      "remote-hosts" : "s3.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/MacOS\/Arq",
+      "protocol" : "tcp",
+      "remote-hosts" : "s3.eu-central-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/MacOS\/Arq Agent",
+      "protocol" : "tcp",
+      "remote-hosts" : "s3.eu-central-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/MacOS\/Arq Agent",
+      "protocol" : "tcp",
+      "remote-domains" : "arqbackup.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.wootric.com",
+      "notes": "Tracking."
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.segment.io",
+      "notes": "Tracking."
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "beta.docker.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "cloud.docker.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "download.docker.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Hopper Disassembler v4.app\/Contents\/MacOS\/Hopper Disassembler v4",
+      "protocol" : "tcp",
+      "remote-hosts" : "d26g0vpyznfhbr.cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Hopper Disassembler v4.app\/Contents\/MacOS\/Hopper Disassembler v4",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.hopperapp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/Kindle.app\/Contents\/MacOS\/Kindle",
+      "protocol" : "tcp",
+      "remote-hosts" : "ecx.images-amazon.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Kindle.app\/Contents\/MacOS\/Kindle",
+      "protocol" : "tcp",
+      "remote-hosts" : "m.media-amazon.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Kindle.app\/Contents\/MacOS\/Kindle",
+      "protocol" : "tcp",
+      "remote-hosts" : "images-na.ssl-images-amazon.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Kindle.app\/Contents\/MacOS\/Kindle",
+      "protocol" : "tcp",
+      "remote-domains" : "amazon.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/LaunchBar.app\/Contents\/MacOS\/LaunchBar",
+      "protocol" : "tcp",
+      "remote-hosts" : "sw-update.obdev.at"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
+      "protocol" : "tcp",
+      "remote-hosts" : "sw-update.obdev.at"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/VLC.app\/Contents\/MacOS\/VLC",
+      "protocol" : "tcp",
+      "remote-hosts" : "update.videolan.org"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/MindNode.app\/Contents\/MacOS\/MindNode",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.mindnode.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "downloads.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "update.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "push.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "sync2.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "sync.omnigroup.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Pocket.app\/Contents\/MacOS\/Pocket",
+      "protocol" : "tcp",
+      "remote-hosts" : "settings.crashlytics.com",
+      "notes": "Crash reporting."
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Pocket.app\/Contents\/MacOS\/Pocket",
+      "protocol" : "tcp",
+      "remote-hosts" : "getpocket.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.google-analytics.com",
+      "notes": "Tracking."
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.sketchapp.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "gate.hockeyapp.net",
+      "notes": "Crash reporting, and tracking."
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "backend.bohemiancoding.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "download.sketchapp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.sketchapp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "secure.sparklabs.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "swupdate.sparklabs.com"
+    }
+  ]
+}

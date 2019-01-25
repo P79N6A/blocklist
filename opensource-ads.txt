@@ -1,0 +1,24 @@
+[Adblock Plus 2.0]
+! Version: 201811092305
+! Title: Open Source Advertising Exception List
+! Last modified: 09 Nov 2018 23:05 UTC
+! Expires: 1 days (update frequency)
+! 
+! Allows advertising that directly supports open source software.
+! 
+! Homepage: http://ads-for-open-source.readthedocs.io/
+! Issues: https://github.com/rtfd/ads-for-opensource/issues
+! 
+! ---------------------------Open Source Exceptions---------------------------!
+! *** lists:lists/opensource.txt ***
+! Filezilla Ads are blocked by generic rules on the EasyList
+@@ads.filezilla-project.org
+filezilla-project.org#@#.TopAd
+! --------------------------Read the Docs Exceptions--------------------------!
+! *** lists:lists/readthedocs.txt ***
+! Read the Docs Ads API
+@@||readthedocs.org/*
+! Ad cosmetic element
+readthedocs.io#@#.ethical-rtd
+
+! Checksum: Lc0jWEPYZUjvCuABPDElqQ

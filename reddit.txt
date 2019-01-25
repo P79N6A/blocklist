@@ -1,0 +1,63 @@
+! Title: CHEF-KOCH's Reddit Filter List
+! Description: A comprehensive, all-in-one Reddit list to remove tracking and cosmetical annoyance which is Reddit exclusive.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.1.02
+! Last updated: 2018-12-31
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+
+! ##.fa-reddit
+! ##.fa-reddit-square
+!m.reddit.com##.TopNav
+!reddit.com###hamburgers:style(position: absolute !important; border-bottom-color: rgba(55,60,63,.2) !important; border-bottom-style: solid !important; border-bottom-width: 1px !important;)
+!reddit.com###header-bottom-right, .TopNav, .cXhqKZ, .isJDXQ, .res-floater-belowNavbar:style(position: absolute !important;)
+!reddit.com###jumpToContent
+!reddit.com###sr-header-area:style(position: relative !important; width: 100% !important;)
+!reddit.com###uapp-banner
+!reddit.com##+js(set-constant.js,isPinned,true)
+!reddit.com##.EsNOq.s18iqatn-2, .bNRQFw, .gZyFXj, .mpkDK:style(margin-top: 0 !important;)
+!reddit.com##.KglWz, .NqIrO, .dgKnDF.s1gybndk-4.fWdlEy.ft1r9n-4, .fWdlEy, .gVypys, .ihPwni.l831nu-1, .inaQGx.ft1r9n-2:style(position: relative !important;)
+!reddit.com##.NavFrame > div:nth-of-type(2) > .TopNav > .TopButton
+!reddit.com##.NavFrame__below-top-nav:style(padding-top: 0 !important;)
+!reddit.com##.SmartBanner
+!reddit.com##.commentsignupbar.infobar
+!reddit.com##.dfp-ad-container
+!reddit.com##.ejLXgY.s1rdnkxq-4:style(margin-top: 20px !important;)
+!reddit.com##.fixed.active.read-next
+!reddit.com##.gFtNkX.s1x9jy1z-0
+!reddit.com##.gVpNUy.s9xltci-0
+!reddit.com##.keoAqg.pqvesn-2
+!reddit.com##.listingsignupbar.infobar
+!reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+!reddit.com##.res-show-link
+!reddit.com##.s1h3x34a-1
+!reddit.com##.zh2mq5-2
+!reddit.com##body:before:style(position: relative !important; height: 0 !important;)
+!||gateway.reddit.com^
+old.reddit.com##ol:style(position: static !important;)
+reddit.com###siteTable_organic
+reddit.com##.DualPartInterstitialFooter, .DualPartInterstitial__common, .DualPartInterstitial__content
+reddit.com##.TransparentOverlay, .TransparentOverlay__overlay
+reddit.com##.XPromoListingClickModal, .XPromoPill, .XPromoPopup
+reddit.com##.dSHRel.s8g432y-0
+reddit.com##.esxAEQ.pqvesn-2
+reddit.com##.mobile-web-redirect-bar
+reddit.com##.newsletter-container
+reddit.com##.promotedlink
+reddit.com##.seo-comments, .seo-comments-recommendations
+reddit.com##.splash-design.splash_wrapper, .welcome
+reddit.com##div[id^="overlay-sidebar-atf-"]
+reddit.com##div[id^="overlay-sidebar-btf-"]
+reddit.com##div[id^="sidebar-atf-"]
+reddit.com##div[id^="sidebar-btf-"]
+||alb.reddit.com^
+||events.reddit.com^
+||pixel.reddit.com^
+||reddit.com/api/request_promo.json
+||reddit.com^*.gif?$third-party
+||reddit.com^*_sponsor.png?

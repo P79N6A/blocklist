@@ -1,0 +1,77 @@
+[Adblock Plus 2.0]
+! Version: 1513507431
+! Title: Adblock Sri Lanka
+! Last modified: 12 December 2017 18:30 UTC
+! Expires: 5 days
+! RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
+! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
+! RAW: https://raw.githubusercontent.com/miyurusankalpa/adblock-list-sri-lanka/master/lkfilter.txt
+!-----------------------General advert blocking filters-----------------------!
+.lk/*/ads/
+.lk/banners/
+||g.adspeed.net
+||adsadmin.tamilmirror.lk^
+||ads.dailymirror.lk^
+||adstest.dailymirror.lk^
+||life.dailymirror.lk/ads^
+||wijeyadigital.lk/wijeyadigital.lk^
+||bestpromoslk.com^
+||codeartlove.com^
+||adbox.lk/show^
+||adlink.lk/display^
+||techkeels.com/creatives^
+||ribelz.org/ads^
+||adaderana.lk/news_banners^
+||musiclk-images.sriview.com^
+||www.strangecube.com^
+||hiru.digital/ads^
+||hiru.digital/*.gif
+||hiru.digital/*.jpg
+||www.lakhiru.org/images/*.gif
+||tv.dutunudutu.info/images/banners^
+||www.tharunaya.co.uk/Banners^
+||d3cknv5e7a99jg.cloudfront.net^
+||www.saaravita.lk/youmaylike
+||thepapare.com/wp-content/uploads/Banner-*.gif
+||cdn.sailfish.media/lb/*.png
+||static.lankadeepa.lk/dl_ads/*
+||music.lk/site_images/branding/sprite/sprite250
+||music.lk/site_images/prod/*.jpg
+||newsfirst.lk/english/wp-content/uploads*.gif
+||static.lankadeepa.lk/assets/uploads/advr_*.jpg$image
+www.ada.lk###openModal0
+www.ada.lk###frame > .main-header > .topad
+www.gossiplankanews.com###HTML7 > .title
+www.gossiplankanews.com###HTML5 > .title
+www.gossiplankanews.com##.rimage
+www.lankadeepa.lk###mid-container > .body_container > .body_rightbar > div:nth-of-type(3)
+kuppiya.lk###content > .pageWidth > .pageContent > .mainContainer > .mainContent > center
+kuppiya.lk###content > .pageWidth > .pageContent > aside > .sidebar > div:nth-of-type(2)
+kuppiya.lk###content > .pageWidth > .pageContent > center
+kuppiya.lk###content > .pageWidth > .pageContent > .sectionMain.section.discussionList > .InlineModForm.DiscussionList > .discussionListItems > center
+kuppiya.lk###messageList > li:nth-of-type(2)
+www.rivira.lk##.snp-pop-41216-overlay.fancybox-overlay
+www.rivira.lk##.fancybox-opened.snp-pop-theme_likebox-wrap.snp-pop-41216-wrap.snp-wrap.fancybox-type-inline.fancybox-desktop.fancybox-wrap
+www.ananmanan.lk###pagewrap > header > .topad4
+www.ananmanan.lk###pagewrap > header > .topad1
+www.ananmanan.lk##.container >.column-left > .h-add
+www.lankadeepa.lk###openModal0
+www.lankadeepa.lk###fancybox-overlay
+www.lankadeepa.lk###fancybox-content
+www.lankadeepa.lk###fancybox-close
+www.lankadeepa.lk###container > .ad-banner-image
+www.lankadeepa.lk###myDIV
+www.lankadeepa.lk##.adsBanner
+www.lankadeepa.lk##.*-ads
+www.lankadeepa.lk##script:contains(firstScriptTag)
+www.music.lk##body > table:nth-of-type(2) > tbody > tr:nth-of-type(1) > td > table:nth-of-type(2)
+www.lakhiru.org###main > div:nth-of-type(1)
+www.lakhiru.org###add300x250:nth-of-type(1)
+www.tharunaya.co.uk###left_box_1
+www.tharunaya.co.uk###right_1:nth-of-type(1)
+www.derana.lk###alexa2
+www.derana.lk##.in.fade.modal-backdrop
+www.derana.lk##body > .advert_type_2:nth-of-type(4)
+www.derana.lk##body > .advert_type_2:nth-of-type(3)
+geek.lk##.container > .row > .page-sidebar
+@@||www.lakhiru.org/images/new-logo.gif

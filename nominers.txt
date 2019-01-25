@@ -1,0 +1,8 @@
+﻿![Adblock Plus 2.0]
+! Title: Cryptocurrency (Bitcoin) Mining Protection List
+! Last update: 2018-20-02
+! Last modified: 2018-20-02
+! Please report any problems
+! in the forums (https://help.getadblock.com/support/home)
+!
+! Redirect: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt

@@ -1,0 +1,96 @@
+[Adblock Plus 2.0]
+! Version: 23January2019v2
+! Title: 🚪 Browse websites without logging in
+! Expires: 3 days
+!#include uBO%20list%20extensions/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
+! For more information and details about this list and other lists of mine, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! ↪️ = This category requires Redirector (http://einaregilsson.com/redirector/) and a related entry in Dandelion Sprout's Redirector List (https://github.com/DandelionSprout/adfilt/tree/master/Dandelion%20Sprout-s%20Redirector%20Assistant%20List) for the best results.
+! 📛 = This category requires using either Nano Adblocker or uBlock Origin for the best results.
+
+! Multi-domain
+##.onp-sl-inner-wrap
+##.onp-sl-outer-wrap
+##.onp-sl-social-buttons
+##.onp-sl-overlap-background
+##.onp-sl-overlap-box
+
+! Facebook
+facebook.com,facebookcorewwwi.onion###u_0_6c
+facebook.com,facebookcorewwwi.onion###u_0_6d
+facebook.com,facebookcorewwwi.onion###u_0_6e
+m.facebook.com,m.facebookcorewwwi.onion###mobile_login_bar
+m.facebook.com,m.facebookcorewwwi.onion###u_0_12
+facebook.com,facebookcorewwwi.onion###u_0_25
+facebook.com,facebookcorewwwi.onion###u_0_24
+facebook.com,facebookcorewwwi.onion###pagelet_loggedout_sign_up
+
+! Twitter
+twitter.com##.js-signup-call-out
+mobile.twitter.com##.rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61.LqlkGmch > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61._3wLZCidQ > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61:nth-of-type(2)
+mobile.twitter.com##.toast
+twitter.com##.rn-1lgpqti.rn-13qz1uu.rn-bnwqim.rn-1gmp1p.rn-1tkzxud
+twitter.com##.rn-1lgpqti.rn-ipm5af.rn-zchlnj.rn-1xcajam
+
+! Pinterest ↪️📛
+pinterest.*##.FullPageModal__scroller
+pinterest.*##div[style="background-color: rgba(0, 0, 0, 0.6); opacity: 1; position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 1000;"]
+pinterest.*##div[style="background: rgba(0, 0, 0, 0.85098); transition: height 0.5s cubic-bezier(0.26, 0.87, 0.74, 0.93); backface-visibility: hidden; bottom: 0px; color: rgb(255, 255, 255); height: 100%; position: fixed; width: 100%;"]
+pinterest.*##div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2) > div:has(.gridCentered)
+pinterest.*##footer > div > div:nth-of-type(2)
+pinterest.*##footer > div[data-test-id="giftWrap"]
+pinterest.*##.Unauth__GiftWrapper
+pinterest.*##div[class="GrowthUnauthPinImage__imageDim"]
+pinterest.*##div[class^="_4j _4l _4m "]
+
+! Pixiv ↪️📛
+pixiv.net###register-introduction-modal
+pixiv.net##.introduction-modal
+pixiv.net##.r18-image.front-centered
+
+! Sysla (A Norwegian business-tailored newssite)
+sysla.no###agreement-popup
+sysla.no##.in.fade.modal-backdrop
+sysla.no##div.in.modal-backdrop
+
+! GitHub
+github.com##.signup-prompt
+
+! Opera Addons
+addons.opera.com###overlay
+
+! Deezer
+deezer.com##.modal-wrapper
+deezer.com##.modal-backdrop
+deezer.com##.opened.modal
+
+! Instagram
+instagram.com##.Fzijm.bR_3v
+instagram.com##.ZUqME:-abp-has(a[href^="/accounts/login/"])
+! (Note to self: If these entries cease to work, replace them with "instagram.com#?#div[class*=" "]:-abp-has(> div > div > div > a[class][href^="/accounts/login/?next="][href$="&source=logged_out_half_sheet"])", as per https://github.com/DandelionSprout/adfilt/issues/25.)
+
+! Ooopic
+ooopic.com###public-mask-login
+
+! Reddit
+reddit.com##.listingsignupbar.infobar
+
+! Stack Exchange and related sites
+stackexchange.com,askubuntu.com,serverfault.com,superuser.com,mathoverflow.net,stackapps.com#?#.js-dismissable-hero:-abp-contains(Sign up)
+
+! Mr. Food
+mrfood.com###newsletterSignUpDivAnime
+mrfood.com###viewportGreyout
+mrfood.com##.in-content-container-coverage
+
+! The Clever
+theclever.com###overlay_search
+
+! Nijie ↪️📛
+nijie.info##.nijie_regist
+nijie.info##.warning_illust
+nijie.info##.twit-button
+
+! thredUP
+thredup.com##.modal-underlay
+thredup.com##.redux-modal

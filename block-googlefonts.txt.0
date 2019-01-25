@@ -1,0 +1,20 @@
+! Title: Block Google Fonts (by CrapBlock)
+! Expires: 2 days (update frequency)
+! Homepage: https://crapblock.theel0ja.info/
+!
+! Download fonts using https://github.com/theel0ja/googlefonts-loader
+
+||fonts.googleapis.com^
+
+! unbreak Material Icons and Product Sans
+@@||fonts.googleapis.com/css?family=Material+Icons
+@@||fonts.googleapis.com/icon?family=Material+Icons
+@@||fonts.googleapis.com/css?family=Product+Sans
+@@||fonts.googleapis.com/css?family=Google+Sans
+
+@@fonts.googleapis.com/css?family=*|Material+Icons
+@@fonts.googleapis.com/css?family=*|Product+Sans
+@@fonts.googleapis.com/css?family=*|Google+Sans
+
+! unbreak fonts.google.com
+@@fonts.googleapis.com$domain=google.com

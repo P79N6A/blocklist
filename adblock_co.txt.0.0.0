@@ -1,0 +1,47 @@
+[Adblock Plus 1.1]
+!
+! Title:   yecarrillo's ad-blocking subscription for Colombian sites
+! Home:    https://github.com/yecarrillo/adblock-colombia
+! License: http://www.gnu.org/licenses/gpl.html
+! Contact: https://www.laneros.com/temas/adblockers-y-lista-de-filtros-de-publicidad-para-colombia.230398
+! Version: $Id$
+!
+/pauta/*
+#div(class*=publicidad)
+mercadolibre.com.co#div(id=oasTOP)
+elespectador.com#div(class*=pauta)
+elespectador.com#div(class*=patrocinio)
+elespectador.com#div(class*=booking-losticketesmasbaratos)
+elespectador.com#div(class*=dfp_google)
+elespectador.com#div(class*=checkout)
+elespectador.com#div(id^=checkout-container)
+elespectador.com##.tp-modal
+elespectador.com##.tp-active.tp-backdrop
+tinypass.com
+eluniversal.com.co#div(id^=publicidad_superior)
+vanguardia.com#div(class*=codigos)
+vanguardia.com#div(id^=enlacesadicionales)
+wradio.com.co#div(class*=publi)
+mercadolibre.com.co#div(class*=mclics)
+www.portafolio.co#div(class*=subscribe-board)
+www.laopinion.com.co#div(class*=pauta)
+www.laopinion.com.co#div(class*=pautas_header)
+www.laopinion.com.co#div(class*=patrocinio)
+www.elcolombiano.com/#div(id^=tiquetesMasBaratos)
+www.elcolombiano.com#div(class*=carrusel_comercial)
+cdn.elespectador.co/files/*.jpg
+www.elfrente.com.co/web/imagenes/BANNER*.png
+semana.com#div(id^=AdBlockContentModal)
+semana.com#div(class*=reveal-modal-bg)
+semana.com/Scripts/Site/Site.js
+seg.eltiempo.com
+elheraldo.co##adblock-mensaje
+rcnradio.com##.ads-alert-video
+
+! 
+! MALICIOUS:
+
+! 
+! WHITELISTS
+@@.gov.co/*banners/
+@@|http://www.4-72.com.co

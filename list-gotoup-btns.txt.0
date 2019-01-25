@@ -1,0 +1,71 @@
+[Adblock Plus 2.0]
+! Title: I don't care about Go to up buttons
+! A filter list for Adblock Plus for remove "Go to up" buttons
+! Expires: 1 days
+! Homepage: https://github.com/Manu1400/i-don-t-care-about-gotoup-btns/
+!
+/wp-content/plugins/wpfront-scroll-top/
+!----------------------- Filtres génériques ----------------------!
+!
+!------------------ Éléments génériques -----------------!
+##.gotop
+###scroll_top
+##.go-top
+##.back-to-top
+!------------------ Plugins Wordpress --------------------!
+/plugins/gp-back-to-top/
+/plugins/simple-back-to-top/
+/plugins/to-top/
+/plugins/wpfront-scroll-top/
+/plugins/simple-scroll-to-top/
+/plugins/scroll-back-to-top/
+/plugins/cs-backtop/
+/plugins/ams-page-scroll-back-to-top/
+/plugins/scroll-top-advanced/
+!------------------ Images ------------------------------!
+
+!
+!----------------------- Éléments -----------------------!
+!
+tourisme-castillonpujols.fr,musee-veinazes.com##.cc-FloatingButtonBarContainer-button-scroll
+jobz.pk, hackerlists.com###move-to-top
+etourisme.info, positivr.fr##.td-scroll-up
+ideedudesir.fr, mecatran.com###toTop
+!
+pingoo.com###topcontrol
+20min.ch##.pagetop
+aeroport-baden-baden.fr###totop
+clashofclans.fr###toTopHover, #toTop, .SedoGoToTop
+webperformancetoday.com##.gototop
+keacrea.com##DIV[id="scrollTop"]
+commandersact.com##A[id="scrollUp"]
+untappedcities.com##.scroll-button
+lepoint.fr##.go-top-button
+hatvp.fr###go-top
+start.lesechos.fr##.btn-scrolltop
+toulouse.fr###scrollUp, .scrollup
+buzzfeed.com###back_to_top
+lentreprise.lexpress.fr##.scroll_to_top
+guadeloupe.franceantilles.fr##.scrollup
+silicon.fr##.single-scroll-top
+lequipe.fr##.btn-scroll-top.js-btn-scroll-top
+ter.sncf.com##.back-top
+saint-maur.com###back_top
+clashofclans.fr###toTopHover
+clashofclans.fr###toTop, .SedoGoToTop.normal.JsOnly
+blackpressusa.com###gototop
+sandre.eaufrance.fr###toTheTop
+jslefebvre.eu##.window-scrolled .footer-scroll-top
+mandmdirect.fr##.back2top
+zalando.fr##.backToTopButton
+ecoaveyron.fr##.tn-back-top
+francetvinfo.fr###backToTop
+lesjours.fr##.scroll-top-button
+plusdetrains.fr##.rt-totop
+digital.sncf.com###backtop
+! Éléments non génériques
+propelorm.org##DIV[class="jumper"]
+externatic.fr##a.up
+! Lien retour
+sibra.fr###lien-retour
+tresor.economie.gouv.fr###backToTopLink

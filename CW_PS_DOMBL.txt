@@ -1,0 +1,8 @@
+##########################################################################
+# CryptoWall Ransomware Payment Sites domain blocklist (CW_PS_DOMBL)     #
+# Generated on 2019-01-25 08:35:02 UTC                                   #
+#                                                                        #
+# For questions please refer to:                                         #
+# https://ransomwaretracker.abuse.ch/blocklist/                          #
+##########################################################################
+# 0 entries

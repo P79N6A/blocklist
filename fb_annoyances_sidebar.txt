@@ -1,0 +1,25 @@
+[Adblock Plus 2.0]
+! Checksum: nwnpBIkkjfup9I993emvKw
+! Version: 201901250822
+! Expires: 1 days
+! Title: facebook sidebar blocker
+! Homepage: http://facebook.adblockplus.me/
+! Right sidebar
+! Various suggestions/recommendations
+facebook.com##.home_right_column .ego_column.egoOrganicColumn
+facebook.com###globalContainer .ego_column.egoOrganicColumn
+facebook.com###rightCol .ego_column.egoOrganicColumn
+facebook.com##.home_right_column .pagelet.egoOrganicColumn
+facebook.com###globalContainer .pagelet.egoOrganicColumn
+facebook.com###rightCol .pagelet.egoOrganicColumn
+! "Trending" box
+facebook.com###pagelet_trending_tags_and_topics
+! "Featured Music Services" (Music feed)
+facebook.com###music_services
+! "Games Your Friends Are Playing" (Games feed)
+facebook.com##.rightColumnWrapper > ._5ksw
+facebook.com##.rightColumnWrapper > ._5ms_
+! "Game requests/invitations" 
+facebook.com##.rightColumnWrapper .fbRemindersRemove + #custom_reminders_link[data-gt*="\"appid\":\""]
+! "Recommended games"
+facebook.com###pagelet_games_rhc

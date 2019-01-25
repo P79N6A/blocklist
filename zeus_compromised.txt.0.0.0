@@ -1,0 +1,21 @@
+############################################################################
+# abuse.ch ZeuS compromised URL blocklist                                  #
+#                                                                          #
+# For questions please refer to https://zeustracker.abuse.ch/blocklist.php #
+############################################################################
+
+210.37.11.238/jm32/includes/site/bot.exe
+210.37.11.238/jm32/includes/site/config.bin
+210.37.11.238/jm32/includes/site/gate.php
+pharmaspan.com/js/MOM/config.jpg
+pharmaspan.com/js/MOM/gate.php
+teeth.co.jp/sadcxvbv/vdfbffddf.php
+vegantravelshow.com/images/secure/config.bin
+vegantravelshow.com/images/secure/gate.php
+www.basecinco.com.ar/alumno309/images/base.bin
+www.basecinco.com.ar/alumno309/images/base.exe
+www.basecinco.com.ar/alumno309/images/secure.php
+www.orquestanacaona.cult.cu/descargas/adm/gate.php
+www.orquestanacaona.cult.cu/descargas/config/orqu.bin
+www.rimmugygur.is/jaextmanager_data/rimm.bin
+www.rimmugygur.is/jaextmanager_data/secure.php

@@ -1,0 +1,601 @@
+[Adblock Plus 3.1]
+! Checksum: w/KPNcb9SnoJbuqlFKoCHg
+! Version: 201901250830
+! Title: ABP filters
+! Last modified: 25 Jan 2019 08:30 UTC
+! Expires: 1 hours (update frequency)
+! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
+!
+! Filter list designed to fight circumvention ads in Adblock Plus
+!
+! Please report any issues
+! on GitHub https://github.com/abp-filters/abp-filters-anti-cv/issues
+! or via filters+cv@adblockplus.org
+! 
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/arabic.txt ***
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/chinese.txt ***
+! baidu.com
+ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/czech.txt ***
+! #9056
+search.seznam.cz,clanky.seznam.cz##.ResultLayout-pla-wrapper
+kupi.cz##div[style="margin-bottom: -30px;"]
+kupi.cz##div[style*="background-image :"]
+kupi.cz##.static_bottom
+kupi.cz##.sklik-middle
+kupi.cz##.kupi_midle_holder
+kupi.cz##.kupi_top_holder
+kupi.cz##iframe[src^="//www.kupi.cz/sH"]
+kupi.cz###pageCutBanner_creative
+obrazky.cz###sklik-pla-original
+kupi.cz##.adts_block
+sport.cz##.produkt
+novinky.cz##div[id^="skyscraper"]
+sport.cz,super.cz###container-combi
+super.cz##iframe[width="971"][height="309"]
+sport.cz##iframe[width="100%"][height="299"]
+super.cz##img[src*="www.super.cz/uL"]
+sport.cz##img[src*="www.sport.cz/uL"]
+super.cz##iframe[width="100%"][height="186"]
+super.cz,sport.cz##iframe[width="100%"][height="254"]
+novinky.cz,super.cz##iframe[scrolling="no"][id]
+super.cz##div[id*="_plch"]
+super.cz##div[style="width: 968px; height: 311px;"]
+super.cz##iframe[class][src^="//www.super.cz/qE"][scrolling="no"]
+super.cz##iframe[width="100%"][height][style="display: block;"]
+sport.cz##iframe[scrolling="no"][src*="%2Fwww.sport.cz%2F"]
+super.cz##div[id*="chaoz"]
+sport.cz##iframe[class*="amchrn"]
+super.cz##iframe[src*="SEZNAM"]
+sport.cz##iframe[class][scrolling="no"][src^="//www.sport.cz/"]
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/danish.txt ***
+! #8479
+radio.dk#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/dutch.txt ***
+! #8479
+ajaxshowtime.com,f1maximaal.nl,notebookcheck.nl#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/english.txt ***
+! #8479
+notebookcheck.net,pons.com,radio.net#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! #9276
+yandex.com#$#hide-if-contains ad li.serp-item 'li.serp-item div.label'
+! #9272
+||*x2eofu*.g00.webmd.com^$script,domain=webmd.com
+@@||boston.com$generichide,genericblock
+@@||webmd.com$generichide,genericblock
+@@||edmunds.com$generichide,genericblock
+@@||slickdeals.net$generichide,genericblock
+@@||101x.com$generichide,genericblock
+dayzdb.com,allakhazam.com###ds_default_anchor
+dayzdb.com,allakhazam.com##[x-enc="id"]
+allakhazam.com##.ds_cpp
+allakhazam.com###row-top
+allakhazam.com###horizontal-bg
+allakhazam.com###ZAM_Vertical_ATF
+allakhazam.com###ZAM_Horizontal_ATF
+allakhazam.com,101x.com,1070thefan.com##[amp4ads]
+allakhazam.com##div[id^="-cbjjbgz_vyn_damvhz_/87247385"]
+101x.com,1070thefan.com,klbjfm.com##[data-size="970x90"]
+101x.com,1070thefan.com,klbjfm.com##[data-size="300x250"]
+101x.com##div[id^="-hrzzrwp_lod_tqclxp_/7843"]
+1070thefan.com##div[id^="-rqyyqvo_knc_spbkwo_/6732"]
+1070thefan.com###sitewrap
+klbjfm.com##div[id^="-bzhhzex_twl_byktfx_/5621"]
+klbjfm.com##[data-position]
+klbjfm.com###taw0
+boston.com##[name^="-gxffxcv_ruj_zwirdv_/38058326"]
+boston.com##[data-placement-name="Mid Main Column Stream"]
+boston.com##div[style*="width: 300px; height: 250px;"]
+boston.com##[data--sjm-dwrc]
+boston.com##[data--sps-jcxi]
+boston.com##div[id^="-dudh"]
+boston.com##[data--dor-ibwh^="sectfront"]
+boston.com##[data--meaprtbtci-cpbt="Below Article Thumbnails"]	
+cafemom.com##div[id^="-muccuzs_org_wtfoas_/7495"]
+cbssports.com##div[id^="-nsaasxq_mpe_urdmyq_/0486"]
+cbssports.com,metrolyrics.com##[data-ad]
+chicagotribune.com##div[style*="width: 500px; height: 1100px;"]
+chicagotribune.com##[data-role="adloader adloader_ad delayload delayload_done"]
+cnet.com##div[id^="-eweewbu_qti_yvhqcu_/4820"]
+cnet.com##[data-ad="incontent-ad-plus-billboard-top"]
+cnet.com##[data-component="taboola"]
+cnet.com###glade-aslot-1
+cnet.com##[data-ad-cid]
+cnet.com##.sticky-leader
+cnet.com##[data-placement-name="article desktop Below Article Thumbnails Article Redesign"]
+cnet.com##[data-placement-name="section_door desktop Right Rail Thumbnails"]
+chowhound.com##div[id^="-flttlqj_fix_nkwfrj_3719"]
+chowhound.com##[id="leader_plus_top"]
+cbssports.com,chowhound.com,metacritic.com,cnet.com##.clrm-cw-outer
+chowhound.com###leader_bottom
+chowhound.com###glade-aslot-1
+chowhound.com##[data-placement-name="Desktop debates Right Rail Gallery Thumbnails"]
+chron.com##div[id^="-muccuzs_org_wtfoas_/70551046"]
+dailypress.com##div[style*="width: 500px; height: 1230px;"]
+emedicinehealth.com##.-bps_eaprtwdastg.-bps
+edmunds.com##[data-tracking-parent="edm-entry-home-vehicle-showcase"]
+edmunds.com##[data-tracking-parent="edm-featured-spotlight-ad"]
+edmunds.com##div[id^="-naiiafy_uxm_czlugy_75548861"]
+edmunds.com##div[class^="-nzyunolyx"]
+edmunds.com##img[class^="jellybeen"]
+edmunds.com##.pb-3.row
+edmunds.com##div[style="width: 368px;"]
+everydayhealth.com##div[id^="-etbbtyr_nqf_vsenzr_/7546"]
+everydayhealth.com##.-egr-xitb-lgpeetg
+everydayhealth.com##.gmc-recommendation
+everydayhealth.com##.rc-item
+everydayhealth.com##[data-adsize]
+everydayhealth.com##[title="Advertisement"]
+gamespot.com##.tynt_close_button_circle
+gamespot.com##.tynt-sidebar-content
+gamespot.com##.tynt-interstitial-overlay
+gamespot.com###leader_plus_top-wrap
+gamespot.com###leader_plus_top
+gamespot.com##[data-placement-name="front_door Right Rail Thumbnails"]
+gamespot.com##[data-placement-name="front_door Below Main Column Thumbnails"]
+gamepedia.com##div[id^="cdm-zone"]
+gamepedia.com##div[id^="-pzhhzex_twl_byktfx_/47298866"]
+geek.com##div[id^="-mxffxcv_ruj_zwirdv_/1252"]
+geek.com##.-mlqdsqzfufk
+metacritic.com##div[id^="-osaasxq_mpe_urdmyq_/0486"]
+metacritic.com##div[class^="amzn-native-container"]
+metacritic.com##.leader
+metacritic.com##[data-placement-name="desktop front_door Below Main Column Thumbnails"]
+metacritic.com##.side_recommend
+metacritic.com##[data-placement-name="desktop product_overview Right Rail Thumbnails"]
+metacritic.com##[data-placement-name="desktop product_overview Below Content Thumbnails"]
+metacritic.com##.-ewz_qjep
+mustangandfords.com##div[id^="-drzzrwp_lod_tqclxp_/4944"]
+mcall.com###-fliqqing_kocig_fkx
+mcall.com##.-flvtd_jgcfgt_cfDcppgt_eqodq
+medicinenet.com##iframe[height="200"]
+medicinenet.com##.stickyColRight
+medicinenet.com##.stickyColLeft
+medicinenet.com##div[id^="-kbjjbgz_vyn_damvhz_/5423545"]
+metrolyrics.com##div[id^="-nsaasxq_mpe_urdmyq_/0486"]
+mamaslatinas.com##div[id^="-mtbbtyr_nqf_vsenzr_/6384"]
+mamaslatinas.com##.sidebar
+mysanantonio.com##div[id^="-muccuzs_org_wtfoas_/70551046"]
+narcity.com##div[id^="-mjrrjoh_dgv_liudph_/4353693"]
+narcity.com##div[class^="lbtop"]
+pcmag.com##div[id^="-gzhhzex_twl_byktfx_/3474"]
+pcmag.com##iframe[style="border: 0px; display: block; width: 1070px; height: 250px;"]
+ranker.com##div[id^="-niqqing_cfu_khtcog_/3282828"]
+streetchopperweb.com##div[style*="width: 970px; height: 250px;"]
+sfgate.com##div[id^="-niqqing_cfu_khtcog_/58339824"]
+sportingnews.com##[data-parent-placement-name="Below Article Thumbnails Feed"]
+sportingnews.com##.trc_elastic_videoCube_thumbBlock
+sportingnews.com##[data-placement="Top_Banner"]
+sportingnews.com##[data-ad-type="Section_Fronts"]
+sportingnews.com##div[id^="-gbjjbgz_vyn_damvhz_/78081392"]
+seattlepi.com##.ntvClickOut
+seattlepi.com##div[id^="wrapperLink"]
+seattlepi.com##[data-adid]
+seattlepi.com##div[id^="NTV"]
+seattlepi.com##div[id^="-pojshhwj"]
+seattlepi.com##div[id^="-pvddvat_psh_xugpbt_/81662157"]
+spox.com##[data-feed-main-container-id="taboola-below-article-thumbnails"]
+spox.com###sdg_rectangle_anz
+spox.com###-yqcyMlyypcLo
+spox.com##div[id^="-vpxxpun_jmb_roajvn_3333"]
+spox.com##div[id^="-ztbbtyr_nqf_vsenzr_90203514"]
+saltwatersportsman.com##[alt="Advertisement"]
+slickdeals.net##.sideGridBox.abc
+slickdeals.net##div[id^="-duccuzs_org_wtfoas_/5440485"]
+slickdeals.net##div[class^="rightRailPlacement"]
+slickdeals.net##div[id^="-dwyluq"]
+slickdeals.net###giveawayItem
+slickdeals.net##.giveawayImageWrapper
+slickdeals.net##[data-adlocation]
+sportingnews.com##.-mor-hcd.module
+sportingnews.com##div[id^="-gsaasxq_mpe_urdmyq_/89192403"]
+thoughtcatalog.com##.is-initialized
+thoughtcatalog.com##[data-ad-unit="MRec_Article_Above_Fold"]
+thoughtcatalog.com###aswift_0
+thoughtcatalog.com###-moribwh
+thoughtcatalog.com##.-mhqt-or-ibwh
+thoughtcatalog.com##[data-dcm-placement]
+thoughtcatalog.com##[data-ad-id]
+thoughtcatalog.com##div[id^="-hksskpi_ehw_mjveqi_/6766380"]
+thoughtcatalog.com##ins[id^="-hogkwth"]
+thoughtcatalog.com##iframe[width="330"]
+tv.com###headerleader
+tv.com###leader_bottom
+tv.com##iframe[width="300"]
+tv.com##div[id^="-dsaasxq_mpe_urdmyq_/0486"]
+tvguide.com##div[id^="-naiiafy_uxm_czlugy_/8264"]
+tvguide.com##div[data-placement]
+tvguide.com###leader_middle_flex
+webmd.com###ContentPane10
+webmd.com##[class="main-container main-container-3"]
+webmd.com##.container.global-container-1
+webmd.com,thoughtcatalog.com,mcall.com###mys-wrapper
+webmd.com##iframe[width="160"][height="600"]
+webmd.com##div[style="width: 300px; height: 250px;"]
+webmd.com##div[style="width: 300px; height: 600px;"]
+webmd.com##[data-block-codes]
+webmd.com##div[id^="-bxffxcv_ruj_zwirdv_/1089101"]
+webmd.com#?#.wrapper:-abp-has(div:-abp-contains(Sponsored ads))
+webmd.com##[data-str-native-key]
+g00.webmd.com##body > div
+workingmother.com##[data-parent-placement-name="Below Article Thumbnails"]
+workingmother.com##.ntv-box
+yachtingmagazine.com,saltwatersportsman.com##.ds_cpp_inner
+marlinmag.com,sportdiver.com##.st-block.markdown.ntv-disclaimer
+scubadiving.com##[class="linkTargets-processed external"]
+chicagotribune.com##[data--dorzcorsf-dcgwhwcb="leaderboardcombo"]
+metacritic.com,sportingnews.com##.-mor_ibwh
+workingmother.com,streetchopperweb.com##[data-placement-name="Below Gallery Thumbnails"]
+southflorida.com,courant.com##[data-placement-name^="below-article-thumbs"]
+wakeboardingmag.com,saltwatersportsman.com,yachtingmagazine.com,marlinmag.com,scubadiving.com##.ntv-entry
+chicagotribune.com,citypaper.com,courant.com,ctnow.com,dailypress.com##.trb_ar_rail
+boston.com,metacritic.com,thoughtcatalog.com,dayzdb.com,allakhazam.com##iframe[width="728"]
+boston.com,sportingnews.com##[data-placement-name="Below Article Thumbnails"]
+boston.com,capitalgazette.com,carrollcountytimes.com,courant.com,ctnow.com,growthspotter.com,lajollalight.com,metacritic.com,ranchosantafereview.com,sandiegouniontribune.com,southflorida.com,thoughtcatalog.com,dayzdb.com,allakhazam.com##iframe[width="300"]
+chicagotribune.com,ctnow.com,ranchosantafereview.com,sandiegouniontribune.com##[data-placement-name="below-article-thumbs"]
+chicagotribune.com,carrollcountytimes.com,ctnow.com,citypaper.com,growthspotter.com,ranchosantafereview.com###-dbjjbgz_dhvbz_ydq
+101x.com,1070thefan.com,americanphotomag.com,atvrider.com,baggersmag.com,boatingmag.com,chowhound.com,cnet.com,cruisingworld.com,cycleworld.com,destinationweddingmag.com,dirtrider.com,diversitybestpractices.com,emedicinehealth.com,everydayhealth.com,fieldandstream.com,floridatravellife.com,flyingmag.com,gamespot.com,hearthhead.com,hotbikeweb.com,islands.com,kgsr.com,klbjfm.com,lolking.net,marlinmag.com,medicinenet.com,motorcyclecruiser.com,motorcyclistonline.com,mustangandfords.com,popphoto.com,range365.com,saltwatersportsman.com,saveur.com,scubadiving.com,scubadivingintro.com,sportdiver.com,sportfishingmag.com,sportingnews.com,sportrider.com,superstreetbike.com,tv.com,tvguide.com,utvdriver.com,wakeboardingmag.com,waterskimag.com,webmd.com,workingmother.com,seattlepi.com,yachtingmagazine.com##[data-google-query-id]
+americanphotomag.com,atvrider.com,baggersmag.com,boatingmag.com,chowhound.com,cnet.com,cruisingworld.com,cycleworld.com,destinationweddingmag.com,dirtrider.com,diversitybestpractices.com,fieldandstream.com,floridatravellife.com,flyingmag.com,gamespot.com,hotbikeweb.com,islands.com,lolking.net,marlinmag.com,motorcyclecruiser.com,motorcyclistonline.com,mustangandfords.com,popphoto.com,range365.com,saltwatersportsman.com,saveur.com,scubadiving.com,scubadivingintro.com,sportdiver.com,sportfishingmag.com,sportrider.com,superstreetbike.com,tv.com,tvguide.com,utvdriver.com,wakeboardingmag.com,waterskimag.com,seattlepi.com,yachtingmagazine.com##.trc_elastic
+americanphotomag.com,atvrider.com,baggersmag.com,boatingmag.com,cruisingworld.com,cycleworld.com,destinationweddingmag.com,dirtrider.com,diversitybestpractices.com,fieldandstream.com,floridatravellife.com,flyingmag.com,hotbikeweb.com,islands.com,marlinmag.com,motorcyclecruiser.com,motorcyclistonline.com,outdoorlife.com,popphoto.com,range365.com,saltwatersportsman.com,saveur.com,scubadiving.com,scubadivingintro.com,sportdiver.com,sportfishingmag.com,sportrider.com,streetchopperweb.com,superstreetbike.com,utvdriver.com,wakeboardingmag.com,waterskimag.com,workingmother.com,yachtingmagazine.com##[id^="ntv"]
+americanphotomag.com,atvrider.com,baggersmag.com,boatingmag.com,cruisingworld.com,cycleworld.com,destinationweddingmag.com,dirtrider.com,diversitybestpractices.com,fieldandstream.com,floridatravellife.com,flyingmag.com,hotbikeweb.com,islands.com,marlinmag.com,motorcyclecruiser.com,motorcyclistonline.com,outdoorlife.com,popphoto.com,range365.com,saltwatersportsman.com,saveur.com,scubadiving.com,scubadivingintro.com,sportdiver.com,sportfishingmag.com,sportrider.com,streetchopperweb.com,superstreetbike.com,utvdriver.com,wakeboardingmag.com,waterskimag.com,workingmother.com,yachtingmagazine.com,webmd.com,everydayhealth.com##[data-google-container-id]
+americanphotomag.com,atvrider.com,baggersmag.com,boatingmag.com,cruisingworld.com,cycleworld.com,destinationweddingmag.com,dirtrider.com,diversitybestpractices.com,fieldandstream.com,floridatravellife.com,flyingmag.com,hotbikeweb.com,islands.com,marlinmag.com,motorcyclecruiser.com,motorcyclistonline.com,outdoorlife.com,popphoto.com,range365.com,saltwatersportsman.com,saveur.com,scubadiving.com,scubadivingintro.com,sportdiver.com,sportfishingmag.com,sportrider.com,streetchopperweb.com,superstreetbike.com,utvdriver.com,wakeboardingmag.com,waterskimag.com,workingmother.com,yachtingmagazine.com##div[id^="-eiqqing_cfu_khtcog_/8969"]
+americanphotomag.com,atvrider.com,baggersmag.com,baltimoresun.com,boston.com,boatingmag.com,carrollcountytimes.com,cbssports.com,chowhound.com,cnet.com,cruisingworld.com,ctnow.com,dailypress.com,destinationweddingmag.com,diversitybestpractices.com,edmunds.com,emedicinehealth.com,everydayhealth.com,fieldandstream.com,floridatravellife.com,flyingmag.com,gamepedia.com,growthspotter.com,hotbikeweb.com,hoylosangeles.com,islands.com,klbjfm.com,lajollalight.com,marlinmag.com,mcall.com,motorcyclecruiser.com,motorcyclistonline.com,outdoorlife.com,popphoto.com,ranchosantafereview.com,range365.com,ranker.com,saltwatersportsman.com,sandiegouniontribune.com,saveur.com,scubadiving.com,scubadivingintro.com,sfgate.com,slickdeals.net,southflorida.com,sportdiver.com,sportfishingmag.com,sportingnews.com,sportrider.com,streetchopperweb.com,sun-sentinel.com,superstreetbike.com,thoughtcatalog.com,utvdriver.com,vagazette.com,wakeboardingmag.com,waterskimag.com,workingmother.com,yachtingmagazine.com,narcity.com,cafemom.com#$#abort-on-property-read I10C
+chron.com,vg.no,extremetech.com,seattlepi.com,sfgate.com#$#abort-on-property-read I11C
+chicagotribune.com,baltimoresun.com,sandiegouniontribune.com,sun-sentinel.com,courant.com,mcall.com,mamaslatinas.com,dailypress.com,hoylosangeles.com,carrollcountytimes.com,southflorida.com,ctnow.com,citypaper.com,lajollalight.com,growthspotter.com,ranchosantafereview.com,seattlepi.com,orlandosentinel.com##.ntv-plc
+chicagotribune.com,baltimoresun.com,sandiegouniontribune.com,sun-sentinel.com,courant.com,mcall.com,mamaslatinas.com,dailypress.com,hoylosangeles.com,carrollcountytimes.com,southflorida.com,ctnow.com,citypaper.com,lajollalight.com,growthspotter.com,ranchosantafereview.com,seattlepi.com,orlandosentinel.com##div[draggable="false"]
+chicagotribune.com,sun-sentinel.com,courant.com,mcall.com,dailypress.com,hoylosangeles.com,carrollcountytimes.com,southflorida.com,ctnow.com,citypaper.com,growthspotter.com##aside[class^="-gecm_mcvc_ye"]
+chicagotribune.com,sun-sentinel.com,courant.com,mcall.com,dailypress.com,hoylosangeles.com,carrollcountytimes.com,southflorida.com,ctnow.com,citypaper.com,growthspotter.com,seattlepi.com,orlandosentinel.com##div[style="display: inline-block;"]
+chicagotribune.com,sun-sentinel.com,courant.com,mcall.com,dailypress.com,hoylosangeles.com,carrollcountytimes.com,southflorida.com,ctnow.com,citypaper.com,growthspotter.com,orlandosentinel.com##div[id^="-gsaasxq_mpe_urdmyq_/6233"]
+cycleworld.com,superstreetbike.com,scubadiving.com,popphoto.com,sportdiver.com,marlinmag.com,yachtingmagazine.com,americanphotomag.com##[data-placement-name="Below Article Thumbnails"]
+sportfishingmag.com,saveur.com,cruisingworld.com##[data-placement-name="Below Gallery Thumbnails"]
+boston.com,chowhound.com,mysanantonio.com,spox.com,cnet.com,gamespot.com,metacritic.com,tv.com,tvguide.com,seattlepi.com,cbssports.com##[observeid]
+floridatravellife.com##[data-parent-placement-name="Below Article Thumbnails"]
+floridatravellife.com##[data-feed-main-container-id="taboola-placement-2"]
+! #9274
+||readlightnovel.org^$csp=script-src 'self' *
+||thecelticblog.com^$csp=script-src 'self' * 'unsafe-inline'
+||vidmax.com^$csp=script-src 'self' * 'unsafe-inline'
+||videocelts.com^$csp=script-src 'self' * 'unsafe-inline'
+||asheepnomore.net^$csp=script-src 'self' * 'unsafe-inline'
+||debka.com^$csp=script-src 'self' * 'unsafe-inline'
+||downsub.com^$csp=script-src 'self' *
+||hiphopearly.com^$csp=script-src 'self' * 'unsafe-inline'
+||machinenoveltranslation.com^$csp=script-src 'self' * 'unsafe-inline'
+||readarsenal.com^$csp=script-src 'self' * 'unsafe-inline'
+||readliverpoolfc.com^$csp=script-src 'self' * 'unsafe-inline'
+||toptenz.net^$csp=script-src 'self' * 'unsafe-inline'
+eurweb.com,fullmatchesandshows.com,convert-me.com,emathhelp.net,gorillavid.in,kshowonline.com,meta-chart.com,virtualjerusalem.com,youtubeonrepeat.com,jspuzzles.com,nysun.com,readarsenal.com,walterfootball.com#$#abort-on-property-read TextDecoder
+tetrisfriends.com,movpod.in,humansarefree.com,ludokado.com,toptenz.net#$#abort-current-inline-script atob TextDecoder
+! #10385
+@@||orbitfour47.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||d4orbital.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||wfghrgscs.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||dgergrwre.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||regdsvee.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||etxbcbdhf.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||qetstdbssdvs.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||gtsgdddss.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||zcrfefgrg.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||pjdhfwe.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||23rsdsfdsf.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||ligssadfd.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||wqtdtstdxg.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||ioghdgdgss.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||tjdasfdssd.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||ojujyjjgg.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||ofgbefrhs.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@||erteesffesf.com^$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+@@/adfetch.png|$image,domain=thefreethoughtproject.com|kdramastars.com|opednews.com|naturalblaze.com|dailyheadlines.net|godfatherpolitics.com|musictimes.com|foreverymom.com|natureworldnews.com|latinpost.com|barbwire.com|hngn.com|enstarz.com|redmaryland.com|girlsjustwannahaveguns.com|realtytoday.com|freedomforce.com|vcpost.com|lastresistance.com|deneenborelli.com|themattwalshblog.com|politicaloutcast.com|politichicks.com|bestfunnyjokes4u.com|tosavealife.com|visiontoamerica.com|jobsnhire.com|classicalite.com|youthhealthmag.com|quirlycues.com|dailysurge.com|practicallyviral.com|hispolitica.com|allthingsvegas.com|craigjames.com|bighealthreport.com|patriotoutdoornews.com|juicerhead.com|hautereport.com|shedthoselbs.com|cheapism.com|cheatsheet.com|funnyand.com|gamersheroes.com|grammarist.com|madworldnews.com|o4anews.com|rollingout.com|supercheats.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thepolitistick.com|threepercenternation.com|universityherald.com|wakingtimes.com|realmomsrealreviews.com|viralnova.com|4chan.org|infowars.com|lifebuzz.com|techtimes.com|thelibertydaily.com|100percentfedup.com|freedomoutpost.com|faithit.com|clashdaily.com|kpopstarz.com|videogamesblogger.com|eaglerising.com|naturalsociety.com|comicallyincorrect.com|lidblog.com|theblacksphere.net|sonsoflibertymedia.com|libertyunyielding.com|parentherald.com|shark-tank.com|reviveusa.com|bulletsfirst.net|techconsumer.com|gamer4k.com|hackspirit.com|newser.com|politicalcowboy.com|readysethealth.com|thealternativedaily.com|chicksonright.com|rightwingtribune.com|americasfreedomfighters.com|beforeitsnews.com|bigleaguepolitics.com|greatamericanrepublic.com|whatfinger.com|fitnessconnoisseur.com|bizpacreview.com|canadafreepress.com
+infowars.com,lifebuzz.com,techtimes.com,thefreethoughtproject.com,thelibertydaily.com,100percentfedup.com,freedomoutpost.com,faithit.com,clashdaily.com,kpopstarz.com,videogamesblogger.com,eaglerising.com,naturalsociety.com,comicallyincorrect.com,lidblog.com,kdramastars.com,opednews.com,naturalblaze.com,dailyheadlines.net,godfatherpolitics.com,musictimes.com,foreverymom.com,theblacksphere.net,natureworldnews.com,sonsoflibertymedia.com,latinpost.com,barbwire.com,hngn.com,libertyunyielding.com,enstarz.com,redmaryland.com,girlsjustwannahaveguns.com,parentherald.com,realtytoday.com,shark-tank.com,freedomforce.com,vcpost.com,lastresistance.com,deneenborelli.com,themattwalshblog.com,politicaloutcast.com,politichicks.com,bestfunnyjokes4u.com,tosavealife.com,visiontoamerica.com,reviveusa.com,jobsnhire.com,classicalite.com,youthhealthmag.com,quirlycues.com,dailysurge.com,bulletsfirst.net,practicallyviral.com,hispolitica.com,techconsumer.com,allthingsvegas.com,craigjames.com,bighealthreport.com,patriotoutdoornews.com,fitnessconnoisseur.com,juicerhead.com,hautereport.com,realmomsrealreviews.com,shedthoselbs.com,americasfreedomfighters.com,beforeitsnews.com,bigleaguepolitics.com,bizpacreview.com,canadafreepress.com,cheapism.com,cheatsheet.com,chicksonright.com,funnyand.com,gamer4k.com,gamersheroes.com,grammarist.com,greatamericanrepublic.com,hackspirit.com,madworldnews.com,newser.com,o4anews.com,politicalcowboy.com,readysethealth.com,rightwingtribune.com,rollingout.com,supercheats.com,survivalnation.com,thealternativedaily.com,thehayride.com,thepolitistick.com,threepercenternation.com,universityherald.com,viralnova.com,wakingtimes.com,whatfinger.com#$#abort-current-inline-script MutationObserver compareDocumentPosition
+4chan.org#?#div :-abp-has(div > div > div:-abp-contains(Paid Content:) + div)
+techtimes.com#?#.bk-side-sub > div:-abp-contains(Paid Content:)
+lidblog.com,canadafreepress.com,americasfreedomfighters.com,bulletsfirst.net,libertyunyielding.com,sonsoflibertymedia.com,rightwingtribune.com,newser.com,readysethealth.com,freedomoutpost.com,thelibertydaily.com,techtimes.com,lifebuzz.com,politicalcowboy.com#?#div > div:-abp-has(div:-abp-contains(Paid Content:) + div:-abp-contains(Paid Content:)+ div:-abp-contains(Paid Content:)+ div:-abp-contains(Paid Content:)+ div:-abp-contains(Paid Content:)) + div
+thelibertydaily.com,lifebuzz.com#?#div > div:-abp-has(div:-abp-contains(Paid Content:) + div:-abp-contains(Paid Content:)+ div:-abp-contains(Paid Content:)+ div:-abp-contains(Paid Content:)+ div:-abp-contains(Paid Content:))
+freedomoutpost.com#?#.main-nav-bar.header-layout-left-logo + div:-abp-has(div:-abp-contains(Paid Content:))
+freedomoutpost.com#?#.sidebar-inner > div:-abp-has(div:-abp-contains(Paid Content:))
+freedomoutpost.com#?#.tpd-banner-ad-b + div:-abp-has(div:-abp-contains(Paid Content:))
+clashdaily.com#?#.essb_break_scroll + div:-abp-has(div:-abp-contains(Paid Content:))
+clashdaily.com#?#.clearfix + div:-abp-has(div:-abp-contains(Paid Content:))
+parentherald.com#?#.ph-side > div:-abp-has(div:-abp-contains(Paid Content:))
+parentherald.com#?#.article.m-media + div:-abp-has(div:-abp-contains(Paid Content:))
+gamer4k.com#?#.post-title-box > div:-abp-has(div:-abp-contains(Recommended:))
+hackspirit.com#?#.td-post-content + div:-abp-has(div:-abp-contains(Paid Content:))
+thealternativedaily.com#?#.td-ss-main-sidebar > div:-abp-has(div:-abp-contains(Paid Content:))
+thealternativedaily.com#?#.td-ss-main-content + div:-abp-has(div:-abp-contains(Paid Content:))
+100percentfedup.com#?#.wpdev-logo.row + div:-abp-has(div:-abp-contains(Paid Content:))
+100percentfedup.com#?#.widget.widget_text.enhanced-text-widget + div:-abp-has(div:-abp-contains(Paid Content:))
+100percentfedup.com#?#.entry-content + div:-abp-has(div:-abp-contains(Paid Content:))
+infowars.com#?#.related-articles +div + script + div:-abp-has(div:-abp-contains(Paid Content:))
+chicksonright.com#?#.td-main-sidebar > div:-abp-has(div:-abp-contains(Paid Content:))
+chicksonright.com#?#.mashsb-container + div:-abp-has(div:-abp-contains(Paid Content:))
+techconsumer.com#?#.sidebar-primary.widget-area > div:-abp-has(div:-abp-contains(Paid Content:))
+techconsumer.com#?#.entry-footer > div:-abp-has(div:-abp-contains(Paid Content:))
+reviveusa.com#?#.sidebar-wrapper > div:-abp-has(div:-abp-contains(Paid Content:))
+reviveusa.com#?#.top-posts + div:-abp-has(div:-abp-contains(Paid Content:))
+reviveusa.com#?#.status-publish + div:-abp-has(div:-abp-contains(Paid Content:))
+lidblog.com,eaglerising.com,bigleaguepolitics.com,sonsoflibertymedia.com###revere-report-widget
+theblacksphere.net#?#.td-ss-main-sidebar > div:-abp-has(div:-abp-contains(Paid Content:))
+theblacksphere.net#?#.td-header-menu-wrap-full + div:-abp-has(div:-abp-contains(Paid Content:))
+theblacksphere.net#?#p#comments > div:-abp-has(div:-abp-contains(Paid Content:))
+libertyunyielding.com#?#a[href="/web-crawler"] > div:-abp-has(div:-abp-contains(Paid Content:))
+greatamericanrepublic.com#?#.td-post-content + div:-abp-has(div:-abp-contains(Paid Content:))
+greatamericanrepublic.com#?#.tpd-banner-ad-b + div:-abp-has(div:-abp-contains(Paid Content:))
+greatamericanrepublic.com##.tpd-box-ad-a
+whatfinger.com#?#div#top-box + div:-abp-has(div:-abp-contains(Paid Content:))
+whatfinger.com#?#.wpb_wrapper > div:-abp-has(div:-abp-contains(Paid Content:))
+beforeitsnews.com##.ad_left
+beforeitsnews.com##.ad_sidebar
+beforeitsnews.com#?#div#body + div:-abp-has(div:-abp-contains(Paid Content:))
+bigleaguepolitics.com#?#header#mvp-main-head-wrap + div:-abp-has(div:-abp-contains(Paid Content:))
+bigleaguepolitics.com#?#div#mvp-side-wrap > div:-abp-has(div:-abp-contains(Paid Content:))
+bigleaguepolitics.com#?#div#mvp-content-main > div:-abp-has(div:-abp-contains(Paid Content:))
+shark-tank.com#?#.site-top.clearfix + div:-abp-has(div:-abp-contains(Paid Content:))
+shark-tank.com#?#div#hunted_customsearchwidget-2 + div:-abp-has(div:-abp-contains(Paid Content:))
+fitnessconnoisseur.com#?#.sidebar.widget-area > div:-abp-has(div:-abp-contains(Paid Content:))
+fitnessconnoisseur.com#?#.post-meta + div:-abp-has(div:-abp-contains(Paid Content:))
+bizpacreview.com##.col-md-4.sidebar
+bizpacreview.com#?#.code-block.code-block-51 > center > div:-abp-has(div:-abp-contains(Paid Content:))
+faithit.com#?#.tm-secondary > div:-abp-has(div:-abp-contains(Paid Content:))
+faithit.com#?#.dbwk + div:-abp-has(div:-abp-contains(Paid Content:))
+kpopstarz.com#?#.adunit_rectangle + div:-abp-has(div:-abp-contains(Paid Content:))
+kpopstarz.com#?#.nwletter + span > div:-abp-has(div:-abp-contains(Paid Content:)) + div
+videogamesblogger.com#?#div#sideBarContent >  div:-abp-has(div:-abp-contains(Paid Content:))
+videogamesblogger.com#?#div#nav-below + div:-abp-has(div:-abp-contains(Paid Content:))
+eaglerising.com#?#.main-navigation + div:-abp-has(div:-abp-contains(Paid Content:))
+eaglerising.com#?#.entry-content + div:-abp-has(div:-abp-contains(Paid Content:))
+eaglerising.com#?#.tpd-box-ad-a + div + div:-abp-has(div:-abp-contains(Paid Content:))
+naturalsociety.com#?#.widget.subscribebox > div:-abp-has(div:-abp-contains(Paid Content:))
+naturalsociety.com#?#.dpsp-content-wrapper + div:-abp-has(div:-abp-contains(Paid Content:))
+comicallyincorrect.com#?#.site-header.flexbox + div:-abp-has(div:-abp-contains(Paid Content:))
+comicallyincorrect.com#?#.widget_search > div:-abp-has(div:-abp-contains(Paid Content:))
+comicallyincorrect.com#?#.article__meta.article--single__meta + div:-abp-has(div:-abp-contains(Paid Content:))
+! #15116
+@@||st.bebi.com/bebi_v3.js$script,domain=mangaku.info|lolhentai.net|anime1.com
+/KlE$image,domain=igg-games.com|kiss-anime.me|animenova.org|animeplus.tv|animewow.org|gogoanime.to|goodanime.co|mangareader.net|toonget.net|toonova.net|thewatchcartoononline.tv|watchcartoononline.io|gogoanime.in|gogoanimes.co|readcomiconline.to
+! #9708
+filmxy.one##.promo-contents
+! #15096
+facebook.com#$#hide-if-has-and-matches-style 'abbr .timestampContent' 'div[id^="hyperfeed_story_id_"]' 'div[id*="feed_subtitle_"] > span, div[id*="feed_subtitle_"] > s' '' 'display: none'; hide-if-contains /.*/ .pagelet 'a[href^="/ad__campaign/landing.php?"]'; hide-if-contains /.*/ .pagelet 'a[href^="/ad_campaign/landing.php?"]'
+! #18467
+seekingalpha.com#$#abort-on-property-read atob
+! #18476
+swatchseries.to#$#abort-on-property-read zfgloadednative
+! #18552
+9to5google.com,9to5mac.com,9to5toys.com,electrek.co#$#abort-on-property-read canRunAds
+! #16818
+dailymail.co.uk#$#abort-on-property-read cxrgx_
+dailymail.co.uk#$#abort-on-property-read adverts
+dailymail.co.uk##.billboard
+dailymail.co.uk##.puff-ad
+dailymail.co.uk##.sliding_mpu
+dailymail.co.uk##.molads_sky_left_top
+dailymail.co.uk##.molads_sky_right_top
+dailymail.co.uk###billBoard
+dailymail.co.uk###js-sky-right
+dailymail.co.uk###js-sky-left
+dailymail.co.uk##.mpu_puff_wrapper
+dailymail.co.uk##[name^="google_ads_iframe_"]
+! #18788
+mediafire.com#$#abort-on-property-read UAParser
+! #18836
+quora.com#?#.FeedStory.feed_item:-abp-has(span > div > div > div > div > div > div > a.external_link.link_overlay[href^="http"][target="_blank"][rel="noopener nofollow"][id]:-abp-contains( at ))
+quora.com#?#.pagedlist_item:-abp-has(> div > div > div > div > div > div > div > a.external_link.link_overlay[href^="http"][target="_blank"][rel="noopener nofollow"][id]:-abp-contains( at ))
+quora.com#?#.UnifiedAnswerPagedList:-abp-has(> div > div > div > div > div > div > a.external_link.link_overlay[href^="http"][target="_blank"][rel="noopener nofollow"][id]:-abp-contains( at ))
+quora.com#?#.SimpleToggle.ToggleAnswerFooterWrapper.Toggle:-abp-has(> div > div > div > div > div > div > a.external_link.link_overlay[href^="http"][target="_blank"][rel="noopener nofollow"][id]:-abp-contains( at ))
+! #15511
+@@||namemc.com^$generichide
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=namemc.com
+@@||static.doubleclick.net/instream/ad_status.js$script,domain=namemc.com
+! #13895
+adageindia.in#?#div:-abp-has(> h2:-abp-contains(From the WEB))
+adageindia.in,bombaytimes.com#?#a:-abp-has(> div > p:-abp-contains(Ad: ))
+indiatimes.com#?#a:-abp-has(> div > p:-abp-contains(Ad ))
+indiatimes.com#?#a:-abp-has(> div > p:-abp-contains(KnowThisTuff.com))
+indiatimes.com#?#a:-abp-has(> div > p:-abp-contains(CrazyFreelancer))
+indiatimes.com##div > a[onclick*="utm_source"]
+bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
+bombaytimes.com#?#div:-abp-has(> h2:-abp-contains(Promoted Stories) + div)
+iamgujarat.com##.esi_ads_widget
+iamgujarat.com#?#div:-abp-has(> h2:-abp-contains(FROM WEB))
+samayam.com,indiatimes.com##a[onclick][rel="nofollow,noindex"]
+indiatimes.com#?#div:-abp-has(> h2:-abp-contains(FROM AROUND THE WEB))
+indiatimes.com##a[onclick*="timesofindia.indiatimes.com/tilockbk/"]
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
+! #8479
+notebookcheck.biz,radio.fr#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! #9274
+||blog-rct.com^$csp=script-src 'self' * 'unsafe-inline'
+||sobusygirls.fr^$csp=script-src 'self' * 'unsafe-eval'
+pblv-plusbellelavie.fr#$#abort-on-property-read TextDecoder
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
+! #8471
+@@/js/ads_$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/pagead/html/*$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/cssjs/ads/*$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@_advertorial.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/rcolads2.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@_banner_ad.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/adlift4.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/iqadcontroller.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/mkadsrv.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/revealaads.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/reporo_$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/pubfig.js$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/adixs.$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+@@/thumbs/ads/*$image,domain=spieletipps.de|kino.de|giga.de|auszeit.bio|autoscout24.de|bafoeg-aktuell.de|berliner-kurier.de|berliner-zeitung.de|bikerszene.de|boersennews.de|clever-tanken.de|deine-tierwelt.de|dhd24.com|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|express.de|fanfiktion.de|finya.de|formel1.de|frag-mutti.de|fremdwort.de|frustfrei-lernen.de|fussballdaten.de|gamersglobal.de|gameswelt.de|gartendialog.de|gartenlexikon.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|immobilienscout24.de|inside-handy.de|kicker.de|kindergeld.org|ksta.de|liga3-online.de|lz.de|meinestadt.de|modhoster.de|moviejones.de|mt.de|mz-web.de|naumburger-tageblatt.de|news.de|nw.de|play3.de|prad.de|psychic.de|quoka.de|rimondo.com|rundschau-online.de|smart-wohnen.net|spielen.de|tichyseinblick.de|truckscout24.de|tvinfo.de|unicum.de|virtualnights.com|weser-kurier.de|wetteronline.at|wetteronline.ch|wetteronline.de|t-online.de|quotenmeter.de|autorevue.at|haus-garten-test.de|messen.de|newsbreak24.de|rheinische-anzeigenblaetter.de|torgranate.de|wallstreet-online.de|weltfussball.at|aachener-nachrichten.de|aachener-zeitung.de|wize.life
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(/left: 9[0-9][0-9]px;/) > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(top: 24px; width: 980px;) > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de##div[style="position: absolute; left: 518px;"] > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#.dm_container > * > :-abp-properties(/max-height: 5[0-9][0-9]\.*px; max-width: initial;/) > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(/left: 9[0-9][0-9]px;/) > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(top: 24.*px; width: 980px;) > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de##div[style="position: absolute; left: 519px;"] > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#.dm_container > * > :-abp-properties(/max-height: 3[0-9][0-9]px; max-width: initial;/) > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(/left: 9[0-9][0-9]px;/)
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(top: 23.*px; width: 980px;) > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#.dm_container > * > :-abp-properties(/max-height: 3[0-9][0-9].*px; max-width: initial;/) > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de##div[style="position: absolute; left: 518.1px;"] > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#.dm_container > * > :-abp-properties(/max-height: 4[0-9][0-9].*px; max-width: initial;/) > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de##div[style="position: absolute; left: 519.1px;"] > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de##div[style="position: absolute; left: 520px;"] > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#.dm_container > * > :-abp-properties(/max-height: 6[0-9][0-9].*px; max-width: initial;/) > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#.dm_container > * > :-abp-properties(/max-height: 2[0-9][0-9].*px; max-width: initial;/) > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de##div[style="position: absolute; left: 520.1px;"] > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(top: 22px; width: 980.*px;) > div > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(/left: 9[0-9][0-9].*px;/) > * > img
+berliner-kurier.de,berliner-zeitung.de,express.de,ksta.de,mz-web.de,naumburger-tageblatt.de,rundschau-online.de,truckscout24.de,rheinische-anzeigenblaetter.de#?#:-abp-properties(top: 22px; width: 981px;) > div > img
+giga.de##div[style="position: fixed; margin-left: 1025px; top: 125px;"] > img
+giga.de#?#.u-shape > :-abp-properties(margin-top: 25px; position: relative; width: 1025px;) > * > img
+giga.de#?#.u-shape > :-abp-properties(max-height: 300px; max-width: 970px;) > img
+giga.de#?#:-abp-properties(/left: [1-9][0-9]{3}px;/)
+giga.de#?#.u-shape > :-abp-properties(margin-top: 25.*px; position: relative; width: 1025px;) > * > img
+giga.de#?#.u-shape > :-abp-properties(max-height: 300px; max-width: 970.*px;) > img
+giga.de##div[style="position: fixed; margin-left: 1025.1px; top: 125px;"] > img
+giga.de#?#.u-shape > :-abp-properties(max-height: 300px; max-width: 971.*px;) > img
+giga.de##div[style="position: fixed; margin-left: 1025.2px; top: 125px;"] > img
+giga.de#?#.u-shape > :-abp-properties(margin-top: 26px; position: relative; width: 1024px;) > * > img
+giga.de#?#.u-shape > :-abp-properties(max-height: 300px; max-width: 972.*px;) > img
+giga.de##div[style="position: fixed; margin-left: 1025.3px; top: 125px;"] > img
+kicker.de##div[style="max-width: 800.1px;"] > img
+kicker.de##div[style="position: fixed; max-width: 160.1px; margin-left: 1000px;"] > img
+kicker.de#?#:-abp-properties(/left: 9[0-9][0-9]px;/)
+kicker.de#?#:-abp-properties(/position: relative; width: 990px;/) > div > img
+kicker.de#?#:-abp-properties(cursor: pointer; max-height: 90px; max-width: 728px;)
+kicker.de##div[style="max-width: 970.1px;"] > img
+kicker.de##div[style="position: fixed; max-width: 300.2px; margin-left: 1000px;"] > img
+kicker.de##div[style="max-width: 800.2px;"] > img
+kicker.de##div[style="position: fixed; max-width: 160.2px; margin-left: 1000px;"] > img
+kicker.de##div[style="position: fixed; max-width: 160.3px; margin-left: 1000px;"] > img
+kicker.de##div[style="max-width: 800.3px;"] > img
+kicker.de##div[style="position: fixed; max-width: 300.3px; margin-left: 1000px;"] > img
+meinestadt.de##.-dfp
+meinestadt.de##[class^="a-ettElement -p"]
+||tab.immobilienscout24.de^$image,domain=immobilienscout24.de
+||static-immobilienscout24.de/fro/*$image,domain=immobilienscout24.de
+||st.wetteronline.de/image/page/*$image,domain=wetteronline.de|wetteronline.at|wetteronline.ch
+||quoka.de/images/publiz/*$image,domain=quoka.de
+kicker.de##.ovNoprint
+giga.de##div[data-trigger="sourcepoint-ad"]
+kino.de###hockeystick
+kino.de##div[data-sdg-ad="rectangle"]
+@@/permanent/ads/*$image,domain=giga.de
+@@/ad-loading.$image,domain=giga.de
+! #8479
+chefkoch.de,pcwelt.de,finanzen.net,tagesspiegel.de,motor-talk.de,golem.de,meinestadt.de,derwesten.de,moviepilot.de,mopo.de,arcor.de,pc-magazin.de,pcgames.de,hoerzu.de,morgenpost.de,serienjunkies.de,tvtoday.de,buffed.de,4players.de,abendblatt.de,webfail.com,pcgameshardware.de,hamburg.de,hardwareluxx.de,pietsmiet.de,abendzeitung-muenchen.de,motorsport-total.com,gamepro.de,noz.de,shz.de,lablue.de,mtb-news.de,connect.de,finanzen.ch,general-anzeiger-bonn.de,boerse-online.de,formel1.de,finanztreff.de,notebookcheck.com,wn.de,lifeline.de,nwzonline.de,donnerwetter.de,macwelt.de,areamobile.de,boerse.de,computerhilfen.de,comunio.de,paradisi.de,playboy.de,motorradonline.de,areadvd.de,landwirt.com,menshealth.de,tvdigital.de,genialetricks.de,news.at,ingame.de,readmore.de,svz.de,promobil.de,finanzen.at,antenne.de,mehr-tanken.de,baby-vornamen.de,sportal.de,metalflirt.de,dbna.de,pnn.de,mein-wahres-ich.de,tv-media.at,profil.at,woman.at,likemag.com,jpgames.de,9monate.de,gamezone.de,trend.at,motortests.de,womenshealth.de,gamesaktuell.de,caravaning.de,tiervermittlung.de,videogameszone.de,gipfelbuch.ch,gusto.at,nnn.de,motorbasar.de,prignitzer.de,yachtrevue.at,lustaufsleben.at,4fansites.de,auto-motor-und-sport.de,bildderfrau.de,braunschweiger-zeitung.de,cinema.de,dieblaue24.com,fitforfun.de,futurezone.de,geissblog.koeln,mein-mmo.de,minecraft-serverlist.net,news38.de,radio.at,radio.de,rot-blau.com,salzgitter-zeitung.de,sn.at,sport.de,thueringen24.de,waz.de#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+@@/120_600/*$image,domain=waz.de|4fansites.de|boerse-online.de|hftg.co|hftg.me|heftig.tv|heftig.de|einfachschoen.me|4players.de|9monate.de|abendblatt.de|abendzeitung-muenchen.de|antenne.de|arcor.de|areadvd.de|areamobile.de|baby-vornamen.de|boerse.de|buffed.de|caravaning.de|chefkoch.de|comunio.de|connect.de|dbna.de|derwesten.de|pcgameshardware.de|finanzen.at|finanzen.ch|finanztreff.de|golem.de|gamepro.de|gamesaktuell.de|gamestar.de|gamezone.de|general-anzeiger-bonn.de|geniale-tricks.com|gipfelbuch.ch|gusto.at|gutefrage.net|hamburg.de|hardwareluxx.de|heftig.club|heise.de|hoerzu.de|ingame.de|jpgames.de|lablue.de|landwirt.com|leckerschmecker.me|lifeline.de|likemag.com|lustaufsleben.at|mehr-tanken.de|mein-wahres-ich.de|menshealth.de|metalflirt.de|mopo.de|morgenpost.de|motor-talk.de|motorbasar.de|motorradonline.de|motorsport-total.com|motortests.de|moviepilot.de|mtb-news.de|musikradar.de|news.at|nnn.de|notebookcheck.com|noz.de|nwzonline.de|paradisi.de|pc-magazin.de|pcgames.de|pietsmiet.de|pnn.de|prignitzer.de|profil.at|promipool.de|promobil.de|radio.at|radio.de|readmore.de|runnersworld.de|serienjunkies.de|shz.de|sportal.de|svz.de|tagesspiegel.de|testedich.at|testedich.ch|testedich.de|tiervermittlung.de|trend.at|tv-media.at|tvdigital.de|tvtoday.de|videogameszone.de|webfail.com|wetteronline.at|wetteronline.ch|wetteronline.de|wn.de|woman.at|womenshealth.de|yachtrevue.at|macwelt.de|pcwelt.de|bildderfrau.de|thueringen24.de|cinema.de|abseits-ka.de|braunschweiger-zeitung.de|dieblaue24.com|fitforfun.de|futurezone.de|geissblog.koeln|mein-mmo.de|minecraft-serverlist.net|mittelbayerische.de|news38.de|rot-blau.com|salzgitter-zeitung.de|sn.at|sport.de|formel1.de|playboy.de|finanzen.net
+waz.de,4fansites.de,boerse-online.de,hftg.co,hftg.me,heftig.tv,heftig.de,einfachschoen.me,4players.de,9monate.de,abendblatt.de,abendzeitung-muenchen.de,antenne.de,arcor.de,areadvd.de,areamobile.de,baby-vornamen.de,boerse.de,buffed.de,caravaning.de,chefkoch.de,comunio.de,connect.de,dbna.de,derwesten.de,pcgameshardware.de,finanzen.at,finanzen.ch,finanztreff.de,golem.de,gamepro.de,gamesaktuell.de,gamestar.de,gamezone.de,general-anzeiger-bonn.de,geniale-tricks.com,gipfelbuch.ch,gusto.at,gutefrage.net,hamburg.de,hardwareluxx.de,heftig.club,heise.de,hoerzu.de,ingame.de,jpgames.de,lablue.de,landwirt.com,leckerschmecker.me,lifeline.de,likemag.com,lustaufsleben.at,mehr-tanken.de,mein-wahres-ich.de,menshealth.de,metalflirt.de,mopo.de,morgenpost.de,motor-talk.de,motorbasar.de,motorradonline.de,motorsport-total.com,motortests.de,moviepilot.de,mtb-news.de,musikradar.de,news.at,nnn.de,notebookcheck.com,noz.de,nwzonline.de,paradisi.de,pc-magazin.de,pcgames.de,pietsmiet.de,pnn.de,prignitzer.de,profil.at,promipool.de,promobil.de,radio.at,radio.de,readmore.de,runnersworld.de,serienjunkies.de,shz.de,sportal.de,svz.de,tagesspiegel.de,testedich.at,testedich.ch,testedich.de,tiervermittlung.de,trend.at,tv-media.at,tvdigital.de,tvtoday.de,videogameszone.de,webfail.com,wetteronline.at,wetteronline.ch,wetteronline.de,wn.de,woman.at,womenshealth.de,yachtrevue.at,macwelt.de,pcwelt.de,bildderfrau.de,thueringen24.de,cinema.de,abseits-ka.de,braunschweiger-zeitung.de,dieblaue24.com,fitforfun.de,futurezone.de,geissblog.koeln,mein-mmo.de,minecraft-serverlist.net,mittelbayerische.de,news38.de,rot-blau.com,salzgitter-zeitung.de,sn.at,sport.de,formel1.de,playboy.de,finanzen.net#@#.AD300
+mopo.de,hoerzu.de,morgenpost.de,tvtoday.de,abendblatt.de,hamburg.de#?#:-abp-properties(/margin-left: [6-9][0-9]{2}.*px;/)
+abendblatt.de#?#:-abp-properties(margin-bottom: -4px; position: relative;) > * > img
+hamburg.de#?#:-abp-properties(margin-right: 160px; position: relative; z-index: 9;) > * > img
+hoerzu.de#?#:-abp-properties(direction: rtl; position: relative; right: -3px;) > img
+mopo.de#?#:-abp-properties(position: relative; right: -4px;) > img
+morgenpost.de#?#:-abp-properties(bottom: -4px; float: right; position: relative; right: -1px;) > img
+motor-talk.de,serienjunkies.de,noz.de#?#:-abp-properties(/margin-left: [1-9][0-9]{3}.*px;/)
+motor-talk.de#?#:-abp-properties(margin-bottom: 5px; width: 1045px;)
+motorsport-total.com#?#:-abp-properties(/margin-left: [1-9][0-9]{3}px;/)
+motorsport-total.com#?#:-abp-properties(position: relative; right: -10px;) > img
+noz.de#?#:-abp-properties(max-width: 1140px; position: relative;) > * > img
+serienjunkies.de#?#:-abp-properties(margin-bottom: 5px; position: relative; right: -5px;) > img
+gipfelbuch.ch###header_top
+! #9272
+spox.com##[ws-zone]
+spox.com##.trc_elastic
+! #15654
+||spieletipps.de^$csp=img-src 'self' * data: http: https:
+||giga.de^$csp=img-src 'self' * data: http: https:
+||desired.de^$csp=img-src 'self' * data: http: https:
+||kino.de^$csp=img-src 'self' * data: http: https:
+||t-online.de^$csp=img-src 'self' * data: http: https:
+www.t-online.de#?#:-abp-has(> canvas[width][height])
+www.t-online.de#?#:-abp-has(> div:-abp-properties(background-image: url*; height: *px; width: *px;))
+! #17364
+wetteronline.de###topcontainer
+wetteronline.de###rightcontainer
+wetteronline.de##div[style*="728px; height: 90px;"]
+wetteronline.de##div[style*="width:160px;height:600px;"]
+wetteronline.de##div[style*="width:300px;height:250px;"]
+wetteronline.de##div[style="min-width:120px; min-height:600px;"]
+wetteronline.de##iframe[name*="_ads_iframe"]
+wetteronline.de##div[style*="width: 620px; height: 400px;"]
+||wetteronline.de^$csp=frame-src 'self' www.wetteronline.de www.youtube.com
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
+! #17095
+walla.co.il#$#abort-on-property-read jorLoad20a
+! #9274
+mako.co.il,yad2.co.il#$#abort-current-inline-script atob TextDecoder
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hungarian.txt ***
+! #8479
+notebookcheck-hu.com#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indonesian.txt ***
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/italian.txt ***
+! #8479
+notebookcheck.it,radio.it#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/latvian.txt ***
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/lithuanian.txt ***
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/polish.txt ***
+! #8479
+radio.pl#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/portuguese.txt ***
+! #8479
+notebookcheck.info,radio.pt#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! #9274
+diariodocentrodomundo.com.br#$#abort-on-property-read TextDecoder
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/romanian.txt ***
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/russian.txt ***
+! #8479
+notebookcheck-ru.com#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! #9276
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /[pр]\\u200c*[eе]\\u200c*к\\u200c*л\\u200c*[aа]\\u200c*м\\u200c*[aа]/ li.serp-item 'li.serp-item span.label-direct svg text' /./ '/\\bfill: rgb\\(51, 47, 30\\);/'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains /[pр](\\n|.)*?[eе](\\n|.)*?к(\\n|.)*?л(\\n|.)*?[aа](\\n|.)*?м(\\n|.)*?[aа]/ li.serp-item 'li.serp-item div.label'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /.?/ li.serp-item 'li.serp-item span.label-direct' /./ 'background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OSAxNSI+PHJlY3Qgd2lkdGg9IjU5IiBoZWlnaHQ9IjE1IiByeD0iNyIgcnk9IjciIGZpbGw9IiNmMmYyZjIiLz48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2IDExKSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzMzMmYxZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEiPtGA0LXQutC70LDQvNCwPC90ZXh0PjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMXYxSDB6IiBvcGFjaXR5PSIuMDQiLz48L3N2Zz4=");'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /.?/ li.serp-item 'li.serp-item span.label-direct' /./ 'background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OSAxNSI+PHJlY3Qgd2lkdGg9IjU5IiBoZWlnaHQ9IjE1IiByeD0iNyIgcnk9IjciIGZpbGw9IiNmMmYyZjIiLz48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2IDExKSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzMzMmYxZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEiPtGA0LXQutC70LDQvNCwPC90ZXh0PjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMXYxSDB6IiBvcGFjaXR5PSIuMDUiLz48L3N2Zz4=");'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /.?/ li.serp-item 'li.serp-item span.label-direct' /./ 'background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OSAxNSI+PHJlY3Qgd2lkdGg9IjU5IiBoZWlnaHQ9IjE1IiByeD0iNyIgcnk9IjciIGZpbGw9IiNmMmYyZjIiLz48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2IDExKSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzMzMmYxZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEiPtGA0LXQutC70LDQvNCwPC90ZXh0PjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMXYxSDB6IiBvcGFjaXR5PSIuMDIiLz48L3N2Zz4=");'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /.?/ li.serp-item 'li.serp-item span.label-direct' /./ 'background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OSAxNSI+PHJlY3Qgd2lkdGg9IjU5IiBoZWlnaHQ9IjE1IiByeD0iNyIgcnk9IjciIGZpbGw9IiNmMmYyZjIiLz48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2IDExKSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzMzMmYxZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEiPtGA0LXQutC70LDQvNCwPC90ZXh0PjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMXYxSDB6IiBvcGFjaXR5PSIuNDUiLz48L3N2Zz4=");'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /.?/ li.serp-item 'li.serp-item span.label-direct' /./ 'background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OSAxNSI+PHJlY3Qgd2lkdGg9IjU5IiBoZWlnaHQ9IjE1IiByeD0iNyIgcnk9IjciIGZpbGw9IiNmMmYyZjIiLz48dGV4dCB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2IDExKSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzMzMmYxZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEiPtGA0LXQutC70LDQvNCwPC90ZXh0PjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMXYxSDB6IiBvcGFjaXR5PSIuMDMiLz48L3N2Zz4=");'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /.?/ li.serp-item 'li.serp-item span.label-direct' /./ '/background-image: url\\("data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAAeCAMAAADO3hoUAAA(A[N-Za-z0-9+/]|[BC][A-Za-z0-9+/]|DA)/'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-and-matches-style /.?/ li.serp-item 'li.serp-item span.label-direct' /./ '/background-image: url\\("data:image\/svg\\+xml;base64,.+(ZpbGw9IiNmMmYyZjIi|maWxsPSIjZjJmMmYyI|gZmlsbD0iI2YyZjJmM)/'
+yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains-image /^89504e470d0a1a0a0000000d49484452000000760000001e08/ li.serp-item 'li.serp-item span.label-direct'
+! #18828
+auto.ru,avito.ru,drive2.ru,fb.ru,kakprosto.ru,razlozhi.ru,yandex.az,yandex.by,yandex.ee,yandex.fr,yandex.kg,yandex.kz,yandex.lt,yandex.lv,yandex.md,yandex.ru,yandex.ua,yandex.uz#$#hide-if-shadow-contains *
+liveinternet.ru,echo.msk.ru,razlozhi.ru,drive2.ru#$#abort-on-property-read Ya
+! #9708
+compendium.su,dynamo.kiev.ua,ukrlit.net,zn.ua,ukrlib.com.ua,24tv.ua,bigmir.net,bookfi.net,cn.ru,cxem.net,dengi.ua,dt.ua,e1.ru,epravda.com.ua,etextlib.ru,football.ua,football24.ua,forumodua.com,gismeteo.ru,glavcom.ua,hvylya.net,isport.ua,kinoafisha.ua,korrespondent.net,kp.ua,mirknig.su,obozrevatel.com,pravda.com.ua,real-vin.com,strana.ua,telegraf.in.ua,vsetv.com,zaxid.net#$#abort-on-property-read WS
+24tv.ua##.b_reklama
+azov-sea.info##[valign="middle"]
+azov-sea.info##td[width="330"]
+boxnews.com.ua##.bn-banner
+boxnews.com.ua##[style="padding-bottom: 20px;"]
+inforesist.org##aside[id="text-3"]
+inforesist.org##aside[id="text-44"]
+inforesist.org##aside[id="text-39"]
+inforesist.org##aside[id="execphp-30"]
+inforesist.org##aside[id="execphp-24"]
+etextlib.ru##.partners
+etextlib.ru##.head_bann
+kinohome.net##a[data-i]
+! #19360
+gidonline.eu,tfile.me,tfile2.cc,dc-marvel.org,torrent-soft.net#$#abort-on-property-read atob
+! #19362
+baskino-z720.com#$#abort-on-property-read atob
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/spanish.txt ***
+! #8479
+radio.es,notebookcheck.org,comunio.es#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! #9272
+hoylosangeles.com##[data-adloader-size="970x250"]
+hoylosangeles.com##[data-adloader-size="300x600"]
+hoylosangeles.com##[data-role*="adloader_ad"]
+hoylosangeles.com##[data-placement-name="below-article-thumbs"]
+mamaslatinas.com##iframe[width="728"]
+mamaslatinas.com##iframe[width="300"]
+mamaslatinas.com##.top-bar-content
+! #10385
+telexplorer.com.ar#$#abort-current-inline-script MutationObserver compareDocumentPosition
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/swedish.txt ***
+! #8479
+radio.se,notebookcheck.se#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/turkish.txt ***
+! #8479
+notebookcheck-tr.com#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+! #9276
+yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'

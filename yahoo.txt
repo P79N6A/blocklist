@@ -1,0 +1,60 @@
+! Title: CHEF-KOCH's Yahoo Filter List
+! Description: Filters all Yahoo related connections.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.05
+! Last updated: 2019-01-01
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+
+||adap.tv^
+||advertising.com^
+||aol.co.uk^
+||aol.com^
+||apps.fm^
+||autoblog.com^
+||bella-tiara.com^
+||dailyfinance.com^
+||desire4mo.com^
+||dmoz.org^
+||engadget.com^
+||entirelypets.com^
+||flurry.com^
+||fragrancewholesale.com^
+||geocities.com^
+||growersupply.com^
+||healthypets.com^
+||hobby-wing.com^
+||huffingtonpost.ca^
+||huffingtonpost.com.au^
+||huffingtonpost.com^
+||huffingtonpost.fr^
+||huffingtonpost.in^
+||huffpost.com^
+||kimmelgnomes.com^
+||latexfreeundies.com^
+||lilliputdolhouses.com^
+||mapquest.com^
+||myaopen.com^
+||netscape.com^
+||northshoreshirts.com^
+||oath.com^
+||onebyaol.com^
+||paulgraham.com^
+||sportsimportsltd.com^
+||sportsunlimitedinc.com^
+||suzannes.com^
+||thespeechgurus.com^
+||tuaw.com^
+||umblr.com^
+||wmjmarine.com^
+||yahoo.com.cn^
+||yahoo.com^
+||yahoo.net^
+||yahooapis.com^
+||yimg.com^
+||ysearchblog.com^

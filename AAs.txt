@@ -1,0 +1,457 @@
+[Adblock Plus 2.0]
+! Version: 
+! Title: Additional Adblock rules
+! Description: This is a general, mainly a finnish list for blocking various elements on specific websites such as ads, cookie notifications and cosmetic annoyances.
+! Last modified:
+! Expires: 1 days (update frequency)
+! Homepage: https://dl.dropboxusercontent.com/s/1ybzw9lb7m1qiyl/AAs.txt?dl=0
+! License: http://unlicense.org/
+
+www.kirkkojakaupunki.fi##.rns-shares-4.rns-highlight.rns-shares-float-left.rns-shares-float.rns-shares
+www.videocardbenchmark.net##table.desc:nth-of-type(3):has-text(adblocker software)
+thehackernews.com##.fixed-r.cf.float-share
+##.floating.share
+mobiili.fi###header_ad22
+mobiili.fi###twitter-widget-0
+mobiili.fi###readnext:has-text(Lue seuraavaksi:)
+mobiili.fi##.fb_iframe_widget.fb-page
+mobiili.fi###text-61:has-text(Tilaa Mobiili.fin uutiskirje)
+mobiili.fi###text-15 > .textwidget:has-text(sosiaalisessa mediassa)
+mobiili.fi##.huge.button:has-text(Tilaa uutiskirje)
+##.likes-bottom
+##.likes-top
+www.fosshub.com##.ad-alt > form:has-text(vihaat mainoksia!)
+www.driveridentifier.com##.white_content:has-text(DriverIdentifier.com)
+###newsletter-floating
+##.share-container
+kaks.fi###somehissi
+watchcartoonsonline.la##.widget-title:has-text(Sponsor)
+watchcartoonsonline.la###text-7 > .textwidget
+watchcartoonsonline.la##a[href*="scripts"]
+there.to##[href^="https://"]
+##.has-button-share.floating-buttons
+www.bloomberg.com###paywall-banner
+www.hyvaterveys.fi###newsletter-popup
+www.globalfirepower.com##body > div:nth-of-type(9)
+##.supsystic-social-sharing-init.supsystic-social-sharing-left.supsystic-social-sharing-fixed.supsystic-social-sharing-hide-on-mobile.supsystic-social-sharing-hide-on-homepage.supsystic-social-sharing-package-flat.supsystic-social-sharing
+www.maps4heroes.com###watch_here_middle
+www.maps4heroes.com##.heroes_top_1.adsbygoogle
+www.fazer.fi##.card-box-shadow.bgc-white.padding-h-md.margin-0.fixed.sliding-element-container:has-text(Tilaa Fazerin uutiskirje!)
+seura.fi###seuranewsletter-2
+www.savonsanomat.fi##.box:has-text(Savon Sanomien uutiskirje)
+
+! Unbreak embedded stuff in some cases
+@@||cdn.krxd.net/*$script,domain=www.hs.fi
+@@||acdn.adnxs.com/*$script,domain=www.hs.fi
+@@||mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/*$xmlhttprequest,domain=www.hs.fi
+@@||tags.tiqcdn.com/utag/sanoma-fi/hs-fi/prod/*$script,domain=www.hs.fi
+@@||krxd.net/*$script,domain=www.hs.fi
+@@||cdn.krxd.net/*$subdocument,domain=www.hs.fi
+@@||cdn.brandmetrics.com/*$script,domain=www.hs.fi
+@@||cdn.krxd.net/*$script,domain=cdn.krxd.net
+@@||sn.sanoma.fi/*$script,domain=www.hs.fi
+@@||ib.adnxs.com/*$xmlhttprequest,domain=www.hs.fi
+@@||ping.chartbeat.net/*$image,domain=www.hs.fi
+@@||vendorlist.consensu.org/*$xmlhttprequest,domain=www.hs.fi
+
+! Annoying side arrows
+www.aamulehti.fi##div.eXBYgD.sc-ckVGcZ:nth-of-type(1) > .efTZuN.sc-dxgOiQ
+www.aamulehti.fi##div.eXBYgD.sc-ckVGcZ:nth-of-type(2) > .efTZuN.sc-dxgOiQ
+www.satakunnankansa.fi##.eXBYgD.sc-ckVGcZ.bounceleft > .efTZuN.sc-dxgOiQ
+www.satakunnankansa.fi##.eXBYgD.sc-ckVGcZ.bounceright > .efTZuN.sc-dxgOiQ
+
+www.iltalehti.fi##.newsletter-embed.card
+yle.fi##.yle__newsletter--uutiset.yle__newsletter
+hintaseuranta.fi###otherProductsNotificationModal
+www.power.fi##.row.sleeky-content:has-text(Tilaa uutiskirje)
+
+! Annoying sidebar
+www.talouselama.fi##div.xedVD.sc-531hbv-1
+
+www.taloustaito.fi##.show.newsletter-popup
+
+! To fix twitter images on tweets: https://www.hs.fi/urheilu/art-2000005940367.html
+@@||pbs.twimg.com/ad_img/$image,domain=embed.is.fi
+kotimikro.fi##div.themebox.widget:has-text(Kotimikron uutiskirje)
+
+! Remove extra area on top so that the map is easier to use
+syriancivilwarmap.com##.header-inner
+syriancivilwarmap.com##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(1)
+
+! To make topbar static and topright navigation more accessible
+www.ilkka.fi,www.pohjalainen.fi##header:style(position: static !important;)
+www.ilkka.fi,www.pohjalainen.fi##div.header__row:nth-of-type(1):style(position: static !important;)
+www.ilkka.fi,www.pohjalainen.fi##div.header__row:nth-of-type(2):style(position: static !important;)
+www.ilkka.fi,www.pohjalainen.fi##.header__menurow:style(margin-top: -5px !important;)
+www.ilkka.fi,www.pohjalainen.fi##.topright:style(margin-top: 30px !important;)
+
+! To make topbar static
+www.ampparit.com##.top-menu-wrapper.sticky-outer-wrapper > .sticky-inner-wrapper:style(position: static !important;)
+www.turkulainen.fi,www.lansivayla.fi##.fixed-navigation--is-fixed.fixed-navigation.main-navigation:style(position: static !important;)
+www.turkulainen.fi,www.lansivayla.fi##.fixed-navigation--is-fixed.fixed-navigation.main-navigation:style(margin-top: -113px !important;)
+www.tokmanni.fi##.page-header:style(position: static !important;)
+searchstorage.techtarget.com###page-header:style(position: static !important;)
+www.foreca.fi##.sticky:style(position: static !important;)
+www.helsinginuutiset.fi##.fixed-navigation--is-fixed.fixed-navigation.main-navigation:style(position: static !important; margin-top: -113px !important;)
+www.seurakuntalainen.fi###stickyheader:style(position: static !important;)
+www.karjalainen.fi###sp-header:style(position: static !important;)
+www.karjalainen.fi##.nav-placeholder
+mobiili.fi###headermob:style(position: static !important;)
+www.quora.com###__w2_wHcuAbVk37_question_prompt:style(position: static !important;)
+www.quora.com##.fixable_fixed.BelowQuestionAddPrompt:style(position: static !important;)
+kaksplus.fi##.sticky_wrapper:style(position: static !important;)
+www.kaksplus.fi##.fixed.scroll.no-lazyload.topbar:style(position: static !important;)
+www.amd.com###scrollspy:style(position: static !important;)
+www.city.fi###navbar:style(position: static !important;)
+www.halpahalli.fi##.page-header:style(position: static !important;)
+www.halpahalli.fi##.nav-sections.sections:style(position: static !important;)
+www.halpahalli.fi##.header-proxy
+www.jimms.fi###header:style(position: static !important;)
+
+www.delkin.com##.sticky-header > .header > .menu-wrapper
+searchstorage.techtarget.com###download-offer
+###social-icons-desktop
+###social-sidebar
+
+! cookie info
+||www.data-systems.fi/wp-content/uploads/pum/pum-site-scripts.js$script,domain=www.data-systems.fi
+www.wikia.com,wikia.com,fandom.com##+js(cookie-remover.js, Geo)
+
+! To make sidebars static
+www.mtvuutiset.fi###sidebar > .stickyWrapper:style(position: static !important;)
+www.tokmanni.fi##.richrelevance-sidebar:style(position: static !important;)
+
+adblockplus.org##.cookieprompt.cookie
+pureinfotech.com##.mailmunch-topbar-iframe
+pureinfotech.com###mailmunch-topbar-pusher
+www.opensubtitles.org##.msgarrow:has-text(kuinka katsoa elokuva tekstityksien kera.)
+www.opensubtitles.org##.a_2.a.p:has-text(Lataa Hakutoiminto Tekstityksille)
+www.opensubtitles.org##.a_1.a.p:has-text(Lataa 25 Mt)
+www.opensubtitles.org##fieldset:has-text(Lataa 25 Mt)
+www.opensubtitles.org##fieldset:has-text(Poista mainos)
+www.nationaljournal.com###promo_wrapper
+www.howtogeek.com###div-thetop1
+
+tili.fonecta.fi###footer-cookie-policy
+www.tiede.fi###newsletter-popup
+bbs.io-tech.fi###premiumi
+
+! Videos share button in video
+yle.fi##.bDWFJH.sc-bdVaJa.fkAAJu.sc-bwzfXH.eWICbl.sc-VigVT.msezn.sc-fjdhpX
+
+! To fix top bar problem and legit ad articles
+mobiili.fi#@#.header_ad
+||adservicemedia.dk*sub=side*$image,domain=mobiili.fi,important
+@@||adservicemedia.dk/$image,domain=mobiili.fi
+
+mobiili.fi###text-67 > .textwidget
+mobiili.fi##.article_ad_1
+mobiili.fi##.article_ad_2
+
+! To fix legit ad articles
+www.hs.fi#@#.mainos
+www.hs.fi#@#.mainokset
+
+www.uusisuomi.fi###block-us-appnexus-puheevuoro-468-600--2
+www.msn.com##.fbpopup-container
+
+! To unbreak the cookie info subpage
+@@||cookieinformation.com/$script,domain=kotimikro.fi
+kotimikro.fi##.hidden-xs.afubar-top
+
+www.techradar.com###sp_message_id1542549999749
+##.shareaholic-share-button-container
+
+! To make viafree.fi to work
+@@||mssl.fwmrm.net/p/MTG_Brightcove_HTML5/AdManager.js$script,domain=www.viafree.fi
+@@||fwmrm.net/ad/$xmlhttprequest,domain=www.viafree.fi
+@@||playapi.mtgx.tv/$xmlhttprequest,domain=www.viafree.fi
+@@||fwmrm.net/ad/$script,domain=www.viafree.fi
+||freewheel-mtgx-tv.akamaized.net/$media,domain=www.viafree.fi
+
+! Unbreak chat
+@@-tracking.js?$domain=telia.fi|moi.fi
+
+www.karjalainen.fi##center
+
+! To block video ads on MTV Oy videos. This will work properly only for Ublock Origin.
+||damoh.katsomo.fi/*$media,redirect=noopmp3-0.1s,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
+
+! To block image ads on paused MTV Oy videos
+||damoh.katsomo.fi/*$image,domain=mtvuutiset.fi|mtv.fi|suomiareena.fi|www.studio55.fi|lumijapyry.fi|www.msn.com
+||cloudfront.net/creatives/assets/$image,domain=mtvuutiset.fi
+mtvuutiset.fi,mtv.fi,suomiareena.fi,www.studio55.fi,lumijapyry.fi,www.msn.com##.mtv-player-ad-container
+
+! Twitter mobile cookie notifications
+
+
+||nelonenmedia.fi/ads/$media
+
+! To block ads that are displayed during playback of videos (a.k.a commercial breaks)
+||dniadops-a.akamaihd.net/video-assets/$media,domain=www.dplay.fi
+! To make videos to work despite adblocker
+@@||fwmrm.net/ad/$script,domain=dplay.fi
+
+###cookie
+
+! To make Foxplay work withoud ads
+@@||www.foxplay.fi/compiled/js/ads.js$script
+
+www.reddit.com##.NavFrame > .xpromoMinimal.DualPartInterstitial > .DualPartInterstitial__content > .DualPartInterstitial__common > .DualPartInterstitialFooter
+
+! Ad for Ruutu+
+ruutu.fi##.t5tj6d-0.vdqQx
+
+! To make all Nelonen Media videos to work:
+@@||fwmrm.net/ad/*Nelonen_Web_HTML5_Live$script
+
+! To fix video box not showing caused by Easylist
+@@||amazon-adsystem.com/*/apstag.js$script,domain=walkingdead.fandom.com
+
+! To fix video not showing caused by Cookiemonster list
+@@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=walkingdead.fandom.com
+
+menaiset.fi###newsletter-popup
+
+! To prevent a blank page on some websites loaded through archive.org
+archive.org#@#.oasad
+
+lifehacker.com###sharingfooter
+lifehacker.com##.contained-ad-container.sidebar-module
+linuxquestions.org##div[style="float: right; margin-left: 5px; margin-bottom: 5px; margin-top: -3px; margin-right: -3px"]
+
+! To fix supla podcasts broken by Easylist
+@@||v.fwmrm.net/ad/g/*_Supla_Audio_HTML5_Live$script
+
+www.vau.fi###om-vzczmrnj3zzgp144h4eb
+indeed.fi##.appPromoBanner
+duunitori.fi##.modal.modal--bottom.modal--hidden.gdpr-modal.modal__content.modal__content--white
+tamperelainen.fi##.AgAdCarousel_SliderDiv
+www.dplay.fi##.navy-2Ok0yH4r.notificationArea-Cq_U2EyJ
+
+! Empty ad placeholder (2x)
+opensubtitles.org##.intro
+
+! Adblocker removal request
+opensubtitles.org##div[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
+
+instagram.com##.lOPC8
+edition.cnn.com###gigyaShareBar_0_gig_containerParent
+##.social-share
+
+! Iltalehti mobile app ad
+||assets.ilcdn.fi/95ec0cdc2d9cb339ad06619ed54d439d57d2b0f6d6626afeec7d6b78245e3821.png
+
+hommaforum.org###mobile_banner_inner
+forums.extremeoverclocking.com###mobile_banner_inner
+forums.extremeoverclocking.com###banner_div_empty
+www.hs.fi##.show-header.clearfix.secondary-header
+www.kansanuutiset.fi##.intextad.clearfix.cb-module-block.cb-box.cb-a-large
+www.kaleva.fi###mainokset-cartoon
+www.kaleva.fi###mainokset-boksi-4
+www.kaleva.fi###mainokset-article-2
+www.kaleva.fi###mainokset-article-1
+www.kaleva.fi###smartbanner
+www.hs.fi##.open.geolocation-permission-ui
+www.is.fi##.open.geolocation-permission-ui
+###some-floater
+
+! For removing the useless empty right panel
+outlook.live.com##[class="_2qPmszDwBfYpF7PO9Mn3KN"]
+outlook.live.com##._2xldJQMyr18-wRswSxqhPk > ._3a6SuYqdwIspGohT1zu16B
+outlook.live.com##._29KqToSCcntvfbDv_3xuuh > ._1_ag99JsBHxI6S4FP5ayPv
+
+! Ad on the left bottom corner
+outlook.live.com##BUTTON[class="_16EfhtP2SkmWE3EtSGakyM"]
+outlook.live.com##.sLdQPyZ_U_2lB7qh0U18w
+outlook.live.com##._33q0KHy2ceHx9Ea1A4VXHj
+
+! Bottom ad for smaller screens
+outlook.live.com##[class="_2qPmszDwBfYpF7PO9Mn3KN w8dT1SyNjgGS0q-iJnPy_"]
+outlook.live.com##._1h_1WDa_tiaSYOKzu13Llu._3a6SuYqdwIspGohT1zu16B
+outlook.live.com##.Esy9MiwYQzZ5dVEk-Ota._1_ag99JsBHxI6S4FP5ayPv
+
+! Upper ad for mobile
+outlook.live.com##[class="_3MdpcPqcGApCRCt0Wh_uWP"]
+
+! Empy sections between emails, mobile
+outlook.live.com##DIV[class="_lv_u1 ms-fwt-r ms-fcl-tp ms-bgc-w ms-bcl-nlr"]
+
+pastebin.com###float-box-2
+||pastebin.com/nein/
+pastebin.com##div[id^="abrpm"]
+www.forbes.com###borderTab
+www.forbes.com##[class="truste_box_overlay"]
+www.forbes.com##[class="truste_overlay"]
+play.google.com##.gb_g.gb_Xc.gb_yd
+###almad-parade-1
+kaleva.fi###mainokset-header
+##.sc-cgzHhG.cLVjsS
+
+|http:$image,~image,popup,third-party,domain=fiplay.net|gomovies.*|gomovie.sc|gomovieshd.*|gomovies123.*|123movies.*|0123movies.*
+fiplay.net,gomovies.*,gomovie.sc,gomovieshd.*,gomovies123.*,123movies.*,0123movies.*##+js(window.open-defuser.js)
+fiplay.net,gomovies.*,gomovie.sc,gomovieshd.*,gomovies123.*,123movies.*,0123movies.*##script:inject(disable-newtab-links.js)
+
+|http:$image,~image,popup,third-party,domain=new123movies.live|gostreams.net|bmovies.cloud|gomoviess.net|gomovieshub.*
+new123movies.live,gostreams.net,bmovies.cloud,gomoviess.net,gomovieshub.*##+js(window.open-defuser.js)
+new123movies.live,gostreams.net,bmovies.cloud,gomoviess.net,gomovieshub.*##script:inject(disable-newtab-links.js)
+
+||rediwister.info/images/01.png$image,domain=vcstream.to
+
+gomovies.*###glx-9049-container
+gomovies.*###glx-8500-container
+gomovies.*###glx-8501-container
+
+##.cookie-opa
+opensubtitles.org##tr[style="height:115px;text-align:center;margin:0px;padding:0px;background-color:#F9F1DF;"]
+opensubtitles.org###egmgeqmkt
+io-tech.fi###bremiumi
+ampparit.com##.ticker__row
+ampparit.com##div[class="header"]>div:first-child
+ampparit.com##div[class="ampparit-ticker"]
+ampparit.com##DIV[class*="ad-"]
+mtvuutiset.fi##.component.ad-container
+mtvuutiset.fi##.component.ad-container.section-break
+mtvuutiset.fi##.component-ad-leiki.component > .ad-container.component > h5
+mtvuutiset.fi##.leaderboard.leaderboard-1
+mtvuutiset.fi##.component.component-adincontent
+freeimages.com##.navbar-qards.navbar-qards-inverse.bold
+kinnarps.fi##.cookie__body
+satakunnankansa.fi##.sc-kkwfeq.kjGqZv
+aamulehti.fi##.sc-kkwfeq.kjGqZv
+aamulehti.fi##.sc-DNdyV.iglCNy
+aamulehti.fi##.parade-ad.ad
+aamulehti.fi##.sc-DNdyV.dHWKUk
+moitaas.fi###oakland-body
+moitaas.fi##.oakland-element-row.oakland-element-row-global.oakland-body
+moitaas.fi###washington-body
+moitaas.fi##.Campaign__content
+tiede.fi##.group-social-media.field-group-div.horizontal.sticky-on-mobile.no-padding.sticky-on-mobile--is-active
+reddit.com##.s1pfx7qz-2.hDANzL
+translate.google.fi##.gb_yd.gb_Xc.gb_Jd.gb_g
+iltalehti.fi##.card.scroll-nav.scroll-nav-show.scroll-nav-animated
+iltalehti.fi##.scroll-nav-animated.scroll-nav-show.scroll-nav.card
+m.iltalehti.fi##.scroll-nav-animated.scroll-nav-show.scroll-nav.card
+iltalehti.fi###il-mobileapp-banner
+m.iltalehti.fi###il-mobileapp-banner
+uskonaskel.foorumi.eu##.qc-cmp-persistent-link
+||rotator.tradetracker.net/?r=62405&t=iframe
+##.group-social-media.field-group-div.sticky-on-mobile.sticky-on-mobile--is-hidden
+||assets-jpcust.jwpsrv.com/watermarks/B3Ifytum.png
+fiplay.net##.jw-logo.jw-logo-top-left.jw-reset
+x2.fi###onesignal-popover-dialog
+##.mol-ads-cmp--banner
+kappahl.com##.warning
+demi.fi##.ad__component___1l3Ta.ad__topAd___1X7NR
+demi.fi##.feed__slot___AhV-_.feed__adSlot___1NKGy.ad__component___1l3Ta
+community.spiceworks.com###onesignal-popover-dialog
+mikrobitti.fi##.snyguw-0.bFdgVS
+mikrobitti.fi##.snyguw-11.gDHYru
+sato.fi##div[style="display:flex;padding-left:2em;padding-right:2em;padding-top:1em;padding-bottom:1em;background-color:rgba(0,0,0,0.3);align-items:center;"]
+##.kaleva-cookie-consent__subitem
+##.avia-cookie-consent.avia-cookiemessage-bottom
+linnunrata.org##div[style="position:fixed;right:0;top:0;width:300px;padding:12px 12px 4px 12px;background:#8B008B;color:#fff;z-index:3;font-size:0.875em;box-shadow:0 0 16px rgba(0,0,0,0.5)"]
+yle.fi##.yle__bouncingStickyHeaderAnchor
+###mob_pop_soc
+char.gd##.consently-bar
+medium.com##.u-fixed.u-bottom0.u-sizeFullWidth.u-backgroundWhite.u-boxShadowTop.u-borderBox.u-paddingTop10.u-paddingBottom10.u-zIndexMetabar.u-xs-paddingLeft10.u-xs-paddingRight10.js-stickyFooter
+koillissanomat.fi##div[style="background-color: rgb(45, 45, 45); color: white; padding: 10px; box-sizing: border-box; font: 400 14px \"Arial\", \"helvetica\", sans-serif; display: flex; flex-direction: column; align-items: center;"]
+reddit.com##.h843sg-2.cxXdcf
+##.GDPR-popup-container
+msn.com##.head.scrolled
+msn.com##.stb-bsb
+heimdalsecurity.com##.social-share-wrapper.affixed
+extremetech.com##.share_menu.left.vertical
+pastebin.com###float-box-3
+www.hbl.fi###ksf-gdpr-notice
+www.tomshardware.co.uk###onesignal-popover-dialog
+duunitori.fi##.gdpr-popup.modal-body
+www.vauva.fi##.sticky-on-mobile--is-active.no-padding.sticky-on-mobile.horizontal.field-group-div.group-social-media
+www.is.fi###app-promo
+##.comp.gdpr-notification-banner__content.mntl-block
+###evastehyvaksymisbanneri
+yhteiso.telia.fi###yhteiso-evasteet
+##.alert.alert-cookies.ng-scope.ng-show
+ampparit.com##.ticker.ticker_ad
+kotimaa24.fi###kotimaa-cookie-notification
+batpower.fi##.alert.alert-info.alert-dismissible
+###cookie-settings-container
+tori.fi###panorama_top
+##.cookies__info.cookies__info--visible
+##.interMsgsW.cookie-msg
+power.fi##.title-desktop
+telia.fi##.grid__col-12.notification__container
+##.cookie-notification
+##.cookie-sticky-holder.fixed
+mobiili.fi###onesignal-popover-dialog
+io-tech.fi###onesignal-popover-dialog
+puhelinvertailu.com###onesignal-popover-dialog
+kiinteistolehti.fi##div[style="background-color:rgba(0,0,0,0.75);position:fixed;padding:1.5em;bottom:0;width:100%;z-index:99999999;"]
+keskustelu.afterdawn.com##.onesignal-popover-dialog
+download.fi##.onesignal-popover-dialog
+fin.afterdawn.com##.onesignal-popover-dialog
+liveuamap.com###sw_corner_video_content
+liveuamap.com###sw_corner_video_infos_bottom
+liveuamap.com##.user-msg
+liveuamap.com##.phones.footer-news
+
+! Middlescreen cursor icon
+liveuamap.com##.leaflet-control-mapcentercoord-icon.leaflet-zoom-hide
+
+! Ad placeholders
+liveuamap.com##.event.passby
+
+! Adblocking complaint
+liveuamap.com###modalWrapA
+
+fi.newsner.com##.wsfb-wrapper
+###share-sidebar
+fi.newsner.com##.style1.hide-on-print.inline-share-buttons
+lansi-savo.fi##.ad.show-for-large.placeholder.transparent
+##.cookie-compliance-popup-content
+##.scrollContainer._lv_s1 > div:nth-of-type(2)
+##.uk-cookie-popup
+##.CookiePolicy.CookiePolicy--visible
+is.fi##.block.hide-if-no-ad.sadblob-loading.article-ad-block
+uusisuomi.fi###block-us-appnexus-puheevuoro-468-600--2
+||pmd-download-net.akamaized.net/.m3u8$xmlhttprequest,domain=download.cnet.com
+||pmd-download-net.akamaized.net/video*.ts$xmlhttprequest,domain=download.cnet.com
+||cnetmedia-a.akamaihd.net/mpx/hls/*.ts$xmlhttprequest,domain=www.cnet.com
+download.cnet.com###video_player
+download.cnet.com###uvp-video
+www.cnet.com###videoPlayer1
+www.cnet.com##.embeddedVideoContainer
+##.cookie-notification.notification-bar.ng-scope
+##.message-bar.message-cookies
+##.Banner.Banner--aboveNav.eu-cookie-notice
+
+! Facebook lite -notification for mobile devices (4x)
+m.facebook.com##._2len._5909
+m.facebook.com##.touchableArea.first.last.area.touchable.acy.apl.abt.abb
+m.facebook.com##._5tel
+m.facebook.com##._55ws._5909._cld
+
+! Cookie-notifications on mobile pages (2x)
+m.facebook.com###u_0_7._2nsj
+m.facebook.com###u_0_6._2nsj
+
+fi.wikipedia.org###wlm-banner
+kotimikro.fi##.horseshoe
+foreca.fi###sas_54606
+ilkka.fi##.ads__wrapper--pinnedtop
+ylilauta.org##IMG[src="//static.ylilauta.org/img/karhud.gif"]
+ylilauta.org###blocking-notification
+ylilauta.org##IMG[src="//static.ylilauta.org/img/vsd.png"]
+iltalehti.fi##.ad
+google.fi##.yAVMkd.vk_c
+google.com##.vk_c.yAVMkd
+google.fi##.vk_c.yAVMkd
+google.fi##._Udi.vk_c
+google.fi##.U2J5q
+google.com##.U2J5q
+google.fi##.DodYv
+google.com##.DodYv
+google.com##.xFNJP
+google.fi##.xFNJP
+google.fi##._eIg
+translate.google.fi##.gb_Ad.gb_0c.gb_g

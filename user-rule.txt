@@ -1,0 +1,17 @@
+sogou.com###footer
+sogou.com###QRcode-footer
+sogou.com###QRcode-box
+sogou.com##.user-box
+sogou.com/suggnew/hotwords
+zhibo8.cc###popautoapp
+zhibo8.cc##.zb_right
+xianliao.me
+baidu.com##.bdbri.bdbriimg
+baidu.com##.qrcodeCon
+baidu.com###ftCon
+baidu.com###u
+baidu.com###u1
+baidu.com###s_top_wrap
+baidu.com###s_upfunc_menus
+baidu.com###u_sp
+baidu.com###bottom_container

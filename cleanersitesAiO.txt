@@ -1,0 +1,209 @@
+[ALL IN ONE]
+! Title: BADS.TM Cleaner Sites List All In One
+! Homepage: https://github.com/bads-tm/superblock
+! License: https://github.com/bads-tm/superblock/raw/master/LICENSE
+!
+! Please post any details regarding unblocked notices or problems
+! to the GitHub issue tracker (https://github.com/bads-tm/superblock/issues)
+!
+! "MIT License"
+
+! \=== FACEBOOK ===/
+
+! 7/22/2017, 8:52:35 PM https://www.facebook.com/
+www.facebook.com##.egoOrganicColumn.d_-o1qztso2.pagelet.ego_column:nth-of-type(1) > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
+
+! 7/22/2017, 8:52:42 PM https://www.facebook.com/
+www.facebook.com##.egoOrganicColumn.d_-o1qztso2.pagelet.ego_column:nth-of-type(2) > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
+
+! 7/22/2017, 8:52:46 PM https://www.facebook.com/
+www.facebook.com##.egoOrganicColumn.d_-o1qztso2.pagelet.ego_column:nth-of-type(3) > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
+
+! 7/22/2017, 8:52:50 PM https://www.facebook.com/
+www.facebook.com##.d_-o1qztso2.pagelet.ego_column:nth-of-type(4) > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
+
+! 7/22/2017, 8:52:59 PM https://www.facebook.com/
+www.facebook.com###pagelet_ego_pane
+
+! 7/22/2017, 9:07:37 PM https://www.facebook.com/
+www.facebook.com###u_ps_jsonp_2_0_1
+
+! 7/22/2017, 9:08:24 PM https://www.facebook.com/
+www.facebook.com###pagelet_pymk_timeline
+
+! 7/22/2017, 9:10:28 PM https://www.facebook.com/
+www.facebook.com##._3nzq
+
+! 7/22/2017, 9:12:45 PM https://www.facebook.com/*
+www.facebook.com##._3nzq
+
+! 7/22/2017, 8:52:59 PM https://www.facebook.com/*
+www.facebook.com###pagelet_ego_pane
+
+! 7/22/2017, 9:07:37 PM https://www.facebook.com/*
+www.facebook.com###u_ps_jsonp_2_0_1
+
+! 7/22/2017, 9:08:24 PM https://www.facebook.com/*
+www.facebook.com###pagelet_pymk_timeline
+
+! 7/22/2017, 9:14:30 PM https://www.facebook.com/
+www.facebook.com##.friendBrowserCheckboxContentGrid
+
+! 7/22/2017, 9:14:37 PM https://www.facebook.com/
+www.facebook.com###u_5_2 > .jewelHeader.uiHeaderBottomBorder.uiHeader
+
+! 7/22/2017, 9:14:51 PM https://www.facebook.com/
+www.facebook.com##._52jv.uiMorePagerLight.friendBrowserMorePager.stat_elem.uiMorePager.clearfix
+
+! 7/22/2017, 9:15:06 PM https://www.facebook.com/
+www.facebook.com###u_8_2 > .jewelHeader.uiHeaderBottomBorder.uiHeader > .uiHeaderTop.clearfix > div > .uiHeaderTitle
+
+! 7/22/2017, 9:15:20 PM https://www.facebook.com/
+www.facebook.com###u_8_2
+
+! 7/22/2017, 9:14:30 PM https://www.facebook.com/*
+www.facebook.com##.friendBrowserCheckboxContentGrid
+
+! 7/22/2017, 9:14:37 PM https://www.facebook.com/*
+www.facebook.com###u_5_2 > .jewelHeader.uiHeaderBottomBorder.uiHeader
+
+! 7/22/2017, 9:14:51 PM https://www.facebook.com/*
+www.facebook.com##._52jv.uiMorePagerLight.friendBrowserMorePager.stat_elem.uiMorePager.clearfix
+
+! 7/22/2017, 9:15:06 PM https://www.facebook.com/*
+www.facebook.com###u_8_2 > .jewelHeader.uiHeaderBottomBorder.uiHeader > .uiHeaderTop.clearfix > div > .uiHeaderTitle
+
+! 7/22/2017, 9:15:20 PM https://www.facebook.com/*
+www.facebook.com###u_8_2
+
+! \===MOBILE FACEBOOK          ===/
+!  \===IS GREAT FOR OLDER PC's===/
+
+! 7/22/2017, 9:26:50 PM https://m.facebook.com/
+m.facebook.com###u_0_p > ._55wo
+
+! 7/22/2017, 9:27:10 PM https://m.facebook.com/*
+m.facebook.com###u_0_2b
+
+! 7/22/2017, 9:27:45 PM https://m.facebook.com/*
+m.facebook.com##._4l9b._55x2
+
+! 7/22/2017, 9:27:55 PM https://m.facebook.com/*
+m.facebook.com##._usq._55wr._59e9._52ja
+
+! 7/22/2017, 9:26:50 PM https://m.facebook.com/
+m.facebook.com###u_0_p > ._55wo
+
+! 7/22/2017, 9:27:10 PM https://m.facebook.com/
+m.facebook.com###u_0_2b
+
+! 7/22/2017, 9:27:45 PM https://m.facebook.com/
+m.facebook.com##._4l9b._55x2
+
+! 7/22/2017, 9:27:55 PM https://m.facebook.com/
+m.facebook.com##._usq._55wr._59e9._52ja
+
+! 7/22/2017, 9:31:14 PM https://m.facebook.com/home.php
+m.facebook.com##._55wo > ._55wp
+
+! 7/22/2017, 9:31:14 PM https://m.facebook.com/*
+m.facebook.com##._55wo > ._55wp
+
+! 7/22/2017, 9:33:48 PM https://m.facebook.com/home.php
+m.facebook.com###u_0_o
+
+! 7/22/2017, 9:33:48 PM https://m.facebook.com/*
+m.facebook.com###u_0_o
+
+! 7/22/2017, 9:33:48 PM https://m.facebook.com/home.php
+m.facebook.com###u_0_o
+
+! 7/22/2017, 9:34:38 PM https://m.facebook.com/home.php
+m.facebook.com##._177o._5qc1._21ik
+
+! 7/22/2017, 9:34:53 PM https://m.facebook.com/home.php
+m.facebook.com##._3-8w._ip_
+
+! 7/22/2017, 9:34:59 PM https://m.facebook.com/home.php
+m.facebook.com##._1mx0._59e9
+
+! 7/22/2017, 9:33:48 PM https://m.facebook.com/*
+m.facebook.com###u_0_o
+
+! 7/22/2017, 9:34:38 PM https://m.facebook.com/*
+m.facebook.com##._177o._5qc1._21ik
+
+! 7/22/2017, 9:34:53 PM https://m.facebook.com/*
+m.facebook.com##._3-8w._ip_
+
+! 7/22/2017, 9:34:59 PM https://m.facebook.com/*
+m.facebook.com##._1mx0._59e9
+
+! \=== WIKIA ===/
+
+! 7/22/2017, 3:58:18 PM http://extraoptions.wikia.com/*
+extraoptions.wikia.com##.wds-global-footer__main
+
+! 7/22/2017, 3:58:24 PM http://extraoptions.wikia.com/*
+extraoptions.wikia.com##.wds-global-footer__header
+
+! 7/22/2017, 3:58:59 PM http://extraoptions.wikia.com/*
+extraoptions.wikia.com##.wds-dropdown.wds-global-navigation__wikis-menu
+
+! 7/22/2017, 3:59:05 PM http://extraoptions.wikia.com/*
+extraoptions.wikia.com##.wds-is-tv.wds-global-navigation__link
+
+! 7/22/2017, 3:59:09 PM http://extraoptions.wikia.com/*
+extraoptions.wikia.com##.wds-is-movies.wds-global-navigation__link
+
+! 7/22/2017, 3:59:13 PM http://extraoptions.wikia.com/*
+extraoptions.wikia.com##.wds-is-games.wds-global-navigation__link
+
+! 7/22/2017, 3:59:19 PM http://extraoptions.wikia.com/*
+extraoptions.wikia.com###wds-company-logo-powered-by-wikia
+
+! 7/22/2017, 3:58:18 PM http://*.wikia.com/*
+*.wikia.com##.wds-global-footer__main
+
+! 7/22/2017, 3:58:24 PM http://*.wikia.com/*
+*.wikia.com##.wds-global-footer__header
+
+! 7/22/2017, 3:58:59 PM http://*.wikia.com/*
+*.wikia.com##.wds-dropdown.wds-global-navigation__wikis-menu
+
+! 7/22/2017, 3:59:05 PM http://*.wikia.com/*
+*.wikia.com##.wds-is-tv.wds-global-navigation__link
+
+! 7/22/2017, 3:59:09 PM http://*.wikia.com/*
+*.wikia.com##.wds-is-movies.wds-global-navigation__link
+
+! 7/22/2017, 3:59:13 PM http://*.wikia.com/*
+*.wikia.com##.wds-is-games.wds-global-navigation__link
+
+! 7/22/2017, 3:59:19 PM http://*.wikia.com/*
+*.wikia.com###wds-company-logo-powered-by-wikia
+
+##.wds-global-footer__main
+##.wds-global-footer__header
+##.wds-dropdown.wds-global-navigation__wikis-menu
+##.wds-is-tv.wds-global-navigation__link
+##.wds-is-movies.wds-global-navigation__link
+##.wds-is-games.wds-global-navigation__link
+###wds-company-logo-powered-by-wikia
+
+! \=== YOUTUBE (all of You[TUBE] ) ===/
+
+##.ytp-scroll-min.ytp-pause-overlay
+
+! \=== nfsmods ===/
+! 12/8/2017, 11:34:18 PM https://nfsmods.xyz/mod.php?id=lul
+! you're living off ads and "You don't have to but that would be highly appreciated."
+nfsmods.xyz##a[href="donate"]
+
+! 12/8/2017, 11:38:16 PM https://nfsmods.xyz/settings
+! no email leak
+nfsmods.xyz##.row.form-group:nth-of-type(1)
+
+! 12/23/2017, 4:24:42 PM https://nfsmods.xyz/
+! The one bellow is message of something like "you see this ad because you're in **your country**)
+nfsmods.xyz##center:nth-of-type(1) > div > small

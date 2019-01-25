@@ -1,0 +1,21 @@
+! Title: CHEF-KOCH's Instagram Filter List
+! Description: Block all Instagram related connections, it also blocks sync and other apps and services.
+! Checksum (SHA3-256): 1E81F645C2AFAFA7684FCA40451226E3A139215DFE3E450F277542976F9EF49B
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 14d
+! TimeUpdated: 2018-05-15	04:51:34+01:00
+! Version: 0.0.0.1
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+!
+! ---------- Instagram ----------
+!
+!||badges.instagram.com^
+||api.instagram.com^
+||cdninstagram.com^
+||instagram.com^
+||www.instagram.com^
+

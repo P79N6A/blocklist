@@ -1,0 +1,167 @@
+[Adblock Plus 2.0]
+! Checksum: 1IER2hqHZipH/AW47a7usA
+! Version: 201505161523
+! Title: Wiltteri Reborn
+! Description: Finnish supplement list for EasyList
+! Last modified: 16 May 2015 15:23 UTC
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/wiltteri/
+! License: http://unlicense.org/
+!
+! -------------------- general-block.txt -------------------- !
+/mainokset.
+/mainokset/*
+/mainokset_
+/mainos.
+/mainos/*
+/mainos_
+/mainosbanneri.
+/mainosbanneri/*
+/mainosbanneri_
+/mainosbannerit.
+/mainosbannerit/*
+/mainosbannerit_
+/mainoskaruselli.
+/mainoskaruselli/*
+/mainoskaruselli_
+/sponsorit.
+/sponsorit/*
+/sponsorit_
+/yhteistyokumppanit.
+/yhteistyokumppanit/*
+/yhteistyokumppanit_
+/yhteistyossa.
+/yhteistyossa/*
+/yhteistyossa_
+_mainos.
+_mainosnappi.
+! -------------------- general-hide.txt -------------------- !
+###keskimainos
+###mainokset
+###mainokset_oikea
+###mainokset_vasen
+###mainokset_yla
+###mainos
+###mainosbanneri
+###mainosbannerit
+###mainoskaruselli
+###mainoslaatikko
+###mainospaikka
+###mainostila
+###sponsori
+###sponsorit
+###yhteistyokaruselli
+###yhteistyokumppanit
+###yhteistyossa
+###ylamainokset
+###ylamainos
+##.keskimainos
+##.mainokset
+##.mainokset_oikea
+##.mainokset_vasen
+##.mainokset_yla
+##.mainos
+##.mainosbanneri
+##.mainosbannerit
+##.mainoskaruselli
+##.mainoslaatikko
+##.mainospaikka
+##.mainostila
+##.sponsori
+##.sponsorit
+##.yhteistyokaruselli
+##.yhteistyokumppanit
+##.yhteistyossa
+##.ylamainokset
+##.ylamainos
+! -------------------- specific-block.txt -------------------- !
+||autolomat.fi^*/bannerit/
+||autoluettelo.fi/aka/news/*banner
+||avoimet.com/javascript/*_suomi.js
+||fin5.fi/wp-content/uploads/*palkki_
+||goldenring.fi^*/banners/
+||heinola.net^*/banners/
+||javo.fi^*/banners/
+||nesteoilrallyfinland.fi/images/thumbs/
+||oldstory.fi/wp-content/uploads/*logot_alarimpsu_
+||oldstory.fi/wp-content/uploads/*ylabanneri_
+||palloliitto.fi^*/sponsor-main-logo/
+||pattijoenurheilijat.fi^*/Bannerit/
+||pesaysit.fi/imgthumb.php?taulu=linkit
+||riverball.fi^*/banners/
+||takilta.fi^*/banners/
+||tekniikkaparkki.fi/wp-content/uploads/*_banneri_
+||telkku.com^*/images/nostot/
+||vuokralaiset.fi/bannerit2012/
+||xracing.fi/tiedostot/
+! -------------------- specific-hide.txt -------------------- !
+heinola.net###Banners
+nesteoilrallyfinland.fi###CONT_IntroContent
+nesteoilrallyfinland.fi###bannerRoulette
+foreca.fi###box-banner
+autolomat.fi###colu3
+liike.fi###footer-right
+telkku.com###footerBoxAdWrapper
+finlandiamarathon.fi###partners
+jokipojat.com###right
+runoviikko.fi###right .sidebar-text:last-of-type
+como.fi,hifimaailma.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi###secondary a[target="_blank"]
+foreca.fi###side-banners
+pesaysit.fi###top
+telkku.com###topBannerWrapper
+mbnet.fi###topbanner
+mbnet.fi###tyopaikat-joblift--avainpaikat
+tivi.fi##.ad
+urheilutoimittajat.fi##.banneriboxi_980
+nesteoilrallyfinland.fi##.banners
+fin5.fi##.contentright_right
+yritysporssi.fi##.footer_logos
+kaleva.fi##.grey-container
+como.fi,hifimaailma.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##.jattiboksi-container
+mahl.fi##.moduletablemainos
+episodi.fi##.post-content > div[style*="color:#9e9e9e;font-size:12px;"]
+episodi.fi##.post-content > div[style*="text-align:center;background:#f9f9f9;"]
+akkukauppa.com##.ribbon + table
+episodi.fi##.sidebar_content_part_container > div[style*="background:#f9f9f9;text-align:center;"]
+como.fi,hifimaailma.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##.sisalto-ilmoitus-mainos
+como.fi,hifimaailma.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##.sisalto-ilmoitus-otsikko
+foreca.fi##.top-banners
+devilskuopio.fi##table[height="5"]
+devilskuopio.fi##td[background$="oikearasteri.gif"]
+liikuntakeskus.info##td[style="width:175px;"] a[target="_blank"]
+! -------------------- thirdparty.txt -------------------- !
+||dv.fi/content/images/stories/misc/$third-party,domain=digivideo.fi
+||helskv.com^*/Logot/$third-party,domain=helsinginkisaveikot.fi
+||uratie.fi^$third-party
+||veikkaus.info/message.html$subdocument,third-party,domain=avoimet.com
+! Alma Media
+||autotalli.com^$subdocument,third-party
+||eas.almamedia.fi^$script,third-party
+||etuovi.com^$subdocument,third-party
+||iltalehti.fi^$subdocument,third-party
+||jdn.monster.com^$script,third-party
+! Sanoma
+||ko.snstatic.fi^$subdocument,third-party
+||oikotie.fi/ext/$third-party
+||sanomamagazines.fi^*/promobox/$subdocument,third-party
+||tiede.fi/uutisboksi/$subdocument,third-party
+||tiede.fi^*/promobox/$subdocument,third-party
+||tyonantaja.oikotie.fi^$third-party
+! -------------------- whitelist-block.txt -------------------- !
+@@||www.op.fi^*/mainokset/
+! Foxplay.fi
+@@||analytics.edgekey.net^*/akamaiAnalyticsPDKLoader.js$third-party,domain=foxplay.fi
+@@||ficgohub.com^*/doubleclick.js$third-party,domain=foxplay.fi
+@@||imasdk.googleapis.com/js/core/bridge3.$subdocument,third-party,domain=foxplay.fi
+@@||imasdk.googleapis.com^*/ima3.js$third-party,domain=foxplay.fi
+! Ruutu.fi
+@@||adtech.de/?adrawdata/$object-subrequest,third-party,domain=groovefm.fi|hs.fi|iltasanomat.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruutu.fi|sykesport.fi
+@@||nelonenmedia.fi^*/logo/$object-subrequest,third-party,domain=groovefm.fi|hs.fi|iltasanomat.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruutu.fi|sykesport.fi
+! -------------------- whitelist-hide.txt -------------------- !
+tilannehuone.fi#@#.mainos
+lamminveto.com#@#.sponsorit
+! EasyList fixes
+download.fi#@##ad-top-banner-placeholder
+ylilauta.org#@##hideads
+juoksufoorumi.fi#@#.ad_global_header
+hervannansanomat.fi#@#.ads-left

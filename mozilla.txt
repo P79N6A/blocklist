@@ -1,0 +1,59 @@
+! Title: CHEF-KOCH's Mozilla Filter List
+! Description: Block all Mozilla related connections, it also blocks sync and other apps and services.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 14d
+! Version: 0.0.0.3
+! Last updated: 2019-01-01
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+||blocklists.settings.services.mozilla.com^
+||shavar.prod.mozaws.netshavar.services.mozilla.com^
+||accounts.firefox.com^
+||activations.cdn.mozilla.net^
+||add.my.yahoo.com^
+||addons.mozilla.org^
+||aus5.mozilla.org^
+||blocked.cdn.mozilla.net^
+||cdnjs.cloudflare.com^
+||code.cdn.mozilla.net^
+||compose.mail.yahoo.com^
+||crash-stats.mozilla.com^
+||crash-stats.mozilla.org^
+||data.mozilla.com^
+||detectportal.firefox.com^
+||experiments.mozilla.org^
+||fhr.cdn.mozilla.net^
+||fhr.data.mozilla.net^
+||ftp.mozilla.org^
+||hello.firefox.com^
+||input.mozilla.org^
+||mail.google.com^
+||marketplace.firefox.com^
+||mozsocial.cliqz.com^
+||onyx_tiles.stage.mozaws.net^
+||self-repair.mozilla.org^
+||services.mozilla.com^
+||snippets.cdn.mozilla.net^
+||support.mozilla.org^
+||tbpl.mozilla.org^
+||telemetry-experiment.cdn.mozilla.net^
+||telemetry.mozilla.org^
+||wiki.mozilla.org^
+||www.firefox.com^
+||www.mibbit.com^
+||www.mozilla.org^
+||tiles-cloudfront.cdn.mozilla.net^
+||tiles.services.mozilla.com^
+||incoming.telemetry.mozilla.org^
+||img-getpocket.cdn.mozilla.net^
+||getpocket.cdn.mozilla.net^
+||location.services.mozilla.com^
+||shavar.services.mozilla.com^
+||normandy-cloudfront.cdn.mozilla.net^
+||normandy.cdn.mozilla.net^
+||versioncheck-bg.addons.mozilla.org^
+||firefox.settings.services.mozilla.com^

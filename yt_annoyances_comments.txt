@@ -1,0 +1,10 @@
+[Adblock Plus 2.0]
+! Checksum: GSu/PRRWy/XnoZDjHFj4dQ
+! Version: 201901250822
+! Expires: 1 days
+! Title: Youtube: Remove Comments
+! Homepage: http://youtube.adblockplus.me/
+! Removes comments on video pages
+||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
+||youtube.com/comment_service_ajax?$domain=youtube.com
+youtube.com###comments

@@ -1,0 +1,80 @@
+https-strict: behind-the-scene false
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: moz-extension-scheme true
+matrix-off: opera-scheme true
+matrix-off: vivaldi-scheme true
+matrix-off: wyciwyg-scheme true
+no-workers: * true
+no-workers: duckduckgo.com false
+no-workers: localhost false
+noscript-spoof: * true
+referrer-spoof: * true
+referrer-spoof: behind-the-scene false
+* * * block
+* * cookie block
+* * css allow
+* * frame block
+* * image allow
+* * other block
+* 1st-party * allow
+* 1st-party cookie allow
+* 1st-party frame allow
+* ajax.aspnetcdn.com * allow
+* ajax.aspnetcdn.com script allow
+* ajax.cloudflare.com * allow
+* ajax.cloudflare.com script allow
+* ajax.googleapis.com * allow
+* ajax.googleapis.com script allow
+* ajax.microsoft.com * allow
+* ajax.proxy.ustclug.org * allow
+* api.github.com xhr allow
+* api.mapbox.com image allow
+* apps.bdimg.com * allow
+* avatars.discourse.org image allow
+* bootstrapcdn.com * allow
+* bootstrapcdn.com script allow
+* cdn.bootcss.com * allow
+* cdn.jsdelivr.net * allow
+* cdn.jsdelivr.net script allow
+* cdn.rawgit.com * allow
+* cdn.sstatic.net * allow
+* cdnjs.cloudflare.com * allow
+* cdnjs.cloudflare.com script allow
+* code.jquery.com * allow
+* code.jquery.com script allow
+* gist.github.com script allow
+* github.githubassets.com css allow
+* gravatar.com image allow
+* lib.sinaapp.com * allow
+* libs.baidu.com * allow
+* maps.googleapis.com * allow
+* maps.googleapis.com script allow
+* maps.gstatic.com * allow
+* medium.com * allow
+* netdna-ssl.com * allow
+* rawgit.com * allow
+* res.cloudinary.com image allow
+* s.ytimg.com script allow
+* sdn.geekzu.org * allow
+* shopify.com * allow
+* squarespace.com * allow
+* stackexchange.com * allow
+* unpkg.com * allow
+* upcdn.b0.upaiyun.com * allow
+* use.fontawesome.com * allow
+* use.fontawesome.com script allow
+* use.fortawesome.com * allow
+* use.fortawesome.com script allow
+* use.typekit.net * allow
+* use.typekit.net script allow
+* wikimedia.org * allow
+* wp.com css allow
+* wp.com image allow
+* wp.com script allow
+* www.youtube.com script allow
+* yandex.st * allow
+* yastatic.net * allow

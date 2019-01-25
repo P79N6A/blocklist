@@ -1,0 +1,49 @@
+#      
+#   DShield.org Recommended Block List 
+#    (c) 2019 DShield.org
+#   some rights reserved. Details http://creativecommons.org/licenses/by-nc-sa/2.5/
+#   use on your own risk. No warranties implied.
+#   primary URL: http://feeds.dshield.org/block.txt
+#     PGP Sign.: http://feeds.dshield.org/block.txt.asc
+#
+#   comments: info@dshield.org
+#    updated: Fri Jan 25 08:30:19 2019 UTC
+#   
+#    This list summarizes the top 20 attacking class C (/24) subnets
+#   over the last three days. The number of 'attacks' indicates the 
+#   number of targets reporting scans from this subnet.
+#
+#
+#    Columns (tab delimited):
+#
+#    (1) start of netblock  
+#    (2) end of netblock
+#    (3) subnet (/24 for class C)
+#    (4) number of targets scanned
+#    (5) name of Network 
+#    (6) Country
+#    (7) contact email address
+#
+#    If a range is assigned to multiple users, the first one is listed. 
+#     
+Start	End	Netmask	Attacks	Name	Country	email
+176.119.4.0	176.119.4.255	24	8452	VSERVER-AS,	UA	abuse@multi-dc.com
+185.176.27.0	185.176.27.255	24	8034	MEGASERVERS-FFM, DE		
+194.28.115.0	194.28.115.255	24	6167	HOSTMASTER-AS,	MD	abuse@ix-host.ru
+185.254.123.0	185.254.123.255	24	5989	MEDIALAND-AS, RU		
+185.176.26.0	185.176.26.255	24	5732	MEGASERVERS-FFM, DE		
+78.128.112.0	78.128.112.255	24	5155	AS_4MEDIA, BG		
+185.222.210.0	185.222.210.255	24	3806	UNKNOWN		
+77.72.85.0	77.72.85.255	24	3739	UPUKS-AS, GB		
+92.63.194.0	92.63.194.255	24	3689	ITDELUXE-AS,	RU	support@itdeluxe.com
+37.49.227.0	37.49.227.255	24	3613	ESTROWEB, NL		
+92.53.65.0	92.53.65.255	24	3547	SELECTEL,	RU	abuse@selectel.ru
+185.143.221.0	185.143.221.255	24	2980	SELECTEL,	RU	abuse@selectel.ru
+198.108.67.0	198.108.67.255	24	2827	MERIT-AS-14 - Merit Network Inc.,	US	abuse@merit.edu
+185.255.31.0	185.255.31.255	24	2707	SIMPLECARRIER,	CH	abuse@simplecarrier.net
+109.248.9.0	109.248.9.255	24	2649	SOLAR-AS,	GB	abuse@solarnet.biz
+31.192.108.0	31.192.108.255	24	2636	NCONNECT-AS,	RU	abuse@hostkey.ru
+92.53.90.0	92.53.90.255	24	2566	SELECTEL,	RU	abuse@selectel.ru
+185.153.196.0	185.153.196.255	24	2564	RMINJINERING,	RU	admin@rm-injinering.ru
+185.211.245.0	185.211.245.255	24	2489	TEAM-HOST AS, RU		
+125.64.94.0	125.64.94.255	24	2203	CHINANET-BACKBONE No.31,Jin-rong Street,	CN	anti-spam@ns.chinanet.cn.net

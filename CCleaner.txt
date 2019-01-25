@@ -1,0 +1,36 @@
+# Title: CHEF-KOCH's CCleaner HOSTS Filter List
+# Description: Block all CCleaner related connections.
+# Checksum (SHA3-256): 91339EE7AA64AE8A0BA89822B042526ECA6236B317E227CC778AEC4B18F55654
+# License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+# By downloading or viewing, or using this list, you are accepting these terms and the license.
+# Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+# Expires: 14d
+# TimeUpdated: 2018-07-07	09:43:35+01:00
+# Version: 0.0.0.2
+# Please report any unblocked content or problems by email or via GitHub issue ticket.
+# Email: CHEF-KOCH@protonmail.com
+# Copyright (C) 2018 by CHEF-KOCH
+#
+# ---------- CCleaner license check ----------
+#
+0.0.0.0 license.piriform.com
+#
+# ---------- Avast/CCleaner ----------
+#
+0.0.0.0 ipm-provider.ff.avast.com
+0.0.0.0 ipmcdn.avast.com
+0.0.0.0 service.piriform.com
+0.0.0.0 emupdate.avcdn.net
+0.0.0.0 ccleaner.tools.avcdn.net
+0.0.0.0 public.avast.com
+0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 license.piriform.com
+0.0.0.0 widget.trustpilot.com
+0.0.0.0 secure.ccleaner.com
+0.0.0.0 static-cf.cleverbridge.com
+0.0.0.0 labs.upsellit.com
+0.0.0.0 www.upsellit.com
+0.0.0.0 api.mixpanel.com
+0.0.0.0 dev.visualwebsiteoptimizer.com
+0.0.0.0 seal.digicert.com
+0.0.0.0 www.ccleaner.com

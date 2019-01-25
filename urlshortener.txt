@@ -1,0 +1,24 @@
+! Title: CHEF-KOCH's URL Shortener Filter List
+! Description: Blocks strange requests coming from legit url shortener.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.01
+! Last updated: 2018-12-02
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+||adf.ly^$important
+||bit.do/*^$important
+||bit.ly/*^$important
+||biturl.io^$important
+||cur.lv^$important
+||dr.tl/*^$important
+||go.budurl.co^$important
+||hackforu.ms^$important
+||shorte.st^$important
+||slsh.us^$important
+||taveo.net/*^$important
+||tldr.ly^$important

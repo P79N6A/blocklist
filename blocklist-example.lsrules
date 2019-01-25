@@ -1,0 +1,31 @@
+{
+  "description" : "This rule group demonstrates the subscription of a blocklist. It’s for demo purposes only.\n\nIt lets you try out the subscription procedure and the available configuration options. You can rename the group, enable\/disable either individual rules or the entire group, specify the update interval, and more.",
+  "name" : "Blocklist Example",
+  "rules" : [
+    {
+      "action" : "deny",
+      "process" : "any",
+      "remote-domains" : "tracking-server.example.com"
+    },
+    {
+      "action" : "deny",
+      "process" : "any",
+      "remote-domains" : "ads.example.com"
+    },
+    {
+      "action" : "deny",
+      "process" : "any",
+      "remote-domains" : "adserver.example.com"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote-hosts" : "user-tracking.example.com"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote-hosts" : "usage-analyzer.example.com"
+    }
+  ]
+}

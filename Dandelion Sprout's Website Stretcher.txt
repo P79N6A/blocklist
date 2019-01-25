@@ -1,0 +1,287 @@
+! Title: 🖥️ Dandelion Sprout's Website Stretcher
+! Version: 10January2019v3-Beta
+! Expires: 3 days
+! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
+! Have you ever felt bothered by how many websites still think that everyone are using narrow monitors? Well, here's how to stretch them out like a piece of gum!
+! Special thanks go out to elypter (https://github.com/elypter), who inadvertently taught me that adblockers can be used to edit elements' CSS styles.
+! For more information and details about this list and other lists of mine, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! Category: Prisjakt
+! Front page
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###centered_container:style(margin-left:1px !important; margin-right:1px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###supersearch_large:style(width:95vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###column1:style(width:1000px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###column2:style(width:230px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.column2.shadow.section:style(width:80vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##nav.footer:style(width:95vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.list-cat-images.no-border.mt20 > li > div.show-on-hover:style(width:200px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.list-cat-images > li:style(width:125px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.super_search_textbox_big:style(width:80vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###headerdiv:style(width:95vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.column1.shadow.section:style(width:210px)
+
+! Category pages
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.list-cat-images-wide:style(width:95vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###category_description_container:style(width:950px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.divider-with-content.right:style(width:1350px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.white-bg:style(width:95vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.list-simple > li:style(width:190px !important)
+
+! Criteria pages
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###main_content_wrapper:style(width:95vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr###header-logo:style(width:180px !important)
+
+! Product pages
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.v-centered:style(width:1390px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.big-tabs-low.flex_tabs:style(width:1300px !important)
+
+! Review pages
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.balloon-inner:style(width:75vw !important;min-width:1000px)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.balloon-r:after:style(margin-left:270px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.balloon-r:before:style(margin-left:270px !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.balloon-translated:style(width:60vw !important)
+prisjakt.*,pricespy.*,hintaopas.fi,kompario.pl,pagomeno.it,ledenicheur.fr##.drg-sidebar:style(max-width:320px)
+
+! Category: Vidlii
+vidlii.com##.wrapper:style(width:1370px !important)
+vidlii.com###vtbl_actions:style(width: 950px !important; margin-right: 10px !important)
+vidlii.com###vtbl_desc:style(width:410px !important)
+vidlii.com###vtbl_pl:style(width:940px !important; height:700px !important)
+vidlii.com##.pr_hd_wrapper:style(width:1350px !important)
+vidlii.com##.search_bar:style(width:600px !important)
+vidlii.com##.h_l:style(width:1030px !important)
+vidlii.com##.vc_r:style(width:1150px !important)
+vidlii.com##.ln2:style(width:220px !important)
+vidlii.com##input#em:style(width:340px !important)
+
+! Category: MeWe
+mewe.com##.header_inner:style(max-width: none !important; margin: 0px 20px !important)
+mewe.com##.header_nav_list:style(width:40vw)
+mewe.com##.header_logo_wrapper:style(margin: 0px 30px !important)
+mewe.com##.header_notification-btn:style(margin: 0px 60px !important)
+mewe.com##.content-all-wrapper:style(max-width: none; width: 98vw)
+mewe.com##.c-mw-post:style(max-width: none)
+mewe.com##.c-mw-postbox-placeholder:style(max-width: none !important)
+mewe.com##.postbox_header_textarea:style(max-width: none !important)
+mewe.com##.c-feed-simple:style(max-width: none !important)
+mewe.com##p[dir=auto]:style(word-break: break-word)
+
+! Media viewer
+mewe.com##.media-dialog_post--comment-fixed:style(width:40vw !important)
+mewe.com##.media-dialog_inner:style(max-width: none)
+mewe.com##.media-dialog.content-high.c-mw-comment-your:style(width:40vw !important)
+
+! Emoji picker
+mewe.com##.c-mw-emoji-picker:style(width:670px !important; margin-left: -300px !important)
+mewe.com##div[class*="c-app-route myworld ember-view"] + div[class*="c-mw-emoji-picker"]:style(left: 35vw !important)
+mewe.com##ul.like-category li:style(width:45px !important)
+mewe.com##ul.category li:style(width:45px !important)
+mewe.com##.search.active:style(padding-top:6px !important; padding-bottom:3px !important)
+
+! Groups
+mewe.com###content-wrapper:style(max-width: none !important)
+mewe.com##.group-feed-routable_feed:style(flex-basis: 100% !important)
+mewe.com##.c-mw-group-whats-new.ember-view:style(max-width: 15vw !important)
+mewe.com##.sidebar-right-group:style(width: auto !important)
+
+! Fullscreen chat
+mewe.com##.chat-message_content:style(max-width: 100% !important)
+
+! Search results
+mewe.com##.dialog_inner:style(max-width: 80% !important; padding-right: 45px !important)
+mewe.com##.smart-search_results:style(max-width: none !important; width: 70vw !important)
+mewe.com##.smart-search_menu--visible:style(margin-left: -5vw !important)
+
+! Userpages
+mewe.com##.profile-posts-routable_feed:style(flex-basis: 100% !important)
+
+! Category: Pixiv
+! Bookmarks
+pixiv.net###wrapper:style(width:100% !important;margin-left:1px !important)
+pixiv.net##.layout-column-2:style(width:85vw !important;float:right)
+pixiv.net##.layout-a:style(width:99vw !important;)
+
+! Front page
+pixiv.net##.contents-east:style(width:95vw)
+pixiv.net##.contents-main:style(width:68vw)
+pixiv.net##.pixivision__list:style(width: 100% !important)
+pixiv.net##.project-description:style(width: 80% !important)
+
+! Discovery page
+pixiv.net###js-mount-point-discovery:style(width:1410px !important)
+pixiv.net##.layout-body:style(margin-left:0px !important;margin-right:0px !important; width: 1410px !important)
+
+! Top toolbar
+pixiv.net##.layout-wrapper:style(width:98% !important;margin-left:5px !important;margin-right:5px !important)
+pixiv.net##.home:style(width:85px !important)
+pixiv.net##.upload .require-mail-authorization:style(width:85px !important)
+pixiv.net##.bookmarks:style(width:120px !important)
+pixiv.net##.stacc:style(width:85px !important)
+pixiv.net##.notifications.new-version > .message:style(width:70px !important)
+pixiv.net##._2cKKbUO:style(width:95vw; max-width:2500px)
+
+! Artwork page
+pixiv.net##._3NOStiW:style(margin-left:2px !important;width:99vw !important;max-width:99vw !important; min-width:1300px; column-width: 1300px)
+pixiv.net##.CAqyN6E:style(margin-left:2px !important;width:1400px !important)
+pixiv.net##._3mgRzAf:style(width:99vw !important)
+pixiv.net##._-8uKgIP:style(height:800px !important)
+pixiv.net##.aw29wyY:style(min-width: 1400px !important; width:36vw; display: inline-flex !important)
+pixiv.net##._1Hctrfm:style(max-width:none !important;width: 950px !important;margin-left: 2px !important; margin-right: 2px !important)
+pixiv.net##._187QfBa:style(max-width:none !important;width: 950px !important)
+pixiv.net##._28Dm0wF:style(width: 950px !important)
+pixiv.net##._3jmt4z4:style(max-width:none !important;width: 980px !important;margin-left: 2px !important; margin-right: 2px !important)
+pixiv.net##.vLWu89a:style(max-width:none !important)
+pixiv.net##._29PXgaP:style(margin: 5px 5px 5px)
+pixiv.net##._1HaQZqj:style(max-width: 97vw !important)
+pixiv.net##._26qA6NR:style(max-width: none !important)
+pixiv.net##._2ZkS6Zz:style(width: 95vw !important)
+pixiv.net##._2BF9Y8h:style(max-width: 720px !important)
+pixiv.net##._1dNt4KD:style(width: 720px !important)
+pixiv.net##.dfNFHv:style(width: 100% !important)
+pixiv.net##._1eNrAOd:style(max-width: none !important)
+
+! Category: PayPal
+paypal.com###summary.summarySection:style(max-width: none !important)
+
+! Category: Bitwarden Vault
+vault.bitwarden.com##.container.page-content:style(width: 100%)
+
+! Category: Google Play
+play.google.com##.card-list.two-cards:style(margin-left: 220px !important; margin-right:15px)
+play.google.com##.cluster-heading:style(margin-left: 220px !important)
+
+! Article pages
+play.google.com##.UTg3hd:style(margin-left:5px !important;margin-top:5px !important;max-width:none !important)
+play.google.com##.tlG8q:style(margin-left:10px !important;margin-top:10px !important)
+play.google.com##.LXrl4c:style(width: 860px !important)
+play.google.com##.hkhL9e:style(width: 220px !important)
+play.google.com##.hAyfc:style(width: 250px !important)
+play.google.com##.W4P4ne:style(padding-left: 10px !important;padding-right: 10px !important)
+	
+! User reviews
+play.google.com##.UD7Dzf:style(width: 762px !important)
+play.google.com##.W4P4nw:style(margin-left: 10px !important;margin-right: 10px !important)
+	
+! Article preview images
+play.google.com##.XYLQ2b:style(width: 900px !important)
+play.google.com##.Eg31qe:style(width: 780px !important)
+	
+! Google Play Books article pages
+play.google.com##.Njo8s:style(width:900px !important)
+	
+! Google Play Books notes on how to read content
+play.google.com##.wAHRxd:style(width:420px !important;max-width:450px !important)
+	
+! Google Play Books owned books list
+play.google.com##.body-content:style(margin-left:205px !important)
+	
+! Google Play Music article pages
+play.google.com##div.main-content:style(margin-left:7px !important)
+play.google.com##div.meta-info:style(width:200px !important)
+
+! Category: ASUS Router
+router.asus.com##.NM_table:style(width:1100px !important)
+router.asus.com###_NM_table:style(width:570px)
+router.asus.com###wl_ssid.input_25_table:style(width:350px !important)
+router.asus.com##.NM_radius_bottom:style(width:440px !important)
+router.asus.com##.NM_radius_bottom_container:style(width:440px !important)
+router.asus.com###rt_table:style(width:400px !important)
+router.asus.com###wl_wpa_psk:style(width:400px !important)
+router.asus.com##.loading_bar:style(width:230px !important)
+router.asus.com###deviceOption_1.input_option:style(width:180px !important)
+router.asus.com##.clientlist_viewlist:style(width:1120px !important)
+router.asus.com##.input_32_table:style(width:410px !important)
+router.asus.com##.input_18_table:style(width:168px !important)
+	
+! Login screen
+router.asus.com##.form_input:style(width:600px !important)
+
+! Category: Wikia
+! This category is based on 'Clean Wikia', made by Phoenixsong (https://userstyles.org/users/161415)
+wikia.com###WikiaPage:style(width: 100% !important; max-width: none !important; margin: 0px !important; padding: 0px  !important)
+wikia.com###PageHeader:style(padding: 16px 10px 12px)
+wikia.com###WikiaMainContent:style(width: 100% !important; margin: 0px !important)
+wikia.com###WikiaMainContentContainer:style(margin: 0px !important)
+
+! Category: Finn.no
+! Note that the non-grid product lists are broken when using this list.
+! Front page
+finn.no##.ad-stream__unit:style(width: 230px !important)
+finn.no##.pageholder:style(max-width: none)
+finn.no##.market-grid__item:style(width: 20%)
+	
+! Torget category list page
+finn.no##.container.bg-ice.pbs:style(max-width: none; padding-top: 0px !important)
+finn.no##.page:style(max-width: none)
+	
+! Product lists (Grid)
+finn.no##.flex.align-items-stretch.result-item:style(width: 230px)
+finn.no##.unit.r-size1of3:style(width: 350px)
+	
+! Product pages
+finn.no##.grid__unit.u-r-size1of3:style(width:30%)
+finn.no##.grid__unit.u-r-size2of3:style(width:70%)
+	
+! Top bar
+finn.no##.top-bar-top-bar__nav-1O8LN:style(max-width: none !important)
+finn.no##.top-bar-top-bar__menu-item-3kxIT:style(padding-right: 40px !important; padding-left: 40px !important)
+
+! Category: GitHub
+! This category is based on 'GitHub Wide', made by cfoellmann (https://userstyles.org/styles/108591/github-wide)
+github.com##.container-lg:style(max-width: none !important)
+github.com##.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.file-header:after:style(clear: left !important)
+
+! Repo Next layout
+github.com##.repository-content:style(width: 100% !important)
+github.com##.repository-with-sidebar:style(padding-right: 60px !important)
+github.com##.repository-with-sidebar > .repository-sidebar:style(margin-right: -60px !important)
+github.com##.summary-stats:style(display: table; width: 100%)
+github.com##.authors-and-code:style(display: table; width: 100%)
+github.com##.summary-stats > li:style(width: 25%)
+github.com##.authors-and-code > .section:style(width: 50%)
+
+! Repo Next Code page
+github.com##.with-full-navigation:style(padding-right: 190px !important)
+github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
+
+! Issues/PRs
+github.com##.discussion-sidebar:style(width: 220px !important)
+github.com##.discussion-timeline:style(width: calc(100% - 240px) !important)
+
+! New issues and Dashboard
+github.com###dashboard:style(position: relative !important)
+github.com##.new-issue-form:style(position: relative !important)
+github.com##.dashboard-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##.new-issue-form > .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##button.discussion-sidebar-toggle:style(width: 100% !important)
+github.com##.timeline-new-comment:style(max-width: none !important)
+
+! Dashboard
+github.com##.news:style(float: none !important; margin-right: 360px !important)
+
+! Settings
+github.com##.settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.repo-settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.container > .settings-content, .repo-settings-content:style(margin-left: 260px !important)
+github.com###repo-settings > .menu-container:style(width: 240px !important)
+github.com###js-flash-container > .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+
+! Profile avatar tooltip
+github.com##.u-photo .avatar:style(width: 230px !important)
+github.com##.h-card:style(width: 230px; margin-right: 16px)
+
+! Category: FilterLists
+filterlists.com##.w-100:style(width:98vw !important)
+filterlists.com##.container:style(max-width: 99vw !important; margin-left:7px !important)
+
+! Category: Telenor Digital Norway
+telenor.no##.container:style(width: 98vw)
+telenor.no##.minesider-container:style(max-width: none; width: 98vw)
+
+! Category: Bulbapedia
+bulbapedia.bulbagarden.net###content.mw-body:style(max-width: 95vw !important)
+
+! Category: Qwant
+qwant.com##.results-column:style(max-width: none !important; width: 1200px !important)

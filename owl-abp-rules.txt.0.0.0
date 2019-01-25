@@ -1,0 +1,71 @@
+[Adblock Plus 2.0]
+! Version: 20181021
+! Title: OwlStudio ABP Rules
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/OwlStudioCN/owl-abp-rules
+!
+! If there is any problem, just open an issue at https://github.com/OwlStudioCN/owl-abp-rules/issues
+!
+
+! zhihu
+zhihu.com##.AdblockBanner
+zhihu.com##.Card.Banner
+
+! bibili
+bilibili.com##.bilibili-player-promote-wrap
+
+! qzone
+user.qzone.qq.com#?#li.f-single.f-s-s:-abp-has(.f-single-top)
+user.qzone.qq.com##.icenter-right-ad
+user.qzone.qq.com###QM_Container_100002
+user.qzone.qq.com##.icenter-right-mod
+user.qzone.qq.com##.mod-tuwen
+user.qzone.qq.com##.mod-side-nav.mod-side-nav-recently-used
+user.qzone.qq.com###gdtLcModCnt
+user.qzone.qq.com##.sns_icenter
+user.qzone.qq.com###QM_Mood_Poster_Container
+user.qzone.qq.com###div_corner_ad_container
+
+! csdn
+blog.csdn.net##newsfeed
+blog.csdn.net##.recommend-ad-box
+blog.csdn.net##.pulllog-box
+blog.csdn.net##.tool-box
+blog.csdn.net##.csdn-tracking-statistics.mb8.box-shadow
+blog.csdn.net##iframe
+blog.csdn.net##.p4course_target
+blog.csdn.net##._4paradigm_box
+blog.csdn.net##.box-box-aways
+
+! other
+zxi.mytechroad.com##.GZKmnzklbQle
+zxi.mytechroad.com##.GZKmnzklbQle-bg
+zhuihd.com##iframe
+subhd.com##div[style="padding-top:120px"]
+subhd.com##div[style="text-align:center;padding-top:10px;margin-bottom:10px"]
+xuetangx.com##.course_mask
+ping.chinaz.com###pingImg
+ping.chinaz.com##.pingimg.mt10.auto
+ruanyifeng.com##.entry-sponsor
+ruanyifeng.com###cre
+ruanyifeng.com##div[style="display: inline-block ! important;width: 100%;"]
+share.dmhy.org###\31 280_ad
+share.dmhy.org###msdl_ad
+share.dmhy.org###wx_ad
+share.dmhy.org###tanxssp-outer-conmm_11489873_4022377_627520310
+webpack.js.org##.sponsors
+
+! youdao
+youdao.com##.ads
+youdao.com##.fr
+youdao.com###wljb
+
+! segmentfault
+segmentfault.com##.mb25
+
+! assrt.net
+assrt.net##.detail-top-banner
+
+! subhd.com
+subhd.com##div[style="text-align:center;padding-top:5px;"]
+subhd.com##div[style="text-align:center;padding-top:5px;margin-bottom:5px"]

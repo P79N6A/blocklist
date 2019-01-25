@@ -1,0 +1,93 @@
+! Title: CHEF-KOCH's Adobe Filter List
+! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.8
+! Last updated: 2019-01-01
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+!
+! ---------- Adobe license check ----------
+!
+||activate-sea.adobe.de^
+||activate-sjc0.adobe.de^
+||activate.adobe.de^
+||activate.wip3.adobe.de^
+!
+! ---------- Adobe ----------
+!
+||macromedia.com^
+||d35fgcharv2shj.cloudfront.net^
+||adobe.com^
+||adobe-dns-2.adobe.de^
+||adobe-dns-3.adobe.de^
+||adobe-dns.adobe.de^
+||adobe.activate.com^
+||adobeereg.com^
+||crl.verisign.net^
+||ereg.adobe.de^
+||hl2rcv.adobe.de^
+||ims-na1-prprod.adobelogin.com^
+||ocsp.spo1.verisign.com^
+||ood.opsource.net^
+||practivate.adobe^
+||practivate.adobe.de^
+||practivate.adobe.ipp^
+||practivate.adobe.newoa^
+||practivate.adobe.ntp^
+||tss-geotrust-crl.thawte.com^
+||wwis-dubc1-vip60.adobe.de^
+||www.adobetag.com^
+!
+! ---------- TypeKit ----------
+!
+||52.0.100.208^
+||52.5.17.30^
+||54.174.42.225^
+||52.22.27.208^
+||52.71.147.84^
+||52.21.0.170^
+||52.71.145.208^
+||52.4.124.163^
+||52.21.35.79^
+||52.3.82.209^
+||52.22.162.166^
+||52.22.158.38^
+||52.5.145.62^
+||52.22.208.226^
+||107.23.227.249^
+||52.22.186.0^
+||52.6.207.62^
+||54.209.24.55^
+||52.22.140.177^
+||50.56.53.165^
+||api.typekit.com^
+||use.typekit.com^
+||blog.typekit.com^
+||help.typekit.com^
+||polka.typekit.com^
+||pages.typekit.com^
+||acumin.typekit.com^
+||em1.typekit.com^
+||redbullmediahouse.origin.typekit.com^
+||practice.typekit.com^
+||jobs.typekit.com^
+||status.typekit.com^
+||origin-lb.typekit.com^
+||www.typekit.com^
+||216.146.46.11^
+||216.146.46.10^
+||p.typekit.net^
+||state.typekit.net^
+||muse-assets.typekit.net^
+||subsets.typekit.net^
+||primer.typekit.net^
+||data.typekit.net^
+||muse.typekit.net^
+||use.typekit.net^
+!
+! ---------- Tracking ----------
+!

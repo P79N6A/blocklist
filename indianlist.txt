@@ -1,0 +1,114 @@
+[Adblock Plus 2.0]
+! Checksum: DPUv1TLLx4uQG/u97Iwn8g
+! Version: 201901250822
+! Title: IndianList
+! Last modified: 25 Jan 2019 08:22 UTC
+! Expires: 1 days (update frequency)
+! Homepage: https://easylist.to/
+! Licence: https://easylist.to/pages/licence.html
+!
+! Please report any unblocked adverts or problems
+! in the forums (https://forums.lanik.us/viewforum.php?f=110)
+! or via e-mail (indianfilterlist@gmail.com).
+!
+!-----------------------General advert blocking filters-----------------------!
+!------------------------General element hiding rules-------------------------!
+!---------------------------Third-party advertisers---------------------------!
+! *** Fetched from: https://raw.githubusercontent.com/mediumkreation/IndianList/master/IndianList/adservers.txt ***
+||gceleritasads.com^$third-party
+||tinkerta.com^$third-party
+||wizardsbd.com^$third-party
+!-----------------------------Third-party adverts-----------------------------!
+!----------------------Specific advert blocking filters-----------------------!
+! *** Fetched from: https://raw.githubusercontent.com/mediumkreation/IndianList/master/IndianList/specific_block.txt ***
+-ads-$image,domain=asomiyapratidin.in
+/720x90.gif?$domain=himalini.com
+/ad.gif?$domain=himalini.com
+||filmdon.com/images/add.jpg
+||4pm.co.in/wp-content/uploads/2015/05/Capture1.png
+||asianmetronews.com^*dcompanie.jpg
+||asianmetronews.com^*thoolikatv.jpg
+||filmdon.com/images/add.jpg
+||hindilok.com/promo/images/$image
+||jugantor.com^*/dada%20new.gif
+||manithan.xyz^$subdocument,domain=lankamurasu.com
+||nepalsandesh.com^*430x224.jpeg
+||nepalsandesh.com^*650x338.jpeg
+||nepalsandesh.com^*768x399.jpeg
+||nepalsandesh.com^*SUNRISE.gif
+||ntnews.com^*-AD.jpg
+||punjabtimesusa.com^*-225x300
+||punjabtimesusa.com^*-300x16
+||sanjevani.com^*/Excel-advt-Intternet-10-6x20.jpg
+||sanjevani.com^*/Tamara-web-add-August-2018.jpg
+||sanjevani.com^*/Tejumasala-web-add.gif
+||ssl-images-amazon.com^$third-party,domain=vasundhara.net
+||telugunris.com^*add-banner
+||telugutimes.net/images/bayarea/
+||telugutimes.net/images/realestate/
+||vanakkamlondon.com^*web_ad
+||vavuniyanet.com^*Advent$image
+||vavuniyanet.com^*Poonthottam$image
+||visalaandhra.com^*-add-*.jpg
+||wp.com/tv5news.in/wp-content/uploads/*_Landing.$domain=tv5news.in
+||wp.com/www.achhisoch.com*/newzoninfotech$image
+||wp.com/www.achhisoch.com/wp-content/uploads/*/ad-sidebar.jpg
+||wp.com/www.achhisoch.com/wp-content/uploads/*/banner-top.jpg
+!------------------------Specific element hiding rules------------------------!
+! *** Fetched from: https://raw.githubusercontent.com/mediumkreation/IndianList/master/IndianList/specific_hide.txt ***
+battinews.com###HTML3
+ap7am.com###advt-dtindex
+rojgarlive.com###popup_indiv2
+patrikai.com###slide-holder
+vanakkamlondon.com###text-10
+achhisoch.com###text-18
+vanakkamlondon.com###text-20
+vanakkamlondon.com###text-21
+achhisoch.com###text-24
+achhisoch.com###text-25
+gvtjob.com###text-29
+sabjanta.info,vanakkamlondon.com###text-4
+mbmnewsnetwork.com###text-48
+achhikhabar.com###text-49 a
+mbmnewsnetwork.com###text-50
+achhikhabar.com###text-50 a
+aapkisafalta.com###text-54
+vanakkamlondon.com###text-7
+gyanipandit.com##.aalb-product-carousel-unit
+jagran.com##.ads
+jugantor.com##.advertisement
+asianmetronews.com##.banner
+himalini.com##.banner-promotions-wrapper
+nepalsandesh.com##.bannerNews
+lankamurasu.com##.code-block
+shoutmehindi.com##.coupon_dealtop
+kannadaprabha.com##.div_main_right_banner_other
+gvtjob.com##.e3lan-below_header
+kamuktastories.com##.enhanced-text-widget
+lankasri.com##.f-single
+elugutips.in,hinditips.com##.obi_random_banners_posts
+supportmeindia.com##.offer-box
+supportmeindia.com##.offer-box + a[href*="go/hostgatorindia"]
+prajavani.net##.pj-ad-card
+sanjevani.com##.site-header-banner
+eastcoastdaily.com##.stream-item-mag
+crimecontrolnews.com##.td-a-rec
+lankasri.com##.today-eds-wrap
+lankasri.com##a[href*="/adpage"]
+battinews.com##a[href*="ad.battinews.com"]
+vasundhara.net##a[href*="amzn.to"]
+hindilok.com##a[href*="astrosage.com"]
+jugantor.com##a[href*="eximbankbd.com"]:only-child
+jugantor.com##a[href*="fsiblbd.com"]:only-child
+dinamalar.com##a[href*="indianimprints.com/?"]
+jugantor.com##a[href*="jamunagroup.com.bd"]:only-child
+anandalok.com##a[href*="jeevansathi.com"]
+vanakkamlondon.com##a[href*="mysrilankanstay.com"]
+achhisoch.com##a[href*="newzoninfotech.com"] img:only-child
+hindilok.com##a[href*="ojassoft"]
+aajkaal.in##a[href*="wbjeeb.in"] img:only-child
+indiatimes.com##a[onclick*="eskcl/click.htm"]:not([onclick*="&u=https%3A%2F%2Feisamay.indiatimes.com"])
+telugu.samayam.com##a[onclick*="tgsctp/click.htm?"]:not([onclick*="https%3A%2F%2Ftelugu.samayam.com"])
+pallibatani.com##div[data-structure="12"]
+achhikhabar.com##div[id^="achhi-"]
+!-----------------------Whitelists to fix broken sites------------------------!

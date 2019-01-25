@@ -1,0 +1,428 @@
+[Adblock Plus 2.0]
+! Title: ねぎフィルタ（広告以外の不要要素ブロック）
+! Last modified: 2019/01/22 00:00 JST
+! Expires: 6 hours (update frequency)
+! Homepage: https://pokapoka.shoooter.net/negi.html
+
+
+!Youtubeに最初にアクセスしたときに上部に出る「Chromeでアクセスしますか？」のチッカー
+www.youtube.com###ticker-content
+!動画右上のSuggests白いバー
+www.youtube.com##.ytp-chrome-top-buttons
+!Youtube動画再生して最後に出てくるチャンネル動画サムネイルを消す場合
+!www.youtube.com##.ytp-ce-element
+
+!ニコ生＋ニコ動（く）2018.6.28
+||enquete.nicovideo.jp^$domain=~enquete.nicovideo.jp
+||urc.live.nicovideo.jp^
+/marqueeplayer.$domain=live.nicovideo.jp|www.nicovideo.jp|nicovideo.cdn.nimg.jp
+||live.nicovideo.jp/img/nicolive/bnr_premium_hq/
+!動画上部のニュースティッカー
+www.nicovideo.jp##.Marquee-item
+||flapi.nicovideo.jp/api/getmarquee_new
+||nicovideo.jp/marquee/
+!時報
+||nicovideo.cdn.nimg.jp/html5jiho/
+!ニコニコ動画最後のこの動画はご覧のユーザーの皆様が応援しています
+!http://egg.5ch.net/test/read.cgi/software/1524667609/106
+!||api.nicoad.nicovideo.jp/v1/contents/video/*/thanks
+!||nicovideo.cdn.nimg.jp/web/scripts/pages/watch/assets/uad.mp3
+!ニコ生ザッピング欄
+!live2.nicovideo.jp##div[class^="___player-foot-area"]
+!マイページのバナー
+||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_2018xmas_before.png
+||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_
+!マイページ右上のバナー
+||nicovideo.cdn.nimg.jp/uni/img/zero_my/bnr_premium2018.png
+
+!Google
+!ポップアップ「こちらによくアクセスする方は Google をホームページに」
+!googlemapで誤爆する
+!www.google.co.jp##div[role="dialog"]
+!uBlockOrigin専用表記なのでできるだけ使いたくない
+!www.google.co.jp##:xpath(//a[@title="No thanks"]/parent::div/parent::div)
+!なんかABPできかなかった。。。よくわからない。。。
+www.google.co.jp,www.google.com##div[role="dialog"][style="behavior:url(#default#userData)"]
+google.co.jp,google.com##div[aria-label="promo"]
+!!Googleトップの目障りなJS削除
+!→google_hplogo_block.txtに移動 2018.3.8
+!/logos/$domain=google.co.jp|google.com
+!Googleトップのロゴ画像削除
+!→ロゴは出た方がいいのでブロックはやめた
+!google.co.jp,google.com###hplogo
+!google.co.jp,google.com##^#hplogo
+!下記をブロックするとChrome新規タブの表示がくずれる
+!www.google.co.jp,google.com###lga
+!下記は出ていい 2018.3.8
+!www.google.co.jp,google.com###prm-pt
+!Googleを規定の検索エンジンにしよう
+www.google.co.jp,www.google.com##.pdp-psy
+!"Looking for results in English? 引き続き日本語を使用"
+www.google.co.jp,www.google.com###sbfrm_l + div
+!「他の人はこちらも検索」を消す
+!www.google.co.jp,www.google.com##div[jsl][data-ved]:has(h4:has-text(People also search for))
+!www.google.co.jp,www.google.com##div[jsl][data-ved]:has(h4:has-text(他の人はこちらも検索))
+!www.google.com,www.google.co.jp##.exp-outline
+!googleの右上に出てくる「プライバシー診断を受けて、設定をチェックしよう」
+!www.google.com,www.google.co.jp##div[role="dialog"][style="behavior:url(#default#userData)"]
+
+!Google Translate
+!https://hakuhin.jp/js/event.html
+!##^meta[name="google-translate-customization"]
+!||translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
+
+
+!weblio
+weblio.jp###footFixBar
+weblio.jp##.indexSideAdTop
+!weblio.jp##div[id*='div-gpt-ad']
+weblio.jp##.premiumEntry
+ejje.weblio.jp##iframe
+weblio.jp##.prmmSrvc
+ejje.weblio.jp###outerSideLeft
+ejje.weblio.jp##.prmmSrvc + .mainBlock
+ejje.weblio.jp###turbo-hot-word-wrap
+
+!Abema
+abema.tv##div[class^="styles__twitter-panel"]
+!Abema画面左下に出てくるおすすめ
+abema.tv##:xpath(//img[@alt="オススメ"]/parent::div/parent::div/parent::div/parent::div/parent::div)
+!お使いのブラウザは推奨環境外のため、正しく動画が再生されない可能性があります。快適に視聴するために、最新版のGoogle Chromeをご利用ください。
+!abema.tv##.pw_e
+abema.tv##:xpath(//p[contains(text(), "お使いのブラウザは推奨環境")]/parent::div/parent::div)
+!:hasで書き直した
+!→:hasの方が重いような気がするのでやめた。
+!abema.tv##div:has(> div > p:has-text(お使いのブラウザは推奨環境))
+!abema.tv##div#main > div > div + header + div:has(> div > p:has-text(お使いのブラウザは推奨環境))
+!abema.tv##:xpath(//span[contains(text(), "最大4ヶ月プレミアムプランが実質無料")]/parent::p/parent::a/parent::h1)
+!abema.tv##h1:has(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
+!abema.tv##div#main div > main > div > section > h1:has(> a > p > span:has-text(最大4ヶ月プレミアムプランが実質無料))
+abema.tv##:xpath(//span[contains(text(), "詳細をみる")]/parent::p/parent::a)
+abema.tv##:xpath(//span[contains(text(), "詳細を見る")]/parent::p/parent::a)
+!Abema次のビデオ
+!abema.tv##div[class]:has(> div > a[href$="?next=true"])
+
+!Yahoo!Japan
+yahoo.co.jp###promoarea
+www.yahoo.co.jp##.commerceBanner
+www.yahoo.co.jp###cb
+www.yahoo.co.jp###js-ninjyo
+www.yahoo.co.jp###selectionR
+www.yahoo.co.jp###rightbox
+www.yahoo.co.jp###yjidbox
+www.yahoo.co.jp###eventPromo
+www.yahoo.co.jp###event
+www.yahoo.co.jp###ultra
+!初回右上「Yahoo!Japanをホームページにしよう」
+www.yahoo.co.jp###PopHead
+!Yahooトップに戻るリンクが最上部に出るようになったので表示させる
+!news.yahoo.co.jp###msthdtp
+!Yahooニュースで文字列を選択した時に出る「Yahoo検索」ポップアップを邪魔なので消す
+yahoo.co.jp###yjSearchPop
+!weather.yahoo.co.jp###msthdFifth
+shopping.yahoo.co.jp##.uiStickyCrm
+shopping.yahoo.co.jp##.mdNorthBuyee
+shopping.yahoo.co.jp##.mdPenetrateBanner
+shopping.yahoo.co.jp##.mdItemInfoCartCount
+shopping.yahoo.co.jp###glonavi
+shopping.yahoo.co.jp##div[style="position:fixed; top:100px; right:0;"]
+shopping.yahoo.co.jp##.mdFloatingButton
+shopping.yahoo.co.jp###msthd > .elAccount > li > span.elRegistration
+!Yahooショッピング右下のお知らせを含むcrmのブロック
+!||s.yimg.jp/images/commerce/js/service/shp/crm/crm1.6.js
+!Yahooショッピング
+!右下にぴょこっとでてくるボックス
+!1.6→1.7になった
+!||s.yimg.jp/images/commerce/js/service/shp/crm/crm1.7.js
+!||s.yimg.jp/images/commerce/js/service/shp/crm/crm$script
+!js/フォルダ以下だから$scriptの判定は不要だと思われるので下記で様子をみる
+||s.yimg.jp/images/commerce/js/service/shp/crm/crm
+
+!カート削除
+shopping.yahoo.co.jp##.mdCartAnchorLink
+auctions.yahoo.co.jp###js-PromotionFrame
+auctions.yahoo.co.jp###js-BannerFrame
+travel.yahoo.co.jp###rapid-h-bnr
+travel.yahoo.co.jp##.featureStickBanner
+travel.yahoo.co.jp###sidebnr
+videotopics.yahoo.co.jp###s_combnr1
+!右下のカートに入れるがうざすぎる
+store.shopping.yahoo.co.jp###floatbtn
+store.shopping.yahoo.co.jp##.fixog
+!右欄のYahoo!ニュースからのお知らせ
+!headlines.yahoo.co.jp##.subAnnounce
+!右欄のYahoo!ニュース タイアップ
+!headlines.yahoo.co.jp##.rma_responsive_small
+!YahooJAPANの映像トピックスのビデオを再生後に自動的に５秒後に次の動画に勝手に移行されてしまうのを抑制する。
+!uBlock Origin 1.14.25rc1以降の「##^」拡張機能が必要。
+!ない場合は、ユーザースクリプトで要素を削除すればよい。
+videotopics.yahoo.co.jp##^#nvideo
+
+!Yahooスポーツナビhttps://sports.yahoo.co.jp/の右上で勝手に再生されるピックアップ動画を止める
+!http://egg.5ch.net/test/read.cgi/software/1524667609/84-85
+!||s.yimg.jp/images/yvpub/player/fla/v1/YVPubPlayer.swf$domain=sports.yahoo.co.jp
+!sports.yahoo.co.jp###pkmvemb
+
+!ヤフオクでページを開くたびに全面表示される毎日くじ
+page.auctions.yahoo.co.jp###js-prMdl
+!weather
+weather.yahoo.co.jp###appbnr
+weather.yahoo.co.jp###ydn-bot
+
+
+
+!Yahoo天気
+!ビーコン
+!||ybx.yahoo.co.jp/clear.gif
+
+!Yahoo知恵袋
+!ビーコンっぽい
+||ybx.yahoo.co.jp/p?
+||yahoo.co.jp/s?
+
+!financeのグラフが消えてしまう
+!.yahoo.co.jp##.marB10
+||s.yimg.jp/images/finance/bnr/
+||s.yimg.jp/images/finance/mt/promotion/funds/bnr/
+||yads.c.yimg.jp/js/yads.js
+||s.yimg.jp/images/finance/kawasetop/yjfx/
+finance.yahoo.co.jp##.padB6
+finance.yahoo.co.jp###pos-lrec
+detail.chiebukuro.yahoo.co.jp##.fwaBoxWrap
+lohaco.jp##.headerLoopBanner
+lohaco.jp##.bannerArea
+!Yahooニュースで記事の文字列を選択した時に出てくる「Yahooで検索する」ポップアップを消す
+||ai.yimg.jp/images/search/slink/popup/pc/1.0.0/js/popsearch.min.js
+
+!Gyao
+gyao.yahoo.co.jp###premium_bnr
+gyao.yahoo.co.jp###nav
+
+!microsoft
+!Edge Promotion Block。マイクロソフトのサイト上部に出てくる「Try Edge」の文言
+microsoft.com###epb
+account.live.com###epb
+live.com###epb
+!https://support.microsoft.com/en-us/helpにでてくる最下部のwas this information helpful? Yes/No
+support.microsoft.com##.survey-background
+
+!twitter
+!ツイートポップアップ時にこれがあると右クリックで画像表示できないので消す
+!https://jbbs.shitaraba.net/bbs/read.cgi/internet/24461/1510462016/46
+!twitter.com##.GalleryNav
+!ツイッターのユーザページの詳細設定をクリックする時にツールチップが邪魔なので消す
+twitter.com##.tooltip-inner
+!Twitter ライブビデオ
+||twitter.com/i/live_video_stream/
+||p-va-1.ft.e.lv.twimg.com/x/out/
+twitter.com##.LiveVideoHomePageModuleContainer
+
+!Wikipedia
+wikipedia.org###siteNotice
+wiktionary.org###siteNotice
+wikibooks.org###siteNotice
+!wikimedia.commons
+commons.wikimedia.org###siteNotice
+||meta.wikimedia.org/w/index.php?title=Special:BannerLoader&campaign=
+!投稿記録の新規執筆がワンテンポ遅れて表示されるのでうざい
+!ja.wikipedia.org##:xpath(//span[contains(@class, 'cx-contributions')]/parent::span)
+
+!音泉
+www.onsen.ag###fixFooter
+!右のナビ。
+www.onsen.ag###programNavi
+
+!右上の動画gifバナー
+||www.onsen.ag/common/image/cms/image/3940_img01.gif
+||www.onsen.ag/common/image/cms/image/4963_img01.gif
+
+!おすすめ商品
+www.onsen.ag##.recommendProduct
+!おすすめ番組
+www.onsen.ag##.recommendProgram
+
+
+
+!５ちゃんねる、２ちゃんねる
+5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table + div
+5ch.net,2ch.net,bbspink.com##div[align='center'] + table + br + table
+5ch.net,2ch.net,bbspink.com##table + br + center
+!↓お絵かき表示をOFFにする場合
+!||o.8ch.net^
+!すすコインの宣伝
+5ch.net##div > p:has(> a[href="https://susukino.com/"])
+!【おしらせ】私たちはitest用の新しいサムネイルシステムを実装するためのテストを開始します。2018/11/06
+5ch.net##div[style="margin: 0; padding: 2.25em 0 0.25em 0; text-align: center;"] > p:has-text(私たちはitest用の新しいサムネイルシステムを実装するためのテストを開始します)
+
+!クックパッド
+cookpad.com###search_menu_filter > .section > h2.title
+cookpad.com###popularity_search_link
+cookpad.com###recommend_premium_space
+cookpad.com###related_honor_recipe
+cookpad.com###kondate_box
+cookpad.com##.left_container
+cookpad.com##.free_login_user
+cookpad.com###sticky_reference_element
+cookpad.com###bottom_recommended_contents > .box > .recommended_contents:nth-child(3)
+cookpad.com##.recommended_pro_recipe
+
+!Game Spark
+www.gamespark.jp##.page-top
+
+!日刊スポーツ
+www.nikkansports.com##.special_newsflash
+
+!huffingtonpost.jp
+!メールマガジン登録枠が毎回でてめざわり
+www.huffingtonpost.jp##.newsletter-toaster
+
+!MailOnline
+www.dailymail.co.uk##.floating-buttons
+
+!Instagram
+instagram.com##footer + div
+
+!cnn.jp
+www.cnn.co.jp###right-column > div:last-child
+www.cnn.co.jp##.video-slider-list
+
+!ファミ通
+www.famitsu.com###pageTopBack
+www.famitsu.com##.jsPageTop
+
+!価格.com
+kakaku.com###historyContainer
+
+!楽天
+rakuten.co.jp###rakutenLimitedId_cartParts
+!固定バナー
+item.rakuten.co.jp###tate_left
+item.rakuten.co.jp###tate_right
+item.rakuten.co.jp###tate_right2
+!右下に出てくる買い物カゴ。なくても問題ない。
+!ショップによってレイアウトが違うので止めた。
+!→買い物かごはショップ共通なのでやっぱりブロック
+!楽天を見るということはショッピング目的なのでブロックしないほうがいい。2018.2.6
+!item.rakuten.co.jp###floatingCartContainer
+!item.rakuten.co.jp###floatButton1
+!楽天右側の固定枠
+!ショップによってレイアウトが違うので止めた。
+!rakuten.co.jp###riSDTopBtnWrap
+!rakuten.co.jp##.tab_item
+!rakuten.co.jp###douji01
+!rakuten.co.jp##.sale_item
+
+!産経
+!ビーコン
+||m.ranking.sankei-digital.co.jp/sankei/ranking/js/beacon_m.jpg?
+||b.ranking.apis.sankei-digital.co.jp/sankei/ranking/img/beacon.gif?
+||b.ranking.sankei-digital.co.jp/sankei/ranking/js/beacon.jpg?
+!下部のSNS固定バー枠
+www.sankei.com###footerFloatingMenu
+
+!読売
+!トラッキング
+||rtoaster.com^
+||rtoaster.jp^
+
+!Slashdot
+!タグ
+||tag.1rx.io^
+
+!朝日
+!ビーコン、トラッキング：１０秒ごとにビーコンが発信されてうざい
+||pixel.parsely.com^
+||static.parsely.com^
+
+
+
+
+!まんたんウェブ
+mantan-web.jp##.back-to-top
+
+!わにブックス
+www.wani.co.jp###topagetopLeft
+www.wani.co.jp###topagetopRight
+
+!moca
+moca-news.net###close-button
+
+!impress
+watch.impress.co.jp###pc-floating-layer
+
+!amebloの右下のナビ
+ameblo.jp##.footerNav
+
+!fc2
+blog.fc2.com###topcontrol
+
+!TVer
+tver.jp###ptop
+
+!IndieGala
+!カート削除
+www.indiegala.com##nav.cart-button-fixed
+
+!wikiaのページ下部のバー
+wikia.com###WikiaBar
+wikia.com###WikiaNotifications
+!→fandom.comへ移行した
+fandom.com###WikiaBar
+fandom.com###WikiaNotifications
+
+!redditのトップのニュースレター購読バナー
+reddit.com##.newsletterbar
+
+!tunein
+!ラジオ再生直後に出るアプリの宣伝
+tunein.com##div[component="UserConversionModal"]
+tunein.com###fader
+
+!itmedia上部のチッカー
+itmedia.co.jp##.colBoxBreakingNews
+
+!サインインのポップアップ
+!ポップアップで強調されたほうが良い、未ログインでもカートにアイテム追加→レジまで進めてしまうので
+!amazon.co.jp##.nav-signin-tt
+!Amazonサインイン吹き出し。必要な人だけONにする
+!www.amazon.co.jp###nav-flyout-anchor
+
+!ドスパラ
+www.dospara.co.jp###chatIcon
+
+!goo
+oshiete.goo.ne.jp###are_search_footer_popup
+!教えてgooで文字列選択でポップアップするQ&A検索
+oshiete.goo.ne.jp###searchBtn_popup
+
+!slashdot
+slashdot.org###announcement
+
+!日経
+www.nikkei.com##.JSID_yudoMotion_closeAction
+!日経新聞
+!トラッカー
+||metrics.brightcove.com^
+||atlas-endpoint.data.n8s.jp^
+||nikkei.d1.sc.omtrdc.net/b/
+||tr.webantenna.info^
+
+!web.archive.org
+archive.org###donate_banner
+
+!pixiv
+www.pixiv.net##._premium-lead-tag-search-bar
+!pixivから指定ユーザを消す
+!http://egg.5ch.net/test/read.cgi/software/1515404854/681-685
+!www.pixiv.net##div:has(> figure:has-text(名無しさん))
+
+
+
+!OKwave
+!真っ赤でまぶしい
+!||cdn.gazo.okwave.jp/okwave/top/images/banner/bemore_610_293.gif
+!||cdn.gazo.okwave.jp/okwave/top/images/banner/bnr180712_610_300_2.png
+||cdn.gazo.okwave.jp/okwave/top/images/banner/
+
+
+!END

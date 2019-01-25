@@ -1,0 +1,168 @@
+[Adblock Plus 1.1]
+! general
+###adLocation-10
+###adLocation-9
+###adLocation-8
+###adLocation-7
+###adLocation-6
+###adLocation-5
+
+! site-specific
+||getapple.net/phpbb/ourdata/ads/*
+
+! on madoolakorn.com
+madoolakorn.com###asdRightSlide
+madoolakorn.com###asdLeftSlide
+madoolakorn.com###lakorn_intro
+madoolakorn.com###tvonline
+
+! banners and some scripts on manager.co.th
+||manager.co.th/*images/*.swf
+||manager.co.th/*banner*
+manager.co.th##div[id^="div-gpt-ad-"]
+manager.co.th##*[width="728"]
+manager.co.th##*[name^="Ads"]
+manager.co.th##td[width="302"]
+manager.co.th##div[style*="height:250px"]
+manager.co.th##iframe[name="taste"]
+manager.co.th##*[height="150"]
+manager.co.th##*[height="250"]
+manager.co.th##*[background*="banner"]
+astv-tv.com##*[height="130"]
+
+! komchadluek.net
+komchadluek.net##*[class^="ads"]
+komchadluek.net##div#bTopBanner
+
+! banners on soccersuck.com
+soccersuck.com##table#Table_
+soccersuck.com###floating
+soccersuck.com##div#basessm_tower
+||soccersuck.com/*sbo*
+||soccersuck.com/*ads*
+||soccersuck.com/ss/ads/*
+||soccersuck.com/*banner*
+soccersuck.com##table[width="961"]
+
+! banidea
+banidea.com##[class=wp_bannerize_header_728x90]
+banidea.com##[class=adsBlockRightNoborder]
+banidea.com##[class=adsBlockRight]
+banidea.com##[class=fb_block]
+banidea.com##[class=wp_bannerize_main_4_300x250]
+banidea.com##[class=wp_bannerize_main_1_300x250]
+||banidea.com/*728x90*.swf
+
+! banners on mthai
+mthai.com##div#coverpage
+mthai.com##div#dynamic_ads_placeholder
+mthai.com##*#csr-block
+mthai.com##*#foo_btn
+mthai.com##*#floating
+mthai.com##*#miniads_box
+mthai.com##*#share_block
+mthai.com##*.share_block
+mthai.com##*#share_icon
+mthai.com##*#ads-topbanner
+mthai.com##*.ads-content
+mthai.com##*.ads-bottom
+mthai.com##*#ads-rectangle
+mthai.com##*#rightbanner
+mthai.com##*.entry-share
+mthai.com###rectangle_a
+mthai.com###rectangle_b
+mthai.com###rectangle_c
+mthai.com###rectangle_d
+mthai.com###rectangle_g
+
+! banners siamsport
+siamsport.co.th##*.social
+siamsport.co.th##*.share-news
+siamsport.co.th##*.leaderboard
+siamsport.co.th##iframe[src="http://www.siamsportclassified.com/enter/enter.php"]
+siamsport.co.th##div[style="float:left; width:641px; height:150px;"]
+siamsport.co.th##*.bx1300adr
+siamsport.co.th##*#adsLeaderboard
+
+! banner kapook
+kapook.com##*.banner
+
+! banners on tvjaa
+tvjaa.com##table[width="990"]
+tvjaa.com##*#exposeMask
+tvjaa.com##*#dlgAds
+tvjaa.com##*#FloatingLayerright
+tvjaa.com##*#FloatingLayerleft
+||tvjaa.com/*mezo.gif
+
+! banners on some specific sites
+||taklong.com/*.swf
+||overclockzone.com/*banner*
+www.overclockzone.com##div#sidebar_container
+app4view.com###border-head
+||myaday.net/*banner*
+cm-club.com###ad_global_above_footer
+cm-club.com###ad_global_below_navbar
+||cm-club.com/*banner*
+
+! banners
+||mds.nipa.co.th
+||*.nipa.co.th/*.js
+||*.nipa.co.th/*.php
+!||*.nipa.co.th/*.gif
+##.ads_nipa
+||affxx.com/affiliate*
+||xn--82c4cdttl7a4bzete.com
+||banner.dafasportbook.com/*.gif
+
+||ohozaa.com/floatcenter.php
+||ohozaa.com/js/jquery.scroll-follow.js
+ohozaa.com###floating
+ohozaa.com###ads468
+ohozaa.com##.ads_line
+
+dogilike.com##.bannerhome
+dogilike.com##.recommend
+
+temppic.com###AutoNumber1
+temppic.com###b1
+temppic.com###b2
+
+||goal.in.th/banner/*
+
+hugball.com##.floating-bar
+hugball.com##.banner_floating
+hugball.com##.banner_floating_left
+||hugball.com/banner/*
+||banner.hugball.com/*
+
+sodazaa.com###bar_bottom
+sodazaa.com##._bn-float
+||sodazaa.com/ads*
+||soccersecret90.com/banner*
+
+||sboibc888.com
+! postto is pretty agressive on banners esp. on sodazaa -- blocking for now.
+||postto.me/*
+
+bugnoms.com##.ads
+tax.bugnoms.com/wp-content/uploads/banner*
+
+drama-addict.com##table[style="background-color:#88a026"]
+
+thaiscooter.com###ad_global_below_navbar
+
+! block tracking script slowing things down
+||effectivemeasure.net/*js
+||truehits.in.th/*.js
+||yengo.com/*.cgi
+||yengo.com/*.js
+||userreport.com/*.js
+||histats.com^
+||sharethis.com^
+||stats.in.th^
+||synergy-e.com/*.js
+||thousandeyes.com/*.js
+||scorecardresearch.com/*.js
+||imrworldwide.com/*.js
+||w3counter.com/*.js

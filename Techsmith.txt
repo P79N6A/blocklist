@@ -1,0 +1,25 @@
+! Title: CHEF-KOCH's Techsmith HOSTS Filter List
+! Description: A comprehensive hosts blocking list to block Techsmith connections.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.02
+! Last updated: 2018-12-02
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+0.0.0.0 activation.cloud.techsmith.com
+0.0.0.0 analytics21.techsmith.com
+0.0.0.0 analytics29.techsmith.com
+0.0.0.0 assets.cloud.techsmith.com
+0.0.0.0 camtasiatudi.techsmith.com
+0.0.0.0 oscount.techsmith.com
+0.0.0.0 updater.techsmith.com
+0.0.0.0 www.techsmith.com
+0.0.0.0 66.225.197.197
+0.0.0.0 67.227.186.229
+0.0.0.0 69.167.144.30
+0.0.0.0 72.52.161.233
+0.0.0.0 117.18.237.29

@@ -1,0 +1,121 @@
+[Adblock Plus 2.0]
+! Title: lilydjwg's rules, mainly for China websites
+! Homepage: https://github.com/lilydjwg/abp-rules
+! Expires: 5 days
+
+! 知乎右侧栏广告 2017年3月1日
+|https://pic*.zhimg.com/*|ad*.*$image
+zhihu.com##.shameimaru-section
+! 知乎移动版下方滚动的广告 2017年3月3日
+zhihu.com##.AppMagicBanner
+! 「在 app 中打开」按钮，放大后非常占地方
+zhihu.com##.OpenInApp
+zhuanlan.zhihu.com##.OpenInAppButton
+! 知乎专栏改用 www 子域了？
+www.zhihu.com##.OpenInAppButton
+
+! voidlinux snow animation (eats CPU!)
+|https://voidlinux.org/assets/css/snow.css
+
+! v2ex (不动不屏蔽，动就屏蔽，动得越疯狂屏蔽得越快)
+||i.v2ex.co/*
+||v2ex.assets.uxengine.net/assets/sidebar/*
+
+! solidot, may be gif
+|http://img.zhiding.cn/moudlepic/*
+|http://am.zhiding.cn/*
+
+! 豆瓣，JavaScript 切换
+www.douban.com###dale_group_topic_new_bottom_right
+www.douban.com###dale_group_topic_new_top_right
+
+! 果壳
+www.guokr.com###sideSlide
+www.guokr.com##.guokr-layer-beforelogin
+
+! 腾讯新闻 页面下方不断滑动的消息
+view.inews.qq.com##div[data-action-id="3"]
+
+! 土豆视频 页面上方不断滑动的消息
+compaign.tudou.com###topbar-slider
+
+! Golang 中国
+||is.golangtc.com/bar/*
+
+! 码云下方巨型 banner
+gitee.com##.gitee-stars-banner
+
+! 脉脉下方 banner
+maimai.cn##.downloadFixed
+
+! 网易博客
+blog.163.com###blog-163-com-layer
+
+! Medium, unregistered user's footer
+medium.com##.js-stickyFooter
+! Medium, "open in app" floating at the bottom
+medium.com##.openInAppButton
+
+! Reddit, "Use app" at the top
+www.reddit.com##.TopButton
+! Reddit, "OPEN REDDIT APP" at the bottom of post list pages
+www.reddit.com##.XPromoPill
+! Reddit, mobile app ad at the bottom of post pages
+www.reddit.com##.DualPartInterstitialFooter
+
+! CSDN blog bottom banner
+blog.csdn.net##.pulllog-box
+
+! 新浪爱问很恶心的侧栏广告
+iask.sina.com.cn/hwj/dfh?*
+
+! 大疆推广联盟
+||u.dji.com/ads/*
+! Cloudflare rocketscript
+/cdn-cgi/pe/bag2?r[]=*u.dji.com%2Fads%2F*
+
+! laod.cn, 背景特效，太占 CPU 了
+canvas-nest.min.js
+canvas-nest.js
+
+! 张鑫旭-鑫空间-鑫生活 (www.zhangxinxu.com)
+##.ad_col2
+###adYidengFloat
+###adHaiTang
+
+! 汉典
+|http://www.zdic.net/images/nobk*.png
+! 有道
+|http://impservice*.youdao.com/imp/*
+! 沪江大大的底栏
+hjenglish.com##.bottomActive1212
+resu8.hjfile.cn/*$image
+
+! 简单心理移动版占空间的底栏
+www.jiandanxinli.com###bottom_msg
+
+! 百度分享
+||bdimg.share.baidu.com/static/api/js/share.js?*
+! jiathis
+|http://*.jiathis.com/*$third-party
+
+! 百度知道移动版
+! 「APP内打开」
+zhidao.baidu.com##.bottom-fixed-button
+! 「返回百度」
+zhidao.baidu.com##footer + a[id][class]
+
+! pc6 下载站
+||static.jfcdns.com^$script
+
+! 499.cn
+|http://*/pc/tt/gg_*$image,object,script,subdocument
+||c.k429fma.com^
+
+! m.shumilou.net
+|http://meiyu.laogesuan.com/*
+|http://sube.puwangkj.com/*
+
+! 今生缘音乐
+|m.666ccc.com/ssp/m_top.js
+|mkan.666ccc.com/js/fuli.js

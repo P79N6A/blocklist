@@ -1,0 +1,7 @@
+! #8479
+notebookcheck.biz,radio.fr#$#abort-current-inline-script Math.random /[a-zA-Z]{3,}/
+
+! #9274
+||blog-rct.com^$csp=script-src 'self' * 'unsafe-inline'
+||sobusygirls.fr^$csp=script-src 'self' * 'unsafe-eval'
+pblv-plusbellelavie.fr#$#abort-on-property-read TextDecoder

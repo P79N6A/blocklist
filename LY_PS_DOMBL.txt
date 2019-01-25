@@ -1,0 +1,27 @@
+##########################################################################
+# Locky Ransomware Payment Sites domain blocklist (LY_PS_DOMBL)          #
+# Generated on 2019-01-25 08:40:02 UTC                                   #
+#                                                                        #
+# For questions please refer to:                                         #
+# https://ransomwaretracker.abuse.ch/blocklist/                          #
+##########################################################################
+jhomitevd2abj3fk.onion.to
+f5xraa2y2ybtrefz.onion.to
+zjfq4lnfbs7pncr5.onion.to
+zjfq4lnfbs7pncr5.tor2web.org
+mphtadhci5mrdlju.onion.to
+mphtadhci5mrdlju.tor2web.org
+mphtadhci5mrdlju.onion.to
+25z5g623wpqpdwis.onion.to
+32kl2rwsjvqjeui7.tor2web.org
+32kl2rwsjvqjeui7.onion.cab
+32kl2rwsjvqjeui7.onion.to
+i3ezlvkoi7fwyood.tor2web.org
+i3ezlvkoi7fwyood.onion.to
+lpholfnvwbukqwye.onion.cab
+lpholfnvwbukqwye.onion.to
+twbers4hmi6dc65f.onion.cab
+twbers4hmi6dc65f.onion.to
+twbers4hmi6dc65f.tor2web.org
+6dtxgqam4crv6rr6.onion.cab
+# 19 entries

@@ -1,0 +1,20 @@
+# Title: CHEF-KOCH's LuckyPatcher HOSTS Filter List
+# Description: A comprehensive, all-in-one ad-block list to block connections to LuckyPatcher.
+# License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+# By downloading or viewing, or using this list, you are accepting these terms and the license.
+# Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+# Expires: 14d
+# Version: 0.0.0.2
+# Last updated: 2018-12-08
+# Please report any unblocked content or problems by email or via GitHub issue ticket.
+# Email: CHEF-KOCH@protonmail.com
+# Copyright (C) 2018 by CHEF-KOCH
+
+0.0.0.0 259c2775-a-62cb3a1a-s-sites.googlegroups.com
+0.0.0.0 95.183.10.176
+0.0.0.0 chelpus.com
+0.0.0.0 chelpus.defcon5.biz
+# Ads - About / Changelog
+0.0.0.0 req.startappservice.com
+0.0.0.0 imp.startappservice.com
+0.0.0.0 startappservice.com

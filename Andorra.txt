@@ -1,0 +1,16 @@
+api.content.ad
+brand.ad
+centro.pixel.ad
+chameleon.ad
+content.ad
+desenvolupament.ad
+files.native.ad
+halal.ad
+miner.ad
+nugg.ad
+partners.content.ad
+publi.forum.ad
+token.ad
+www.miner.ad
+wwww.token.ad
+xena.ad

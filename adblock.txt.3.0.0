@@ -1,0 +1,126 @@
+[Adblock Plus 2.0]
+! Title: Polish Privacy Filters
+! Oficjalne polskie filtry prywatności
+! Last modified: 29 December 2018
+! Expires: 3 days
+! Version: 2018122901
+! Support:
+!   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
+! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+! Copyright (C) 2018 
+! v.2018122902 aktualizacja: sob, 29 grudnia 2018, 14:55:00
+!
+!
+!-----------------------Privacy filters block-----------------------!
+xgemius.js$script
+/gemius/*$script,image
+/js/gemius.js$script
+!
+!
+!-----------------------Privacy filters 2-----------------------!
+||hit.gemius.pl$script,image
+!
+!
+!-----------------------Elements hide on movie-----------------------!
+##[href*=".hit.gemius.pl"]
+##A[href*="k.tradedoubler.com/click"]
+motorolasolutions.com##.tealiumMo2TriggerButton
+naekranie.pl###adocean-screening-layer > .inner-wrap
+naekranie.pl###adocean-screening-layer > .single-news
+poczta.interia.pl#@#[href*=".hit.gemius.pl"]
+!
+!
+!-----------------------Privacy filters domains-----------------------!
+/ajax/stats?$image
+/gtm.js$script
+.pl/*_ac=kropka-
+/*dc_trk_aid$image,script
+/^(http|https):\/\/(.*)salesmanago\.(pl|com)\/(static|dynamic)\//$script,domain=~salesmanago.com|~salesmanago.pl
+/^https:\/\/[a-z.]{2,16}\.wp\.pl\/[a-zA-Z0-9-_.?=?&%]{200,}/$image,domain=~pilot.wp.pl|~tv.wp.pl
+||0daib.pl^
+||adkontekst.pl$script,image
+||adkontekst.pl^
+||adnxs.com^
+||analytics.ceneo.pl^
+||analytics.gazeta.pl^
+||api.solvemedia.com/papi/action$popup
+||audienceinsights.net^$domain=~audienceinsights.net
+||back.marketing^$script,domain=~back.marketing
+||back.marketing^$third-party
+||behavioralengine.com^$domain=~behavioralengine.com
+||clickmeter.com^
+||clickcounters.com^
+||clickmatic.pl/$domain=~clickmatic.pl
+||clickserve.dartsearch.net^
+||coin-hive.com^
+||counter.hitslink.com^
+||creativecdn.com^$third-party
+||daib.pl^
+||edrone.me^$third-party
+||emisja.adsearch.pl/$xmlhttprequest
+||entryhit.wp.pl^
+||g.cda.pl/*.php?pixel*=[timestamp]$image
+||gcontent.services.tvn.pl^
+||gemius.pl^$domain=~www.gemius.pl
+||histats.com^
+||hit.gemius.pl^
+||hitslink.interia.com.pl^
+||iwa3.hit.interia.pl:8443/collector
+||int.sitestat.com^
+||intrack.pl^
+||kozaczek.pl/stats.php$xmlhttprequest
+||legenhit.com^
+||mis.em.nscontext.eu^
+||mklik.gazeta.pl^
+||netmng.com^
+||nextclick.pl^$third-party
+||nsaudience.pl^
+||pixel.solvemedia.com^
+||plugin.management^$third-party
+||quantserve.com^
+||revsci.net^
+||salesbee.pl^
+||salesbeehive.com^
+||salesmanago.pl^$third-party
+||smartclick.pl^$script
+||smpl.hit.ppdb.pl^
+!||sgqcvfjvr.onet.pl^
+||stat.4u.pl^
+||stat.dziennik.pl^
+||stat.onestat.com^
+||stat.pl^
+||stat24.com^
+||statcounter.com^
+||static.chartbeat.com^
+||stats-srv.rp.pl^
+||stats.asp24.pl/js/click.4.js$script
+||stats.goldenline.pl^
+||stats.wordpress.com^
+||stg.wp.pl^$script
+||sylaba.net^
+||tealium.hs.llnwd.net/*/utui/js/*.js$script,domain=motorolasolutions.com
+||track.buybox.click^
+||track.omgpl.com^
+||track.reinvigorate.net^
+||tracker.twenga.pl^
+||tracking.affiliate44.com.pl^
+||tracking.quisma.com^
+||ut.o2.pl^
+||vendimob.pl^
+||www.wp.pl/v*/log/view
+||x.sare25.com^
+||ymetrica.com^
+||clk.tradedoubler.com^
+||direct.money.pl/*/salechannel.php$popup
+||direct.money.pl/*/directtrack.php
+||px.wp.pl^
+||cod.bitrec.com
+!
+!
+! Problem with ads 
+||wylecz.to/media/srv/$image
+!
+!
+! EasyPrivacy  
+@@||tv.wp.pl/do/*/dotn?sw=$image,~third-party,domain=tv.wp.pl
+@@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-download-tracker.js

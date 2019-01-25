@@ -1,0 +1,556 @@
+[Adblock Plus 2.0]
+! Version: 201811191301
+! Checksum: 32EMJ54agyoOc0jPzLYqxg
+! Title: Linked Insanity Annoyance Rules (uBlock Origin)
+! Last modified: 19 November 2018 13:01 UTC
+! Expires: 7 days (update frequency)
+! Homepage: https://raw.githubusercontent.com/taylr/linkedinsanity/master/linkedinsanity.txt
+! Licence: MIT License
+!--------------------------------------------------------------------!
+!
+!! LinkedIn
+!
+! match junk forced into the feed
+linkedin.com##article[class*="sponsored"]
+linkedin.com##article[class*="pymk"]
+linkedin.com##article[class*=-pymk-]
+linkedin.com##article[class*="jymbii"]
+linkedin.com##article[class*="lynda"]
+linkedin.com##article:has-text(/Trending in (the)?/i)
+linkedin.com##article:has-text(/Editor'?s? Pick/i)
+linkedin.com##article:has-text(/Recommended for you/i)
+linkedin.com##article:has-text(/ ?likes this/i)
+linkedin.com##article:has-text(/commented on this/i)
+linkedin.com##article.reshare-update
+linkedin.com##article.feed-shared-update--reshare
+linkedin.com##article:has-text(/'s comment on this/i)
+linkedin.com##div[data-id*=lyndaCourse]
+linkedin.com##div.occludable-update:has-text(/ ?likes this/i)
+linkedin.com##div.feed-shared-update:has-text(/likes this/)
+linkedin.com##div.feed-shared-update:has-text(/promoted/i)
+linkedin.com##div.occludable-update:has-text(/ ?commented on this/i)
+linkedin.com##div.feed-shared-update:has-text(/commented on this/)
+linkedin.com##div.feed-shared-update-attachments
+linkedin.com##div[class*=feed-shared-update-attachments]:has-text(/related /i)
+linkedin.com##div.feed-shared-update:has-text(/share of this/)
+linkedin.com##div.feed-shared-update:has-text(/editor's pick/i)
+linkedin.com##div[class*=brand-fitz]
+! mining you for data
+linkedin.com##div#pds-ge-entry
+linkedin.com##div[class*=pds-ge-entry]
+linkedin.com##a.salary-insight
+! attention economy annoyances
+linkedin.com##li#feed-nav-item span.nav-item__badge
+! suggester annoyances
+linkedin.com##section[class*=mn-suggester]
+linkedin.com##section[class*=suggester]
+! messenger and spying on your presence
+linkedin.com##aside#msg-overlay
+linkedin.com/voyager/api/messaging/presenceStatuses
+linkedin.com/voyager/api/learning/recommendations
+linkedin.com/voyager/api/feed/updates
+linkedin.com/voyager/api/onboarding/launchpadCard
+linkedin.com/voyager/api/feed/richRecommendedEntities
+linkedin.com/voyager/api/identity/localSkillExpertSuggestions
+linkedin.com/voyager/api/voyagerMessagingMailboxCounts
+linkedin.com/voyager/api/search/wwuAds
+linkedin.com/voyager/api/identity/profiles/*/promoVisibility
+linkedin.com/voyager/api/legoWidgetImpressionEvents
+! follows
+linkedin.com##div[class*="feed-s-follows-module"]
+linkedin.com##div[class*=feed-follows-]
+linkedin.com##button[class*=follow-button]
+! click bait
+linkedin.com##div.search-s-news-module
+linkedin.com##article.feed-s-update--channel
+linkedin.com##div.ge-profile-entry-card
+linkedin.com##div[class*=feed-shared-news-]
+linkedin.com##div[class*=shared-social-action]
+linkedin.com##a[href*="/career-advice/"]
+linkedin.com##button.psa-modal-button
+linkedin.com##div.share-box
+! low quality tutorials
+linkedin.com##div[class*="-learning"]
+linkedin.com##section[class*=course-recommendations]
+linkedin.com##div.course-recommendations
+linkedin.com##div#course-recommendations
+! remove people-you-may-know filler from pages
+linkedin.com##section[class*="pymk"]
+! remove navbar cruft
+linkedin.com##li#spotlight-one-nav-item
+linkedin.com##li#app-launcher-nav-item
+! remove upsells
+linkedin.com##section.mn-abi-form
+linkedin.com##button[class*="cta--"]
+linkedin.com##a[class*=premium-upsell]
+linkedin.com##[class*=upsell]
+linkedin.com##ul.recruiter-upsell
+! trick you into uploading your address book
+linkedin.com##div[class*=mn-wylo-promo]
+linkedin.com##article.feed-s-update--promo
+linkedin.com##article.promo-update
+linkedin.com##article.promo-update--is-abi
+! diversions from current page
+linkedin.com##div.launchpad-wormhole
+linkedin.com##div.name-search
+linkedin.com##div.jserp
+linkedin.com##artdeco-toasts
+linkedin.com##div[class*=inline-promo]
+linkedin.com##div.pv-go-to-connections-section
+linkedin.com##button[id*=get_app]
+linkedin.com##div#directory
+! fake profile views / who viewed my profile upsells and click bait
+linkedin.com##[class*=wvmp-mock]
+linkedin.com##article.me-wvmp-viewer-card--anon button[class*=__actionable]
+linkedin.com##li.me-wvmp-right-rail__action-item:has-text(/feed/i)
+linkedin.com##section.me-wvmp-right-rail h2:has-text(/matter/i)
+linkedin.com##section.me-wvmp-right-rail h3:has-text(/more views/i)
+linkedin.com##div.pds-pcm-progress pds-profile-section
+! tracking where you go/what you do
+linkedin.com/mob/tracking
+linkedin.com/li/track
+linkedin.com/lite/ua/error
+linkedin.com/*analytics*.js
+linkedin.com/li/track
+linkedin.com/platform-telemetry
+! surveys
+linkedin.com##div.survey-questions
+linkedin.com##div.survey
+! banner junk
+linkedin.com##section[class*=ad-banner-]
+! Do not spam your network
+linkedin.com##div.sharing-share-box
+linkedin.com##div[class*=shared-first-prompt]
+! jobs junk and data collection
+linkedin.com##div.pv-app-promo-section
+linkedin.com##div[class*=jobs-home-intent]
+linkedin.com##div[class*=intent-collector]
+linkedin.com##div[class*=jobs-home-referrals]
+linkedin.com##div.jobs-jymbii div[class*="-promo"]
+! "discovery"
+linkedin.com##header[class*=mn-discovery]
+linkedin.com##section[class*=mn-discovery]
+!
+linkedin.com##div.nt-segment__empty-state-illustration
+!
+!! Twitter
+!
+twitter.com##.WhoToFollow
+twitter.com##.trends.Trends.module
+twitter.com##div.wtf-module
+twitter.com##div.HomeEmptyTimeline
+twitter.com##div.RelatedUsers
+!
+!! Amazon
+!
+amazon.com##div#ah-dashboard
+amazon.com##div#fresh-shoveler
+amazon.com##div#gw-desktop-herotator
+amazon.com##div[class*=digital-dash-gateway]
+amazon.com##div.huc-first-upsell-row
+amazon.com##div#huc-v2-cobrand-stripe
+amazon.com##div.huc-last-upsell-rows
+amazon.com##div[id*=-upsell-]
+amazon.com##div.welcome-msg
+amazon.com##div[class*=student-overlay]
+amazon.com##div.pwOnboardingHintPopoverWrapper
+! socialification annoyances
+amazon.com##div.amazon-follow
+amazon.com##div.pr-fb-intro-tooltip
+amazon.com##div[id*=authorFollow]
+! Recommendations, History, Featured (RHF) is delayed -- block the HTML fetch
+amazon.com##div[class*=featured-asin]
+amazon.com##div[id*=recommend]
+amazon.com##div.rhf
+amazon.com##div.rhf-frame
+amazon.com##div#rhf-error
+amazon.com/gp/recent-history-footer/external/rhf-handler.html
+amazon.com##div#sc-rec-bottom
+amazon.com##div#sc-rec-right
+amazon.com##div#sc-new-upsell
+amazon.com##div#btfContent
+amazon.com##div.bestsellers
+amazon.com##div#sidebarbtf
+amazon.com##div[id*=_cust-recs]
+amazon.com##div#bia-hcb-widget
+amazon.com##div.desktop-row:has-text(/recommendations for/i)
+amazon.com##div.desktop-row:has-text(/recommended for/i)
+amazon.com##div.desktop-row:has-text(/a night in/i)
+amazon.com##div.desktop-row:has-text(/gift ideas/i)
+amazon.com##div.desktop-row:has-text(/with free/i)
+amazon.com##div[id*=featureAwareness]
+amazon.com##div#content div.a-section:has-text(/recommended for /i)
+amazon.com##div#content div.a-section:has-text(/recommendations/i)
+amazon.com##div#fresh-storefront-container div#centerSlots div.a-row:has-text(/recommended/i)
+amazon.com##div#fresh-storefront-container div#centerSlots div.a-row:has-text(/recommendations/i)
+amazon.com##div#fresh-storefront-container div#centerSlots div.a-row:has-text(/trending near/i)
+amazon.com##div#fresh-storefront-container div#centerSlots div.a-row:has-text(/popular near/i)
+amazon.com##div#centerSlots div.acswidget-carousel:has-text(/featured/i)
+amazon.com##div#fresh-storefront-container div#centerSlots div.a-row
+amazon.com##div.rcmBody
+amazon.com##div#centerSlots div.acsUxWidget
+amazon.com##div.fresh-shoveler
+amazon.com##div[id*=billboard]
+amazon.com##div[id*=editorial]
+amazon.com##div[id*=sidekick]
+amazon.com##div[id*=bia_]
+amazon.com##div.dealContainer
+amazon.com##div[id*=deals-]
+amazon.com##div[id*=nav-flyout-prime]
+amazon.com##div.nav-prime-tt
+amazon.com##ul[id*=recs-ysh]
+amazon.com##div[class*=ysh-]
+amazon.com##div.hud-dashboard-card-v2:has-text(/recommended for/i)
+amazon.com##div.deal-of-the-day
+! search clutter
+amazon.com##div#centerBelowExtraHowsMySearch
+amazon.com##div#hows-my-search
+amazon.com##div.nav-flyout-sidePanel
+amazon.com##div#osp-search
+! page ads and self promotion (incl. 3 ways of quick promotion)
+amazon.com##div#nav-upnav
+amazon.com##div#pdagEncapsulated
+amazon.com##div[id*=QuickPromo]
+amazon.com##div[id*=quick-promo]
+amazon.com##div[id*=quickPromo]
+amazon.com##div#detail-ilm_div
+amazon.com##div#universal-detail-ilm
+amazon.com##div#cbcc_banner
+amazon.com##div#giveaway_feature_div
+amazon.com##div.prime-ad-banner-content
+amazon.com##div#promoGrid
+amazon.com##div.featured:has-text(/sponsored/i)
+amazon.com##div.featured:has-text(/amazon giveaway/i)
+amazon.com##div.sc-java-remote-feature:has-text(/recommendation/i)
+amazon.com##div.reviews-content div.review:has-text(/vine voice/i)
+amazon.com##div#centerSlots div.kepler-carousel-title
+amazon.com##div#centerSlots table.kepler-vendorSponsored-table
+amazon.com##div#centerSlots div.a-row hr.a-divider-normal
+! feature/ads clutter, especially in the side bar
+amazon.com##div#SendSample
+amazon.com##div[id*=sponsoredProducts]
+amazon.com##div#sponsoredProducts2_feature_div
+amazon.com##div#ebooksGiveGift_feature_div
+amazon.com##div#rightCol div#redeemCode_feature_div
+amazon.com##div#tellAFriendBylineBox_feature_div
+amazon.com##div[id*=tellAFriendBox]
+amazon.com##div[id*=tell-a-]
+amazon.com##div#wishlistButtonStack
+amazon.com##div#kcpApp_feature_div
+amazon.com##div[id*=giveaway]
+amazon.com##div[id*=auto-sparkle-]
+amazon.com##div#detail-ilm_div
+amazon.com##div[id*=vse-related]
+amazon.com##div#marketing
+amazon.com##div#issuance-banner
+amazon.com##div.iss-ad-box
+amazon.com##div#ccxsmartshelf_secondaryPanelContent
+! feedback data mining clutter
+amazon.com##iframe#iFrameHMD
+amazon.com##div.bucket:has-text(/tell us about/i)
+amazon.com##div#hmdFormDiv
+amazon.com##div.small:has-text(/Feedback/i)
+! nags
+amazon.com##div[class*=-overlay-container]
+amazon.com##a.kcpAppsPopOver
+amazon.com##div#FeatureAwarenessWidget
+! checkout hijacking / complete your cart diversions and ads
+amazon.com##div.fresh-merchandised-p13n-widget-carousel-container
+amazon.com##div#body-features table.kepler-vendorSponsored-table
+amazon.com##div#body-features div.a-row hr.a-size-large
+!
+!! Github
+!
+github.com##div[class*=octofication]
+github.com##div[class*=signup-prompt]
+github.com##div.signup-prompt-bg
+github.com##div.js-notice
+!
+!! Google, Google docs
+!
+inbox.google.com##div[jsaction*=quick_compose_select_smart_reply]
+google.com##div.section-homepage-promo
+docs.google.com##div.docs-circle-promo-base
+docs.google.com##div.docs-explore-promo-base
+docs.google.com##div[class*=promo-base]
+docs.google.com##div.waffle-assistant-entry
+docs.google.com##div.docs-explore-widget
+google.com##div.commercial-unit-desktop-top
+google.com##div#tvcap
+google.com##div#bottomads
+!
+!! google mail, gmail
+!
+!
+mail.google.com##div.brb  ! low value auto replies
+!! Trello
+!
+trello.com##a.header-woof
+trello.com##a.home-feedback-link
+trello.com##a[class*=feedback-link]
+!
+!! Meetup
+!
+meetup.com##li#nav-notifications
+meetup.com##p.gtsy
+meetup.com##div.comment-item-likeButton
+meetup.com##div.event-share
+meetup.com##section.inPageFeedback
+meetup.com##div.tooltip-content
+!
+!! Spirit
+!
+spirit.com##div.boardingPassBaggage
+spirit.com##div.boardingPassvertical
+spirit.com##div.boardingPassTravelinfo
+spirit.com##div.boardingPassTravepackgeText
+spirit.com##div.boardingPassBottomadd
+!
+!! MapMyRun
+!
+mapmyrun.com##section.product_carousel
+mapmyrun.com##section#registration_tout
+mapmyrun.com##a[id*=tout_banner]
+mapmyrun.com##li.nav-shop
+mapmyrun.com##div#go_pro_advert
+mapmyrun.com##a:has-text(/ premium/i)
+!
+!! strava
+!
+strava.com##div.footer-upsell
+strava.com##div#stravaCookieBanner
+!
+!! Racewire
+!
+racewire.com##div.mfp-figure div.lightbox-info-container
+!
+!! active.com
+!
+active.com##section[class*=promo]
+active.com##div[id*=gearup]
+active.com##section[class*=gearup]
+active.com##div[class*=aa-callout]
+!
+!! Reddit
+!
+reddit.com##div#onboarding-splash
+reddit.com##section.listingsignupbar
+reddit.com##div.login-required
+reddit.com##div.access-required
+reddit.com##div.read-next-container
+old.reddit.com##div.login-required
+old.reddit.com##div.access-required
+old.reddit.com##div.read-next-container
+!
+!! Garmin Connect Annoyances
+!
+connect.garmin.com##div#activityYouTubePlaceholder
+connect.garmin.com##div#activityPhotosPlaceholder
+connect.garmin.com##div[class*=activity-badges]
+connect.garmin.com##span.entry-like
+connect.garmin.com##div.activity-tracking-wrapper
+connect.garmin.com##li.main-nav-item:has-text(/news feed/i)
+connect.garmin.com##li.main-nav-item:has-text(/insights/i)
+connect.garmin.com##li.main-nav-item:has-text(/badges/i)
+connect.garmin.com##div.note-container
+connect.garmin.com##div.comment-container
+!
+!! Quora
+!
+quora.com##div[id*=_actionable]:has-text(/ad\s+by /i)
+quora.com##div[id*=_actionable]:has-text(/promoted\s+by /i)
+quora.com##div[class*=PromptsList]:has-text(/ad\s+by /i)
+quora.com##div[class*=PromptsList]:has-text(/promoted\s+by /i)
+quora.com##div[class*=pagedlist_item]:has-text(/ad\s+by /i)
+quora.com##div[class*=pagedlist_item]:has-text(/promoted\s+by /i)
+quora.com##div[id*=_survey]
+quora.com##div[id*=question_prompt]
+quora.com##a[class*=AskQuestionButton]
+!
+!! Hacker News
+!
+! match "posts" you cannot vote on
+news.ycombinator.com##tr.athing:if-not(td.votelinks)
+! match table row subtext without points
+news.ycombinator.com##table.itemlist tr:has(td.subtext):if-not(td:has-text(/ points /))
+!
+!! Zillow
+!
+zillow.com##div[id*=seller-lead-contact]
+zillow.com##article#contact-tall
+zillow.com##article#contact-wide
+zillow.com##li#contact-menu
+! non-owner-occupied
+zillow.com##div[class*=noo-module]
+! upsells
+zillow.com##div[id*=-upsell]
+zillow.com##section#home-details-mortgage-module
+zillow.com##div.payment-calculator
+zillow.com##li:has(span[data-test-id=share-hdp-button])
+zillow.com##div.hdp-owner-view-upsell-listing-strength
+!
+!! duckduckgo
+!
+duckduckgo.com##div[class*=feedback]
+duckduckgo.com##div.showcase
+duckduckgo.com##div.social
+duckduckgo.com##div.footer
+!
+!! Ebay
+!
+ebay.com##li.s-item:has-text(/sponsored/i)
+!
+!! Hotels.com
+!
+hotels.com##li.sold-out
+hotels.com##div.reward-banner
+hotels.com##fieldset#filter-welcome-rewards
+hotels.com##div#urgency
+hotels.com##div[class*=secret-price-message]
+hotels.com##div[class*=welcome-rewards]
+hotels.com##div.teaser-carousel
+hotels.com##div.teaser
+hotels.com##div.text-to-download
+hotels.com##div.ftr-drive-direct
+hotels.com##div[class*=recommended-destinations]
+!
+!! Indeed
+!
+indeed.com/pagead
+indeed.com##div#jobalertswrapper
+indeed.com##div#femp_list
+indeed.com##td#resultsCol div.row.clickcard[data-advn]
+!
+!! Fidelity
+!
+fidelity.com##div.help-bubble--wrapper
+fidelity.com##div.help-bubble
+fidelity.com##ul.offer-submenu
+fidelity.com##div#onsitemessage
+fidelity.com##div.legal-footer--below-content
+fidelity.com##div.legal-footer--item-content
+fidelity.com##div#va-open-button
+!
+!! Forbes
+!
+forbes.com##div.vestpocket
+!
+!! cnbc
+!
+cnbc.com##div.bxc
+!
+!! Yahoo Finance
+!
+finance.yahoo.com##div#mrt-node-Lead-1-FeatureBar
+finance.yahoo.com##div[data-test=fin-tradeit-container]
+finance.yahoo.com##a#uh-mail
+finance.yahoo.com##div[id*=ComboAd-]
+finance.yahoo.com##div[id*=-LinkOut]
+finance.yahoo.com##div[data-test=quote-mdl] > a[href*=utm_campaign]
+finance.yahoo.com##div[id*=FeatureBar]
+finance.yahoo.com##div[id*=QuoteVideo]
+finance.yahoo.com##a.comment-btn-link
+finance.yahoo.com##button[aria-label*="to like"]
+finance.yahoo.com##button[aria-label*="Share Menu"]
+finance.yahoo.com##div[id*=ContentIFrame]
+finance.yahoo.com##div[id*=CanvassComments]
+! autoplay video and tracking
+||csp.yahoo.com/beacon^
+||csp.yahoo.com|
+s.yimg.com/*streamsense*
+finance.yahoo.com/*streamer-worker*.js
+||edgecast-livedax.yahoo.net^
+||finance.yahoo.com/_finance_doubledown^
+.vpg.cdn.yimg.com^
+||streamerapi.finance.yahoo.com^
+! crammed broker ads
+finance.yahoo.com##div.broker-buttons
+yahoo.com##.adsbygoogle
+!
+!! yahoo fantasy sports
+!
+yahoo.com##div.Nav-fantasy div.Pbot-lg div.Section:has-text(/Daily Fantasy/i)
+yahoo.com##div.Nav-fantasy div.Pstart-30:has-text(/Other fantasy/i)
+yahoo.com##section#fantasyshop
+yahoo.com##section#celebrity_promo_league
+yahoo.com##section#livedraft-join-mod
+yahoo.com##section#fantasytrophypromo
+yahoo.com##section[id*=promo]
+yahoo.com##section#whatsnew
+yahoo.com##div#ysf-medal-notifications
+yahoo.com##div.ysf-medal
+yahoo.com##section#team-medals
+yahoo.com##img[src*=promo]
+yahoo.com##img[src*=gamead]
+yahoo.com##div.yui3-overlay-mask
+yahoo.com##div.yui3-overlay-modal
+yahoo.com##a.yfa-rapid-beacon
+yahoo.com##div[class*=surveymonkey]
+yahoo.com##section#rollover
+yahoo.com##div.fantasy-life-card
+yahoo.com##div#ffl-banner
+sports.yahoo.com##a#uh-mail
+!
+!! Mozilla
+!
+mozilla.org##div.SurveyNotice
+!
+!! Namecheap
+!
+namecheap.com##li.make-offer.unavailable > div > a
+namecheap.com##div.make-offer.unavailable > div > a
+namecheap.com##div.featured-result.unavailable.make-offer
+namecheap.com##div[class*="style__picks"]
+namecheap.com##div.domain-search-embed div:has-text(/suggested result/i)
+!
+!! Glassdoor
+!
+glassdoor.com##div#jobsAwareness
+glassdoor.com##div#UserAlertBar
+glassdoor.com##div.fea-promo-banner
+glassdoor.com##div.employerTargeting
+glassdoor.com##div.careerAdvice
+!
+!! Yelp
+!
+yelp.com##div.coachmark-tooltip
+yelp.com##div.feed_trust-banner
+yelp.com##div.rateReview
+! raq == request a quote
+yelp.com##div.raq-module
+yelp.com##div.review-sidebar ul.action-link-list
+yelp.com##div.mapbox-text span[class*=-mobile]
+yelp.com##a.js-biz-to-phone
+!
+!! YouTube
+!
+youtube.com##div[class*=ytp-ce-]
+youtube.com##paper-dialog.ytd-popup-container
+!
+!! Fantasy Pros
+!
+fantasypros.com##div.slideout-promo
+fantasypros.com##div[class*=promo]
+!
+!! oddsshark
+!
+oddsshark.com##div#highlighted
+!
+!! General Assembly
+!
+generalassemb.ly##div.reveal-modal
+generalassemb.ly##div[data-new-user-lightbox-ip-address]
+!
+!! stack exchange
+!
+stackexchange.com##aside
+!
+!! urban dictionary
+!
+urbandictionary.com##span.cc-message
+urbandictionary.com##a[class*=addthis_button]
+urbandictionary.com##a.social-interaction
+urbandictionary.com##div#urban-top-bar
+urbandictionary.com##div.def-footer
+urbandictionary.com##div.thumbs
+urbandictionary.com##i.svgicon

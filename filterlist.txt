@@ -1,0 +1,894 @@
+[Adblock Plus 2.0]
+! Checksum: C3ke2Dwj0eWIaYB+oatJ/w==
+! Title: Aka's Adblock Liste
+! Last Modified: 10 Jan. 2019 01:00 +00:00
+! Expires: 3 days (update frequency)
+! Homepage: https://akamaru.de/
+! License: https://www.mozilla.org/MPL/2.0/
+!
+! BENUTZUNG KANN FEHLER VERURSACHEN
+! Diese Liste versteckt Dinge die mich nerven
+###premium_link
+##.cc_banner.cc_container.cc_container--open
+##.discord
+##.premium.btn-premium
+#*(class^=outbrain)
+#*(class^=plista_widget)
+#*(id^=outbrain)
+#*(id^=plista_widget)
+320k.me###dp_layer
+3ds.guide##.notice:nth-of-type(2)
+3ds.guide##a[href="/donations"]
+3ds.guide##a[href="donations"]
+3ds.guide##a[href="why-ads"]
+3ds.guide##hr:nth-of-type(3)
+3ds.hacks.guide##.notice:nth-of-type(2)
+3ds.hacks.guide##a[href="/donations"]
+3ds.hacks.guide##a[href="donations"]
+3ds.hacks.guide##a[href="why-ads"]
+3ds.hacks.guide##hr:nth-of-type(3)
+3dsiso.com###fb_loginbtn
+3dsiso.com###latestnew
+3dsiso.com###notices
+3dsiso.com##.donatorlist
+3dsiso.com##.facebooklike
+3dsiso.com##body > div:nth-of-type(3)
+@@||faz.net^$generichide
+@@||golem.de^$generichide
+@@||www.golem.de^$image,~third-party
+aliexpress.com##.top-banner-container
+aliexpress.com##a[href="//sale.aliexpress.com/exsukawkQi.htm"]
+amazon.co.jp###nav-belt > .nav-right
+amazon.com###nav-belt > .nav-right
+amazon.de###nav-belt > .nav-right
+anidb.net###layout-hint
+anilist.co##.el-dropdown-menu__item--divided.el-dropdown-menu__item
+anilist.co##.nav__links > .discord-link
+anilist.co##li.el-dropdown-menu__item:nth-of-type(7)
+anime-paradise.de###cookiemeldung
+anime-planet.de###___ratingbadge_0
+anime-planet.de###tfm_dsgvo_disclaimer
+animeheaven.de###check-also-box
+animeheaven.de##.background-cover
+animeheaven.de##.post-listing.check-also-right.show-check-also
+animenachrichten.de##.mh-sidebar-wide.mh-sidebar-2.mh-widget-col-1
+animes.so##.prem
+animesdigital.com.br###\37 7343-content-body
+animesdigital.com.br###\37 7343-holder
+animesdigital.com.br###zb-overlay
+animesdigital.com.br##.zb-content-body
+animesdigital.com.br##.zb-holder
+animesdigital.com.br##.zb-overlay.zb-77343
+anisearch.com###start
+anisearch.com##.box-notice
+anisearch.com##.urgent-msg
+anisearch.de###entertainweb
+anisearch.de###rtopA
+anisearch.de##.rect270
+anisearch.de##.rect300
+answers.yahoo.com###yset-search-upsell-container
+app.box.com###box_footer
+app.box.com###upgrade_button
+app.box.com##.img_ext.legal.pvm
+app.box.com##.nav_icon_drop_link.phm.mrn.upgrade_button
+app.plex.tv##.Link-default-32xSO.Link-link-2XYrU.MenuItem-default-tX5Cl.MenuItem-menuItem-25266.ServerMenuItem-serverMenuItem-2djO5:nth-of-type(3)
+app.plex.tv##div:nth-of-type(3) > .SidebarListItem-sidebarListItem-3ijGg:nth-of-type(5)
+archive.org###donate-banner
+archive.org##.donate-body.donate-body-blue
+archlinux.org###home-donate-button
+arktis.de##.newsletter_bg
+arktis.de/media/image/nlbanner_account.jpg
+b-stadt.com##.module-title
+b-stadt.com##.module.mod-box.partnerbanner.deepest
+berliner-zeitung.de##.bannerTop
+bildblog.de###steady-adblock-overlay-container
+bildblog.de###steady-adblock-overlay-container-content
+bildblog.de###steady-widget-container
+bildblog.de##.clearfix.post-content > div
+bildblog.de##.clearfix.post-content > div:nth-of-type(2)
+bildblog.de##p:nth-of-type(24)
+bitbucket.org###signup-banner
+bitbucket.org##.bb-banner
+blogspot.de###cookieChoiceInfo
+blogspot.de##.cookie-choices-info.singleton-element
+blu-rayiso.com###fb_loginbtn
+blu-rayiso.com###notices
+blu-rayiso.com##.facebooklike
+boerse.to##.COINWIDGETCOM_CONTAINER
+boerse.to##.sharePage.infoBlock.section > .secondaryContent
+boerse.to##[href="https://twitter.com/BoerseTo"]
+br.de###_1ppLK
+bs.to###teaser:nth-of-type(2) > div
+bs.to###teaser:nth-of-type(2) > header
+cdjapan.co.jp##a[style="display:block;line-height:0;text-decoration: none;background-color: #fcfcd5;"]
+chan.sankakucomplex.com###news-ticker
+chan.sankakucomplex.com###popular-preview
+checkoutweb.ebay.de##.comments.survey
+chip.de##.as-oil-content-overlay
+coding.fribbtastic.net###donation_buttons
+community.us.playstation.com###oo_invitation_overlay
+community.us.playstation.com###oo_invitation_prompt
+community.us.playstation.com##.no_loading
+console.developers.google.com##.p6n-message-bar.flex
+coolrom.com##td[style="margin:0px;padding:0px;"]
+crunchyroll.com###slidebox
+crunchyroll.com##.cr-expo-banner
+crunchyroll.com##.message-container.cf
+dailymotion.com##.sd_metaheader
+danbooru.donmai.us###news-updates
+danbooru.donmai.us###upgrade-account-notice
+datomatic.no-intro.org##div.widget:nth-of-type(1) > .top_warning
+ddl-music.to##a[href*="https://spyoff.com/geo"]:nth-of-type(2)
+ddl-warez.to###premiumbanner
+ddl-warez.to##.alert-warning.alert
+debriditalia.com###lhc_container
+debriditalia.com##.successbox
+desudaily.com###cookieChoiceInfo
+desudaily.com###glas-bottom-blck
+desudaily.com##.asfsldighsldikgs
+desudaily.com##.cookie-choices-info.singleton-element
+desudaily.com##.drgwefowiehfoiwe
+desudaily.com##.sdfgsdfgdfsffsfg
+deutscher-hip-hop.com###fanback
+developer.yahoo.com###loginPrompt
+developer.yahoo.com##.alert.alert-block
+deviantart.com##.overhead-promo-a
+deviantart.com##.overhead-promo-background-img-wrap
+deviantart.com##.overhead-promo-foreground-img-wrap
+diffchecker.com##.banner
+diffchecker.com##.hero
+discogs.com###alert-message-False
+discogs.com##.tracks-beta-banner
+disqus.com##.hidden-xlg.admin-aside__wrap.text-center
+dmax.de##.free-games.standard-list--desktop
+dmax.de##.partners.standard-list--desktop
+dmax.de##.raw-content__body
+dmax.de##[href="/games"]
+dmax.de##[href^="https://www.dmax-shop.de/"]
+dokujunkies.org###sidebar > div
+dokujunkies.org###sidebar > h2
+dokujunkies.org##a[href="http://serienjunkies.org"]
+doujin-games88.net###notice
+drive.google.com###\:40\.sw_manage_link
+drive.google.com##.Oc-I
+dropbox.com###upsell-bubble
+dropbox.com##.get-editable-link-prompt
+dropbox.com##.ha
+dropbox.com##.header-link
+dropbox.com##.sub-nav.chat-bubble.header-bubble.upsell-bubble
+ebay.de###gh-gb
+ebay.de###pd-collapsed
+ebay.de###pd-container
+ebay.de###pd-expanded
+ebay.de###pd-overlay
+ebay.de###pt-tray_0
+ebay.de###scandal100938
+ebay.de##.active.gh-notification-optin__root.page-notice--information.page-notice
+ebay.de##.gh-banner-active.gh-gb-shadow
+ebay.de##.gh-banner-txt
+ebay.de##.gh-banner.gh-banner-active
+ebay.de##.pt-tray
+emuparadise.me###___follow_0
+emuparadise.me###fb-subscribe
+emuparadise.me###gotd-handle
+emuparadise.me##.g-follow
+emuparadise.me##.row:nth-of-type(2) > .last.col_12:nth-of-type(1) > .box
+emuparadise.me##.share-buttons-top.mobile-hide
+emuparadise.me##.top-menu-social-icon
+endless-anime.net##.svg-block.nav-svg.svg-container > svg
+equestriaafterdark.org###gc_message_bar
+equestriaafterdark.org##.banl-notice
+equestriaafterdark.org##.gc_message_bar_bottom
+faz.net##.cbx-Author-is-in-article-container-info.cbx-Author
+fernsehserien.de###iframe_vn_tag_6269_1
+fernsehserien.de###iframe_vn_tag_6269_2
+fernsehserien.de###rickroll-leaderboard
+fernsehserien.de###rickroll-rectangle
+fernsehserien.de###rickroll-rectangle-div
+fernsehserien.de###snacktv_wh_bar_widget
+fernsehserien.de##.newsletter-button
+fernsehserien.de##.no-print:nth-of-type(2)
+fernsehserien.de##.rickroll-container
+fernsehserien.de##.sidebar-dvd-tipp
+fernsehserien.de##.social-buttons
+fernsehserien.de##.whatsapp.shariff-button
+fernsehserien.de##a[href^="whatsapp://send"]
+fettrap.com##table[style="margin:-10px 0px -10px 0px; padding:0px;"]
+files.minecraftforge.net##.ad-downloads-bottom
+files.minecraftforge.net##.ad-downloads-right
+files.minecraftforge.net##.ad-downloads-top
+filmstarts.de###footerPlayer
+finanzen.net###showpopup2
+firedrop.com##.col-md-4
+firedrop.com##.panel-warning.panel > .panel-body
+focus.de##.plista_widget_innerArticle
+focus.de##.uc.playbtn
+forum.golem.de###abo-clip
+forum.golem.de###gservices
+forum.golem.de##.social-flattr.bar-margin
+forum.golem.de##DIV[style="min-height:266px; margin:20px 0 10px;"]
+forum.golem.de##DIV[style="min-height:266px; margin:20px 0;"]
+forum.wii-homebrew.com##.copyright
+forum.wii-homebrew.com##.info
+freealbums.org##.full-story > div:nth-of-type(2)
+freealbums.org##.nav1
+fromjapan.co.jp##.new_whatsnew
+gamepro.de###comments
+gamesonly.at###bgLinkHover
+gamespilot.de##.article--followship
+gamespilot.de##.article--social-header-bar
+gamespilot.de##.notification.is-info.is-fixed-to-bottom
+gamespilot.de##.seperators--label
+gandi.net###topbar
+gandi.net##.news
+gbatemp.net###sidebar
+gbatemp.net##.cc_banner.cc_container.cc_container--open
+gbatemp.net##.noticeContent
+gelbooru.com##.noticeError
+getbukkit.org##[href="https://discord.gg/getbukkit"]
+github.com##.octofication.js-notice
+gload.cc##.widget_custom_html.uk-panel-box.uk-panel
+gmx.net###loginsearch-ad
+gmx.net##.premium
+golem.de###abo-clip
+golem.de###golem-cookie-accept
+golem.de###golemabo_minibanner
+golem.de###gservices
+golem.de##.golem-accountpromo.artikel
+golem.de##.text1[href="https://golem.spectrm.de/Security+von+Golem&pos=dartright"]
+golem.de##DIV[style="height:30px;margin-bottom:1em;"]
+golem.de##DIV[style="margin:0 0 1em"]
+golem.de##DIV[style="margin:15px 0; min-height:266px;"]
+golem.de##IMG[src="http://www.golem.de/microsite/abo/trial/socialLeiste_Abo_7_2_120x23px.jpg"]
+goodolddownloads.com###donate
+goodolddownloads.com###donate-bar
+google.de##.gb_bd.gb_ec.gb_g
+graph.anime.plus###notice-wrapper
+gronkh-wiki.de###ads
+gronkh-wiki.de###localNotice
+gronkh-wiki.de##.adsdeaktiviert
+gronkh-wiki.de##.col-12.col-dt-6.adswrapper.adsDisabled
+haveibeenpwned.com###noPwnage > .container > .pwnResultBanner.row > .clearfix.actionsBar
+heise.de###news_notify_hint
+heise.de###teaser_newsletter_2014
+hellofresh.de##.fela-ehelzf
+hentai.to##.shareaholic-share-buttons-container.shareaholic-ui.flat.center-align
+hentaisun.com###content > .clearfix.slice > .container > .row:nth-of-type(2) > .span4 > .clearfix:nth-of-type(1)
+hentaisun.com##.clearfix.widget:nth-of-type(1) > div:nth-of-type(2)
+hentaisun.com##.clearfix.widget:nth-of-type(2)
+hentaisun.com##.clearfix.widget:nth-of-type(2) > div:nth-of-type(2)
+hentaisun.com##.clearfix.widget:nth-of-type(4)
+hentaisun.com##.clearfix.widget:nth-of-type(5)
+hentaisun.com##.row:nth-of-type(1) > .span12
+hentaisun.com##[href^="https://network.nutaku.net/images/landing/tgp/11/pop.html"]
+hentaisun.com##li:nth-of-type(6) > .firstLevel
+hentaisun.com##li:nth-of-type(7) > .firstLevel
+hiphop-releases.de##.azon-wide > [href^="https://www.amazon.de/gp/dmusic/promotions/AmazonMusicUnlimited"]
+hiphop-releases.de##.bottomcallto
+hiphop-releases.de##.pagecontent > .azon-wide
+hiphop-releases.de##.row-178 > .column-1
+hiphop-releases.de##.socialiconset
+hiphop-releases.de##p > [href^="https://www.amazon.de/gp/dmusic/promotions/AmazonMusicUnlimited"]
+hiphop.de##.field-body > .text-center.alert-success.alert
+hiphop.de##.file-default.media-element
+hiphop.de##.pane-neu-im-magazin-panel-pane-3
+horriblesubs.info##.message-blk.msgblk-container
+humblebundle.com###eu-cookie-warning-banner
+humblebundle.com###eu_cookie_warning_banner > .js-banner.banner
+humblebundle.com###eu_cookie_warning_banner > .js-banner.banner > .js-page-banner-link.page-banner-link
+humblebundle.com###site-xpromo-banner
+humblebundle.com###site-xpromo-banner > .js-banner.banner
+humblebundle.com###site-xpromo-banner > .js-banner.banner > .js-page-banner-link.page-banner-link
+humblebundle.com###spiel
+humblebundle.com##.coupon.whitebox-redux
+humblebundle.com##.js-subproduct-whitebox-holder
+imgur.com##.cta-background
+imgur.com##.cta-content-container
+infranken.de###bannerspace
+infranken.de###fancybox-overlay
+infranken.de##.cc_container_FB.cc_banner_FB
+infranken.de##.glomex-iframe-player-wrapper
+infranken.de##.glomex-sticky-placeholder
+infranken.de##IMG[src="/image/1440510638674742n8UYICC1V6y6iOsqElL38.gif"]
+ipsw.me##.alert-info.alert.col-md-12
+ipsw.me##.text-center > a[href="https://justapengu.in/slide"]
+itunes.apple.com###itunes-client-required
+itunes.apple.com##.callout
+japaniac.de##.gs-content
+jpc.de##.mfp-bg.mfp-move-from-top.mfp-ready
+jpc.de##.mfp-container.mfp-s-ready.mfp-inline-holder
+jpc.de##.mfp-content
+jpc.de##.mfp-wrap.mfp-close-btn-in.mfp-auto-cursor.mfp-move-from-top.mfp-ready
+jpgames.de###ingameNetwork
+jpgames.de###text-15
+jpgames.de###text-16
+jpgames.de###text-18
+jpgames.de###text-7
+juice.de###adblocker-warning-box
+juice.de###adblocker-warning-wrapper
+juice.de##.abw:nth-of-type(10)
+juice.de##.abw:nth-of-type(11)
+juice.de##.abw:nth-of-type(12)
+juice.de##.abw:nth-of-type(13)
+juice.de##.abw:nth-of-type(14)
+keezmovies.com##.attentionMsg
+kickstarter.com##.tout-banner__message.tout-banner__message--dismisable
+knowyourmeme.com##.floating-keyboard-info
+knowyourmeme.com##.floating-share-bar
+kuketz-blog.de##.support-box.box
+letsdl.biz###text-11 > .widget-inner > .textwidget
+letsdl.biz##.text-left.panel-primary.panel
+lidl.de##.newsletter-banner--opened
+lkw-zubehoer.de##div#hinweis.hinweis
+lunaticstudio.net###srights
+lunaticstudio.net##.socials
+m.moviepilot.de###main > div.js--article.layout--wrapped-content.is-initialized > div.layout--full-width.js--main-content:last-child > div.article--content-wrapper.clearfix.is-longform.js--article--content:nth-child(2) > div.article--content-body.js--article--content-body:last-child > div.OiKcdm:nth-child(4)
+m.moviepilot.de###page > div.bcxOBdvgda:nth-child(4) > div.cKcfzkPC:first-child > img
+m.moviepilot.de###yIGnUC > img
+m.moviepilot.de##div.bottom-drawer--wrapper.js--bottom-drawer.bottom-drawer--is-initialized.is-visible:nth-child(16)
+macwelt.de###nav-page
+macwelt.de##.banner-left
+macwelt.de##.cc_banner.cc_container.cc_container--open
+macwelt.de##.content
+macwelt.de##.four
+macwelt.de##.head
+macwelt.de##.heading
+mainpost.de##.bineosCampaign > div
+mainpost.de##.content-box:nth-of-type(3) > .content-box-body
+mariowiki.com###mw-content-text > table > tbody > tr > td:nth-of-type(1)
+mediafire.com###close-pool
+mediafire.com##.appUgradeBadge
+mediafire.com##.dlPromoContent.dlPromo2Content
+mediafire.com##.dlPromoContent.dlPromo3Content
+mediafire.com##.ico30upgrade.maskedIcons.upGrade
+mediafire.com##.onBoarding
+mediafire.com##.smSpaceIndicator
+mediamarkt.de###tscard_db8d3657bdbe440c985ae127463eaad4
+mediamarkt.de##.aq-box
+mediamarkt.de##.mms-cookielayer
+mediamarkt.de##.standard.checkout.topleft
+medium.com##.promoCard
+mega.co.nz##.ads-left-block.ads-enabled
+mega.co.nz##.ads-right-block
+mega.co.nz##.checkbox-bl.download
+mega.co.nz##.new-download-gray-button
+mega.co.nz##.new-download-sync-app
+mega.co.nz##.products-slides-block.products-laptop.active
+mega.nz##.ads-left-block
+mega.nz##.ads-left-block.ads-enabled
+mega.nz##.ads-right-block
+mega.nz##.checkbox-bl.download
+mega.nz##.new-download-gray-button
+mega.nz##.new-download-sync-app
+mega.nz##.products-slides-block.products-laptop.active
+memegenerator.net##.like-us-on-facebook.well.align_center.none
+mimikama.at##div[style="font-size: 9px; color: #bbbbbb; text-align: center;"]
+mimikama.at##div[style="text-align:center; background-color:#EAEAEA; width:100%"]
+mimikama.at##div[style="width: 100%; text-align: center; background-color: #eaeaea"]
+mirrorace.com##.uk-text-center.uk-margin-bottom.uk-width-1-1 > .uk-text-center.uk-margin-bottom.uk-width-1-1
+mobiflip.de###steady-adblock-overlay-container
+mobiflip.de###steady-adblock-overlay-container-content
+mobiflip.de###steady-widget-button
+mobiflip.de##.abobtn
+mobiflip.de##.mobihaupt300
+mobiflip.de##.mobitop970
+mobiflip.de##.test-login-button.login-button
+modmyi.com###notices
+modmyi.com##.notices
+modmyi.com##div[style="width: 300px; background-color: #e98e22; height: 60px; text-align: center; padding-top: 10px; margin-bottom: 10px;"]
+moonlitsaki.com###header-widget-container
+moonlitsaki.com##.smallish
+moonlitsaki.com##.sponsored
+movie-blog.org##p:nth-of-type(1) > [href="http://movie-blog.org/2010/vav1.php"]
+moviepilot.de###try-moviepilot
+moviepilot.de##.anonymous_teaser_sidebar
+moviepilot.de##.article--followship
+moviepilot.de##.article--followship.clearfix
+moviepilot.de##.consumptions--widget-poster
+moviepilot.de##.consumptions--widget-poster--more-link
+moviepilot.de##.introjs-helperLayer
+moviepilot.de##.introjs-overlay
+moviepilot.de##.is-initialized.js--player--footer.video--player--footer
+moviepilot.de##.is-visible.cookies
+moviepilot.de##.notification.is-info.is-fixed-to-bottom
+moviepilot.de##.seperators--label
+moviepilot.de##.user--authorbox
+multiup.org###surge
+multiup.org##.notification-warning
+multiup.org##.trtbl
+musicalbums.org##.nav1
+musik-sammler.de###ebay-bottom
+musik-sammler.de##.text-center.cell.large-6.medium-6.small-12
+musik-sammler.de##div.grid-x:nth-of-type(3)
+musik-sammler.de##section > div > .row:nth-of-type(3)
+my.jdownloader.org###dropdownFeedbackButton
+my.jdownloader.org##a.dropDownButton.gwt-Anchor:nth-of-type(4)
+my.tvspielfilm.de###DMieTHLz
+my.tvspielfilm.de###WLhmLukWY
+myanimelist.net###btn-back_to_mobile
+myanimelist.net###lastcomment
+myanimelist.net##.Lightbox_AddEdit.button_add
+myanimelist.net##.Lightbox_AddEdit.button_edit
+myanimelist.net##._unit
+myanimelist.net##.banner-header-anime-straming
+myanimelist.net##.btn-mal-service
+myanimelist.net##.initialize-tutorial
+myanimelist.net##.left-info-block-manga-store-button
+myanimelist.net##.left.store_popular_comics.widget
+myanimelist.net##.manga.stats
+myanimelist.net##.manga.updates
+myanimelist.net##.mauto.clearfix.pt24
+myanimelist.net##.mb24.di-t.js-truncate-inner.user-favorites > div.di-tc:nth-of-type(2)
+myanimelist.net##.modal-content
+myanimelist.net##.mr8.fl-r.js-shop-anime.amazon.btn-affiliate
+myanimelist.net##.mt8.icon-block
+myanimelist.net##.pb4.notice_open_public
+myanimelist.net##.pl16.va-t.di-tc.anime-detail-header-video
+myanimelist.net##.slider-wrap
+myanimelist.net##.va-t.di-tc.anime-detail-header-stats
+myanimelist.net##[href="https://myanimelist.net/account/membership"]
+myanimelist.net##[href="https://myanimelist.net/account/payment"]
+myanimelist.net##[href="https://myanimelist.net/advertising"]
+myanimelist.net##[href="https://myanimelist.net/advertising?_location=mal_h_m"]
+myanimelist.net##[href="https://myanimelist.net/membership"]
+myanimelist.net##[href="https://myanimelist.net/membership?_location=mal_h_m"]
+myanimelist.net##[href="https://myanimelist.net/payment"]
+myanimelist.net##[href="https://myanimelist.net/store"]
+myanimelist.net##[href="https://myanimelist.net/store?_location=mal_f_m"]
+myanimelist.net##div.borderDark
+myanimelist.net##div[style="padding: 20px 0 20px 40px; float: left; position: relative; z-index: 1;"]
+myanimelist.net##div[style="padding: 20px 40px 20px 0; float: right; position: relative;"]
+myanimelist.net##div[style="padding: 20px 40px;display: inline-block;"]
+myanimelist.net##li.smaller:nth-of-type(6) > .non-link
+myanimelist.net##table[style="width:100%;height:100%;text-align:center;border-collapse:collapse;"]
+myanimelist.net##td > .pb16
+myanimelist.net##td[style="height:20%;background:#ebebeb;color:#545454;font-size:11px;"]
+myanimelist.net##td[style="height:30%;background:#1E439B;color:#fff;font-size:14px;"]
+myanimelist.net##td[style="height:40%;background:#1E439B;color:#fff;font-size:16px;line-height:200%;"]
+myanimelist.net##td[style="height:40%;background:#4f74c8;color:#f6f6f6;font-size:14px;line-height:170%;"]
+myanimelist.net##td[style="height:40%;background:#ebebeb;color:#545454;font-size:11px;"]
+myanimelist.net##td[style="height:50%;background:#4f74c8;color:#f6f6f6;font-size:14px;"]
+mydealz.de##.newsletter
+mydealz.de##.topBar.hide--upTo-medium
+mydealz.de##.vAlign--all-b.tGrid-cell
+mydealz.de##div[style="background-color: #000000;color: #d93527;font-weight: bold"]
+myfigurecollection.net##.ad-wide-bottom
+myfigurecollection.net##.partner.right
+myfigurecollection.net##.xy-wide-top
+nachrichten.yahoo.com###mediablistmixedlpcatemp
+nachrichten.yahoo.com##.Bgc\(eprivbg\).Pos\(f\).B\(0\).Start\(0\).End\(0\).M\(0\).C\(white\).Ta\(c\).Fz\(14px\).Ta\(c\).Pt\(13px\).Pb\(14px\).Pstart\(40px\).Pend\(20px\)
+nachrichten.yahoo.com##.yog-wrap.yog-full
+nachrichten.yahoo.com##.yom-mod.yom-blist
+netzwelt.de###i123kh
+netzwelt.de###ml
+netzwelt.de###mr
+netzwelt.de##.ckch
+netzwelt.de##.underlay
+netzwelt.de##div[style="text-align: left; position: relative; height: 205px;"]
+nicovideo.jp###entertainment
+nicovideo.jp###entertainment_container
+nicovideo.jp###entertainment_nav
+nicovideo.jp###language_setting_alertbox
+nicovideo.jp###siteHeaderNotificationPremium
+nicovideo.jp##.PreVideoStartPremiumLinkContainer
+nicovideo.jp##.entame_image
+nicovideo.jp##.login-box
+nicovideo.jp##.ownerMsg
+nicovideo.jp##.regist
+nicovideo.jp##.siteHeaderUpgrade
+nintendo.de###cookie-topbar
+notebookcheck.com##.sncmp-app_gdpr
+notebooksbilliger.de##.alternativeLink
+nyaa.eu##div[style="float:right;margin-top:4px;width:12%;"]
+nyaa.si##.alert-info.alert
+old.reddit.com##.listingsignupbar
+omgubuntu.co.uk##.mfp-bg.mfp-ready
+omgubuntu.co.uk##.mfp-container.mfp-s-ready.mfp-inline-holder
+omgubuntu.co.uk##.mfp-content
+omgubuntu.co.uk##.mfp-wrap.mfp-close-btn-in.mfp-auto-cursor.mfp-ready
+onedrive.live.com###O365_Lync_ButtonID
+onedrive.live.com###O365_MainLink_Help
+onedrive.live.com##.LeftNav-subLinksAsComponent:nth-of-type(2)
+onedrive.live.com##.od-QuotaBar-total
+opera.com##.download-sticky-bar
+origin.com##.mod.image-message.light
+pastebin.com##DIV[style="cursor:pointer;background: #eee url(/i/ab_bg.png) no-repeat center; background-color: #fff; width:728px; height:80px; margin-bottom:10px;border:1px solid #000000; text-align:center;padding-top: 10px;border:0;"]
+paypal.com##.row-fluid.row-notification.cookie-notification.light
+pcgameiso.com###fb_loginbtn
+pcgameiso.com###notices
+pcgameiso.com##.facebooklike
+pcwelt.de###IwTbOqfb
+pcwelt.de###lNaQUge
+pcwelt.de##.AKrtsxenNt
+pcwelt.de##.IqVYhbX
+pcwelt.de##.OSZLUEfM
+pcwelt.de##.banner-left
+pcwelt.de##.billiger-breaker
+pcwelt.de##.cc_banner.cc_container.cc_container--open
+pcwelt.de##.hqXkAIX
+pcwelt.de##.idgAmazonTextV2
+pcwelt.de##.social_media_buttons
+pinterest.com##.FullPageModal__scroller
+pinterest.com##.InlineSignup.Module.UnauthBanner.wallStep.fullScreenBanner
+pinterest.com##.InlineSignup.Module.UnauthBanner.wallStep.halfScreenBanner
+pinterest.com##.InlineSignup.Module.UnauthBanner.wallStep.quarterScreenBanner
+pinterest.com##.InlineSignup.Module.UnauthHomePage.inspired_banner.wallStep
+pinterest.com##.Module.DenzelReactBridge > div > div:nth-of-type(2)
+pinterest.com##.modalContainer.show
+pinterest.com##.modalMask.dark.show
+pinterest.com##.modalScroller
+pinterest.com##div:nth-of-type(2) > div:nth-of-type(2) > div
+pixiv.net###register-introduction-modal
+pixiv.net##._toolmenu-balloon
+pixiv.net##.ad
+pixiv.net##.bigbanner
+pixiv.net##.introduction-modal
+pixiv.net##.introduction-modal-container
+play-asia.com###sidebar
+play-asia.com###soc_body
+play-asia.com###social
+playcollect.net##.alert.alert-warning
+playstation.com###oo_container
+playstation.com###oo_invitation_overlay
+playstation.com###siee-cookie-bar
+playstation.com##.no_loading
+ponycloud.me##span[style="font-family:Arial, Calibri, Times, serif;font-weight:bold;"]
+praxistipps.chip.de###\32 h2tep14i_ifp
+praxistipps.chip.de##.mwEmbedKalturaIframe
+praxistipps.chip.de##.pr-btn
+prosieben.de##.ReactModal__Overlay.ReactModal__Overlay--after-open
+proxer.me###chatapp_sidebar
+proxer.me##div[style="margin:2px auto; width: 720px; height:90px;"]
+proxer.me##tr:nth-of-type(3) > td:nth-of-type(3)
+ps3iso.com###fb_loginbtn
+ps3iso.com###notices
+ps3iso.com##.facebooklike
+ps3iso.com##div[style="color:#FFFFFF;margin-top:15px;padding: 10px 20px;font-size: 16px;letter-spacing: 1px;font-family: sans-serif;"]
+pspiso.com###fb_loginbtn
+pspiso.com###notices
+pspiso.com##.facebooklike
+randaris-anime.net##.adblock-box.alert.alert-ad
+randaris-anime.net##.alert.alert-ra-home.hidden-xs.text-center
+rap.de##.td-front-end-display-block.td-more-articles-box
+rebuy.de###advantage-bar
+rebuy.de###sale-badge-side
+rebuy.de##.label
+rebuy.de##.label-wrapper
+rebuy.de##.ry-promo-infobar
+rebuy.de##.trbo_layer.expanded
+rebuy.de##.trbo_layer_content
+rebuy.de##cookie-permission
+reddit.com##.listingsignupbar
+relink.to###iBunkerSlideWrap
+relink.to##.ad_right
+relink.to##.posterBlock
+retro-konsolen.de###mainMenuLink-20
+reviewmeta.com##.hidden-xs.reviewmeta-extensions-alert.alert-warning.alert.reviewmeta-alert
+rofl-subs.co.uk###bitmate-author-donation
+rule34.paheal.net##font:nth-of-type(2)
+rule34.xxx###paginator > center
+sanicare.de###kairionHigh2Banner
+sanicare.de###kairionRightBox
+sankakucomplex.com##.adbmodal-cloudflare-app-container.adbmodal-cloudflare-app-small-5-wrapper
+sankakucomplex.com##.adbmodal-cloudflare-app-container.adbmodal-cloudflare-app-small-6-wrapper
+sat1.de##.ReactModal__Overlay--after-open.ReactModal__Overlay
+saturn.de###cboxContent
+saturn.de###cboxLoadedContent
+saturn.de###cboxOverlay
+saturn.de###cboxWrapper
+saturn.de###colorbox
+saturn.de##.layer-content
+scgi.ebay.de##.gh-banner-active.gh-gb-shadow
+schnittberichte.com##div:nth-of-type(2) > table
+scooter-attack.com##.header-language-background
+scooter-attack.com##[href="http://rollerhaendler.scooter-attack.com"]
+serienjunkies.de###bjNPscHGc
+serienjunkies.org###sidebar > div:nth-child(2) > img
+serienjunkies.org###sidebar > h2:nth-of-type(1)
+serienjunkies.org###top_banner
+serienjunkies.org##.feeds:nth-of-type(2)
+serienjunkies.org##a[href="http://dokujunkies.org"]
+serienjunkies.org##h2:nth-of-type(2)
+share-online.biz##.tickercontainer
+signup.wordpress.com###lang-guess
+skidrowreloaded.com###menu-item-13486
+skidrowreloaded.com###menu-item-37662
+sourceforge.net###newsletter-floating
+sourceforge.net###pop-div009210732043394798
+sourceforge.net###pop-div031808616034686565
+sourceforge.net###pop-div2019814754696562886
+sourceforge.net###pop-div205213676221131843
+sourceforge.net##.box_overlay
+sourceforge.net##.overlay
+speedtest.net##.nav-advertise
+spiegel.de###page-overscroll-area
+spiegel.de##.clearfix.asset-affiliatebox.asset-buchwerbekasten.asset-box
+spiegel.de##.clearfix.sticky-overlay
+spiegel.de##.module-box.gutscheine-widget
+spiegel.de##.wrapad.billboard_1
+spiegel.de##.wrapad.footer_ad
+spiegel.de##.wrapad.promotion_ad_1
+spiegel.de##.wrapad.promotion_ad_4
+spiegel.de##.wrapad.promotion_ad_5
+spiegel.de##iframe[src="about:blank"]
+stadt-bremerhaven.de###menu-item-892429 > a[href="https://stadt-bremerhaven.de/huawei-news-hub/"]
+stadt-bremerhaven.de###rss-5
+stadt-bremerhaven.de###shr-btns
+stadt-bremerhaven.de##.comment-abo
+stadt-bremerhaven.de##h2
+startgame.land##.content-widget-before.content-widget
+startgame.land##.donationForm
+startgame.neo8x.fr##.donationForm
+steamdb.info###announcement
+steamdb.info##.surface-tension
+store.google.com##.bar
+store.playstation.com###cookieWarningMessage
+store.playstation.com###privacy-header
+sukebei.nyaa.eu##div[style="float:left;width:100%;"]
+sumikai.com###ecl-notice
+sumikai.com###sumik-1979148181 > .sumik-adlabel
+sumikai.com###sumik-815177357 > .sumik-adlabel
+sumikai.com##.ajdg_grpwidgets.widget
+sumikai.com##.g-single.a-36
+sumikai.com##.jnews-cookie-law-policy
+sumikai.com##.td-header-rec-wrap
+sumikai.com##.td-ss-main-sidebar
+support.microsoft.com###lca-cookie-notification
+support.microsoft.com##.mstResponsive.euCookie
+support.microsoft.com##.shell-notification.shell-notification-active
+support.plex.tv##.notification-bar.row
+swity.de###hydra-fb-notice
+t-online.de###T-brTargtg-cont
+t-online.de##.Tfbl.Tww2.Tmlf.Tll.Tmm
+t-online.de##.Tmc4a.toiaiai
+tampermonkey.net##.cookie_hint
+tampermonkey.net##.searchbox_mv
+tampermonkey.net##.social_buttons
+tampermonkey.net##td[style="padding-left: 99px; vertical-align: top;"]
+tampermonkey.net##td[style="vertical-align: top; padding-top: 17px;"]
+thetvdb.com##.tvtime.noborder
+thetvdb.com##.tvtime.well
+thumbzilla.com###age-verification-container
+thumbzilla.com###age-verification-wrapper
+thumbzilla.com###greeting
+thumbzilla.com###premium_link
+thumbzilla.com##.mhp1138_chromecastBtn
+translate.google.com##.jfk-butterBar.jfk-butterBar-info.jfk-butterBar-shown
+translate.google.de###gt-promo-lr
+translate.google.de##.jfk-butterBar.jfk-butterBar-info.jfk-butterBar-shown
+tumblr.com###nedb
+tumblr.com##.road-block
+turbobit.net###download-top-note
+turbobit.net##.payment-block
+tvspielfilm.de###jumphome
+tvspielfilm.de##.button--abo
+twitch.tv##.clearfix.upsell-banner
+twitch.tv##.following-games-onboarding
+twitch.tv##.noty_message
+twitch.tv##.recent-past-broadcast__cap
+twitch.tv##.recent-past-broadcast__message
+twitter.com###stream-item-recap_entry-654310756855382018
+twitter.com##.Grid.Grid--withGutter.WtfLargeCarouselStreamItem-visibleUsers.stream-items.js-navigable-stream
+twitter.com##.ProfileClusterFollow
+twitter.com##.PromptbirdPrompt.PromptbirdPrompt--inline
+twitter.com##.WtfLargeCarouselStreamItem-header.dismissible-content
+twitter.com##.dashboard.dashboard-right
+twitter.com##.empty-timeline-footer.content-no-header
+twitter.com##.flex-module.import-prompt
+twitter.com##.has-content.roaming-module.js-wtf-module.wtf-module.module > .flex-module:nth-of-type(1)
+twitter.com##.header-inner.empty-timeline-header
+twitter.com##.js-stream-item.stream-item.has-recap.js-no-dedup.js-has-navigable-stream.stream-item.separated-module
+twitter.com##.stream.suggested-tweet-stream.permalink-replies
+uploadable.ch###anonymous
+uploadable.ch###exposeMask
+uploadable.ch##.overlay
+uploaded.net###fakeContentBoxContainer
+uploaded.net###pico-1
+uploaded.net###pico-2
+uploaded.net###taboola-404-container
+uploaded.net##.pico-content
+uploaded.net##.pico-overlay
+uploaded.net##div[style="width: 100%; text-align: center"]
+urbandictionary.com##.mug-ad-03d
+urbandictionary.com##.mug-ad-03e
+waehrungsrechner-euro.com##.calculadora-row-complement-tw.calculadora-row-complement
+waehrungsrechner-euro.com##.sub-container:nth-of-type(9)
+waifu2x.booru.pics##.text-center.col-md-12
+waifu2x.udp.jp##form > .bottom-hint > div
+warez-heaven.ws##.left-column > .description-right
+warez-world.org###lead
+warez-world.org###upload-infos:nth-of-type(2)
+weather.com###wx-rail.region.sidebar
+web1.ok.de###adMiddle
+whatanime.ga##.alert-warning.alert
+wiiuiso.com###fb_loginbtn
+wiiuiso.com###notices
+wiki.selfhtml.org###bitte_um_feedback
+wikia.com###WikiaBarWrapper
+wikia.com###msg_3290
+wikia.com###msg_3360
+wikia.com###msg_3456
+wikia.com##.banner-notification.notify
+wikia.com##.gamestar-logo
+wikipedia.org###WMDE_Banner
+wikipedia.org###WMDE_Banner-facts
+wikipedia.org###WMDE_Banner-message
+wikipedia.org###WMDE_Banner-nag
+wikipedia.org###WMDE_Banner-window
+wikipedia.org###siteNotice
+wikipedia.org###wlm-de
+wikipedia.org###wmf_tou_cc_4_a
+wikipedia.org##.mw-dismissable-notice
+wikipedia.org##.transparant
+wikipedia.org##div[style="background:#FCFCFC; border:1px solid #339966; margin: 0 auto 1em auto; font-size: 120%; overflow: hidden; text-align: center; padding: 0.5ex;"]
+windows-faq.de##.et_social_animated.et_social_visible.et_social_scroll.et_social_mobile_on.et_social_trigger_bottom.et_social_slideup.et_social_flyin_bottom_right.et_social_resize.et_social_flyin
+windows.microsoft.com###NotificationUpgradeWin10
+windows.microsoft.com##.wol-notification
+windowscentral.com##.addontrain-content
+windowsunited.de###cookie-law-info-bar
+windowsunited.de###text-28
+windowsunited.de##.widget.widget_text
+winfuture.de##.cc_banner.cc_container.cc_container--open
+worldofsweets.de###cnflyout
+wunschliste.de###newsmail_block
+wunschliste.de###newsmail_submit
+xbox360iso.com###fb_loginbtn
+xbox360iso.com###notices
+xrel.to###tbm-text
+xrel.to##.the_big_misunderstanding
+youtube.com##.ytp-button.ytp-next-button
+youtube.com##.ytp-cards-button-icon-default
+youtube.com##.ytp-endscreen-content
+youtube.com##ytd-compact-autoplay-renderer
+yuzu-emu.org##a.is-hidden-touch.px-lg.navbar-item:nth-of-type(1)
+yuzu-emu.org##a.px-lg.navbar-item:nth-of-type(4)
+zdnet.de###abl-overlay
+zdnet.de##.abl-overlay-bg
+||1.bp.blogspot.com/-4HCUxxTDZgw/VeCiGoErUUI/AAAAAAAAAiw/s4KQJH0_ZxM/s1600/ViceDigital.png
+||320k.me/images/rrwstplstlght.jpg
+||4.bp.blogspot.com/-VbFTMiOGmnE/VD2i228FZjI/AAAAAAAAb-8/DrF1V5O8EjM/s1600/Anzeige%2BBuch.jpg
+||a2.tvspielfilm.de/imedia/5825/3428623*
+||a248.e.akamai.net/7/248/37762/v1/pierre.download.akamai.com/27174/univers/mypvcp/animation/cp/groceries/products/Tapvat_5L.JPG
+||abload.de/img/cooltext16257395900pzrd.gif
+||ae01.alicdn.com/kf/HTB1LMb6SpXXXXavXXXXq6xXFXXXn.jpg
+||animeheaven.de/wp-content/uploads/2016/05/PayPalAd1.jpg
+||animenachrichten.de/wp-content/uploads/*/*/Saturn3fuer2*.jpg
+||animenachrichten.de/wp-content/uploads/*/*/download*.jpg
+||anisearch.de/images/partner/entertainweb/entertainweb_30px.png
+||autoscout24.de/image/U/*/*.gif
+||bildblog.de/wp-content/manitu_greenhostedby234_60.gif
+||bildblog.de/wp-content/steadyunter.png
+||bildblog.de/wp-content/themes/Frank-advice/ADVICE_LOGO_12.png
+||bilder.pcwelt.de/141983OfF0w_03100x07680.jpg
+||cdn.anisearch.de/images/livechat.jpg
+||cdn.anisearch.de/images/partner/amazon/*
+||cdn.discordapp.com/attachments/379035080401747976/409081324687589376/Skynode-Getbukkit-v1.3.gif
+||cdn.idealo.com/offerpage/assets/cd2bc68/rwd/img/logo-cobi.svg
+||cdn.isonw.com/img/3dsiso/shareus.png
+||cdn.isonw.com/img/3dsiso/smilies/RpS_biggrin.gif
+||cdn.jheberg.net/images/debrideur.png
+||cdn.mediafire.com/images/backgrounds/download/dl_promo_logo.png
+||cdn.myanimelist.net/images/stream_banner/banner_anime_streaming.png
+||cdn.myanimelist.net/images/stream_banner/banner_anime_streaming@2x.png
+||cdn.playwire.com/*
+||cdn.video.playwire.com/*
+||chatango.com/*
+||commitstrip.com/hello.php
+||content1.mediabiz.de/mbadtab/gm_sky_2017-04-10-00-00_2017-04-16-00-00_2017-04-12-16-15.png
+||ddl-music.to/images/shareonline_banner.png
+||ddl-warez.to/images/bitcoin.png
+||ddl-warez.to/images/cyberghost_banner.gif
+||ddl-warez.to/images/cyberghost_banner.jpg
+||ddl-warez.to/images/shareonline_banner.png
+||ddl-warez.to/images/spyoff.png
+||ddl-warez.to/images/spyoff_banner.jpg
+||ddl-warez.to/images/switzerland.png
+||ddl-warez.to/images/usenetbanner.png
+||directupload.net/graphics/directupload_not_found.png
+||discordapp.com/widget
+||dlvr.t-online.de/static/lisa/placement/v1/basic.html
+||dokujunkies.org/6abc3c77.jpg
+||dokujunkies.org/6abc3c99.jpg
+||facebook.com/plugins/like.php
+||facebook.com/plugins/like_box.php
+||facebook.com/plugins/likebox.php
+||facebook.com/plugins/page.php
+||fernsehserien.de/img/advent_button*.jpg
+||filer.net/media/images/final-grafik*.png
+||files.nyaa.eu/ao25.jpg
+||forum-raspberrypi.de/images/shop.jpg
+||fs1.directupload.net/images/171126/tg8nks54.jpg
+||g-ecx.images-amazon.com/images/G/03/gateway/france/fr_1x._V288658552_.png
+||g-ecx.images-amazon.com/images/G/03/x-locale/common/transparent-pixel._CB386942701_.gif
+||gamesonly.at/banners/2015_11_04_10_37_45ID1811.jpg
+||gamesonly.at/banners/2016_02_12_11_54_32ID1875.jpg
+||google.com/shopping/customerreviews/badge
+||gronkh-wiki.de/other/noticeslider/
+||gstatic.com/youtube/doodle/yt-doodle-gay-pride*.png
+||hentai.to/premium.hentai.to.gif
+||horriblesubs.info/images/b/block_banner.png
+||hosting.fayp.com/vi-SDd7nb.gif
+||hydra-media.cursecdn.com/commons.cursetech.com/0/0c/Humblebundle-sitenotice.png
+||i.imgur.com/1d3TBjs.png
+||i.imgur.com/E4dLcbW.png
+||i.imgur.com/H2ZJuk4.png
+||i.imgur.com/Vbj665D.gif
+||i.imgur.com/Vru4atw.jpg
+||i.imgur.com/aWa6lUh.png
+||i.imgur.com/i5mqA9d.jpg
+||i.imgur.com/wKU71FA.jpg
+||i.rexsdev.com/*
+||i62.tinypic.com/2gsla8g.gif
+||images-eu.ssl-images-amazon.com/images/G/03/x-locale/cs/orders/prime-day/b_celebration-1x._CB506720057_.png
+||images-na.ssl-images-amazon.com/images/G/01/airstream/upnav/C/C_latest_1x._CB503720839_.jpg
+||images.cgames.de/images/*
+||images.finanzen.net/images/anmeldefenster_nutzensieschon_700x400px.jpg
+||infranken.de/image/U/*
+||japaniac.de/wp-content/uploads/2016/01/output_haNQZH.gif
+||justpic.info/images/1006/djbagde.png
+||justpic.info/images/a0b6/sjbagde.png
+||justpic.info/images3/4874/wicki.jpg
+||justpic.info/images4/*/filerlogo.png
+||justpic.info/images4/a52b/wiki.png
+||lh3.googleusercontent.com/-OojbBeok3Vo/VoVsjEc01mI/AAAAAAACesY/hjTR5lIE7mE/s299-Ic42/index.jpg
+||lh3.googleusercontent.com/-TwwsvwvajX4/VoVrHq5mAPI/AAAAAAACesE/r2ETi4BdaxA/s299-Ic42/c2Q8Mrs.png
+||lh3.googleusercontent.com/-UFdIqVz8Uro/VoVsjJbPqfI/AAAAAAACesc/pOxpfGlhAY4/s299-Ic42/4de.jpg
+||lh3.googleusercontent.com/-W_UCBMNdHMk/Vphd41-1H-I/AAAAAAACfvk/u4sbAZNAnUw/s299-Ic42/unnamed.jpg
+||lh3.googleusercontent.com/-ixcKjlz6NNI/VoVqyPEe19I/AAAAAAACer4/zNhLmuwzhYE/s299-Ic42/aKTLzik.jpg
+||manime.de/images/amazon/*
+||maxconsole.com/styles/mc/ad/*
+||med.fromjapan.co.jp/img/tomodachi/71z2fvpq/_ex3/en/top.jpg
+||med.fromjapan.co.jp/img/top/en/banner_gshock.jpg
+||med.fromjapan.co.jp/img/top/en/banner_quick_fj.jpg
+||mediafire.com/images/backgrounds/appBar/promo/pool_promo_appbar_v2.png
+||meta.wikimedia.org/wiki/Special:BannerLoader?*
+||moonlitsaki.com/imgs/ms_placeholder-1.jpg
+||myanimelist.cdn-dena.com/images/affiliates/*
+||mydealz.de/images/sidebar-banners/mydealz-site-sidebanner-appgiveaways.png
+||ncrypt.in/images/2.gif
+||onepiece-tube.com/templates/Grafiken/sideskins/bleach-left.png
+||onepiece-tube.com/templates/Grafiken/sideskins/bleach-right.png
+||p5.focus.de/img/fotos/crop278923423/1624877250-cv21_9-w324-h244-oc-q75-p5/aspekt-mantel-9s9xb8oc.jpg
+||paypalobjects.com/digitalassets/c/EMEA/banner_ad/onsite/ppc511_always_on_PPDG_TELCO_trx_530x50.gif
+||ponycloud.me/media/img/egb/sb_ss_jpg_01.png
+||portfolium.cloudimg.io/cdn/n/n/http://fs5.directupload.net/images/170918/8kkkc9vu.jpg
+||proxer.me/images/misc/proxeramazon.png
+||publisher.anime-unicorn.com/admin/uploads/unicorn26.png
+||publisher.anime-unicorn.com/admin/uploads/unicorn29.png
+||puu.sh/ywLue.png
+||releasehiphop.de/jan-2013.gif
+||relink.to/images/ibunker_label/state1.png
+||relink.to/images/ibunker_label/state2.png
+||relink.to/images/tr.png
+||relink.to/images/us.gif
+||s.pacn.ws/gallery/large/GA.00881.0163.png
+||s.pacn.ws/gallery/large/GA.05393.0012.jpg
+||s1.tsuki-board.net/pics/support/256/1555.jpg
+||sekainet.eu/content/template/standard/images/gewinnspiel_teilen/animaco_cr_comp.jpg
+||serienjunkies.de/img/bN9k4etODwny.gif
+||serienjunkies.de/img/xYKFtetODwny.gif
+||serienjunkies.org/6abc3c55.jpg
+||serienjunkies.org/6abc3c77.jpg
+||serienjunkies.org/6abc3c99.jpg
+||share-links.biz/template/images/flags/en.gif
+||speedrunvideo.com/welcome.php
+||ss.anyporn.com.xxxnavy.com/images/iframe-1.1.1.html
+||static.moviepilot.de/assets/banner_dlk_article.png
+||static.myfigurecollection.net/pics/support/728/2374.jpg
+||static.trbo.com/img/12388/rebuy-advent.png
+||sumikai.com/wp-content/uploads/*/*/backdrop.jpg
+||sumikai.com/wp-content/uploads/*/*/werbungamazon.jpg
+||sumikai.com/wp-content/uploads/2015/03/11041412_686174214827933_180444759_n11.jpg
+||tampermonkey.net/bnir/bitcoin_158.png
+||tampermonkey.net/bnir/bitcoin_334.png
+||tampermonkey.net/bnir/dolphin_160.png
+||tampermonkey.net/bnir/dolphin_336.png
+||tbib.org/kona/700.php
+||team-xecuter.com/images/CooV_1000.jpg
+||team-xecuter.com/images/ninja.png
+||uni.res.nimg.jp//img/index_overseas/bnr/bnr_psvita_us.jpg
+||uni.res.nimg.jp/img/system/US/entertainment/2015/11/18/20151118194727_22d39.jpg
+||uni.res.nimg.jp/img/zero_index/to_premium_en-us.png
+||view.genial.ly/*
+||web1.ok.de/data/img/banner/eingeloggt-top.php
+||widgets.outbrain.com/hub/index.html

@@ -1,0 +1,24 @@
+msFilterList
+: Expires=1
+# Blocks 3rd-party Google tracking
+# Last Modified: 11/07/2013
+#
+-d news.google.com
+-d youtube.com
+- apis.google.com/*plusone*
+-d plus.google.com
+-d googleadservices.com
+-d googletagservices.com
+-d googlesyndication.com
+-d googleadservices.com
+-d google-analytics.com
+-d doubleclick.net
+-d doubleclick.com
+- http://google.*/api/sclk?
+- http://google.*/client_204?
+- http://google.*/gen204?
+- google.com*/lh/ajaxlog?
+- google.com*/uds/stats?
+- google.com*/bin/stats?
+- google.com*/log?
+- google.com*/buzz

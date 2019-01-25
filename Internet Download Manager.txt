@@ -1,0 +1,41 @@
+# Title: CHEF-KOCH's Internet Download Manager Hosts Filter List
+# Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
+# License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+# By downloading or viewing, or using this list, you are accepting these terms and the license.
+# Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+# Expires: 8 days
+# Version: 0.0.0.03
+# Last updated: 2018-12-28
+# Please report any unblocked content or problems by email or via GitHub issue ticket.
+# Email: CHEF-KOCH@protonmail.com
+# Copyright (C) 2018 by CHEF-KOCH
+
+0.0.0.0 205.199.44.156
+0.0.0.0 205.199.44.16
+0.0.0.0 50.97.82.44
+0.0.0.0 data.internetdownloadmanager.com
+0.0.0.0 internetdownloadmanager.com
+0.0.0.0 mirror.internetdownloadmanager.com
+0.0.0.0 mirror.tonec.com
+0.0.0.0 mirror1.internetdownloadmanager.com
+0.0.0.0 mirror2.internetdownloadmanager.com
+0.0.0.0 mirror3.internetdownloadmanager.com
+0.0.0.0 mirror3.tonec.com
+0.0.0.0 mirror4.internetdownloadmanager.com
+0.0.0.0 mirror4.tonec.com
+0.0.0.0 mirror5.internetdownloadmanager.com
+0.0.0.0 mirror5.tonec.com
+0.0.0.0 mirror6.internetdownloadmanager.com
+0.0.0.0 registeridm.com
+0.0.0.0 rev.dyxnet.com
+0.0.0.0 secure.internetdownloadmanager.com
+0.0.0.0 secure.registeridm.com
+0.0.0.0 star.tonec.com
+0.0.0.0 tonec.com
+0.0.0.0 www.internetdownloadmanager.com
+0.0.0.0 www.mirror2.internetdownloadmanager.com
+0.0.0.0 www.mirror5.internetdownloadmanager.com
+0.0.0.0 www.mirror6.internetdownloadmanager.com
+0.0.0.0 www.registeridm.com
+0.0.0.0 www.secure.registeridm.com
+0.0.0.0 www.tonec.com

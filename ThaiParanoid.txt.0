@@ -1,0 +1,1562 @@
+[uBlock Origin 1.16.0]
+! Title: Thai Paranoid Block ~Maximum~
+! Version: 201812120143
+! Author: kowith337
+! Homepage: https://github.com/kowith337/ThaiParanoidBlock/tree/maximum
+! Expires: 2 days
+
+! ------------------------------------- Generic filters section (aka. DOM Element Hiding) ------------------------------------- !
+
+! Shared filter rules (from ThaiAntiForceLike)
+###check-also-box
+###facebook-like-box-pop-up
+###facebookpopup-fanback
+###fanback
+###fb_box
+###fblikebg
+###fblikepop
+###fbox-background
+###fbpop
+###fbpop_box
+###fbpop_box2
+###loginModal
+###makingdifferentpopup
+##.facebook-like-box-pop-up-overlay
+##.fb-popup
+##.fb_overlay
+##.fblike
+##.popup-like
+##.popup-like-box
+##.popup-like-box-backdrop
+
+! Element filter rules (merged with ThaiAntiForceLike)
+4toom.com###header .ad
+akibatan.com##.td-logo-wrap-full
+animeranku.com##.theiaStickySidebar #ads300_250-widget-4
+autocar.in.th##.google-ads
+autocar.in.th##div[id^="_bz_boxlike"]
+becteroradio.com##div[class^="fancybox"]
+cleothailand.com###survey-popup
+compgamer.com##.backgroundPopup
+compgamer.com##div[aria-describedby="alert_popup_dialog"]
+disqus.com##div[class^="login-overlay"]
+dodeden.com###intro
+dodeden.com##div[class^="banner-X2"]
+dspzeeplus.com###twist-blogger-fan-page
+dspzeeplus.com##.popup-box
+dspzeeplus.com##div[id^="fbox-"]
+exteen.com###promote
+exteen.com##.banner-box
+exteen.com##.feature-box
+exteen.com##.pr-box
+exteen.com##.promote-box
+game-tep.com##.leftBanner
+game-tep.com##.rightBanner
+game-tep.com##.td-more-articles-box
+game-tep.com##div[id^="divFLRALeft"]
+game-tep.com##div[id^="divFLRARight"]
+game-tep.com##div[id^="wh-widget"]
+gamegeek.in.th##.wppaszone
+gamegeek.in.th##div[data-title="Home popup"]
+gamemonday.com###my-welcome-message
+gamemonday.com##.ads-bottom
+goal.in.th###ads_top_content
+goal.in.th##.ajax-banner
+jarm.com##._banner > a[href*="ads.jarm.com"]
+kanomjeeb.com##.article .row div .fb-like
+kapook.com##.targetbanner-hilight
+kapook.com##div[style*="text-align:center"] div[style*="z-index:888"]
+kidjarak.com###spu-1170
+kidjarak.com##.stb-container
+liekr.com###showLikePopup
+liekr.com###topAd
+liekr.com##.detail_content .ui_adblock
+liekr.com##.foot_fb_like
+liekr.com##.like_yellow
+liekr.com##div[itemprop="articleBody"] a[class^="ui_btn"][href*="line.me"]
+lonely-rooyang.com##.fancybox-overlay
+lonely-rooyang.com##.fancybox-wrap
+m.online-station.net###leaderboard_bottom.bottom_banner
+m.online-station.net##.os-install-app
+m.online-station.net##figure[class="os-floating-ad"]
+m.online-station.net##figure[class^="os-ad"]
+m.pantip.com##.smartbanner
+m.pantip.com##.social-banner
+m.webtoons.com##.downapp_area
+marketingoops.com###popup_countdown
+marketingoops.com##div[id^="itro_"]
+meepanda.com##.adsense-leadin
+meepanda.com##.ezAdsense
+mthai.com###MT_HP_Topbanner
+mthai.com###coverpage
+mthai.com###ga-between
+mthai.com##.ads-rec-center
+mthai.com##.billboard-banner
+mthai.com##div[id^="dfp-"]
+mustplay.in.th##.YouTubeModal
+notebookspec.com###overlay_ads
+notebookspec.com##.cover_banner_bg
+ohlor.com###upprev_box
+online-station.net###ads-overlay
+online-station.net###ads-preload-popup
+online-station.net###close-preload
+online-station.net###video_ads_container
+online-station.net###welcome
+online-station.net##.ad-box
+online-station.net##.bjqs
+online-station.net##.os-banner-ads
+online-station.net##.os-page-wallpaper
+online-station.net##.os_preload_popup
+online-station.net##div[class^="introjs"]
+online-station.net##div[class^="os-ads"]
+online-station.net##div[data-widget="plista_widget_belowArticle"]
+online-station.net##div[data-widget="plista_widget_sidebar"]
+online-station.net##div[id*="div-gpt-ad"]
+online-station.net##section.bigbanner-ad
+pantip.com##.ads-tabloid
+pantip.com##.m-block a[href*="ads.pantip.com"]
+pantip.com##.post-pick-ad
+pantip.com##div[class^="ads-"]
+pantip.com##div[id^="ads-"]
+pantip.com##iframe[src*="ads.pantip.com"]
+pantip.com##iframe[src="https://pantip.com/home/get_activity_main"]
+pantip.com##img[src*="tapad.com"]
+pantip.com##noscript
+petmaya.com###arvlbdata
+picnic.ly##.essb-popup
+picnic.ly##.essb_bottombar
+picpost.mthai.com###masthead #dfp-topbanner
+picpost.mthai.com##.sticky-container .banner-wrap
+popcornfor2.com###content div .banner-mobile-size
+popcornfor2.com##.banner-990x90
+postjung.com###rsticky
+postjung.com##.mainbox > div > .adsbygoogle
+postjung.com##.xadsense_middle
+rabbit.co.th##.ads-sidebar-middle
+rabbit.co.th##.exit-overlay
+rabbit.co.th##.post-entry .ads
+rabbit.co.th##.subscribe-form
+rabbit.co.th##.ui-front.ui-widget-overlay
+share-si.com###overlay
+share-si.com###yengo-inline-ads
+share-si.com##.yengo-x
+siamok.com##div[class^=SC_TBlock]
+siamok.com##div[id^="lightbox"]
+siamok.com##iframe[src="/ads/foot-yengo.php"]
+siamphone.com###adv_header
+siamphone.com###banner300_600
+siamphone.com##.mid_ads
+sistacafe.com###summary .social
+sistacafe.com##.popup
+specphone.com##.banana_box iframe[src^="https://notebookspec.com/specialprice"]
+specphone.com##.cover_banner
+specphone.com##.td-more-articles-box
+specphone.com##div[id^=div-gpt-ad]
+techmoblog.com###cboxWrapper
+techmoblog.com##div[id^="ads_div_"]
+techtalkthai.com##.wrapper-outer .background-cover
+techxcite.com###adsMiniUnder
+techxcite.com###col_right .ads
+techxcite.com###skin-left
+techxcite.com###skin-right
+techxcite.com##.ads-feature
+tgpl.in.th##div a[href^="http://www.compgamer.com/mario-ads/"]
+thaijobsgov.com##.hidden-mobile
+thailandbestbeauty.com###divAdLeft
+thailandbestbeauty.com###divAdRight
+thaimobilecenter.com##.container.bn-a2
+thaimobilecenter.com##.container.hidden-xs div[class^="col-"][align="right"]
+thaimobilecenter.com##.visible-lg.visible-xl iframe
+thaimobilecenter.com##a[href^="http://www.thaimobilecenter.com/ad_click"]
+thaimobilecenter.com##iframe[src^="../banner/google_adsense"]
+thaimobilecenter.com##iframe[src^="../includes/inc_banner"]
+thairath.co.th##.ad-box
+thairath.co.th##.container .row .ads
+thairath.co.th##div[tabindex][style*="z-index"]
+thaiza.com##.adv2col
+thaiza.com##.adv3col
+thaiza.com##.banner_728_90
+thetechr.com##.jinda-content-block
+thetechr.com##.jinda-facebook-like-box
+thetechr.com##.jinda-overlay-background
+thetechr.com##.jinda-wrapper
+thisisgamethailand.com##.container .item > a[href*="/index.php?/stats/clickAdd"]
+thisisgamethailand.com##a[href*="index.php?/stats/clickAdd/"]
+thisisgamethailand.com##div[id^="adsbanner"]
+tnews.co.th###AdAsia
+tnews.co.th###myModal
+tnews.co.th###uniads
+tnews.co.th##.in.fade.modal-backdrop
+tnews.co.th##.modal
+upic.me###basic-modal-content
+upic.me##div[id^="simplemodal"]
+worldcosplay.net###registerPopup
+worldcosplay.net##.registration-modal-bg
+zaapmak.com##iframe
+
+! Multiple domains that shared same element names
+compgamer.com,tgpl.in.th###divnews
+compgamer.com,tgpl.in.th##button[onclick][title="close"]
+startclip.com###popDiv
+startclip.com###popup
+extremepc.in.th,itnews24hrs.com,kaijeaw.com,laughwoo.com,mthai.com,petmaya.com,tgpl.in.th,thaihitz.com##div[id^="arevicofancy"]
+fmone1035.com,get1025.com##.spu-box
+kaijeaw.com,thaihitz.com,thaijobsgov.com##.backdrop
+kiitdoo.com,meekhao.com##.dgd_stb_box.clean_white
+mustplay.in.th,playulti.com###bg-left
+mustplay.in.th,playulti.com###bg-right
+mustplay.in.th,playulti.com###bgyoutube
+mustplay.in.th,playulti.com##.cover_page
+mustplay.in.th,playulti.com##.preloader
+mustplay.in.th,playulti.com##.promote
+notebookspec.com,specphone.com##iframe[src^="https://openx.notebookspec.com"]
+oopsmobile.net##div[class^="fancybox"]
+techmoblog.com,thailandbestbeauty.com###cboxOverlay
+thaihitz.com,thaijobsgov.com##.SC_TBlock
+thailandbestbeauty.com###colorbox
+thisisgamethailand.com,tigthai.com##.mod_banner
+thisisgamethailand.com,tigthai.com##.mod_banner_top
+
+! -------------------------------------------------- Network filters section -------------------------------------------------- !
+
+! Shared plugins path
+/easy-facebook-likebox
+/facebook-fanbox*
+/facebook-page-promoter-lightbox*
+/facebook-popup-box
+/facebook_popup*
+/fb-traffic-pop
+/floating-social-bar
+/like-fb
+/like_box*
+/new-facebook-popup-likebox-responsive
+/plugins/add-to-any
+/social-popup
+/ud-social
+
+! Same as above, but depend on specific domain(s)
+/js/tracker.js$domain=kapook.com|mthai.com|matichon.com
+/plugins/popups/$domain=fmone1035.com|get1025.com|miru-anime.net|miruanime.net|shopspotapp.com
+/plugins/seed-social/$domain=tvpoolonline.com
+
+! Inside first party, such as self-hosted ads, plugins, script function that try to suggest or force users to follow brand on SNS services.
+||4toom.com/*/modal-dialog/*
+||becteroradio.com/lib/fancybox/
+||blogger.com/*lbx__th.js$domain=zapver555.com
+||blogger.com/*lightbox_bundle.css$domain=zapver555.com
+||dodeden.com/advert^
+||game-tep.com/*/adrotate-pro/*
+||game-tep.com/*/fancy-box/*
+||gamegeek.in.th/*/layeredpopups/*
+||gamemonday.com/*/adrotate-pro/*
+||gamemonday.com/wp-content/themes/gamemonday/libs/jquery.firstVisitPopup.js
+||kaijeaw.com/*/fancybox/*
+||kanomjeeb.com/*/lightbox*
+||kapook.com/ads/portal^
+||kapook.com/asset/js/track.js
+||kapook.com/jquery/jquery.kp.tracker.js
+||kidjarak.com/*/bsa-pro-scripteo/*
+||lonely-rooyang.com/*/arscode-ninja-popups/*
+||marketingoops.com/*/itro-popup/*
+||marketingoops.com/popup-ad*
+||marketingoops.com/truehitsstat.php?
+||matichon.co.th/www/delivery/
+||meekhao.com/*/dreamgrow-scroll-triggered-box/*
+||mustplay.in.th/assets/js/jquery.tubular^
+||mustplay.in.th/assets/js/youtubepopup
+||mustplay.in.th/static/banner/*/ads-^
+||netdna-ssl.com/*/advanced-ads/
+||netdna-ssl.com/*/easy-social-share-buttons3/
+||newstimeline.net/*/jquery.magnific-popup.min.js
+||notebookspec.com/*/nbs-ilightbox/*
+||notebookspec.com/*/nbs_custom_ads_skin.php
+||ohlor.com/*/mini-popup/*
+||ohlor.com/*/upprev-nytimes-style-next-post-jquery-animated-fly-in-button/*
+||online-station.net/content/count_stats?
+||oopsmobile.net/*/arscode-ninja-popups/*
+||pantip.com/ads.php
+||pantip.com/adsip.php
+||pantip.com/adsipmobile.php
+||playulti.com/assets/js/jquery.tubular^
+||playulti.com/company/truehit?
+||playulti.com/static/banner/*/ads-^
+||siamok.com/light_ads/*
+||siamza.com/js/jquery.cookie.js
+||sistacafe.com/assets/jquery.cookie-*.js$script
+||sistacafe.com/assets/popup_notification-*.js$script
+||sistacafe.com/scripts/nytive
+||sistacafe.com/scripts/truehits
+||sistacafe.com/scripts/yengo
+||specphone.com/*/nbs-ilightbox/*
+||taghr.net/*/uji-popup/*
+||techmoblog.com/*colorbox*
+||techxcite.com/ads/revive/
+||techxcite.com/stats.php?
+||techxcite.com/truehitsstat.php?
+||thaiidol.com/*/popup-by-supsystic/*
+||thaijobsgov.com/*/fancybox/*
+||thaijobsgov.com/banner^
+||thailandbestbeauty.com/*colorbox*
+||thaimobilecenter.com/colorbox^
+||thetechr.com/*/jinda-facebook-lightbox/*
+||viu.com/ott/*/tracking/*
+||wp.com/media.go2*.*/*
+
+! Specific request blocking to prevent frame, dependency of trigger.
+! ||linkis.com/ajax^$xmlhttprequest
+||akibatan.com/?spu_action$xmlhttprequest
+||atimemedia.com/js/jquery.supportUs.js$script
+||iwilldoforking.com/coverpage.js$script,third-party
+||linkis.com/ajax/update-click?*force_auth
+||linkis.com/index/ln-event?*force-auth
+||linkis.com/signin^$popup
+||online-station.net/assets/css/ads$stylesheet
+||online-station.net/*/css/preload_ads$stylesheet
+||online-station.net/assets/js/ads$script
+||online-station.net/assets/js/facebook$script
+||techmoblog.com/tmb-advertise^$subdocument
+||tigthai.com/js/popup_facebook.js$script
+
+! Counter bad rules / Strict blocking
+! Note: Sometime I can't block those requests normally without the need of $important tag
+/plugins/google-analytics$domain=matichon.co.th|khaosod.co.th,important
+/plugins/ud-social$domain=matichon.co.th|khaosod.co.th|spokedark.tv,important
+/plugins/udvideoplayer/*/videojs.ads.$domain=matichon.co.th|khaosod.co.th,important
+/plugins/udvideoplayer/*/videojs.ga.$domain=matichon.co.th|khaosod.co.th,important
+/plugins/udvideoplayer/*/videojs.ima.$domain=matichon.co.th|khaosod.co.th,important
+||*-adnow.com$important
+||ads*.bangkokpost.co.th$important
+||ads*.matichon.co.th$important
+||ais.co.th/advertiser$important
+||becteroradio.com/2014/hidden-ad-inner.php?$important
+||becteroradio.com/truehitsstat.php?$important
+||compgamer.com/mainpage/module/popupnews/$important
+||compgamer.com/mario-ads$important
+||disqusads.com$important
+||img.in.th/?ping$important
+||isanook.com/*/beacon$important
+||isanook.com/*/oppa.js$important
+||isanook.com/*/tapad.js$important
+||kpmemory.com$important
+||linkis.com/ajax/get-popup-html?$important
+||linkis.com/log.php$important
+||ln.is/dhsync-push?*show_auth_popup$important
+||metrics.brightcove.com$important
+||notebookspec.com/tracker/$important
+||online-station.net/*/ads/*$important
+||online-station.net/assets/*/os-adhoc$important
+||online-station.net/assets/js/google*$important
+||referrer.disqus.com$important
+||siamha.com/truehits/stat$important
+||thairath.co.th/assets/js/firebase$important
+||thairath.co.th/js/autotrack$important
+||thairath.co.th/js/tr_$script,important
+||toosthai.com$important
+||visualwebsiteoptimizer.com$important
+||webtoons.com/js/lib/*_logger$important
+||webtoons.com/js/lib/dfp_helper$important
+||webtoons.com/js/lib/gak$important
+
+! ---------------------------------------------------- Domain level block ----------------------------------------------------- !
+
+! 3P share button
+||addthis.com$important
+||addtoany.com$important
+||hellobar.com$important
+
+! Baidu/Hao123/DesktopWeather
+! http://pantip.com/topic/30586979
+! http://pantip.com/topic/33939110
+! http://pantip.com/topic/34359052
+||360tools.org$important
+||antivirus.baidu.com$important
+||baidu.co.th$important
+||browser.baidu.com$important
+||dealwifi.com$important
+||govome.com$important
+||hao123.com$important
+||insppartner.com$important
+||inspsearch.com$important
+||mustang-browser.com$important
+||pcfaster.co.th$important
+||pcfaster.com$important
+||rafotech.com$important
+||toptools100.com$important
+||wisemana.com$important
+
+! Ads Server / Malvertising / Tracking / Marketing / Article Suggestions
+||24x7th.com$important
+||accesstrade.in.th$important
+||adasiaholdings.com$important
+||adnuntius.com$important
+||adok.asia$important
+||adop.cc$important
+||ads.boxza.com$important
+||ads.gamemonday.com$important
+||ads.jarm.com$important
+||ads.os.co.th$important
+||ads.pantip.com$important
+||ads.postjung.com$important
+||ads.siamza.com$important
+||ads.techxcite.com$important
+||adsniper.ru$important
+||adsoptimal.com$important
+||adtplatform.com$important
+||amung.us$important
+||anonymousdemographics.com$important
+||app-measurement.com$important
+||appsflyer.com$important
+||areyouahuman.com$important
+||atdmt.com$important
+||aviasales.ru$important
+||bluekai.com$important
+||btstatic.com$important
+||bumq.com$important
+||byteark-analytics.thairath.co.th$important
+||clickadu.com$important
+||clicksgear.com$important
+||connextra.com$important
+||crashlytics.com$important
+||crazyegg.com$important
+||criteo.com$important
+||criteo.net$important
+||crwdcntrl.net$important
+||cryptobrowser.site$important
+||csi.gstatic.com$important
+||cxense.com$important
+||d-stats.com$important
+||dtscout.com$important
+||edgesuite.net$important
+||effectivemeasure.net$important
+||exdynsrv.com$important
+||exoclick.com$important
+||exosrv.com$important
+||eyeota.net$important
+||feedjit.com$important
+||filadmir.site$important
+||fout.jp$important
+||gammaplatform.com$important
+||gbotvisit.com$important
+||gbox.sc$important
+||generaltagcom.ga$important
+||go2cloud.org$important
+||go2speed.org$important
+||graph.sanook.com$important
+||heatmap.it$important
+||hilightad.kapook.com$important
+||histats.com$important
+||hotjar.com$important
+||imprezzer.com$important
+||imrworldwide.com$important
+||inmobi.com$important
+||innity.com$important
+||innity.net$important
+||inspectlet.com$important
+||isgstat.sanook.com$important
+||iyfnzgb.com$important
+||izooto.com$important
+||joox-affiliate.sanook.com$important
+||kiosked.com$important
+||luckyorange.com$important
+||m88.com$important
+||moatads.com$important
+||mtburn.com$important
+||mtburn.jp$important
+||newrelic.com$important
+||nr-data.com$important
+||nr-data.net$important
+||nuffnang.co.th$important
+||nuffnang.com$important
+||nytive.com$important
+||oclaserver.com$important
+||oilchange.website$important
+||onclasrv.com$important
+||onclickads.net$important
+||onesignal.com$important
+||openx.notebookspec.com$important
+||openxmarket.asia$important
+||padsdel.com$important
+||padstm.com$important
+||parkingcrew.com$important
+||parkingcrew.net$important
+||pc1ads.com$important
+||pc2ads.com$important
+||pc3ads.com$important
+||ping-fast.com$important
+||pingdom.net$important
+||pixeldigitalstudios.com$important
+||plista.com$important
+||popads.net$important
+||popcash.net$important
+||popclck.com$important
+||popclck.net$important
+||poptm.com$important
+||ptengine.com$important
+||puserving.com$important
+||pushnative.com$important
+||quicktask.xyz$important
+||reimageplus.com$important
+||replase.tk$important
+||report-uri.cloudflare.com$important
+||revsci.net$important
+||runtnc.net$important
+||ruu-dee.com$important
+||sales-frontier.com$important
+||scorecardresearch.com$important
+||serving-sys.com$important
+||shinobi.jp$important
+||silkspan.com$important
+||simba-digital.com$important
+||smemove.com$important
+||socdm.com$important
+||stat.matichon.co.th$important
+||statmt.matichon.co.th$important
+||stats.in.th$important
+||stats.wp.com$important
+||sumome.com$important
+||synergy-e.com$important
+||ta.sanook.com$important
+||taboola.com$important
+||tagserve.asia$important
+||tapad.com$important
+||thstats.com$important
+||thtrackingap.com$important
+||tityx.com$important$important
+||travelpayouts.com$important
+||truehits.in.th$important
+||truehits.net$important
+||tynt.com$important
+||user-api.com$important
+||user-clicks.com$important
+||user-red.com$important
+||uustoughtonma.org$important$important
+||whatshelp.io$important
+||wmdstat.dev-sanook.com$important
+||yengo.com$important
+||yu0123456.com$important
+||zemanta.com$important
+
+! Strictly block Google Ads and/or Tracking (YouTube Included)
+/generate_204$important,~document
+||2mdn.net$important
+||admob.com$important
+||ads.youtube.com$important
+||adservice.google.*$important
+||adservices.google.*$important
+||doubleclick.net$important
+||google-analytics.com$important
+||google-analytics.l.google.com$important
+||googleadservices.com$important
+||googlesyndication.com$important
+||googletagmanager.com$important
+||googletagservices.com$important
+||gstatic.com/firebasejs$important
+||id.google.*$important
+||imasdk.googleapis.com$important
+||mobilecrashreporting.googleapis.com$important
+||s.youtube.com$important
+||s0.youtube.com$important
+||s1.youtube.com$important
+||s2.youtube.com$important
+
+! Allowed only 1P
+||lazada.co.th$third-party,important
+||line.me$third-party
+||line-scdn.net$third-party,domain=~line.me
+||nipa.co.th$third-party,important
+
+! It's OK to show only what things needed, not other things
+||gravatar.com$third-party
+@@||gravatar.com/avatar$image
+
+! Mobile Badvertisers
+! WARNING: Some blocked domains are well-know that can cost your montly bill or prepaid balance for mobile cellphone users in Thailand,
+!          because visiting those domain or specific page will also sent request to mobile operator to subscribe useless content services
+!          e.g. specific annual SMS sent such as daily news, horo, download, fake lotto, wap push content, such as download games, videos,
+!          ringtones or they never sent anything to you but simply charge service fee or deduct your calling balance everyday, every week
+!          every month, or every each messages that they've sent to you...
+
+! Disable hyperlink interaction that beginning with sms/tel/wtai because it can directly call or sent SMS to those services
+! ##a[href^="sms:"]:style(pointer-events: none !important)
+! ##a[href^="tel:"]:style(pointer-events: none !important)
+! ##a[href^="wtai:"]:style(pointer-events: none !important)
+
+! Even operator...
+||ais.co.th$domain=~ais.co.th|~mobilelife.co.th,important
+||ais.co.th/aisnow$domain=~ais.co.th|~mobilelife.co.th,important
+||ais.co.th/games/gameloftclub$important
+||comenu.ais.co.th$domain=~ais.co.th|~mobilelife.co.th,important
+||ddch.dtac.co.th$important
+||mobilelife.co.th$domain=~ais.co.th|~mobilelife.co.th,important
+||sdpwap.dtac.co.th$important
+||srf.ais.co.th$domain=~ais.co.th|~mobilelife.co.th,important
+||ss1.mobilelife.co.th$important
+||ss2.mobilelife.co.th$important
+||ss3.mobilelife.co.th$important
+||vas.dtac.co.th$important
+||wap.dtac.co.th$important
+
+! IP Address
+||10.104.143.133$important
+||13.76.87.1$important
+||27.100.44.214$important
+||27.254.82.82$important
+||27.254.82.83$important
+||43.231.124.161$important
+||49.50.69.80$important
+||52.76.52.18$important
+||52.76.89.151$important
+||52.76.242.20$important
+||52.187.132.230$important
+||52.220.167.186$important
+||54.169.240.216$important
+||54.186.88.28$important
+||56.76.86.177$important
+||58.181.206.44$important
+||61.16.174.219$important
+||61.19.249.34$important
+||61.47.40.132$important
+||61.91.6.131$important
+||65.49.33.31$important
+||103.16.143.120$important
+||103.16.143.144$important
+||103.56.210.21$important
+||107.170.154.51$important
+||113.30.248.2$important
+||116.68.193.122$important
+||118.102.141.188$important
+||121.241.248.6$important
+||122.160.21.203$important
+||124.158.4.91$important
+||125.63.68.111$important
+||139.59.44.57$important
+||139.162.57.169$important
+||162.243.33.148$important
+||162.243.73.231$important
+||162.243.217.139$important
+||180.151.100.230$important
+||180.179.103.240$important
+||180.179.103.253$important
+||180.179.108.50$important
+||180.179.207.111$important
+||180.179.207.113$important
+||180.179.207.246$important
+||180.179.236.26$important
+||182.71.228.49$important
+||192.241.180.55$important
+||192.241.249.228$important
+||198.15.67.85$important
+||198.15.104.214$important
+||202.9.104.118$important
+||202.38.172.244$important
+||202.57.163.235$important
+||202.87.41.147$important
+||202.191.128.157$important
+||203.107.133.238$important
+||203.122.58.93$important
+||203.146.208.145$important
+||203.146.249.21$important
+||203.146.251.229$important
+||203.151.206.102$important
+||203.151.232.156$important
+||203.170.193.118$important
+||203.223.147.133$important
+||203.223.159.245$important
+||205.147.96.155$important
+||220.226.188.56$important
+||223.25.242.68$important
+||223.25.242.69$important
+||223.25.242.95$important
+
+! Base Domain
+||1bet2uthai.net$important
+||1mov.co$important
+||4mobilefunz.com$important
+||4v4jfe79erfxfu8z8.com$important
+||5rio.com$important
+||5sys.com$important
+||6f76b4c82656094f26.com$important
+||7banana.com$important
+||7me.co$important
+||9ep.cc$important
+||9v8p.com$important
+||12mob.com$important
+||321load.com$important
+||6969jp.xyz$important
+||6988fa.com$important
+||8086.com.tw$important
+||54646.co$important
+||55555getcontent.com$important
+||100000freecontent.com$important
+||181818.com.my$important
+||20150917.com$important
+||a1n.in$important
+||a81.me$important
+||a.n-d.bz$important
+||ab4hr.com$important
+||achelous.mobi$important
+||ad5network.com$important
+||addictiveads.com$important
+||addlink.mobi$important
+||adfries.net$important
+||adfrigate.com$important
+||admblink.xyz$important
+||ads.gold$important
+||adsbtrk.com$important
+||adschemist.com$important
+||adsfast.com$important
+||adsmain.com$important
+||adultvids.mobi$important
+||adzsx.pro$important
+||affichaos.com$important
+||affmob.com$important
+||affmoney.top$important
+||afftrack-data.com$important
+||afftrack.com$important
+||aielber.com$important
+||akazoo.com$important
+||alchemy.n-d.bz$important
+||alpha-mobi.com$important
+||amkomobile.com$important
+||amkoonline.com$important
+||androidappsfree.mobi$important
+||anolog.mobi$important
+||aplaydigital.com$important
+||appsdorado.com$important
+||appsilike.mobi$important
+||apsalar.com$important
+||aptrk5.com$important
+||aragontrack.com$important
+||arco.co.th$important
+||at2010.net$important
+||atas.io$important
+||atmail.nl$important
+||autoportal.com$important
+||awolf.mobi$important
+||awz.bz$important
+||b3st0ff3rs.com$important
+||b-qq.com$important
+||bajajcapital.com$important
+||beezzi.com$important
+||bestmobiworld.com$important
+||bigolives.tv$important
+||billmscurlrev.com$important
+||billyaffcontent.com$important
+||bk8my.com$important
+||bkkonline.com$important
+||blastoffgaming.com$important
+||bldtrax.com$important
+||bmobil.net$important
+||brazzers93.com$important
+||breathing-love.com$important
+||brucelead.com$important
+||brvaffs.com$important
+||bsnlhellotv.in$important
+||btrkpro.com$important
+||buddycode.net$important
+||bulkhentai.com$important
+||bzadx.pro$important
+||callingsticker.com$important
+||cdnfiber.com$important
+||celeryleek.com$important
+||cellvidz.com$important
+||centili.com$important
+||chatded.com$important
+||cheesemobile.com$important
+||cherryzone.com.ph$important
+||chickcell.com$important
+||chickyclub.net$important
+||chilliclubs.com$important
+||chocoboard.com$important
+||chupa.mobi$important
+||chz.mobi$important
+||chzmobi.net$important||ckwizard.com$important
+||clausiafze.com$important
+||clickmlife.com$important
+||clickmultimedia.co.th$important
+||clickstk.com$important
+||clickwinks.com$important
+||clip.vu$important
+||cloudify.cc$important
+||clubcinemasti.com$important
+||clubmmobile.com$important
+||clubtigermob.com$important
+||clubxzone.com$important
+||collarfolk.com$important
+||comedy-club.mobi$important
+||comedymunch.com$important
+||consentprt.dtac.co.th$important
+||consested-opplyield.com$important
+||contentbox.stream$important
+||contentdd.net$important
+||contentfall.com$important
+||cool4mob.com$important
+||coolzee.net$important
+||cosmik-ltd.com$important
+||cpactions.com$important
+||cpgnrotationurl.com$important
+||cpitraffic.com$important
+||cpweb.com$important
+||ct9.me$important
+||ctrackz.net$important
+||cuteclub.tv$important
+||cutties.net$important
+||cypher-sys.com$important
+||d22ndsbwwggzum.cloudfront.net$important
+||damneddevastator.com$important
+||dangduter.com$important
+||datapremium.$important
+||datinggirls.info$important
+||ddzey.com$important
+||deepbluetech.biz$important
+||desisilk.com$important
+||despiteracy.com$important
+||dgmobix.com$important
+||digi.com.my$important
+||digitalmerkat.com$important
+||digitalngo.com$important
+||digitalzoneng.com$important
+||dindo.co.th$important
+||dittolite.com$important
+||dlxxxvip.com$important
+||dobmobile.com$important
+||dobmobile.xyz$important
+||dooplus.tv$important
+||downloadhub.me$important
+||e668ou.com$important
+||eggdigital.com$important
+||enjoy108.com$important
+||eskimi.com$important
+||espabit.net$important
+||etracker.cc$important
+||exprtmb.com$important
+||facabooks.com$important
+||famobi.com$important
+||fashionbunny.com$important
+||fblives.net$important
+||findgit.com$important
+||fly2.me$important
+||fly2me.com$important
+||flybi.store$important
+||flygemobi.$important
+||flyrlk.com$important
+||focusonone.cc$important
+||formulawire.com$important
+||free8888content.com$important
+||freezone.mobi$important
+||full-funny.com$important
+||fun2u.biz$important
+||fun4u.co$important
+||fun-clix.com$important
+||fun-club.mobi$important
+||fun-offer-th.com$important
+||fungame.mobi$important
+||funnyclub.tv$important
+||funsexy.info$important
+||funspaz.com$important
+||funstar.mobi$important
+||funster.mobi$important
+||funzone.mobi$important
+||funzytv.com$important
+||fusetracking.com$important
+||g.zm.my$important
+||gadmobe.com$important
+||gamebuffet.mobi$important
+||gameloft.co.th$important
+||gameloft.com$important
+||gamepanda.me$important
+||gameplaydd.com$important
+||games-live.s3.amazonaws.com$important
+||games-unlimited.mobi$important
+||gamescentreom.com$important
+||gamezine.in$important
+||gameziz.com$important
+||gamezzone.me$important
+||gammo.me$important
+||gamzones.com$important
+||gangzaa.net$important
+||gcvw.mobi$important
+||getclick.mobi$important
+||getcools.com$important
+||getfeelgood.com$important
+||gigth.com$important
+||gizmobi.mobi$important
+||gktmobi.com$important
+||glimline.com$important
+||glmtr4ck.net$important
+||globocom.co.in$important
+||glzelnk.com$important
+||gmpmobi.com$important
+||go2affise.com$important
+||godnearme.com$important
+||gogameportal.com$important
+||gomasti.in$important
+||goohd.tv$important
+||gotd.mobi$important
+||grabmobitraffic.com$important
+||grandmobi.net$important
+||gw2cloud.com$important
+||gzazone.com$important
+||halocell.com$important
+||handysms.com$important
+||havfun.mobi$important
+||hayhaa.com$important
+||hclips.net$important
+||hd0y.com$important
+||hehemobi.com$important
+||hello1.in$important
+||hfa.mobi$important
+||hito.co.vu$important
+||hm5.me$important
+||horolive.com$important
+||horoworld.com$important
+||hotstar.com$important
+||house365.com$important
+||hurvewa.com$important
+||hypermobiworld.com$important
+||hyptas.com$important
+||hyvesdp.com$important
+||i-link.co$important
+||i-walkernet.com$important
+||iamzaa.com$important
+||ibwin68.net$important
+||icubemobile.com$important
+||ilovemobi.com$important
+||imgamma.com$important
+||imzog.com$important
+||innnews.co.th$important
+||instantbabes.mobi$important
+||iqwmxn.com$important
+||isport.co.th$important
+||ivalent.com$important
+||izenmobi.com$important
+||jibhd.com$important
+||jmtt.co.th$important
+||jtsws.com$important
+||justdownit.s3.amazonaws.com$important
+||kaka-games.com$important
+||kangped.com$important
+||khelbazar.in$important
+||kissmyads.com$important
+||klinikasmara.com$important
+||kodfin.com$important
+||kodporno.com$important
+||kwizu.club$important
+||lalamobi.com$important
+||larnload.com$important
+||leadzuaf.com$important
+||leadzupc.com$important
+||letgomobile.com$important
+||link-boost.com$important
+||linkbooster.xyz$important
+||linkingclicks.com$important
+||loadded.com$important
+||loadmuns.com$important
+||looke.mobi$important
+||lovehoro2561.com$important
+||lovehoro.space$important
+||ltvperf.com$important
+||lucky6lucky.club$important
+||lunla.net$important
+||lustzy.com$important
+||m2888.net$important
+||ma3.co$important
+||maejaow.com$important
+||magent.my$important
+||magikmobile.mobi$important
+||manymy.com$important
+||mastermovie-hd.mobi$important
+||matchme.com.ng$important
+||maxforecast.com$important
+||may91.vn$important
+||mayrondigital.com$important
+||mcommsg.com$important
+||mconverge.in$important
+||mdeal.co$important
+||measurementapi.com$important
+||media-bucket.com$important
+||mexcomm.net$important
+||mfunz.mobi$important
+||min4.com$important
+||mktrack.com$important
+||mli.me$important
+||mob-api.net$important
+||mobgkt.com$important
+||mobi2u.biz$important
+||mobi2u.mobi$important
+||mobi-zone.mobi$important
+||mobico.my$important
+||mobicute.com$important
+||mobidevil.com$important
+||mobifan.com$important
+||mobifun4u.com$important
+||mobifunz.com$important
+||mobihibiz.com$important
+||mobilart.in$important
+||mobile18.in.com$important
+||mobile-link.today$important
+||mobile.mthai.com$important
+||mobileacademy.com$important
+||mobilecontents.mobi$important
+||mobilefunclub.com$important
+||mobilegameblast.com$important
+||mobilegamepass.com$important
+||mobilejmp.com$important
+||mobilemagic.sanook.com$important
+||mobileth.net$important
+||mobilevol.com$important
+||mobillium.mobi$important
+||mobindy.com$important
+||mobiprofit.com$important
+||mobistarcorp.net$important
+||mobistos.com$important
+||mobiteacher.com$important
+||mobiteacher.me$important
+||mobivite.net$important
+||mobixing.com$important
+||mobiz.guru$important
+||mobl-apps.com$important
+||mobopromo.biz$important
+||mobplanner.com$important
+||mobplus.net$important
+||mobrain.xyz$important
+||mobusi.com$important
+||mobzeed.com$important
+||mocomecome.com$important
+||mohemob.com$important
+||momoga.com$important
+||momozaap.com$important
+||moneymak3rstrack.com$important
+||mono-mobile.com$important
+||monogame.in.th$important
+||monozone.com$important
+||moo.mn$important
+||movilfun4u.com$important
+||mp3-shared.com$important
+||mtouche.com$important
+||mugforward.com$important
+||mydala.com$important
+||mygirlshow.com$important
+||mynewrotationlink.com$important
+||myscoobi.com$important
+||mystyletip.com$important
+||n-content.com$important
+||n-mobile.net$important
+||ncontentmobile.com$important
+||ncontentmv.com$important
+||neomobilesestatic.azureedge.net$important
+||netmeds.com$important
+||newgameeveryday.net$important
+||newshunt.com$important
+||newsplus.me$important
+||nexg.tv$important
+||ngdfx.com$important
+||niitcloudcampus.com$important
+||nmpcenter.com$important
+||nowportal.net$important
+||offergold.online$important
+||offerstrack.net$important
+||offrtrking.com$important
+||oli.tools$important
+||oneroofbi.com$important
+||onlytopoffers.com$important
+||oomph.club$important
+||opencurvemedia.com$important
+||optsearch.net$important
+||oqg84co2z.bkt.clouddn.com$important
+||outputfx.com$important
+||panshimob.com$important
+||peak-serving.com$important
+||peerfly.com$important
+||perfonspot.com$important
+||performancerevenues.com$important
+||phubbers.com$important
+||picwall.mobi$important
+||pixeleads.com$important
+||pixelmagicnet.com$important
+||playclub.me$important
+||playinvaders.com$important
+||playplay.in.th$important
+||playsutra.com$important
+||playwap.mobi$important
+||playwork.co.th$important
+||playzone.mobi$important
+||pluckyaff.com$important
+||pointificsecure.com$important
+||porn93.com$important
+||ppvr.page.link$important
+||privatebay.tv$important
+||privatewow.tv$important
+||pubmt.ch$important
+||pure-babe.com$important
+||puteez.com$important
+||questionfly.com$important
+||radio.in.th$important
+||rakcontent.com$important
+||raptorads.net$important
+||re1store.com$important
+||redporntube.xyz$important
+||regaming.com$important
+||retail9.com$important
+||retail9ventures.com$important
+||retromedya.com$important
+||rhmobi.com$important
+||rockymobi.com$important
+||rotationurls.com$important
+||rushvip.net$important
+||s-onetelecom.com$important
+||sabai5555.com$important
+||sabver.com$important
+||safedown.s3.amazonaws.com$important
+||sanookde.com$important
+||scattertraff.com$important
+||seaman2u.com$important
+||sedapmeesiam.gold$important
+||sexy-here.com$important
+||shemaroo.com$important
+||shoopadoo.com$important
+||shoutingnetwork.com$important
+||siam2you.com$important
+||siamfun4u.com$important
+||silk69.in$important
+||silverlines.info$important
+||sinocoo.com$important
+||skype4mobile.com$important
+||slimcdn.com$important
+||slypee.com$important
+||smartadurl.com$important
+||smartcalltech.co.za$important
+||smartoffer.site$important
+||smarttelebiz.com$important
+||smilesms.com$important
+||smrtx.net$important
+||smsgateway.cc$important
+||snapp.asia$important
+||soccerchamp.ng$important
+||socialclip.mobi$important
+||sohs.co$important
+||sosmob.mobi$important
+||spak.me$important
+||sptslmtrafms.com$important
+||sswap.mobi$important
+||startappservice.com$important
+||stormobi.com$important
+||stream-flix.mobi$important
+||streamflix.mobi$important
+||streamsharp.com$important
+||studiox-babes.com$important
+||sunmob.net$important
+||sunnygames.club$important
+||surfto.mobi$important
+||symbioticinfo.com$important
+||t3mobileadvertising.xyz$important
+||tc-clicks.com$important
+||tdedlove.com$important
+||tech-vault.com$important
+||terragonbase.com$important
+||thai2mobi.com$important
+||thai-iphone.com$important
+||thaifun4u.com$important
+||thaimobile.com$important
+||thaiza.com$important
+||thepind.mobi$important
+||thinksmart.co.th$important
+||thisilike.net$important
+||thmobi.com$important
+||thumbr.com$important
+||thumbsms.com$important
+||tksm.mobi$important
+||tomlekded.com$important
+||tomyamclub.com$important
+||toon-land.com$important
+||trackinit.com$important
+||trackmeplease.com$important
+||traffikflow.com$important
+||trakkthisfor.info$important
+||trend-tech.net$important
+||tubecorporate.com$important
+||turbob.mobi$important
+||tvplanet.co$important
+||tweetsms.com.my$important
+||txtnation.com$important
+||u-nee.com$important
+||umobi.biz$important
+||vasglobalnetwork.com$important
+||vasgn.com$important
+||vassolution.com$important
+||vcdn.stream$important
+||vcgbtlktbagb.com$important
+||vdocutesexy.mobi$important
+||vedaapp.com$important
+||veoo.com$important
+||video-wrld.com$important
+||videohub.club$important
+||videopaper.win$important
+||videowap.net$important
+||vilandsoft.com$important
+||vipgames.me$important
+||viral-mix.com$important
+||voluumtrk2.com$important
+||voluumtrk.com$important
+||vovivooo.com$important
+||vplus.ais.co.th$important
+||vstyle4u.com$important
+||vuclip.ais.co.th$important
+||vuclip.com$important
+||vuclipgamesat.com$important
+||vvidiacom.com$important
+||wakau.in$important
+||walletfun.com$important
+||wallpapers-girls.com$important
+||wap.shinee.com$important
+||waphub.mobi$important
+||waplog.com$important
+||waremode.com$important
+||wathspap.com$important
+||wealthandwealth.com$important
+||wealthclick.net$important
+||wifistudy.com$important
+||wiseforwarding.com$important
+||worldgamespn.mobi$important
+||wrtual.com$important
+||xn--22c0bau8bor5ac4k7cc6g8a.net$important
+||xn--42c8cmgk9dvfyd.com$important
+||yasune360.com$important
+||youlaugh.online$important
+||yuppytv.com$important
+||yuppyuppytv.com$important
+||yuqazate.com$important
+||zedo.com$important
+||zigifun.com$important
+||zingmobiledev.com$important
+||zmclick.com$important
+||zog.link$important
+||zomobie.com$important
+
+! -------------------------------------------------- Other lists combination -------------------------------------------------- !
+
+! - - - - - - - - - - - - - - - - - - - - - - - - - - Anime Leeching List - - - - - - - - - - - - - - - - - - - - - - - - - - !
+
+! These rules below are modified from https://github.com/pureexe/LeeCh-List
+! Copyright (c) 2017 Pakkapon Phongthawee
+! LICENSE: https://github.com/pureexe/LeeCh-List/raw/master/LICENSE
+
+! These list below are well-know illegal streaming sites (mostly in Thailand) that steal the non-profit works from
+! various fansubs, also publish retail products/contents on their site (even it's unauthorized by local license), they
+! earn profits and revenue from ad services. (e.g. insert banner, popunder, miner, many tracking and monetisation services, ...)
+! This list will use $document tag for strict blocking to prevent visiting those sites, however, you can turn off strict blocking
+! (temporary or permanently when uBlock showing the yellow triangle warning, as your choice) if you still want to visit them.
+
+||1000toon.blogspot.com$document
+||am4th.com$document
+||anime-i.com$document
+||anime-lunla.com$document
+||anime-me-th-tv.blogspot.com$document
+||anime-mvp.com$document
+||anime-ox.com$document
+||anime-sugoi.com$document
+||anime-thclub.com$document
+||anime-zeed.com$document
+||animelovestory.com$document
+||animemovie-club.in$document
+||animethailovelove.blogspot.com$document
+||bigc-anime.com$document
+||cartoonth12.com$document
+||dekanime.com$document
+||doanimehd.com$document
+||dooanimez.com$document
+||dukartoon.blogspot.com $document
+||dukartoon.com$document
+||gg-anime.com$document
+||hime-anime.com$document
+||hunter-anime.com$document
+||in-anime.com$document
+||kimochii-jp.net$document
+||king-anime.com$document
+||kledr.com$document
+||ko-anime.com$document
+||koi-anime.com$document
+||kono-anime.com$document
+||kuma-anime.com$document
+||m9anime.com$document
+||maxmeadcartoons.net$document
+||micxca.com$document
+||miko-anime.com$document
+||miru-anime.com$document
+||miru-anime.net$document
+||miruanime.net$document
+||misa-anime.com$document
+||neko-miku.com$document
+||newb-anime.com$document
+||nice-anime.com$document
+||now-anime.com$document
+||onitoon.com$document
+||orztoon.co$document
+||otakudrive.com$document
+||rock-anime.com$document
+||show-anime.com$document
+||snipertopanime.net$document
+||strip-cartoon.blogspot.com$document
+||toonzaa.com$document
+||wztoon.com$document
+||zone-anime.net$document
+
+! ---------------------------------------------------- First party service ---------------------------------------------------- !
+! ALERT: Block Facebook (3P, Messenger and Instagram also count)
+! Why? Read! > Blognone (Thai): https://www.blognone.com/node/81520
+!              WSJ (Eng): http://www.wsj.com/articles/facebook-wants-to-help-sell-every-ad-on-the-web-1464321603
+!              The Verge (Eng): http://www.theverge.com/2016/5/27/11795248/facebook-ad-network-non-users-cookies-plug-ins
+||facebook.com$third-party,domain=~fbsbx.com|~instagram.com|~messenger.com
+||facebook.net$domain=~facebook.com|~fbsbx.com|~instagram.com|~messenger.com
+||fbcdn.net$third-party,domain=~facebook.com|~messenger.com|~instagram.com
+||instagram.com$third-party,domain=~facebook.com|~messenger.com
+||messenger.com$third-party,domain=~facebook.com|~fbsbx.com|~instagram.com
+
+! Ads/Tracking in 1st party service (e.g. Google, Facebook, Twitter)
+! Note: uBlock0 assets can handle some of them.
+! ||facebook.com/a/bz$xmlhttprequest,important
+! ||facebook.com/ajax/bz$xmlhttprequest,important
+||ads.twitter.com$important
+||ads-twitter.com$important
+||analytics.twitter.com$important
+||error.facebook.com$important
+||google.*/jsapi?autoload$important
+||google.*/pagead/$important
+||google.*/promos$important
+||google.*/uds/api/ads/$important
+||google.*/uds/stats?$important
+||googlevideo.com/videogoodput?
+||graph.facebook.com/*/act_*/customconversions$important
+||pixel.facebook.com$important
+||syndication.twimg.com$important,~image
+||syndication.twitter.com$important
+||twimg.com/*/google_analytics$script,important
+||twimg.com/i/jot$important
+||twitter.com/*/google_analytics$script,important
+||twitter.com/*/recommendations$important
+||twitter.com/i/cards/*?advertiser_name$important
+||twitter.com/i/jot$important
+||twitter.com/i/promoted_content$important
+||youtube-nocookie.com/api/stats/$important
+||youtube-nocookie.com/csi_204?
+||youtube-nocookie.com/pagead/$important
+||youtube-nocookie.com/ptracking?
+||youtube.com/*/log_event?$important
+||youtube.com/*/log_interaction?$important
+||youtube.com/annotations_invideo?instream_ad$important
+||youtube.com/api/stats/$important
+||youtube.com/get_midroll_info?$important
+||youtube.com/pagead/$important
+||youtube.com/yts/*/www-pagead-id$important
+! ||twitter.com/i/trends // Avoid disable "Trends" if you still need it.
+
+! [Deprecated] First party annoyance DOM | Generic
+
+! Purge support for Facebook, please use FZK in another repo or copy URL below!
+! https://github.com/kowith337/PersonalFilterListCollection/raw/master/filterlist/facebook/FacebookZuckestionKiller.txt
+
+! ------------------------------------------------------ uBlock0 section ------------------------------------------------------ !
+! Procedural DOM - contains has(-text)/not/xpath parameter
+! This use for improve accuracy of DOM hiding, but need at least uBO 1.8.0+, but 1.10.0+ for multiple chaining...
+4toom.com##.rightwidget div:has(a[href^="http://4toom.com/?p="])
+4toom.com##.single .content div:has(.adsbygoogle)
+bbs.pramool.com###AutoNumber1:has(iframe)
+blognone.com###above_comments:has(.view-PremiumCompanies)
+blognone.com###above_comments:has(h2:has-text(/Blognone Workplace/))
+blognone.com###rightbottom_sidebar .region div[id^="block-block"]:has(.content .fb-page)
+blognone.com###rightbottom_sidebar .region div[id^="block-views-jobs"]
+everythingisee.in.th##.widget-header:has(.adsbygoogle)
+exteen.com##.content-box center:has(div script)
+exteen.com##.content-box:has(.prnews)
+exteen.com##div[class^="grid_"]:has(div[id^="div-gpt-ad"])
+game-tep.com##.td-header-sp-recs:has(img[onload])
+game-tep.com##.td-post-content .td-a-rec .g:has(a[onclick^="ga"])
+gamemonday.com##a:has(img[onload])
+gamemonday.com##a[onclick]:has(img[onload])
+itnews24hrs.com##.e3lan.widget:has(.adsbygoogle)
+jarm.com##.news-detail p:has-text(/Advertisement/)
+jokergameth.com###postlist li[id^="post_"]:has(.posthead:has(span a[href*="/advertisement/"]))
+kaijeaw.com##.post-entry .hidden-xs.hidden-sm:has(ins.adsbygoogle)
+kanomjeeb.com##.article .row div[class]:has(aside section.banner)
+kanomjeeb.com##.banner:has(.adsbygoogle)
+kanomjeeb.com##section .row:has(.adsbygoogle)
+kapook.com###action-quick:has(div span[id="ad-close"])
+kapook.com###sidebar > div:has(a[href*="kapook.com/app"])
+kapook.com##.temp-300:has(.card-banner div[id^="div-gpt-ad"])
+kapook.com##body > div[style*="width:100%"]:has(div[style*="z-index:888"])
+kapook.com##div a[target="_blank"]:has(img[src*="ads-lotto.gif"])
+kapook.com##div[style*="text-align:center"]:has(.banner_position)
+kapook.com##div[style*="text-align:center"]:has(.banner_position[style="display:show"])
+kidjarak.com##.td-g-rec:has(.adsbygoogle)
+kiitdoo.com##.textwidget:has(.adsbygoogle)
+liekr.com##.postmain div:has(.adsbygoogle)
+lonely-rooyang.com##.banner:has(.adsbygoogle)
+lonely-rooyang.com##.entry-content center:has(div ins.adsbygoogle)
+lonely-rooyang.com##.sidebar aside:has(.textwidget figure.op-ad)
+lonely-rooyang.com##.textwidget:has(.adsbygoogle)
+matichon.co.th##div[class^="td-header-"]:has(div[id^="ud-dfp-ad-pos-"])
+mthai.com##div[id^="MT_HP_"]:has(.ads-rec-center)
+mthai.com##div[id^="MT_HP_"]:has(.banner)
+mthai.com##header#masthead .topbanner-wrap:has(script)
+mustplay.in.th##.hidden-xs div[class^="col-"]:has(a[style^="z-index:"])
+mustplay.in.th##.panel-default:has(ul li div:has(a[href*="/game/page/"]))
+mustplay.in.th,playulti.com##.banner:has(a[rel])
+mustplay.in.th,playulti.com##a:has(img[src*="/data/setting/banner/"])
+news.sanook.com##.col.highlight--channel__aside:has(.social)
+news.sanook.com##.col.highlight--channel__aside:has(div[class^="snic"])
+notebookspec.com##.banner-side:has(iframe[src^="https://openx.notebookspec.com"])
+notebookspec.com##.text-center.container:has(iframe[src^="https://openx.notebookspec.com"])
+online-station.net##section.box aside:has(.ad-box)
+oopsmobile.net##.td-post-content div:has(.adsbygoogle)
+oopsmobile.net##.textwidget:has(.adsbygoogle)
+pantip.com##.bg-box-allow:has(.box-allow-location)
+pantip.com##.bxslider li:has(a[href*="ads.pantip.com"])
+pantip.com##.doodle-banner a:has(div[style*="promote-app"])
+pantip.com##.event-datatable-item:has(a[href*="ads.pantip.com"])
+pantip.com##.m-bxslider:has(a[href*="ads.pantip.com"])
+pantip.com##.m-thumb div[class^="subject"]:has(a[href*="ads.pantip.com"])
+pantip.com##.m-thumb:has(.subject-ad)
+pantip.com##.m-thumb:has(a[href*="ads.pantip.com"])
+pantip.com##.post-item:has(a[href*="ads.pantip.com"])
+pantip.com##body:has(script[src*="serving-sys.com"])
+petmaya.com##.td-g-rec:has(.adsbygoogle)
+petmaya.com##td:has(.adsbygoogle)
+picnic.ly##.textwidget:has(.adsbygoogle)
+playulti.com##.card .box:has(.box-banner)
+playulti.com##.card-content.card:has(a[href="https://www.facebook.com/playinter.th"][rel="external"])
+playulti.com##.card.game_page:has(.box:has(.box-banner))
+playulti.com##div[class^="card"]:has(h4:has-text(/RECOMMEND APPS/))
+popcornfor2.com###content div[style*="float:center"]:has(a[href*="yengo.com"])
+popcornfor2.com###content div[style*="text-align:center"]:has(script[src*="yengo.com"])
+popcornfor2.com##.content_right > div:has(div[id^="DIV_YNG"])
+popcornfor2.com##.content_right div:has(script[src*="synergy-e.com"])
+popcornfor2.com##.main div:has(iframe[src*="popcornfor2.com/bannerads/"])
+popcornfor2.com##.main div[style^="width:728px;"]:has(ins.adsbyadop)
+popcornfor2.com##.news_view div center:has(script[src*="googlesyndication.com"])
+popcornfor2.com##.news_view div div:has-text(/Advertisement/)
+postjung.com###maincontent div:has(.sp-adsense-incontent)
+pramool.com##tbody table tr:has(a[target="ads"])
+pramool.com##tbody table tr:has(iframe)
+pramool.com##tbody table tr:has(noscript)
+rabbit.co.th##.widget-box:has(.ads-sidebar-top)
+share-si.com##.post > div:has(script[src^="//code.yengo.com"])
+share-si.com##.post div:has(.adsbygoogle)
+siamok.com##.Sweb_right table:has(iframe[src="/ads/right-yengo.php"])
+siamok.com##.head_bg table:has(iframe[src^="/ads/"])
+siamphone.com###banner:has(iframe[src*="ads.siamphone.com"])
+siamphone.com##.news_cate li ul:has(iframe[src*="ads.siamphone.com"])
+siamphone.com##.news_cate ul li:has(a img[src="/images/ads_menu.png"])
+siamphone.com##.swiper-slide:has(a img[src="/images/sp_ads.png"])
+siamphone.com##.swiper-slide:has(iframe[src^="//ads.siamphone.com/"])
+siamphone.com##.top_banner:has(div span:has(iframe[src*="ads.siamphone.com"]))
+siamphone.com##div[class^="banner"]:has(iframe[src*="ads.siamphone.com"])
+sistacafe.com###summary div:has(img[title="downloadapp"])
+sistacafe.com##.footer_content_box .box_mid:has(div[class*="box_app_side"])
+sistacafe.com##a[onclick^="ga"]:has(img[src^="/assets/share_icons/"])
+specphone.com##.container > .row .blog_left_box:has(.ad_center_box)
+specphone.com##.container > .row .blog_right_box:has(.ad_center_box)
+specphone.com##.home_banner_align_box:has(#AdsTop)
+specphone.com##.home_banner_top:has(iframe[src^="https://openx.notebookspec.com"])
+specphone.com##.td-header-menu-wrap-full div[style]:has(#AdsTop)
+specphone.com##.td-header-sp-recs:has(div > iframe[src^="https://openx.notebookspec.com/"])
+techmoblog.com##.container center:has(table div iframe[src^="/tmb-advertise/"])
+techtalkthai.com##.theiaStickySidebar .widget:has(.widget-container p:has(a[rel="noopener"]))
+techxcite.com##.shopping:has(script[async][src^="//techxcite.com/ads/revive/"])
+thaihitz.com##.post-single-content center:has(.adsbygoogle)
+thaiidol.com##.td-g-rec:has(.adsbygoogle)
+thaiidol.com##.wpb_wrapper:has(.adsbygoogle)
+thaijobsgov.com##.content center:has(.adsbygoogle)
+thaijobsgov.com##.content center:has-text(/Advertisement/)
+thailandbestbeauty.com##.td-post-template-default a[target="_blank"]:has(img[class*="wp-image-"])
+thaimobilecenter.com###divleft:has(a[href*="/ad_click"])
+thaimobilecenter.com###divright:has(a[href*="/ad_click"])
+thaimobilecenter.com###exp-normal:has(a[href*="/ad_click"])
+thetechr.com##.rev-block:has(.adsbygoogle)
+thisisgamethailand.com##.module .item:has(a[href*="/index.php?/stats/clickAdd"])
+tnews.co.th##.hidden-sm.hidden-xs:has(div script[src^="//code.yengo.com/"])
+
+! CSS Modify
+beartai.com###wallpaper:style(background: none !important; display: none !important)
+
+! Directive HTML tag filtering
+! This need a supported platform to work (only Firefox post-quantum for now, maybe it work for chrom[e|ium] with Nano Adblocker)
+!#if cap_html_filtering
+m.pantip.com##^meta[name^="smartbanner"]
+!#endif
+
+!#if ext_firefox
+! Specific inline-script hiding
+! This work only Firefox version below than 56 + install legacy version of uBO
+autocar.in.th##script:contains(makingdifferent_ppopup)
+boxza.com##script:contains(bzpopup_timer)
+boxzaracing.com##script:contains(bzpopup_timer)
+dspzeeplus.com##script:contains(popup_facebook_box)
+img.in.th##script:contains(sc_adv_out)
+img.in.th##script:contains(SC_Domain)
+jarm.com##script:contains(adsbygoogle)
+jarm.com##script:contains(crtg_content)
+jarm.com##script:contains(function(f,b,e,v,n,t,s))
+jarm.com##script:contains(googletag.cmd.push)
+jarm.com##script:contains(GoogleAnalyticsObject)
+liekr.com##script:contains($showLikePopup)
+mx7.com##script:contains(GoogleAnalyticsObject)
+notebookspec.com##script:contains(#overlay_ads)
+online-station.net##script:contains(PLISTA)
+online-station.net##script:contains(googletag.cmd.push)
+online-station.net##script:contains(rand_slot_ads)
+online-station.net##script:contains(ssProtocol)
+pantip.com##script:contains("https://ssl-avd.innity.net")
+pantip.com##script:contains(GoogleAnalyticsObject)
+pantip.com##script:contains(_comscore)
+pantip.com##script:contains(gtm.start)
+picnic.ly##script:contains(advads)
+postjung.com##script:contains(fbpop)
+share-si.com##script:contains(ccpop)
+teededball.com##script:contains(bzpopup_timer)
+tnews.co.th##script:contains(ShowModal)
+upic.me##script:contains(#basic-modal-content)
+!#endif
+
+! [Script Injection] To inject script for cutting-off some third party connections and/or unbreak site that have antiuser function.
+! include something fix, such as prevent external link wrapping to track users who go out of their site.
+exteen.com##script:inject(abort-on-property-write.js, GoogleAnalyticsObject)
+exteen.com##script:inject(abort-on-property-write.js, _taboola.push)
+exteen.com##script:inject(abort-on-property-write.js, window._taboola)
+liekr.com##script:inject(abort-on-property-read.js, $showLikePopup)
+liekr.com##script:inject(abort-on-property-write.js, $showLikePopup)
+m.webtoons.com##script:inject(abort-on-property-read.js, oSmartAppBanner)
+m.webtoons.com##script:inject(abort-on-property-write.js, oSmartAppBanner)
+mthai.com##script:inject(abort-on-property-read.js, googletag)
+mthai.com##script:inject(abort-on-property-write.js, googletag)
+online-station.net##script:inject(abort-on-property-write.js, GoogleAnalyticsObject)
+online-station.net##script:inject(abort-on-property-write.js, PLISTA)
+online-station.net##script:inject(abort-on-property-write.js, googletag)
+online-station.net##script:inject(abort-on-property-write.js, ssPage)
+online-station.net##script:inject(abort-on-property-write.js, ssProtocol)
+pantip.com##script:inject(abort-on-property-write.js, _comscore)
+pantip.com##script:inject(abort-on-property-write.js, googletag)
+thairath.co.th##script:inject(cookie-remover.js, tr_bId)
+thairath.co.th##script:inject(nanop-easy-set-cookie.js, lightboxed=1)
+webtoons.com##script:inject(abort-on-property-read.js, DFPHelper)
+webtoons.com##script:inject(abort-on-property-write.js, DFPHelper)
+
+! [Resources Replace] Instead of just blocking, then redirect to neutered resources
+! Experimental for Facebook security pixels, this may break their functionality and security check.
+||becteroradio.com/2014/hidden-ad-inner.php?$subdocument,important,redirect=noopframe
+||becteroradio.com/truehitsstat.php?$subdocument,important,redirect=noopframe
+||facebook.com/common/referer_frame.php$subdocument,important,redirect=noopframe
+||facebook.com/security/hsts-pixel.gif$image,important,redirect=1x1-transparent.gif
+||facebook.com/sem_pixel/1/control/0/$subdocument,important,redirect=noopframe
+||facebook.com/sem_pixel/1/control/1/$subdocument,important,redirect=noopframe
+||facebook.com/xti.php$subdocument,important,redirect=noopframe
+||facebook.net/security/hsts-pixel.gif$image,important,redirect=1x1-transparent.gif
+||fbcdn.net/security/hsts-pixel.gif$image,important,redirect=1x1-transparent.gif
+||fbsbx.com/security/hsts-pixel.gif$image,important,redirect=1x1-transparent.gif
+||messenger.com/security/hsts-pixel.gif$image,important,redirect=1x1-transparent.gif
+
+! [Extra] To load disqus comment on-demand.
+! Followed from gorhill's gist.: https://gist.github.com/gorhill/ef1b62d606473c68d524
+||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
+||disqus.com/embed.js$script,redirect=disqus.com/embed.js
+||disqus.com/count.js$script
+@@||disqus.com/embed.js?$script

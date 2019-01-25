@@ -1,0 +1,144 @@
+! Title: CHEF-KOCH's Yandex Filter List
+! Description: Filters all Yandex related connections.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.10
+! Last updated: 2019-01-01
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+!
+! -- IP-range -- 
+!
+!93.158.134.0/24
+!93.158.134.0 - 93.158.134.255
+!
+! -- ASN 13238 -- 
+!
+||adfox.ru^
+||advertising.yandex.ru^
+||an.yandex.org
+||analytics.mobile.yandex.net^
+||appmetrica.yandex.com^
+||appmetrica.yandex.net^
+||auto.ru^
+||avto.ru^
+||awaps.yandex.ru^
+||awsync.yandex.ru^
+||beru.ru^
+||bs.yandex.ru^
+||button.blogs.yandex.net
+||button.blogs.yandex.org
+||catboost.ai^
+||catboost.yandex^
+||clck.ru^
+||clck.yandex.by^
+||clck.yandex.com.tr^
+||clck.yandex.com^
+||clck.yandex.de^
+||clck.yandex.kz^
+||clck.yandex.ru^
+||clck.yandex.ua^
+||clck.yandex.us^
+||clickhouse.yandex^
+||dns2.yandex.net^
+||driver.yandex^
+||external-promo-metrics.yandex.net
+||foodfox.ru^
+||gentoo.ru^
+||grade.market.yandex.ru^
+||informer.yandex.ru^
+||ir.yandex^
+||kiks.yandex.ru^
+||kinopoisk.ru^
+||loginza.ru^
+||mc.yandex.ru^
+||metabar.ru^
+||metrica.yandex.by^
+||metrica.yandex.com.tr^
+||metrica.yandex.com.ua^
+||metrica.yandex.com^
+||metrica.yandex.de^
+||metrica.yandex.kz^
+||metrica.yandex.ru^
+||metrica.yandex.ua^
+||metrika.yandex.by^
+||metrika.yandex.com.tr^
+||metrika.yandex.com.ua^
+||metrika.yandex.com^
+||metrika.yandex.de^
+||metrika.yandex.kz^
+||metrika.yandex.ru^
+||metrika.yandex.ua^
+||nota-claim.ru^
+||ns3.yandex.ru^
+||ns4.yandex.ru^
+||pricelabs.ru^
+||punto.ru^
+||rostaxi.org^
+||webvisor.com^
+||webvisor.ru^
+||ya.cc^
+||ya.ru^
+||yadi.sk^
+||yadisk.cc^
+||yandex-team.ru^
+||yandex.by^
+||yandex.com.ge^
+||yandex.com^
+||yandex.ee^
+||yandex.kg^
+||yandex.kz^
+||yandex.lt^
+||yandex.md^
+||yandex.net^
+||yandex.ru^
+||yandex.st^
+||yandex.tj^
+||yandex.tm^
+||yandex.uz^
+||yandexadexchange.net^
+||yandexdatafactory.com^
+||yandexdataschool.com^
+||yandexdataschool.ru^
+||yaprobki.ru^
+||yastatic.net^
+||z5h64q92x9.net^
+!
+! -- Mail servers --
+!
+||dc10017802f3a44d0mx2.elite7hackers.net^
+||domain.mail.yandex.net^
+||emx.yandex.ru^
+||mail.555hf.tv^
+||mail.antaryon.com^
+||mail.badgood.info^
+||mail.cdmy.com.tr^
+||mail.csmplanet.ru^
+||mail.eds-pro.com^
+||mail.energosbit.ru^
+||mail.gepon.net^
+||mail.ice.ru^
+||mail.itdep.ru^
+||mail.loj.me^
+||mail.mezon.ru^
+||mail.qth.sqb.ru^
+||mail.slider.ru^
+||mail.vseved.ru^
+||mail.webbnc.vn^
+||mail.yandex.com.tr^
+||mail.yandex.com^
+||mail.yandex.ru^
+||mail.yandex.ua^
+||mx-corp.yandex.ru^
+||mx.tinomail.com^
+||mx.yandex-team.ru^
+||mx.yandex.com.tr^
+||mx.yandex.net^
+||mx.yandex.ru^
+||mx1.yandex.ru^
+||mx2.yandex.ru^
+||smtp.x-tend.kiev.ua^
+||smtp.yandex.ru^

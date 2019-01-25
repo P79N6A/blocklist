@@ -1,0 +1,159 @@
+! Title: CHEF-KOCH's Facebook Filter List
+! Description: A filter list to defuck Facebook.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 14 days
+! Version: 0.0.0.03
+! Last updated: 2018-12-31
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+/facebookaff/*
+/facebookaff2/*
+/facebooksex.
+@@||facebook.com/ads/ajax/ads_stats_dialog/$~third-party,xmlhttprequest
+@@||www.facebook.com/ad.*^ajaxpipe^$subdocument,~third-party
+facebook.com###browse_lhc_container:style(position: relative !important; top: 0 !important;)
+facebook.com###content > div > ._lwx:style(position: absolute !important; padding-bottom: 10px !important;)
+facebook.com###contentArea div:if-not(.clearfix):has(a[href*="/login/?"])
+facebook.com###entity_sidebar:style(position: relative !important; top: 0 !important;)
+facebook.com###headerArea > div > div:nth-of-type(3)
+facebook.com###js_10:style(position: relative !important;)
+facebook.com###leftCol > div > div:style(position: relative !important; top: 0 !important;)
+facebook.com###mobile_mirror_banner
+facebook.com###pagelet_growth_expanding_cta
+facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+facebook.com###u_0_11._k:style(position: relative !important; top: 0 !important; left: 0 !important;)
+facebook.com###u_0_11:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_12:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_13:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_14:style(position: relative !important; top: 0 !important; left: 0 !important;)
+facebook.com###u_0_1a:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_1b:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_1d:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_1h:style(position: relative !important;)
+facebook.com###u_0_1l:style(position: relative !important;)
+facebook.com###u_0_1u:style(position: relative !important;)
+facebook.com###u_0_29:style(position: relative !important;)
+facebook.com###u_0_g:style(position: relative !important;)
+facebook.com###u_0_m
+facebook.com###u_0_u:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_v:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_w:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_z:style(position: relative !important; top: 0 !important;)
+facebook.com###u_fetchstream_1_3:style(position: relative !important; top: 0 !important;)
+facebook.com###u_fetchstream_1_b:style(position: relative !important;)
+facebook.com###u_fetchstream_2_0:style(position: relative !important;)
+facebook.com###u_jsonp_2_0:style(top: 0 !important;)
+facebook.com###u_jsonp_2_3:style(position: relative !important; top: 0 !important;)
+facebook.com###u_jsonp_3_3:style(position: relative !important; top: 0 !important;)
+facebook.com###u_jsonp_3_h:style(position: relative !important; top: 0 !important;)
+facebook.com###u_jsonp_4_9:style(position: relative !important; top: 0 !important;)
+facebook.com##._11gk
+facebook.com##._1n-x._8k-._3m9:style(position: absolute !important;)
+facebook.com##._27i-:style(position: relative !important;)
+facebook.com##._2avl
+facebook.com##._2yq ._4-u2:before:style(border: none !important;)
+facebook.com##._2yq ._5sqx._5sqx:style(position: absolute !important; top: 0 !important;)
+facebook.com##._3d9q.fixed_elem:style(top: 0 !important;)
+facebook.com##._4-u8._3u8y._4rka._4-u2:style(position: relative !important;)
+facebook.com##._4-u8._4-u2._4k-l._4k-k:style(position: relative !important; top: 0 !important;)
+facebook.com##._4k-p:style(margin-top: 0 !important;)
+facebook.com##._4oes:style(position: relative !important; border-bottom: 1px solid #ccc !important;)
+facebook.com##._4rtl
+facebook.com##._50ti:style(position: relative !important;)
+facebook.com##._50tj._2t-a:style(position: relative !important;)
+facebook.com##._5c_8:style(position: relative !important; top: 0 !important;)
+facebook.com##._5hn6:has(div a[role="button"][href^="/login/?"])
+facebook.com##._5hn6:has(div a[role="button"][href^="/r.php?"])
+facebook.com##._5ss8:style(left: auto !important; top: 0 !important;)
+facebook.com##._5vx2:style(border: none !important; box-shadow: none !important;)
+facebook.com##._5zrt._2x4w:style(position: relative !important; top: 0 !important;)
+facebook.com##._673w:style(position: relative !important;)
+facebook.com##._k._1a1e:style(position: relative !important; top: 0 !important; left: 0 !important;)
+facebook.com##._ky-:style(margin: 0 !important;)
+facebook.com##._kyy:style(position: relative !important; top: 0 !important;)
+facebook.com##._kyz > div:nth-of-type(2)
+facebook.com##._uex
+facebook.com##._uey._3azy._638s:style(position: relative !important; top: 0 !important;)
+facebook.com##.canvas_rating_popout
+facebook.com##.ego_section
+facebook.com##.ego_section a[href^="http://l.facebook.com/l.php?u="][href*="%26adgroup_id%"]
+facebook.com##.ego_section a[href^="http://l.facebook.com/l.php?u="][href*="utm_medium"]
+facebook.com##.ego_section a[href^="http://l.facebook.com/l.php?u="][href*="utm_source"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="%26ad_id%"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="%26ad_id%"] + div
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="%26adgroup_id%"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="%3Fcampaign%3D"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*=".intelliad.de"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="adfarm.mediaplex.com"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="fb_source%3Dad%26tag%3D"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="fb_source%3Dad%26tag%3D"] + div
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="https%3A%2F%2Fgoo.gl%2F"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="utm_medium"]
+facebook.com##.ego_section a[href^="https://l.facebook.com/l.php?u="][href*="utm_source"]
+facebook.com##.fbChatSidebar:style(position: absolute !important; height: 100% !important; border-bottom: 1px solid #ccc !important;)
+facebook.com##.fbTimelineStickyHeader
+facebook.com##.fixed_always:style(position: absolute !important;)
+facebook.com##.fixed_elem:style(position: absolute !important;)
+facebook.com##.pam._3-95.uiBoxRed
+facebook.com##.pbm.clearfix:style(padding-top: 53px !important;)
+facebook.com##.photoContainer:style(position: absolute !important; top: -143px !important;)
+facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
+facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
+facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
+facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline-block)
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(S):has-text(on):has-text(S):has-text(so):has-text(S):has-text(red):has-text(S)):matches-css(display: inline-block)
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline-block))
+facebook.com##[id^="hyperfeed_story_"]:if(.userContentWrapper div[id^="feed_subtitle_"] a:if(span:has-text(Sp):has-text(on):has-text(so):has-text(red)):matches-css(display: inline-block))
+facebook.com##a[ajaxify*="&eid="]
+facebook.com##a[href^="/ajax/emu/end.php?"]
+facebook.com##a[href^="https://l.facebook.com/"][href*="%2526ad_id%"]
+facebook.com##div[data-xt]
+facebook.com##div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+facebook.com##div[id^="hyperfeed_story_id_"]:if(div > span:matches-css(display:none):has(abbr .timestampContent))
+facebook.com#?#.ego_section:-abp-contains(People you)
+facebook.com#?#.fbUserStory:-abp-contains(People you)
+facebook.com#?#.mtm:-abp-contains(Products shown)
+facebook.com#?#.pagelet:-abp-has(a[href^="/ad_campaign"])
+facebook.com#?#.userContentWrapper:-abp-contains(People you)
+facebook.com#?#div[data-testid="fbfeed_story"]:-abp-has(a[href*="[is_sponsored]"])
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href*="is_sponsored"])
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href^="/business/help/788160621327601/?"])
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(input[data-next-question-id])
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(span:-abp-contains(/Suggested Post|Vorgeschlagener Beitrag/))
+facebook.com#@#.Ad
+facebook.com#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
+facebook.com,facebookcorewwwi.onion###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
+facebook.com,facebookcorewwwi.onion###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
+facebook.com,facebookcorewwwi.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+facebook.com,facebookcorewwwi.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
+facebook.com,facebookcorewwwi.onion##.ego_column:if(a[href^="/campaign/landing"])
+facebook.com,facebookcorewwwi.onion##.ego_section:has(a.adsCategoryTitleLink)
+facebook.com,facebookcorewwwi.onion##.ego_section:if(a[href^="/ad_campaign"])
+facebook.com,facebookcorewwwi.onion##.fbUserStory:has-text(Popular Across Facebook)
+facebook.com,facebookcorewwwi.onion##.userContentWrapper:has(a[href*="/ads/"])
+facebook.com,facebookcorewwwi.onion##.userContentWrapper:has-text(Popular Across Facebook)
+facebook.com,facebookcorewwwi.onion##.userContentWrapper>div div>span>span:has-text(^Suggested Post$)
+facebook.com,facebookcorewwwi.onion##[id^="hyperfeed_story_id_"]:has(a[href*="client_token"])
+facebook.com,facebookcorewwwi.onion##[id^="hyperfeed_story_id_"]:if([id^="feed_subtitle_"] a[href]:matches-css-after(content:/Gesponsert|Sponsored|Sponsrad/))
+facebook.com,facebookcorewwwi.onion##div[data-testid="fbfeed_story"]:if(a[href*="[is_sponsored]"])
+facebook.com,facebookcorewwwi.onion##div[id^="hyperfeed_story_id_"]:if(div > span:matches-css(display:none):has(abbr .timestampContent))
+facebook.com,facebookcorewwwi.onion##div[id^="hyperfeed_story_id_"]:if(div[id*="subtitle"] > span:matches-css(display:none):has(abbr .timestampContent)) 
+facebookcorewwwi.onion###mobile_login_bar
+facebookcorewwwi.onion###u_0_12
+facebookcorewwwi.onion###u_0_6c
+facebookcorewwwi.onion###u_0_6d
+facebookcorewwwi.onion###u_0_6e
+m.facebook.com###header-notices
+m.facebook.com###mobile_login_bar
+m.facebook.com###u_0_12
+m.facebook.com##._5tel
+m.facebook.com##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])

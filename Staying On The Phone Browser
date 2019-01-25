@@ -1,0 +1,213 @@
+[Adblock Plus 2.0]
+! Version: 23January2019v1
+! Title: 📱 Staying On The Phone Browser
+! Expires: 14 days
+! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
+!#include StayingOnThePhoneBrowser-uBOExtension.txt
+! Homepage: https://github.com/DandelionSprout/adfilt
+! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
+! This particular list's agenda: https://github.com/DandelionSprout/adfilt/blob/master/stayingonbrowser/README.md
+###mn-app-banner
+###mobile-upsell-container
+###smartbanner
+##.abb.abt.apl.acy.touchable.area.last.first.touchableArea
+##.aclb.grouped._4fmw
+##.app-banner
+##.app_down_promotion
+##.app_download_ad
+##.app_download_blank_show
+##.b-smartappbanner
+##.OpenInAppBanner
+##.smart-banner
+##.smartbanner
+##.tmblr-iframe--loaded.tmblr-iframe--app-cta-button
+##.wds-is-community-apps
+##.z-bit-smartbanner
+##amp-app-banner
+##body > .AppBanner
+##div[class^="mobile-upsell"]
+##head[prefix~="medium-com:"] ~ body .js-openInAppButton
+##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
+/js/jquery.smartbanner.js
+/mobiquo/smartbanner/appbanner.js
+17track.net##.jsAppDown
+4pda.ru,medizinfuchs.de###appbanner
+9gag.com##.badge-sticky-button
+abril.com.br##.magazine-read
+androidauthority.com##.aa_app_widget
+anistar.me##.appfown
+apkpure.com##.safe-link > .dl-ref
+apkpure.com##div[id^="ad-aegon-"]
+appleinsider.ru###ioimedia_app_banner
+auto.ru##.promo-max
+autoblog.com###toaster_autoblog-app
+avito.ru##.banner-apps
+baidu.com###main > div[lgoinprompt="prompt"]
+baidu.com###search-appPromote
+besplatka.ua##.footer_bottom > div#applications
+bigbangnews.com##.bajar-app-fixed
+cloud.mail.ru###leftcol > div.download
+dropbox.com###nativeapp_ad
+dropbox.com###pyxl2881092706975949833
+ednist.info##.phone-container
+europaplus.ru##div[id^="AdwolfBanner240x400"]
+extramovies.org##.poster > center > .app
+extramovies.org##a[href^="http://m.onelink.me/"]
+finans.mynet.com###moblie_banner_300x250
+finans.mynet.com###moblie_banner_650x80
+frankfurt-airport.com##.fra_js_app_banner
+freekaamaal.com###ftrbgdiv
+geniuskitchen.com##.gk-promo-card
+giveawayoftheday.com##.bottom_b
+hindustantimes.com##.install_app
+hipp.de##.bar-appstore
+ifeng.com##.openApp[onclick^="loadOpen.init(download"]
+ihlassondakika.com##.MobilContainer
+iltalehti.fi##[href="/sovellus"]
+imageban.ru##img[alt="Get it on Google Play"]
+instagram.com##._40dde
+instagram.com##._c05qa
+instagram.com##a[href^="https://itunes.apple.com/app/instagram/id389801252?"][role="alert"]
+intellicast.com###promoAd
+intellicast.com###stormLink
+ipaddressguide.com##img[alt="iptools android app"]
+ipaddressguide.com##img[alt="iptools apple app"]
+ipleer.fm##.rt_play_market
+jkanime.site##body > div[style="padding:5px; background-color:yellow; text-align:center; border:2px solid yellow;"]
+kakprosto.ru##.android_app_adv
+kaktam.ru##.wrapper--banner
+lezzet.com.tr##.footer-mobil-uygulama-box
+lifehacker.ru###sidebar-footer-3 > aside > div.textwidget > a > img
+lifehacker.ru##.soc-div
+m.17track.net##.yq-panel-download
+m.9gag.com##.btn.full-bleed
+m.9gag.com##.panel.download
+m.apkpure.com##.aegon-warp
+m.avito.ru##.promo-app-inner
+m.bombaytimes.com,m.tv.naver.com##.app_banner
+m.brigitte.de###bottom-bar
+m.btime.com##.sx-download-bar
+m.evensi.de##.down-app
+m.facebook.com,touch.facebook.com##.cc.ib
+m.geektimes.ru##.footer__apps
+m.huffpost.com###aol-banner
+m.imgur.com##.AppBanner
+m.imgur.com##.FloatingOIA
+m.imgur.com##.Post-contentContainer > div.Post-metaContainer
+m.imgur.com##.PostContainer-postGetApp
+m.ndtv.com###header_ap_id
+m.ntv.ru###androidbanner
+m.pikabu.ru##.fb-widget-below-comments-mw.promo
+m.qidian.com##.read_app_download
+m.soundcloud.com##.footer_appButtonContainer
+m.soundcloud.com##upsellBanner
+m.vseinstrumenti.ru,m.zaful.com##.app-download
+m24.ru###AndroidMobileAppBanner
+mangareader.net###googleModal > a[href="http://www.animemobile.com/MangaApp/"]
+marca.com##.js-mobile-banner
+mcdart.de##.app-download-wrap
+mediamarkt.de##.mrh-app-banner
+miui.com##.app_download
+mobile.twitter.com##.rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61.LqlkGmch > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61._3wLZCidQ > .rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61:nth-of-type(2)
+mobile.twitter.com##header[role="banner"] > ._3oxnid3o._3f2NsD-H
+mobile01.com###smartbanner-area
+money.yandex.ru##.promo-header
+moviefone.com##.app-intercept
+my.klarna.com###app-modal
+my.klarna.com##.reveal-overlay
+mywot.com##.app-stripe
+nfb.ca##.bandeOuterHeightLogo
+nordbayern.de##.appBanner
+obzor.press###meerkat-wrap
+olx.ua###appsBottomBar
+olx.ua###mobileAppsbadge
+oncoforum.ru##.ad-app
+oncoforum.ru##.footer-app
+onedio.com##.o-ftr > .main > .f-border > .everywhere
+onlineradiobox.com##.page__column-right > .playmarket
+opodo.de###app-layer
+opodo.de###new_app_layer
+opodo.de###smart-banner
+ozon.ru##.bMobileAppBanner
+pagesix.com##.pagesix-app-flyout__wrapper
+pcgames.de##div.header_footer.ui-footer.ui-bar-inherit.ui-footer-fixed.slideup[data-role="footer"]
+pixiv.net##dialog.app-dialog-for-first-user
+planetakino.ua##.mobile-app-links
+presseportal.de##.mobile-container.app-notification
+pvplive.net##a[href="/m/getmobile"]
+radugaskidok.ru##.store-bg
+rambler.ru##.wrap > section.promo.j-promo
+reddit.com##.DualPartInterstitialFooter
+reddit.com##.NavFrame > .DualPartInterstitial
+reddit.com##.SmartBanner
+reddit.com##.SmartBannerContainer
+reddit.com##.TransparentOverlay__overlay
+regnum.ru##.footer-apps
+reuters.com##[class^="GetTheAppBanner"]
+roblox.com###app-bumper-main
+rozetka.com.ua###banner-application
+rt.com###offers
+russian.rt.com##.app-panel
+schnaeppchenfuchs.com##.header-promo-apps
+schnaeppchenfuchs.com##.mobile-promo-apps__vertical-spacer
+shiftdelete.net##.e_magazine_mobile
+shiftdelete.net##img[title="Torrent Yasal mı? - ShiftDelete.Net"]
+shpock.com###auction_overlay_bg
+shpock.com###body-wrapper > .small-banner
+skype.com###appBanner
+skyrock.fm###promo_app_android
+slader.com##a[href^="https://itunes.apple.com/"].slader-stickers
+slatedroid.com###banner_div_empty
+slatedroid.com###tt_mobile_banner
+soundcloud.com##article.mobileApps
+spor.mynet.com###fSocialMediaWrap > #fApp
+sport-express.ru##.addmenu li.advertwww
+sport.de##a.hs-app
+sport1.de###smart-app-banner
+sports.ru##.sports-apps-promo
+sporx.com##a[href="http://bit.ly/2iqT2Bm"]
+sporx.com##a[href="http://www.sporx.com/mobil/"]
+sputnik.ru##.b-cover__box > div.b-panel.js-panel[style="height: 60px;"]
+superfb.com##a[href="http://www.superfb.com/mobil"]
+supreme2.ru###s2newsad
+surfingbird.ru##.b-mobile-redirect
+tchibo.de##.appPromotionPanel
+tellows.de###hint_box
+tumblr.com##.mobile-banner-inner
+twitter.com##.toast.client_prompt
+valyuta.com###bannerParent
+video.az##.sidebar-right > .text-center > a[href*="/app"] > img
+viu.com##.v-foot-wrap > div#app
+wallstreet-online.de##.app-advertising
+wap.ithome.com###a_ad
+wattpad.com###announcements-container
+wattpad.com###bottom-banner-container
+webaslan.com##a[href="http://www.webaslan.com/mobil"]
+webaslan.com##center > a[href^="http://bit.ly/"] > img
+webtekno.com##.android-dropdown.dropdown-container
+wish.com##.ui-overlay-a.in
+wish.com##.ui-overlay-a.in + .ui-popup-container
+youku.com##div[id$="_ykbanner"]
+zargan.com###app-menu
+zaycev.fm##.soft-promo
+zedge.net##.column.grid_12.leader
+zedge.net##.column.trailer.leader
+zona.mobi###zona-android
+||2app.lk^$third-party
+||anistar.ru/templates/*/images/android-app-on-google-play.png
+||banki.ru/static/common/vendor-libs/jquery.smartbanner/
+||dogruhaber.com.tr/image/foto/*/mobil-uygulamamamiz_*.gif
+||gamer-mods.ru/.s/src/jquery.smartbanner.js
+||klavyer.com/android/klavyer-android-uygulamamiz.jpg
+||m.faz.net/*/fit/project/files/js/smartbanner.js
+||malatyahaber.com/wp-content/uploads/2016/05/SA.gif
+||my.klarna.com/assets/images/backgrounds/app-blur.png$image
+||ntv.com.tr/Content/img/promote.jpg
+||rueconomics.ru/template/mobile/assets/jquery.smartbanner/jquery.smartbanner.js
+||s.livelib.ru/js/smartbanner.
+||superfb.com/_img/banner/sfb*.png
+||superfb.com/_img/mobil_imaj.png
+||turkiyecocuk.com.tr/banner/
+||turnkeymobileapps.com/*/smart-app-banner.
+||unleashedprepaids.com/mobiquo/smartbanner/
+||vizefinalsorupaylasimi.com/uploads/googleplay.jpg

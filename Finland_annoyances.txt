@@ -1,0 +1,136 @@
+[Adblock Plus 2.0]
+! Version: 201812131
+! Title: Annoyance List for Finland
+! Description: Finnish adblock list
+! Last modified: 13th of December 2018
+! Expires: 4 days
+! Homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
+! License: https://unlicense.org/
+!#include Finland_annoyances_uBO_extras.txt
+!
+! Designed to be used with following lists:
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/blob/master/README.md#lists-requiredrecommended-for-usage
+!
+! UBLOCK ORIGIN RECOMMENDED!
+!
+! Please report any issues at:
+! https://github.com/finnish-easylist-addition/finnish-easylist-addition/issues
+
+! RANDOM
+
+||nelonenmedia.fi/xb/styles/logo/public/
+
+huuto.net###display-window-container
+huuto.net###oikotie-nav
+
+iltalehti.fi##.jw-logo
+
+monster.fi###interMsgsW
+rantapallo.fi##.wpoi-show.inc_optin
+stockmann.com##.section-notification
+power.fi###sleeky
+puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT
+
+www.is.fi,www.hs.fi##.r-loading-indicator
+
+
+www.foreca.fi###betafeedback
+
+! Telsu.fi
+||www.testeri.fi/ext_telsu$subdocument
+||www.blogit.fi/nosto_gen$subdocument
+||www.nauris.fi/nosto_gen$subdocument
+
+! Oikotie
+###oikotie_tyopaikat_box_iframe
+###oikotie_asunnot_box_iframe
+
+! Iltalehti/Iltasanomat box
+www.aamulehti.fi###iltalehtiBox-1
+www.aamulehti.fi###iltalehtiBox-2
+www.hs.fi##iframe[data-original="https://vg.is.fi/is-promo/"]
+
+||is.fi/is-promo/$subdocument,third-party
+||is.fi/hs-promo/$subdocument
+||hs.fi/promo/$subdocument
+||soppa365.fi$third-party
+||uutisboksi.il.fi/$subdocument,third-party
+
+! Iltapulu
+###iltapulu_fp_box_iframe
+
+! WEATHER
+is.fi##DIV[class="html-supersaa"]
+www.hs.fi##.supersaa-widget-container
+www.mtvuutiset.fi##.navigation-weather-wrapper
+www.iltalehti.fi##.header-weather-container
+
+! SHARE BUTTONS & SOCIAL MEDIA
+www.foreca.fi###share
+tivi.fi##.header-some.link-group
+tivi.fi##.sidebar-some.custom__sidebar-box
+www.is.fi##[id^="DefaultShareButtons-"]
+www.is.fi##[id^="ShareButtons-"]
+www.aamulehti.fi##[href^="mailto:"] > .fa-envelope.fa
+bbs.io-tech.fi##[href="https://www.facebook.com/iotechfi/"]
+puutarha.net,omataloyhtio.fi,rakentaja.fi###scrak_CONT_keski
+yle.fi##footer > .default.some
+yle.fi##div.ydd-share-buttons
+yle.fi##.hgroup > .default.some
+www.hermanit.fi##.some-valikko
+www.ts.fi##.tsv3-c-common-article__socialmedia--textend
+seiska.fi##.somebar
+seiska.fi##.some-middle-black
+evira.fi##.some-shares
+rekrytointi.com##.essb_mailform
+hintaseuranta.fi###some-buttons
+mobiili.fi##.likes-top
+||mobiili.fi/images/some_icons/$image
+mikroaitta.fi###facebook_block
+jatkoaika.com##.somelinks
+
+! NEWSLETTERS
+iltalehti.fi###newsletter_container
+iltalehti.fi##.content-newsletter
+yle.fi##DIV[class*="yle__newsletter"]
+www.ess.fi###uutiskirjeentilaus
+www.hs.fi##.hsnl-container
+seiska.fi##.newsletter
+mobiili.fi##.mobuutiskirje_link
+netrauta.fi##.email-collector
+verkkokauppa.com##.footer__catalog-newsletter-container
+verkkokauppa.com##.promo-item-container
+omataloyhtio.fi##.scrakentajafi_share_uutiskirje
+hobbyhall.fi##.newsletter
+
+! DOWNLOAD OUR APP
+iltalehti.fi##[href="/sovellus"]
+
+! GAMES
+is.fi##DIV[class="supersaa-widget-container"]
+is.fi##div[class="html-pelikone"]
+is.fi##div[class="html-alypaa"]
+
+! "READ NEXT"
+www.ess.fi###article-floater-cx
+
+! SURVEY WIDGET
+www.is.fi##DIV[id^="QuickSurveyWidget-"]
+
+! FLOATING VIDEO
+www.is.fi,www.hs.fi##.in-right-lane-position.video-container
+
+! BACK TO TOP
+www.mtvuutiset.fi##.backtotopbutton
+
+! OTHER
+www.is.fi##.date-box
+
+is.fi/kampanjat/vinkkinapit
+www.iltalehti.fi##.block:has([href="/uutisvihje"])
+www.is.fi##iframe[data-original*="is.fi/kampanjat/vinkkinapit"]
+seiska.fi##.klubi-banner
+||osterbottenstidning.fi/Scripts/StickyNotification
+lehtodigital.fi###_kmg_cookie_accept
+||varmalaina.fi/wp-content/plugins/yeloni-free-exit-popup/
+||knaitek.fi/magebirdpopup.php

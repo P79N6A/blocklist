@@ -1,0 +1,14 @@
+[Adblock Plus 2.0]
+! Checksum: D7vsgJIW5kgqrB+D4QOFjw
+! Version: 201901250822
+! Expires: 1 days
+! Title: Youtube: Other Annoyances
+! Homepage: http://youtube.adblockplus.me/
+! Removes all annotations in videos
+||youtube.com/annotations_invideo?$object-subrequest
+! HTML5 version
+youtube.com##.video-annotations
+! Removes sharing tab below videos
+||youtube.com/share_ajax?action_get_share_box=1&video_id=$xmlhttprequest
+youtube.com##.action-panel-trigger[role="button"][data-trigger-for="action-panel-share"]
+youtube.com##.yt-uix-button[data-trigger-for="action-panel-share"]

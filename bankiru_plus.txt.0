@@ -1,0 +1,79 @@
+[Adblock Plus 2.0]
+! Version: 201510132349
+! Last modified: Tue, 13 Oct 2015 23:49:48 +0300
+! Homepage: https://github.com/rebelion76/bankiru_plus_adblock_list
+! Expires: 2 hours
+! ----------------------------------------------------
+! Это список для блокировки рекламы на сайте banki.ru,
+! которая не блокируется "обычными" списками
+! Список поддерживается rebelion76 (rebelion76@gmail.com)
+! Вопросы, замечания и предложения принимаются по адресу:
+! http://rebelion76.livejournal.com
+! ----------------------------------------------------                    
+! 'Круги' на главной странице
+banki.ru##.layout-wrapper.position-relative.margin-bottom-default.border-default.bg-white
+! Шапка. Плашка от верхнего баннера
+banki.ru##.header__top-banner
+banki.ru##.header-hor-banner
+! Шапка. Баннера рядом с логотипом 
+banki.ru##.header__banner
+! Шапка. Баннера рядом с логотипом 
+banki.ru##.header__center-banner
+! Шапка. Баннера рядом с логотипом 
+banki.ru##.header__right-banner
+! Шапка. Остатки от поиска
+banki.ru##.branded-search__link
+! Подвал. Баннера 
+banki.ru##.ad-block-bottom
+! Главная страница. Огромный баннер справа и слева
+banki.ru##.branding-wall
+banki.ru##.branding-bg
+! Главная страница. Рекламные блоки. Форум. Правый блок 
+banki.ru##.ad-block-teaser
+! Главная страница. Рекламный "видео"-блок 
+banki.ru##.ad-block-video
+! Викибанк. Баннер под статьей
+banki.ru##.b-underBanner
+! Брендирование
+||banki.ru/bitrix/components/custom/*/templates/.default/branding/*
+! Брендированный поиск депозитов
+banki.ru##a.deposit-search-branded-link
+! Блок справа на всех страницах
+banki.ru##.ad-block-240x400
+! Правый блок в НР. Спецпредложения
+banki.ru##.b-ad-teaser
+! Мелкие текстовые ссылки на  страницы сайта 
+banki.ru##span[style*="999999"]
+! Банер яндекс-директа для неавторизованных
+banki.ru##section.yandex-direct-block
+
+
+! Старый дизайн. Главная страница. Баннера рядом с логотипом                          
+banki.ru##.b-topInformer .wrap .right table tbody tr td table
+! Старый дизайн. Главная страница
+banki.ru##.at-advertising-block
+! Старый дизайн. НР. Главная страница. Рекламное видео                          
+banki.ru##.b-ad-mainVideo
+! Старый дизайн. Главная страница. Рекламный блок справа        
+banki.ru##.b-ad-newTeaser
+! Старый дизайн. НР. "Остатки" правых баннеров
+banki.ru##.b-ad-rightBanner
+
+
+! Исключение, чтобы не блокировался смайлик ;-) 
+@@||banki.ru/bitrix/images/forum/smile/ad.gif
+! Исключения, чтобы работало верхнее меню
+@@||banki.ru/public/blocks/top-menu/top-menu.js
+@@||banki.ru/public/blocks/top-toolbar/top-toolbar.js
+! Исключение для кнопки наверх
+@@||banki.ru/public/blocks/scroll-to-top/scroll-to-top.js
+! Исключение для красной/желтой карточек/черепа 
+@@||banki.ru/bitrix/templates/.default/components/bitrix/forum/banki/images/popup/icon_card.png
+! Исключение, чтобы работало очень много чего
+@@||banki.ru/*popup*
+! Исключение для логотипа Авангарда
+@@||banki.ru/upload/iblock/ad4/*
+! Исключение для тизера 10 лет
+@@||banki.ru/static/widgets/ten_years/teaser.css
+! Исключение для 'лайков'
+banki.ru#@#.social-likes

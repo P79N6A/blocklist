@@ -1,0 +1,161 @@
+[Adblock Plus 1.1]
+! Title: NT AdBlock List
+! Last modified: 17 January 2019 19:15 UTC
+! Expires: 1 days (update frequency)
+! Homepage: http://www.twoslashes.com/
+! Git Repositories:
+!   https://bitbucket.org/nicktabick/adblock-rules
+!   https://github.com/nicktabick/adblock-rules
+!   https://gitlab.com/nicktabick/adblock-rules
+
+!!! Generic
+/wp-content/plugins/popupally/*
+
+!!! Twitter
+twitter.com##.trends
+twitter.com##.wtf-module
+twitter.com##.WhoToFollow
+twitter.com##.moments
+twitter.com##.LiveVideoHomePageModuleContainer
+
+!!! Facebook
+facebook.com###pagelet_ego_pane_w
+facebook.com###pagelet_ego_pane
+facebook.com###pagelet_dock
+
+!!! Facebook Birthday-Related Ads
+facebook.com##._52kx
+facebook.com##._52ky
+
+!!! Facebook "Trending Topics"
+facebook.com##._5mym
+
+!!! Wikipedia Site Notices
+wikipedia.org###siteNotice
+
+!!! Wolfram Alpha
+wolframalpha.com###sponsor-ad
+! Note: Disable these if a paid Alpha subscriber in case they interfere
+wolframalpha.com###lightbox
+wolframalpha.com###butane
+
+!!! BitBucket Upsells
+bitbucket.org##section[id$="-upsell"]
+bitbucket.org##section[id$="jira-issue-box"]
+bitbucket.org###issues-admin-promo
+bitbucket.org##.upsell-ad-container
+
+!!! SparkNotes
+!!! (Based on rules by Harsh Singh)
+sparknotes.com##.theBook
+sparknotes.com###mindHutContainer
+sparknotes.com###studyBreakContainer
+sparknotes.com###songza_widget
+
+!!! AlternativeTo.net Software Index
+! Note: Ads are removed by an EasyList rule;
+! this removes the message displayed if ads are hidden
+alternativeto.net##.blockReplace
+
+!!! The Guardian
+theguardian.com##.contributions__epic
+theguardian.com##.js-site-message
+
+!!! JSFiddle
+jsfiddle.net###keep-us-running
+
+!!! LinkedIn Chat
+linkedin.com##.msg-overlay-container
+
+!!! LinkedIn Upsells
+linkedin.com##div[class*="upsell"]
+
+!!! Annoyances
+
+!!! Tynt Clipboard Hijacker
+||tynt.com/javascripts/*
+
+!!! Meebo (Bottom Bar/Drag-to-Share)
+||cim.meebo.com/*
+
+!!! PunchTab Rewards System
+||static.punchtab.com/*
+
+!!! Facebook Likebox Plugin
+||facebook.com/plugins/likebox*
+
+!!! Nrelate Related Articles
+||static.nrelate.com/*
+||api.nrelate.com/*
+
+!!! Wibiya Toolbar
+||cdn.wibiya.com/*
+
+!!! CoinURL Advertisement System (Redirects to Ads)
+||coinurl.com/*
+
+!!! Google Content Surveys
+||survey.g.doubleclick.net/*
+
+!!! LiveChat
+||cdn.livechatinc.com/*
+
+!!! Olark
+||static.olark.com/*
+
+!!! Foresee
+||gateway.answerscloud.com/*
+
+!!! Wired Anti-AdBlock (via https://www.reddit.com/r/technology/comments/468jbm/wired_to_ad_blocker_users_pay_up_for_adfree_site/d05n81w)
+@@||assets.adobedtm.com^$domain=wired.com
+@@||wired.com^$generichide
+wired.com###veil
+
+!!! ReadTheDocs
+readthedocs.io##.rst-pro
+readthedocs.io##.rst-pro-wrapper
+
+!!! CNet
+cnet.com##.featuredVideo
+
+!!! Intercom
+||js.intercomcdn.com/*
+||widget.intercom.io/*
+
+!!! Cometchat
+/cometchat/*
+
+!!! OneSignal (Notification Service)
+||cdn.onesignal.com/*
+
+!!! Crisp Chat
+||client.crisp.chat/*
+
+!!! Jetlore Personalization/Targeting
+||api.jetlore.com/*
+||assets.jetlore.com/*
+
+!!! Drift
+||js.driftt.com/*
+
+!!! Ahoy! WordPress Marketing
+/wp-content/plugins/ahoy/*
+.ahoy-message
+
+!!! Holler
+/wp-content/plugins/holler*
+
+!!! Privy Marketing
+||privymktg.com/collect
+||api.privy.com/*
+||shopify.privy.com/*
+||assets.privy.com/*
+
+!!! Klaviyo
+||a.klaviyo.com/*
+||fast.a.klaviyo.com/*
+||static.klaviyo.com/*
+||klaviyo.com/media/js/public/klaviyo_subscribe.js
+
+!!! Tawk.to
+||embed.tawk.to/*

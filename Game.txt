@@ -1,0 +1,4297 @@
+# Title: CHEF-KOCH's Game HOSTS Filter List
+# Description: Blocks Game Telemetry and other game specific 'unneeded' stuff.
+# Checksum (SHA3-256): 883CBEF977BAB0C7C413CB3CDE5118CD1DF9D65DD9DF30C39EB5CC35CD8FAD7D
+# License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+# By downloading or viewing, or using this list, you are accepting these terms and the license.
+# Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+# Expires: 14d
+# TimeUpdated: 2018-11-28 04:35:33+01:00
+# Version: 0.0.0.4
+# Please report any unblocked content or problems by email or via GitHub issue ticket.
+# Email: CHEF-KOCH@protonmail.com
+# Copyright (C) 2018 by CHEF-KOCH
+#
+# ---------- Games ----------
+#
+# Blizzard Battle.net Desktop App
+#0.0.0.0 nydus.battle.net
+0.0.0.0 telemetry-in.battle.net
+0.0.0.0 blzprofile.akamaized.net
+0.0.0.0 d.xp1.ru4.com
+0.0.0.0 20729322p.rfihub.com
+# Posssible needed connections for updates etc.
+#0.0.0.0 level3.blizzard.com
+#0.0.0.0 blzddist1-a.akamaihd.net
+#0.0.0.0 us.patch.battle.net
+#0.0.0.0 eu.patch.battle.net
+#0.0.0.0 iir.blizzard.com
+#0.0.0.0 eu.battle.net
+#0.0.0.0 eu.actual.battle.net
+#0.0.0.0 EU.depot.battle.net
+#0.0.0.0 bneteu-a.akamaihd.net
+#0.0.0.0 cache-eu.battle.net
+#0.0.0.0 bnetcmsus-a.akamaihd.net
+#0.0.0.0 api.overwatchleague.com
+
+# Battle.net Classic
+#0.0.0.0 5.42.181.30
+#0.0.0.0 europe.battle.net
+#0.0.0.0 asia.battle.net
+#0.0.0.0 useast.battle.net
+#0.0.0.0 uswest.battle.net
+
+# Good old Games GOG Galaxy Client
+# GoG Games checking in the background "auth.gog.com" via Galaxy Client "GalaxyCommunication.exe" even if the user never started it.
+# The file is located under: ProgramData\Gog.com\Galaxy\redists
+# You can delete the file to prevent this but at the same time the game title doesn't work anymore.
+# A workaround is to simply not use the GOG client or to work with a firewall/HOSTS.
+#0.0.0.0 ocsp.digicert.com
+#0.0.0.0 crl3.digicert.com
+0.0.0.0 ars.smartscreen.microsoft.com
+# GoG Galaxy Client itself
+#0.0.0.0 login.gog.com
+#0.0.0.0 galaxy-log.gog.com
+#0.0.0.0 static-login.gog.com
+#0.0.0.0 ns-1060.awsdns-04.org
+#0.0.0.0 ns-145.awsdns-18.com
+#0.0.0.0 ns-2023.awsdns-60.co.uk
+#0.0.0.0 gog.com.edgekey.net
+#0.0.0.0 e11072.g.akamaiedge.net
+#0.0.0.0 ns-895.awsdns-47.net
+#0.0.0.0 auth.gog.com
+#0.0.0.0 cfg.gog.com
+#0.0.0.0 users.gog.com
+#0.0.0.0 auth.gog.com
+#0.0.0.0 multiplayer.gog.com
+0.0.0.0 presence.gog.com
+#0.0.0.0 galaxy-client-update.gog.com
+#0.0.0.0 menu.gog.com
+# Changelog
+#0.0.0.0 embed.gog.com
+# Fonts
+0.0.0.0 fonts.googleapis.com
+#0.0.0.0 fonts.gstatic.com
+#0.0.0.0 www4-static2.gog.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 www.facebook.com
+# API + Images + Notifications + Chat
+#0.0.0.0 api.gog.com
+#0.0.0.0 www.google.com
+#0.0.0.0 images.gog.com
+#0.0.0.0 images-1.gog.com
+#0.0.0.0 images-2.gog.com
+#0.0.0.0 images-3.gog.com
+#0.0.0.0 images-4.gog.com
+0.0.0.0 hexagon-analytics.com
+0.0.0.0 notifications-pusher.gog.com
+0.0.0.0 notifications.gog.com
+#0.0.0.0 content-system.gog.com
+#0.0.0.0 chat.gog.com
+0.0.0.0 broker.gog.com
+0.0.0.0 chat-broker.gog.com
+
+# Electronic Arts Origin client
+0.0.0.0 159.153.110.47
+0.0.0.0 159.153.42.78
+0.0.0.0 159.153.166.132
+0.0.0.0 159.153.79.135
+0.0.0.0 109.200.221.170
+0.0.0.0 159.153.235.22
+0.0.0.0 gosnrtprod-qos01.ea.com
+0.0.0.0 gosprodapp0143.ea.com
+#0.0.0.0 heartbeat.dm.origin.com
+0.0.0.0 pin-river.data.ea.com
+0.0.0.0 pin-em.data.ea.com
+0.0.0.0 recommendations.tnt-ea.com
+0.0.0.0 c.go-mpulse.net
+0.0.0.0 2e33b7cf.mpstat.us
+0.0.0.0 river.data.ea.com
+0.0.0.0 gen4.reports.tools.gos.ea.com
+# Optional
+# This will break the chat and 'friends' feature from the client
+0.0.0.0 09b5a91c7f2d383e9.gs.ea.com
+0.0.0.0 0cf6c0df87dc9f73e.gs.ea.com
+0.0.0.0 friends.dm.origin.com
+0.0.0.0 chat.dm.origin.com
+0.0.0.0 groups.gameservices.ea.com
+#0.0.0.0 achievements.gameservices.ea.com
+#0.0.0.0 cloudsync-prod.s3.amazonaws.com
+#0.0.0.0 dl.dropbox.com
+0.0.0.0 stage.secure.download.dm.origin.com
+0.0.0.0 dirtybits.api.origin.com
+# Needed for login and origin downloads
+#0.0.0.0 origin-a.akamaihd.net
+#0.0.0.0 signin.ea.com
+#0.0.0.0 accounts.ea.com
+#0.0.0.0 secure.download.dm.origin.com
+#0.0.0.0 lvlt.cdn.ea.com
+#0.0.0.0 gateway.ea.com
+#0.0.0.0 origin-a.akamaihd.net
+# EA API's
+#0.0.0.0 api1.origin.com
+#0.0.0.0 api2.origin.com
+#0.0.0.0 api3.origin.com
+#0.0.0.0 api4.origin.com
+# Game infos & more
+#0.0.0.0 data1.origin.com
+#0.0.0.0 data2.origin.com
+#0.0.0.0 data3.origin.com
+#0.0.0.0 data4.origin.com
+
+# Ubisoft Launcher
+0.0.0.0 ns-1014.awsdns-62.net
+0.0.0.0 ns-1293.awsdns-33.org
+0.0.0.0 ns-1614.awsdns-09.co.uk
+0.0.0.0 ns-230.awsdns-28.com
+0.0.0.0 useast1-public.aws-ubiservices.ubi.com
+#0.0.0.0 lb-upc-dmx.ubisoft.com
+#0.0.0.0 public-ubiservices.ubi.com
+#0.0.0.0 ubistatic3-a.akamaihd.net
+#0.0.0.0 msr-api-ubiservices.ubi.com
+#0.0.0.0 ubisoft-avatars.akamaized.net
+#0.0.0.0 dmx.upc.ubisoft.com
+#0.0.0.0 connect.ubi.com
+# Cloudfront
+#0.0.0.0 d3c3cq33003psk.cloudfront.net
+# Game details and Shop
+#0.0.0.0 store.ubi.com
+#0.0.0.0 static8.cdn.ubi.com
+#0.0.0.0 data.ubi.com
+#0.0.0.0 ubistatic2-a.akamaihd.net
+# Usertracking
+0.0.0.0 metrics.ubi.com
+0.0.0.0 smetrics.ubi.com
+0.0.0.0 cdn.cquotient.com
+0.0.0.0 opentag-stats.qubit.com
+0.0.0.0 pixel.everesttech.net
+0.0.0.0 cm.everesttech.net
+0.0.0.0 sync-tm.everesttech.net
+0.0.0.0 ads.scorecardresearch.com
+0.0.0.0 ubisoftinternational.demdex.net
+0.0.0.0 newton.demdex.net
+0.0.0.0 dpm.demdex.net
+0.0.0.0 cdn.tagcommander.com
+0.0.0.0 fls.doubleclick.net
+# Newsletter
+#0.0.0.0 static2.cdn.ubi.com
+#0.0.0.0 t.news.ubisoft.com
+# Cloud save
+#0.0.0.0 ubisoft-uplay-savegames.s3.amazonaws.com
+
+# Valve / Steam
+0.0.0.0 crash.steampowered.com
+#::1 crash.steampowered.com
+#0.0.0.0 client-download.steampowered.com
+#0.0.0.0 partner.steamgames.com
+#0.0.0.0 cdn.highwinds.cs.steampowered.com
+0.0.0.0 video.steamstatic.com
+0.0.0.0 valve500.broadcast.steamcontent.com
+0.0.0.0 valve501.broadcast.steamcontent.com
+0.0.0.0 valve1600.broadcast.steamcontent.com
+0.0.0.0 valve1601.broadcast.steamcontent.com
+0.0.0.0 valve1600.chat.steamcontent.com
+0.0.0.0 valve1601.chat.steamcontent.com
+0.0.0.0 br4-fra1.broadcast.steamcontent.com
+
+# Server Lists
+#0.0.0.0 valve501.steamcontent.com
+#0.0.0.0 valve500.steamcontent.com
+#0.0.0.0 valve514.steamcontent.com
+#0.0.0.0 valve506.steamcontent.com
+#0.0.0.0 valve507.steamcontent.com
+#0.0.0.0 valve555.steamcontent.com
+#0.0.0.0 valve541.steamcontent.com
+#0.0.0.0 valve533.steamcontent.com
+#0.0.0.0 valve504.steamcontent.com
+#0.0.0.0 valve505.steamcontent.com
+#0.0.0.0 valve559.steamcontent.com
+#0.0.0.0 valve525.steamcontent.com
+#0.0.0.0 valve556.steamcontent.com
+#0.0.0.0 valve561.steamcontent.com
+#0.0.0.0 valve1601.steamcontent.com
+#0.0.0.0 valve518.steamcontent.com
+#0.0.0.0 valve560.steamcontent.com
+#0.0.0.0 valve566.steamcontent.com
+#0.0.0.0 valve520.steamcontent.com
+#0.0.0.0 valve554.steamcontent.com
+#0.0.0.0 valve558.steamcontent.com
+#0.0.0.0 valve531.steamcontent.com
+#0.0.0.0 valve552.steamcontent.com
+#0.0.0.0 valve562.steamcontent.com
+#0.0.0.0 valve523.steamcontent.com
+#0.0.0.0 valve535.steamcontent.com
+#0.0.0.0 valve567.steamcontent.com
+#0.0.0.0 valve536.steamcontent.com
+#0.0.0.0 valve548.steamcontent.com
+#0.0.0.0 valve532.steamcontent.com
+#0.0.0.0 valve542.steamcontent.com
+#0.0.0.0 valve959.steamcontent.com
+#0.0.0.0 valve539.steamcontent.com
+#0.0.0.0 valve563.steamcontent.com
+#0.0.0.0 valve565.steamcontent.com
+#0.0.0.0 valve564.steamcontent.com
+#0.0.0.0 valve543.steamcontent.com
+#0.0.0.0 valve526.steamcontent.com
+#0.0.0.0 valve537.steamcontent.com
+#0.0.0.0 valve557.steamcontent.com
+#0.0.0.0 valve515.steamcontent.com
+#0.0.0.0 valve547.steamcontent.com
+#0.0.0.0 valve519.steamcontent.com
+#0.0.0.0 valve516.steamcontent.com
+#0.0.0.0 valve521.steamcontent.com
+#0.0.0.0 valve540.steamcontent.com
+#0.0.0.0 valve502.steamcontent.com
+#0.0.0.0 valve165.steamcontent.com
+#0.0.0.0 valve553.steamcontent.com
+#0.0.0.0 valve530.steamcontent.com
+#0.0.0.0 valve538.steamcontent.com
+#0.0.0.0 valve508.steamcontent.com
+#0.0.0.0 valve529.steamcontent.com
+#0.0.0.0 valve509.steamcontent.com
+#0.0.0.0 valve550.steamcontent.com
+#0.0.0.0 valve544.steamcontent.com
+#0.0.0.0 valve512.steamcontent.com
+#0.0.0.0 valve546.steamcontent.com
+#0.0.0.0 valve545.steamcontent.com
+#0.0.0.0 valve524.steamcontent.com
+#0.0.0.0 valve164.steamcontent.com
+#0.0.0.0 valve511.steamcontent.com
+#0.0.0.0 valve528.steamcontent.com
+#0.0.0.0 valve517.steamcontent.com
+#0.0.0.0 valve503.steamcontent.com
+#0.0.0.0 valve522.steamcontent.com
+#0.0.0.0 valve510.steamcontent.com
+#0.0.0.0 valve956.steamcontent.com
+#0.0.0.0 valve513.steamcontent.com
+#0.0.0.0 valve950.steamcontent.com
+#0.0.0.0 valve1605.steamcontent.com
+#0.0.0.0 valve1604.steamcontent.com
+#0.0.0.0 valve401.steamcontent.com
+#0.0.0.0 valve954.steamcontent.com
+#0.0.0.0 valve1614.steamcontent.com
+#0.0.0.0 valve1603.steamcontent.com
+#0.0.0.0 valve1606.steamcontent.com
+#0.0.0.0 valve1615.steamcontent.com
+#0.0.0.0 valve400.steamcontent.com
+#0.0.0.0 valve1617.steamcontent.com
+#0.0.0.0 valve958.steamcontent.com
+#0.0.0.0 valve905.steamcontent.com
+#0.0.0.0 valve904.steamcontent.com
+#0.0.0.0 valve952.steamcontent.com
+#0.0.0.0 valve1612.steamcontent.com
+#0.0.0.0 valve1610.steamcontent.com
+#0.0.0.0 valve1618.steamcontent.com
+#0.0.0.0 valve1616.steamcontent.com
+#0.0.0.0 valve551.steamcontent.com
+#0.0.0.0 valve951.steamcontent.com
+#0.0.0.0 valve957.steamcontent.com
+#0.0.0.0 valve1613.steamcontent.com
+#0.0.0.0 valve1609.steamcontent.com
+#0.0.0.0 valve901.steamcontent.com
+#0.0.0.0 valve908.steamcontent.com
+#0.0.0.0 valve1607.steamcontent.com
+#0.0.0.0 valve900.steamcontent.com
+#0.0.0.0 valve953.steamcontent.com
+#0.0.0.0 valve906.steamcontent.com
+#0.0.0.0 valve907.steamcontent.com
+
+# Steam other servers (Dedicated etc)
+#0.0.0.0 CM02-LON.cm.steampowered.com
+#0.0.0.0 CM03-LON.cm.steampowered.com
+#0.0.0.0 CM01-LUX.cm.steampowered.com
+#0.0.0.0 cm01-lax.cm.steampowered.com
+#0.0.0.0 CM02-LUX.cm.steampowered.com
+#0.0.0.0 CM01-FRA.cm.steampowered.com
+#0.0.0.0 CM02-FRA.cm.steampowered.com
+#0.0.0.0 CM04-STO.cm.steampowered.com
+#0.0.0.0 cm02-iad.cm.steampowered.com
+#0.0.0.0 CM05-IAD.cm.steampowered.com
+
+# Steam Cloud & Client
+# Cloud save
+#0.0.0.0 cloud-3.steamusercontent.com
+#0.0.0.0 steamcloud-eu.storage.googleapis.com
+#0.0.0.0 steamcloudams.blob.core.windows.net
+#0.0.0.0 steamclouddub.blob.core.windows.net
+#0.0.0.0 steamclouduseast.blob.core.windows.net
+#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
+
+# Denuvo Software Solutions GmbH
+#0.0.0.0 srv01.codefusion.technology
+#0.0.0.0 srv02.codefusion.technology
+#0.0.0.0 srv03.codefusion.technology
+#0.0.0.0 support.codefusion.technology
+#0.0.0.0 ocsp2.globalsign.com
+#0.0.0.0 crl.globalsign.com
+
+# Kamu Game Security
+# Better known as Easy Anti-Cheat
+#0.0.0.0 download.eac-cdn.com
+#0.0.0.0 gossip.easyanticheat.net
+#0.0.0.0 hydra.easyanticheat.net
+
+# Old Watch
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 prod-lb.redshell.io
+
+# Faith of Danschant
+0.0.0.0 patch.swhx.wangyuan.com
+
+# 1997
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 notebook.xuehan.me
+
+# イリュージョン
+# プレイホーム
+0.0.0.0 up.illusion.jp
+
+# Носков Сергей
+# 35MM
+0.0.0.0 stats.unity3d.com
+
+# 5 Lives Studios
+# Satellite Reign
+0.0.0.0 icanhazip.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 mm.unet.unity3d.com auf Unityservern? ~.~
+
+# 7DOTS, Angry games & RuVN
+# Satellite
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# 11 Bit Studios
+# Anomaly Warzone Earth
+0.0.0.0 funkyserver2.11bitstudios.com
+0.0.0.0 www.11bitstudios.com
+0.0.0.0 11bitstudios.com
+
+# This War of Mine
+#0.0.0.0 api.babeltheproject.com
+# Misc Tracking
+#0.0.0.0 www.warchild.org.uk
+0.0.0.0 stripensrq.global.ssl.fastly.net
+0.0.0.0 m.stripe.network
+0.0.0.0 js.stripe.com
+0.0.0.0 insights.hotjar.com
+0.0.0.0 vars.hotjar.com
+0.0.0.0 script.hotjar.com
+
+
+# 18Light Game Ltd.
+# Behind the Screen
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# 1C Company
+# Ancestors Legacy
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Fall of Light
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Fear
+0.0.0.0 fear.available.gamespy.com
+#0.0.0.0 awsdns-hostmaster.amazon.com
+#0.0.0.0 ns-889.awsdns-47.net
+0.0.0.0 motd.gamespy.com
+
+# Off-Road Drive
+0.0.0.0 go.1c-softclub.ru
+0.0.0.0 files01.1csc.ru
+
+# 1C Company & 1C-Softclub
+# Men of War: Assault Squad
+0.0.0.0 www.digitalmindsoft.eu
+
+# 2D Boy
+# World of Goo
+0.0.0.0 173.236.227.51
+
+# 2K Games & 2K
+# Borderlands I & II
+0.0.0.0 Pre Sequel
+#0.0.0.0 cdn.services.gearboxsoftware.com
+#0.0.0.0 account.services.gearboxsoftware.com
+0.0.0.0 news.services.gearboxsoftware.com
+
+# Mafia III
+# You also can/need to delete Telemetry64.dll in the install dir
+0.0.0.0 0eaa48923bc27d93552bf100519bbf7b.my.2k.com
+0.0.0.0 88617557f1789a427b307e225b111db9.my.2k.com
+0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
+0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com
+
+# NBA 2K17
+0.0.0.0 nba2k17-ws.2ksports.com
+
+# Sid Meier's Ace Patrol & Pacific Skies
+0.0.0.0 www.take2games.com
+0.0.0.0 forums.2kgames.com
+
+# Spec Ops: The Line
+0.0.0.0 p.line.dev.2kgames.com
+
+# WWE 2016
+0.0.0.0 prod-win32-sp.wwe16.2ksports.com
+
+# WWE 2K17
+0.0.0.0 prod-win32-sp.wwe17.2ksports.com
+0.0.0.0 www.2k.com
+
+# 34BigThings srl
+# Redout: Enhanced Edition
+# unclear?!
+
+# 38 Studios & Electronic Arts
+# Kingdoms of Amalur: Reckoning
+#0.0.0.0 gosredirector.ea.com
+#0.0.0.0 501166-gosprapp1147.ea.com
+#0.0.0.0 gosiadprod-qos01.ea.com
+#0.0.0.0 gosgvaprod-qos01.ea.com
+#0.0.0.0 gossjcprod-qos01.ea.com
+#0.0.0.0 gos.ea.com
+
+# 38,9_Degrees
+# Forest Escape
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# 99 Game Studio
+# Bitcoin Tycoon Mining Simulation Game
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+
+# 505 Games
+# Abzû
+# unclear?!
+
+# Ember
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# 8-Bit Studio
+# Skara - The Blade Remains
+# Accounterstellung
+0.0.0.0 27d9.playfabapi.com
+
+# 9Heads Game Studios
+# Vitrum
+0.0.0.0 terror-project.no-ip.org
+
+# Act 3 Games, LLC
+# The Fidelio Incident
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Activision
+# Call of Duty: Black OPS III
+#0.0.0.0 ops3-pc-auth3.prod.demonware.net
+#0.0.0.0 ops3-pc-lobby.prod.demonware.net
+#0.0.0.0 prod.umbrella.demonware.net
+
+# Singularity
+#0.0.0.0 singularity-pc-live.auth.mmp3.demonware.net
+#0.0.0.0 singularity-pc-live.lsg.mmp3.demonware.net
+
+# Transformers™: Fall of Cybertron™
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+# Multiplayer
+#0.0.0.0 wfc2-pc-auth.prod.demonware.net
+#0.0.0.0 wfc2-pc-lobby.prod.demonware.net
+
+# Adriaan de Jongh
+# Hidden Folks
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Adult Swim Games
+# Volgarr the Viking
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# aeiowu
+# TumbleSeed
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 be3a2ea70ea68d04665ee5db91a73443.cloudfront.net
+
+# Agharta Studio
+# Shufflepuck Cantina Deluxe
+# #::1 30322
+# unclear?!
+
+# AGM Playism
+# Break Arts II
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Magical Battle Fiesta
+#0.0.0.0 fly-system.net
+#0.0.0.0 area-zero.net
+#0.0.0.0 www.souwer.net
+#0.0.0.0 www.akibaoo.com
+#0.0.0.0 www.melonbooks.co.jp
+#0.0.0.0 d-stage.com
+#0.0.0.0 www.w-canvas.com
+
+# Momodora: Reverie Under the Moonlight
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Murasaki
+# Wohl ehemalige Patchnotes. Seite ist nicht mehr existent. Adressen bereits verschachtelt im Configmenü aufgerufen
+0.0.0.0 members.jcom.home.ne.jp
+0.0.0.0 maintenance.zaq.ne.jp
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# One Way Heroics
+#0.0.0.0 silsec.sakura.ne.jp
+
+# Alawar Entertainment
+# Dark Angels: Masquerade of Shadows
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds2.steampowered.com
+
+# Alda Games
+# Band of Defenders
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api2.bod.aldagames.com
+
+# Alexander Byzov
+# Microcosmum: survival of cells
+0.0.0.0 gds4.steampowered.com
+
+# Alexey Glinskiy
+# DeepFear
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Alientrap
+# Apotheon
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Alister Software & Back to Basic Gaming
+# Star Chronicles: Delta Quadrant
+0.0.0.0 www.catchafallingstargame.com
+
+# Almost Human Games
+# Legend of Grimrock II
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Amanita Design
+# Samorost III
+0.0.0.0 airdownload2.adobe.com
+
+# Amplitude Studios
+# Dungeon of Endless
+0.0.0.0 Endless Legend
+0.0.0.0 forums.amplitude-studios.com
+
+# Andrii Vintsevych
+# Witch Hunt
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Angry Demon Studio
+# Unforgiving - A nothern Hymn
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Ankama Games
+# WAKFU
+0.0.0.0 dl.ak.ankama.com
+0.0.0.0 www.wakfu.com
+0.0.0.0 dispatch.platforms.wakfu.com
+0.0.0.0 80.239.173.150
+0.0.0.0 80.239.173.151
+0.0.0.0 api.ankama.com
+0.0.0.0 staticns.ankama.com
+
+# Annapurna Interactive
+# Gorogoa
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Antanas Marcelionis
+# The Howler
+0.0.0.0 howler.com
+0.0.0.0 www.howler.com
+
+# Apogee Software
+# Rise of the Triad 2013
+# unclear, it uses dropbox as storage
+
+# Arc System Works
+# Battle Fantasia -Revised Edition-
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Arcen Games, LLC
+# A valley without Wind I
+0.0.0.0 avww.s3.amazonaws.com
+0.0.0.0 master.arcengames.com
+
+# A valley without Wind II
+0.0.0.0 valley2.s3.amazonaws.com
+
+# Shattered Haven & Tidalis
+0.0.0.0 shattered.s3.amazonaws.com
+0.0.0.0 www.arcengames.com
+0.0.0.0 arcengames.com
+0.0.0.0 master.arcengames.com.asp1-12.dfw1-2.websitetestlink.com
+
+# Armnomads
+# Cubway
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 prd-lender.cdp.internal.unity3d.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 2fe707f3cc1dc569687bcdf81697e284.cloudfront.net
+0.0.0.0 852d9d8bb32e82e505d63b5dd4b1e6e1.cloudfront.net
+
+# Aspyr
+# >observer_
+0.0.0.0 gameguide3.aspyr.com
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 aspyr.com
+
+# Layers of Fear
+0.0.0.0 gameguide3.aspyr.com
+0.0.0.0 eauth.aspyr.com
+0.0.0.0 gg3-assets-stage.aspyr.com
+#0.0.0.0 hello.myfonts.net
+0.0.0.0 support.aspyr.com
+
+# Assemble Entertainment
+# Pizza Connection 3 inkl. GoG Schnüffelei
+# siehe Eintrag Good old Games
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.taiga.io
+
+# Astragon Entertainment GmbH
+# Fishing: Barents Sea
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Ropeway Simulator 2014
+0.0.0.0 gametracker.z-software.net
+#::1 gametracker.z-software.net
+
+# ATLUS USA
+# Rock of Ages II: Bigger & Boulder™
+0.0.0.0 aceteam.cl
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Rollers of the Realm
+0.0.0.0 api.gameanalytics.com
+
+# Auroch Digital
+# Chainsaw Warrior: Lords of the Night
+#0.0.0.0 static.squarespace.com
+0.0.0.0 www.darkfuture.info
+0.0.0.0 darkfutureblog.disqus.com
+0.0.0.0 aurochdigital.us7.list-manage2.com
+0.0.0.0 twemoji.maxcdn.com
+
+# Automaton
+# Deceit
+0.0.0.0 party-server-1003106365.ap-northeast-2.elb.amazonaws.com
+0.0.0.0 party-beta.automaton.uk
+0.0.0.0 playdeceit.com
+0.0.0.0 www.automaton.uk
+0.0.0.0 broker.gog.com
+
+# Autotelic Games LLC
+# Castle Clicker : Building Tycoon
+#0.0.0.0 s3.amazonaws.com
+0.0.0.0 flox.cc
+0.0.0.0 airdownload2.adobe.com
+
+# Avalanche Studios
+# The Hunter: Primal
+0.0.0.0 ava-backend.appspot.com
+
+# theHunter: Call of the Wild™
+0.0.0.0 tracking.avalanchestudios.com
+0.0.0.0 users.avalanchestudios.com
+#0.0.0.0 thp-social-dot-ava-backend.appspot.com
+0.0.0.0 appspot-preview.l.google.com
+0.0.0.0 conf.avalanchestudios.com
+
+# Axolot Games
+# Raft
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 analytics.cloud.unity3d.com
+
+# Back to basics Gaming
+# Ampersand
+0.0.0.0 gamejolt.com
+
+# Germ Wars
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 www.backtobasicsgaming.com
+0.0.0.0 static.parastorage.com
+0.0.0.0 frog.wix.com
+0.0.0.0 sslstatic.wix.com
+0.0.0.0 static.wixstatic.com
+0.0.0.0 www.powr.io:443
+#0.0.0.0 maxcdn.bootstrapcdn.com
+
+# BadWold Games
+# Attack Of Insects
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Bandai Namco Entertainment
+# Beware Planet Earth
+0.0.0.0 www.lightmare-studio.com
+
+# DARK SOULS™: REMASTERED
+#0.0.0.0 fhd-steam-prod.fromsoftware-game.net
+
+# Dark Souls II
+#0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
+0.0.0.0 54.149.135.90
+
+# Dark Souls III
+0.0.0.0 fdp-steam-ope-login.fromsoftware-game.net
+0.0.0.0 52.36.123.251
+#0.0.0.0 ocsp.msocsp.com
+
+# DeadCore
+0.0.0.0 api.gameanalytics.com
+
+# Dragon Ball Xenoverse II
+#0.0.0.0 steam.dbxv.jp
+
+# Sword Art Online: Fatal Bullet
+# SAOFB_Launcher.exe
+# Denuvo und Hydra
+
+# Tales of Berseria
+# Denuvo DRM
+
+# Tales of Symphonia
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Tales of Zestiria
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Tekken VII
+# Denuvo DRM
+
+# Battenberg Software
+# On a Roll 3D
+0.0.0.0 www.battenbergsoftware.com
+
+# Batterystaple Games
+# 20XX
+0.0.0.0 gds4.steampowered.com
+
+# BCH waves studio
+# Sisters in hotel
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Beijing New Era Network Technology Co., Ltd.
+# 红石遗迹 - Red Obsidian Remnant
+0.0.0.0 time.is
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 c735fa223fb16fb135c387781f0fadf6.cloudfront.net
+
+# Bethesda / ID Softworks
+# Dishonored II
+# Denuvo DRM
+
+# Doom 2016
+#0.0.0.0 services.bethesda.net #52.222.156.66f
+#0.0.0.0 fra-stm.zionprod.systems
+#0.0.0.0 dfw-stm.zionprod.systems
+#0.0.0.0 dprgzy9nea5ev.cloudfront.net
+#0.0.0.0 dfw-gobbler.doom.amok.systems
+#0.0.0.0 prod-iadstm01-gateway1-cf.zionprod.systems
+#0.0.0.0 prod-sydstm01-gateway2-cf.zionprod.systems
+#0.0.0.0 us-east-1-prod-iadstm01-httpping.zionprod.systems
+#0.0.0.0 us-west-2-prod-pdxstm01-httpping.zionprod.systems
+#0.0.0.0 ap-southeast-2-prod-sydstm01-httpping.zionprod.systems
+
+# Fallout IV & Skyrim: Special Edition
+# mods.* wird für bethesda.net Accountanmeldung benötigt
+0.0.0.0 mods.bethesda.net
+#0.0.0.0 mods.services.bethesda.net
+#0.0.0.0 services.bethesda.net
+# Use Nexus/client instead of this and Loverslab
+
+# Prey 2017
+# s. Denuvo 
+# unclear?!
+
+# Rage
+0.0.0.0 gds4.steampowered.com
+
+# Big Fat Alien
+# Beep
+0.0.0.0 eqlauncher.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Big Fat Simulations Inc.
+# Airport Madness 4
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 airdownload2.adobe.com
+0.0.0.0 www.bigfatsimulations.com
+
+# Big Sandwich Games
+# Hoard
+#0.0.0.0 gds1.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+
+# Bigben Interactive
+# Sherlock Holmes: The Devil's Daughter
+# Denuvo
+0.0.0.0 mc.frogwares.com
+0.0.0.0 frogwares.com
+
+# Bit Planet Games, LLC
+# The Battle of Sol
+0.0.0.0 thebattleofsol.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Bitbox S.L.
+# Scourge: Outbreak
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# BKOM Studios
+# Tales from Candlekeep: Tomb of Annihilation
+0.0.0.0 live-collect-1709264271.us-east-1.elb.amazonaws.com
+0.0.0.0 35.153.163.44
+0.0.0.0 34.227.35.80
+0.0.0.0 52.45.142.230
+0.0.0.0 crl.sca1b.amazontrust.com
+0.0.0.0 ocsp.sca1b.amazontrust.com
+0.0.0.0 crl.rootca1.amazontrust.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 gameanalytics.com
+0.0.0.0 freegameanalytics.com
+
+# Black Dog Publishing
+# Tales from the Void
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 script.google.com
+0.0.0.0 script.googleusercontent.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Black Forest Games
+# Giana Sisters: Twisted Dreams
+0.0.0.0 ds.blackforestgames.net
+
+# Black Maple Games
+# Craft the World
+# Twitter, Facebook
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 itunes.apple.com
+
+# Blazing Griffin LTD.
+# + Facebook, Twitter, Google/maps
+# Gentlemen!
+0.0.0.0 luckyframe.co.uk
+
+# The Ship
+0.0.0.0 68.142.72.250
+0.0.0.0 68.142.88.34
+0.0.0.0 69.28.151.178
+0.0.0.0 69.28.153.82
+0.0.0.0 207.173.177.11
+
+# Blaiz Entertainment
+# Fluffy
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Blizzard
+# Diablo III
+#0.0.0.0 80.239.210.154
+#0.0.0.0 eu.actual.battle.net
+#0.0.0.0 eu.launcher.battle.net
+#0.0.0.0 EU.depot.battle.net
+
+# Overwatch
+#0.0.0.0 37.244.21.230
+#0.0.0.0 eu.actual.battle.net
+#0.0.0.0 eu.battle.net
+
+# Bluehole, Inc.
+# Player Unknown's Battleground
+#0.0.0.0 prod-live-front.playbattlegrounds.com
+#0.0.0.0 front.battlegroundsgame.com
+#0.0.0.0 j9t5h48n24.execute-api.us-west-2.amazonaws.com
+
+# Blue Isle Studios
+# Citadel: Forged with Fire
+0.0.0.0 blueislestudios.com
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Blueline Games
+# Khet 2.0 & Reversi
+0.0.0.0 bluelinegamestudios.com
+
+# Blue Mammoth Games
+# Brawlhalla
+0.0.0.0 airdownload2.adobe.com
+#0.0.0.0 199.229.253.200
+
+# Bohemia Interactive
+# Arma Tactics
+0.0.0.0 collect5588rmtct.deltadna.net
+
+# Boogygames Studios
+# Solitaire - Cat Pirate Portrait
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Born Ready Games
+# Strike Suite Infinity
+0.0.0.0 Zero
+0.0.0.0 Directors Cut
+0.0.0.0 fnt.webink.com
+0.0.0.0 gdata.youtube.com
+0.0.0.0 strikesuitzero.com
+0.0.0.0 www.strikesuitzero.com
+
+# Brainbox Software
+# Dragon's Wake
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Brilliant Game Studios
+# Ultimate Epic Battle Simulator
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# BRHP
+# Stop Online - Battle of Words
+0.0.0.0 208.43.97.35
+#0.0.0.0 steamcdn-a.akamaihd.net
+
+# Clergy Splode
+0.0.0.0 pigravity.indieis.me
+
+# Escape Machines
+0.0.0.0 em-mintage-1.appspot.com
+
+# Brightrock Games
+# War for the Overworld
+# GoG ist für Crossplay?
+0.0.0.0 wftogame.com
+0.0.0.0 stats.unity3d.com
+0.0.0.0 stats.static.unity3d.com
+#0.0.0.0 users.gog.com
+#0.0.0.0 auth.gog.com
+
+# BTNcafe
+# Mold on Pizza
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 mopdserver.btncafe.com
+
+# Buddy Productions GmbH
+# Bud Spencer & Terence Hill - Slaps And Beans
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+
+# Bulkhead Studios Corporation
+# Lightrise
+0.0.0.0 api.kii.com
+0.0.0.0 irc.gamesurge.net
+
+# Bullid Games
+# Ninja Way
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Butterscotch Senanigans
+# Crashlands Gamemaker Spiel
+# + Amazonaws, Quantserve, Google, Google Analytics, GStatic, GoogleTagManager, Bandcamp, Imgix Anbindung
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 id.bscotch.net
+#0.0.0.0 bit.ly
+0.0.0.0 www.crashlands.net
+0.0.0.0 s4.bcbits.com
+
+# Capcom
+# Resident Evil VII
+0.0.0.0 game.residentevil.net
+
+# Cats Who Play
+# The Cat! Porfirio's Adventure
+0.0.0.0 gds4.steampowered.com
+
+# Carlos Coronado
+# Infernium
+0.0.0.0 datarouter.ol.epicgames.com
+# Optional mit Twitchanbindung
+0.0.0.0 irc.chat.twitch.tv
+0.0.0.0 twitchapps.com
+#0.0.0.0 infernium.wikia.com
+
+# CD PROJEKT RED
+# The Witcher Adventure Game
+# GoG Adressen können bei Bedarf abgeschaltet werden
+#0.0.0.0 auth.gog.com
+#0.0.0.0 users.gog.com
+0.0.0.0 presence.gog.com
+#0.0.0.0 multiplayer.gog.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 cdprojektred.com
+#0.0.0.0 static.cdprojektred.com
+#0.0.0.0 www.canexplode.com
+#0.0.0.0 thewitcher.com
+#0.0.0.0 buy.thewitcher.com
+0.0.0.0 rs.gwallet.com
+
+# Charyb Games
+# Take Thy Throne
+0.0.0.0 charyb.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 api.steampowered.com
+0.0.0.0 widgets.gamejolt.com
+0.0.0.0 indiegamestand.com
+0.0.0.0 www.charyb.com
+#0.0.0.0 www.youtube.com
+
+# Chasing Carrots
+# Pressure Overdrive
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Chucklefish
+# Stardew Valley
+0.0.0.0 blog.chucklefish.org
+0.0.0.0 www.stardewvalley.net
+#0.0.0.0 www.humblebundle.com
+#0.0.0.0 humblebundle-a.akamaihd.net
+0.0.0.0 www.playstarbound.com
+0.0.0.0 starbound.disqus.com
+
+# CI Games
+# Alien Rage - Unlimited
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Sniper Ghost Warrior III
+# Denuvo DRM
+
+# Clickteam
+# Clickteam Fusion 2.5
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 oogaboogawooga.clickteam.com
+
+0.0.0.0 indiegames.clickteam.com
+0.0.0.0 clickstore.clickteam.com
+0.0.0.0 startpane.clickteam.com
+
+# Cloudcade, Inc.
+# Shop Heroes
+0.0.0.0 status-sh.cloudcade.com
+#0.0.0.0 shopheroes-1.cloudcade.com
+#0.0.0.0 cdn.cloudcade.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 shopheroes-data.storage.googleapis.com
+0.0.0.0 forum.shopheroesgame.com
+
+# CoaguCo Industries
+# The Dope Game
+#0.0.0.0 coaguco.com
+
+# Codemasters
+# Grid II
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 prod.egonet.codemasters.com
+
+# Codename Entertainment Inc.
+# Crusaders of The Lost Idols
+#0.0.0.0 idlemaster.djartsgames.ca
+#0.0.0.0 idle.djartsgames.ca
+0.0.0.0 airdownload2.adobe.com
+
+# Idle Champions of the Forgotten Realms
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+#0.0.0.0 master.idlechampions.com
+#0.0.0.0 ps1.idlechampions.com
+#0.0.0.0 ps2.idlechampions.com
+0.0.0.0 help.idlechampions.com
+
+# Code Horizon
+# Gold Rush: The Game
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Coffee Stain Publishing
+# Goat Simulator
+# Twitter, Bit.ly, Facebook
+0.0.0.0 newsfeed.coffeestainstudios.com
+0.0.0.0 www.welovefine.com
+0.0.0.0 forfansbyfans.com
+
+0.0.0.0 shop.spreadshirt.com
+0.0.0.0 22f9d241.akstat.io
+0.0.0.0 578378.spreadshirtsandbox.comiframe
+0.0.0.0 c.go-mpulse.net
+
+# Coldwild Games
+# Lazy Galaxy
+0.0.0.0 68.66.240.87
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+
+# Deep Rock Galactic
+0.0.0.0 api.stathat.com
+
+
+# Cold Beam Games
+# Beat Hazard
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 ocsp.msocsp.com
+0.0.0.0 ws.audioscrobbler.com
+
+# Crackshell
+# Heroes of Hammerwatch
+#0.0.0.0 auth.gog.com
+#0.0.0.0 users.gog.com
+0.0.0.0 notifications-pusher.gog.com
+0.0.0.0 notifications-pusher-server-4.gog.com
+#0.0.0.0 multiplayer.gog.com
+
+# Crazy Monkey Studios
+# Guns, Gore & Cannoli
+
+
+# Guns, Gore and Cannoli 2
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+
+# Creative Freaks Inc.
+# Gochi-Show!
+0.0.0.0 133.18.20.101
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Crema
+# Immortal Redneck
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 quiet-escarpment-63845.herokuapp.com
+#0.0.0.0 irc.twitch.tv
+
+# Crimson Duck Studios
+# Torch Cave I, II & Slengster
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# CryTek
+# Hunt: Showdown
+# hunt.exe
+# Easy Anti-Cheat
+# GameLauncher.exe
+0.0.0.0 ocsp.godaddy.com
+#0.0.0.0 hup.www.vivox.com
+#0.0.0.0 capi1-lv-lw-wc.huntshowdown.com
+#0.0.0.0 proxy.hup.vivox.com
+#0.0.0.0 70.42.62.134
+#0.0.0.0 feedback.huntshowdown.com
+
+# Curious Panda Games
+# Rhythm Desctruction
+# Statistikabfragen für Highscorelisten & komplett mitgesendeter Newsfeed
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 www.rhythmdestruction.com
+
+# Curve Digital
+# Human: Fall flat
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 stats.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Serial Cleaner
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 freegeoip.net
+0.0.0.0 api.darksky.net
+
+# CWH Entertainment
+# NEONomicon
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# D3 PUBLISHER
+# SG/ZH: School Girl/Zombie Hunter
+0.0.0.0 52.203.126.30
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
+
+# Daedalic Entertainment
+# Die CGPromotions bei Daedalic Spielen sind für Ingamewerbung zuständig und können blockiert werden
+# Bounty Train
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 public.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cgpromotion.blob.core.windows.net
+
+# Deponia und Deponia: The Complete Journey
+0.0.0.0 cgpromotion.azurewebsites.net
+0.0.0.0 cgpromotion.blob.core.windows.net
+
+# Holy Potatoes! We’re in Space?!
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Holy Potatoes! What the Hell?!
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Ken Follett's The Pillars of the Earth
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 cgpromotion.azurewebsites.net
+0.0.0.0 cgpromotion.blob.core.windows.net
+
+# Long Journey Home
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Shadow Tactics: Blades of the Shogun
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cgpromotion.blob.core.windows.net
+
+# Silence
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# David Wehle
+# The first Tree
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Deck13 & WhisperGames
+# Wartile
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Deep Silver
+# Agents of Mayhem
+#0.0.0.0 ocsp.comodoca.com
+0.0.0.0 production.connected.dsvolition.com
+0.0.0.0 172.28.195.1
+
+# Dead Island Retro Revenge
+0.0.0.0 gds4.steampowered.com
+
+# Saints Row IV
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 sr3.hydra.agoragames.com
+
+# Trainz: A new era
+#0.0.0.0 itrainz.auran.com
+#0.0.0.0 api.n3vgames.com
+0.0.0.0 www.auran.com
+0.0.0.0 images.n3vgames.com
+0.0.0.0 dlcdownload.trainzportal.com
+
+# DeerFarm
+# Shikhondo食魂徒 - Soul Eater
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Defiant Development
+# Hand of Fate I
+0.0.0.0 public.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# Hand of Fate II
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.gameanalytics.com
+
+# Degica
+# Castle of Shikigami 式神の城
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# RPGMaker VX Ace
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Shmups Skill Test シューティング技能検定
+#0.0.0.0 steamcloudlrsuswest.blob.core.windows.net
+
+# XIIZEAL
+0.0.0.0 gds4.steampowered.com
+
+# Devolver Digital
+# Enter the Gungeon
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Serious Sam Fusion 2017
+0.0.0.0 ingame.serioussam.com
+0.0.0.0 g83f81g8j8.execute-api.us-west-2.amazonaws.com
+
+# Shadow Warrior II
+#0.0.0.0 multiplayer.gog.com Server
+#0.0.0.0 notifications-pusher.gog.com
+#0.0.0.0 users.gog.com
+#0.0.0.0 auth.gog.com
+
+# Stories Untold
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Digerati Distribution
+# The Coma: Recut
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 prd-lender.cdp.internal.unity3d.com
+0.0.0.0 2fe707f3cc1dc569687bcdf81697e284.cloudfront.net
+0.0.0.0 852d9d8bb32e82e505d63b5dd4b1e6e1.cloudfront.net
+
+# Monster Slayers
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Slain: Back from Hell
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Digital Confectioners
+# Depth
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 cloud-3.steamusercontent.com
+#0.0.0.0 www.depthgame.com
+0.0.0.0 54.186.89.193
+#0.0.0.0 depthdropmaster.us-west-2.elasticbeanstalk.com
+#0.0.0.0 depthquestsserver-live.h2npnkkxe2.us-west-2.elasticbeanstalk.com
+
+# Dinosaur Polo Club
+# Mini Metro
+
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 dinopoloclub.com
+#0.0.0.0 api.dinopoloclub.com
+
+# Disney Interactive
+# Disney Epic Mickey II
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Tron: Evolution
+0.0.0.0 go.microsoft.com
+0.0.0.0 download.gfwl.xboxlive.com
+0.0.0.0 download.microsoft.com
+0.0.0.0 ocsp.verisign.com
+
+# DNZY Games
+# Zombie Wars: Invasion
+0.0.0.0 gds4.steampowered.com
+
+# DotEmu
+# Pang
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# DOT Entertainment
+# Undead
+# Unity Engine Telemetry
+0.0.0.0 kirmizinoktaproduction.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Double Coconut, WhisperGames
+# Parallyzed
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 3664cc1fd21a07e55327a9c256fa758a.cloudfront.net
+0.0.0.0 fc3a4fa8a6bf80fc624a0bc082bb5b4e.cloudfront.net
+
+# Double Eleven
+# Pixel Junk™ Monsters Ultimate
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Pixel Junk™ Shooter Ultimate
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# DreamGate
+# Steampunk Tower 2
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+
+# DreamRoad Productions
+# Radar Warfare
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Dry Cactus
+# Golem Gates
+#0.0.0.0 cardrts-backend.laserguidedgames.com
+
+# Poly Bridge
+0.0.0.0 public.cloud.unity3d.com
+0.0.0.0 stats.drycactus.com
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# DryGin Studios
+# Bio Inc. Redemption
+# Nachfrage wurde ingnoriert/gelöscht
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 aws.dryginstudios.com
+
+0.0.0.0 174.142.76.237
+0.0.0.0 www.dryginstudios.com
+
+# Ductape studio
+# Summer Sale
+0.0.0.0 et2.epicgames.com
+
+# Dylan Fitterer
+# AudioSurf
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+0.0.0.0 www.audio-surf.com
+0.0.0.0 www.audiosurfthegame.com
+
+# Eduard Bulashov & AEY Inc.
+# Bloody Boobs
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+
+# Eastsidegamestudio.com
+# High Profits
+0.0.0.0 mentor.eastsidegamestudio.com
+#::1 mentor.eastsidegamestudio.com
+
+# Electronic Arts
+# ActivationUI.exe
+#0.0.0.0 proxy.novafusion.ea.com
+
+# Crysis I
+0.0.0.0 www.ea.com
+#0.0.0.0 proxy.novafusion.ea.com
+
+# Crysis II
+#0.0.0.0 proxy.novafusion.ea.com
+#0.0.0.0 lb.crysis2.ea.com
+
+# DragonAge: Inquisition
+# Online server checks and server lists
+#0.0.0.0 gosprodfeapp0318.ea.com
+#0.0.0.0 spring14.gosredirector.ea.com
+#prd.orbit.bos.ea.com
+#qos-prod-bio-dub-common-common.gos.ea.com
+#qos-prod-m3d-nrt-common-common.gos.ea.com
+#qos-prod-m3d-brz-common-common.gos.ea.com
+#qos-prod-bio-syd-common-common.gos.ea.com
+#qos-prod-bio-sjc-common-common.gos.ea.com
+#qos-prod-bio-iad-common-common.gos.ea.com
+#0.0.0.0 emapi.prm.data.ea.com
+
+# Mass Effect: Andromeda
+#0.0.0.0 winter15.gosredirector.ea.com
+#0.0.0.0 me4prodfeapp0002.ea.com
+#0.0.0.0 me4prodfeapp0014.ea.com
+#0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
+#0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
+#0.0.0.0 qos-prod-bio-syd-common-common.gos.ea.com
+#0.0.0.0 mea-public.biowareonline.net
+#0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
+#0.0.0.0 gosca.ea.com
+
+# Sims 4
+#0.0.0.0 eaassets-a.akamaihd.net
+#0.0.0.0 sims4cdn.ea.com
+#0.0.0.0 159.153.74.8
+#0.0.0.0 159.153.79.9
+#0.0.0.0 www.thesims.com
+#0.0.0.0 adsrv-sims4.ea.com
+#0.0.0.0 gosca.ea.com
+
+# StarWars™: Battlefront™
+#0.0.0.0 proxy.novafusion.ea.com
+#0.0.0.0 emapi.prm.data.ea.com
+#0.0.0.0 716931-gosprapp1651.ea.com
+0.0.0.0 swbf1-terminator.ops.dice.se
+#0.0.0.0 eaassets-a.akamaihd.net
+#0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
+#0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
+#0.0.0.0 qos-prod-m3d-nrt-common-common.gos.ea.com
+#0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
+#0.0.0.0 winter15.gosredirector.ea.com
+
+# Empty Clip Studios
+# Symphony
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 leaderboards.symphonygame.com
+0.0.0.0 symphonyleaderboards.cloudapp.net
+
+# Entrada Interactive LLC
+# Miscreated
+# EasyAntiCheat
+#0.0.0.0 34.248.147.236
+#0.0.0.0 52.209.117.231
+#0.0.0.0 52.210.44.74
+#0.0.0.0 209.50.52.127
+#0.0.0.0 download-eu.eac-cdn.com
+# Gameserver
+#0.0.0.0 hosted-by.i3d.net
+
+# Epic Games
+# Unreal Tournament III: Black Edition
+#0.0.0.0 u3.epicgames.com
+#0.0.0.0 ut3pc.sake.gamespy.com
+0.0.0.0 ut3pc.auth.pubsvs.gamespy.com
+
+# Unreal Engine
+0.0.0.0 epicleaderboard.com
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 etsource.epicgames.com
+0.0.0.0 et2.epicgames.com
+
+# ErayTek
+# Time in Time
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Event Horizon
+# Tower of Time
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 api.trello.com und UnityAnalytics Ersatz
+#0.0.0.0 trello-attachments.s3.amazonaws.com
+
+# Evil Twin Artworks
+# Victory At Sea
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Examined Interactive
+# Ping
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Faber Interactive
+# Lethe - Episode One
+0.0.0.0 et.epicgames.com
+
+# Fatbot Games, s. r. o.
+# Vaporum
+0.0.0.0 fatbotsvc.azurewebsites.net
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Fatshark
+# Warhammer: End Times - Vermintide
+#0.0.0.0 auth-prod-ext.fatshark.deltamanagement.se
+#0.0.0.0 data-prod-ext.fatshark.deltamanagement.se
+#0.0.0.0 em-prod-ext.fatshark.deltamanagement.se
+#0.0.0.0 item-prod-ext.fatshark.deltamanagement.se
+0.0.0.0 ftp.fatshark.se
+0.0.0.0 helpdesk.fatshark.se
+0.0.0.0 patch.fatsharkgames.com
+0.0.0.0 support.jitbit.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 www.vermintide.com
+
+# Warhammer: Vermintide II
+0.0.0.0 api.redshell.io
+#0.0.0.0 5107.playfabapi.com
+0.0.0.0 patch.fatshark.se
+0.0.0.0 ftp.fatshark.se
+0.0.0.0 cdn.fatsharkgames.se
+0.0.0.0 sv.symcd.come
+
+# FireFly Studios
+# Stronghold Crusader II
+0.0.0.0 login.strongholdkingdoms.com
+
+# Flamebait Games
+# Passpartout: The Starving Artist
+0.0.0.0 flamebaitgames.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 static.doubleclick.net
+
+# Flat Earth Games
+# Towncraft
+# Spiel und Webseite/n
+0.0.0.0 gds1.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 d3spquiph2sexc.cloudfront.net
+0.0.0.0 capture.trackjs.com
+0.0.0.0 usage.trackjs.com
+0.0.0.0 ih0.redbubble.net
+0.0.0.0 www.redbubble.com
+0.0.0.0 www.flatearthgames.com.au
+
+# Focus Home Entertainment
+# Battlefleed Gothic: Armada
+#0.0.0.0 api.stormancer.com
+#0.0.0.0 bfg1.stormancer.com
+0.0.0.0 bfg2.stormancer.com
+0.0.0.0 etsource.epicgames.com
+
+# Blood Bowl: Chaos Edition
+#0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+0.0.0.0 bble1.cyanide-studio.com
+
+# Bound by Flame
+#0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+
+# Cities XXL
+#0.0.0.0 gds4.steampowered.com
+
+# Contrast
+#0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+
+# Etherium
+# checking also own router port :49000
+#0.0.0.0 checkip.dyndns.org
+#0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+#0.0.0.0 api.steampowered.com
+
+# Farming Simulator 2013
+# inlusive many tracking stuff on their website
+#0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+0.0.0.0 www.farming-simulator.com
+0.0.0.0 media.farming-simulator.com
+#0.0.0.0 ssl.gstatic.com
+
+# Final Exam
+#0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+
+# Teddy Floppy Ear: Kayaking & Teddy Floppy Ear: Mountain Adventure
+0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+0.0.0.0 games.forever-entertainment.com
+0.0.0.0 teddyfloppyear.forever-entertainment.com
+
+# The Technomancer
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Timberman
+#0.0.0.0 gds2.steampowered.com
+#0.0.0.0 gds4.steampowered.com
+
+# Vampyr
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Foot in the Box, LLC
+# Alchemist Penguin
+0.0.0.0 gds4.steampowered.com
+
+# For Kids
+# Fluffy Friends
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# My little worms
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Temple Escape
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Vampires!
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Z Runaway
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Frogames
+# Cosmophony
+0.0.0.0 www.bento-studio.com
+#0.0.0.0 static1.squarespace.com
+
+# Penguins Arena: Sedna's World
+# + Facebook
+0.0.0.0 farabel.com
+0.0.0.0 www.frogames.com
+0.0.0.0 itch.io
+0.0.0.0 img.itch.io
+0.0.0.0 static.itch.io
+
+# Frogmind
+# BADLAND: Game of the Year Edition
+# Twitter, Facebook
+#0.0.0.0 s3.amazonaws.com
+0.0.0.0 aws.amazon.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Frontier Developments
+# Elite Dangerous
+#0.0.0.0 api.zaonce.netzeit & Check der Clientversion, Userlogin mitsamt Zeitstempel
+#0.0.0.0 hosting.zaonce.net
+#0.0.0.0 launcher-4586754895.elitedangerous.com
+#0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com der News
+#0.0.0.0 cdn.zaonce.net
+#0.0.0.0 api.orerve.netschnittstelle
+
+# Jurassic World Evolution
+# Denuvo DRM
+0.0.0.0 coeus.zaonce.net
+
+# LostWinds & LostWinds 2: Winter of the Melodias
+#0.0.0.0 api.zaonce.net
+
+# Planet Coaster
+#0.0.0.0 www.frontierstore.ne
+# Denuvo DRM
+#0.0.0.0 api.gulpeyrex.com
+0.0.0.0 t.trackedlink.net
+
+# Fruitbat Factory
+# 100% Orange Juice
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Sora
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Forever Entertainment S.A.
+# Cat on a Diet
+0.0.0.0 www.facebook.com
+
+# Hollow
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Millie
+0.0.0.0 games.forever-entertainment.com
+0.0.0.0 developer.android.com
+0.0.0.0 forever-entertainment.com
+
+# Rift Coaster HD Remastered VR
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Sparkle II Evo
+0.0.0.0 www.mateuszskutnik.com
+0.0.0.0 www.pastelgames.com
+0.0.0.0 www.madman-games.com
+0.0.0.0 madman-games.com
+0.0.0.0 img.sedoparking.com
+0.0.0.0 forever-entertainment.com
+
+# The Mahjong Huntress
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# For Kids
+# Feeding the Monster
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Fox Dawn
+# Clicker Guild
+#0.0.0.0 EFDE.playfabapi.com
+
+# Funcom
+# Conan Exiles
+# Redshell (now got removed)
+# Denuvo DRM
+# Conansandbox
+#0.0.0.0 dl.conanexiles.com
+# Ingame Help
+#0.0.0.0 www.conanexiles.com
+0.0.0.0 script.crazyegg.com
+#0.0.0.0 fonts.gstatic.com
+0.0.0.0 gtrk.s3.amazonaws.com
+0.0.0.0 95.101.82.74
+
+Secret World Legends
+# SecretWorldLegendsDX11.exe
+#0.0.0.0 msgs.ageofconan.com
+#0.0.0.0 controlhttppatchaddr.secretworld.com
+#0.0.0.0 patcherbanner.thesecretworld.com
+#0.0.0.0 cdn.funcom.com Grafiken
+#0.0.0.0 update.secretworld.com
+#0.0.0.0 um.live.secretworldlegends.com
+#0.0.0.0 chat.live.secretworldlegends.com
+# Onlineserver und Googlecrap
+#0.0.0.0 dm02-nj4.secretworld.com
+#0.0.0.0 gs022-nj4.secretworld.com
+#0.0.0.0 gs034-nj4.secretworld.com
+#0.0.0.0 gs035-nj4.secretworld.com
+#0.0.0.0 gs039-nj4.secretworld.com
+#0.0.0.0 www.google.com
+0.0.0.0 support.google.com
+0.0.0.0 sb-ssl.google.com
+#0.0.0.0 ssl.gstatic.com
+0.0.0.0 safebrowsing.clients.google.com
+
+# Gearbox Publishing
+# Bulletstorm: Full Clip Edition
+# Denuvo DRM
+
+# Ghostlight LTD
+# Sorcery Saga: Curse of the Great Curry God
+0.0.0.0 gds4.steampowered.com
+
+# Goblinz Studio & WhisperGames
+# Dungeon Rushers: Crawler RPG
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 marketing.dungeon-rushers.com
+#0.0.0.0 nodeserver.dungeon-rushers.com
+#0.0.0.0 i.imgur.com
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# Good Games
+# The World II: Hunting BOSS
+# Steam Version aufgegeben
+0.0.0.0 logrecord.world2.good321.net
+
+# Good Shepherd Entertainment
+# Breach & Clear: Deadline Rebirth 2016
+0.0.0.0 www.mightyrabbitstudios.com
+0.0.0.0 104.236.43.159
+
+# Oh...Sir! The Hollywood Roast
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 1136b0fc7377c6211173282a3992a814.cloudfront.net
+0.0.0.0 63db28734e1b9429c04087abd41a1692.cloudfront.net
+0.0.0.0 4212187803e21d93459a7f54ccbb680a.cloudfront.net
+
+# Redemeer
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Zombie Night Terror
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 script.google.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Gravity Interactive
+# Ragnarok Clicker
+0.0.0.0 api.gameanalytics.com
+#::1 api.gameanalytics.com
+0.0.0.0 live-collect-1709264271.us-east-1.elb.amazonaws.com
+#::1 live-collect-1709264271.us-east-1.elb.amazonaws.com
+
+# Green Man Gaming Publishing
+# War Tech Fighters
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Grimm Bros, LLC
+# Dragon Fin Soup
+# Twitter, Youtube, Facebook, Googlevideo
+0.0.0.0 scores.grimm-bros.com
+0.0.0.0 dragonfinsoup.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Grinding Gear Games
+# Path of Exile inkl. Steam Version
+#0.0.0.0 146.0.234.229
+#0.0.0.0 159.122.82.219
+#0.0.0.0 usp01.pathofexile.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 fra.login.pathofexile.com
+#0.0.0.0 fra2.login.pathofexile.com
+#0.0.0.0 fra3.login.pathofexile.com
+#0.0.0.0 www.pathofexile.com
+#0.0.0.0 webcdn.pathofexile.com
+#0.0.0.0 patch3.pathofexile.com
+
+# GSC Game World
+Cossacks III + Config
+# Registrierung auf einem Hetzner Server, Facebookanbindung
+0.0.0.0 138.201.198.174
+0.0.0.0 www.cossacks3.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Guerrilla Bandit
+# ZombieRun
+# Java required -> fail
+0.0.0.0 www.java.com
+
+# Gun Media
+# Friday the 13th: The Game
+# Verbindungen von EAC_Launcher.exe & Summercamp.exe
+# EasyAntiCheat
+0.0.0.0 34.240.116.248
+0.0.0.0 52.208.56.5
+0.0.0.0 52.212.107.188
+0.0.0.0 54.72.196.97
+#0.0.0.0 steam.f13-services.illfonic.com
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Hammerfist Studios ist nun Neko Climax Studios
+# Deep Space Waifu
+# Youtube, Facebook, GGPHT, GStatic
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Deep Space Waifu: Justice
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# Hammer Glass Studio
+# Ruzar - The Life Stone
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Happinet
+# Hyakki Castle
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Harebrained Holdings
+# Shadowrun Returns
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds3.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Haydee Interactive
+# Haydee
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# He Saw
+# Blue Estate
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Headless Wizard
+# Blood Streets
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Hellbent Games
+# Wick
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# HeroCraft
+# Marble Duel
+0.0.0.0 evy.herocraft.com
+0.0.0.0 www.msftncsi.com
+
+# Tempest
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Strategy & Tactics: Wargame Collection
+0.0.0.0 gamestats.herocraft.com
+0.0.0.0 statistics.herocraft.com
+
+# Warhammer 40.000: Space Wolf
+#0.0.0.0 pc-spacewolf.trafficmanager.net
+0.0.0.0 stats.unity3d.com
+#0.0.0.0 www.apple.com
+
+# Hinterland Studio Inc.
+# The long Dark
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.gameanalytics.com
+
+# Hollow Ponds
+# Loot Rascals
+0.0.0.0 live.services.otg.scee.com
+0.0.0.0 auth-live.services.otg.scee.com
+0.0.0.0 live.services.otg.scee.com
+0.0.0.0 discover.services.otg.scee.com
+0.0.0.0 t1.symcb.com
+0.0.0.0 t2.symcb.com
+0.0.0.0 tj.symcd.com
+0.0.0.0 tj.symcb.com
+0.0.0.0 br01.broadcast.tyo.steamstatic.com
+0.0.0.0 br01.broadcast.hkg.steamstatic.com
+
+# Holyday Studios
+# Midas Gold Plus
+0.0.0.0 holydaycity.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 ec2-35-162-118-172.us-west-2.compute.amazonaws.com
+0.0.0.0 magpole.eus
+
+# Housemarque
+# Nex Machina
+0.0.0.0 harvester-steam-prod.nexmachinagame.com
+0.0.0.0 buffpanel.com
+0.0.0.0 api.infinario.com
+0.0.0.0 assets.nexmachinagame.com
+
+# Hovgaard Games
+# Startup Company
+0.0.0.0 gds4.steampowered.com
+
+
+# HuaYiGame
+# 末日方舟 - Delivery from the Pain
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Humble Bundle
+# HackyZack
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Hydro Games
+# Dungeon Kingdom: Sign of the Moon
+# Nimmt komplette Benchmark/Hardwaredaten / Analysiert Nutzerverhalten
+0.0.0.0 www.hydro-games.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 hydrogames.bilboeee.fr
+
+# HypeTrain Digital
+# Desolate
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Hyper Hippo Games
+# AdVenture Capitalist
+#0.0.0.0 CA87.playfabapi.com
+#0.0.0.0 hyperhippo.ssl.hwcdn.net
+
+# AdVenture Communist
+0.0.0.0 6BF5.playfabapi.com
+
+# Guild Quest
+0.0.0.0 7D89.playfabapi.com
+#::1 7D89.playfabapi.com
+0.0.0.0 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
+#::1 master-ma-elasticl-1e2d7mzrh19sw-2078529754.us-west-2.elb.amazonaws.com
+
+# H2 Interactive Co., Ltd.
+# Caladrius Blaze
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Iceflake Studios
+# Race Arcade
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 stats.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Idea Factory International
+# Amnesia™: Memories
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Cyberdimension Neptunia: 4 Goddesses Online | 四女神オンライン CYBER DIMENSION NEPTUNE | 四女神ONLINE 幻次元遊戲戰機少女
+0.0.0.0 datarouter.ol.epicgames.com
+
+# iEntertainment Network Inc
+# World War II Combat Aviation
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 arnalist.warbirdsiii.com
+
+# IMGN.PRO
+# Seven: The Days Long Gone
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Indovers Studio
+# ThinkAhead
+#0.0.0.0 clients2.google.com
+#0.0.0.0 www.gstatic.com
+
+# Infinite Dreams
+# Sky Force Reloaded
+
+0.0.0.0 server.idreams.pl
+0.0.0.0 idreams.herokuapp.com
+#0.0.0.0 sky-force-reload-server.herokuapp.com
+
+# ILLUMICORP
+# LittleBigSoko
+#0.0.0.0 www.gstatic.com
+
+# OHOTA KREPKOE
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 170fdbe261f5e85186a08817806feba2.cloudfront.net
+0.0.0.0 dfb957c193e8f98057bb6f530c2816a9.cloudfront.net
+
+# IndieGala
+# Downward
+0.0.0.0 datarouter.ol.epicgames.com
+
+# IonFX Studios
+# Miasmata
+0.0.0.0 gds4.steampowered.com
+
+# ION LANDS
+# Phoning Home
+# Wird seinem Titel gerecht
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Insel Games Ltd.
+# The Onion Knights
+0.0.0.0 api.redshell.io
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# InterAction studios
+# Chicken Invaders V
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Introversion Software
+# Scanner Sombre
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+
+# JAST USA
+# Sonicomi
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# JDM4iK
+# J.U.R : Japan Underground Racing
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# JMJ Interactive
+# Akihabara - Feel the Rhythm
+0.0.0.0 scoreserver.klikgamer.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# K Bros Games
+# Frisky Business
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 487cdcdf7a19623b97a27be170bb81f4.cloudfront.net
+
+# Kakao Games Europe B.V.
+# Blackdesert Online
+# Für "xcoranahost.xem, xigncode, Steam launcher, blackdesert.exe"
+#5.79.111.36
+#52.78.210.233
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 origin.gamecdn.blackdesertonline.com
+#0.0.0.0 akamai-gamecdn.blackdesertonline.com
+#0.0.0.0 api.blackdesertonline.com
+0.0.0.0 xigncode-solomon-elb-1253180534.ap-northeast-2.elb.amazonaws.com
+0.0.0.0 ipconfig.co.kr
+0.0.0.0 ipchicken.com
+#0.0.0.0 search.naver.com
+0.0.0.0 whatismyipaddress.com
+0.0.0.0 eblk-olvia10.service.defence-daumgameseu.com
+
+# KaleidoGames + Indie Tribe
+# Vortex Attack: ボルテックスアタック
+0.0.0.0 airdownload2.adobe.com
+
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Kalypso Media Digital
+# Blood Knights
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Dungeons III
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 cx.atdmt.com
+0.0.0.0 staticxx.facebook.com
+
+# Railway Empire
+0.0.0.0 gds4.steampowered.com
+
+# Sudden Strike IV
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+
+# Vikings - Wolves of Midgard
+0.0.0.0 www.e-mailit.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 www.facebook.com
+#0.0.0.0 ajax.googleapis.com
+0.0.0.0 p.cpx.to
+0.0.0.0 a.audrte.com
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 zor.livefyre.com
+
+# Keen Software House
+# Medieval Engineers
+0.0.0.0 api.gameanalytics.com 1
+#0.0.0.0 ocsp.comodoca.come
+0.0.0.0 buffpanel.com 2
+#0.0.0.0 mirror.keenswh.com
+
+# Space Engineers
+0.0.0.0 api.gameanalytics.com
+#0.0.0.0 mirror.keenswh.com
+
+# KillHouse Games
+# Door Kickers: Action Squad
+0.0.0.0 gds4.steampowered.com
+
+# KISS ltd
+# Pixel Puzzles: Undead
+0.0.0.0 decayinglogic.com
+
+# Project Nimbus
+0.0.0.0 et.epicgames.com
+
+# Kitfox Games
+# The Shrouded Isle
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Klei Entertainment
+# Don't Starve
+0.0.0.0 metric.kleientertainment.com
+0.0.0.0 d21wmy1ql1e52r.cloudfront.net
+#0.0.0.0 forums.kleientertainment.com
+#0.0.0.0 cdn.forums.klei.com
+#0.0.0.0 www.kleientertainment.com
+0.0.0.0 use.fontawesome.com
+#0.0.0.0 code.jquery.com
+0.0.0.0 store.kleientertainment.com
+0.0.0.0 fonts.googleapis.com
+0.0.0.0 shop.klei.com
+
+
+# Don't Starve Together
+0.0.0.0 metric.kleientertainment.com
+0.0.0.0 items.kleientertainment.com
+0.0.0.0 d21wmy1ql1e52r.cloudfront.net
+0.0.0.0 d26ly0au0tyuy.cloudfront.net/Spieleliste
+# Für Anmeldung verwendet
+#0.0.0.0 login.kleientertainment.com
+#0.0.0.0 accounts.kleientertainment.com
+#0.0.0.0 email.accounts.kleimail.com
+
+# KOEI TECMO GAMES CO., LTD.
+# NOBUNAGA'S AMBITION: Sphere of Influence
+# N14PKLauncher.exe & NOBU14PK.exe & N14FaceTool.exe
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 login.facebook.com
+
+# Konami Digital Entertainment
+# Metal Gear Solid V: The Phantom Pain
+0.0.0.0 mgstpp-game.konamionline.com
+
+# METAL GEAR SURVIVE
+0.0.0.0 ntl.konamionline.com
+#0.0.0.0 mgssd-game.cs.konami.net
+
+# Super Bomberman R
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Kongregate
+# Office Space: Idle Profits
+# "Cloud" muss aktiv bleiben... Permanent aktiv und zeichnet jegliche Einzelheiten auf, Betriebssystem, Zeitstempel uvm.
+# Der glorreiche Rest hier sollte blockiert bleiben
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 logs-01.loggly.com
+#0.0.0.0 DF5E.playfabapi.com
+0.0.0.0 4226.api.swrve.com
+0.0.0.0 sync.kongregate.com
+
+# Realm Grinder
+0.0.0.0 airdownload2.adobe.com
+0.0.0.0 m.kongregate.com
+#0.0.0.0 www.kongregate.com
+0.0.0.0 api.redshell.io
+#0.0.0.0 sync.kongregate.com
+#0.0.0.0 41DC.playfabapi.com
+0.0.0.0 4704.api.swrve.com
+
+# Kool2Play
+# Clock Simulator
+# unclear?!
+
+# Ktulhu Solutions
+# Metropolis: Lux Obscura
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Larian Studios
+# Divinity: Original Sin II
+# Alternativ EoCApp.exe in Supporttool.exe umbenennen. Originaldatei sichern und löschen
+# Multiplayer konnte ich nicht testen, da bei mir generell keine Server gefunden wurden
+0.0.0.0 dl1.larianvault.com
+0.0.0.0 irc.larianstudios.com
+
+# Laush Studio
+# The soldier in the mine
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# League of Geeks
+# Armello
+# Übertragen werden u.A.: Build, Userid, Desktop/Username, GeräteID, Platform, SteamID, Ländereinstellung, Währung und ein paar andere Dinge
+0.0.0.0 leagueofgeeks.s3.amazonaws.comfeed
+0.0.0.0 armello.com
+0.0.0.0 leagueofgeeks.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 94sw9b49zg.execute-api.us-east-1.amazonaws.com
+0.0.0.0 api.mixpanel.com
+
+# Lemondo Games
+# Rage Wars
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Lestyo
+# Pic Guesser
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Limed
+# Turn Around
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Lince Works
+# Aragami
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Light Bringer Games inc.
+# Lern to Fly III
+0.0.0.0 lbgserver.com
+
+# Lighthouse Games Studio
+# Comedy Night
+# inklusiv Facebook, ATdmt.com, Doubleclick, Google/Gstatic/Apis/Usercontent
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 comedynightapi.azurewebsites.net
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 177d9edea4bc2d9db934cc4080f20342.cloudfront.net
+0.0.0.0 3c2476383ec2dd20b3b952b944a0f17d.cloudfront.net
+
+# Lion's Shade
+# Cliff Empire
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Lofty Sky Entertainment Inc.
+# Shuyan Saga
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+# Über das Spiel aufgerufene Webseiten
+0.0.0.0 www.shuyansaga.com
+
+0.0.0.0 www.facebook.com
+#0.0.0.0 twitter.com
+
+# Logic Artists
+# Expeditions: Vikings
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Lusorion Creatives
+# Azulgar Star Commanders
+0.0.0.0 82.208.17.121
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 7c2d73d3cd46e357090188fa2946f746.cloudfront.net
+
+# Love Conquers All Games
+# Ladykiller in a Bind
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 ladykillerinabind.com
+
+# M2H
+# Marooners
+0.0.0.0 gdt.m2h.nl
+0.0.0.0 piwik.M2H.nl
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.maroonersgame.com
+
+
+# Mad Hunter Studio & EHTechnology
+# Mad Hunter
+0.0.0.0 chromereader-pa.googleapis.com
+
+# Madmind Studio
+# Agony
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 172.68.195.1
+
+# MAGES. Inc.
+# BULLET SOUL INFINITE BURST
+# gilt für Launcher.exe & BulletSoulIBWin.exe
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# MAJ Studio
+# Chromatic
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+#0.0.0.0 www.google.com
+
+# Mana Potion Studios
+# Wheely
+0.0.0.0 airdownload2.adobe.com
+
+# Marvelous
+# VALKYRIE DRIVE -BHIKKHUNI-
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# MassDiGI
+# Ophidia
+0.0.0.0 api.mixpanel.com
+
+# Matt Roszak
+# Epic Battle Fantasy 4
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Merge Games & IV Productions
+# Cast of the Seven Godsends - Redux
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Metalhead Software Inc.
+# Super Mega Baseball: Extra Innings
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Microïds
+# Yesterday Origins
+# Denuvo DRM
+
+# Microsoft Studios
+# Deadlight
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Halo: Spartan Assault
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Killer Instinct
+#0.0.0.0 ki-int-wallet.msgamestudios.com
+0.0.0.0 messaging.lws.msgamestudios.com
+#0.0.0.0 api.steampowered.com
+0.0.0.0 uhf.microsoft.com
+0.0.0.0 services.microsoftstudios.com
+0.0.0.0 www.ultra-combo.com
+#0.0.0.0 api.twitch.tv
+0.0.0.0 communitysiteswest.azureedge.net
+0.0.0.0 oss.maxcdn.com
+0.0.0.0 assets.juicer.io
+0.0.0.0 unpkg.com
+#0.0.0.0 code.jquery.com
+
+
+# Ori and the Blind Forest
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 ori.rtep.msgamestudios.com
+
+# Ori and the Blind Forest: Definitive Edition
+0.0.0.0 oridefinitiveprod.rtep.msgamestudios.com
+
+# Mikhail Melnikov
+# Cubic
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Milestone S.r.l.
+# Gravel
+#0.0.0.0 online.milestone.it
+0.0.0.0 datarouter.ol.epicgames.com der Spielzeit, Zeitstempel, Spielname, ProjektID, IP, Betriebssystem, Versionsnummer usw
+
+# MotoGP™15
+# Launcher & Spiel
+#0.0.0.0 online.milestone.it
+0.0.0.0 static.addtoany.com
+
+# MoaCube
+# Solstice
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Monomi Park
+# Slime Rancher
+0.0.0.0 forums.monomipark.com
+
+# Motion Twin
+# Dead Cells
+0.0.0.0 dead-cells.com
+
+# Movie Games S.A. & PlayWay S.A.
+# Lust for Darkness
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# NA
+# Vector 36
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Nawia Games
+# Western 1849 Reloaded
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Ndemic Creations
+# Plague Inc: Evolved
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 l.ndemiccreations.com
+0.0.0.0 s.ndemiccreations.com
+0.0.0.0 s-cdn.ndemiccreations.com
+0.0.0.0 cdn.ndemiccreations.com
+#0.0.0.0 www.kickstarter.com
+
+0.0.0.0 www.ndemiccreations.com
+
+# Neko Entertainment
+# Crouching Pony Hidden Dragon
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Replay - VHS is not dead
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Storm
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# NEKO WORKs
+# Monmusu
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 amap.tentacle.work
+
+# Neocore Games
+# Deathtrap
+# Dasselbe wie immer...
+#0.0.0.0 auth.gog.com
+#0.0.0.0 users.gog.com
+0.0.0.0 presence.gog.com
+#0.0.0.0 cdnjs.cloudflare.com
+0.0.0.0 static.neocoregames.com
+0.0.0.0 www.googletagmanager.com
+
+0.0.0.0 neocoregames.com
+0.0.0.0 devblog.neocoregames.com
+0.0.0.0 www.neocoregames.com
+
+# Van Helsing Final Cut & Vorgänger
+0.0.0.0 ipinfo.io
+0.0.0.0 nexus-websocket-a.intercom.io
+0.0.0.0 js.live.net
+0.0.0.0 widget.intercom.io
+0.0.0.0 fonts.googleapis.com
+#0.0.0.0 cdnjs.cloudflare.com
+0.0.0.0 api-iam.intercom.io
+0.0.0.0 js.intercomcdn.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 www.googletagmanager.com
+
+# Ingameverbindungen inkl. Facebook, Youtube, Twitter
+#0.0.0.0 neocoregames.com
+#0.0.0.0 auth.gog.com
+#0.0.0.0 users.gog.com
+#0.0.0.0 service.gamesparks.net
+#0.0.0.0 gsp-auw003-se01.gamesparks.net
+
+# NewProject
+# Idle Evolution
+#0.0.0.0 steamcommunity-a.akamaihd.net
+
+# New Reality Games
+# Gift To Humanity
+# Facebook, Discord, Twitter, Wix, Google
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 170fdbe261f5e85186a08817806feba2.cloudfront.net
+0.0.0.0 7b48191d48ad0a2b3616c20acd7fbc1c.cloudfront.net
+
+# Nickelodeon
+# Teenage Mutant Ninja Turtles: Portal Power
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 collect11772tmntp.deltadna.net
+
+# Nightdive Studios
+# Womb Room
+# Ingametexte werden direkt von den Domains geholt...
+0.0.0.0 script.google.com
+0.0.0.0 script.googleusercontent.com
+
+# NIS America, Inc.
+# Criminal Girls: Invite Only / クリミナルガールズ INVITATION
+0.0.0.0 gds4.steampowered.com
+
+# Operation Abyss: New Tokyo Legacy
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Nkidu Games Inc.
+# Solstice Chronicles: MIA
+# TwinStick-Win64-Shipping.exe
+0.0.0.0 172.68.195.1
+
+# Nordic Games
+# Red Faction: Armageddon
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Northway Games
+# Rebuild III: Gangs of Deadsville
+0.0.0.0 airdownload2.adobe.com
+0.0.0.0 rebuildgame.commondatastorage.googleapis.com
+
+# Nuke Nine
+# Vagante
+# unclear?!
+
+# NVLMaker
+# Soulslayer～灭魂·误佳期～
+0.0.0.0 open.bakery.moe
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Oddrok
+# Power Hover
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# OneShark
+# Forbidden Clicker Party
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# OhNoo Studio
+# Tormentum - Dark Sorrow
+# Betriebssystem inkl. Architektur, Produktbezeichnung
+0.0.0.0 airdownload2.adobe.com
+
+# OnFire Games
+# Ultimate Spinner Simulator - Unstress Yourself
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Onyx Lute
+# Glass Masquerade
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# OpenArl
+# Path of Building
+#0.0.0.0 raw.githubusercontent.com
+
+# OtakuMaker SARL
+# Jump! Jump! Jump!
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Trigonometry
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Out of the Park Developments
+# Out of Park Baseball 18
+# Optionale Ingameanalytics vorhanden. Wahrscheinlich die gsp Adresse. Konnte nicht weiter überprüfen
+0.0.0.0 update.ootpdevelopments.com
+0.0.0.0 live.gamesparks.net
+0.0.0.0 gsp-auw003-se05.gamesparks.net
+0.0.0.0 challenge.ootpdevelopments.com
+
+# Pablo Vidaurre Sanz
+# Tokyo Warfare
+0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
+
+# PanGuoJun
+# Flower Design
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Panoramik Inc
+# Forge of Gods
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 steamtinyarmypanoramic.appspot.com
+0.0.0.0 sdknode-1.devtodev.com
+0.0.0.0 statgw2.devtodev.com
+#0.0.0.0 storage.googleapis.com
+
+# Paradox Interactive
+# Battletech
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 static.golemarcana.com.s3.amazonaws.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 checkip.dyndns.org
+# Login/Register
+#0.0.0.0 api.paradoxplaza.com
+#0.0.0.0 www.paradoxplaza.com
+0.0.0.0 cdn.cquotient.com
+0.0.0.0 10965211.collect.igodigital.com
+
+# Cities: Skylines
+0.0.0.0 opstm.paradoxplaza.com
+#0.0.0.0 services.paradoxplaza.com
+#0.0.0.0 api.paradoxplaza.com
+0.0.0.0 api.buffpanel.com
+
+# Crusader II
+0.0.0.0 content.paradoxplaza.com
+0.0.0.0 www.paradoxplaza.com
+0.0.0.0 s.adroll.com
+0.0.0.0 forum.paradoxplaza.com
+0.0.0.0 accounts.paradoxplaza.com
+0.0.0.0 d25yha10orzq01.cloudfront.net
+0.0.0.0 forumcontent.paradoxplaza.com
+
+# Europa Universalis IV
+# im Launcher aufgerufen
+0.0.0.0 opstm.paradoxplaza.com
+0.0.0.0 forumcontent.paradoxplaza.com
+0.0.0.0 www.europauniversalis4.com
+
+# Hearts of Iron IV
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 services.paradoxplaza.com
+0.0.0.0 forumcontent.paradoxplaza.com
+#0.0.0.0 api.paradoxplaza.com
+#0.0.0.0 accounts.paradoxplaza.com
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 opstm.paradoxplaza.com
+#0.0.0.0 www.heartsofiron4.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 p.cquotient.com
+0.0.0.0 x.bidswitch.net
+0.0.0.0 eb2.3lift.com
+0.0.0.0 d.adroll.com
+0.0.0.0 dsum-sec.casalemedia.com
+0.0.0.0 pixel.rubiconproject.com
+0.0.0.0 cdn.contentful.com
+0.0.0.0 ums.adtechus.com
+0.0.0.0 sync.outbrain.com
+0.0.0.0 trc.taboola.com
+0.0.0.0 ads.yahoo.com
+0.0.0.0 ib.adnxs.com
+0.0.0.0 idsync.rlcdn.com
+0.0.0.0 us-u.openx.net
+0.0.0.0 simage2.pubmatic.com
+0.0.0.0 pixel.advertising.com
+
+# Magicka I
+#0.0.0.0 api.paradoxplaza.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 gds2.steampowered.com
+#0.0.0.0 s3.amazonaws.com
+
+# Magicka II
+#0.0.0.0 api.paradoxplaza.com
+0.0.0.0 opstm.paradoxplaza.com
+#0.0.0.0 services.paradoxplaza.com
+
+# Surviving Mars
+0.0.0.0 opstm.paradoxplaza.com
+#0.0.0.0 services.paradoxplaza.com
+#0.0.0.0 api.buffpanel.com
+
+# Tyranny
+0.0.0.0 pdxint.at
+0.0.0.0 www.tyrannygame.com
+#0.0.0.0 accounts.paradoxplaza.com
+#0.0.0.0 services.paradoxplaza.com
+#0.0.0.0 support.paradoxplaza.com
+0.0.0.0 paradox.zendesk.com
+0.0.0.0 fast.fonts.net
+0.0.0.0 res.cloudinary.com
+0.0.0.0 use.fontawesome.com
+#0.0.0.0 p5.zdassets.com
+0.0.0.0 use.fontawesome.com
+0.0.0.0 opstm.paradoxplaza.com
+
+# Warlock 2: The Exiled
+0.0.0.0 opstm.paradoxplaza.com
+#0.0.0.0 api.paradoxplaza.com
+#0.0.0.0 service.paradoxplaza.com
+
+# Phoenix Labs
+# Dauntless
+0.0.0.0 telemetry.steelyard.ca
+
+# Parallax Labs
+# Despoiler
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 api.gameanalytics.com
+
+# Peach Pie Productions & Black Shell Media
+# Zombie Party
+0.0.0.0 192.241.219.217
+
+# Perfect World Entertainment
+# Livelock
+# Google Analytics
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Permadeath
+# Planet Centauri
+0.0.0.0 gds4.steampowered.com
+
+# pheenix93
+# Wooden Floor
+0.0.0.0 et.epicgames.com
+
+# Pixel Dash Studios, EQ
+# Road Redemption
+0.0.0.0 162.243.169.121 & Mailcatcher
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 eqlauncher.com
+
+# Playdius & Plug In Digital
+# Dead in Bermuda
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# PlayFab
+# Shonen Idle Z
+#0.0.0.0 cdn1.kongregate.com
+#0.0.0.0 shonenidlez.com
+
+# PlayFlock
+# Insanity Clicker
+0.0.0.0 insanity.playflock.com
+0.0.0.0 web16.playflock.com
+#0.0.0.0 gds2.steampowered.com
+
+# Playrise Digital Ltd.
+# Table Top Racing: World Tour
+0.0.0.0 52.51.97.198
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Playsaurus
+# Clicker Heroes I
+#0.0.0.0 ClickerHeroes-SavedGames3-747864888.us-east-1.elb.amazonaws.com
+#0.0.0.0 clickerheroes-payments-xxxxxx.us-east-1.elb.amazonaws.com
+0.0.0.0 live-collect-1709264271.us-east-1.elb.amazonaws.com
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 airdownload2.adobe.com
+0.0.0.0 www.facebook.com
+0.0.0.0 star-mini.c10r.facebook.com
+0.0.0.0 www.ngads.com
+
+# PlayWay S.A.
+# Car Mechanic Simulator 2015
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Farm Manager 2018
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 script.google.com
+0.0.0.0 script.googleusercontent.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# The Way
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Pocketwatch Games
+# Tooth and Tail
+#0.0.0.0 auth.gog.com
+#0.0.0.0 users.gog.com
+#0.0.0.0 multiplayer.gog.com
+0.0.0.0 pwg-matchbot.herokuapp.com
+0.0.0.0 remote-config.gog.com
+0.0.0.0 notifications-pusher.gog.com
+#0.0.0.0 notifications-pusher-server-7.gog.com
+
+# PolarityFlow
+# Sky Mercenaries
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+0.0.0.0 www.polarityflow.com
+0.0.0.0 cdn.jsdelivr.net
+
+# Positech Games
+# Big Pharma
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Primary Games & BiggameIncubator
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Private Division
+# Kerbal Space Program
+0.0.0.0 api.redshell.io
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Project Moon
+# Lobotomy Corporation | Monster Management Simulation
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Psyonix, Inc.
+# Rocket League®
+# App-Spot = Google
+#0.0.0.0 rl-cdn.psyonix.com
+#0.0.0.0 psyonix-rl.appspot.com
+
+# putilin_industries
+# Achievement Hunter: Foxy
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Quarter Pound Studios
+# Zamarian
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 www.msftncsi.com
+0.0.0.0 www.quarterpoundstudios.com
+
+# Quiet River
+# Zup! Zero
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Rainssong
+# Zasa - An AI Story
+0.0.0.0 airdownload2.adobe.com
+
+# Rake in Grass
+# Rampage Knights
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Random Seed Games
+# TIMEframe
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 ac27d939fa02703c4b28926f53f95083.cloudfront.net
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Rebellion
+# Sniper Elite III
+# Launcher und Webseite
+0.0.0.0 se3-content.rebellion.co.uk
+0.0.0.0 include.reinvigorate.net
+#0.0.0.0 goo.gl
+
+# Sniper Elite IV
+0.0.0.0 connect.facebook.net
+#0.0.0.0 discordapp.com
+#0.0.0.0 hello.myfonts.net
+0.0.0.0 include.reinvigorate.net
+0.0.0.0 js-agent.newrelic.com
+#0.0.0.0 platform.twitter.com
+#0.0.0.0 www.rebellion.co.uk
+#0.0.0.0 nephelus-v1.rebellion.co.uk
+0.0.0.0 launcher-content.rebellion.co.uk
+# Denuvo DRM
+
+# Sniper Elite Nazi Zombie Army
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Red Hook Studios
+# Darkest Dungeon
+# Anonyme Nutzerstatistiken
+0.0.0.0 metric.kleientertainment.com
+#0.0.0.0 darkestdungeon.us7.list-manage.com
+0.0.0.0 gds4.steampowered.com
+
+# Red Limb Studio
+# Rise of Insanity
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Red Thread Games
+# Dreamfall Chapters
+0.0.0.0 stats.unity3d.com
+0.0.0.0 server.dreamfallchapters.net
+0.0.0.0 userservice.redthreadgames.net
+
+# Restory Studio
+# The Initial
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Reverb Publishing
+# Beatbuddy: Tale of the Guardians
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Ripknot Systems
+# Trivia Vault: Mini Mixed Trivia 4
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Ripstone
+# Chess Ultra
+#0.0.0.0 chessapi.azurewebsites.net
+0.0.0.0 datarouter.ol.epicgames.com
+#0.0.0.0 images-eds.xboxlive.com
+#0.0.0.0 cdn-image-e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com
+
+# Rising Star Games
+# World's Dawn
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Rocket-Engine Co.,Ltd.
+# Trouble Witches Origin - Ep. 1 - Daughters of Amalgam -
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# ROCKFISH Games
+# EVERSPACE™
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Rockstar Games
+# Grand Theft Auto V
+# Since March blocking Rockstar telemetry seems to crash GTAOnline.
+#0.0.0.0 prod.telemetry.ros.rockstargames.com
+
+# Rogue Earth LLC
+# Eterium
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Runic Games
+# Torchlight II
+0.0.0.0 lobby.runicgames.com
+
+# Running With Scissors
+# Postal Redux
+0.0.0.0 datarouter.ol.epicgames.com
+
+#Sad Panda Studios
+# Crush Crush
+0.0.0.0 B291.playfabapi.com
+
+# SakuraGame
+# 三色△绘恋 TriColour Lovestory
+# Grobda Remix | 且听琴语GR
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Hell Girls
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Mirror
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Scrap Games
+# President Evil
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# SCS Software
+# Euro Truck Simulator II
+0.0.0.0 lscreens.eut2.online.scssoft.com
+0.0.0.0 news.eut2.online.scssoft.com
+0.0.0.0 www.worldoftrucks.com
+#0.0.0.0 ajax.googleapis.com
+
+# Seaven Studio
+# Ethan: Meteor Hunter
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 steamcloud-eu.storage.googleapis.com
+
+# SEGA
+# Bayonetta
+0.0.0.0 garry.sgaas.net
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Binary Domain
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Castle of Illusion
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Endless Space II
+0.0.0.0 garry.sgaas.net
+0.0.0.0 track-api.gamesight.io
+0.0.0.0 api.games2gether.com
+
+# Motorsport Manager
+0.0.0.0 garry.sgaas.net
+
+# The Typing of The Dead: Overkill
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Total War: Attila
+# Launcher+Encyclopedia+MP
+0.0.0.0 launcher.totalwar.com
+0.0.0.0 d1hdmqpnp3kt1h.cloudfront.net
+#0.0.0.0 617474696c61.totalwar.com
+0.0.0.0 atenc.totalwar.com
+0.0.0.0 creative-assembly.cloudant.com
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 bam.nr-data.net
+
+# Total War: Shogun II
+0.0.0.0 tw-s2-webfront.s3.amazonaws.com
+#0.0.0.0 clans.shogun2.totalwar.com
+#0.0.0.0 cdn.creative-assembly.com
+#0.0.0.0 www.totalwar.com
+#0.0.0.0 clans.shogun2.totalwar.com
+0.0.0.0 js.adsrvr.org
+0.0.0.0 match.adsrvr.org
+0.0.0.0 insight.adsrvr.org
+0.0.0.0 bs.serving-sys.com
+0.0.0.0 sync.adap.tv
+0.0.0.0 ib.adnxs.com
+0.0.0.0 sync.adaptv.advertising.com
+0.0.0.0 sync.adap.tv
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 bam.nr-data.net
+#0.0.0.0 maxcdn.bootstrapcdn.com
+#0.0.0.0 s3-eu-west-1.amazonaws.com
+0.0.0.0 safebrowsing-cache.google.com
+0.0.0.0 sb-ssl.google.com
+#0.0.0.0 s2.googleusercontent.com
+
+# Total War: WARHAMMER II
+# Launcher
+0.0.0.0 launcher.totalwar.com
+0.0.0.0 twlauncher-86272956.eu-west-1.elb.amazonaws.com
+0.0.0.0 d1hdmqpnp3kt1h.cloudfront.net
+# Tracker/Analytics
+0.0.0.0 bam.nr-data.net
+0.0.0.0 garry.sgaas.net
+0.0.0.0 api.redshell.io
+0.0.0.0 03c9acbb-4d65-4544-bc3d-082aa04cc5b4.totalwar.com
+# Denuvo DRM + in-game
+#0.0.0.0 cdn.creative-assembly.com
+#0.0.0.0 academy.totalwar.com
+# Sega Support optional
+0.0.0.0 support.sega.co.uk
+#0.0.0.0 ajax.googleapis.com
+
+# Total War Saga: Thrones of Britannia
+# Launcherinhalte hier abgeschaltet
+0.0.0.0 launcher.totalwar.com
+0.0.0.0 twlauncher-86272956.eu-west-1.elb.amazonaws.com
+#0.0.0.0 ajax.googleapis.com
+# Denuvo DRM
+# Thrones.exe
+0.0.0.0 6148b9c6-14c1-4747-80a0-e0dbcb770b2e.totalwar.com
+#0.0.0.0 academy.totalwar.com
+#0.0.0.0 cdn.creative-assembly.com
+0.0.0.0 unpkg.com
+#0.0.0.0 s3-eu-west-1.amazonaws.com
+#0.0.0.0 fonts.gstatic.com
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 bam.nr-data.net
+0.0.0.0 gds4.steampowered.com
+
+# Warhammer 40,000: Dawn of War III
+# Denuvo DRM
+0.0.0.0 52.44.13.74
+#0.0.0.0 dow3-api.reliclink.com
+#0.0.0.0 sso.relic.com
+#0.0.0.0 ingame.dawnofwar.com
+#0.0.0.0 live-build-data.reliclink.com
+0.0.0.0 track-api.gamesight.io
+#0.0.0.0 kinesis.us-east-1.amazonaws.com
+0.0.0.0 shared.reliclink.com
+
+# SeithCG
+# Ghost of a Tale
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Sekai Project
+# Clannad
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# NEKOPARA Vol. 2 + Patch
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Sergej110
+# Draw_Love
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+
+# Shaman Games Studio
+# A Plot Sotry
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Shandong Jerei Digital Technology Co.,LTD.
+# Magic Pixel Picross
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 47.93.244.219
+0.0.0.0 94d63cbf92082237b86267ffd4cacc64.cloudfront.net
+
+# Shanghai JingCai Computer Software Development Co., Ltd
+# Metal Waltz
+#0.0.0.0 54.250.239.190
+#0.0.0.0 steamhkver.metalwaltz.com
+#0.0.0.0 jpdouj.metalwaltz.com
+#0.0.0.0 steammima.metalwaltz.com
+
+# Shiro Games
+# Northgard
+0.0.0.0 shirogames.com
+
+# Sigma Team Inc.
+# Alien Shooter TD
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Silicon Echo
+# The First Spark
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# The Safeguard Garrison
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Sindiecate Arts
+# Nongünz
+0.0.0.0 chromereader-pa.googleapis.com
+
+# Size Five Games
+# The Swindle
+0.0.0.0 gds4.steampowered.com
+
+# Skyboy Games
+# Ookibloks
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Slitherine Ltd.
+# Empires Apart
+#0.0.0.0 www.matrixgames.com
+0.0.0.0 datarouter.ol.epicgames.com
+#0.0.0.0 empiresapart.net
+
+# Warhammer 40,000: Armageddon
+#0.0.0.0 www.matrixgames.com
+
+0.0.0.0 www.slitherine.com
+0.0.0.0 gds4.steampowered.com
+
+# Warhammer 40,000: Sanctus Reach
+# Usertracking
+#0.0.0.0 www.matrixgames.com
+0.0.0.0 pbem2.slitherine.com
+0.0.0.0 usercontent.slitherine.com
+0.0.0.0 www.slitherine.com
+
+# SlyGames
+# Fruit Sodoku III
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# SQR 2
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Snail Games USA
+# PixARK
+#0.0.0.0 pihark-up.woniu.com
+#0.0.0.0 arkdedicated.com
+#0.0.0.0 pihark-up.woniu.comliste
+0.0.0.0 crashlogs.mobilegame.woniu.com
+0.0.0.0 sqm.woniu.com
+
+# Snapshot Games Inc.
+# Chaos Reborn
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 www.chaos-reborn.com
+0.0.0.0 178.62.98.200
+
+# Snow Cannon Games
+# The Frostrune
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 6fe90cb7a4852d2683f62e862f7a790c.cloudfront.net
+0.0.0.0 ssl.google-analytics.com
+
+# SOEDESCO Publishing
+# Wuppo
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# SOFTSTAR ENTERTAINMENT INC.
+# 天使帝國四《Empire of Angels IV》
+0.0.0.0 gds4.steampowered.com
+
+# Softwaves Dist.
+# The Village
+0.0.0.0 www.blacksaturserver.esy.es
+0.0.0.0 www.google.com.br
+
+# Sometimes You
+# Hexoscope
+0.0.0.0 airdownload2.adobe.com
+
+# Just Hero
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Spiral Splatter
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Sometimes Red
+# Dear RED
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# SoundStage13
+# Where is my Brain!?
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Square Enix
+# Deus Ex: Mankind Divided
+#0.0.0.0 dxng.os.eidos.com
+#0.0.0.0 res.cloudinary.com
+
+# FINAL FANTASY XII THE ZODIAC AGE
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# FINAL FANTASY XV WINDOWS EDITION
+#0.0.0.0 store.srv.finalfantasyxv.comserver
+
+# Forgotten Anne
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# HITMAN™
+#0.0.0.0 config.hitman.io
+#0.0.0.0 auth.hitman.io
+#0.0.0.0 pc-service.hitman.io
+#0.0.0.0 iohmpcprodstorage.blob.core.windows.net
+#0.0.0.0 iohmpcprodshard3.blob.core.windows.net
+0.0.0.0 metrics.hitman.io
+#0.0.0.0 iohmconfigprodstorage.blob.core.windows.net
+
+# Hitman Website
+# Facebook
+0.0.0.0 secure-ds.serving-sys.com
+0.0.0.0 bs.serving-sys.com
+0.0.0.0 vjs.zencdn.net
+
+# Just Cause III
+0.0.0.0 nelo2-col.nhncorp.jp
+
+# Lara Croft and the Guardian of Light
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Life is Strange
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 lis.os.eidos.com
+
+# MOBIUS FINAL FANTASY™
+# Deaktivieren zum Spielen...
+0.0.0.0 web.ne.mobiusfinalfantasy.com
+0.0.0.0 cache.ne.mobiusfinalfantasy.com
+
+# Rise of the Tomb Raider
+0.0.0.0 tr2.os.eidos.com
+0.0.0.0 lbmtl.os.eidos.com
+0.0.0.0 srv01.codefusion.technology
+0.0.0.0 srv02.codefusion.technology
+0.0.0.0 srv03.codefusion.technology
+0.0.0.0 support.codefusion.technology
+
+# Square Enix Newsletter
+#0.0.0.0 xmail.square-enix.com
+#0.0.0.0 weblet.square-enix.com
+
+# NieR:Automata™
+0.0.0.0 srv01.codefusion.technology
+0.0.0.0 srv02.codefusion.technology
+0.0.0.0 srv03.codefusion.technology
+0.0.0.0 support.codefusion.technology
+#0.0.0.0 ocsp2.globalsign.com
+#0.0.0.0 crl.globalsign.com
+
+# Sleeping Dogs: Definite Edition
+#0.0.0.0 orangelotushd.os.eidos.com
+
+# The Turing Test
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 datarouter1.ol.epicgames.com
+0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
+
+# Thief IV
+#0.0.0.0 t4.os.eidos.com
+
+# Starbreeze Studios
+# Dead by Daylight
+#0.0.0.0 34.249.81.106
+#0.0.0.0 45.32.156.184
+#0.0.0.0 45.32.239.33
+#0.0.0.0 54.72.30.94
+#0.0.0.0 52.210.126.235
+#0.0.0.0 latest.live.dbd.bhvronline.com
+0.0.0.0 api.timezonedb.com
+0.0.0.0 api.geonames.org
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Starbreeze Publishing AB
+# Payday II
+0.0.0.0 media.overkillsoftware.com
+#0.0.0.0 www.overkillsoftware.com
+#0.0.0.0 fbi.overkillsoftware.com
+#0.0.0.0 code.jquery.com
+
+# Stardock Entertainment
+# Ashes of the Singularity: Escalation
+#0.0.0.0 swupdate.stardock.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 certificates.godaddy.com
+0.0.0.0 crl.godaddy.com
+0.0.0.0 ocsp.godaddy.com
+#0.0.0.0 tachyon-alert.stardock.net
+#0.0.0.0 ashesescalation-api-tachyon.stardock.net
+#0.0.0.0 tachyon-alertservice.herokuapp.com
+#0.0.0.0 steamcdn-a.akamaihd.net
+
+# Fallen Enchantress
+0.0.0.0 impulsedriven.com
+#0.0.0.0 steamcommunity-a.akamaihd.net
+#0.0.0.0 cvp.stardock.net
+#0.0.0.0 services.stardock.net
+
+# Offworld Trading Company
+# Launcher
+#0.0.0.0 swupdate.stardock.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 ocsp.godaddy.com
+0.0.0.0 crl.godaddy.com
+#0.0.0.0 www.offworldgame.com
+#0.0.0.0 www.stardockgames.com
+#0.0.0.0 stardock.cachefly.net
+#0.0.0.0 esupport.stardock.com
+#0.0.0.0 sd.stardock.com
+#0.0.0.0 tachyon-alertservice.herokuapp.com
+#0.0.0.0 tachyon-alert.stardock.net
+# Matchmaking
+#0.0.0.0 offworldtc-api-tachyon.stardock.net
+
+# Sins of a Solar Empire®: Rebellion
+#0.0.0.0 swupdate.stardock.com
+#0.0.0.0 ico-reb.stardock.com
+
+# Sorcerer King: Rivals
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 skrivals-api-tachyon.stardock.net
+
+# The Political Machine 2016
+0.0.0.0 tpm2016-api-tachyon.stardock.net
+
+# StarSystemStudios™
+# The Quest for Achievements
+# Twitter, Youtube, Facebook, Google Analytics - bei aktivem Seitenauf
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# State of Play Games
+# Kami
+0.0.0.0 www.stateofplaygames.com
+#0.0.0.0 static1.squarespace.com
+0.0.0.0 use.typekit.net
+0.0.0.0 www.kamipuzzle.com
+
+# Stolen Couch Games
+# Ichi
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 www.stolencouchgames.com
+
+# Stompy Bot Productions
+# Heavy Gear Assault
+#0.0.0.0 d1c35vk9nap180.cloudfront.net
+#0.0.0.0 proxy.heavygear.com
+0.0.0.0 ocsp.int-x3.letsencrypt.org
+
+# Strange Loop Games
+# Eco
+#0.0.0.0 ecoauth.strangeloopgames.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Strength in Numbers Studios, Inc
+# Tuebor: I Will Defend
+#0.0.0.0 52.44.190.57anbindung
+#0.0.0.0 api.ipify.org
+
+# StudioMDHR Entertainment Inc.
+# Cuphead
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Sunside Inc
+# Abducted
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Surprise Attack
+# Fort Meow
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 www.surpriseattackgames.com
+
+# Orwell
+0.0.0.0 us7.api.mailchimp.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 e3666efb6956ba7f03c75c3401b8c79e.cloudfront.net
+0.0.0.0 bd3e2233bf25337a89461c638cad13b9.cloudfront.net
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Orwell: Ignorance is Strength
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 us7.api.mailchimp.com
+
+# Oscura: Lost Light
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.gameanalytics.com
+
+# Think of the Children
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Suspicious Developments
+# Morphblade
+0.0.0.0 www.pentadact.com
+0.0.0.0 typodermicfonts.com
+0.0.0.0 www.floatingpointgame.com
+
+# System Era Softworks
+# Astroneer
+0.0.0.0 astroneer.space
+0.0.0.0 api.gameanalytics.com
+
+# TaleWorlds Entertainment
+# Mount & Blade: Warband
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 warbandmain.taleworlds.comliste/Multiplayer
+
+# Tasharen Entertainment Inc.
+# Windward
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 server.tasharen.com
+0.0.0.0 bot.whatismyipaddress.com
+0.0.0.0 optimizedby.brealtime.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 curse-d.openx.net
+0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 hydra-media.cursecdn.com
+0.0.0.0 tag.contextweb.com
+0.0.0.0 ib.adnxs.com
+0.0.0.0 bid.contextweb.com
+0.0.0.0 static.doubleclick.net
+
+# Team17 Digital Ltd
+# Alien Breed: Impact
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Overcooked
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# The Escapists
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 www.escapistgame.com
+
+# Worms Clan Wars
+0.0.0.0 game.wormsclanwars.com
+0.0.0.0 www.wormsclanwars.com
+0.0.0.0 crl.godaddy.com
+0.0.0.0 ocsp.godaddy.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Worms Ultimate Mayhem
+0.0.0.0 www.team17.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Worms W.M.D.
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 ads.t17service.com
+0.0.0.0 worms-wmd-pc.t17service.com
+0.0.0.0 livewmdirc.team17.com
+0.0.0.0 google-analytics.com
+
+# Worms World Party Remastered
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 eb9q4.team17.com
+
+# Team Cherry
+# Hollow Knight
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# TEAM HORAY
+# Dungreed
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Techland
+# Dying Light
+0.0.0.0 pls.dyinglightgame.com/stats
+
+# Telltale Games
+# Batman: The Enemy Within - The Telltale Series
+#0.0.0.0 services.telltalegames.com
+#0.0.0.0 cloud.telltalegames.com
+
+# Tero Lunkka
+# Zomby Soldier
+0.0.0.0 datarouter.ol.epicgames.com
+
+# TGA Company LLC
+# You Deserve
+# unclear?!
+
+# The Irregular Corporation
+# PC Building Simulator
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Thiemo Bolder, ONEMANGAMES
+# Artificial Defense
+0.0.0.0 www.one-man-games.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# THQ Nordic
+# Battle Chasers: Nightwar
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Die Gilde III
+0.0.0.0 tqa_pc-gds.thqonline.net
+
+# Fade to Silence
+#0.0.0.0 www.gstatic.com
+# Usertracking
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Spellforce III
+0.0.0.0 176.9.91.194
+0.0.0.0 www.thqnordic.com
+#0.0.0.0 94.130.252.65
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 redmine.thqnordic.com
+0.0.0.0 server2.thqonline.net
+
+# tinyBuild
+# Clustertruck
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Dungelot: Shattered Lands
+# unclear?!
+
+# Fearless Fantasy
+0.0.0.0 www.flox.cc
+0.0.0.0 airdownload2.adobe.com
+
+# Party Hard Tycoon
+0.0.0.0 api.gameanalytics.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 board.pinoklgames.com
+
+# Thomas Bowker
+# Lyne
+0.0.0.0 103.44.220.37
+#::1 103.44.220.37
+0.0.0.0 vecflo.thomasbowker.com
+#::1 vecflo.thomasbowker.com
+
+# Thomas Happ Games LLC
+# Axiom Verge
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Thunder Lotus Games
+# Jotun
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Sundered
+# GoogleApi, Google, Recaptcha
+0.0.0.0 thunderlotusgames.us9.list-manage1.com
+#0.0.0.0 gallery.mailchimp.comablage diverser Dienste
+0.0.0.0 twemoji.maxcdn.com
+0.0.0.0 eepurl.com
+
+# Tin Man Games
+# The Warlock of Firetop Mountain
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 tinmangamesmmstore.s3.amazonaws.com
+#0.0.0.0 www.google.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Toka Loka Games
+# Goo Saga - HD Edition
+0.0.0.0 services.tokaloka.com
+
+# Tonguç Bodur
+# Nephise Begins
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Toplitz Productions
+# Farmer's Dynasty
+0.0.0.0 gds4.steampowered.com
+
+# Topware Interactive & ACE
+# Two Worlds II / HD
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 secure.zuxxez.com
+#0.0.0.0 ocsp.comodoca.com
+#0.0.0.0 crl.comodoca.com
+#0.0.0.0 steamapi.topware.com
+# bei Aufruf des Banners im Hauptmenü
+0.0.0.0 www.topwareshop.com
+
+#0.0.0.0 fonts.googleapis.com
+
+# TopWare Interactive & ACE
+# Vendetta - Curse of Raven's Cry
+0.0.0.0 secure.zuxxez.com
+0.0.0.0 ocsp.comodoca.com
+
+# Torn Banner Studios
+# Mirage: Arcane Warfare
+#0.0.0.0 368420-backend.tornbanner.net
+0.0.0.0 etsource.epicgames.com
+
+# Trendy Entertainment
+# Dungeon Defenders
+0.0.0.0 images.dungeondefenders.com
+0.0.0.0 dungeondefenders.com
+0.0.0.0 tiny.cc
+#0.0.0.0 dd1.duxapi.com
+0.0.0.0 duxsites-trendy-assets.s3.amazonaws.com
+#0.0.0.0 ddcloudfs.cloudapp.net
+
+# Trese Brothers
+# Star Traders: Frontiers
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Trion Worlds
+# Trove
+#0.0.0.0 glyph.dyn.triongames.com
+0.0.0.0 store.trionworlds.com
+0.0.0.0 rss.trionworlds.com
+0.0.0.0 ads.triongames.com
+#0.0.0.0 auth.trionworlds.com
+0.0.0.0 ocsp.entrust.net
+0.0.0.0 webcdn.triongames.com
+0.0.0.0 munchkin.marketo.net
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 www.googletagmanager.com
+
+# Tripwire Interactive
+# Killing Floor II
+0.0.0.0 analytics.tripwireinteractive.com
+
+# Two Tribes Publishing
+# RIVE
+0.0.0.0 www.rivethegame.com
+#::1 www.rivethegame.com
+
+# Ubisoft
+# Anno 1404 | Dawn of Discovery
+0.0.0.0 gconnect.ubi.com
+
+# Assassin's Creed® Origins | Steamversion
+0.0.0.0 gds4.steampowered.com
+#0.0.0.0 ubistatic2-a.akamaihd.net
+#0.0.0.0 msr-public-ubiservices.ubi.com
+#0.0.0.0 ubiservices.cdn.ubi.com
+#0.0.0.0 mercury.ubi.com
+#0.0.0.0 public-ubiservices.ubi.com
+#0.0.0.0 static3.cdn.ubi.com
+#0.0.0.0 static8.ubi.com
+
+# South Park: The Stick of Truth | Steamversion
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Silent Hunter III
+0.0.0.0 gsconnect.ubisoft.com Dienst seitens Ubisoft abgeschaltet
+
+# Tom Clancy's Ghost Recon Future Soldier
+0.0.0.0 onlineconfigservice.ubi.com
+0.0.0.0 storage.ubi.com
+
+# The Division
+#0.0.0.0 104.153.86.71
+0.0.0.0 162.245.207.91
+0.0.0.0 216.98.53.85
+0.0.0.0 202.59.232.152
+0.0.0.0 109.200.215.22
+0.0.0.0 103.194.164.56
+0.0.0.0 188.122.91.215
+#0.0.0.0 tctd-pc.ubisoft.com
+#0.0.0.0 tctd-pc-live.ubisoft.com
+#0.0.0.0 tctd-pc-sierra.ubisoft.com
+#0.0.0.0 static2.cdn.ubi.com
+
+# UFO Interactive Games
+# Raiden V: Director's Cut | 雷電 V Director's Cut | 雷電V:導演剪輯版
+0.0.0.0 gds4.steampowered.com
+
+# United Independent Entertainment GmbH
+# Farming Giant
+0.0.0.0 update.actalogic.com
+
+# United Soft Media
+# Catan Universe
+0.0.0.0 stats.unity3d.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.uca.cloud.unity3d.com
+#0.0.0.0 gsp-aeu001-se06.gamesparks.net
+#0.0.0.0 gsp-aeu-rt02.gamesparks.net
+#0.0.0.0 live-295012udj75f.ws.gamesparks.net
+
+# Unity3D
+0.0.0.0 api.uca.cloud.unity3d.com
+#::1 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+#::1 config.uca.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+#::1 perf-events.cloud.unity3d.com
+0.0.0.0 stats.unity3d.com
+#::1 stats.unity3d.com
+0.0.0.0 hwstats.uca.cloud.unity3d.com
+#::1 hwstats.uca.cloud.unity3d.com
+0.0.0.0 unity3d.com
+#::1 unity3d.com
+0.0.0.0 accounts.unity3d.com
+#::1 accounts.unity3d.com
+0.0.0.0 activation.unity3d.com
+#::1 activation.unity3d.com
+0.0.0.0 analytics.cloud.unity3d.com
+#::1 analytics.cloud.unity3d.com
+0.0.0.0 build-api.cloud.unity3d.com
+#::1 build-api.cloud.unity3d.com
+0.0.0.0 build-artifact-api.cloud.unity3d.com
+#::1 build-artifact-api.cloud.unity3d.com
+0.0.0.0 collab.cloud.unity3d.com
+#::1 collab.cloud.unity3d.com
+0.0.0.0 collab-waiting-list.cloud.unity3d.com
+#::1 collab-waiting-list.cloud.unity3d.com
+0.0.0.0 core.cloud.unity3d.com
+#::1 core.cloud.unity3d.com
+0.0.0.0 data.cloud.unity3d.com
+#::1 data.cloud.unity3d.com
+0.0.0.0 developer.cloud.unity3d.com
+#::1 developer.cloud.unity3d.com
+0.0.0.0 embedded.cloud.unity3d.com
+#::1 embedded.cloud.unity3d.com
+0.0.0.0 license.unity3d.com
+#::1 license.unity3d.com
+0.0.0.0 multiplayer.unity3d.com
+#::1 multiplayer.unity3d.com
+0.0.0.0 perf.cloud.unity3d.com
+#::1 perf.cloud.unity3d.com
+0.0.0.0 public-cdn.cloud.unity3d.com
+#::1 public-cdn.cloud.unity3d.com
+0.0.0.0 unityads.unity3d.com
+#::1 unityads.unity3d.com
+0.0.0.0 eloqua-trackings.unity3d.com
+#::1 eloqua-trackings.unity3d.com
+0.0.0.0 prd-lender.cdp.internal.unity3d.com
+#::1 prd-lender.cdp.internal.unity3d.com
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+#::1 data-optout-service.uca.cloud.unity3d.com
+
+# Unknown Worlds Entertainment
+# Subnautica
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 subnautica.unknownworlds.com
+#0.0.0.0 s3-us-west-1.amazonaws.com
+0.0.0.0 metric.kleientertainment.com
+0.0.0.0 uwese.herokuapp.com
+
+# Ultimate Games S.A. & PlayWay S.A.
+# Ultimate Fishing Simulator
+0.0.0.0 stats.unity3d.com
+0.0.0.0 www.bitgolemgames.com
+0.0.0.0 srdebugger.stompyrobot.uk
+
+# Unnyhog
+# UnnyWorld
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+#0.0.0.0 d7ns9pp5uxwfa.cloudfront.net
+0.0.0.0 eu-west-api.unnyworld.net
+0.0.0.0 eu-west-auth.unnyworld.net
+0.0.0.0 euunny.m.in-app.io
+
+# VDeveloper
+# Tiny Mage
+#0.0.0.0 www.gstatic.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Vector Unit
+# Riptide GP: Renegade
+0.0.0.0 vectorunit-rgpr.appspot.com
+0.0.0.0 vectorunit-cloud.appspot.com
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Versus Evil
+# The Banner Saga I
+# Usertracking
+0.0.0.0 airdownload2.adobe.com
+0.0.0.0 dljfuxfdiar5z.cloudfront.net für Ingamewerbung/Banner
+0.0.0.0 gds4.steampowered.com
+
+# The Banner Saga II
+# Über das Spiel direkt aufgerufen
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 stoicstudio.com
+# ID, Spracheinstellungen, Monitoreinstellungen & diverse andere Daten
+0.0.0.0 airdownload2.adobe.com
+0.0.0.0 pmgr-stg.s3.amazonaws.com
+#0.0.0.0 ksr-ugc.imgix.net
+0.0.0.0 stoic.pledgemanager.com
+#0.0.0.0 maxcdn.bootstrapcdn.com
+0.0.0.0 netdna.bootstrapcdn.com
+#0.0.0.0 s3.amazonaws.com
+0.0.0.0 store.megacongames.com
+#0.0.0.0 cdn.shopify.com
+0.0.0.0 shopifyorderlimits.s3.amazonaws.com
+0.0.0.0 cdn-scripts.signifyd.com
+0.0.0.0 v.shopify.com
+0.0.0.0 cdn.secomapp.com
+0.0.0.0 s7.addthis.com
+
+# Versus Evil und Obsidian Entertainment
+# Pillars of Eternity II: Deadfire
+0.0.0.0 d1079ywfijtdjs.cloudfront.net
+# Wirklich optionale Analytics/Der Spieler wird gefragt! ^^
+0.0.0.0 icanhazip.com
+0.0.0.0 telemetry.obsidian.net
+
+# Vertigo Games
+# World of Diving
+0.0.0.0 divegame.net
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Vertigo Gaming Inc.
+# Cook, Serve, Delicious!
+0.0.0.0 www.vertigogaming.net
+
+# Cook, Serve, Delicious! 2!!
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 ping.yoyogames.com
+
+# Virtually Competent, LLC
+# Crystal Control II
+0.0.0.0 s-usc1c-nss-210.firebaseio.com
+0.0.0.0 scorching-heat-6176.firebaseio.com
+
+# VT Publishing
+# Dungeon Creepster, Pain Train, Phantom Soldier
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# W.T.B.
+# Winner Winner Chicken Dinner!
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# Walter Machado
+# UBERMOSH Vol.5
+0.0.0.0 gds4.steampowered.com
+
+# Wb Games
+# Middle-earth™: Shadow of War™
+# Denuvo DRM
+0.0.0.0 www.shadowofwar.com
+#0.0.0.0 cdnjs.cloudflare.com
+# ShadowOfWar.exe *64
+#0.0.0.0 s3.amazonaws.com
+0.0.0.0 kraken-api.wbagora.com
+0.0.0.0 prod-event.wbplay.com
+0.0.0.0 52.4.177.132
+0.0.0.0 pixel.advertising.com
+0.0.0.0 px.owneriq.net
+0.0.0.0 stags.bluekai.com
+0.0.0.0 token.rubiconproject.com
+0.0.0.0 rnmiz43724.i.lithium.com
+0.0.0.0 pixel.sitescout.com
+0.0.0.0 sync-tm.everesttech.net
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 i.w55c.net
+0.0.0.0 beacon.krxd.net
+0.0.0.0 ps.eyeota.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 r.nexac.com
+0.0.0.0 kr.ixiaa.com
+0.0.0.0 aa.agkn.com
+0.0.0.0 usermatch.krxd.net
+0.0.0.0 idpix.media6degrees.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 s.thebrighttag.com
+0.0.0.0 r.dlx.addthis.com
+0.0.0.0 d.turn.com
+
+# WGLabs
+# Master of Orion
+0.0.0.0 ru.wargaming.net
+#::1 ru.wargaming.net
+0.0.0.0 na.wargaming.net
+#::1 na.wargaming.net
+0.0.0.0 ip-api.com
+#::1 ip-api.com
+0.0.0.0 freegeoip.net
+#::1 freegeoip.net
+0.0.0.0 moo-development.s3.amazonaws.com
+#::1 moo-development.s3.amazonaws.com
+
+# Whalegun
+# UTOPIA 9 - A Volatile Vacation
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+
+# Winking Entertainment
+# Heroine Anthem Zero
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.redshell.io
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Wizards of the Coast
+# Magic 2014
+#0.0.0.0 dotp.onlinegaming.wizards.com
+
+# Magic 2015
+#0.0.0.0 dotp.onlinegaming.wizards.com
+0.0.0.0 1362.api.swrve.com
+#0.0.0.0 magic.wizards.com
+#0.0.0.0 www.magicthegathering.com
+0.0.0.0 media.wizards.com
+
+# WOLCEN Studio
+# Wolcen: Lords of Mayhem
+#0.0.0.0 server.wolcengame.com
+
+# Worm Animation
+# Beat the Game
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# WRD
+# Fallen Cube
+0.0.0.0 datarouter.ol.epicgames.com
+
+# Wube Software LTD.
+# Factorio
+0.0.0.0 auth.factorio.com
+
+# X.D. Network Inc.
+# Juicy Realm
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 gds4.steampowered.com
+
+# XSEED Games & Marvelous USA, Inc.
+# SENRAN KAGURA Bon Appétit! - Full Course
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# XSEED Games & Marvelous USA, Inc.
+# SENRAN KAGURA SHINOVI VERSUS
+0.0.0.0 gds4.steampowered.com
+
+# Yangyang Mobile
+# The Letter - Horror Visual Novel
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# YGGDRAZIL GROUP CO.,LTD
+# Home Sweet Home
+0.0.0.0 datarouter.ol.epicgames.com
+
+# ZiX Solutions
+# Blood Code
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Zonitron Productions
+# Racoon Hero
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+
+# SHAPES4
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Sketchy
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+
+# Zoo Corporation
+# Princess Kaguya: Legend of the Moon Warrior
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com
+
+# Zordix AB
+# Snow Moto Racing Freedom
+#0.0.0.0 checkip.dyndns.org
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 api.uca.cloud.unity3d.com
+#0.0.0.0 dump.onlineskillclub.com
+
+# ZOV GAME STUDIO
+# To The Light
+0.0.0.0 gds2.steampowered.com
+0.0.0.0 gds4.steampowered.com

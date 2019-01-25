@@ -1,0 +1,690 @@
+﻿! Title: Korean Media Comment
+! Description: Korean Media Comment, SNS Share Count, Likes Count, News Reaction Filter
+! Version: 2.0.0.00
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/KMCF/Korean-Media-Comment
+! License: https://creativecommons.org/licenses/by-sa/4.0/deed.ko
+!
+!---- 라이브리 ----
+! 라이브리 댓글을 보시려면 해당 필터를 비활성화 하세요.
+###livereContainer
+###livereContentsContainer
+||livere.me/comment/
+!
+!----------------------------
+!----- Web Portal Media -----
+!----------------------------
+!
+!---- 네이버 뉴스 ----
+news.naver.com##.cluster_cmt
+news.naver.com##.count_cmt
+news.naver.com###toMainContainer > .is_first._button.u_likeit_list_btn
+news.naver.com##.count_view
+news.naver.com##.ranking_view
+news.naver.com##.good.likeitnews_item_likeit
+news.naver.com##.likeitnews_crush_list
+news.naver.com##.warm.likeitnews_item_likeit
+news.naver.com##.sad.likeitnews_item_likeit
+news.naver.com##.angry.likeitnews_item_likeit
+news.naver.com##.want.likeitnews_item_likeit
+news.naver.com##.sharenews_item_inner > .sharenews_item_info > .sharenews_item_likeit
+news.naver.com##.info_button > .nclicks\(fac\.comment\).num.pi_btn_count
+news.naver.com###main_content > .article_header > .article_info > .sponsor > .article_btns > .article_btns_left > .u_likeit._reactionModule > .off._face.u_likeit_button
+news.naver.com###articleTitleCommentCount
+news.naver.com###spiLayer > .u_likeit._reactionModule
+news.naver.com###toMainContainer > .off._button.u_likeit_list_btn
+news.naver.com###cbox_module
+news.naver.com###wrap > .container > tbody > tr > .content > .office_content > .bnr_btns.r_hotissue > .hissue_tit > .group_tit > ul > .selected > .nclicks\(hot\.glist\) > .gt_cmt_num.ic
+m.news.naver.com##a[href^="/rankingRead.nhn"] > .commonlist_tx > .commonlist_tx_visit
+m.news.naver.com##a[href^="/memoRankingRead.nhn"] > .commonlist_tx > .commonlist_tx_reply
+m.news.naver.com##.r_news_normal > li > ._template.r_cmt.r_ico_b
+m.news.naver.com##._template.cmt.ico_cmt
+m.news.naver.com###ct > .ranking_news > .commonlist > li > a[href^="rankingRead.nhn"] > .commonlist_tx > .commonlist_tx_visit
+m.news.naver.com###ct > .likeitnews > .likeitnews_list > .likeitnews_item_first > ._likeitnews_scroll.likeitnews_crush
+m.news.naver.com###commentFontGroup > .media_end_head_info_variety_likeit > .u_likeit._reactionModule > .off._face.u_likeit_button
+m.news.naver.com###comment_count
+m.news.naver.com###contents > .ends_btn
+!---- 네이버 연예 ----
+entertain.naver.com##.u_likeit._reactionModule > .off._face.u_likeit_button
+entertain.naver.com###cmt_count
+entertain.naver.com###ends_addition > .u_likeit._reactionModule
+entertain.naver.com###toMainContainer > .off._button.u_likeit_list_btn
+entertain.naver.com###content > .end_ct > .end_ct_area > .entertain_cbox
+entertain.naver.com##.sub_info_area > .btn_reply
+entertain.naver.com###ranking_list > li > .tit_area > .reply_count
+entertain.naver.com##.like.likeitnews_item_likeit
+entertain.naver.com##.warm.likeitnews_item_likeit
+entertain.naver.com##.sad.likeitnews_item_likeit
+entertain.naver.com##.angry.likeitnews_item_likeit
+entertain.naver.com##.want.likeitnews_item_likeit
+entertain.naver.com##.btn_reply
+entertain.naver.com##.btn_play_count
+entertain.naver.com###content > .brand_wrp > .right
+m.entertain.naver.com###news_lst > .com_ct_wrp > .thm_on.com_broadcast > .util_wrp > .ct_info > .btn_play
+m.entertain.naver.com###news_lst > .com_ct_wrp > .thm_on.com_broadcast > .util_wrp > .ct_info > .btn_reply
+m.entertain.naver.com##a[href^="/ranking/read"] > .tit_area > .ng-binding.hit
+m.entertain.naver.com##a[href^="/ranking/read"] > .tit_area > .ng-binding.reply
+m.entertain.naver.com##.like.likeitnews_item_likeit
+m.entertain.naver.com##.warm.likeitnews_item_likeit
+m.entertain.naver.com##.sad.likeitnews_item_likeit
+m.entertain.naver.com##.want.likeitnews_item_likeit
+m.entertain.naver.com##.ng-binding.play
+m.entertain.naver.com###contents_end_cmp_wrp > .go_trans.media_end_head > .nv_notrans.media_end_head_info > .media_end_head_info_variety > .media_end_head_info_variety_left > .media_end_head_info_variety_likeit
+m.entertain.naver.com###cmt_count
+m.entertain.naver.com###contents_end_cmp_wrp > .nv_notrans.entertain_cbox
+m.entertain.naver.com###ends_addition > .nv_notrans.tomain > ._reactionModule.u_likeit_list_module > .off._button.u_likeit_list_btn
+m.entertain.naver.com###emotion_box
+m.entertain.naver.com##.tit_area > .hit
+m.entertain.naver.com##a[href^="/ranking/read"] > .tit_area > .reply
+m.entertain.naver.com##.tit_area > .play
+m.entertain.naver.com##.thm_on.com_broadcast > .util_wrp > .ct_info > .btn_play
+m.entertain.naver.com###lnb_wrp > .tv_lnb_lst > .on.tv_lnb_talk.tv_lnb_li
+m.entertain.naver.com###lnb_wrp > .tv_lnb_lst > .tv_lnb_talk.tv_lnb_li
+!---- 네이버 스타캐스트 ----
+m.star.naver.com###comment_count
+m.star.naver.com###ct > .ct_wrp > .ends_btn
+m.star.naver.com##.comment_area
+m.star.naver.com##.vlive_info > .icon_play
+m.star.naver.com##.vlive_info > .icon_reply
+m.star.naver.com##.vlive_info > .icon_like
+m.star.naver.com##.movie_info > dd:nth-of-type(1)
+m.star.naver.com##.movie_info > .tm
+m.star.naver.com###likeNum
+!---- 네이버 스포츠 ----
+sports.news.naver.com##a[href^="/video.nhn"] > .text > .info > .play
+sports.news.naver.com###_newsList > ul > li > .text > .source > .visit
+sports.news.naver.com###_newsList > ul > li > .text > .source > .comment
+sports.news.naver.com###comment_menu_btn
+sports.news.naver.com###likeBtn
+sports.news.naver.com###video_summary > .service > .comment
+sports.news.naver.com###video_summary > .info > .play
+sports.news.naver.com##.text > .info > .play
+m.sports.naver.com##.u_likeit._reactionModule > .off._face.u_likeit_button
+m.sports.naver.com###spt_commentCount
+m.sports.naver.com###content > .content_wrap > .reporter_wrap > .ends_btn
+m.sports.naver.com###content > .content_wrap > .reporter_wrap > .sns_share_wrap > .tomain > ._reactionModule.u_likeit_list_module > .off._button.u_type_tomain.u_likeit_list_btn
+m.sports.naver.com###cbox_module
+m.sports.naver.com##.video_info > .source > .visit
+m.sports.naver.com###ct > .newsct_body > .ends_btn
+m.sports.naver.com###ct > .newsct_body > .sns_share_wrap > .tomain > ._reactionModule.u_likeit_list_module > .off._button.u_type_tomain.u_likeit_list_btn
+m.sports.naver.com###ct > .news_cmt_option2
+m.sports.naver.com##a[href^="/video.nhn"] > .video_headline_ct > .text > .source > .visit
+!
+!---- 다음 뉴스 ----
+v.media.daum.net###mAside > .hc_news_pc_mAside_realtimeSearch.aside_search.aside_g
+media.daum.net##span[class^="ico_news2 ico_cmt"]
+media.daum.net##span[class^="info_ranking"]
+media.daum.net##span[class^="info_thumb"]
+media.daum.net###alex-area > .pc > .alex_single > .\#comment.wrap_alex
+media.daum.net###alexCounter
+media.daum.net###likeButton
+media.daum.net##a[class^="link_cmt #bottom #ranking #bestreply_reply"]
+v.media.daum.net##a[class^="emph_g2 link_cmt #util #widget_comment"]
+v.media.daum.net###mArticle > .foot_view > .cmt_view.cmt_news
+v.media.daum.net###mArticle > .foot_view > .copyright_view > .hc_news_pc_mArticle_empathyButton.btn_empathy
+v.media.daum.net###alexCounter
+v.media.daum.net###empathy_mobile > .uoc-icon.inner_empathy
+v.media.daum.net###alex-area > .pc > .alex_single > .\#comment.wrap_alex
+v.media.daum.net###kakaoContent > .section_main > .box_view.box_g > .hcg_news_mobile_body > .foot_view > .plus_type2.wrap_plus > .info_plus > .wrap_cont > .count_plus
+v.media.daum.net###kakaoContent > .section_main > .box_view.box_g > .hcg_news_mobile_body > .foot_view > .plus_type2.wrap_plus > .info_plus > .wrap_cont > .\#add_friend.\#pf_card.\#body.btn_add
+v.media.daum.net###cSub > .head_view > .info_view > .\#widget_comment.\#util.link_cmt.emph_g2
+m.media.daum.net##span[class^="emph_g2 txt_cmt"]
+m.media.daum.net##span[class^="txt_cmt"]
+!---- 다음 연예 ----
+v.entertain.media.daum.net###cSub > .head_view > .info_view > .txt_empathy.ico_newsview2
+v.entertain.media.daum.net###kakaoContent > .section_main > .box_view.box_g > .hcg_entertain_mobile_body > .foot_view > .plus_type2.wrap_plus > .info_plus > .wrap_cont > .count_plus
+v.entertain.media.daum.net###kakaoContent > .section_main > .box_view.box_g > .hcg_entertain_mobile_body > .foot_view > .plus_type2.wrap_plus > .info_plus > .wrap_cont > .\#add_friend.\#pf_card.\#body.btn_add
+v.entertain.media.daum.net###likeButton
+v.entertain.media.daum.net###alex-area > .pc > .alex_single > .\#comment.wrap_alex
+v.entertain.media.daum.net###alexCounter
+1boon.daum.net###mArticle > .\#c_viewcover.info_view > .inner_view > .\#c_cmt_btn.link_read
+1boon.daum.net###mArticle > .\#c_viewcover.info_view > .inner_view > .rel_view > .rel_detail > .rel_read
+1boon.daum.net###mArticle > .\#c_viewcontents.wrap_section > .cont_section > .section_opencmt.section_view
+media.daum.net###mArticle > .box_musicvod.box_g > .\#vod.list_vod > li > .cont_thumb > .ico_play.ico_enter2
+media.daum.net###cSub > .feature_tab > .tab_feature > li:nth-of-type(2) > .link_tab2.link_tab
+media.daum.net##.\#livetalk_tab.link_tab
+media.daum.net###talkComponents > .box_livetalk
+m.media.daum.net###mAside > .box_cmtnow.box_g
+m.media.daum.net###reply
+m.media.daum.net##span[class*="ico_view ico_cmt"]
+m.media.daum.net###mArticle > .\#tvtalk.box_cmtnow.box_g
+m.media.daum.net###mArticle > .cmt_enter
+m.media.daum.net##.link_tab > .num_count
+m.media.daum.net##a[href*="/fan"]
+m.media.daum.net##a[href*="/talk"]
+!---- 다음카카오 ----
+pf.kakao.com###mArticle > .view_post > .post_cmt
+1boon.kakao.com##span[class^="txt_number"]
+1boon.kakao.com###mArticle > .\#c_viewcontents.wrap_section > .cont_section > .section_opencmt.section_view
+1boon.kakao.com###mArticle > .\#c_viewcover.info_view > .inner_view > .\#c_cmt_btn.link_read
+1boon.kakao.com###mArticle > .\#c_viewcover.info_view > .inner_view > .rel_view > .rel_detail > .rel_read
+tv.kakao.com###mArticle > .view_cont > .cmt_open.info_cont > .inner_info > .cmt_cont
+tv.kakao.com##.btn_recomm
+v.kakao.com###mArticle > .box_view.box_channel > .hcg_talk_channel_head_view.head_view > .util_view > .btn_cmt.btn_util
+v.kakao.com###alex-area > .pc > .alex_single > .\#comment.wrap_alex
+v.kakao.com##.cont_thumb > .info_thumb
+!
+!---- 네이트 뉴스 ----
+news.nate.com###ifr_reple
+||comm.news.nate.com/Comment/ArticleComment/*$subdocument
+news.nate.com###articleupdown
+||comm.news.nate.com/view/updown?aid=*$subdocument
+news.nate.com###header > .secNaviWrap > .newsSecnavi > .news13 > a[href^="http://news.nate.com/comment"]
+news.nate.com###newsContents > .postRankNews > .f_clear.postRankSubjectList > .f_clear.mduSubjectList > dl > dd > span
+news.nate.com###articleViewArea > .f_clear.netiznNews.mduListRank > ul > li > em
+news.nate.com##dd > .comment > em
+||comm.news.nate.com/Etc/ViewADThumb$subdocument
+||nimg.nate.com/ui/uidev/images/common/bg_rankupdown.gif$image
+news.nate.com###interest_bar
+ps.news.nate.com###articleTitleArea > .btn_cmt
+!
+!----------------------------
+!------- Korean Media -------
+!----------------------------
+!
+!---- 한겨레 ----
+hani.co.kr###livereContainer
+hani.co.kr###a-right-scroll-in > .hani-friend > ul > .on.icon-f > .box-area > .inner > .fb_iframe_widget.fb-like
+hani.co.kr###a-left-scroll-in > .article-tools > .tools > .selected.tool-f > .overlay > .icon-area > .count-area
+hani.co.kr###top-fix > .top-fix > .article-head2 > .top-sns > .sns-f > a[href^="http://www.facebook.com/sharer/sharer.php"] > .sns-bubble
+m.hani.co.kr##.base > .article:nth-of-type(1) > .end_stop.height_selected.slide_box.article_slide_box > .slide_mid > .selected.slide_item.slide_article > .article > .body > .type2.headline > .black.with_reply.medium.sns_count > .reply_box
+m.hani.co.kr##.base > .article:nth-of-type(1) > .end_stop.height_selected.slide_box.article_slide_box > .slide_mid > .selected.slide_item.slide_article > .article > .body > .type2.headline > .black.with_reply.medium.sns_count > .sns_box
+m.hani.co.kr##.base > .logout.article0.article.top_menu > .share.box > .mid > .box > .reply.sns
+m.hani.co.kr##.base > .article:nth-of-type(1) > .end_stop.height_selected.slide_box.article_slide_box > .slide_mid > .selected.slide_item.slide_article > .selected.article > .body > .reply_button_box
+m.hani.co.kr##div[class^="sns_count on"]
+m.hani.co.kr##div[class^="sns_count right on"]
+!---- 경향신문 ----
+khan.co.kr###livereContainer
+khan.co.kr###u_0_2 > div
+khan.co.kr###snsGroup > ul > li:nth-of-type(1) > .count
+khan.co.kr###replyBalloon
+biz.khan.co.kr###replyBalloon > a[href="#replyArea"] > .count
+biz.khan.co.kr###snsGroup > ul > li:nth-of-type(1) > .count
+weekly.khan.co.kr###sub_sideRight > .no_line.gray_box:nth-of-type(8) > .social_reply
+sports.khan.co.kr###replyBalloon
+sports.khan.co.kr###content > .article_cont_left > .section_cleft_etc > .group_recommend.group_cont_etc
+sports.khan.co.kr###content > .aside_cont_right > .mgt45.mgb30.wrap_servicelink.group_cont_right > .list_tab > .on.link_facebook > .box_more
+sports.khan.co.kr###content > .article_cont_left > .section_cleft_etc > .ad_sunnyworks_line5.group_cont_etc
+m.khan.co.kr###content > .article_view > .art_header > .function_wrap > .art_share_wrap > .reply_area
+m.khan.co.kr###content > .article_view > .art_header > .function_wrap > .art_share_wrap > .fnc_area > li:nth-of-type(1) > .ico_share_facebook.ico_corp > .facebook_count.count
+m.khan.co.kr###content > .grid_c.wrap_sec_col1_thumb:nth-of-type(3) > .reply_wrap
+m.khan.co.kr###content > .grid_c.wrap_sec_col1_thumb > .reply_wrap
+m.sports.khan.co.kr###_2BEON6B4LLLLFLAYER > .banner_wrap
+m.sports.khan.co.kr###content > .article_view > .reply_wrap
+!---- 한국일보 ----
+hankookilbo.com###wrap > .container > .subCon > .centerCon > .newsStoryDetail > .DetailCon > .reply
+hankookilbo.com###wrap > .container > .subCon > .centerCon > .newsStoryDetail > .DetailCon > .oneSection > .newsStoryTit > .show.buzznow
+hankookilbo.com###wrap > .container > .subCon > .centerCon > .newsStoryDetail > .author > .author_sns > div:nth-of-type(1) > .share-fb > .fb_iframe_widget.fb-like
+hankookilbo.com###container > section:nth-of-type(3) > .replayView
+!---- 프레시안 ----
+||livere.me/comment/pressian$subdocument
+!---- 오마이뉴스 ----
+ohmynews.com###livereContainer
+ohmynews.com###dvOpinion
+ohmynews.com###main_content > .row_box:nth-of-type(1) > .right_con > .g_box:nth-of-type(2) > .like > ul > li > .resns
+ohmynews.com###wrap > .sns_scroll > ul
+ohmynews.com###content_wrap > .content > .newstitlwrap > .detail_area > .detail_acc > .social_bind > .sns_list_ic > .fb-e > .fb_num_a
+ohmynews.com###spFbCount
+ohmynews.com###content_wrap > .content > .newstitlwrap > .atc_group > .f-box > .box-s
+ohmynews.com###content_wrap > .content > .newswrap > .news_body > .atc_btns > .clearfixafter > .lielse > .share > .cssFB_CNT.num
+ohmynews.com###content_wrap > .content > .newswrap > .news_body > .atc_btns > .clearfixafter > li:nth-of-type(2) > .reply
+ohmynews.com###content_wrap > .content > .newswrap > .news_body > .atc_btns > .clearfixafter > li:nth-of-type(1) > .recommend.recm_btn
+star.ohmynews.com###aspnetForm > .atc-wrap > .B-atc > .arc-wrap > .atc-head > .btn-box > .clearfixafter.btns > li:nth-of-type(3)
+star.ohmynews.com###aspnetForm > .atc-wrap > .B-atc > .arc-wrap > .atc-text > .atc_btns > .clearfixafter > li:nth-of-type(1) > .recommend > .num > .non
+star.ohmynews.com###aspnetForm > .atc-wrap > .B-atc > .arc-wrap > .atc-text > .atc_btns > .clearfixafter > li:nth-of-type(2) > .reply
+star.ohmynews.com###spnShareCnt
+star.ohmynews.com###aspnetForm > .follow.header-wrap > .clearfixafter > .btn-box > .btns > li > .cssFB_CNT.count
+star.ohmynews.com###aspnetForm > .follow.header-wrap > .clearfixafter > .btn-box > .btns > li:nth-of-type(1) > .rpy
+star.ohmynews.com###aspnetForm > .follow.header-wrap > .clearfixafter > .btn-box > .btns > li:nth-of-type(1) > .count
+m.ohmynews.com###article > .article_header > .buttons > .button_left > .cssRecm.btn_rec
+m.ohmynews.com###article > .article_header > .buttons > .button_left > .btn_reply
+m.ohmynews.com###ctl00_dvWrap > .clearfx.sticky_bar > .clearfx.state > li > .cssRecm.btn_rec
+m.ohmynews.com###ctl00_dvWrap > .clearfx.sticky_bar > .clearfx.state > li > .btn_reply
+m.ohmynews.com###article > .article_btns > .btn_box > .cssRecm.btn_out > .number
+m.ohmynews.com###article > .article_btns > .btn_box > .btn_reply.btn_out
+m.ohmynews.com###article > .article_btns > .btn_box > .cssSns.btn_out > .number
+!---- 미디어오늘 ----
+mediatoday.co.kr###av_wide_reply > .avwr_2.height_auto > .reply_box
+mediatoday.co.kr###arl_view_content > .arl_view_snsbox.height_auto > .av_fb > .fb_iframe_widget.fb-like
+!---- 민중의소리 ----
+vop.co.kr###content > .reply
+vop.co.kr###bestlike
+vop.co.kr###morerecommend
+vop.co.kr##.view.reply-layer
+vop.co.kr##.header > .header-in > .reply-btn
+!---- 뉴스타파 ----
+newstapa.org##.visible.comments
+newstapa.org##.disqus-comment-count
+!---- 블로터 ----
+||livere.me/comment/bloter$subdocument
+bloter.net###livere-comment__container
+bloter.net##.article--meta__wrapper > .denim-layout--adjust-width.denim-layout--width > .single-top--bar.article--meta__container > .meta-items__container:nth-of-type(3) > .meta-items__wrapper
+!---- ITWORLD KOREA ----
+itworld.co.kr##body > .visible-tablet.visible-desktop:nth-of-type(3) > .detail.body_ > .body_left > .contents_body > .cb.facebook_comment
+!---- 지디넷코리아 ----
+||zdnet.co.kr/img/sub_view_icon_new.gif$image
+zdnet.co.kr###share-facebook
+zdnet.co.kr###wrap > .pb_0.clfx.m_container > .left_cont > .sub_view_container > .mt_20.mb_20:nth-of-type(10) > .s_r_con_area
+!---- 씨넷코리아 ----
+cnet.co.kr##.the_champ_facebook_count.the_champ_square_count
+cnet.co.kr##.the_champ_twitter_count.the_champ_square_count
+cnet.co.kr###the_champ_fb_commenting
+cnet.co.kr##[class*="wpb_text_column wpb_content_element  vc_"]
+cnet.co.kr##.wf-container.wpb_row > .column_container.wpb_column.vc_col-sm-8 > .wpb_wrapper > .wpb_content_element.wpb_text_column > .wpb_wrapper > h3 > strong > span
+!---- 전자신문 ----
+||livere.me/comment/etnews$subdocument
+news.inews24.com###faceCount
+news.inews24.com###twittCount
+news.inews24.com###googleCount
+news.inews24.com###pintCount
+!---- 벤처스퀘어 ----
+venturesquare.net###post-762034 > .cf.post-header > .cf.post-meta > .fb_iframe_widget.fb-like
+venturesquare.net###post-762034 > .cf.post-container > .post-content-right > .description.post-content > .sd-sharing-enabled.sharedaddy > .sd-sharing.sd-social-icon-text.sd-social.sd-block.robots-nocontent > .sd-content > ul > .share-facebook > .share-icon.sd-button.share-facebook > span > .share-count
+!---- 테크니들 ----
+techneedle.com##.share-facebook > .fb_iframe_widget.fb-share-button
+!---- 모비인사이드 ----
+mobiinside.com##.td-pb-padding-side.td-post-content > .dable-content-wrapper > .fb_iframe_widget_fluid.fb_iframe_widget.fb-comments
+!---- 케이벤치 ----
+kbench.com###ajaxcontentarea1
+kbench.com###block-system-main > .content > table:nth-of-type(4) > tbody > tr > td:nth-of-type(1) > .fb_iframe_widget.fb-like
+kbench.com###block-system-main > .content > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1) > .fb_iframe_widget.fb-like
+!---- 디지털타임스  ----
+dt.co.kr###container > .cntWrap > .subSct
+!---- 보안뉴스 ----
+boannews.com###lv-container
+||boannews.com/images/num_like.png$image
+||boannews.com/images/num_bad.png$image
+boannews.com###news_like > ul > li:nth-of-type(3) > .like_count
+boannews.com###news_like > ul > li:nth-of-type(5) > .bad_count
+boannews.com###news_util03
+!---- 서울신문 ----
+seoul.co.kr##.wrap > .middle > .middle_inner > .division_outer:nth-of-type(1) > .divisionLeft.division > .innerDiv:nth-of-type(4) > .v_sns > a[href="javascript:goToLocation('iframeLivere');"] > .v_reply
+seoul.co.kr###iframeLivere
+!---- 노컷뉴스 ----
+nocutnews.co.kr###pnlContainer > .content > .view_tab > .txt:nth-of-type(3) > em
+nocutnews.co.kr###hlReply
+||livere.me/comment/nocut$subdocument
+m.nocutnews.co.kr###pnlSnsView > .sns_b.sns > .reply
+!---- KBS뉴스 ----
+news.kbs.co.kr###content > .c-inner > .det-news.detail-component > .landing-box > .detail-card-share-box:nth-of-type(2) > .detail-card-share-list > .detail-card-msg
+news.kbs.co.kr###content > .c-inner > .det-news.detail-component > .landing-box > .detail-card-share-box:nth-of-type(2) > .detail-card-share-list > .detail-card-like
+news.kbs.co.kr###content > .c-inner > .det-news.detail-component > .landing-box > .type02.detail-card-share-box > .detail-card-share-list > .detail-card-msg
+news.kbs.co.kr###content > .c-inner > .det-news.detail-component > .landing-box > .type02.detail-card-share-box > .detail-card-share-list > .detail-card-like
+news.kbs.co.kr###msg
+!---- SBS뉴스 ----
+news.sbs.co.kr###container > .w_inner > .w_article > .w_article_cont > .w_article_left > .w_article_info > .reply.w_box
+news.sbs.co.kr###container > .w_inner > .w_article > .w_article_cont > .w_article_left > .w_article_info > .heart.w_box
+news.sbs.co.kr###reply
+news.sbs.co.kr###container > .w_inner > .w_article > .w_article_cont > .w_article_left > .w_article_info > .mug.w_box
+news.sbs.co.kr###container > .w_inner > .w_article > .w_article_cont > .w_article_left > .article_cont_area > .main_text > .w_mug_emotion
+news.sbs.co.kr###btnReporterLike > .like > span
+!---- MBC뉴스 ----
+imnews.imbc.com##[id*="btn_cmt_cnt_si16"]
+imnews.imbc.com###news_content_1 > .viewcont > .cont > .foot > .foot_btns > .good
+imnews.imbc.com###news_content_2 > .viewcont > .cont > .foot > .foot_btns > .good
+imnews.imbc.com###news_content_3 > .viewcont > .cont > .foot > .foot_btns > .good
+imnews.imbc.com###news_content_4 > .viewcont > .cont > .foot > .foot_btns > .good
+imnews.imbc.com###news_content_5 > .viewcont > .cont > .foot > .foot_btns > .good
+imnews.imbc.com###news_content_6 > .viewcont > .cont > .foot > .foot_btns > .good
+imnews.imbc.com##div[class^="tablet_show_reply_area"]
+imnews.imbc.com###middle > .wrap > .main_bottom > .mb_left > .mgb_20.article_list_type1 > li > .alt_1_detail > .sns_share_area_3
+imnews.imbc.com###middle > .wrap > .main_bottom > .list_type01 > ul > .movie > .sns_share_area_3
+!---- OBS뉴스 ----
+obsnews.co.kr###article-wrap > .border-box.content > div:nth-of-type(4)
+obsnews.co.kr###article-wrap > .border-box.content > .livere-box
+!---- 시사인 ----
+sisain.co.kr###arl_view_box > .not_print.arl_view_icons > .float_left > .avs_btns > .avs_box:nth-of-type(1)
+sisain.co.kr###kakaostory-follow-button
+||livere.me/comment/sisain$subdocument
+!--- 미디어스 ----
+mediaus.co.kr###article-reply
+mediaus.co.kr###head-info > .sns > li > .reply
+!---- 르몽드 디플로마티크 ----
+ilemonde.com##table > tbody > tr > td > table:nth-of-type(6) > tbody > tr > td:nth-of-type(1) > table:nth-of-type(4)
+!---- 한국경제 ----
+||livere.me/comment/hk_biz$subdocument
+||news.hankyung.com/resource/images/w/2017hk-sprite.png$image
+!---- 한국경제TV ----
+news.wowtv.co.kr###whole-wrap > .wrap > .contain-content > .news-header-section > .box-util-button > .box-util-links > .btn-reply-link
+www.wowtv.co.kr###whole-wrap > .wrap > .contain-content > .news-header-section > .box-util-button > .box-util-links > .btn-reply-link
+wowtv.co.kr###divComment
+wowtv.co.kr###divLikeit
+!---- 머니투데이 ----
+news.mt.co.kr###sns_section2
+news.mt.co.kr###gisa_section > table > tbody > tr > td > .view_text > .mgt15.shagree_area3 > .agree_type
+news.mt.co.kr###tab_sec2
+m.mt.co.kr###article > .mgt15.social_reply > .rp_tab
+!---- OSEN ----
+osen.mt.co.kr###_article > div:nth-of-type(2) > table > tbody > tr > td > .realtime-session
+!---- 매일경제 ----
+mk.co.kr###livereContainer
+mbn.mk.co.kr###reple_write
+mbn.mk.co.kr###right_sns
+news.mk.co.kr###bottom_art > .reple_box:nth-of-type(4) > .reple
+!---- 스포츠서울 ----
+sportsseoul.com###view_subject > .recommendWrap
+!---- 더팩트 ----
+news.tf.co.kr###SUDA_SHARE_BOX
+news.tf.co.kr###posLeft > .readLeft > .mg_b30.goMedia > li:nth-of-type(1) > .red:nth-of-type(2)
+news.tf.co.kr###sudaComment > .tfReply
+news.tf.co.kr###RECOMMEND_CONTAINER
+!---- 스포츠월드 ----
+sportsworldi.com###livereContainer
+sportsworldi.com###wrap > .Contents_Container > .Leftcon_view > .comment_sns
+!---- enews24 ----
+enews24.tving.com###enewsSNS > .x_sns_area.area_int_sns_m > .area_sns > .fb_iframe_widget.fb-like
+!---- 스타뉴스 ----
+star.mt.co.kr###mt_social_reply
+!---- 톱스타뉴스 ----
+topstarnews.net###user-container > .max-width-1200.float-center > .article-view-header > .article-head-info > .info-text > .line-height-6.auto-marbtm-0.no-bullet > li:nth-of-type(3)
+topstarnews.net###article-control-1 > .user-content > .user-snb > .user-snb-wrapper > .reply-wrap
+topstarnews.net###user-container > .max-width-1200.float-center > .user-content > .user-snb > .user-snb-wrapper > .reply-wrap
+topstarnews.net###_popIn_recommend
+!---- 텐아시아 ----
+tenasia.hankyung.com###share_bottom_ad
+tenasia.hankyung.com###lv-container
+!---- 아이즈 ----
+ize.co.kr##.fb_iframe_widget.fb-like
+ize.co.kr###mt_social_reply
+ize.co.kr###aside > .recent_reply
+!---- 맥스무비 ----
+news.maxmovie.com###main > .comments-area
+news.maxmovie.com##.the_champ_square_count
+news.maxmovie.com##.theChampTotalShareCount
+news.maxmovie.com##.theChampTotalShareText
+!---- 슬로우뉴스  ----
+slownews.kr###wpdevar_comment_1 > .fb_iframe_widget_fluid.fb_iframe_widget.fb-comments
+slownews.kr##.social_follow
+slownews.kr##.fb_iframe_widget
+slownews.kr##.meta_comments
+!---- 인디포스트 ----
+indiepost.co.kr###root > div > div > .container.main > .post-view > .post-footer > .post-footer-left > .sns-button-box > div > .fb_iframe_widget.fb-like
+indiepost.co.kr###root > div > div > .container.main > .row.post-grid.post-comments
+!---- 직썰 ----
+ziksir.com##span[class="_5n6h _2pih"]
+ziksir.com##span#u_0_2
+ziksir.com###main-cont > .sub-wrap > .page-cont > .fb_iframe_widget.fb-comments
+ziksir.com###detail-area > .top-con > .brd-none.txt-con-b > .clearfix.social > .fbiframe
+ziksir.com###ziksir_reply
+||facebook.com/plugins/like.php$subdocument
+||facebook.com/plugins/share_button.php$subdocument
+!---- 일간스포츠 ----
+isplus.live.joins.com###article_comment
+!---- YTN ----
+||ytn.co.kr/img/comm/com01.gif$image
+!---- 연합뉴스 ----
+yonhapnews.co.kr###livereContainer
+m.yna.co.kr###livereContainer
+m.yna.co.kr###container > .n-wrap-size3.wrap-size3.wrap-section1 > .wrap-link-box > .link-box
+m.yna.co.kr##.show.hide-appview.top-share-sns > .list-snsV4 > .txt-comment
+m.yna.co.kr###container > .hide-appview.wrap-section2 > .dev_livere.section-bo
+m.yna.co.kr###container > .n-wrap-size3.wrap-size3.wrap-section1 > .n-section-article.wrap-article > .tit-page > .wrap-option > .list-snsV4 > .txt-comment
+!---- 연합뉴스TV ----
+yonhapnewstv.co.kr###actions > .dp-like-post
+!---- 국민일보 ----
+news.kmib.co.kr###livereContainer
+news.kmib.co.kr###livereContentsContainer
+m.kmib.co.kr###livereContainer
+m.kmib.co.kr###livereContentsContainer
+!---- 이데일리 ----
+||livere.me/comment/edaily$subdocument
+edaily.co.kr##.container_wrap > .article_column_sec > .container_box > .arti_left_sec > .id_group_news.web_widget > .fl_containner > a[href="#section01"] > .social_comment
+m.edaily.co.kr##.hidden_area.container_wrap > .grid-nm:nth-of-type(2) > .ly_containner
+!---- 이투데이 ----
+etoday.co.kr###etoday_reply
+etoday.co.kr###block_body > .cont_left_wrap > .cont_left_article_w:nth-of-type(1) > div:nth-of-type(3)
+!---- 조선일보 ----
+news.chosun.com###news_left_aside_id > .news_left_aside_sns > li:nth-of-type(1)
+news.chosun.com###news_left_aside_id > .news_left_aside_sns > li > .count_cmt
+news.chosun.com###news_left_aside_id > .news_left_aside_sns > li:nth-of-type(2)
+news.chosun.com###news_left_aside_id > .news_left_aside_sns > li > .liked.count_like
+news.chosun.com###news_comment_id
+news.chosun.com###csContent > .news_article > .news_left_aside > .left_aside_sns > .cmt
+news.chosun.com##span[id^="FBCNT_"]
+news.chosun.com##li[class^="cmt"]
+news.chosun.com###FBCNT
+news.chosun.com###csh_min_title > .cmt_count
+news.chosun.com###sec_headline > .sec_con > .ent_top > .btn_cmt
+photo.chosun.com###csContent > .news_article > .news_left_aside > .left_aside_sns > .cmt
+photo.chosun.com###csContent > .news_article > .news_left_aside > .left_aside_sns > .fb
+photo.chosun.com###news_comment_id
+health.chosun.com###csContent > .news_article > .news_left_aside > .left_aside_sns > .cmt
+health.chosun.com###FBCNT
+health.chosun.com###news_comment_id
+biz.chosun.com###news_comment_id
+biz.chosun.com###art_tab2
+san.chosun.com###news_comment_id
+monthly.chosun.com###Art_view > .memoViw
+monthly.chosun.com###memoBox
+weekly.chosun.com###voiceBox
+thestory.chosun.com###artContent > .news_left_aside > .left_aside_sns > .cmt
+thestory.chosun.com###FBCNT
+thestory.chosun.com###csh_min_title > .cmt_count
+thestory.chosun.com###news_comment_id
+thestory.chosun.com###news_body_id > .art_report_02.art_report_wrap > .news_sns_recommend > .list_art_bottom_sns > .fb > .count
+thestory.chosun.com##span[id*="FBCNT_"]
+art.chosun.com###BBSCNT
+art.chosun.com###csContent > .news_article > .news_left_aside > .left_aside_sns > .cmt
+art.chosun.com###FBCNT
+art.chosun.com###news_comment_id
+!---- TV조선 ----
+m.tvchosun.com###container > .content > .comment_area
+m.tvchosun.com###container > .content > .video_detail > .dt_cont > .txt_area > .count
+!---- 중앙일보 ----
+news.joins.com###content > .share_article > dl > dd:nth-of-type(1) > .text_total
+news.joins.com###btnLike
+news.joins.com###btnDislike
+news.joins.com###comment
+news.joins.com###changefont > .cmt
+koreadaily.com###comment-box > .comment_area
+ladyjoongang.com###divContent > .comment
+!---- JTBC뉴스 ----
+news.jtbc.joins.com###divComment
+news.jtbc.joins.com###form1 > .article_main > .section_contents.article_modules > .article_footer_v2.article_footer > .sns_wrap > .swiper-container.sns_container > .swiper-wrapper.sns_list > .swiper-slide-active.swiper-slide-visible.swiper-slide > .single_item > .col_txt > .count
+news.jtbc.joins.com###form1 > .article_main > .section_contents.article_modules > .article_footer_v2.article_footer > .sns_wrap > .swiper-container.sns_container > .swiper-wrapper.sns_list > .swiper-slide-active.swiper-slide-visible.swiper-slide-duplicate.swiper-slide > .single_item > .col_txt > .count
+!---- 동아일보 ----
+news.donga.com###replyCnt2
+news.donga.com###contents > .article_view > .article_txt > .recommend
+news.donga.com###contents > .article_view > .reply_box
+news.donga.com###contents > .article_view > .reply_btnwrap
+news.donga.com###subheader > .subheader_box > .news_title > .btn_reply
+sports.donga.com###contents > .article_cont.sub_content > .list_content > .reply_cont
+weekly.donga.com###spinTopLayer > .spinTopLayerWriteBox
+weekly.donga.com###view_top > .info > .reply
+soda.donga.com###content > .facebook_reply
+!---- 동아사이언스 ----
+dongascience.donga.com###value_new
+dongascience.donga.com###opinion
+!---- 파이낸셜뉴스 ----
+fnnews.com###f308e45006613c8
+www.fnnews.com###container > .content > .article_wrap > .article_body > .fb_iframe_widget.fb-comments
+!---- 데일리안 ----
+||livere.me/comment/dailian$subdocument
+!---- 뉴스1 ----
+news1.kr###article_body_content > .title > .viewtab > .view > li:nth-of-type(2) > a[href^="/articles/"]
+m.news1.kr###reply_01
+news1.kr###article_body_content > .title > .viewtab > .view > li:nth-of-type(2) > a[href^="/photos/details/"]
+news1.kr###PhotoDetails > .text_wrap > .btn > .link_detail_netizen.viewBtn
+!---- 뉴시스 ----
+newsis.com###dablewidget_6XgJ60lN
+newsis.com###livereContainer
+!---- 아시아경제 ----
+asiae.co.kr###reply
+cm.asiae.co.kr###livereComm2
+!---- 아이뉴스24 ----
+news.inews24.com###content > div:nth-of-type(16)
+||inews24.cache.iwinv.net/new/btn_comment.png$image
+!---- 세계일보 ----
+segye.com###content > .news_article > .view_middleBox > .view_middleNews > .snsbox2018 > .sns_reply2018
+segye.com###LiveRe-bt
+m.segye.com###replyCount2
+!---- 채널A ----
+ichannela.com###commentLst
+!---- SBS CNBC ----
+sbscnbc.sbs.co.kr###boardModuleWrap > .comment_module_sbscnbc.module_comment_w > .md_commt_write_w
+!---- 시사저널 ----
+sisapress.com##.bodyWrapper > .bodyWrapper > .newsTop > .newscontWrap2.newscontWrap > .newscontSnsA > .a-comment-box
+sisapress.com##.bodyWrapper > .bodyWrapper > .newsTop > .newscontWrap2.newscontWrap > .newscontSnsA > .fb_iframe_widget.fb-like
+sisapress.com###comment-wrap-index
+sisajournal.com###comment-wrap-index
+sisajournal.com##.bodyWrapper > .bodyWrapper > .newsTop > .newscontWrap2.newscontWrap > .newscontSnsA > .a-comment-box
+sisajournal.com##.bodyWrapper > .bodyWrapper > .newsTop > .newscontWrap2.newscontWrap > .newscontSnsA > .fb_iframe_widget.fb-like
+!---- 여성뉴스 ----
+||livere.me/comment/city$subdocument
+!---- 비마이너 ----
+beminor.com###news_reply_iframe
+!--- 더퍼스트미디어 ----
+thefirstmedia.net###user-container > .clearfix > .custom-view-width > .user-content > .user-snb > .user-snb-wrapper > .text-left.article-veiw-reply
+thefirstmedia.net###dablewidget_QXe1EeXe
+thefirstmedia.net###dablewidget_GokpkM7v
+!---- 참세상  ----
+newscham.net###comment_write
+!---- 부산일보 ----
+news20.busan.com###news_write
+!---- 신동아  ----
+shindonga.donga.com###view_top > .info > .reply
+!
+!---------------------------
+!----- Korean Magazine -----
+!---------------------------
+!
+!---- 서울문화사 ----
+smlounge.co.kr##.midContainer > .clearFix.innerContainer > .subContentContainer > .subUtilWrap > .utils > .addLike.like
+smlounge.co.kr##.midContainer > .clearFix.innerContainer > .subContentContainer > .subUtilWrap > .utils > .comment
+smlounge.co.kr##.midContainer > .clearFix.innerContainer > .subContentContainer > .subUtilWrap > .utils > .desktop.divider
+smlounge.co.kr##.midContainer > .clearFix.innerContainer > .subContentContainer > .userComments
+smlounge.co.kr##.midContainer > .clearFix.innerContainer > .subContentContainer > .subUtilWrap > .utils > .divider
+!---- 씨네21 ----
+cine21.com###comment_holder > .comment_area
+||cine21.com/community/comment/$subdocument
+cine21.com###content > .culm2_area > .culm2_l > .info > .sns > .fb_iframe_widget.fb-like
+!---- 엘르코리아 ----
+elle.co.kr###content > .view > .reply
+elle.co.kr###content > .view > .sns
+elle.co.kr###btnCen_tooltip
+!---- W 코리아 ----
+wkorea.com###post-102776 > .post_sns > .fb_iframe_widget.fb-like
+!---- 하퍼스바자 ----
+harpersbazaar.co.kr##.fb_iframe_widget_fluid.fb_iframe_widget.fb-comments
+!---- 아이돌로지 ----
+idology.kr###disqus_thread
+!---- 웨이브 ----
+weiv.co.kr###respond
+weiv.co.kr###cb-full-background-featured > .wrap.clearfix.cb-mask > .cb-style-full-background.cb-entry-header > .cb-title-fi > .cb-byline > .cb-byline-element.cb-post-views
+!
+!------------------------------
+!---- Social Curation News ----
+!------------------------------
+!
+!---- 허프포스트 ----
+huffingtonpost.kr##.master-container > .row.inner-container > .page__content:nth-of-type(4) > .entry__header > .sticky.desktop-only.share-bar--sticky.share-bar > .share-bar__list > .share-bar__item.comments.bN
+huffingtonpost.kr###conversations > .related > h2
+huffingtonpost.kr###conversations > .fb_comments
+huffingtonpost.kr##.master-container > .row.inner-container > .page__content:nth-of-type(4) > .entry__header > .desktop-only.share-bar--sticky.share-bar > .share-bar__social-counts
+huffingtonpost.kr##.master-container > .row.inner-container > .page__content:nth-of-type(4) > .entry__header > .desktop-only.share-bar--sticky.share-bar > .share-bar__list > .share-bar__item.comments.bN
+huffingtonpost.kr###entry-header > .yr-share.desktop-only.share-bar--sticky.share-bar > .share-bar__social-counts > .share-bar__social-counts__number
+huffingtonpost.kr###entry-header > .yr-share.desktop-only.share-bar--sticky.share-bar > .share-bar__list > .share-bar__item.comments.bN
+!---- 위키트리 ----
+wikitree.co.kr###rt_list_div
+wikitree.co.kr##.wrap > .section_view > .mb10.fl.left_v > .news-view-box.mt05.line_r_y.pt03 > .left_v_w > .social-count-group > .social-left > .social-block
+wikitree.co.kr##.wrap > .section_view > .mb10.fl.left_v > .news-view-box.mt05.line_r_y.pt03 > .left_v_w > .sns_cmt_box
+wikitree.co.kr###rt_list_more > .more
+wikitree.co.kr##.wrap > .section_view > .mb10.fl.left_v > .news-view-box.mt05.line_r_y.pt03 > .left_v_w > ul:nth-of-type(1) > .ml50.pt10 > .fb_cor
+wikitree.co.kr##.wrap > .section_view > .mb10.fl.left_v > .news-view-box.mt05.line_r_y.pt03 > .left_v_w > ul:nth-of-type(1) > .ml50.pt10 > .tw_cor
+m.wikitree.co.kr###fb_likes_layer
+m.wikitree.co.kr###newsView > .newsContents > div:nth-of-type(11) > div:nth-of-type(1) > .social-count-group
+m.wikitree.co.kr###newsView > .newsContents > div:nth-of-type(11) > .comment_btn
+m.wikitree.co.kr###newsView > .newsContents > div:nth-of-type(11) > .twitter_btn
+m.wikitree.co.kr###newsView > .newsViewTitles.titleLay > div:nth-of-type(2)
+!---- 인사이트 ----
+insight.co.kr##.content > .content-wrap > .news-container > .news-wrap > .news-article > .news-option > .news-option-share > li:nth-of-type(4) > .item-comment.news-option-share-item > span
+m.insight.co.kr##.item-comment.news-tools-share-item
+m.insight.co.kr##.item-comment.news-share-item
+m.insight.co.kr##.wrap > .open.news-comment
+!---- 피키캐스트 ----
+pikicast.com###top > .cont-posi > .cont-wrap > .left-area > .inarea > .share-area > .like
+pikicast.com###top > .cont-posi > .cont-wrap > .left-area > .inarea > .share-area > .comment
+||pikicast.com/images/contents.png$image
+pikicast.com##.ico-reply
+m.pikicast.com###app-contents-cover > .card-info > .text-area > .control-area > .view-count
+m.pikicast.com###app-contents-cover > .card-info > .text-area > .control-area > .app-contents-card-btn-comments
+m.pikicast.com###app-contents-cover-btn-like
+m.pikicast.com###app-contents-cover > .card-info > .text-area > .control-area > .app-contents-card-btn-share
+||m.pikicast.com/images/3.0/comment_btn.png$image
+m.pikicast.com##.app-contents-card-btn-comments
+m.pikicast.com###card_scroll > .nodata > .reply-cont
+m.pikicast.com###card_comment_layer
+m.pikicast.com###app-contents-comments
+m.pikicast.com###app-contents-container > .swiper-wrapper > .swiper-slide-active.app-contents-comments-wrap.swiper-slide
+!---- ㅍㅍㅅㅅ ----
+ppss.kr###genesis-content > .comments
+!
+!---- 기타 ----
+munhwa.com###livereContentsContainer
+ajunews.com###M_L_680_R001 > .reply-input
+insightkorea.co.kr###user-container > .max-width-1080.float-center > .article-view-header > .article-head-info > .info-text > .line-height-6.auto-marbtm-0.no-bullet > li:nth-of-type(3)
+insightkorea.co.kr###reply
+newstown.co.kr###ND_Warp > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1) > table:nth-of-type(7) > tbody
+newstown.co.kr###ND_Warp > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1) > form > .reply-write-container
+kookje.co.kr###frm_recommendCount
+kookje.co.kr###livereContainer
+kado.net###arl_reply_box > .reply_box
+kado.net###arl_view_box > .not_print.align_center.margin30_0_0
+kado.net###arl_view_box > .not_print.arl_view_icons > .float_left > .avs_btns > .avs_box:nth-of-type(1)
+catholictimes.org###content_detail > .bg01.thin.basic-box.area-reply
+imaeil.com##table > tbody > tr:nth-of-type(2) > td > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > table:nth-of-type(4) > tbody > tr > td > table > tbody > tr:nth-of-type(6)
+kyeongin.com###livereContentsContainer
+newdaily.co.kr###livereContainer
+kookbang.dema.mil.kr###NewsView > .comment
+jjan.kr###user-container > .max-width-1100.float-center > .article-view-header > .article-head-info > .info-text > .line-height-6.auto-marbtm-0.no-bullet > li:nth-of-type(3)
+jjan.kr###reply
+newsnjoy.or.kr###head-info > .info > li:nth-of-type(3)
+newsnjoy.or.kr##table > tbody > tr > td > .socialReply
+newsnjoy.or.kr### .auto-share-btn > .auto-share-num
+newspim.com###wrap > .container > .section_wrap > .pad_top10.bodynews > .fb_iframe_widget_fluid.fb_iframe_widget.fb-comments
+newspim.com###wrap > .container > .section_wrap > .bodynews > .fb_iframe_widget_fluid.fb_iframe_widget.fb-comments
+nongmin.com###_print-content-area > ._not-print-area.share_wrap > .ui_btn_comment.comment
+nongmin.com###_comment-wrap
+nongmin.com###_news-report_wrap > .clfix.report_btm > .vertical.share_wrap > .ui_btn_comment.comment
+yeongnam.com###livereContainer
+realnews.co.kr###wpdevar_comment_2
+christiantoday.co.kr###cmt
+futurekorea.co.kr###user-container > .max-width-1080.float-center > .article-view-header > .article-head-info > .info-text > .line-height-6.auto-marbtm-0.no-bullet > li:nth-of-type(3)
+futurekorea.co.kr###reply
+betanews.net###livereContainer
+betanews.net###livereContentsContainer
+mediawatch.kr###commentPane
+speconomy.com###reply
+kstarfashion.com###head-info > .sns > li:nth-of-type(1) > .reply
+mediasr.co.kr###reply
+ilyo.co.kr###comments
+kyeongin.com###livereContainer
+kukinews.com###container > .layout_container_v2 > .container_v2 > .section_h123_v2 > .section_h12_v2 > .section_12_v2 > .sc_cmt
+businesspost.co.kr###rn_wrap > .rn_container > article > .rn_scontent > form > .reply-write-container
+womaneconomy.kr###head-info > .info > ul > .reply
+womaneconomy.kr###article-reply
+kportalnews.co.kr##.reply-write-container
+ggilbo.com###reply
+bizhankook.com##.wrap > .bodyWrapper > .view.subContens01 > .sub01 > .viewContWrap > .commentWrap
+||bizhankook.com/upload/NPFILE/*$image
+!
+!-----------------------------
+!---- Traffic / Community ----
+!-----------------------------
+!
+ilbe.com
+ottl.com
+todayhumor.co.kr
+womad.life
+cafe.daum.net/womadic
+megalian.com
+tenping.kr
+10p.kr
+linkis.com
+hefty.kr
+story369.com
+humorbot.net
+snsfeed.net
+eposting.co.kr
+principlesofknowledge.kr
+dream-post.com

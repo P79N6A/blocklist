@@ -1,0 +1,36 @@
+! Title: CHEF-KOCH's Twitch Filter List
+! Description: A comprehensive, all-in-one ad-block list for blocking of trackers, pop-up ads, ads, unwanted cookies, fake news, cookie warning messages, unwanted comment sections, crypto-coin mining, YouTube clutter and social network hassles.
+! License: https://github.com/CHEF-KOCH/CKs-FilterList/blob/master/LICENSE
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+! Homepage: https://github.com/CHEF-KOCH/CKs-FilterList
+! Expires: 8 days
+! Version: 0.0.0.02
+! Last updated: 2018-12-02
+! Please report any unblocked content or problems by email or via GitHub issue ticket.
+! Email: CHEF-KOCH@protonmail.com
+! Copyright (C) 2018 by CHEF-KOCH
+
+custos.twitchcdn.net/v1.js$script
+twitch.tv##.js-player-ad-overlay.player-ad-overlay
+twitch.tv##.player-ad-overlay.player-overlay
+twitch.tv##.tw-top-0.tw-right-0.tw-relative.tw-pd-y-1.tw-pd-x-2.tw-left-0.tw-justify-content-center.tw-flex-row.tw-flex.tw-c-text.tw-c-background-accent-alt-2.tw-border-b.tw-align-items-center.gdpr-consent-banner
+twitch.tv##._ig_twitch_buybutton
+twitch.tv##script:inject(twitch-videoad.js)
+||static.twitchcdn.net/config/manifest.json$important
+||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ext-twitch.tv *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitchsvc.net *.twitch.tv *.betterttv.net *.algolianet.com blob: wss:
+||twitch.tv$domain=gamepedia.com
+||twitchcdn.net/v1.js
+||api.twitch.tv/v5/channels/*/extensions
+||client-event-reporter.twitch.tv^
+||polyfill.twitchsvc.net^
+||spade.twitch.tv^
+||outwitch.com^
+||fan.twitch.tv^
+||mp.twitch.tv^
+||countess.twitch.tv^
+player.twitch.tv##.player-overlay
+twitch.tv##.tw-z-above.blue-bar
+@@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
+@@||twitch.tv^$generichide
+@@||www.twitch.tv^$generichide
+ads.twitter.com##.nav:style(position: absolute !important;)

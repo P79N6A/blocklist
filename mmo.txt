@@ -1,0 +1,61 @@
+[Adblock Plus 2.0]
+! Version: 2.0.0
+! Title: Haykam's MMO List
+! Expires: 4 days
+! Homepage: https://github.com/haykam821/Blocklists/
+
+moomoo.io###adCard
+moomoo.io##.menuCard#adCard
+moomoo.io###downloadButtonContainer
+moomoo.io###promoImgHolder
+moomoo.io###youtuberOf
+moomoo.io###followText
+moomoo.io###twitterFollow
+moomoo.io###youtubeFollow
+
+foes.io###downloadButtonContainer
+foes.io###adCard
+foes.io###shareContainer
+
+mope.io###moneyRectangle
+mope.io###moneyRectBottom
+mope.io###appsDiv
+mope.io###moneyRectBottomWrap
+
+diep.io###ad
+
+deeeep.io##.img-ad
+deeeep.io###mobile-links-container
+deeeep.io###cross-promo
+deeeep.io###follow-button
+deeeep.io###ad-container
+deeeep.io###___ytsubscribe_0
+
+zombs.io##.hud-intro-youtuber
+zombs.io##.ad-unit
+
+slither.io###twth
+slither.io###fbh
+slither.io###social
+
+agar.io###advertisement
+agar.io###mcbanners-container
+
+stabby.io###crosspromodiv
+
+wings.io###mpu-top
+wings.io##.form-group > center:nth-of-type(1) > .text-muted
+wings.io##hr:nth-of-type(2)
+wings.io###twitter-widget-0
+||wings.io/images/powerline_banner.png$image
+||wings.io/images/playfriendstext.png$image
+||wings.io/images/playfriendsarrow.png$image
+
+astroe.io###shareButtons
+astroe.io###adPanel
+
+pockey.io###promo
+
+teamball.io###astrix
+teamball.io###logincontainer > div
+

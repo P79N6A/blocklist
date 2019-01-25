@@ -1,0 +1,8 @@
+#####################################################################
+# TeslaCrypt Ransomware Payment Sites IP blocklist (TC_PS_IPBL)     #
+# Generated on 2019-01-25 08:40:02 UTC                              #
+#                                                                   #
+# For questions please refer to:                                    #
+# https://ransomwaretracker.abuse.ch/blocklist/                     #
+#####################################################################
+# 0 entries

@@ -1,0 +1,10 @@
+#####################################################################
+# TorrentLocker Ransomware Payment Sites IP blocklist (TL_PS_IPBL)  #
+# Generated on 2019-01-25 08:35:02 UTC                              #
+#                                                                   #
+# For questions please refer to:                                    #
+# https://ransomwaretracker.abuse.ch/blocklist/                     #
+#####################################################################
+103.224.182.250
+176.9.172.166
+# 2 entries
